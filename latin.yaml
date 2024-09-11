@@ -90,7 +90,7 @@ vocabulary:
   - term: aliter
     definition: otherwise, differently
   - term: alius -a -ud
-    definition: other, another; ālias: at another time
+    definition: "other, another; ālias: at another time"
   - term: alō alere aluī alitum
     definition: nourish
   - term: alter altera alterum
@@ -106,13 +106,13 @@ vocabulary:
   - term: amnis -is m.
     definition: river, torrent
   - term: amō -āre
-    definition: to love; amāns -ntis m./f.: lover
+    definition: "to love; amāns -ntis m./f.: lover"
   - term: amor -ōris m.
     definition: love
   - term: amplus -a -um
     definition: large, spacious
   - term: an
-    definition: or (in questions); utrum ... an: whether ... or
+    definition: "or (in questions); utrum ... an: whether ... or"
   - term: anima -ae f.
     definition: breath, spirit
   - term: animal -ālis n.
@@ -462,7 +462,7 @@ vocabulary:
   - term: deus -ī m.; dea -ae f.
     definition: god; goddess
   - term: dexter -tra -trum
-    definition: right; dextera -ae f.: right hand
+    definition: "right; dextera -ae f.: right hand"
   - term: dīcō dīcere dīxī dictum
     definition: say; causam dīcere, plead a case; diem dīcere, appoint a day
   - term: diēs diēī m./f.
@@ -644,7 +644,7 @@ vocabulary:
   - term: ferrum -ī n.
     definition: iron, iron weapon or implement
   - term: ferus -a -um
-    definition: wild, fierce; fera -ae f.: wild animal
+    definition: "wild, fierce; fera -ae f.: wild animal"
   - term: fessus -a -um
     definition: weary, tired
   - term: fidēlis -e
@@ -750,7 +750,7 @@ vocabulary:
   - term: hic haec hoc
     definition: this, these
   - term: hīc
-    definition: here; hinc: from here
+    definition: "here; hinc: from here"
   - term: hiems hiemis f.
     definition: winter
   - term: hodiē
@@ -774,7 +774,7 @@ vocabulary:
   - term: hūmānus -a -um
     definition: human
   - term: humus -ī f.
-    definition: ground; humī: on the ground
+    definition: "ground; humī: on the ground"
   - term: iaceō iacēre iacuī
     definition: lie
   - term: iaciō iacere iēcī iactum
@@ -824,34 +824,34 @@ vocabulary:
   - term: indicō -āre
     definition: point out, show, make known
   - term: īnferō īnferre intulī illātum
-    definition: bring upon, against; bellum īnferre: make war on
+    definition: "bring upon, against; bellum īnferre: make war on"
   - term: īnferus -a -um
-    definition: low; īnferior: lower; īnfimus or īmus: lowest
+    definition: "low; īnferior: lower; īnfimus or īmus: lowest"
   - term: ingenium -ī n.
     definition: disposition, ability, talent
   - term: ingēns ingentis
     definition: huge, enormous
-  - term: ingrātus -a -um:
+  - term: "ingrātus -a -um:"
     definition: unpleasant, disagreeable
-  - term: ingredior -gredī -gressus sum:
+  - term: "ingredior -gredī -gressus sum:"
     definition: step in, enter
-  - term: inimīcus -a -um:
+  - term: "inimīcus -a -um:"
     definition: unfriendly; (as subst.) enemy
-  - term: initium -ī n.:
+  - term: "initium -ī n.:"
     definition: beginning
-  - term: iniūria -ae f.:
+  - term: "iniūria -ae f.:"
     definition: injustice, wrong, affront
-  - term: inquam, inquis, inquit, inquiunt:
+  - term: "inquam, inquis, inquit, inquiunt:"
     definition: say (used with direct speech)
-  - term: īnstituō -stituere -stituī -stitūtum:
+  - term: "īnstituō -stituere -stituī -stitūtum:"
     definition: undertake; equip
-  - term: īnsula -ae f.:
+  - term: "īnsula -ae f.:"
     definition: island
-  - term: integer -gra -grum:
+  - term: "integer -gra -grum:"
     definition: untouched, fresh, complete, whole
-  - term: intellegō -legere -lēxī -lēctum:
+  - term: "intellegō -legere -lēxī -lēctum:"
     definition: understand
-  - term: intendō -tendere -tendī -tentum:
+  - term: "intendō -tendere -tendī -tentum:"
     definition: stretch out, strain
   - term: inter
     definition: between, among; during (+ acc.)
@@ -876,11 +876,11 @@ vocabulary:
   - term: īra irae f.
     definition: wrath, anger
   - term: īrāscor īrāscī īrātus sum
-    definition: grow angry; īrātus -a -um: angry
+    definition: "grow angry; īrātus -a -um: angry"
   - term: is ea id
     definition: he, she, it
   - term: iste ista istud
-    definition: that, that of yours; adv. istīc or istūc: over there; istinc: from over there
+    definition: "that, that of yours; adv. istīc or istūc: over there; istinc: from over there"
   - term: ita
     definition: thus, so
   - term: itaque
@@ -948,7 +948,7 @@ vocabulary:
   - term: liber librī m.
     definition: book
   - term: līber lībera līberum
-    definition: free; līberī (m. pl.): freeborn children
+    definition: "free; līberī (m. pl.): freeborn children"
   - term: lībertās -ātis f.
     definition: freedom
   - term: libet libēre libuit or libitum est
@@ -1044,7 +1044,7 @@ vocabulary:
   - term: mittō mittere mīsī missum
     definition: send, let go
   - term: modo
-    definition: just, just now; modo ... modo: now ... now, at one moment ... at another, sometimes ... sometimes
+    definition: "just, just now; modo ... modo: now ... now, at one moment ... at another, sometimes ... sometimes"
   - term: modus -ī m.
     definition: measure, manner, kind
   - term: moenia -ium n. pl.
@@ -1214,7 +1214,7 @@ vocabulary:
   - term: ōrātiō -ōnis f.
     definition: speech, address
   - term: orbis -is m.
-    definition: circle; orbis terrārum: world
+    definition: "circle; orbis terrārum: world"
   - term: ōrdō -īnis m.
     definition: order, rank
   - term: orior orīrī ortus sum
@@ -1374,7 +1374,7 @@ vocabulary:
   - term: premō premere pressī pressum
     definition: press, pursue, overwhelm
   - term: pretium -ī n.
-    definition: price, worth, reward; pretium operae: a reward for trouble
+    definition: "price, worth, reward; pretium operae: a reward for trouble"
   - term: prex precis f.
     definition: prayers, entreaties
   - term: prīmum
@@ -1454,7 +1454,7 @@ vocabulary:
   - term: quamvīs
     definition: however you like; although
   - term: quandō
-    definition: when?; since; sī quandō: if ever
+    definition: "when?; since; sī quandō: if ever"
   - term: quantum
     definition: (adv.) how much? how greatly? how much! how greatly! as much as
   - term: quantus -a -um
@@ -1646,11 +1646,11 @@ vocabulary:
   - term: servus -ī m.
     definition: slave
   - term: seu
-    definition: whether; seu ... seu: whether ... or → sīve
+    definition: "whether; seu ... seu: whether ... or → sīve"
   - term: sī
     definition: if
   - term: sīc
-    definition: in this manner, thus; sīc ... ut: in the same way as
+    definition: "in this manner, thus; sīc ... ut: in the same way as"
   - term: sīcut
     definition: just as
   - term: sīdus -eris n.
@@ -1672,9 +1672,9 @@ vocabulary:
   - term: sinus -ūs m.
     definition: fold of a garment; lap, bay, gulf
   - term: sīve
-    definition: whether; sīve ... sīve: whether ... or → seu
+    definition: "whether; sīve ... sīve: whether ... or → seu"
   - term: socius -a -um
-    definition: friendly, allied; socius -ī m.: partner, comrade
+    definition: "friendly, allied; socius -ī m.: partner, comrade"
   - term: sōl sōlis m.
     definition: sun
   - term: soleō -ēre -uī -itum
@@ -1852,7 +1852,7 @@ vocabulary:
   - term: vagus -a -um
     definition: wandering, shifting
   - term: valeō valēre valuī
-    definition: be strong, excel, be valid, prevail; valē: farewell!
+    definition: "be strong, excel, be valid, prevail; valē: farewell!"
   - term: validus -a -um
     definition: strong
   - term: vanus -a -um
@@ -1866,9 +1866,9 @@ vocabulary:
   - term: ve
     definition: or (postpositive enclitic)
   - term: vehō vehere vēxī vectum
-    definition: carry; vehor vehī vectus sum: travel, ride
+    definition: "carry; vehor vehī vectus sum: travel, ride"
   - term: vel
-    definition: or else, or; even; vel ... vel: either … or
+    definition: "or else, or; even; vel ... vel: either … or"
   - term: velut
     definition: even as, just as
   - term: veniō venīre vēnī ventum
@@ -1982,7 +1982,7 @@ vocabulary:
   - term: ūtor ūtī ūsus sum
     definition: use, consume, employ (+ abl.)
   - term: utrum
-    definition: whether; utrum ... an: whether ... or
+    definition: "whether; utrum ... an: whether ... or"
   - term: vulgō
     definition: commonly
   - term: vulgus -ī n. and m.
