@@ -5,7 +5,7 @@ Wilhelm Vocabulary
 ![GitHub workflow status badge][GitHub workflow status]
 [![Apache License Badge]](https://www.apache.org/licenses/LICENSE-2.0)
 
-The data that serves [wilhelmlang.com](https://wilhelmlang.com/). The data is written in YAML format, because
+The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are written in YAML format, because
 
 1. it is machine-readable so that it can be consumed quickly in data pipelines
 2. it is human-readable and, thus, easy to modify
@@ -26,15 +26,27 @@ vocabulary:
 
 ### Korean
 
-TBA
+```yaml
+vocabulary:
+  - term: string
+    definition: list
+```
 
 ### Ancient Greek
 
-TBA
+```yaml
+vocabulary:
+  - term: string
+    definition: list
+```
 
 ### Latin
 
-TBA
+```yaml
+vocabulary:
+  - term: string
+    definition: list
+```
 
 License
 -------
