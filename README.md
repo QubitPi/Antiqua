@@ -45,4 +45,4 @@ The use and distribution terms for [wilhelm-vocabulary]() are covered by the [Ap
 [Apache License, Version 2.0]: http://www.apache.org/licenses/LICENSE-2.0.html
 
 [GitHub last commit]: https://img.shields.io/github/last-commit/QubitPi/wilhelm-vocabulary/master?logo=github&style=for-the-badge
-[GitHub workflow status]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yml?branch=master&logo=github&style=for-the-badge
+[GitHub workflow status]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&logo=github&style=for-the-badge

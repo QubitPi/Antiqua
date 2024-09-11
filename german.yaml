@@ -716,9 +716,6 @@ vocabulary:
     definition:
       - possibly
       - of course
-
-
-
   - term: die Erfahrung
     definition: experience
   - term: der Verletzter
@@ -804,9 +801,6 @@ vocabulary:
     definition: leave here
   - term: Schon gut.
     definition: It's okay
-
-
-
   - term: der Volksgenosse
     definition: countryman
     declension: https://www.verbformen.com/?w=Volksgenosse
@@ -897,9 +891,6 @@ vocabulary:
     declension: https://en.wiktionary.org/wiki/Ergebnis#Declension
   - term: führt zu keinem Ergebnis
     definition: leads to no result
-
-
-
   - term: rein
     definition: pure
   - term: die Vernunft
