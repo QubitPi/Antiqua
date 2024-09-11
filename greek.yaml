@@ -1,0 +1,1065 @@
+vocabulary:
+  - term: ὁ ἡ τό
+    definition: the
+  - term: αὐτός αὐτή αὐτό
+    definition: him- her- itself etc. (for emphasis); the same (with article); (pron.) him, her, it etc. (in oblique cases)
+  - term: καί
+    definition: and, also, even; καί...καί both...and
+  - term: δέ
+    definition: and; but
+  - term: τίς τί
+    definition: who? what? which? (interrog. pron./adj.)
+  - term: εἰμί, ἔσομαι, impf. ἦν, infin. εἶναι
+    definition: be, exist
+  - term: οὗτος αὕτη τοῦτο
+    definition: this, these; μετὰ ταῦτα after this
+  - term: ἤ
+    definition: or; than (after a comparative); ἤ...ἤ either...or
+  - term: ἐν
+    definition: in, among (+dat.)
+  - term: μέν...δέ
+    definition: on the one hand...on the other hand (often untranslated); μέν (by itself) indeed
+  - term: τις τι
+    definition: someone, something, anyone, anything, some, any (enclitic indef. pron./adj.)
+  - term: ὅς ἥ ὅ
+    definition: who, which, that
+  - term: γάρ
+    definition: for (explanatory), indeed, in fact (confirming)
+  - term: οὐ, οὐκ, οὐχ
+    definition: not (with indicative verbs)
+  - term: λέγω, ἐρῶ, εἶπον, εἴρηκα, λέλεγμαι, ἐλέχθην and ἐρρήθην
+    definition: say, speak (of), recount; pick up, collect, count
+  - term: ὡς
+    definition: as, since; (introducing purpose clause) so that (+subj./opt.); (introducing indir. statement) that
+  - term: τε
+    definition: and; τε…τε both…and
+  - term: εἰς
+    definition: into, to, towards (+acc.)
+  - term: ἐπί
+    definition: at (+gen.); on (+dat.); on to, against (+acc.)
+  - term: κατά
+    definition: down, down (from or along), throughout, according to; κατὰ γῆν by land; κατὰ φύσιν in accordance with nature; κατ’ ἔθνη by nations; καθ᾿ἕνα one by one.
+  - term: ἐγώ ἐμοῦ, (pl.) ἡμεῖς, ἡμῶν
+    definition: I, we
+  - term: πρός
+    definition: from the side of, in the presence of (+gen.); near, at, in addition to (+dat.); to, towards, in relation to (+acc.)
+  - term: γίγνομαι, γενήσομαι, 2 aor. ἐγενόμην, γέγονα, γεγένημαι, ἐγενήθην
+    definition: become; be born; happen, be
+  - term: ἐάν (εἰ-ἄν)
+    definition: if (+subj.)
+  - term: διά
+    definition: through, during, because of (+gen., acc.)
+  - term: ἀλλά
+    definition: but
+  - term: πᾶς πᾶσα πᾶν
+    definition: every, all; whole (with article)
+  - term: ἔχω, ἕξω or σχήσω, 2 aor. ἔσχον, ἔσχηκα, impf. εἶχον
+    definition: have, hold, keep
+  - term: ἐκ, ἐξ
+    definition: from, out of (+gen.)
+  - term: πολύς πολλή πολύ
+    definition: much, many; ὡς ἐπὶ τὸ πολύ for the most part
+  - term: περί
+    definition: around, about; concerning (+gen.)
+  - term: μή
+    definition: not (marks the negative as subjective or conditional); εἰ μή if not, except
+  - term: ὅστις ἥτις ὅ τι
+    definition: anyone who, anything which; (in indir. quest.) who, which, what
+  - term: ἄν
+    definition: [marks verbs as potential (with optative), or generalizing (with subjunctive)]
+  - term: σύ, σοῦ, (pl.) ὑμεῖς, ὑμῶν
+    definition: you
+  - term: ἀνά
+    definition: up, on; throughout
+  - term: ὅτι
+    definition: because, that; (with superl.) as...as possible
+  - term: εἰ
+    definition: if (+indic. or opt.); εἴπερ if indeed
+  - term: ἄλλος ἄλλη ἄλλο
+    definition: other, another
+  - term: ἀπό
+    definition: from (+gen.)
+  - term: φημί, φήσω, impf. ἔφην
+    definition: say, assert, declare; οὐ φημί deny, refuse, say that...not
+  - term: ὑπό
+    definition: under (+gen., dat.); by (+gen. of personal agent); down under (+acc.)
+  - term: ποιέω, ποιήσω, ἐποίησα, πεποίηκα, πεποίημαι, ἐποιήθην
+    definition: make, produce, cause, do; (mid.) consider, reckon
+  - term: οὖν
+    definition: therefore, accordingly; at any rate
+  - term: λόγος λόγου, ὁ
+    definition: word, speech, discourse; thought, reason, account
+  - term: παρά
+    definition: from (+gen.); beside (+dat.); to, to the side of, contrary to (+acc.)
+  - term: οὕτως
+    definition: in this way
+  - term: πρότερος προτέρα πρότερον
+    definition: before, earlier; τὸ πρότερον previously, before
+  - term: πρότερος προτέρα πρότερον
+    definition: before, earlier; τὸ πρότερον previously, before
+  - term: θεός θεοῦ, ὁ/ἡ
+    definition: god, goddess
+  - term: μετά
+    definition: with (+gen.); after (+acc.)
+  - term: ἑαυτοῦ ἑαυτῆς ἑαυτοῦ
+    definition: him- her- itself (reflexive pron.)
+  - term: μέγας μεγάλη μέγα
+    definition: big, great, powerful
+  - term: οὐδέ
+    definition: and not, but not, nor; οὐδέ...οὐδέ not even...nor yet
+  - term: ἐκεῖνος ἐκείνη ἐκεῖνο
+    definition: that person or thing; ἐκεῖνος…οὗτος the former…the latter
+  - term: τοιοῦτος τοιαύτη τοιοῦτο
+    definition: such, of such a sort
+  - term: οὐδείς οὐδεμία οὐδέν
+    definition: no one, nothing
+  - term: εἶπον
+    definition: I said, I spoke, 2 aor. → λέγω, φημί
+  - term: ἀγαθός –ή –όν
+    definition: good, virtuous, brave, noble
+  - term: γε
+    definition: (enclitic) indeed; at least, at any rate
+  - term: δή
+    definition: surely, really, now, in fact, indeed (gives greater exactness)
+  - term: πόλις πόλεως, ἡ
+    definition: city, city-state
+  - term: εἷς μία ἕν
+    definition: one
+  - term: ἵημι, ἥσω, ἧκα, -εἷκα, εἷμαι, -εἵθην
+    definition: put in motion, let go, shoot; (mid.) hasten, rush
+  - term: δέω, δεήσω, ἐδέησα, δεδέηκα, δεδέημαι, ἐδεήθην
+    definition: lack, miss, stand in need of (+gen.)
+  - term: ἄνθρωπος –ου, ὁ/ἡ
+    definition: human being
+  - term: ὁράω, ὄψομαι, 2 aor. εἶδον, ἑόρακα and ἑώρακα, ὤφθην, impf. ἑώρων
+    definition: see, look (to)
+  - term: μόνος μόνη μόνον
+    definition: alone, single
+  - term: οὔτε...οὔτε
+    definition: neither...nor
+  - term: οἷος οἵα οἷον
+    definition: such as, of what sort, like, (exclam.) what a!, how! ; οἷός τε (+infin.) fit or able to; οἷόν τε (+infin.) it is possible to
+  - term: λαμβάνω, λήψομαι, ἔλαβον, εἴληφα, εἴλημμαι, ἐλήφθην
+    definition: take, grasp, seize; receive, get
+  - term: δοκέω, δόξω, ἔδοξα
+    definition: think, suppose, imagine (+acc. and infin.); seem, seem good; (impers.) δοκεῖ μοι it seems to me
+  - term: ἕτερος ἑτέρα ἕτερον
+    definition: the other (of two); other, another
+  - term: κακός –ή –όν
+    definition: bad, wicked, cowardly
+  - term: ἀνήρ ἀνδρός, ὁ
+    definition: man, husband
+  - term: ἐπεί
+    definition: after, since, when
+  - term: ὅσος ὅση ὅσον
+    definition: however much; as great as; (in pl.) as many as; ὅσον (adv.) as much as
+  - term: καλέω, καλῶ, ἐκάλεσα, κέκληκα, κέκλημαι, ἐκλήθην
+    definition: call, summon
+  - term: σῶμα σώματος, τό
+    definition: body
+  - term: δεῖ, δεήσει, impf. ἔδει
+    definition: it is necessary, one must, one ought (+acc. and infin.)
+  - term: ὥσπερ
+    definition: just as, as if
+  - term: δίδωμι, δώσω, ἔδωκα, δέδωκα, δέδομαι, ἐδόθην
+    definition: give, grant, offer
+  - term: δίδωμι, δώσω, ἔδωκα, δέδωκα, δέδομαι, ἐδόθην
+    definition: give, grant, offer
+  - term: ἔτι
+    definition: still, yet
+  - term: φύσις φύσεως, ἡ
+    definition: nature; (of the mind) one’s nature or disposition; regular order of nature
+  - term: μικρός –ά –όν
+    definition: small, little, short
+  - term: δύναμαι, δυνήσομαι, ἐδυνήθην, δεδύνημαι
+    definition: (+infin.) to be able (to), be strong enough (to)
+  - term: ὥστε
+    definition: (introducing natural or actual result clause) so as, so that, (with the result) that
+  - term: ἀρχή ἀρχῆς, ἡ
+    definition: beginning, origin; rule, empire, realm; magistracy
+  - term: ἕκαστος ἑκάστη ἕκαστον
+    definition: each (of several)
+  - term: ἡμέρα ἡμέρας, ἡ
+    definition: day
+  - term: φύω, φύσω, ἔφυσα
+    definition: bring forth, produce, beget; 2 aor. ἔφυν grew, pf. πέφυκα be by nature
+  - term: ἅπας ἅπασα ἅπαν
+    definition: all together
+  - term: ὅμοιος ὁμοία ὅμοιον
+    definition: like, resembling (+dat.)
+  - term: νῦν, νυνί
+    definition: now
+  - term: γῆ γῆς, ἡ
+    definition: earth
+  - term: δύναμις δυνάμεως, ἡ
+    definition: power, strength, ability
+  - term: καλός –ή –όν
+    definition: beautiful, noble, honorable
+  - term: κύριος κυρίου, ὁ
+    definition: lord, master
+  - term: μᾶλλον
+    definition: more, rather; μᾶλλον...ἤ rather than
+  - term: ὅδε ἥδε τόδε
+    definition: this
+  - term: ὅλος ὅλη ὅλον
+    definition: whole, entire, complete
+  - term: μέρος μέρους, τό
+    definition: part, share
+  - term: ἄρα
+    definition: therefore, then (drawing an inference)
+  - term: ἐμός ἐμή ἐμόν
+    definition: my, mine
+  - term: χράομαι, χρήσομαι, ἐχρησάμην, κέχρημαι, ἐχρήσθην
+    definition: use, experience, suffer (+dat.); treat someone in a certain way (+dat. and adv.)
+  - term: δύο
+    definition: two
+  - term: χρόνος χρόνου, ὁ
+    definition: time
+  - term: ἴσος ἴση ἴσον
+    definition: equal, the same as (+dat.)
+  - term: ὅταν (ὅτε-ἄν)
+    definition: whenever (+subj.)
+  - term: μόνον
+    definition: only
+  - term: οἶδα, infin. εἰδέναι, imper. ἴσθι, plupf. used as impf. ᾔδειν
+    definition: to know (pf. in pres. sense); to know how to (+infin.)
+  - term: βασιλεύς βασιλέως, ὁ
+    definition: king
+  - term: ὦ
+    definition: oh! (unemphatic when with the vocative)
+  - term: βούλομαι, βουλήσομαι, βεβούλημαι, ἐβουλήθην
+    definition: (+infin.) will, wish (to); be willing (to); ὁ βουλόμενος anyone who likes
+  - term: φαίνω, φανῶ, ἔφηνα, πέφηνα, πέφασμαι, ἐφάνην
+    definition: bring to light, make appear, make clear; (pass.) come to light, be seen, appear, appear to be (+ptc. or infin.)
+  - term: γράφω, γράψω, ἔγραψα, γέγραφα, γέγραμμαι, ἐγράφην
+    definition: write
+  - term: φέρω, οἴσω, 1 aor. ἤνεγκα, 2 aor. ἤνεγκον, ἐνήνοχα, ἐνήνεγμαι, ἠνέχθην
+    definition: carry, bring, fetch; carry off or away; φέρε come now, well
+  - term: ψυχή ψυχῆς, ἡ
+    definition: breath, life, soul
+  - term: μηδείς μηδεμία μηδέν
+    definition: no one, nothing
+  - term: αἴτιος αἰτία αἴτιον
+    definition: responsible, guilty
+  - term: πάλιν
+    definition: back, backwards; again
+  - term: μάλιστα
+    definition: most, most of all; (in replies) certainly
+  - term: ὑπάρχω, ὑπάρξω, ὑπῆρξα, ὑπῆργμαι, ὑπήρχθην
+    definition: exist, be, belong to; τὰ ὑπάρχοντα existing circumstances
+  - term: ἄρχω, ἄρξω, ἦρξα, ἦργμαι, ἤρχθην
+    definition: begin (+gen.); lead, rule, govern (+gen.)
+  - term: γυνή γυναικός, ἡ
+    definition: woman, wife
+  - term: ποτε (enclitic)
+    definition: at some time, ever, in the world
+  - term: ἵνα
+    definition: in order that (conj. +subj. or opt.); where (rel. adv. +indic.)
+  - term: ὄνομα ὀνόματος, τό
+    definition: name; fame
+  - term: ὑπέρ
+    definition: for (+gen), beyond (+acc.)
+  - term: ἤδη
+    definition: already, now (of the immediate past); presently (of the immediate future)
+  - term: πατήρ πατρός, ὁ
+    definition: father
+  - term: ἀκούω, ἀκούσομαι, ἤκουσα, ἀκήκοα, plup. ἠκηκόη or ἀκηκόη, ἠκούσθην
+    definition: listen (to), hear (of)
+  - term: γένος γένους, τό
+    definition: race, family; kind, class
+  - term: τόπος τόπου, ὁ
+    definition: place; topic
+  - term: πράσσω, πράξω, ἔπραξα, πέπραχα, πέπραγμαι, ἐπράχθην
+    definition: do, achieve, accomplish; do or fare in a certain way (+adv.)
+  - term: πράσσω, πράξω, ἔπραξα, πέπραχα, πέπραγμαι, ἐπράχθην
+    definition: do, achieve, accomplish; do or fare in a certain way (+adv.)
+  - term: πρῶτος πρώτη πρῶτον
+    definition: first, foremost, earliest; (adv.) τὸ πρῶτον in the first place
+  - term: εὑρίσκω, εὑρήσω, 2 aor. ηὗρον or εὗρον, ηὕρηκα or εὕρηκα, εὕρημαι, εὑρέθην
+    definition: find (out), discover, devise
+  - term: παῖς παιδός, ὁ/ἡ
+    definition: son, daughter, child; slave
+  - term: ἔρχομαι, fut. εἶμι or ἐλεύσομαι, 2 aor. ἦλθον, ἐλήλυθα
+    definition: come, go
+  - term: υἱός υἱοῦ, ὁ
+    definition: son
+  - term: ὕδωρ ὕδατος, τό
+    definition: water
+  - term: ἴδιος ἰδία ἴδιον
+    definition: one’s own; peculiar, separate, distinct
+  - term: σός σή σόν
+    definition: your, yours (sg.; ὑμέτερος = pl.)
+  - term: γιγνώσκω, γνώσομαι, ἔγνων, ἔγνωκα, ἔγνωσμαι, ἐγνώσθην
+    definition: come to know, learn; judge, think, or determine that (+acc. and infin.)
+  - term: τυγχάνω, τεύξομαι, ἔτυχον, τετύχηκα, τέτυγμαι, ἐτύχθην
+    definition: hit, light upon, meet by chance (+gen.); reach, gain, obtain; happen to be (+ptc.)
+  - term: ἵστημι στήσω will set, ἔστησα set, caused to stand, 2 aor. ἔστην stood, ἕστηκα stand, plup. εἱστήκη stood, ἐστάθην stood
+    definition: make to stand, set
+  - term: ἅμα
+    definition: at the same time; (prep.) together with (+dat.)
+  - term: ἄγω, ἄξω, ἤγαγον, ἦχα, ἦγμαι, ἤχθην
+    definition: lead, carry, bring; pass (time)
+  - term: τρόπος τρόπου, ὁ
+    definition: way, manner, fashion; way of life, habit, custom
+  - term: μήτε...μήτε
+    definition: neither...nor
+  - term: μέσος μέση μέσον
+    definition: middle, in the middle, moderate; τὸ μέσον midst
+  - term: ἀλλήλων –οις
+    definition: (oblique cases plural only) one another, each other
+  - term: ἀεί
+    definition: always
+  - term: φίλος φίλη φίλον
+    definition: beloved, dear; friendly
+  - term: συμβαίνω, συμβήσομαι, 2 aor. συνέβην, συμβέβηκα
+    definition: meet, come to an agreement, correspond; happen, occur, come to pass; turn out in a certain way (+adv.), result
+  - term: ἔργον ἔργου, τό
+    definition: work, achievement, exploit
+  - term: πλέω, πλεύσομαι, ἔπλευσα, πέπλευκα, πέπλευσμαι, ἐπλεύσθην
+    definition: sail
+  - term: τότε
+    definition: then, at that time; οἱ τότε the men of that time (opp. οἱ νῦν)
+  - term: μήν
+    definition: [emphasizes preceding particle]
+  - term: χρή, impf. χρῆν or ἐχρῆν, infin. χρῆναι
+    definition: it is necessary, it is fated, one ought (+infin. or +acc. and infin.)
+  - term: δείκνυμι, δείξω, ἔδειξα, δέδειχα, δέδειγμαι, ἐδείχθην
+    definition: show, point out
+  - term: ζῷον ζῴου, τό
+    definition: living being, animal
+  - term: πρᾶγμα πράγματος, τό
+    definition: thing; (pl.) circumstances, affairs, business
+  - term: ἐναντίος ἐναντία ἐναντίον
+    definition: opposite, facing; opposing
+  - term: τίθημι, θήσω, ἔθηκα, τέθηκα, τέθειμαι (but usu. κεῖμαι instead), ἐτέθην
+    definition: to put, place; establish, ordain, institute; put in a certain state
+  - term: εἶδον, 2 aor. of ὁράω, act. infin. ἰδεῖν, mid.infin. ἰδέσθαι
+    definition: I saw
+  - term: χείρ χειρός, ἡ
+    definition: hand
+  - term: μηδέ
+    definition: and not
+  - term: ὀλίγος ὀλίγη ὀλίγον
+    definition: little, small, few
+  - term: νόμος νόμου, ὁ
+    definition: custom, tradition, law
+  - term: κοινός –ή –όν
+    definition: common, shared, mutual
+  - term: οἴομαι or οἶμαι, οἰήσομαι, impf. ᾤμην, aor. ᾠήθην
+    definition: think, suppose, imagine (+acc. and infin.)
+  - term: κινέω, κινήσω, ἐκίνησα, κεκίνηκα, κεκίνημαι, ἐκινήθην
+    definition: set in motion, move, rouse
+  - term: πάσχω, πείσομαι, ἔπαθον, πέπονθα
+    definition: suffer, experience, be affected in a certain way (+adv.)
+  - term: πῶς
+    definition: how?
+  - term: ὅσπερ ἥπερ ὅπερ
+    definition: the very one who, the very thing which
+  - term: τοσοῦτος –αύτη –οῦτο(ν)
+    definition: so large, so much
+  - term: σύν
+    definition: with (+ dat. of accompaniment or means)
+  - term: εἶτα
+    definition: then, next
+  - term: ἀληθής –ές
+    definition: true
+  - term: δίκαιος δικαία δίκαιον
+    definition: right, just
+  - term: μέλλω, μελλήσω, ἐμέλλησα
+    definition: (+infin.) think of doing, intend to, be about to
+  - term: ἐθέλω, ἐθελήσω, ἠθέλησα, ἠθέληκα
+    definition: (+infin.) wish (to); be willing (to)
+  - term: λοιπός –ή –όν
+    definition: rest, remaining, rest-of-the
+  - term: ἀνάγκη ἀνάγκης, ἡ
+    definition: necessity
+  - term: ὅτε
+    definition: when, whenever (+indic. or opt.)
+  - term: δεύτερος –α –ον
+    definition: second
+  - term: πόλεμος πολέμου ὁ
+    definition: war
+  - term: χώρα χώρας, ἡ
+    definition: land; place
+  - term: ζάω, ζήσω, ἔζησα, ἔζηκα
+    definition: live
+  - term: πλῆθος πλήθους, τό
+    definition: mass, throng, crowd; number
+  - term: ἥλιος ἡλίου, ὁ
+    definition: sun
+  - term: αἰτία αἰτίας, ἡ
+    definition: cause, origin; charge, accusation
+  - term: πείθω, πείσω, ἔπεισα, πέποιθα, πέπεισμαι, ἐπείσθην
+    definition: persuade, win over; (mid. and pass.) obey, believe in, trust in (+dat.)
+  - term: πάρειμι
+    definition: be present, be ready or at hand; (impers.) πάρεστί μοι it depends on me, it is in my power; τὰ παρόντα the present circumstances; τὸ παρόν just now
+  - term: πλεῖστος πλείστη πλεῖστον
+    definition: most, greatest, largest (superl. of πολύς)
+  - term: εἶδος εἴδους, τό
+    definition: form, shape, figure; class, kind, sort
+  - term: ὅπως
+    definition: how, as; so that, in order that (+subj. or opt.)
+  - term: τρεῖς τρία
+    definition: three
+  - term: βίος βίου, ὁ
+    definition: life
+  - term: νομίζω, νομιῶ, ἐνόμισα, νενόμικα, νενόμισμαι, ἐνομίσθην
+    definition: think, believe that (+acc. and infin.); hold as a custom, be accustomed to (+infin.)
+  - term: κύκλος κύκλου, ὁ
+    definition: circle, ring, orb, disc, circular motion
+  - term: πάθος πάθους, τό
+    definition: incident, accident, misfortune, experience; passion, emotion; state, condition
+  - term: πρό
+    definition: before, in front of (+gen.)
+  - term: πρό
+    definition: before, in front of (+gen.)
+  - term: μέντοι
+    definition: however; of course
+  - term: ὀνομάζω, ὀνομάσω, ὠνόμασα, ὠνόμακα, ὠνόμασμαι, ὠνομάσθην
+    definition: call by name
+  - term: ὑμέτερος ὑμετέρα ὑμέτερον
+    definition: your, yours (pl.; σός = sg.)
+  - term: ἀρετή ἀρετῆς, ἡ
+    definition: goodness, excellence; virtue; valor, bravery
+  - term: ἔτος ἔτους, τό
+    definition: year
+  - term: ἀντί
+    definition: opposite (+gen.)
+  - term: ναῦς νεώς, ἡ
+    definition: ship
+  - term: τρίτος –η –ον
+    definition: third
+  - term: πνεῦμα πνεύματος, τό
+    definition: wind, breath, spirit
+  - term: ὀρθός –ή –όν
+    definition: upright, straight, true, regular
+  - term: θάλασσα θαλάσσης, ἡ
+    definition: the sea
+  - term: διαφέρω, διοίσω, 1 aor. διήνεγκα, 2 aor. διήνεγκον, διενήνοχα, διενήνεγμαι
+    definition: carry in different ways, spread; differ; (impers.) διαφέρει it makes a difference to (+dat.)
+  - term: μέχρι
+    definition: until (conj.); as far as, up to (prep. +gen.)
+  - term: δόξα δόξης, ἡ
+    definition: opinion, judgment; reputation, honor, glory
+  - term: κεφαλή –ῆς, ἡ
+    definition: head
+  - term: πῦρ πυρός, τό
+    definition: fire
+  - term: ἐλάσσων ἔλασσον
+    definition: smaller, less, fewer (comp. of μικρός)
+  - term: πούς ποδός, ὁ
+    definition: foot
+  - term: ἱερός –ά –όν
+    definition: holy, venerated, divine
+  - term: εὐθύς εὐθεῖα εὐθύ
+    definition: straight, direct; (adv.) immediately
+  - term: εἶμι, infin. ἰέναι, ptc. ἰών, ἰοῦσα, ἰόν
+    definition: I will go (fut. of ἔρχομαι)
+  - term: ταχύς ταχεῖα ταχύ
+    definition: quick, fast; (adv.) τάχα quickly; perhaps
+  - term: ποταμός –οῦ, ὁ
+    definition: river, stream
+  - term: οὐσία οὐσίας, ἡ
+    definition: substance, property; essence
+  - term: ἀριθμός –οῦ, ὁ
+    definition: number
+  - term: ὕστερος ὑστέρα ὕστερον
+    definition: coming after, following (+gen.); next, later; (adv.) ὕστερον afterwards
+  - term: φυλάσσω, φυλάξω, ἐφύλαξα, πεφύλαχα, πεφύλαγμαι, ἐφυλάχθην
+    definition: watch, guard, defend; (mid.) be on one’s guard against (+acc.)
+  - term: καιρός καιροῦ, ὁ
+    definition: the right time
+  - term: οἰκέω, οἰκήσω, ᾤκησα, ᾤκηκα, ᾠκήθην
+    definition: inhabit, occupy
+  - term: ἀμφότερος ἀμφοτέρα ἀμφότερον
+    definition: both
+  - term: σημεῖον σημείου, τό
+    definition: sign, signal, mark
+  - term: παρέχω, παρέξω, παρέσχον, παρέσχηκα, impf. παρεῖχον
+    definition: provide, present, offer; allow, grant
+  - term: ἑκάτερος ἑκατέρα ἑκάτερον
+    definition: each (of two)
+  - term: δηλόω, δηλώσω, ἐδήλωσα, δεδήλωκα, ἐδηλώθην
+    definition: show, declare, explain
+  - term: οἰκεῖος οἰκεία οἰκεῖον
+    definition: domestic, of the house; one’s own; fitting, suitable
+  - term: κελεύω, κελεύσω, ἐκέλευσα, κεκέλευκα, κεκέλευσμαι, ἐκελεύσθην
+    definition: order, bid, command (+acc. and infin.)
+  - term: τέλος τέλους, τό
+    definition: end, fulfillment, achievement
+  - term: ἡγέομαι, ἡγήσομαι, ἡγησάμην, ἥγημαι
+    definition: lead, be the leader; regard, believe, think
+  - term: ἄξιος ἀξία ἄξιον
+    definition: worthy, deserving
+  - term: ἦ
+    definition: truly (emphasizes what follows)
+  - term: δῆλος δήλη δῆλον
+    definition: visible, clear, manifest
+  - term: τοίνυν (τοί-νυν)
+    definition: therefore, accordingly (inferential); further, moreover (transitional)
+  - term: πολέμιος πολεμία πολέμιον
+    definition: hostile; οἱ πολέμιοι the enemy
+  - term: ἔρομαι, ἐρήσομαι, 2 aor. ἠρόμην
+    definition: ask, ask one about (+double acc.)
+  - term: ἀδελφός –οῦ, ὁ
+    definition: brother
+  - term: μέγεθος μεγέθους, τό
+    definition: greatness, size, magnitude
+  - term: εἴτε…εἴτε
+    definition: whether…or
+  - term: κεῖμαι, κείσομαι
+    definition: to lie, be situated, be laid up in store, be set up, be established or ordained (used as pf. pass. of τίθημι)
+  - term: πολλάκις
+    definition: often
+  - term: πίνω, πίομαι, 2 aor. ἔπιον, πέπωκα, -πέπομαι, -επόθην
+    definition: drink
+  - term: χάρις χάριτος, ἡ
+    definition: splendor, honor, glory; favor, goodwill, gratitude, thanks
+  - term: ἔπειτα
+    definition: then, next
+  - term: ζητέω, ζητήσω, ἐζήτησα, ἐζήτηκα
+    definition: seek
+  - term: σχῆμα σχήματος, τό
+    definition: form, figure, appearance, character
+  - term: τροφή τροφῆς, ἡ
+    definition: nourishment, food
+  - term: μανθάνω, μαθήσομαι, ἔμαθον, μεμάθηκα
+    definition: learn, ascertain
+  - term: ἐνταῦθα
+    definition: here, there
+  - term: φεύγω, φεύξομαι, ἔφυγον, πέφευγα
+    definition: flee, run away, avoid, shun
+  - term: ἵππος ἵππου, ὁ
+    definition: horse
+  - term: κόσμος κόσμου, ὁ
+    definition: order; ornament, decoration, adornment; world, universe
+  - term: αἷμα αἵματος, τό
+    definition: blood
+  - term: αἱρέω, αἱρήσω, 2 aor. εἷλον, ᾕρηκα, ᾕρημαι, ᾑρέθην
+    definition: take, grasp, take by force; (mid.) choose
+  - term: προστίθημι, προσθήσω, προσέθηκα, προστέθηκα, προστέθειμαι (but commonly προσκεῖμαι instead), προσετέθην
+    definition: add; (med.) join
+  - term: ἀξιόω, ἀξιώσω, ἠξίωσα, ἠξίωκα, ἠξίωμαι, ἠξιώθην
+    definition: consider worthy; require, demand, ask, claim
+  - term: ἕως
+    definition: until; while, so long as
+  - term: νέος νέα νέον
+    definition: young, new, fresh
+  - term: ἔοικα, ptc. εἰκώς
+    definition: be like, look like (+dat.); seem; befit
+  - term: κἄν (καὶ-ἄν)
+    definition: even if (+subj.)
+  - term: καθίστημι, καταστήσω, κατέστησα, κατέστην, καθέστηκα, plupf. καθειστήκη, κατεστάθην
+    definition: set down, establish; bring into a certain state, render
+  - term: καθίστημι, καταστήσω, κατέστησα, κατέστην, καθέστηκα, plupf. καθειστήκη, κατεστάθην
+    definition: set down, establish; bring into a certain state, render
+  - term: τέχνη τέχνης, ἡ
+    definition: art, skill, craft
+  - term: χρῆμα χρήματος, τό
+    definition: thing, matter; (more commonly in pl.) goods or property, esp. money
+  - term: σῴζω, σώσω, ἔσωσα, σέσωκα, ἐσώθην
+    definition: save
+  - term: πέμπω, πέμψω, ἔπεμψα, πέπομφα, πέπεμμαι, ἐπέμφθην
+    definition: send
+  - term: φωνή φωνῆς, ἡ
+    definition: sound, voice
+  - term: ἕνεκα
+    definition: on account of, for the sake of (+gen.)
+  - term: ἀπόλλυμι, ἀπολῶ, ἀπώλεσα, 2 aor. mid. ἀπωλόμην, pf. ἀπολώλεκα (“I have utterly destroyed”) or ἀπόλωλα (“I am undone”)
+    definition: kill, destroy; (mid.) perish, die
+  - term: θάνατος θανάτου, ὁ
+    definition: death
+  - term: νύξ νυκτός, ἡ
+    definition: night
+  - term: ὁδός ὁδοῦ, ἡ
+    definition: road, way, path
+  - term: ἔθνος ἔθνους, τό
+    definition: nation
+  - term: ἀποδίδωμι, ἀποδώσω, ἀπέδωκα, ἀποδέδωκα, ἀποδέδομαι, ἀπεδόθην
+    definition: give back; render; allow; (mid.) sell
+  - term: νοῦς (νόος), νοῦ (νόου), ὁ
+    definition: mind, perception, sense
+  - term: μένω, μενῶ, ἔμεινα, μεμένηκα
+    definition: stay, remain, endure, await
+  - term: ἀποθνῄσκω, ἀποθανοῦμαι, 2 aor. ἀπέθανον, ἀποτέθνηκα
+    definition: die
+  - term: πάνυ
+    definition: altogether, entirely
+  - term: εὖ
+    definition: well (opp. κακῶς); thoroughly, competently; happily, fortunately
+  - term: κρίνω, κρινῶ, ἔκρινα, κέκρικα, κέκριμαι, ἐκρίθην
+    definition: judge, decide, determine
+  - term: ἀναιρέω, ἀναιρήσω, ἀνεῖλον, ἀνῄρηκα, ἀνῄρημαι, ἀνῃρέθην
+    definition: raise, take up; kill, destroy
+  - term: μακρός –ά –όν
+    definition: long, tall, large, long-lasting
+  - term: ἥκω, ἥξω, pf. ἧκα
+    definition: I have come, I am present
+  - term: ἡδονή –ῆς, ἡ
+    definition: pleasure, enjoyment
+  - term: μήτηρ μητρός, ἡ
+    definition: mother
+  - term: δεινός –ή –όν
+    definition: awesome, terrible; clever, clever at (+infin.)
+  - term: διαφορά –ᾶς, ἡ
+    definition: difference, disagreement
+  - term: κρατέω, κρατήσω, ἐκράτησα, κεκράτηκα, κεκράτημαι, ἐκρατήθην
+    definition: be victorious, conquer, rule, surpass, excel (+gen.)
+  - term: δῆμος δήμου, ὁ
+    definition: the (common) people; country district (opp. πόλις)
+  - term: οὐρανός –οῦ, ὁ
+    definition: sky, heaven
+  - term: ἕπομαι ἕψομαι, 2 aor. ἑσπόμην
+    definition: follow
+  - term: ἥσσων ἧσσον
+    definition: less, weaker (comp. of κακός or μικρός)
+  - term: ἥσσων ἧσσον
+    definition: less, weaker (comp. of κακός or μικρός)
+  - term: ὄρος ὄρους, τό
+    definition: mountain, hill
+  - term: πλήν
+    definition: (prep.) except (+gen.); (conj.) except that, unless, but
+  - term: τέσσαρες τέσσαρα
+    definition: four
+  - term: δυνατός –ή –όν
+    definition: strong, powerful, able
+  - term: οἶκος οἴκου, ὁ
+    definition: house, home, family
+  - term: ἄριστος ἀρίστη ἄριστον
+    definition: best, noblest (superl. of ἀγαθός)
+  - term: ῥᾴδιος ῥᾳδία ῥᾴδιον
+    definition: easy
+  - term: ἀφαιρέω, ἀφαιρήσω, ἀφεῖλον, ἀφῄρηκα, ἀφῄρημαι, ἀφῃρέθην
+    definition: take from, take away
+  - term: τύχη τύχης, ἡ
+    definition: luck, fortune (good or bad), fate, chance
+  - term: φανερός –ά –όν
+    definition: clear, evident
+  - term: πρόσωπον προσώπου, τό
+    definition: face, mask, person
+  - term: πιστεύω, πιστεύσω, ἐπίστευσα, πεπίστευκα, πεπίστευμαι, ἐπιστεύθην
+    definition: trust, rely on, believe in (+dat.)
+  - term: διδάσκω, διδάξω, ἐδίδαξα, δεδίδαχα, δεδίδαγμαι, ἐδιδάχθην
+    definition: teach
+  - term: ἄνω
+    definition: up, upwards
+  - term: τάσσω, τάξω, ἔταξα, τέταχα, τέταγμαι, ἐτάχθην
+    definition: arrange, put in order
+  - term: ὀφθαλμός –οῦ, ὁ
+    definition: eye
+  - term: δέχομαι, δέξομαι, ἐδεξάμην, δέδεγμαι, -εδέχθην
+    definition: take, accept; welcome, entertain
+  - term: ἀφικνέομαι, ἀφίξομαι, 2 aor. ἀφικόμην, ἀφῖγμαι
+    definition: come to, arrive at
+  - term: ἱκανός –ή –όν
+    definition: sufficient, enough; competent, able to (+infin.)
+  - term: ἐργάζομαι, ἐργάσομαι, εἰργασάμην, εἴργασμαι
+    definition: work, labor
+  - term: μάχη μάχης, ἡ
+    definition: battle
+  - term: τρέφω, θρέψω, ἔθρεψα, τέθραμμαι, ἐτράφην
+    definition: nourish, feed, support, maintain; rear, educate
+  - term: ἀδύνατος –ον
+    definition: impossible; powerless
+  - term: ἀκριβής –ές
+    definition: exact, accurate, precise
+  - term: που
+    definition: (enclitic) somewhere; I suppose, perhaps (to qualify an assertion)
+  - term: ὅθεν
+    definition: from where, whence
+  - term: στόμα στόματος, τό
+    definition: mouth, face, opening
+  - term: χωρίς
+    definition: separately, apart; (+gen.) without, separate from
+  - term: κρείσσων κρεῖσσον
+    definition: stronger, mightier; better, more excellent (comp. of ἀγαθός)
+  - term: βραχύς βραχεῖα βραχύ
+    definition: brief, short
+  - term: ἰσχυρός –ά –όν
+    definition: strong
+  - term: ἀλήθεια ἀληθείας, ἡ
+    definition: truth
+  - term: δίκη δίκης, ἡ
+    definition: justice, lawsuit, trial, penalty
+  - term: χωρίον χωρίου, τό
+    definition: place, spot, district
+  - term: ἡδύς ἡδεῖα ἡδύ
+    definition: sweet, pleasant
+  - term: νόσος νόσου, ἡ
+    definition: disease, sickness
+  - term: λίθος λίθου, ὁ
+    definition: stone
+  - term: παλαιός –ά –όν
+    definition: old, ancient
+  - term: ἀφίημι, ἀφήσω, ἀφῆκα, ἀφεῖκα, ἀφεῖμαι, ἀφείθην
+    definition: send away, let go; let alone, neglect
+  - term: ἄλλως
+    definition: otherwise
+  - term: πρᾶξις πράξεως, ἡ
+    definition: action, transaction, business
+  - term: σαφής σαφές
+    definition: clear, distinct, plain
+  - term: σοφός –ή –όν
+    definition: wise, clever, skilled
+  - term: νικάω, νικήσω, ἐνίκησα, νενίκηκα, νενίκημαι, ἐνικήθην
+    definition: conquer, win
+  - term: ὁμολογέω, ὁμολογήσω, ὡμολόγησα, ὡμολόγηκα, ὡμολόγημαι, ὡμολογήθην
+    definition: agree with, say the same thing as (+dat.)
+  - term: ναός (νεώς) ναοῦ (νεώ), ὁ
+    definition: temple
+  - term: αὖ, αὖθις
+    definition: moreover; on the other hand; back (again)
+  - term: πατρίς πατρίδος, ἡ
+    definition: fatherland
+  - term: ὀξύς ὀξεῖα ὀξύ
+    definition: sharp, keen, shrill, pungent
+  - term: καίτοι (καί-τοι)
+    definition: and indeed, and yet
+  - term: πλέον
+    definition: more, rather
+  - term: πλέων πλέον
+    definition: more, larger (comp. of πολύς)
+  - term: γνώμη γνώμης, ἡ
+    definition: thought, intelligence, opinion, purpose
+  - term: τιμή τιμῆς, ἡ
+    definition: honor, esteem; price, value; office, magistracy
+  - term: μεταξύ
+    definition: between (prep. + gen.); in the midst of (adv.)
+  - term: προσήκω προσήξω
+    definition: belong to, have to do with; be fitting for (+dat.); arrive at; οἱ προσήκοντες relatives; τὰ προσήκoντα duties
+  - term: πρίν
+    definition: before, until
+  - term: πρίν
+    definition: before, until
+  - term: ἀδικέω, ἀδικήσω, ἠδίκησα, ἠδίκηκα, ἠδίκημαι, ἠδικήθην
+    definition: do wrong; injure
+  - term: στρατηγός –οῦ, ὁ
+    definition: leader of an army, commander, general
+  - term: οὐκέτι
+    definition: no longer, no more
+  - term: πρέσβυς πρέσβεως, ὁ
+    definition: old man; (pl.) ambassadors
+  - term: παύω, παύσω, ἔπαυσα, πέπαυκα, πέπαυμαι, ἐπαύθην
+    definition: stop, put an end to; (mid.) cease
+  - term: τελευτάω, τελευτήσω, ἐτελεύτησα, τετελεύτηκα, τετελεύτημαι, ἐτελευτήθην
+    definition: finish; die
+  - term: μίγνυμι, μείξω, ἔμειξα, μέμειγμαι, ἐμείχθην
+    definition: mix, mingle
+  - term: λαός λαοῦ, ὁ
+    definition: the people, folk
+  - term: θυγάτηρ θυγατρός, ἡ
+    definition: daughter
+  - term: οἰκία οἰκίας, ἡ
+    definition: building, house, dwelling
+  - term: παραδίδωμι, παραδώσω, παρέδωκα, παραδέδωκα, παραδέδομαι, παρεδόθην
+    definition: transmit, hand over, surrender
+  - term: ἔξω
+    definition: outside; except
+  - term: νῆσος νήσου, ἡ
+    definition: island
+  - term: ἐκεῖ
+    definition: there
+  - term: ἐπιστήμη –ης, ἡ
+    definition: knowledge, understanding, skill
+  - term: ἐάω, ἐάσω, εἴασα
+    definition: allow, permit (+acc. and infin.); let be, let alone
+  - term: θαυμάζω, θαυμάσομαι, ἐθαύμασα, τεθαύμακα, τεθαύμασμαι, ἐθαυμάσθην
+    definition: to be in awe (of), be astonished (at)
+  - term: αἰσθάνομαι, αἰσθήσομαι, 2 aor. ᾐσθόμην, ᾔσθημαι
+    definition: perceive, understand, hear, learn
+  - term: χαίρω, χαιρήσω, κεχάρηκα, κεχάρημαι, ἐχάρην
+    definition: to be happy, rejoice at (+dat.), take joy in (+ptc.); χαῖρε, (pl.) χαίρετε hello, goodbye
+  - term: χαλεπός –ή –όν
+    definition: difficult, troublesome
+  - term: τέκνον τέκνου, τό
+    definition: child
+  - term: καταλαμβάνω, καταλήψομαι, κατέλαβον, κατείληφα, κατείλημμαι, κατελήφθην
+    definition: seize, catch up with, arrest, compel
+  - term: μάχομαι, μαχοῦμαι, ἐμαχεσάμην, μεμάχημαι
+    definition: fight (against) (+dat.)
+  - term: μιμνήσκω, -μνήσω, -έμνησα, pf. μέμνημαι, ἐμνήσθην
+    definition: remind; (in pf. mid.) remember
+  - term: θνῄσκω, 2 aor. -έθανον, τέθνηκα, θανοῦμαι
+    definition: to die, be dying
+  - term: λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην
+    definition: loosen, unbind, set free; undo, destroy
+  - term: τιμάω, τιμήσω, ἐτίμησα, τετίμηκα, τετίμημαι, ἐτιμήθην
+    definition: to honor
+  - term: τεῖχος τείχους, τό
+    definition: wall
+  - term: ἴσως
+    definition: equally, probably, perhaps
+  - term: αἴρω, ἀρῶ, ἦρα, ἦρκα, ἦρμαι, ἤρθην
+    definition: take up, lift up; remove
+  - term: ἀποκτείνω, ἀποκτενῶ, ἀπέκτεινα, ἀπέκτονα
+    definition: kill
+  - term: στρατιώτης –ου, ὁ
+    definition: soldier
+  - term: ἄνευ
+    definition: without (+gen.)
+  - term: πότερος ποτέρα πότερον
+    definition: which of the two? πότερον whether
+  - term: ἁπλῶς
+    definition: simply, singly, in one way
+  - term: πίπτω, πεσοῦμαι, ἔπεσον, πέπτωκα
+    definition: fall, fall down
+  - term: τέταρτος –η –ον
+    definition: fourth
+  - term: κατασκευάζω, κατασκευάσω, κατεσκεύασα
+    definition: equip, furnish, make ready
+  - term: ἐχθρός –ά –όν
+    definition: hated, hateful; hostile to (+dat.)
+  - term: ἀγών ἀγῶνος, ὁ
+    definition: contest; struggle
+  - term: κωλύω, κωλύσω, ἐκώλυσα, κεκώλυκα, κεκώλυμαι, ἐκωλύθην
+    definition: hinder, check, prevent (+acc. and infin.)
+  - term: ἁμαρτάνω, ἁμαρτήσομαι, ἡμάρτησα, 2 aor. ἥμαρτον, ἡμάρτηκα, ἡμάρτημαι, ἡμαρτήθην
+    definition: miss the mark (+gen.); fail, be wrong, make a mistake
+  - term: διαφθείρω, διαφθερῶ, διέφθειρα, διέφθαρκα, διέφθαρμαι, διεφθάρην
+    definition: destroy; corrupt
+  - term: πως
+    definition: (enclitic) somehow, in some way, in any way
+  - term: πόνος πόνου, ὁ
+    definition: work, labor; stress, trouble, pain
+  - term: ἔνθα
+    definition: there
+  - term: τάξις τάξεως, ἡ
+    definition: arrangement, order; military unit
+  - term: πειράω (usually mid. πειράομαι), πειράσομαι, ἐπείρασα, πεπείραμαι, ἐπειράθην
+    definition: attempt, try, make a trial of (+gen.)
+  - term: φοβέω, φοβήσω, ἐφόβησα, πεφόβημαι, ἐφοβήθην
+    definition: put to flight; (mid. and pass.) flee, fear
+  - term: βάλλω, βαλῶ, 2 aor. ἔβαλον, βέβληκα, βέβλημαι, ἐβλήθην
+    definition: throw, hurl; throw at, hit (acc.) with (dat.)
+  - term: πονηρός –ά –όν
+    definition: worthless, bad, wicked
+  - term: ξένος ξένου, ὁ
+    definition: guest-friend; foreigner, stranger
+  - term: βάρβαρος –ον
+    definition: non-Greek, foreign; barbarous
+  - term: ὅπου
+    definition: where, wherever
+  - term: συμφέρω, συνοίσω, 1 aor. συνήνεγκα
+    definition: benefit, be useful or profitable to (+dat.); (impers.) συμφέρει it is of use, expedient (+infin.); τὸ συμφέρον use, profit, advantage
+  - term: πυνθάνομαι, πεύσομαι, 2 aor. ἐπυθόμην, πέπυσμαι
+    definition: learn, hear, inquire concerning (+gen.)
+  - term: δοῦλος δούλου, ὁ
+    definition: slave
+  - term: τέμνω, τεμῶ, 2 aor. ἔτεμον, -τέτμηκα, τέτμημαι, ἐτμήθην
+    definition: cut, cut down, cut to pieces
+  - term: χρήσιμος χρησίμη χρήσιμον
+    definition: useful, serviceable
+  - term: ποῖος ποία ποῖον
+    definition: what sort of?
+  - term: ὅπλον ὅπλου, τό
+    definition: weapon, tool, implement (mostly pl.)
+  - term: πίστις πίστεως, ἡ
+    definition: trust in others, faith; that which gives confidence, assurance, pledge, guarantee
+  - term: ὑπολαμβάνω, ὑπολήψομαι, ὑπέλαβον, ὑπείληφα, ὑπείλημμαι, ὑπελήφθην
+    definition: take up, seize; answer, reply; assume, suppose
+  - term: ποιητής –οῦ, ὁ
+    definition: creator, poet
+  - term: λανθάνω, λήσω, ἔλαθον, λέληθα
+    definition: escape the notice of (+acc. and nom. participle), be unknown; (mid. and pass.) forget
+  - term: βελτίων βέλτιον
+    definition: better (comp. of ἀγαθός)
+  - term: πάντως
+    definition: altogether, in all ways; at any rate
+  - term: πορεύω, πορεύσω, ἐπόρευσα, πεπόρευμαι, ἐπορεύθην
+    definition: carry; (mid. and pass) go, walk, march
+  - term: ἀποκρίνω, ἀποκρινῶ, ἀπεκρινάμην, ἀπεκρίθη
+    definition: separate, set apart, choοse; (mid.) answer, reply
+  - term: πέντε
+    definition: five
+  - term: κίνδυνος κινδύνου, ὁ
+    definition: danger
+  - term: κατηγορέω, κατηγορήσω, κατηγόρησα, κατηγόρηκα, κατηγόρημαι, κατηγορήθην
+    definition: to speak against, to accuse (+gen.)
+  - term: τρέπω, τρέψω, ἔτρεψα, τέτροφα, ἐτράπην
+    definition: turn, direct towards a thing; put to flight, defeat; (pass.) turn one’s steps in a certain direction, go
+  - term: ὅμως
+    definition: nevertheless, all the same, notwithstanding
+  - term: ὅμως
+    definition: nevertheless, all the same, notwithstanding
+  - term: θεῖος θεία θεῖον
+    definition: divine
+  - term: ἱππεύς ἱππέως, ὁ
+    definition: horseman, rider, charioteer
+  - term: κτάομαι, κτήσομαι, ἐκτησάμην, κέκτημαι
+    definition: get, gain, acquire
+  - term: λείπω, λείψω, ἔλιπον, λέλοιπα, λέλειμμαι, ἐλείφθην
+    definition: leave, abandon
+  - term: βουλή βουλῆς, ἡ
+    definition: will, determination; counsel, piece of advice; council of elders
+  - term: ἐλπίς ἐλπίδος, ἡ
+    definition: hope; expectation
+  - term: γραφή γραφῆς, ἡ
+    definition: a drawing, painting, writing; indictment
+  - term: τίκτω, τέξω or τέξομαι, ἔτεκον, τέτοκα, τέτεγμαι, ἐτέχθην
+    definition: beget, give birth to, produce
+  - term: κομίζω, κομιῶ, ἐκόμισα, κεκόμικα, κεκόμισμαι, ἐκομίσθην
+    definition: take care of, provide for
+  - term: θυμός θυμοῦ, ὁ
+    definition: life, spirit; soul, heart, mind
+  - term: βλέπω, βλέψομαι, ἔβλεψα
+    definition: see, look (at)
+  - term: φόβος φόβου, ὁ
+    definition: panic, fear, flight
+  - term: πολιτεία –ας, ἡ
+    definition: constitution, citizenship, republic
+  - term: στάδιον σταδίου, τό (pl. στάδια and στάδιοι)
+    definition: stadion or stade, the longest Greek unit of linear measure, about 185 meters
+  - term: φρονέω, φρονήσω, ἐφρόνησα
+    definition: think, intend to (+infin.); be minded towards (+adv. and dat.)
+  - term: τοιόσδε τοιάδε τοιόνδε
+    definition: such (as this), of such a sort (as this)
+  - term: ὁρμάω, ὁρμήσω, ὥρμησα, ὥρμηκα, ὥρμημαι, ὡρμήθην
+    definition: set in motion, urge on; (intrans.) start, hasten on
+  - term: παρασκευάζω, παρασκευάσω, παρεσκεύασα
+    definition: get ready, prepare, provide
+  - term: λαλέω, λαλήσω, ἐλάλησα, λελάληκα, ἐλαλήθην
+    definition: talk, chatter, babble
+  - term: δράω, δράσω, ἔδρασα, δέδρακα, δέδραμαι, ἐδράσθην
+    definition: do, accomplish
+  - term: σκοπέω, σκοπήσω, ἐσκόπησα
+    definition: look at, watch; look into, consider, examine
+  - term: βοῦς βοός, ὁ/ἡ
+    definition: bull, ox, cow
+  - term: ἡμέτερος ἡμετέρα ἡμέτρον
+    definition: our
+  - term: γράμμα γράμματος, τό
+    definition: letter, written character; (pl.) piece of writing, document(s)
+  - term: ἐρωτάω, ἐρήσομαι, 2 aor. ἠρόμην
+    definition: ask someone (acc.) something (acc.); question, beg
+  - term: πολεμέω, πολεμήσω, ἐπολέμησα, πεπολέμηκα
+    definition: make war
+  - term: θύω, θύσω, ἔθυσα, τέθυκα, τέθυμαι, ἐτύθην
+    definition: sacrifice
+  - term: ἐλαύνω, ἐλῶ, ἤλασα, -ελήλακα, ἐλήλαμαι, ἠλάθην
+    definition: drive, set in motion
+  - term: δέδοικα, δείσομαι, ἔδεισα
+    definition: fear
+  - term: σύμμαχος –ον
+    definition: allied with (+dat.); οἱ σύμμαχοι allies
+  - term: ἡγεμών ἡγεμόνος, ὁ
+    definition: guide, leader, commander
+  - term: βαρύς βαρεῖα βαρύ
+    definition: heavy, grievous, tiresome
+  - term: ὧδε
+    definition: thus, in this way; hither, here
+  - term: αἰσχρός –ά –όν
+    definition: ugly, shameful, disgraceful
+  - term: εἰρήνη εἰρήνης, ἡ
+    definition: peace
+  - term: ἁλίσκομαι, ἁλώσομαι, 2 aor. ἑάλων, ἑάλωκα
+    definition: to be taken, conquered (act. supplied by αἱρέω)
+  - term: δέκα
+    definition: ten
+  - term: ἀμείνων ἄμεινον
+    definition: better, abler, stronger, braver (comp. of ἀγαθός)
+  - term: χείρων χεῖρον
+    definition: worse, inferior (comp. of κακός)
+  - term: βοηθέω, βοηθήσω, ἐβοήθησα, βεβοήθηκα
+    definition: help, assist (+dat.)
+  - term: λαμπρός –ά –όν
+    definition: bright, brilliant; well-known, illustrious
+  - term: ἀπαλλάσσω, ἀπαλλάξω, ἀπήλλαξα, ἀπήλλαχα, ἀπήλλαγμαι, ἀπηλλάχθην or ἀπηλλάγην
+    definition: set free, release, deliver
+  - term: βουλεύω βουλεύσω, ἐβούλευσα, βεβούλευκα, βεβούλευμαι, ἐβουλεύθην
+    definition: plan (to), decide (to); (mid.) deliberate
+  - term: μάλα
+    definition: very, very much
+  - term: αἰτέω, αἰτήσω, ᾔτησα, ᾔτηκα, ᾔτημαι, ᾐτήθην
+    definition: ask (for), beg
+  - term: σωτηρία σωτηρίας, ἡ
+    definition: safety, deliverance
+  - term: ἆρα
+    definition: [introduces a question]
+  - term: διώκω, διώξομαι, ἐδίωξα, δεδίωχα, ἐδιώχθην
+    definition: pursue
+  - term: δαίμων δαίμονος, ὁ/ἡ
+    definition: spirit, god, demon
+  - term: οὐκοῦν
+    definition: surely then (inviting assent to an inference)
+  - term: γλῶσσα γλώσσης, ἡ
+    definition: tongue; language
+  - term: ἑπτά
+    definition: seven
+  - term: τολμάω, τολμήσω, ἐτόλμησα, τετόλμηκα, τετόλμημαι, ἐτολμήθην
+    definition: have the courage, dare; undertake, undergo
+  - term: δεσπότης –ου, ὁ
+    definition: master (of the household); absolute ruler
+  - term: εἰκός εἰκότος, τό
+    definition: likelihood, probability; εἰκός (ἐστι) it is likely (+infin.) →ἔοικα
+  - term: ἄδικος ἄδικον
+    definition: unjust
+  - term: εἴκοσι(ν)
+    definition: twenty
+  - term: μυρίος μυρία μυρίον
+    definition: countless; μύριοι 10,000; μυριάς -άδος ἡ 10,000, a countless amount
+  - term: αὐτίκα
+    definition: at once, immediately
+  - term: δέκατος –η –ον
+    definition: tenth
+  - term: βαίνω, βήσομαι, 2 aor. ἔβην, βέβηκα
+    definition: walk, come, go
+  - term: περ
+    definition: [enclitic added to pronouns and other particles for emphasis]
+  - term: ἐλεύθερος ἐλευθέρα ἐλεύθερον
+    definition: free, independent
+  - term: στρατιά –ᾶς, ἡ
+    definition: army
+  - term: ἀμφί
+    definition: about, around
+  - term: συμφορά –ᾶς, ἡ
+    definition: event, circumstance, misfortune
+  - term: ἑκατόν
+    definition: hundred
+  - term: νίκη νίκης, ἡ
+    definition: victory
+  - term: ἔπος ἔπους, τό
+    definition: word, speech, tale; prophecy
+  - term: στρατός –οῦ, ὁ
+    definition: army
+  - term: φράζω, φράσω, ἔφρασα, πέφρακα, πέφρασμαι, ἐφράσθην
+    definition: tell, declare; (mid. and pass.) think (about)
+  - term: ἀργύριον ἀργυρίου, τό
+    definition: money
+  - term: τριάκοντα
+    definition: thirty
+  - term: ἕξ
+    definition: six
+  - term: πεμπτός –ή –όν
+    definition: fifth
+  - term: μάρτυς μάρτυρος, ὁ/ἡ
+    definition: witness
+  - term: χαλκοῦς –ῆ –οῦν
+    definition: of copper or bronze
+  - term: ἕβδομος –η –ον
+    definition: seventh
+  - term: ποῦ
+    definition: where
+  - term: ναί
+    definition: indeed, yes (used in strong affirmation)
+  - term: φῶς φωτός, τό
+    definition: light, daylight
+  - term: ὀκτώ
+    definition: eight
+  - term: ἕκτος –η –ον
+    definition: sixth
+  - term: τριακοστός –ή –όν
+    definition: thirtieth
+  - term: ἐννέα
+    definition: nine
+  - term: πότε
+    definition: when?
+  - term: ὄγδοος –η –ον
+    definition: eighth
+  - term: ἔνατος –α –ον
+    definition: ninth
+  - term: εἰκοστός –ή –όν
+    definition: twentieth
+  - term: ἀγγέλλω, ἀγγελῶ, ἤγγειλα, ἤγγελκα, ἤγγελμαι, ἠγγέλθην
+    definition: report, tell
+  - term: ἑκατοστός –ή –όν
+    definition: hundredth

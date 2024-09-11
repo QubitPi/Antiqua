@@ -1,0 +1,968 @@
+vocabulary:
+  - term: "null"
+    definition: 0
+  - term: eins
+    definition: 1
+  - term: zwei
+    definition: 2
+  - term: drei
+    definition: 3
+  - term: vier
+    definition: 4
+  - term: fünf
+    definition: 5
+  - term: sechs
+    definition: 6
+  - term: seben
+    definition: 7
+  - term: acht
+    definition: 8
+  - term: neun
+    definition: 9
+  - term: zehn
+    definition: 10
+  - term: elf
+    definition: 11
+  - term: zwölf
+    definition: 12
+  - term: dreizehn
+    definition: 13
+  - term: vierzehn
+    definition: 14
+  - term: fünfzehn
+    definition: 15
+  - term: sechzehn
+    definition: 16
+  - term: siebzehn
+    definition: 17
+  - term: achtzehn
+    definition: 18
+  - term: neunzehn
+    definition: 19
+  - term: zwanzig
+    definition: 20
+  - term: einundzwanzig
+    definition: 21
+  - term: dreißig
+    definition: 30
+  - term: zweiunddreißig
+    definition: 32
+  - term: vierzig
+    definition: 40
+  - term: dreiundvierzig
+    definition: 43
+  - term: fünfzig
+    definition: 50
+  - term: vierundfünfzig
+    definition: 54
+  - term: sechzig
+    definition: 60
+  - term: siebzig
+    definition: 70
+  - term: achtzig
+    definition: 80
+  - term: neunzig
+    definition: 90
+  - term: (ein)hundert
+    definition: 100
+  - term: hunderteins
+    definition: 101
+  - term: hundertzwei
+    definition: 102
+  - term: hundertzehn
+    definition: 110
+  - term: hundertelf
+    definition: 111
+  - term: hundertzwanzig
+    definition: 120
+  - term: hunderteinundzwanzig
+    definition: 121
+  - term: zweihunderteins
+    definition: 201
+  - term: dreihundertzwölf
+    definition: 312
+  - term: neunhundertneunundneunzig
+    definition: 999
+  - term: (ein)tausend
+    definition: 1000
+  - term: zweitausendachthundertdreiundvierzig
+    definition: 2,843
+  - term: zehntausendneunhundertzweiundsechzig
+    definition: 10,962
+  - term: eine Million
+    definition: one million. "l" might be L-vocalized
+  - term: vier Millionen. "l" might be L-vocalized
+    definition: four million
+  - term: eine Milliarde. "l" might be L-vocalized
+    definition: one billion
+  - term: neunhundertsechsundsechzigtausend
+    definition: 966,000
+  - term: hundertsiebenundvierzigtausend
+    definition: 147,000
+  - term: vierhundertsiebzigtausend
+    definition: 470,000
+  - term: sechshundertfünfzigtausend
+    definition: 650,000
+  - term: eine Million zweihundertsechsunddreißigtausend
+    definition: 1,236,000
+  - term: einen Million siebenhundertachttausend
+    definition: 1,708,000
+  - term: drei Millionen vierhunderteinundsiebzigtausend
+    definition: 3,471,000
+  - term: ich
+    definition: I
+    declension: https://www.verbformen.com/?w=ich
+  - term: wir
+    definition: we
+    declension: https://www.verbformen.com/?w=wir
+  - term: du
+    definition: you (informal, singular)
+    declension: https://www.verbformen.com/?w=du
+  - term: ihr
+    definition: you (informal, plural)
+    declension: https://www.verbformen.com/?w=ihr
+  - term: Sie
+    definition: you (formal, both singular & plural)
+    declension: https://www.verbformen.com/sie.htm
+  - term: er
+    definition:
+      - he
+      - it
+        The declined "es".
+        Used when the grammatical gender of the object/article/thing/animal etc., being referred to, is masculine (der).
+        See the declension table of "es" for more details.
+        e.g. Dort steht ein Baum. Er ist über hundert Jahre alt. (There stands a tree. It is more than 100 years old.)
+      - she
+        The declined "er".
+        Use when the grammatical gender of the noun being referred to and designating a female person, is masculine (der)).
+        See the declension table of "er" for more details.
+        e.g. Im Frauengefängnis versuchte ein Häftling zu flüchten, aber er kam nicht weit. (In the women's prison, an inmate tried to escape, but she didn't get very far.)
+    declension: https://www.verbformen.com/?w=er
+  - term: sie
+    definition:
+      - she
+      - it
+        The declined "es".
+        Used When the object/article/thing/animal etc., referred to, is feminine (die)).
+        See the declension table of "es" for more details.
+        e.g. Scheint die Sonne noch? Nein, sie ist schon untergegangen. (Is the sun still shining? No, it has already gone down.)
+      - he
+        The declined "sie".
+        Used when the grammatical gender of the noun being referred to and designating a male person, is feminine (die)).
+        See declension table of "sie" for more details.
+        e.g. Die Geisel Richard Meier versuchte, sich zu befreien, aber sie schaffte es nicht. (The hostage Richard Meier tried to break free, but he didn’t succeed.)
+      - they
+    declension: https://www.verbformen.com/?w=sie
+  - term: es
+    definition:
+      - she/he: (old-fashioned) nominative and accusative neuter third-person singular personal pronoun
+      - it
+    declension: https://www.verbformen.com/?w=es
+  - term: mein
+    definition: my
+    declension: https://www.verbformen.com/?w=mein
+  - term: Guten Tag
+    definition: Good day
+  - term: Hallo
+    definition: Hello
+  - term: heißen
+    definition: be called
+    conjugation: https://www.verbformen.com/?w=hei%C3%9Fen
+  - term: Ich heiße ...
+    definition: I am called ...
+  - term: der Name
+    definition: name
+    declension: https://www.verbformen.com/?w=Name
+  - term: Mein Name ist ...
+    definition: My name is ...
+  - term: bitte
+    definition: please
+  - term: Wie ist Ihr Name?
+    definition: What's your name?
+  - term: Wie heißen Sie?
+    definition: What are you called?
+  - term: Grüßt euch!
+    definition: Hallo, hi (a familiar greeting used to more than one person)
+  - term: Guten Morgen
+    definition: Good morning
+  - term: Guten Abend
+    definition: Good evening
+  - term: Gute Nacht
+    definition: Good night
+  - term: Auf Wiedersehen
+    definition: Goodbye
+  - term: Wo wohnen Sie?
+    definition: Where do you live?
+  - term: Ich wohne in ...
+    definition: I live in ...
+  - term: Ich wohne jetzt in ...
+    definition: I live in ... now
+  - term: Woher kommen Sie?
+    definition: Where do you come from?
+  - term: Ich komme aus ...
+    definition: I come from ...
+  - term: Ich komme aus ... , aus ...
+    definition: I'm from (country), (city)
+  - term: der Amerikaner
+    definition: American
+  - term: die Amerikanerin
+    definition: (an) American (female)
+  - term: den USA
+    definition: United States
+  - term: das Belgien
+    definition: Belgium
+  - term: das Dänemark
+    definition: Denmark
+  - term: das Deutschland
+    definition: Germany
+  - term: das Deutsch
+    definition: German (language)
+  - term: der Deutscher
+    definition: German (male)
+  - term: die Deutsche
+    definition: German (female)
+  - term: das England
+    definition: England
+  - term: das Englisch
+    definition: English
+  - term: die Engländerin
+    definition: (an) English person (female)
+  - term: der Engländer
+    definition: (an) English person (male)
+  - term: das Frankreich
+    definition: France
+  - term: das Französisch
+    definition: French (language)
+  - term: die Französin
+    definition: (a) French (female)
+  - term: der Franzose
+    definition: (a) French (make)
+  - term: das Griechenland
+    definition: Greece
+  - term: das Griechisch
+    definition: Greek (language)
+  - term: die Griechin
+    definition: (a) Greek (female)
+  - term: der Grieche
+    definition: (a) Greek (male)
+  - term: das Großbritannien
+    definition: Great Britain
+  - term: das Irland
+    definition: Ireland
+  - term: die Irin
+    definition: Irishwoman
+  - term: der Ire
+    definition: Irishman
+  - term: das Italien
+    definition: Italy
+  - term: das Japanisch
+    definition: Japanese (language)
+  - term: die Japanerin
+    definition: (a) Japanese (female)
+  - term: der Japaner
+    definition: (a) Japanese (male)
+  - term: das Luxemburg
+    definition: Luxembourg
+  - term: die Niederlande
+    definition: Netherlands
+  - term: das Polen
+    definition: Poland
+  - term: das Österreich
+    definition: Austria
+  - term: die Österreicherin
+    definition: (an) Austrian (female)
+  - term: der Österreicher
+    definition: (an) Austraian (male)
+  - term: das Wien
+    definition: Vienna (capital of Austria)
+  - term: das Portugal
+    definition: Portugal
+  - term: das Schweden
+    definition: Sweden
+  - term: die Schweiz
+    definition: Switzerland
+  - term: in der Schweiz
+    definition: in Switzerland
+  - term: das Schottland
+    definition: Scotland
+  - term: die Schottin
+    definition: Scotswoman
+  - term: der Schotte
+    definition: Scotsman
+  - term: das Spanien
+    definition: Spain
+  - term: das Spanisch
+    definition: Spanish (language)
+  - term: die Spanierin
+    definition: (a) Spanish (female)
+  - term: der Spanier
+    definition: (a) Spanish (make)
+  - term: die Türkei
+    definition: Turkey
+  - term: das Türkisch
+    definition: Turkish (language)
+  - term: die Türkin
+    definition: (a) Turkish (female)
+  - term: der Türke
+    definition: (a) Turkish (male)
+  - term: das Ungarn
+    definition: Hungary
+  - term: das Wales
+    definition: Wales
+  - term: das Walisisch
+    definition: Welsh (language)
+  - term: die Waliserin
+    definition: Welshwoman
+  - term: der Waliser
+    definition: Welshman
+  - term: Brüssel
+    definition: Brussels
+  - term: Amsterdam
+    definition: Amsterdam
+  - term: Russisch
+    definition: Russian (language)
+  - term: der Geburtsort
+    definition: place of birth
+  - term: Wohnort
+    definition: place of residence
+  - term: aber
+    definition: but
+  - term: dort
+    definition: there
+  - term: jetzt
+    definition: now
+  - term: Entschuldigen Sie
+    definition: excuse me
+  - term: ein paar Fragen
+    definition: a few questions
+  - term: Darf ich Ihnen ein paar Fragen stellen?
+    definition: Can I ask you a few questions?
+  - term: sehr gut
+    definition: very good
+  - term: ausgezeichnet
+    definition: excellent
+  - term: prima
+    definition: great
+  - term: gut
+    definition: good
+  - term: es geht
+    definition: it's all right
+  - term: nicht gut
+    definition: not good
+  - term: schlecht
+    definition: bad
+  - term: scheußlich
+    definition: terrible
+  - term: Wie geht es Ihnen?
+    definition: How are you? (formal)
+  - term: Wie geht's?
+    definition: How are you? (informal)
+  - term: Und Ihnen?
+    definition: And you? How about you? (formal)
+  - term: Das freut mich
+    definition: I'm glad
+  - term: nicht
+    definition: not
+  - term: das Heute
+    definition: today
+  - term: heutig
+    definition: today's
+    declension: https://www.verbformen.com/?w=heutigen
+  - term: na ja
+    definition: oh well
+  - term: Mir geht es gut
+    definition: I am fine
+  - term: Mir geht's gut
+    definition: I'm fine
+  - term: wirklich
+    definition: really
+  - term: Das tut mir Leid
+    definition: I'm sorry
+  - term: nicht mehr
+    definition: no longer
+  - term: noch
+    definition: still
+  - term: nicht ... sondern
+    definition: not... but...
+  - term: arbeiten
+    definition: to work
+    conjugation: https://www.verbformen.com/?w=arbeiten
+  - term: arbeiten bei ...
+    definition: work for
+  - term: schön
+    definition: beautiful, nice, pretty, handsome
+  - term: liegen
+    definition: to lie, be located
+  - term: Schreiben Sie die Fragen
+    definition: Write the questions
+  - term: Fußballbundesliga
+    definition: federal German soccer league
+  - term: Wie schreibt man das?
+    definition: How do you spell that?
+  - term: Wie buchstabiert man ...?
+    definition: How do you spell...?
+  - term: Sie stehen/sind auf der Liste
+    definition: You are on list
+  - term: der Bericht
+    definition: report
+  - term: die Börse
+    definition: stock exchange
+  - term: melden
+    definition: to report
+  - term: vermelden
+    definition: to report
+  - term: vermeiden
+    definition: to avoid
+    conjugation: https://en.wiktionary.org/wiki/vermeiden#Conjugation
+  - term: legen um 3 Prozent zu
+    definition: increase by 3 percent
+  - term: leicht
+    definition: easy, light, slight
+  - term: dagegen
+    definition: on the other hand
+  - term: die Bank
+    definition: bank
+  - term: Wie ist Ihre Telefonnummer?
+    definition: What is your telephone number?
+  - term: Welche Telefonnummer haben Sie?
+    definition: What telephone number do you have?
+  - term: Wie ist Ihre Faxnummer?
+    definition: What is your fax number?
+  - term: Wie ist Ihre Hausnummer oder Ihre Zimmernummer?
+    definition: What is your house number or your room number?
+  - term: sprechen
+    definition: to speak
+  - term: kein
+    definition: "no"
+  - term: ein bisschen
+    definition: a bit (of)
+  - term: nur ein wenig
+    definition: only a little
+  - term: ziemlich
+    definition: fairly
+  - term: in der Nähe von ...
+    definition: near
+  - term: auch
+    definition: also
+  - term: natürlich
+    definition: of course
+  - term: verstehen
+    definition: to understand
+  - term: studieren
+    definition: to study
+  - term: der Familienstand
+    definition: family status
+  - term: verheiratet
+    definition: married
+  - term: ledig
+    definition: single, unmarried
+  - term: geschieden
+    definition: divorced
+  - term: verwitwet
+    definition: widowed
+  - term: pensioniert
+    definition: retired
+  - term: arbeitslos
+    definition: unemployed
+  - term: ich über mich
+    definition: about me
+  - term: Mehr über mich
+    definition: more about me
+  - term: Hier klicken
+    definition: click here
+  - term: alt
+    definition: old
+  - term: Ich bin 23 Jahre alt.
+    defintion: I'm 23 years old.
+  - term: die Fremdsprache
+    definition: foreign language
+  - term: die Muttersprache
+    definition: mother tongue
+  - term: lernen
+    definition: to learn
+  - term: im Moment
+    definition: at the moment
+  - term: der Bahnhof
+    definition: the railway station
+  - term: der Markt
+    definition: market
+    declension: https://www.verbformen.com/?w=Markt
+  - term: der Flohmarkt
+    definition: the flea market
+  - term: die Bäckerei
+    definition: the bakery
+  - term: die Kneipe
+    definition: the pub
+  - term: das Kino
+    definition: the cinema
+  - term: das Hotel
+    definition: the hotel
+  - term: der Biergarten
+    definition: the beer gargen
+  - term: das Café
+    definition: the café
+  - term: die Kirche
+    definition: the church
+  - term: der Supermarkt
+    definition: supermarket
+    declension: https://www.verbformen.com/?w=Supermarkt
+  - term: besonders
+    definition: especially
+  - term: bis bald
+    definition: see you soon
+  - term: die Stadt
+    definition: city
+    declensin: https://www.verbformen.com/?w=Stadt
+  - term: das Stadtzentrum
+    definition: city center
+    declensin: https://www.verbformen.com/?w=Stadtzentrum
+  - term: die Sprachschule
+    definition: language school
+    declension: https://www.verbformen.com/?w=Sprachschule
+  - term: die Bildung
+    definition:
+      - education
+      - creation
+    plural: Bildungen
+    declension: https://en.wiktionary.org/wiki/Bildung#Declension
+  - term: die Ausbildung
+    definition: training, apprenticeship, vocational education
+    plural: Ausbildungen
+    declension: https://en.wiktionary.org/wiki/Ausbildung#Declension
+  - term: die Anglistik
+    definition: English studies
+    declension: https://en.wiktionary.org/wiki/Anglistik#Declension
+  - term: die Germanistik
+    definition: Germanic studies
+    declension: https://en.wiktionary.org/wiki/Germanistik#Declension
+  - term: die Romanistik
+    definition: Romance studies
+    declension: https://en.wiktionary.org/wiki/Romanistik#Declension
+  - term: die Geschichte
+    definition: History
+    declension: https://en.wiktionary.org/wiki/Geschichte#Declension
+  - term: die Informatik
+    definition: computer science
+    declension: https://en.wiktionary.org/wiki/Informatik#Declension
+  - term: die Mathematik
+    definition: Mathematics
+    declension: https://en.wiktionary.org/wiki/Mathematik#Declension
+  - term: der Jura
+    definition: law
+    declension: https://en.wiktionary.org/wiki/Jura#Declension_3
+  - term: die Betriebswirtschaftslehre (BWL)
+    definition: business administration
+    declension: https://en.wiktionary.org/wiki/Betriebswirtschaftslehre#Declension
+  - term: Volkswirtschaftslehre (VWL)
+    definition: economics
+    declension: https://en.wiktionary.org/wiki/Volkswirtschaftslehre#Declension
+  - term: die Biologie
+    definition: Biology
+    declension: https://en.wiktionary.org/wiki/Biologie#Declension
+  - term: die Chemie
+    definition: Chemistry
+    declension: https://en.wiktionary.org/wiki/Chemie#Declension
+  - term: die Medizin
+    definition: medicine
+    declension: https://en.wiktionary.org/wiki/Medizin#Declension
+  - term: der Automechaniker
+    definition: (make) car mechanic
+    declension: https://www.verbformen.com/?w=Automechaniker
+  - term: die Automechanikerin
+    definition: (female) car mechanic
+    declension: https://www.verbformen.com/?w=Automechanikerin
+  - term: der Journalist
+    definition: journalist
+    declension: https://www.verbformen.com/?w=Journalist
+  - term: die Journalistin
+    definition: journalist (female)
+    declension: https://www.verbformen.com/?w=Journalistin
+  - term: der Kellner
+    definition: waiter
+    declension: https://www.verbformen.com/?w=Kellner
+  - term: die Kellnerin
+    definition: waitress
+    declension: https://www.verbformen.com/?w=Kellnerin
+  - term: der Maurer
+    definition: bricklayer (male)
+    declension: https://www.verbformen.com/?w=Maurer
+  - term: die Maurerin
+    definition: bricklayer (female)
+    declension: https://www.verbformen.com/?w=Maurerin
+  - term: der Musiker
+    definition: musician
+    declension: https://www.verbformen.com/?w=Musiker
+  - term: die Musikerin
+    definition: (female) musician
+    declension: https://www.verbformen.com/?w=Musikerin
+  - term: der Sekretär
+    definition: secretary (male)
+    declension: https://www.verbformen.com/?w=Sekret%C3%A4r
+  - term: die Sekretärin
+    definition: (female) secretary
+    declension: https://www.verbformen.com/?w=Sekret%C3%A4rin
+  - term: der Student
+    definition: student (male)
+    plural: Studenten
+    declension: https://www.verbformen.com/?w=Student
+  - term: die Studentin
+    plural: Studentinnen
+    definition: student (female)
+    declension: https://www.verbformen.com/?w=Studentin
+  - term: der Taxifahrer
+    definition: taxi driver
+    declension: https://www.verbformen.com/?w=Taxifahrer
+  - term: die Taxifahrerin
+    definition: (female) taxi driver
+    declension: https://www.verbformen.com/?w=Taxifahrerin
+  - term: der Tischler
+    definition: carpenter (male)
+    declension: https://www.verbformen.com/?w=Tischler
+  - term: die Tischlerin
+    definition: carpenter (female)
+    declension: https://www.verbformen.com/?w=Tischlerin
+  - term: der Verkaüfer
+    definition: shop assistant (male)
+    declension: https://www.verbformen.com/?w=Verka%C3%BCfer
+  - term: die Verkaüferin
+    definition: shop assistant (female)
+    declension: https://www.verbformen.com/?w=Verk%C3%A4uferin
+  - term: der Arzt
+    definition: doctor (male)
+    declension: https://www.verbformen.com/?w=Arzt
+  - term: die Ärztin
+    definition: doctor (female)
+    declension: https://www.verbformen.com/?w=%C3%84rztin
+  - term: der Koch
+    definition: chef (male)
+    declension: https://www.verbformen.com/?w=Koch
+  - term: die Köchin
+    definition: chef (female)
+    declension: https://www.verbformen.com/?w=K%C3%B6chin
+  - term: der Friseur
+    definition: hairdresser (male)
+    declension: https://www.verbformen.com/?w=Friseur
+  - term: die Friseuse
+    definition: hairdresser (female)
+    declension: https://www.verbformen.com/?w=Friseuse
+  - term: der Frisör
+    definition: hairdresser (male)
+    declension: https://www.verbformen.com/?w=Fris%C3%B6r
+  - term: die Frisöse
+    definition: hairdresser (female)
+    declension: https://www.verbformen.com/?w=Fris%C3%B6se
+  - term: der Hausmann
+    definition: househusband
+    declension: https://www.verbformen.com/?w=Hausmann
+  - term: die Hausfrau
+    definition: housewife
+    declension: https://www.verbformen.com/?w=Hausfrau
+  - term: der Kaufmann
+    definition: trader (male)
+    declension: https://www.verbformen.com/?w=Kaufmann
+  - term: die Kauffrau
+    definition: trader (female)
+    declension: https://www.verbformen.com/?w=Kauffrau
+  - term: der Kranker
+    definition: sick person
+    declension: https://en.wiktionary.org/wiki/Kranker#Declension
+  - term: der Krankenpfleger
+    definition: nurse (male)
+    declension: https://www.verbformen.com/?w=Krankenpfleger
+  - term: die Krankenschwester
+    definition: nurse (female)
+    declension: https://www.verbformen.com/?w=Krankenschwester
+  - term: willkommen
+    definition: welcome
+    declension: https://www.verbformen.com/?w=willkommen
+  - term: denn
+    definition:
+      - (adv.) then, thus
+      - (conj.) because
+  - term: der Mann
+    definition:
+      - man
+      - husband
+    declension: https://www.verbformen.com/?w=Mann
+  - term: hoffentlich
+    definition: hopefully
+  - term: ach so
+    definition: I see
+  - term: der Beruf
+    definition: job
+    declension: https://www.verbformen.com/?w=Beruf
+  - term: berufstätig
+    definition: employed
+    declension: https://www.verbformen.com/?w=berufst%C3%A4tig
+  - term: Sind Sie berufstätig?
+    definition: Do you have a job?
+  - term: Was sind Sie von Beruf?
+    definition: What job do you do?
+  - term: Wo arbeiten Sie?
+    definition: Where do you work?
+  - term: Seit wann arbeiten Sie dort?
+    definition: How long have you been working there?
+  - term: Das ist ja großartig!
+    definition: That's great!
+  - term: interessant
+    definition: interesting
+    declension: https://en.wiktionary.org/wiki/interessant#Declension
+  - term: langweilig
+    definition: boring
+    declension: https://en.wiktionary.org/wiki/langweilig#Declension
+  - term: Na ja
+    definition: (informal) Oh well
+  - term: wohl
+    definition:
+      - possibly
+      - of course
+
+
+
+  - term: die Erfahrung
+    definition: experience
+  - term: der Verletzter
+    definition: injured person, casualty
+  - term: die Spritze
+    definition: syringe
+  - term: die Injektion
+    definition: injection
+  - term: der Hut
+    definition: hat
+  - term: krank
+    definition: sick, ill
+  - term: werden
+    definition: to become
+  - term: helfen
+    definition: to help
+  - term: Warum helfen Sie uns?
+    definition: Why help us?
+  - term: der Gegner
+    definition: enemy
+  - term: der Mensch
+    definition: people
+  - term: sagen
+    definition: to say
+  - term: Das machen Sie auch, oder?
+    definition: You do that too, right?
+  - term: Warum Sie nicht sagen?
+    definition: Why don't you say anything?
+  - term: Warum Sie ihm nicht sagen?
+    definition: Why don't you say anything to him?
+  - term: jung
+    definition: young
+  - term: lieben
+    definition: to love
+  - term: Sie ihn schon lange lieben?
+    definition: Have you loved him for a long time?
+  - term: immer
+    definition: always
+  - term: schweigen
+    definition: to be silent
+  - term: das Schweigen
+    definition: silence
+  - term: Weiß er?
+    definition: Does he know?
+  - term: Keine Ahnung
+    definition: no idea
+  - term: glauben
+    definition: to believe
+  - term: wissen
+    definition: to know
+  - term: der Mann
+    definition: man
+  - term: nie
+    definition: adv. never
+  - term: kämpfen
+    definition: to fight
+  - term: nur
+    definition: only, just
+  - term: hören
+    definition: to hear
+  - term: seit
+    definition: since, for
+  - term: Ich nichts von ihm gehört seit Juli.
+    definition: I haven't heard from him since July.
+  - term: die Woche
+    definition: week
+    declension: https://www.verbformen.com/?w=Woche
+  - term: das Jahren
+    definition: year
+  - term: seit zwei Jahren
+    definition: for two years
+  - term: seit wann?
+    definition: since when?
+  - term: vielleicht
+    definition: perhaps
+  - term: sollen
+    definition: should
+  - term: Vielleicht sollten Sie ...
+    definition: Maybe you should ...
+  - term: weggehen
+    definition: to leave
+  - term: von hier weggehen
+    definition: leave here
+  - term: Schon gut.
+    definition: It's okay
+
+
+
+  - term: der Volksgenosse
+    definition: countryman
+    declension: https://www.verbformen.com/?w=Volksgenosse
+  - term: die Volksgenossin
+    definition: female equivalent of Volksgenosse
+  - term: das Thema
+    definition: theme, subject
+    declension: https://www.verbformen.com/?w=Thema
+  - term: scharf
+    definition: sharp, hot
+    declension: https://www.verbformen.com/?w=scharf
+  - term: umstritten
+    definition: controversial
+    declension: https://www.verbformen.com/?w=umstritten
+  - term: scharf umstritten
+    definition: hotly disputed
+  - term: die Seite
+    definition: side
+  - term: beleuchten
+    definition: to illuminate
+    conjugation: https://en.wiktionary.org/wiki/beleuchten#Conjugation
+  - term: die Beleuchtung
+    definition: illumination
+    declension: https://en.wiktionary.org/wiki/Beleuchtung#Declension
+  - term: bewusst
+    definition: (adj.) conscious, aware
+    declension: https://en.wiktionary.org/wiki/bewusst#Declension
+  - term: bewußt
+    definition: Formerly standard spelling of bewusst which was deprecated in the German orthography reform of 1996
+  - term: diskutieren
+    definition: to discuss
+    conjugation: https://en.wiktionary.org/wiki/diskutieren#Conjugation
+  - term: die Angelegenheit
+    definiton: matter, issue, affair
+    declension: https://en.wiktionary.org/wiki/Angelegenheit#Declension
+  - term: die Sache
+    definition:
+      - matter, issue, affair
+      - thing, object
+    declension: https://en.wiktionary.org/wiki/Sache#Declension
+  - term: theoretisch
+    definition: theoretical
+    declension: https://en.wiktionary.org/wiki/theoretisch#Declension
+  - term: die Praxis
+    definition: practice, opposite of theory
+    declension: https://en.wiktionary.org/wiki/Praxis#Declension
+  - term: erforschen
+    definition: to explore
+    conjugation: https://en.wiktionary.org/wiki/erforschen#Conjugation
+  - term: welcher
+    definition: which
+  - term: etwa
+    definition:
+      - approximately
+      - for instance
+      - possibly
+      - really
+  - term: bessern
+    definition: to improve
+    conjugation: https://en.wiktionary.org/wiki/bessern#Conjugation
+  - term: Erfolg
+    definition: success
+    declension: https://en.wiktionary.org/wiki/Erfolg#Declension
+  - term: führen
+    definition: to lead
+    conjugation: https://en.wiktionary.org/wiki/f%C3%BChren#Conjugation
+  - term: gewünscht
+    definition: desired
+    declension: https://en.wiktionary.org/wiki/gew%C3%BCnscht#Declension
+  - term: geistreich
+    definition: witty
+    declension: https://en.wiktionary.org/wiki/geistreich#Declension
+  - term: die Aufgabe
+    definition: |
+      - duty, job
+      - mission, task, challenge
+  - term: deshalb
+    definition: (adv.) therefore
+  - term: irgend
+    definition:
+      - at all
+      - any
+  - term: jemand
+    definition: someone
+  - term: Ergebnis
+    definition: result
+    plural: Ergebnisse
+    declension: https://en.wiktionary.org/wiki/Ergebnis#Declension
+  - term: führt zu keinem Ergebnis
+    definition: leads to no result
+
+
+
+  - term: rein
+    definition: pure
+  - term: die Vernunft
+    definition: reason
+    declension: https://www.verbformen.com/?w=Vernunft
+  - term: Transzendental
+    definition: transcendental
+    declension: https://www.verbformen.com/?w=Transzendental
+  - term: elementar
+    definition: elemental, fundamental
+    declension: https://www.verbformen.com/?w=Elementar
+  - term: die Lehre
+    definition: theory, doctrine
+    declension: https://www.verbformen.com/?w=Lehre
+  - term: erste
+    definition: first
+    declension: https://www.verbformen.com/?w=Erster
+  - term: der Teil
+    definition: part, portion
+    declension: https://www.verbformen.com/?w=Teil
+  - term: die Ästhetik
+    definition: aesthetics
+    declension: https://www.verbformen.com/?w=%C3%84sthetik
+  - term: die Art
+    definition: kind, sort, type
+    declension: https://www.verbformen.com/?w=Art
+  - term: das Mittel
+    definition: means
+    declension: https://www.verbformen.com/?w=Mittel
+  - term: die Erkenntnis
+    definition: realization, recognition, insight, perception
+    declension: https://www.verbformen.com/?w=Erkenntnis
+  - term: der Gegenstand
+    definition: object, thing
+    declension: https://www.verbformen.com/?w=Gegenstand
+  - term: beziehen
+    definition: to relate
+    conjugation: https://www.verbformen.com/?w=beziehen
+  - term: wodurch
+    definition: whereby, through what
+  - term: unmittelbar
+    definition: immediate, direct
+    declension: https://www.verbformen.com/?w=unmittelbar
+  - term: die Anschauung
+    definition: intuition, view, opinion
+    declension: https://www.verbformen.com/?w=Anschauung
+  - term: finden
+    definition: to find
+    conjugation: https://www.verbformen.com/?w=finden
+  - term: statt
+    definition: instead of
+  - term: geben
+    definition: to give
+    conjugation: https://www.verbformen.com/?w=geben
+  - term: möglich
+    definition: possible
+    declension: https://www.verbformen.com/?w=m%C3%B6glich
+  - term: das Gemüt
+    definition: feeling; heart; soul; mind
+    declension: https://www.verbformen.com/?w=Gem%C3%BCt
+  - term: gewiss
+    definition: certain
+    declension: https://www.verbformen.com/?w=gewiss
+  - term: die Weise
+    definition: way
+    declension: https://www.verbformen.com/declension/nouns/Weise.htm

@@ -1,0 +1,1997 @@
+vocabulary:
+  - term: Headword
+    definition: Definition
+  - term: ā ab abs
+    definition: from, by (+abl.)
+  - term: abeō -īre -iī -itum
+    definition: go away
+  - term: absum abesse āfuī
+    definition: be away, absent
+  - term: ac
+    definition: and in addition, and also, and; (after comparatives) than; simul ac, as soon as; → atque
+  - term: accēdō -cēdere -cessī -cessum
+    definition: approach
+  - term: accidō -cidere -cidī
+    definition: fall; happen
+  - term: accipiō -cipere -cēpī -ceptum
+    definition: receive
+  - term: ācer ācris ācre
+    definition: sharp, piercing
+  - term: aciēs -ēī f.
+    definition: edge; line of battle
+  - term: ad
+    definition: to, up to, towards (+acc.)
+  - term: addō -dere -didī -ditum
+    definition: give to
+  - term: addūcō -ere -dūxī -ductum
+    definition: lead to, induce
+  - term: adeō -īre -iī -itum
+    definition: go to
+  - term: adeō
+    definition: (adv.) to such a degree, so
+  - term: adhibeō -hibēre -hibuī -hibitum
+    definition: apply
+  - term: adhūc
+    definition: thus far, to this point
+  - term: adveniō -īre -vēnī -ventum
+    definition: come to, arrive at
+  - term: adversus -a -um
+    definition: facing, opposed; unfavorable
+  - term: adversus (-um)
+    definition: (adv. and prep.) facing, opposite, against, opposed (to)
+  - term: advertō -vertere -vertī -versum
+    definition: turn towards
+  - term: aedēs -is f.
+    definition: building; (pl.) house
+  - term: aeger aegra aegrum
+    definition: sick
+  - term: aegrē
+    definition: with difficulty
+  - term: aequē
+    definition: equally
+  - term: aequor aequoris n.
+    definition: level surface, sea, plain
+  - term: aequus -a -um
+    definition: equal
+  - term: āēr āeris m.
+    definition: air
+  - term: aes aeris n.
+    definition: copper, bronze
+  - term: aetās -tātis f.
+    definition: age, time of life
+  - term: aeternus -a -um
+    definition: everlasting, eternal
+  - term: aethēr aetheris n.
+    definition: pure upper air, ether, heaven, sky
+  - term: aevum -i n.
+    definition: eternity; lifetime, age
+  - term: afferō afferre attulī allātum
+    definition: bring to
+  - term: afficiō -ficere -fēcī -fectum
+    definition: affect, visit with (+ abl.)
+  - term: ager agrī m.
+    definition: field
+  - term: agitō -āre
+    definition: drive
+  - term: āgmen -minis n.
+    definition: line of march
+  - term: agō agere ēgī āctum
+    definition: drive, do, act
+  - term: aiō
+    definition: say, affirm, say yes; ut āiunt: as they say
+  - term: albus -a -um
+    definition: white
+  - term: aliēnus -a -um
+    definition: foreign, strange
+  - term: aliquandō
+    definition: at some time, at length
+  - term: aliquis -quae -quod
+    definition: some, any; si quis, si quid: anyone who, anything that
+  - term: aliter
+    definition: otherwise, differently
+  - term: alius -a -ud
+    definition: other, another; ālias: at another time
+  - term: alō alere aluī alitum
+    definition: nourish
+  - term: alter altera alterum
+    definition: other of two
+  - term: altus -a -um
+    definition: high, lofty; deep
+  - term: amīcitia -ae f.
+    definition: friendship
+  - term: amīcus -a -um
+    definition: friendly; (as subst.) friend
+  - term: āmittō -mittere -mīsī -missum
+    definition: let go, send away
+  - term: amnis -is m.
+    definition: river, torrent
+  - term: amō -āre
+    definition: to love; amāns -ntis m./f.: lover
+  - term: amor -ōris m.
+    definition: love
+  - term: amplus -a -um
+    definition: large, spacious
+  - term: an
+    definition: or (in questions); utrum ... an: whether ... or
+  - term: anima -ae f.
+    definition: breath, spirit
+  - term: animal -ālis n.
+    definition: a living being, an animal
+  - term: animus -ī m.
+    definition: spirit, mind
+  - term: annus -ī m.
+    definition: year
+  - term: ante
+    definition: before, in front of (adv. and prep. + acc.)
+  - term: antequam
+    definition: before
+  - term: antīquus -a -um
+    definition: ancient, old-time, former
+  - term: aperiō aperīre aperuī apertum
+    definition: open
+  - term: appāreō -ēre -uī
+    definition: appear, become visible
+  - term: appellō -pellāre
+    definition: call, address, name
+  - term: aptus -a -um
+    definition: fit, suitable
+  - term: apud
+    definition: near, in the presence of (+acc.)
+  - term: aqua -ae f.
+    definition: water
+  - term: āra -ae f.
+    definition: altar
+  - term: arbitror arbitrārī arbitrātus sum
+    definition: consider, think
+  - term: arbor arboris f.
+    definition: tree
+  - term: ārdeō ārdēre ārsī ārsum
+    definition: blaze, glow; be eager
+  - term: argentum -ī n.
+    definition: silver, money
+  - term: arma -ōrum n. pl.
+    definition: arms, weapons
+  - term: ars artis f.
+    definition: skill
+  - term: arvum -ī n.
+    definition: ploughed land, field
+  - term: arx arcis f.
+    definition: citadel, castle; summit
+  - term: ascendō -ere -scendī -scēnsum
+    definition: climb up, ascend
+  - term: aspiciō -ere -spēxī -spectum
+    definition: look to or at, behold
+  - term: adsum adesse affuī
+    definition: be present
+  - term: astrum -ī n.
+    definition: star; constellation
+  - term: at
+    definition: but, but yet
+  - term: atque
+    definition: and in addition, and also, and; (after comparatives) than; simul atque, as soon as; → ac
+  - term: auctor -ōris m.
+    definition: originator, founder
+  - term: auctōritās -ātis f.
+    definition: influence, clout, authority
+  - term: audāx audācis
+    definition: bold, daring; reckless
+  - term: audeō audēre ausus sum
+    definition: dare, be eager
+  - term: audiō -īre -īvī/-iī -ītum
+    definition: hear, listen to
+  - term: auferō auferre abstulī ablātum
+    definition: take away
+  - term: augeō augēre auxī auctum
+    definition: increase
+  - term: avis -is f.
+    definition: bird
+  - term: aura -ae f.
+    definition: breeze
+  - term: aureus -a -um
+    definition: golden; splendid
+  - term: auris -is f.
+    definition: ear
+  - term: aurum -ī n.
+    definition: gold
+  - term: aut
+    definition: or
+  - term: autem
+    definition: moreover, but, however
+  - term: auxilium -ī n.
+    definition: support, assistance; (pl.) auxiliary forces
+  - term: barbarus -ī m.
+    definition: foreigner, barbarian
+  - term: beātus -a -um
+    definition: happy, blessed, prosperous, fortunate
+  - term: bellum -ī n.
+    definition: war
+  - term: bene
+    definition: well
+  - term: beneficium -ī n.
+    definition: service, kindness
+  - term: bonus -a -um
+    definition: good
+  - term: bōs bovis m.
+    definition: ox; gen. pl. boum
+  - term: brevis -e
+    definition: short, shallow, brief
+  - term: breviter
+    definition: briefly
+  - term: cadō cadere cecidī cāsum
+    definition: fall, be killed
+  - term: caecus -a -um
+    definition: blind, unseeing; dark, obscure
+  - term: caedēs -is f.
+    definition: killing, slaughter
+  - term: caedō caedere cecīdī caesum
+    definition: strike, kill, cut down
+  - term: caelestis -e
+    definition: from or of heaven; caelestēs, the gods
+  - term: caelum -ī n.
+    definition: sky, heavens
+  - term: campus -ī m.
+    definition: plain, field
+  - term: candidus -a -um
+    definition: white, fair
+  - term: canis -is m./f.
+    definition: dog
+  - term: canō canere cecinī cantum
+    definition: sing
+  - term: capiō capere cēpī captum
+    definition: seize
+  - term: caput capitis n.
+    definition: head
+  - term: careō -ēre -uī
+    definition: lack (+ abl.)
+  - term: carmen -inis n.
+    definition: song
+  - term: cārus -a -um
+    definition: dear
+  - term: castrum -ī n.
+    definition: fortress, (regularly plural, castra camp)
+  - term: castus -a -um
+    definition: pure, spotless, chaste
+  - term: cāsus -ūs m.
+    definition: a fall; chance, accident
+  - term: caveō cavēre cāvī cautum
+    definition: be on guard, beware
+  - term: causa -ae f.
+    definition: cause, reason; causā + preceding genitive, for the sake of
+  - term: cēdō cēdere cessī cessum
+    definition: go, move; yield
+  - term: celebrō -āre
+    definition: frequent, throng, crowd
+  - term: celer -is -e
+    definition: swift
+  - term: celeriter
+    definition: quickly
+  - term: cēnseō cēnsēre cēnsuī cēnsum
+    definition: assess, rate; think, decide
+  - term: centum
+    definition: one hundred
+  - term: cernō cernere crēvī crētum
+    definition: discern, separate
+  - term: certē
+    definition: certainly, surely
+  - term: certō -āre
+    definition: decide by contest; fight, compete, vie
+  - term: certus -a -um
+    definition: sure, fixed
+  - term: cēterum
+    definition: for the rest, in addition, however that may be
+  - term: cēterus -a -um
+    definition: the other, the others, the rest
+  - term: cibus -ī m.
+    definition: food
+  - term: cingō cingere cīnxī cīnctum
+    definition: encircle, surround, gird
+  - term: cinis cineris m./f.
+    definition: ashes, embers
+  - term: circā
+    definition: around (adv. and prep. +acc.)
+  - term: citus -a -um
+    definition: swift; citō swiftly
+  - term: cīvis -is m./f.
+    definition: citizen
+  - term: cīvitās -ātis f.
+    definition: citizenship, state
+  - term: clāmor -ōris m.
+    definition: outcry, shout
+  - term: clārus -a -um
+    definition: clear, distinguished
+  - term: classis -is f.
+    definition: class, division, fleet
+  - term: claudō claudere clausī clausum
+    definition: close, shut
+  - term: coepī coepisse coeptus
+    definition: begin
+  - term: cōgitō -āre
+    definition: think, reflect
+  - term: cōgnōscō -gnōscere -gnōvī -gnitum
+    definition: learn, understand
+  - term: cōgō cōgere coēgī coāctum
+    definition: drive together; compel
+  - term: cohors cohortis f.
+    definition: cohort, band, troop
+  - term: colligō -ere -lēgī -lēctum
+    definition: gather together, collect
+  - term: colō colere coluī cultum
+    definition: inhabit, cultivate
+  - term: color -ōris m.
+    definition: color
+  - term: coma -ae f.
+    definition: hair, tresses
+  - term: comes comitis m./f.
+    definition: companion, comrade; attendant, follower
+  - term: committō -mittere -mīsī -missum
+    definition: join, entrust to (+ dat.); perform, do
+  - term: commūnis -e
+    definition: common, general
+  - term: comparō -āre
+    definition: get ready, provide; compare
+  - term: compōnō -pōnere posuī positum
+    definition: build, construct, arrange
+  - term: concēdō -cēdere -cessī -cessum
+    definition: yield, withdraw
+  - term: condīciō -ōnis f.
+    definition: agreement, condition
+  - term: condō -dere -didī -ditum
+    definition: build, found; store up; hide, conceal
+  - term: cōnferō cōnferre contulī collātum
+    definition: collect, bring to
+  - term: cōnficiō -ficere -fēcī -fectum
+    definition: complete, accomplish; destroy, kill, consume
+  - term: cōnfiteor cōnfitērī cōnfessus sum
+    definition: admit (a fact), confess (a crime); reveal, disclose
+  - term: coniunx coniugis m./f.
+    definition: spouse, husband, wife
+  - term: cōnor cōnārī cōnātus sum
+    definition: try, attempt
+  - term: cōnsequor -sequī -secūtus sum
+    definition: follow up, overtake, attain
+  - term: cōnsilium -ī n.
+    definition: plan; council, group of advisors
+  - term: cōnsistō -sistere -stitī
+    definition: take position; consist in, be composed of
+  - term: cōnstituō -stituere -stituī -stitūtum
+    definition: establish, put together
+  - term: cōnstō -stāre -stitī
+    definition: agree; constat, it is established that (+ acc. and infin.)
+  - term: cōnsuētūdo -inis f.
+    definition: custom, habit
+  - term: cōnsul -ulis m.
+    definition: consul
+  - term: cōnsulō -sulere -suluī -sultum
+    definition: consult, plan (+ acc.); consider the interests of (+dat)
+  - term: cōnsūmō -sūmere -sūmpsī -sūmptum
+    definition: to use up, consume
+  - term: contemnō -temnere -tempsī -temptum
+    definition: despise, scorn, disdain
+  - term: contineō -tinēre -tinuī -tentum
+    definition: contain, restrain
+  - term: contingō -tingere -tigī -tactum
+    definition: touch, be contiguous to
+  - term: contrā
+    definition: against, opposite (adv. and prep. +acc.)
+  - term: conveniō -venīre -vēnī -ventum
+    definition: assemble, meet; agree
+  - term: convertō -vertere -vertī -versum
+    definition: turn about, turn, change
+  - term: convīvium -iī n.
+    definition: banquet, feast
+  - term: cōpia -ae f.
+    definition: abundance; (pl.) troops
+  - term: cor cordis n.
+    definition: heart; cordī est, it is pleasing to (+ dat.)
+  - term: cornu -ūs n.
+    definition: horn
+  - term: corpus corporis n.
+    definition: body
+  - term: corrumpō -rumpere -rūpī -ruptum
+    definition: break up, destroy, ruin
+  - term: crēdō crēdere crēdidī crēditum
+    definition: believe
+  - term: creō -āre
+    definition: produce, create; elect, choose
+  - term: crēscō crēscere crēvī crētum
+    definition: grow, increase
+  - term: crīmen -inis n.
+    definition: verdict, accusation
+  - term: culpa -ae f.
+    definition: guilt, fault, blame
+  - term: cum
+    definition: with (prep. + abl.); when, since, although (conjunction + subj.)
+  - term: cūnctus -a -um
+    definition: entire all together
+  - term: cupīdō -inis f.
+    definition: desire, eagerness, craving
+  - term: cupiō -ere -īvī -ītum
+    definition: desire
+  - term: cūr
+    definition: why?
+  - term: cūra -ae f.
+    definition: care, concern
+  - term: cūrō -āre
+    definition: watch over, look after, care for (+ acc.)
+  - term: currō currere cucurrī cursum
+    definition: run
+  - term: currus -ūs m.
+    definition: chariot
+  - term: cursus -ūs m.
+    definition: course, advance
+  - term: custōs custōdis m.
+    definition: guardian
+  - term: damnō -āre
+    definition: condemn
+  - term: damnum -ī n.
+    definition: damage, injury
+  - term: dē
+    definition: down from, about, concerning (+ abl.)
+  - term: dēbeō dēbēre dēbuī dēbitum
+    definition: owe, be obliged
+  - term: decem
+    definition: ten
+  - term: dēcernō -cernere -crēvī -crētum
+    definition: determine, decide
+  - term: decet decēre decuīt
+    definition: it is right, proper, fitting (+ acc. + infin.)
+  - term: decus decoris n.
+    definition: beauty, grace; ornament, glory, honor
+  - term: dēdūcō -dūcere -dūxī -ductum
+    definition: launch, lead away
+  - term: dēfendō -fendere -fendī -fēnsum
+    definition: defend, ward off
+  - term: dēferō -ferre -tulī -lātum
+    definition: carry away, report
+  - term: deficiō -ficere -fēcī -fectum
+    definition: fail, give out; revolt from
+  - term: deinde/dein
+    definition: then, next
+  - term: dēnique
+    definition: finally
+  - term: dēscendō -scendere -scendī -scēnsum
+    definition: climb down, descend
+  - term: dēserō -ere dēseruī dēsertum
+    definition: leave, desert, abandon
+  - term: dēsīderō -āre
+    definition: long for, desire greatly
+  - term: dēsinō -sinere -siī -situm
+    definition: leave off, cease
+  - term: dēsum -esse -fuī
+    definition: be lacking
+  - term: deus -ī m.; dea -ae f.
+    definition: god; goddess
+  - term: dexter -tra -trum
+    definition: right; dextera -ae f.: right hand
+  - term: dīcō dīcere dīxī dictum
+    definition: say; causam dīcere, plead a case; diem dīcere, appoint a day
+  - term: diēs diēī m./f.
+    definition: day
+  - term: differō differre distulī dīlātum
+    definition: scatter; publish, divulge; differ; defer, postpone
+  - term: difficilis -e
+    definition: not easy, hard, difficult
+  - term: dīgnitās -ātis f.
+    definition: worth, reputation, honor
+  - term: dīgnus -a -um
+    definition: worthy
+  - term: dīligō -ligere -lēxī -lēctum
+    definition: choose, cherish, love
+  - term: dīmittō -mittere -mīsī -missum
+    definition: send away
+  - term: discēdō -ere -cessī -cessum
+    definition: go away, depart
+  - term: disciplīna -ae f.
+    definition: training, instruction; learning, discipline
+  - term: discō -ere didicī
+    definition: learn
+  - term: diū:
+    definition: for a long time
+  - term: dīversus -a -um
+    definition: different, diverse
+  - term: dīves dīvitis
+    definition: rich (poet. dīs, dītis)
+  - term: dīvidō -ere dīvīsī dīvīsum
+    definition: divide, separate
+  - term: dīvitiae -ārum f. pl.
+    definition: riches, wealth
+  - term: dīvus -a -um
+    definition: divine, godlike; (as subst.) a god
+  - term: dō dare dedī datum
+    definition: give
+  - term: doceō -ēre -uī doctum
+    definition: teach
+  - term: doleō -ēre doluī
+    definition: feel pain or grief, grieve
+  - term: dolor -ōris m.
+    definition: pain, grief
+  - term: dolus -ī m.
+    definition: artifice, device, trick
+  - term: dominus -ī m.; domina -ae f.
+    definition: household master, lord; mistress
+  - term: domus -ūs f.
+    definition: house, home
+  - term: dōnec
+    definition: until
+  - term: dōnō -āre
+    definition: present with a gift (+ acc. of person and abl. of thing)
+  - term: dōnum -ī n.
+    definition: gift, present
+  - term: dormiō -īre
+    definition: sleep
+  - term: dubitō -āre
+    definition: hesitate, doubt
+  - term: dubius -a -um
+    definition: doubtful; (as subst.) a doubt; sine dubiō, without a doubt, certainly
+  - term: dūcō dūcere dūxī ductum
+    definition: lead; uxōrem dūcere, marry
+  - term: dulcis -e
+    definition: sweet
+  - term: dum
+    definition: while (+ indic.); until (+ subj.); provided that (+ subj.)
+  - term: duo duae duo
+    definition: two
+  - term: dūrus -a -um
+    definition: hard, tough, harsh
+  - term: dux ducis m./f.
+    definition: leader, general
+  - term: ecce
+    definition: behold!
+  - term: ēdīcō -dīcere -dīxī -dictum
+    definition: declare
+  - term: ēdō ēdere ēdidī ēditum
+    definition: put forth, state, explain
+  - term: ēdūcō -dūcere -dūxī -ductum
+    definition: lead forth
+  - term: efficiō -ficere -fēcī -fectum
+    definition: bring about, complete; render (+ ut + subj.)
+  - term: effundō -fundere -fūdī -fūsum
+    definition: pour out
+  - term: ego meī mihi mē
+    definition: I, me
+  - term: ēgredior ēgredī ēgressus sum
+    definition: stride out, depart, disembark from (+ abl.)
+  - term: ēgregius -a -um
+    definition: distinguished, uncommon
+  - term: ēligō ēligere ēlēgī ēlēctum
+    definition: pick out, select
+  - term: enim
+    definition: for, indeed
+  - term: eō īre iī/īvī itum
+    definition: go
+  - term: eō
+    definition: (adv.) there, to that place
+  - term: epistula -ae f.
+    definition: letter
+  - term: eques equitis m.
+    definition: horseman, knight
+  - term: equus -ī m.
+    definition: horse
+  - term: ergō
+    definition: therefore
+  - term: ēripiō -ripere -ripuī -reptum
+    definition: snatch away, rescue, save
+  - term: errō -āre
+    definition: go astray, wander
+  - term: error -ōris m.
+    definition: wandering; error, mistake
+  - term: et
+    definition: and
+  - term: etiam
+    definition: also, even
+  - term: ex, ē
+    definition: out of, from (+ abl.)
+  - term: excipiō -cipere -cēpī -ceptum
+    definition: take out
+  - term: exemplum -ī n.
+    definition: example, sample, copy
+  - term: exeō -īre -iī -itum
+    definition: go forth
+  - term: exerceō -ercēre -ercuī -ercitum
+    definition: train, exercise, carry on
+  - term: exercitus -ūs m.
+    definition: army
+  - term: exigō -igere -ēgī -āctum
+    definition: drive out; collect
+  - term: exīstimō -āre
+    definition: think, believe
+  - term: experior -perīrī -pertus sum
+    definition: try thoroughly, test, experience
+  - term: exsilium -ī n.
+    definition: exile, banishment
+  - term: exspectō -āre
+    definition: watch, wait, expect
+  - term: extrēmus -a -um
+    definition: farthest, situated at the end or tip, extreme
+  - term: fābula -ae f.
+    definition: account, tale, story
+  - term: faciēs -ēī f.
+    definition: form, appearance
+  - term: facilis -e
+    definition: easy
+  - term: facinus facinoris n.
+    definition: deed, crime
+  - term: faciō facere fēcī factum
+    definition: do, make
+  - term: factum -ī n.
+    definition: deed, accomplishment
+  - term: fallō fallere fefellī falsum
+    definition: deceive
+  - term: falsus -a -um
+    definition: deceptive, false
+  - term: fāma -ae f.
+    definition: rumor, fame
+  - term: famēs -is f.
+    definition: hunger, famine
+  - term: familia -ae f.
+    definition: household, family
+  - term: fateor fatērī fassus sum
+    definition: admit, confess; profess, declare; assent, say yes
+  - term: fātum -ī n.
+    definition: fate; death
+  - term: fax facis f.
+    definition: torch
+  - term: fēlīciter
+    definition: luckily
+  - term: fēlīx -īcis
+    definition: lucky
+  - term: fēmina -ae f.
+    definition: woman
+  - term: ferē
+    definition: almost
+  - term: ferō ferre tulī lātum
+    definition: bear, carry, endure
+  - term: ferrum -ī n.
+    definition: iron, iron weapon or implement
+  - term: ferus -a -um
+    definition: wild, fierce; fera -ae f.: wild animal
+  - term: fessus -a -um
+    definition: weary, tired
+  - term: fidēlis -e
+    definition: faithful
+  - term: fidēs -eī f.
+    definition: trust, faith
+  - term: fīlia -ae f.; fīlius -ī m.
+    definition: daughter; son
+  - term: fingō fingere fīnxī fīctum
+    definition: shape; invent
+  - term: fīnis -is m.
+    definition: end, boundary
+  - term: fīō fierī factus sum
+    definition: become, happen, be done
+  - term: flamma -ae f.
+    definition: flame, fire
+  - term: fleō flēre flēvī flētum
+    definition: weep
+  - term: flōs flōris m.
+    definition: flower, bloom
+  - term: fluctus -ūs m
+    definition: flood, billow, surf
+  - term: flūmen -inis n.
+    definition: stream, river
+  - term: fluō fluere fluxī fluxum
+    definition: flow
+  - term: foedus -a -um
+    definition: foul
+  - term: fōns fontis m.
+    definition: spring, fountain
+  - term: for fārī fātus sum
+    definition: report, say
+  - term: fōrma -ae f.
+    definition: shape; beauty
+  - term: fors fortis f.
+    definition: chance
+  - term: forsitan, fortasse
+    definition: perhaps, perchance
+  - term: forte
+    definition: by chance
+  - term: fortis -e
+    definition: brave
+  - term: fortūna -ae f.
+    definition: fortune
+  - term: forum -ī n.
+    definition: market-place, forum
+  - term: frangō frangere frēgī frāctum
+    definition: break, shatter
+  - term: frāter frātris m.
+    definition: brother
+  - term: frequēns -ntis
+    definition: in large numbers, often
+  - term: frōns frontis f.
+    definition: forehead, brow; front
+  - term: frūctus -ūs m.
+    definition: fruit, crops; enjoyment, delight
+  - term: frūmentum -ī n.
+    definition: grain
+  - term: fruor fruī frūctus sum
+    definition: enjoy the produce of, profit by, use (+ abl.)
+  - term: frūstrā
+    definition: in vain
+  - term: fuga -ae f.
+    definition: flight, route
+  - term: fugiō fugere fūgī fugitum
+    definition: flee, escape
+  - term: fugō -āre
+    definition: put to flight
+  - term: fundō fundere fūdī fūsum
+    definition: pour, scatter
+  - term: fūnus fūneris n.
+    definition: funeral; death; dead body
+  - term: furor -ōris m.
+    definition: rage, fury
+  - term: fore
+    definition: 
+  - term: gaudeō gaudēre gāvīsus sum
+    definition: rejoice
+  - term: gaudium -ī n.
+    definition: delight, joy, pleasure
+  - term: gēns gentis f.
+    definition: family, clan
+  - term: genus generis n.
+    definition: origin, lineage, kind
+  - term: gerō gerere gessī gestum
+    definition: bear, manage; bellum gerere, wage war
+  - term: gīgnō gīgnere genuī genitum
+    definition: beget, bear, bring forth
+  - term: gladius -ī m.
+    definition: sword
+  - term: glōria -ae f.
+    definition: glory, fame
+  - term: gradus -ūs m.
+    definition: step, pace; grade, rank
+  - term: grātia -ae f.
+    definition: favor, influence, gratitude
+  - term: grātus -a -um
+    definition: pleasant; grateful
+  - term: gravis -e
+    definition: heavy, serious
+  - term: habeō habēre habuī habitum
+    definition: have, hold
+  - term: haud
+    definition: not
+  - term: hic haec hoc
+    definition: this, these
+  - term: hīc
+    definition: here; hinc: from here
+  - term: hiems hiemis f.
+    definition: winter
+  - term: hodiē
+    definition: today
+  - term: homō hominis m.
+    definition: human being
+  - term: honestus -a -um
+    definition: honorable
+  - term: honor -ōris m.
+    definition: honor, glory; office, post
+  - term: hōra -ae f.
+    definition: hour
+  - term: hortor hortārī hortātus sum
+    definition: urge strongly, advise, exhort
+  - term: hospes hospitis m.
+    definition: guest, guest-friend; stranger; host
+  - term: hostis -is m./f.
+    definition: stranger, enemy
+  - term: hūc
+    definition: to this place
+  - term: hūmānus -a -um
+    definition: human
+  - term: humus -ī f.
+    definition: ground; humī: on the ground
+  - term: iaceō iacēre iacuī
+    definition: lie
+  - term: iaciō iacere iēcī iactum
+    definition: throw, hurl
+  - term: iam
+    definition: now; already
+  - term: ibi
+    definition: there
+  - term: īctus -ūs m.
+    definition: blow, stroke
+  - term: īdem eadem idem
+    definition: the same
+  - term: ideō
+    definition: for this reason
+  - term: igitur
+    definition: therefore
+  - term: ignis -is m.
+    definition: fire
+  - term: ille illa illud
+    definition: that
+  - term: illīc
+    definition: at that place, there; illinc: from that place
+  - term: illūc
+    definition: to that place
+  - term: imāgō -inis f.
+    definition: image, form, figure
+  - term: imperātor -ōris m.
+    definition: commander
+  - term: imperium -ī n.
+    definition: command, power
+  - term: imperō -āre
+    definition: command, control
+  - term: impetus -ūs m.
+    definition: attack
+  - term: impleō -ēre -plēvī -plētum
+    definition: fill in, fill up
+  - term: impōnō -ere -posuī -positum
+    definition: put in, put on, impose, levy upon
+  - term: in
+    definition: in, on (+ abl.); into, onto (+ acc)
+  - term: incidō incidere incidī
+    definition: fall upon, fall into; happen
+  - term: incipiō -cipere -cēpī -ceptum
+    definition: begin
+  - term: inde
+    definition: from there, from then
+  - term: indicō -āre
+    definition: point out, show, make known
+  - term: īnferō īnferre intulī illātum
+    definition: bring upon, against; bellum īnferre: make war on
+  - term: īnferus -a -um
+    definition: low; īnferior: lower; īnfimus or īmus: lowest
+  - term: ingenium -ī n.
+    definition: disposition, ability, talent
+  - term: ingēns ingentis
+    definition: huge, enormous
+  - term: ingrātus -a -um:
+    definition: unpleasant, disagreeable
+  - term: ingredior -gredī -gressus sum:
+    definition: step in, enter
+  - term: inimīcus -a -um:
+    definition: unfriendly; (as subst.) enemy
+  - term: initium -ī n.:
+    definition: beginning
+  - term: iniūria -ae f.:
+    definition: injustice, wrong, affront
+  - term: inquam, inquis, inquit, inquiunt:
+    definition: say (used with direct speech)
+  - term: īnstituō -stituere -stituī -stitūtum:
+    definition: undertake; equip
+  - term: īnsula -ae f.:
+    definition: island
+  - term: integer -gra -grum:
+    definition: untouched, fresh, complete, whole
+  - term: intellegō -legere -lēxī -lēctum:
+    definition: understand
+  - term: intendō -tendere -tendī -tentum:
+    definition: stretch out, strain
+  - term: inter
+    definition: between, among; during (+ acc.)
+  - term: interficiō -ficere -fēcī -fectum
+    definition: kill
+  - term: interim
+    definition: meanwhile
+  - term: interrogō -āre
+    definition: put a question to, ask (+ acc.)
+  - term: intersum -esse -fuī
+    definition: to be between; take part in, attend (+dat.); interest, it is in the interest of (+ gen.)
+  - term: intrā
+    definition: within (+ acc.)
+  - term: intrō -āre
+    definition: enter
+  - term: inveniō -venīre -vēnī -ventum
+    definition: find; discover
+  - term: invidia -ae f.
+    definition: envy, jealousy, hatred
+  - term: ipse ipsa ipsum
+    definition: him- her- itself
+  - term: īra irae f.
+    definition: wrath, anger
+  - term: īrāscor īrāscī īrātus sum
+    definition: grow angry; īrātus -a -um: angry
+  - term: is ea id
+    definition: he, she, it
+  - term: iste ista istud
+    definition: that, that of yours; adv. istīc or istūc: over there; istinc: from over there
+  - term: ita
+    definition: thus, so
+  - term: itaque
+    definition: and so, therefore
+  - term: item
+    definition: likewise
+  - term: iter itineris n.
+    definition: journey, route
+  - term: iterum
+    definition: again
+  - term: iubeō iubēre iussī iussum
+    definition: bid, order
+  - term: iūdex iūdicis m.
+    definition: judge, juror
+  - term: iūdicium -ī n.
+    definition: judgment, decision, trial
+  - term: iūdicō -āre
+    definition: judge, decide
+  - term: iugum -ī n.
+    definition: yoke; ridge, chain of hills
+  - term: iungō iungere iūnxī iūnctum
+    definition: join
+  - term: iūrō -āre
+    definition: take an oath, swear; iūs iūrandum, oath
+  - term: iūs iūris n.
+    definition: right, justice, law
+  - term: iūstus -a -um
+    definition: right, just, fair
+  - term: iuvenis -is m.
+    definition: youth
+  - term: iuvō iuvāre iūvī iūtum
+    definition: help, assist; please, delight
+  - term: labor -ōris m.
+    definition: toil, exertion
+  - term: labōrō -āre
+    definition: toil, work; be in trouble or distress
+  - term: lacrima -ae f.
+    definition: tear
+  - term: laedō laedere laesī laesum
+    definition: injure by striking, hurt
+  - term: laetus -a -um
+    definition: glad, joyful
+  - term: lapis lapidis m.
+    definition: stone
+  - term: lateō latēre latuī
+    definition: lie hidden, be hidden
+  - term: latus -eris n.
+    definition: side, flank
+  - term: lātus -a -um
+    definition: broad, wide
+  - term: laudō -āre
+    definition: praise
+  - term: laus laudis f.
+    definition: praise, glory
+  - term: lēgātus -ī m.
+    definition: lieutenant, envoy
+  - term: legiō -ōnis f.
+    definition: legion
+  - term: legō legere lēgī lēctum
+    definition: gather, choose, read
+  - term: levis -e
+    definition: light, trivial
+  - term: lēx lēgis f.
+    definition: law
+  - term: liber librī m.
+    definition: book
+  - term: līber lībera līberum
+    definition: free; līberī (m. pl.): freeborn children
+  - term: lībertās -ātis f.
+    definition: freedom
+  - term: libet libēre libuit or libitum est
+    definition: it is pleasing (+ dat. + infin.)
+  - term: libīdō -inis f.
+    definition: passion, lust
+  - term: licet licēre licuit licitum est
+    definition: it is permitted (+ dat. + infin.)
+  - term: licet
+    definition: even though
+  - term: līmen līminis n.
+    definition: threshold
+  - term: lingua -ae f.
+    definition: tongue; language
+  - term: littera -ae f.
+    definition: letter, (pl.) literature
+  - term: lītus -oris n.
+    definition: shore
+  - term: locus -ī m.
+    definition: place; loca (n. pl.) region
+  - term: longē
+    definition: far, far off
+  - term: longus -a -um
+    definition: long, far
+  - term: loquor loquī locūtus sum
+    definition: speak, talk
+  - term: lūmen luminis n.
+    definition: light
+  - term: lūna -ae f.
+    definition: moon
+  - term: lūx lūcis f.
+    definition: light of day
+  - term: maestus -a -um
+    definition: sad, sorrowful; depressing
+  - term: magis
+    definition: more
+  - term: magister magistrī m.
+    definition: master, chief
+  - term: māgnitūdō -inis f.
+    definition: greatness, size
+  - term: māgnus -a -um
+    definition: great
+  - term: māiōrēs māiōrum m.
+    definition: ancestors
+  - term: male
+    definition: (adv.) badly
+  - term: mālō mālle māluī
+    definition: prefer
+  - term: malus -a -um
+    definition: bad, evil
+  - term: maneō manēre mānsī mānsum
+    definition: remain
+  - term: manus -ūs f.
+    definition: hand; band of men
+  - term: mare -is n.
+    definition: sea
+  - term: marītus -ī m.
+    definition: husband
+  - term: māter mātris f.
+    definition: mother
+  - term: māteria -ae f.
+    definition: material, subject matter; timber, lumber
+  - term: medius -a -um
+    definition: middle, central
+  - term: membrum -ī n.
+    definition: limb, member of the body
+  - term: meminī meminisse
+    definition: remember, recollect
+  - term: memoria -ae f.
+    definition: recollection, memory
+  - term: mēns mentis f.
+    definition: mind
+  - term: mēnsa -ae f.
+    definition: table
+  - term: mereō merēre meruī meritum
+    definition: deserve, merit; serve as a soldier
+  - term: metuō metuere metuī
+    definition: to fear, to dread
+  - term: metus -ūs m.
+    definition: fear, dread
+  - term: meus -a -um
+    definition: my
+  - term: mīles -itis m.
+    definition: soldier
+  - term: mīlle (pl.) mīlia
+    definition: thousand
+  - term: mīror mīrārī mīrātus sum
+    definition: wonder at, marvel at (+ acc.)
+  - term: misceō miscēre miscuī mixtum
+    definition: mix
+  - term: miser misera miserum
+    definition: wretched, pitiable
+  - term: mittō mittere mīsī missum
+    definition: send, let go
+  - term: modo
+    definition: just, just now; modo ... modo: now ... now, at one moment ... at another, sometimes ... sometimes
+  - term: modus -ī m.
+    definition: measure, manner, kind
+  - term: moenia -ium n. pl.
+    definition: walls, fortifications
+  - term: mollis -e
+    definition: soft, yielding, gentle
+  - term: moneō monēre monuī monitum
+    definition: warn, advise
+  - term: mōns montis m.
+    definition: mountain
+  - term: mora -ae f.
+    definition: delay, hindrance
+  - term: morbus -ī m.
+    definition: sickness, disease
+  - term: morior morī mortuus sum
+    definition: die
+  - term: moror morārī morātus sum
+    definition: delay
+  - term: mors mortis f.
+    definition: death
+  - term: mortālis -e
+    definition: liable to death, mortal; (as subst.) a mortal
+  - term: mōs mōris m.
+    definition: custom, habit; (pl.) character
+  - term: moveō -ēre mōvī mōtum
+    definition: move
+  - term: mox
+    definition: soon
+  - term: mulier -eris f.
+    definition: woman
+  - term: multitūdō -inis f.
+    definition: multitude, number
+  - term: multus -a -um
+    definition: much, many; multō, by far
+  - term: mundus -ī m.
+    definition: world, universe, heavens
+  - term: mundus -a -um
+    definition: clean, neat, elegant
+  - term: mūnus mūneris n.
+    definition: gift, offering; duty, obligation; (pl.) gladiatorial show
+  - term: mūrus -ī m.
+    definition: wall
+  - term: mūtō -āre
+    definition: change
+  - term: nam or namque
+    definition: for, indeed, really
+  - term: narrō -āre
+    definition: relate, recount
+  - term: nāscor nāscī nātus sum
+    definition: be born
+  - term: nātūra -ae f.
+    definition: nature
+  - term: nātus -ī m.
+    definition: son
+  - term: nāvis -is f.
+    definition: ship
+  - term: ne (enclitic)
+    definition: interrogative particle attached to the emphatic word in a question
+  - term: nē
+    definition: lest, that not
+  - term: nec
+    definition: and not, nor; nec ... nec, neither ... nor; → neque
+  - term: necesse (indecl. adj.)
+    definition: necessary
+  - term: necessitās -tātis f.
+    definition: necessity, need
+  - term: nefās n. indecl.
+    definition: impiety, wickedness
+  - term: negō -āre
+    definition: deny, refuse
+  - term: negōtium -ī n.
+    definition: business
+  - term: nēmō
+    definition: no one (gen. nūllīus, dat. nūllī, abl. nūllō or nūllā → nūllus -a -um)
+  - term: nemus nemoris n.
+    definition: grove, forest
+  - term: neque
+    definition: and not, nor; neque ... neque, neither ... nor; → nec
+  - term: nesciō -scīre
+    definition: not know, be ignorant
+  - term: nisi, nī
+    definition: if not, unless
+  - term: niger nigra nigrum
+    definition: black
+  - term: nihil, nīl
+    definition: nothing; not at all
+  - term: nimis or nimium
+    definition: excessively
+  - term: nimius -a -um
+    definition: too much, excessive
+  - term: nōbilis -e
+    definition: distinguished, noble; (as subst.) a nobleman or woman
+  - term: noceō nocēre nocuī
+    definition: harm
+  - term: nōlō nōlle nōluī
+    definition: be unwilling
+  - term: nōmen -inis n.
+    definition: name
+  - term: nōn
+    definition: not
+  - term: nōndum
+    definition: not yet
+  - term: nōs nostrum/nostrī nōbīs nōs
+    definition: we
+  - term: nōscō nōscere nōvī nōtum
+    definition: learn, know
+  - term: noster nostra nostrum
+    definition: our
+  - term: nōtus -a -um
+    definition: well-known
+  - term: novus -a -um
+    definition: new
+  - term: nox noctis f.
+    definition: night
+  - term: nūdus -a -um
+    definition: naked, bare
+  - term: nūllus -a -um
+    definition: not any, no one
+  - term: num
+    definition: interrogative particle implying negative answer
+  - term: nūmen -inis n.
+    definition: divine will, deity
+  - term: numerus -ī m.
+    definition: number, amount
+  - term: numquam
+    definition: never
+  - term: nunc
+    definition: now
+  - term: nūntius -ī m.
+    definition: messenger; news
+  - term: ob
+    definition: against, on account of (+acc)
+  - term: occīdō -cīdere -cīdī -cīsum
+    definition: kill, cut down
+  - term: occupō -āre
+    definition: seize, occupy; anticipate, do a thing first (+ infin.)
+  - term: occurrō -currere -cucurrī -cursum
+    definition: run to meet; come into one’s mind
+  - term: oculus -ī m.
+    definition: eye
+  - term: ōdī ōdisse
+    definition: hate
+  - term: odium -ī n.
+    definition: hatred
+  - term: offerō offerre obtulī oblātum
+    definition: present, offer, expose
+  - term: officium -ī n.
+    definition: service, duty
+  - term: ōlim
+    definition: formerly, at that time
+  - term: omnis -e
+    definition: all, every, as a whole
+  - term: onus oneris n.
+    definition: load, burden
+  - term: opera -ae f.
+    definition: labor, activity, work
+  - term: oportet -ēre -uit
+    definition: it is proper, right (+ acc. + infin.)
+  - term: oppidum -ī n.
+    definition: town
+  - term: ops opis f.
+    definition: assistance, resources
+  - term: optō -āre
+    definition: choose, select
+  - term: opus operis n.
+    definition: work
+  - term: ōrātiō -ōnis f.
+    definition: speech, address
+  - term: orbis -is m.
+    definition: circle; orbis terrārum: world
+  - term: ōrdō -īnis m.
+    definition: order, rank
+  - term: orior orīrī ortus sum
+    definition: arise, begin
+  - term: ōrō -āre
+    definition: pray
+  - term: ōs ōris n.
+    definition: mouth, face
+  - term: os ossis n.
+    definition: bone
+  - term: ostendō ostendere ostendī ostentum
+    definition: show, hold out
+  - term: ōtium -ī n.
+    definition: leisure
+  - term: paene
+    definition: almost
+  - term: pār paris
+    definition: equal
+  - term: parcō parcere pepercī parsum
+    definition: spare, be sparing of (+ dat.)
+  - term: parēns -ntis m./f.
+    definition: parent
+  - term: pāreō pārēre pāruī
+    definition: obey
+  - term: pariō parere peperī partum
+    definition: bring forth, give birth to; accomplish
+  - term: parō -āre
+    definition: prepare, acquire; parātus -a -um, ready
+  - term: pars partis f.
+    definition: part
+  - term: parum
+    definition: too little
+  - term: parvus -a -um
+    definition: small
+  - term: pateō patēre patuī
+    definition: lie open, extend; be evident or obvious
+  - term: pater patris m.
+    definition: father, ancestor
+  - term: patior patī passus sum
+    definition: permit, endure
+  - term: patria -ae f.
+    definition: fatherland, country
+  - term: paucī -ae -a
+    definition: few, a few
+  - term: paulō, paulum
+    definition: to only a small extent, slightly, a little
+  - term: pauper -eris
+    definition: poor, lowly
+  - term: pāx pācis f.
+    definition: peace
+  - term: peccō -āre
+    definition: commit a wrong, injure
+  - term: pectus -oris n.
+    definition: chest, breast
+  - term: pecūnia -ae f.
+    definition: money
+  - term: pecus -oris n.
+    definition: cattle, sheep
+  - term: pellō pellere pepulī pulsum
+    definition: strike, beat, push, drive
+  - term: pendō pendere pependī pēnsum
+    definition: weigh, hang, suspend; pay
+  - term: per
+    definition: through (+acc.)
+  - term: perdō -dere -didī -ditum
+    definition: destroy
+  - term: pereō -īre -iī -itum
+    definition: perish, be lost
+  - term: pergō pergere perrēxī perrēctum
+    definition: continue, proceed; awaken
+  - term: perīculum -ī n.
+    definition: danger
+  - term: permittō -mittere -mīsī -missum
+    definition: yield, allow, permit
+  - term: perpetuus -a -um
+    definition: unbroken, perpetual
+  - term: pertineō -tinēre -tinuī
+    definition: extend over, reach; refer to, pertain to, be the business of
+  - term: perveniō -venīre -vēnī -ventum
+    definition: arrive, reach
+  - term: pēs pedis m.
+    definition: foot
+  - term: petō petere petīvī petītum
+    definition: seek, aim at
+  - term: pietās -tātis f.
+    definition: sense of duty, devotion, esp. between parents and children
+  - term: pius -a -um
+    definition: dutiful, devoted, just, pious
+  - term: placeō placēre placuī placitum
+    definition: please
+  - term: plēbs plēbis f.
+    definition: the common people
+  - term: plēnus -a -um
+    definition: full
+  - term: plērumque
+    definition: generally
+  - term: plērus- plēra- plērumque
+    definition: the greater part, very many, most, the majority
+  - term: poena -ae f.
+    definition: penalty, punishment
+  - term: poēta -ae m.
+    definition: poet
+  - term: pondus ponderis n.
+    definition: weight
+  - term: pōnō pōnere posuī positum
+    definition: put, place; put aside
+  - term: pontus -ī m.
+    definition: the open sea, the deep
+  - term: populus -ī m.
+    definition: people
+  - term: porta -ae f.
+    definition: gate
+  - term: portō -āre
+    definition: carry a load
+  - term: pōscō pōscere popōscī
+    definition: demand, claim; inquire into
+  - term: possum posse potuī
+    definition: be able
+  - term: post
+    definition: after (adv. and prep. +acc.)
+  - term: posteā
+    definition: afterwards
+  - term: posterus -a -um
+    definition: next, later
+  - term: postquam
+    definition: after
+  - term: potēns potentis
+    definition: able, powerful
+  - term: potestās -ātis f.
+    definition: power
+  - term: potis -e
+    definition: powerful, able
+  - term: praebeō -ēre -uī -itum
+    definition: furnish, supply, render
+  - term: praeceptum -ī n.
+    definition: rule, precept; command
+  - term: praecipiō -cipere -cēpī -ceptum
+    definition: anticipate, advise, warn
+  - term: praeda -ae f.
+    definition: booty, prey
+  - term: praemium -ī n.
+    definition: bounty, reward
+  - term: praesēns -ntis
+    definition: present, in person, ready
+  - term: praesidium -ī n.
+    definition: garrison, protection
+  - term: praestō -stāre -stitī -stitum
+    definition: excel, exhibit
+  - term: praeter
+    definition: by, along, past; besides, except (+ acc.)
+  - term: praetereā
+    definition: besides, moreover
+  - term: praetor -ōris m.
+    definition: praetor, one of the chief Roman magistrates
+  - term: precor -ārī
+    definition: pray, invoke
+  - term: premō premere pressī pressum
+    definition: press, pursue, overwhelm
+  - term: pretium -ī n.
+    definition: price, worth, reward; pretium operae: a reward for trouble
+  - term: prex precis f.
+    definition: prayers, entreaties
+  - term: prīmum
+    definition: at first, firstly
+  - term: prīmus -a -um
+    definition: first
+  - term: prīnceps -cipis
+    definition: first, chief; (as subst.) leader, person in charge
+  - term: prīncipium -ī n.
+    definition: beginning
+  - term: prior prius
+    definition: earlier, preceding
+  - term: prīvātus -a -um
+    definition: personal, private
+  - term: prius or priusquam
+    definition: before
+  - term: prō
+    definition: for, on behalf of, in proportion to (+abl.)
+  - term: probō -āre
+    definition: approve, prove; convince one (dat.) of a thing (acc.)
+  - term: prōcēdō -cēdere -cessī -cessum
+    definition: go forth, advance
+  - term: procul
+    definition: at a distance
+  - term: prōdō prōdere prōdidī prōditum
+    definition: publish, hand down; give over, betray
+  - term: proelium -ī n.
+    definition: battle
+  - term: proficīscor -ficīscī -fectus sum
+    definition: set forth, go
+  - term: prohibeō -ēre -uī -itum
+    definition: restrain, keep away
+  - term: prōmittō -mittere -mīsī -missum
+    definition: send forth, offer
+  - term: prope
+    definition: near, next; (comp.) propior, (superl.) proximus; (adv.) prope, nearly, almost
+  - term: properō -āre
+    definition: hasten, speed
+  - term: prōpōnō -pōnere -posuī -positum
+    definition: put forth, propose, present
+  - term: proprius -a -um
+    definition: one’s own, peculiar
+  - term: propter
+    definition: because of (+ acc.)
+  - term: prōsum prodesse profuī
+    definition: be of use, do good, help (+ dat.)
+  - term: prōtinus
+    definition: at once, forthwith
+  - term: prōvincia -ae f.
+    definition: province; official duty
+  - term: pūblicus -a -um
+    definition: public, belonging to the state
+  - term: pudor pudōris m.
+    definition: sense of shame, modesty, propriety
+  - term: puella -ae f.
+    definition: girl; girl-friend
+  - term: puer puerī m.
+    definition: boy; slave
+  - term: pūgna -ae f.
+    definition: fist-fight; battle
+  - term: pugnō -āre
+    definition: fight
+  - term: pulcher -chra -chrum
+    definition: beautiful
+  - term: putō -āre
+    definition: think, suppose
+  - term: quā
+    definition: where, how
+  - term: quaerō -rere -sīvī -sītum
+    definition: seek, inquire
+  - term: quālis -e
+    definition: of what kind? what?
+  - term: quam
+    definition: how?; (after comparative) than
+  - term: quamquam
+    definition: however, although
+  - term: quamvīs
+    definition: however you like; although
+  - term: quandō
+    definition: when?; since; sī quandō: if ever
+  - term: quantum
+    definition: (adv.) how much? how greatly? how much! how greatly! as much as
+  - term: quantus -a -um
+    definition: (interr.) how great? (rel.) of what size, amount, etc. (as subst.) what amount? (rel.) which amount; quantī, at what price? (rel.) at which price
+  - term: quārē
+    definition: how? why?
+  - term: quasi
+    definition: as if
+  - term: quattuor
+    definition: four
+  - term: que
+    definition: and (postpositive enclitic)
+  - term: quemadmodum
+    definition: in what manner, how
+  - term: queror querī questus sum
+    definition: complain of, lament
+  - term: quī quae quod
+    definition: who, which, what
+  - term: quia
+    definition: because
+  - term: quīcumque quaecumque quodcumque
+    definition: who-, whatever
+  - term: quīdam quaedam quoddam
+    definition: a certain one, someone
+  - term: quidem
+    definition: certainly, at least
+  - term: quiēscō quiēscere quiēvī quiētum
+    definition: keep quiet; sleep
+  - term: quīn
+    definition: (adv.) indeed, in fact; (conjunction) so that ... not (+ subj.)
+  - term: quīppe
+    definition: (adv.) indeed, surely
+  - term: quis quid
+    definition: who? what? which?
+  - term: quisquam quicquam/quidquam
+    definition: any (single) person, anyone at all
+  - term: quisque quaeque quidque
+    definition: each one, everyone
+  - term: quisquis quidquid
+    definition: whoever, whichever
+  - term: quō
+    definition: for which reason; to or in what place; to what end, for what purpose?
+  - term: quōmodo
+    definition: in what way, how?
+  - term: quondam
+    definition: formerly, once
+  - term: quoniam
+    definition: since, seeing that
+  - term: quoque
+    definition: also, too
+  - term: quotiēns
+    definition: interr. how many times? how often? rel. as often as, whenever
+  - term: rapiō rapere rapuī raptum
+    definition: seize, tear away
+  - term: rārus -a -um
+    definition: wide apart, loose, thin; rare, seldom
+  - term: ratiō -ōnis f.
+    definition: method, plan, reason
+  - term: recēdō -cēdere -cessī -cessum
+    definition: step back, recoil, recede, withdraw
+  - term: recēns -ntis
+    definition: fresh, new
+  - term: recipiō -cipere -cēpī -ceptum
+    definition: take back, receive; sē recipere, betake oneself, go
+  - term: rēctus -a -um
+    definition: straight, direct
+  - term: reddō -dere -didī -ditum
+    definition: return, give back
+  - term: redeō -īre -iī -itum
+    definition: go back, return
+  - term: referō referre rettulī relātum
+    definition: bring back; report
+  - term: regiō -ōnis f.
+    definition: boundary, region
+  - term: rēgius -a -um
+    definition: kingly, royal
+  - term: rēgnum -ī n.
+    definition: kingship, kingdom
+  - term: regō regere rēxī rēctum
+    definition: guide, rule
+  - term: relinquō -linquere -līquī -lictum
+    definition: abandon
+  - term: reliquus -a -um
+    definition: remaining, rest
+  - term: reor rērī rātus sum
+    definition: think, imagine, suppose, deem
+  - term: reperiō -perīre -pperī -pertum
+    definition: find, find out
+  - term: repetō -petere -petīvī -petītum
+    definition: demand, exact; revisit; call to mind, recollect; repeat
+  - term: rēs reī f.
+    definition: thing (rēs pūblica, commonwealth; rēs familiāris, family property, estate; rēs mīlitāris, art of war; rēs novae, revolution)
+  - term: respicio -ere -spēxī -spectum
+    definition: look back, regard, consider
+  - term: respondeō -spondēre -spondī -spōnsum
+    definition: answer
+  - term: retineō -tinēre -tinuī -tentum
+    definition: hold back, keep
+  - term: revertō -vertere -vertī
+    definition: turn back
+  - term: revocō -āre
+    definition: call back, recall
+  - term: reus -ī m.
+    definition: defendant
+  - term: rēx rēgis m.
+    definition: king
+  - term: rīdeō -ēre rīsī rīsum
+    definition: laugh, laugh at
+  - term: rīpa -ae f.
+    definition: bank of a river
+  - term: rogō -āre
+    definition: ask
+  - term: rumpō rumpere rūpī ruptum
+    definition: break, rupture
+  - term: rūrsus
+    definition: back, again
+  - term: rūs rūris n.
+    definition: country
+  - term: sacer sacra sacrum
+    definition: holy, sacred
+  - term: sacerdōs -dōtis m./f.
+    definition: priest, priestess
+  - term: saeculum -ī n.
+    definition: generation, age, century
+  - term: saepe
+    definition: often
+  - term: saevus -a -um
+    definition: fierce, raging, wrathful
+  - term: salūs -ūtis f.
+    definition: health, safety
+  - term: sānctus -a -um
+    definition: sacred, inviolable
+  - term: sanguis -inis m.
+    definition: blood
+  - term: sānus -a -um
+    definition: sound, sane
+  - term: sapiēns -ntis
+    definition: wise; (as subst.) wise man, sage, philosopher
+  - term: sapientia -ae f.
+    definition: wisdom
+  - term: satis, sat
+    definition: enough, sufficient, sufficiently
+  - term: saxum -ī n.
+    definition: rock, cliff, crag
+  - term: scelus -eris n.
+    definition: crime, sin
+  - term: scientia -ae f.
+    definition: knowledge
+  - term: scīlicet
+    definition: certainly, of course
+  - term: sciō -īre -īvī/-iī -ītum
+    definition: know
+  - term: scrībō scrībere scrīpsī scrīptum
+    definition: write
+  - term: secundus -a -um
+    definition: following; favorable; (as numeral) second
+  - term: sēcūrus -a -um
+    definition: free from care, tranquil; careless
+  - term: sed
+    definition: but
+  - term: sedeō sedēre sēdī sessum
+    definition: sit
+  - term: sēdēs -is f.
+    definition: seat, abode, habitation
+  - term: semel
+    definition: once
+  - term: semper
+    definition: always, ever
+  - term: senātus -ūs m.
+    definition: senate
+  - term: senex -is m.
+    definition: old man, elder; senior, older
+  - term: sēnsus -ūs m.
+    definition: feeling, emotion, sense
+  - term: sententia -ae f.
+    definition: opinion, judgment
+  - term: sentiō sentīre sēnsī sēnsum
+    definition: perceive, feel, hear, see
+  - term: sepulcrum -ī n.
+    definition: place of burial, tomb, grave
+  - term: sequor sequī secūtus sum
+    definition: follow
+  - term: sermō -ōnis m.
+    definition: conversation, discourse
+  - term: serviō -īre
+    definition: be a slave, serve (+ dat.)
+  - term: servō -āre
+    definition: save, watch over
+  - term: servus -ī m.
+    definition: slave
+  - term: seu
+    definition: whether; seu ... seu: whether ... or → sīve
+  - term: sī
+    definition: if
+  - term: sīc
+    definition: in this manner, thus; sīc ... ut: in the same way as
+  - term: sīcut
+    definition: just as
+  - term: sīdus -eris n.
+    definition: star, constellation
+  - term: sīgnum -ī n.
+    definition: sign, standard, mark
+  - term: silva -ae f.
+    definition: forest, grove
+  - term: similis -e
+    definition: like, similar
+  - term: simul
+    definition: at the same time
+  - term: sine
+    definition: without (+ abl.)
+  - term: singulī -ae -a
+    definition: one each
+  - term: sinō sinere sīvī situm
+    definition: allow, let go
+  - term: sinus -ūs m.
+    definition: fold of a garment; lap, bay, gulf
+  - term: sīve
+    definition: whether; sīve ... sīve: whether ... or → seu
+  - term: socius -a -um
+    definition: friendly, allied; socius -ī m.: partner, comrade
+  - term: sōl sōlis m.
+    definition: sun
+  - term: soleō -ēre -uī -itum
+    definition: be accustomed
+  - term: sōlum
+    definition: only, merely
+  - term: solvō solvere solvī solūtum
+    definition: release, set sail
+  - term: sōlus -a -um
+    definition: only, alone
+  - term: somnus -ī m.
+    definition: sleep, slumber; (pl.) dreams
+  - term: sonō sonāre sonuī sonitum
+    definition: sound, resound
+  - term: soror -ōris f.
+    definition: sister
+  - term: sors sortis f.
+    definition: lot, fate, destiny; oracle
+  - term: spargō spargere sparsī sparsum
+    definition: scatter
+  - term: spatium -ī n.
+    definition: space
+  - term: speciēs -ēī f.
+    definition: aspect, appearance
+  - term: spectō -āre
+    definition: look at, consider
+  - term: spērō -āre
+    definition: to hope
+  - term: spēs speī f.
+    definition: hope
+  - term: spīritus -ūs m.
+    definition: breath, life, spirit
+  - term: statim
+    definition: immediately
+  - term: statuō -ere -uī -ūtum
+    definition: set up, determine
+  - term: stella -ae f.
+    definition: star
+  - term: stō stāre stetī statum
+    definition: stand
+  - term: studeō -ēre -uī
+    definition: be eager, be zealous, care for (+ dat.)
+  - term: studium -ī n.
+    definition: eagerness, zeal
+  - term: sub
+    definition: under, close to (+acc. or abl.)
+  - term: subeō -īre -iī -itum
+    definition: go under; endure
+  - term: subitō
+    definition: suddenly, unexpectedly
+  - term: sui sibi sē/sēsē
+    definition: him- her- itself, themselves
+  - term: sum esse fuī futūrum
+    definition: be, exist; fut. infin. often = fore, impf. subj. often = forem for essem
+  - term: sūmō sūmere sūmpsī sūmptum
+    definition: take up
+  - term: super
+    definition: over (adv. and prep. +acc.)
+  - term: superbus -a -um
+    definition: overbearing, proud, haughty
+  - term: superī -ōrum m. pl.
+    definition: those above, i.e. the gods
+  - term: superō -āre
+    definition: overcome, surpass, defeat
+  - term: supersum -esse -fuī
+    definition: remain, survive; be superfluous (to)
+  - term: superus -a -um
+    definition: situated above, upper
+  - term: supplicium -ī n.
+    definition: punishment, penalty
+  - term: suprā
+    definition: above, beyond (adv. and prep. +acc.)
+  - term: surgō surgere surrēxī surrēctum
+    definition: rise
+  - term: suscipiō -cipere -cēpī ceptum
+    definition: take up
+  - term: sustineō sustinēre sustinuī sustentum
+    definition: hold up, sustain
+  - term: suus -a -um
+    definition: his own, her own, its own
+  - term: taceō -ēre -uī -itum
+    definition: be silent; tacitus -a -um, silent
+  - term: tālis tāle
+    definition: such
+  - term: tam
+    definition: so, so much
+  - term: tamen
+    definition: nevertheless, still
+  - term: tamquam
+    definition: so as, just as
+  - term: tandem
+    definition: finally
+  - term: tangō tangere tetigī tāctum
+    definition: touch
+  - term: tantum, tantummodo
+    definition: only
+  - term: tantus -a -um
+    definition: so great, so much; (as pronoun) such a quantity, so much; tantī, at such a price, of such worth
+  - term: tardus -a -um
+    definition: slow, sluggish, lingering
+  - term: tēctum -ī n.
+    definition: roof; building, house
+  - term: tegō tegere tēxī tēctum
+    definition: cover, conceal
+  - term: tellus tellūris f.
+    definition: earth
+  - term: tēlum -ī n.
+    definition: missile, weapon, spear
+  - term: tempestas -tātis f.
+    definition: period of time, season; bad weather, storm
+  - term: templum -ī n.
+    definition: consecrated ground; temple
+  - term: tempus -oris n.
+    definition: time
+  - term: tendō tendere tetendī tentum
+    definition: stretch, extend, direct (one’s steps or course)
+  - term: tenebrae -brārum f. pl.
+    definition: darkness, the shadows
+  - term: teneō -ēre -uī tentum
+    definition: hold, keep
+  - term: tener -era -erum
+    definition: tender
+  - term: temptō -āre
+    definition: try, test
+  - term: tergum -ī n.
+    definition: back, rear; ā tergō: from the rear
+  - term: terra -ae f.
+    definition: land
+  - term: terreō terrēre terruī territum
+    definition: terrify, frighten
+  - term: tertius -a -um
+    definition: third
+  - term: testis -is m.
+    definition: witness
+  - term: timeō -ēre -uī
+    definition: to fear, to dread
+  - term: timor -ōris m.
+    definition: fear
+  - term: tollō tollere sustulī sublātum
+    definition: raise up, destroy
+  - term: tot
+    definition: so many
+  - term: tōtus -a -um
+    definition: whole, entire
+  - term: trādō -dere -didī -ditum
+    definition: hand over, yield
+  - term: trahō trahere trāxī trāctum
+    definition: drag, draw
+  - term: trānseō -īre -iī -itum
+    definition: go across
+  - term: trēs tria
+    definition: three
+  - term: tribūnus -ī m.
+    definition: tribune, title of various Roman officials, as mīlitum, plēbis, aerāriī
+  - term: trīstis -e
+    definition: sad, solemn, grim
+  - term: tū tuī tibi tē
+    definition: you (sing.)
+  - term: tum or tunc
+    definition: then
+  - term: turba -ae f.
+    definition: crowd, uproar
+  - term: turbō -āre
+    definition: disturb, confuse
+  - term: turpis -e
+    definition: ugly, unsightly; disgraceful
+  - term: tūtus -a -um
+    definition: safe, protected
+  - term: tuus -a -um
+    definition: your
+  - term: vacō vacāre
+    definition: be empty, open, unoccupied
+  - term: vacuus -a -um
+    definition: empty
+  - term: vagus -a -um
+    definition: wandering, shifting
+  - term: valeō valēre valuī
+    definition: be strong, excel, be valid, prevail; valē: farewell!
+  - term: validus -a -um
+    definition: strong
+  - term: vanus -a -um
+    definition: empty; false, deceitful
+  - term: varius -a -um
+    definition: changing, varied, various
+  - term: vātēs -is m.
+    definition: poet, bard
+  - term: ubi
+    definition: where, when
+  - term: ve
+    definition: or (postpositive enclitic)
+  - term: vehō vehere vēxī vectum
+    definition: carry; vehor vehī vectus sum: travel, ride
+  - term: vel
+    definition: or else, or; even; vel ... vel: either … or
+  - term: velut
+    definition: even as, just as
+  - term: veniō venīre vēnī ventum
+    definition: come
+  - term: ventus -ī m.
+    definition: wind
+  - term: verbum -ī n.
+    definition: word
+  - term: vērē
+    definition: truly
+  - term: vereor verērī veritus sum
+    definition: fear, stand in awe of
+  - term: vērō
+    definition: in fact, certainly, without doubt
+  - term: vertō vertere vertī versum
+    definition: turn
+  - term: vērus -a -um
+    definition: true
+  - term: vester vestra vestrum
+    definition: your
+  - term: vestīgium -ī n.
+    definition: footstep, footprint, track
+  - term: vestis -is f.
+    definition: garment, robe, clothing
+  - term: vetō -āre vetuī vetītum
+    definition: forbid
+  - term: vetus veteris
+    definition: old
+  - term: via -ae f.
+    definition: way, street
+  - term: vīcīnus -a -um
+    definition: neighboring, near
+  - term: victor -ōris m.
+    definition: conqueror
+  - term: victōria -ae f.
+    definition: victory
+  - term: videō vidēre vīdī vīsum
+    definition: see
+  - term: vincō vincere vīcī victum
+    definition: conquer
+  - term: vinculum -ī n.
+    definition: bond, fetter, tie
+  - term: vīnum -ī n.
+    definition: vine, wine
+  - term: vir virī m.
+    definition: man
+  - term: virgō -inis f.
+    definition: maiden, virgin, girl
+  - term: virtūs -ūtis f.
+    definition: valor, manliness, virtue
+  - term: vīs f.
+    definition: force; (acc.) vim, (abl.) vī; (pl.) vīrēs, strength
+  - term: vīta -ae f.
+    definition: life
+  - term: vitium -ī n.
+    definition: flaw, fault, crime
+  - term: vītō -āre
+    definition: avoid, shun
+  - term: vīvō vīvere vīxī vīctum
+    definition: live
+  - term: vix
+    definition: scarcely
+  - term: ūllus -a -um
+    definition: any, anyone
+  - term: ultimus -a -um
+    definition: farthest, final, last, ultimate
+  - term: ultrā
+    definition: beyond, further (adv. and prep. + acc.)
+  - term: umbra -ae f.
+    definition: shade, shadow
+  - term: umquam
+    definition: ever
+  - term: unda -ae f.
+    definition: wave, flowing water, water
+  - term: unde
+    definition: from where
+  - term: undique
+    definition: from all sides, on all sides
+  - term: ūnus -a -um
+    definition: one
+  - term: vocō -āre
+    definition: call
+  - term: volō velle voluī
+    definition: wish, be willing
+  - term: volucer -cris -cre
+    definition: flying
+  - term: volucris -is f./m.
+    definition: bird
+  - term: voluntās -ātis f.
+    definition: wish, desire
+  - term: voluptās -ātis f.
+    definition: pleasure, enjoyment
+  - term: vōs
+    definition: you (pl.); (gen.) vestrum/vestrī, (dat./abl.) vōbīs, (acc.) vōs
+  - term: vōtum -ī n.
+    definition: solemn promise, vow; hope
+  - term: vōx vōcis f.
+    definition: voice, utterance
+  - term: urbs urbis f.
+    definition: city
+  - term: ūsque
+    definition: up to; continuously
+  - term: ūsus -ūs m.
+    definition: use, experience
+  - term: ut, utī
+    definition: as (+ indic.); so that, with the result that (+ subj.); (in questions) in what manner, how; (exclam.) to what an extent! how!
+  - term: uterque utraque utrumque
+    definition: each of two
+  - term: ūtilis -e
+    definition: useful
+  - term: ūtor ūtī ūsus sum
+    definition: use, consume, employ (+ abl.)
+  - term: utrum
+    definition: whether; utrum ... an: whether ... or
+  - term: vulgō
+    definition: commonly
+  - term: vulgus -ī n. and m.
+    definition: the common people
+  - term: vulnus -eris n.
+    definition: wound
+  - term: vultus -ūs m.
+    definition: look, expression, face
+  - term: uxor uxōris f.
+    definition: wife
