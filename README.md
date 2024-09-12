@@ -14,7 +14,7 @@ The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are writt
 YAML Schema
 -----------
 
-### German
+### [German](./german.yaml)
 
 ```yaml
 vocabulary:
@@ -27,7 +27,7 @@ vocabulary:
 where the `conjugation` is the inflection paradigm for a German verb and `declension` the inflection for nouns and
 adjectives. Only one of the two is present for a term.
 
-### Korean
+### [Korean](./korean.yaml)
 
 ```yaml
 vocabulary:
@@ -35,7 +35,7 @@ vocabulary:
     definition: list
 ```
 
-### Ancient Greek
+### [Ancient Greek](./greek.yaml)
 
 ```yaml
 vocabulary:
@@ -43,7 +43,7 @@ vocabulary:
     definition: list
 ```
 
-### Latin
+### [Latin](./latin.yaml)
 
 ```yaml
 vocabulary:
