@@ -14,7 +14,7 @@ The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are writt
 YAML Schema
 -----------
 
-### Geraman
+### German
 
 ```yaml
 vocabulary:
