@@ -422,6 +422,9 @@ vocabulary:
     definition: on the other hand
   - term: die Bank
     definition: bank
+  - term: das Geld
+    definition: money
+    declension: https://en.wiktionary.org/wiki/Geld#Declension
   - term: Wie ist Ihre Telefonnummer?
     definition: What is your telephone number?
   - term: Welche Telefonnummer haben Sie?
@@ -491,6 +494,8 @@ vocabulary:
     definition: the flea market
   - term: die Bäckerei
     definition: the bakery
+  - term: der Kuchen
+    definition: the cake
   - term: die Kneipe
     definition: the pub
   - term: das Kino
@@ -724,6 +729,9 @@ vocabulary:
   - term: geben
     definition: to give
     conjugation: https://en.wiktionary.org/wiki/geben#Conjugation
+  - term: finden
+    definition: to find
+    conjugation: https://en.wiktionary.org/wiki/finden#Conjugation
   - term: weit
     definition:
       - wide
@@ -733,6 +741,39 @@ vocabulary:
   - term: ungefähr
     definition: (adj.) approximate
     declension: https://en.wiktionary.org/wiki/ungef%C3%A4hr#Declension
+  - term: brauchen
+    definition: to need
+    conjugation: https://en.wiktionary.org/wiki/brauchen#Conjugation
+  - term: nämlich
+    definition:
+      - (adj.) same
+      - (adv. no inflection) namely
+      - (adv. no inflection) because
+    declension: https://en.wiktionary.org/wiki/n%C3%A4mlich#Declension
+  - term: na klar
+    definition: of course
+  - term: die Ecke
+    definition:
+      - corner
+      - (chiefly colloquial) region
+      - (chiefly colloquial) area
+      - (Graph Theory) vertex, node
+  - term: entschuldigen Sie bitte
+    definition: excuse me please
+  - term: um die Ecke
+    definition: around the corner
+  - term: die Straße
+    definition: the street
+    declension: https://en.wiktionary.org/wiki/Stra%C3%9Fe#Declension
+  - term: links
+    definition:
+      - (adv.) on the left
+      - (adv.) to the left
+      - (adv.) inside out
+  - term: rechts
+    definition:
+      - (adv.) on the right
+      - (adv.) to the right
   - term: die Erfahrung
     definition: experience
   - term: der Verletzter
@@ -924,7 +965,7 @@ vocabulary:
     declension: https://www.verbformen.com/?w=Lehre
   - term: erste
     definition: first
-    declension: https://www.verbformen.com/?w=Erster
+    declension: https://en.wiktionary.org/wiki/erste#Declension
   - term: der Teil
     definition: part, portion
     declension: https://www.verbformen.com/?w=Teil
@@ -954,9 +995,6 @@ vocabulary:
   - term: die Anschauung
     definition: intuition, view, opinion
     declension: https://www.verbformen.com/?w=Anschauung
-  - term: finden
-    definition: to find
-    conjugation: https://www.verbformen.com/?w=finden
   - term: statt
     definition: instead of
   - term: möglich
