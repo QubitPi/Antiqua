@@ -24,6 +24,9 @@ vocabulary:
     declension/conjugation: string
 ```
 
+where the `conjugation` is the inflection paradigm for a German verb and `declension` the inflection for nouns and
+adjectives. Only one of the two is present for a term.
+
 ### Korean
 
 ```yaml

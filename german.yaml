@@ -716,6 +716,23 @@ vocabulary:
     definition:
       - possibly
       - of course
+  - term: Gibt es hier in der Nähe einen/eine/ein ...?
+    definition: Is there a ... nearby?
+  - term: gehen
+    definition: to go
+    conjugation: https://en.wiktionary.org/wiki/gehen#Conjugation
+  - term: geben
+    definition: to give
+    conjugation: https://en.wiktionary.org/wiki/geben#Conjugation
+  - term: weit
+    definition:
+      - wide
+      - large
+      - far
+    declension: https://en.wiktionary.org/wiki/weit#Declension
+  - term: ungefähr
+    definition: (adj.) approximate
+    declension: https://en.wiktionary.org/wiki/ungef%C3%A4hr#Declension
   - term: die Erfahrung
     definition: experience
   - term: der Verletzter
@@ -942,9 +959,6 @@ vocabulary:
     conjugation: https://www.verbformen.com/?w=finden
   - term: statt
     definition: instead of
-  - term: geben
-    definition: to give
-    conjugation: https://www.verbformen.com/?w=geben
   - term: möglich
     definition: possible
     declension: https://www.verbformen.com/?w=m%C3%B6glich
