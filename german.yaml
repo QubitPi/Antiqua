@@ -331,8 +331,13 @@ vocabulary:
     definition: there
   - term: jetzt
     definition: now
+  - term: Entschuldigen
+    definition: to excuse
+    conjugation: https://en.wiktionary.org/wiki/entschuldigen#Conjugation
   - term: Entschuldigen Sie
     definition: excuse me
+  - term: entschuldigen Sie bitte
+    definition: excuse me please
   - term: ein paar Fragen
     definition: a few questions
   - term: Darf ich Ihnen ein paar Fragen stellen?
@@ -494,6 +499,8 @@ vocabulary:
     definition: the flea market
   - term: die Bäckerei
     definition: the bakery
+  - term: Dort ist der Kuchen augezeichnet
+    definition: The cake there is excellent
   - term: der Kuchen
     definition: the cake
   - term: die Kneipe
@@ -758,10 +765,10 @@ vocabulary:
       - (chiefly colloquial) region
       - (chiefly colloquial) area
       - (Graph Theory) vertex, node
-  - term: entschuldigen Sie bitte
-    definition: excuse me please
   - term: um die Ecke
     definition: around the corner
+  - term: gehen Sie hier rechts um die Ecke
+    definition: go around the corner to the right here
   - term: die Straße
     definition: the street
     declension: https://en.wiktionary.org/wiki/Stra%C3%9Fe#Declension
