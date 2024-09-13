@@ -18,7 +18,7 @@ YAML Schema
 >
 > The parenthesized value at the beginning of each `definition` item played an un-ignorable role: it is the label of the
 > relationship between `term` and `defintion` in graph database loaded by
-> [Wilhelm SDK](https://github.com/QubitPi/wilhelm-graphdb-python). For example, both
+> [Wilhelm SDK](https://github.com/QubitPi/wilhelm-graphdb-python). For example, both German words
 >
 > ```yaml
 > - term: denn
@@ -37,12 +37,12 @@ YAML Schema
 >      - (adv.) because
 > ```
 >
-> are linked to "because" visually as follows:
+> can mean "because" acting as different types. This is visualized as follows:
 >
 > ![error loading example.png](./example.png)
 >
-> which says both "denn" and "nämlich" can mean "because" when the former acts as a _conjunction_ while the latter goes
-> as an _adverb_. __Visualzing synonyms gives human brain a big advantage on learning a language__
+> __Visualzing synonyms this way presents a big advantage to human brain__ who is exceedingly good at memorizing
+> patterns
 
 ### [German](./german.yaml)
 
