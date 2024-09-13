@@ -774,6 +774,14 @@ vocabulary:
     definition:
       - (adv.) on the right
       - (adv.) to the right
+  - term: gehen Sie die erste Straße links
+    definition: take the first left
+  - term: geradeaus
+    definition: (adv.) straight ahead
+  - term: gehen Sie geradeaus
+    definition: (direction) go straight ahead
+  - term: Dort finden Sie einen/eine/ein ...
+    definition: You will see a/an ... there
   - term: da
     definition:
       - (local) there; here
@@ -921,6 +929,8 @@ vocabulary:
       - for instance
       - possibly
       - really
+  - term: etwa 400 Meter
+    definition: approximately 400 meters
   - term: bessern
     definition: to improve
     conjugation: https://en.wiktionary.org/wiki/bessern#Conjugation
