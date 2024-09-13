@@ -844,6 +844,10 @@ vocabulary:
     definition: to believe
   - term: wissen
     definition: to know
+  - term: die Wissenschaft
+    definition: Science
+    plural: Wissenschaften
+    declension: https://en.wiktionary.org/wiki/Wissenschaft#Declension
   - term: der Mann
     definition: man
   - term: nie
