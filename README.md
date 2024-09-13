@@ -17,7 +17,7 @@ YAML Schema
 > [!TIP]
 > The parenthesized value at the beginning of each `definition` item played an un-ignorable role: it is the label of the
 > relationship between `term` and `defintion` in graph database loaded by
-  [Wilhelm SDK](https://github.com/QubitPi/wilhelm-graphdb-python)
+> [Wilhelm SDK](https://github.com/QubitPi/wilhelm-graphdb-python)
 
 ### [German](./german.yaml)
 
@@ -29,7 +29,7 @@ vocabulary:
     declension/conjugation: string
 ```
 
-- The `conjugation` is the inflection paradigm for a German verb and `declension` the inflection for nouns and 
+- The `conjugation` is the inflection paradigm for a German verb and `declension` the inflection for nouns and
   adjectives. Only one of the two is present for a term.
 - The type of the word can be inferred using the following rule
 
@@ -53,7 +53,7 @@ vocabulary:
           - (adv.) then, thus
           - (conj.) because
     ```
-    
+
     tells that "denn" can be both an __adverb__ or __conjunction__
 
 ### [Korean](./korean.yaml)
