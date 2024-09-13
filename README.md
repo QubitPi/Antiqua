@@ -14,6 +14,12 @@ The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are writt
 YAML Schema
 -----------
 
+> [!TIP]
+> 
+> The parenthesized value at the beginning of each `definition` item played an un-ignorable role: it is the label of the
+> relationship between `term` and `defintion` in graph database loaded by
+  [Wilhelm SDK](https://github.com/QubitPi/wilhelm-graphdb-python)
+
 ### [German](./german.yaml)
 
 ```yaml
