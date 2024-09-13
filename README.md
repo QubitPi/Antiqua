@@ -42,7 +42,7 @@ YAML Schema
 > ![error loading example.png](./example.png)
 >
 > which says both "denn" and "nämlich" can mean "because" when the former acts as a _conjunction_ while the latter goes
-> as an _adverb_
+> as an _adverb_. __Visualzing synonyms gives human brain a big advantage on learning a language__
 
 ### [German](./german.yaml)
 
