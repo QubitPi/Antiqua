@@ -15,9 +15,31 @@ YAML Schema
 -----------
 
 > [!TIP]
+>
 > The parenthesized value at the beginning of each `definition` item played an un-ignorable role: it is the label of the
 > relationship between `term` and `defintion` in graph database loaded by
-> [Wilhelm SDK](https://github.com/QubitPi/wilhelm-graphdb-python)
+> [Wilhelm SDK](https://github.com/QubitPi/wilhelm-graphdb-python). For example, both
+>
+> ```yaml
+> - term: denn
+>   definition:
+>     - (adv.) then, thus
+>     - (conj.) because
+> ```
+> 
+> and
+> 
+> ```yaml
+>  - term: nämlich
+>    definition:
+>      - (adj.) same
+>      - (adv.) namely
+>      - (adv.) because
+> ```
+> 
+> are linked to "because" visually as follows:
+> 
+> ![error loading example.png](./example.png)
 
 ### [German](./german.yaml)
 
