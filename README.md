@@ -26,9 +26,9 @@ YAML Schema
 >     - (adv.) then, thus
 >     - (conj.) because
 > ```
-> 
+>
 > and
-> 
+>
 > ```yaml
 >  - term: nämlich
 >    definition:
@@ -36,11 +36,11 @@ YAML Schema
 >      - (adv.) namely
 >      - (adv.) because
 > ```
-> 
+>
 > are linked to "because" visually as follows:
-> 
+>
 > ![error loading example.png](./example.png)
-> 
+>
 > which says both "denn" and "nämlich" can mean "because" when the former acts as a _conjunction_ while the latter goes
 > as an _adverb_
 
