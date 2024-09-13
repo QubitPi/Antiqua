@@ -774,6 +774,11 @@ vocabulary:
     definition:
       - (adv.) on the right
       - (adv.) to the right
+  - term: da
+    definition:
+      - (local) there; here
+      - (temporal) then
+      - (temporal) at that moment
   - term: die Erfahrung
     definition: experience
   - term: der Verletzter
@@ -949,6 +954,20 @@ vocabulary:
     declension: https://en.wiktionary.org/wiki/Ergebnis#Declension
   - term: führt zu keinem Ergebnis
     definition: leads to no result
+  - term: ob
+    definition:
+      - (conj.) if
+      - (conj.) whether
+  - term: wenn
+    definition:
+      - (conj.) when
+      - (conj.) if
+  - term: einwirken
+    definition: to affect
+    conjugation: https://en.wiktionary.org/wiki/einwirken#Conjugation
+  - term: können
+    definition: to be able to
+    conjugation: https://en.wiktionary.org/wiki/k%C3%B6nnen#Conjugation
   - term: rein
     definition: pure
   - term: die Vernunft
