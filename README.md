@@ -71,7 +71,7 @@ vocabulary:
           - (conj.) whether
     ```
 
-    means "ob" is a **conjunction** in this case
+    means "ob" is a **conjunction** in this case and
 
     ```yaml
       - term: denn
@@ -80,7 +80,7 @@ vocabulary:
           - (conj.) because
     ```
 
-    tells that "denn" can be both an __adverb__ or __conjunction__
+    tells that "denn" can be __adverb__ or __conjunction__
 
 ### [Korean](./korean.yaml)
 
