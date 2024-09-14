@@ -93,6 +93,11 @@ vocabulary:
     definition: list
 ```
 
+### Classical Hebrew (Coming Soon)
+
+The vocabulary is presented to help read and understand [Biblical Hebrew](https://mechon-mamre.org/p/pt/pt00.htm#mp3). A
+[complementary audio](https://mechon-mamre.org/p/pt/ptmp3prq.htm) helps well with the pronunciation.
+
 ### [Ancient Greek](./greek.yaml)
 
 ```yaml
