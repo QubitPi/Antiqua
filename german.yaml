@@ -543,11 +543,9 @@ vocabulary:
     definition:
       - education
       - creation
-    plural: Bildungen
     declension: https://en.wiktionary.org/wiki/Bildung#Declension
   - term: die Ausbildung
     definition: training, apprenticeship, vocational education
-    plural: Ausbildungen
     declension: https://en.wiktionary.org/wiki/Ausbildung#Declension
   - term: die Anglistik
     definition: English studies
@@ -623,10 +621,8 @@ vocabulary:
     declension: https://www.verbformen.com/?w=Sekret%C3%A4rin
   - term: der Student
     definition: student (male)
-    plural: Studenten
     declension: https://www.verbformen.com/?w=Student
   - term: die Studentin
-    plural: Studentinnen
     definition: student (female)
     declension: https://www.verbformen.com/?w=Studentin
   - term: der Taxifahrer
@@ -854,7 +850,6 @@ vocabulary:
     definition: to know
   - term: die Wissenschaft
     definition: Science
-    plural: Wissenschaften
     declension: https://en.wiktionary.org/wiki/Wissenschaft#Declension
   - term: der Mann
     definition: man
@@ -979,7 +974,6 @@ vocabulary:
     definition: someone
   - term: Ergebnis
     definition: result
-    plural: Ergebnisse
     declension: https://en.wiktionary.org/wiki/Ergebnis#Declension
   - term: führt zu keinem Ergebnis
     definition: leads to no result
