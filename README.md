@@ -5,6 +5,17 @@ Wilhelm Vocabulary
 ![GitHub workflow status badge][GitHub workflow status]
 [![Apache License Badge]](https://www.apache.org/licenses/LICENSE-2.0)
 
+<!-- TOC -->
+* [Wilhelm Vocabulary](#wilhelm-vocabulary)
+  * [YAML Schema](#yaml-schema)
+    * [German](#german)
+    * [Korean](#korean)
+    * [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
+    * [Ancient Greek](#ancient-greek)
+    * [Latin](#latin)
+  * [License](#license)
+<!-- TOC -->
+
 The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are written in YAML format, because
 
 1. it is machine-readable so that it can be consumed quickly in data pipelines
