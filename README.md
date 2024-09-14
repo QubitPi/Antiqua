@@ -5,16 +5,14 @@ Wilhelm Vocabulary
 ![GitHub workflow status badge][GitHub workflow status]
 [![Apache License Badge]](https://www.apache.org/licenses/LICENSE-2.0)
 
-<!-- TOC -->
-* [Wilhelm Vocabulary](#wilhelm-vocabulary)
-  * [YAML Schema](#yaml-schema)
-    * [German](#german)
-    * [Korean](#korean)
-    * [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
-    * [Ancient Greek](#ancient-greek)
-    * [Latin](#latin)
-  * [License](#license)
-<!-- TOC -->
+- [Wilhelm Vocabulary](#wilhelm-vocabulary)
+  - [YAML Schema](#yaml-schema)
+    - [German](#german)
+    - [Korean](#korean)
+    - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
+    - [Ancient Greek](#ancient-greek)
+    - [Latin](#latin)
+  - [License](#license)
 
 The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are written in YAML format, because
 
@@ -62,7 +60,7 @@ vocabulary:
   - term: string
     definition: list
     plural: string
-    declension/conjugation: string
+    declension/conjugation: application-specific table
 ```
 
 - The `conjugation` is the inflection paradigm for a German verb and `declension` the inflection for nouns and
@@ -100,11 +98,11 @@ vocabulary:
     - term: ein
       definition: (article) a, an
       declension:
-        - [-         , masculine, feminine, neuter, plural]
-        - [nominative, ein,       eine,     ein,    -     ]
-        - [genitive,   eines,     einer,    eines,  -     ]
-        - [dative,     einem,     einer,    einem,  -     ]
-        - [accusative, einen,     eine,     ein,    -     ]
+        - ["",         masculine, feminine, neuter, plural]
+        - [nominative, ein,       eine,     ein,    N/A   ]
+        - [genitive,   eines,     einer,    eines,  N/A   ]
+        - [dative,     einem,     einer,    einem,  N/A   ]
+        - [accusative, einen,     eine,     ein,    N/A   ]
   ```
 
   The declension table is equivalent to
