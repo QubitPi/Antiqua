@@ -124,7 +124,7 @@ vocabulary:
 
 ### [Korean](./korean.yaml)
 
-中国人学习韩语有先天优势，加之韩语本身也是一门相当简单的语言， 所以这里将语法和词汇合并在一起；
+中国人学习韩语有先天优势，加之韩语本身也是一门相当简单的语言，所以这里将语法和词汇合并在一起；
 每一项也只由 `term`（韩）和 `definition`（中）组成，
 
 ```yaml
@@ -132,6 +132,8 @@ vocabulary:
   - term: string
     definition: list
 ```
+
+不用费太多功夫记牢简单的语法和词汇，剩下的就是拿韩语字幕剧不停练习听说读写既成。
 
 ### Classical Hebrew (Coming Soon)
 

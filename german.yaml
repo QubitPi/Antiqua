@@ -434,7 +434,14 @@ vocabulary:
   - term: dagegen
     definition: on the other hand
   - term: die Bank
-    definition: bank
+    definition: the bank
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, eine,     die       Bank,     die,    Bänke ]
+      - [genitive,   einer,    der       Bank,     der,    Bänke ]
+      - [dative,     einer,    der       Bank,     den,    Bänke ]
+      - [accusative, eine,     die       Bank,     die,    Bänke ]
   - term: das Geld
     definition: money
     declension: https://en.wiktionary.org/wiki/Geld#Declension
@@ -507,6 +514,13 @@ vocabulary:
     definition: the flea market
   - term: die Bäckerei
     definition: the bakery
+    declension:
+      - ["",         singular, singular, singular, plural, plural    ]
+      - ["",         indef.,   def.,     noun,     def.,   noun      ]
+      - [nominative, eine,     die,      Bäckerei, die,    Bäckereien]
+      - [genitive,   einer,    der,      Bäckerei, der,    Bäckereien]
+      - [dative,     einer,    der,      Bäckerei, den,    Bäckereien]
+      - [accusative, eine,     die,      Bäckerei, die,    Bäckereien]
   - term: Dort ist der Kuchen augezeichnet
     definition: The cake there is excellent
   - term: der Kuchen
@@ -525,7 +539,22 @@ vocabulary:
     definition: the church
   - term: der Supermarkt
     definition: supermarket
-    declension: https://www.verbformen.com/?w=Supermarkt
+    declension:
+      - ["",         singular, singular, singular,                    plural, plural      ]
+      - ["",         indef.,   def.,     noun,                        def.,   noun        ]
+      - [nominative, ein,      der,      Supermarkt,                  die,    Supermärkte ]
+      - [genitive,   eines,    des,      "Supermarktes, Supermarkts", der,    Supermärkte ]
+      - [dative,     einem,    dem,      Supermarkt,                  den,    Supermärkten]
+      - [accusative, einen,    den,      Supermarkt,                  die,    Supermärkte ]
+  - term: der Park
+    definition: the park
+    declension:
+      - ["",         singular, singular, singular,        plural, plural]
+      - ["",         indef.,   def.,     noun,            def.,   noun  ]
+      - [nominative, ein,      der,      Park,            die,    Parks ]
+      - [genitive,   eines,    des,      "Parks, Parkes", der,    Parks ]
+      - [dative,     einem,    dem,      Park,            den,    Parks ]
+      - [accusative, einen,    den,      Park,            die,    Parks ]
   - term: besonders
     definition: especially
   - term: bis bald
