@@ -68,7 +68,7 @@ vocabulary:
 - The type of the word can be inferred using the following rule
 
   - `term` with a _definite article_ of __der__/__die__/__das__ and a field of `plural` that comes with it signifies a
-    __noun__. For example
+    __noun__. For instance
 
     ```yaml
       - term: die Wissenschaft
