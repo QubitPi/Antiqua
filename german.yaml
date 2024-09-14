@@ -3,6 +3,14 @@ vocabulary:
     definition: 0
   - term: eins
     definition: 1
+  - term: ein
+    definition: (article) a, an
+    declension:
+      - [-         , masculine, feminine, neuter, plural]
+      - [nominative, ein,       eine,     ein,    -     ]
+      - [genitive,   eines,     einer,    eines,  -     ]
+      - [dative,     einem,     einer,    einem,  -     ]
+      - [accusative, einen,     eine,     ein,    -     ]
   - term: zwei
     definition: 2
   - term: drei

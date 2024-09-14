@@ -82,6 +82,32 @@ vocabulary:
 
     tells that "denn" can be __adverb__ or __conjunction__
 
+- The declension/conjugation table employees an
+  [application-specific YAML](https://stackoverflow.com/q/30894438/14312712) that looks like the following:
+
+  ```yaml
+    - term: ein
+      definition: (article) a, an
+      declension:
+        - [-         , masculine, feminine, neuter, plural]
+        - [nominative, ein,       eine,     ein,    -     ]
+        - [genitive,   eines,     einer,    eines,  -     ]
+        - [dative,     einem,     einer,    einem,  -     ]
+        - [accusative, einen,     eine,     ein,    -     ]
+  ```
+
+  The declension table is equivalent to
+
+  |            | masculine | feminine | neuter | plural |
+  |------------|-----------|----------|--------|--------|
+  | nominative | ein       | eine     | ein    | -      |
+  | genitive   | eines     | einer    | eines  | -      |
+  | dative     | einem     | einer    | einem  | -      |
+  | accusative | einen     | eine     | ein    | -      |
+
+  The declension/conjugation tables for all vocabularies are sourced from
+  [Wiktionary](https://en.wiktionary.org/wiki/ein#Declension_2)
+
 ### [Korean](./korean.yaml)
 
 中国人学习韩语有先天优势，加之韩语本身也是一门相当简单的语言， 所以这里将语法和词汇合并在一起；
