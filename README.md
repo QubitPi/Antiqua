@@ -98,12 +98,12 @@ vocabulary:
 
   The declension table is equivalent to
 
-  |            | masculine | feminine | neuter | plural |
-  |------------|-----------|----------|--------|--------|
-  | nominative | ein       | eine     | ein    | -      |
-  | genitive   | eines     | einer    | eines  | -      |
-  | dative     | einem     | einer    | einem  | -      |
-  | accusative | einen     | eine     | ein    | -      |
+  |                | masculine | feminine | neuter | plural |
+  |:--------------:|:---------:|:--------:|:------:|:------:|
+  | __nominative__ |    ein    |   eine   |  ein   |   -    |
+  |  __genitive__  |   eines   |  einer   | eines  |   -    |
+  |   __dative__   |   einem   |  einer   | einem  |   -    |
+  | __accusative__ |   einen   |   eine   |  ein   |   -    |
 
   The declension/conjugation tables for all vocabularies are sourced from
   [Wiktionary](https://en.wiktionary.org/wiki/ein#Declension_2)
