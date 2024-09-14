@@ -6,11 +6,11 @@ vocabulary:
   - term: ein
     definition: (article) a, an
     declension:
-      - [-         , masculine, feminine, neuter, plural]
-      - [nominative, ein,       eine,     ein,    -     ]
-      - [genitive,   eines,     einer,    eines,  -     ]
-      - [dative,     einem,     einer,    einem,  -     ]
-      - [accusative, einen,     eine,     ein,    -     ]
+      - ["",         masculine, feminine, neuter, plural]
+      - [nominative, ein,       eine,     ein,    N/A   ]
+      - [genitive,   eines,     einer,    eines,  N/A   ]
+      - [dative,     einem,     einer,    einem,  N/A   ]
+      - [accusative, einen,     eine,     ein,    N/A   ]
   - term: zwei
     definition: 2
   - term: drei

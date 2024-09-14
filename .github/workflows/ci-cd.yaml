@@ -23,3 +23,6 @@ name: CI/CD
 jobs:
   yml-md-style-and-link-checks:
     uses: QubitPi/hashistack/.github/workflows/yml-md-style-and-link-checks.yml@master
+    with:
+      use-custom-yamllint-config-file: true
+      use-custom-markdownlint-config-file: true

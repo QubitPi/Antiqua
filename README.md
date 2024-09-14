@@ -100,13 +100,13 @@ vocabulary:
 
   |                | masculine | feminine | neuter | plural |
   |:--------------:|:---------:|:--------:|:------:|:------:|
-  | __nominative__ |    ein    |   eine   |  ein   |   -    |
-  |  __genitive__  |   eines   |  einer   | eines  |   -    |
-  |   __dative__   |   einem   |  einer   | einem  |   -    |
-  | __accusative__ |   einen   |   eine   |  ein   |   -    |
+  | __nominative__ |    ein    |   eine   |  ein   |  N/A   |
+  |  __genitive__  |   eines   |  einer   | eines  |  N/A   |
+  |   __dative__   |   einem   |  einer   | einem  |  N/A   |
+  | __accusative__ |   einen   |   eine   |  ein   |  N/A   |
 
-  The declension/conjugation tables for all vocabularies are sourced from
-  [Wiktionary](https://en.wiktionary.org/wiki/ein#Declension_2)
+  __The declension/conjugation tables for all vocabularies are sourced from
+  [Wiktionary](https://en.wiktionary.org/wiki/ein#Declension_2)__
 
 ### [Korean](./korean.yaml)
 
