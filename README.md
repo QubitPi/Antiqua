@@ -67,8 +67,15 @@ vocabulary:
   adjectives. Only one of the two is present for a term.
 - The type of the word can be inferred using the following rule
 
-  - `term` with a _definite article_ of "der"/"die"/"das" and a field of `plural` that comes with it signifies a
-    __noun__
+  - `term` with a _definite article_ of __der__/__die__/__das__ and a field of `plural` that comes with it signifies a
+    __noun__. For example
+
+    ```yaml
+      - term: die Wissenschaft
+        definition: the Science
+        plural: Wissenschaften
+    ```
+
   - Those with `conjugation` field denotes a __verb__; its definition also begins with an _indefinite form_, i.e.
     "to ..."
   - The rests are explicitly stated in the `definition` field. For example,
