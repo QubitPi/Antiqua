@@ -148,8 +148,11 @@ an example.
 > I'm not advertising for any organizations. I'm simply sharing good resources.
 
 [Netzverb Dictionary](https://www.verbformen.com/) is the best German dictionary _targeting the vocabulary inflection_.
-Search for "aufwachsen" and we will see much more intuitive conjugation tables listed. This pretty much serves our
-needs, but what makes Netzverb unpenetrable by other dictionaries is that _every_ verb comes with
+[Search for "aufwachsen"](https://www.verbformen.com/?w=aufwachsen) and we will see much more intuitive conjugation
+tables listed.
+
+This pretty much serves our needs, but what makes Netzverb unpenetrable by other dictionaries is that _every_ verb comes
+with
 
 1. [A printable version that looks much better than the browser's Control+P export](https://www.verbformen.com/conjugation/aufwachsen.pdf)
 
