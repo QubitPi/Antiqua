@@ -151,7 +151,7 @@ an example.
 [Search for "aufwachsen"](https://www.verbformen.com/?w=aufwachsen) and we will see much more intuitive conjugation
 tables listed.
 
-This pretty much serves our needs, but what makes Netzverb unpenetrable by other dictionaries is that _every_ verb comes
+This pretty much serves our needs, but what makes Netzverb unpenetrable by other alternatives is that _every_ verb comes
 with
 
 1. [A printable version that looks much better than the browser's Control+P export](https://www.verbformen.com/conjugation/aufwachsen.pdf)
