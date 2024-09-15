@@ -538,7 +538,7 @@ vocabulary:
   - term: die Kirche
     definition: the church
   - term: der Supermarkt
-    definition: supermarket
+    definition: the supermarket
     declension:
       - ["",         singular, singular, singular,                    plural, plural      ]
       - ["",         indef.,   def.,     noun,                        def.,   noun        ]
@@ -915,6 +915,13 @@ vocabulary:
     definition: leave here
   - term: Schon gut.
     definition: It's okay
+  - term: aufwachsen
+    definition: to grow up
+    conjugation: https://en.wiktionary.org/wiki/aufwachsen#Conjugation
+
+
+
+
   - term: der Volksgenosse
     definition: countryman
     declension: https://www.verbformen.com/?w=Volksgenosse
