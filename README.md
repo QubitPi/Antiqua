@@ -168,8 +168,9 @@ with
 > [!TIP]
 > - It is, thus, strongly recommended to study the conjugation through [Netzverb Dictionary](https://www.verbformen.com/)
 >   separately
-> - Netzverb Dictionary, however, lacks a programmable API. Wiktionary has a good one instead. This is why we left the
->   conjugation link to Wiktionary for now and it will definitely serve us well as I'm trying to make it happen
+> - Netzverb Dictionary, however, lacks a programmable API. Wiktionary [has a good one](https://dumps.wikimedia.org/)
+>   instead. This is why we left the conjugation link to Wiktionary for now and it will definitely serve us well as I'm
+>   trying to make it happen
 
 [Korean](./korean.yaml)
 -----------------------
