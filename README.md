@@ -156,14 +156,20 @@ with
 
 1. [A printable version that looks much better than the browser's Control+P export](https://www.verbformen.com/conjugation/aufwachsen.pdf)
 
-   - A "Sentences with German verb aufwachsen" section with a
+   - There is also a "Sentences with German verb aufwachsen" section with a
      [link](https://www.verbformen.com/conjugation/examples/aufwachsen.htm) that offer a fruitful number of conjugated
      examples that get us familiar with the inflections of the verb
 
 2. [An on-the-fly generated flashcard sheet](https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/aufwachsen.pdf)
    which allows us to make a better usage of our random free time
 3. [A YouTube video that offers audios of almost every conjugated form](https://www.youtube.com/watch?v=LCtUrSn030A),
-   which helps with conjugated pronunciations.
+   which helps with conjugated pronunciations
+
+> [!TIP]
+> - It is, thus, strongly recommended to study the conjugation through [Netzverb Dictionary](https://www.verbformen.com/)
+>   separately
+> - Netzverb Dictionary, however, lacks a programmable API. Wiktionary has a good one instead. This is why we left the
+>   conjugation link to Wiktionary for now and it will definitely serve us well as I'm trying to make it happen
 
 [Korean](./korean.yaml)
 -----------------------
