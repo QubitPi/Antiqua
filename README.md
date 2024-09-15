@@ -12,6 +12,7 @@ The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are writt
 3. it supports multi-lines value which is very handy for data of natural languages
 
 <!-- TOC -->
+
 - [Wilhelm Vocabulary](#wilhelm-vocabulary)
   - [German](#german)
     - [YAML Schema](#yaml-schema)
@@ -23,6 +24,7 @@ The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are writt
   - [Ancient Greek](#ancient-greek)
   - [Latin](#latin)
   - [License](#license)
+
 <!-- TOC -->
 
 [German](./german.yaml)
@@ -155,7 +157,7 @@ Each type bears a separate declension table. __To master German adjectives, we w
 There is also [adjective comparison](https://en.wikipedia.org/wiki/German_adjectives#Adjective_comparison) which throws
 in potentially 6 more tables. But the
 [rules for comparative and superlative forms are quite universal](https://www.reddit.com/r/German/comments/i5mfrq/how_do_you_remember_adjective_declension/)
-so we __ignore the two and focus only on the positive form__, which is the basic form of the adjective. 
+so we __ignore the two and focus only on the positive form__, which is the basic form of the adjective.
 
 Here is an example of the adjective declension used in this repository:
 
@@ -190,7 +192,6 @@ Here is an example of the adjective declension used in this repository:
 >
 > __The declension tables for all adjectives are sourced from
 > [Wiktionary](https://en.wiktionary.org/wiki/unterschiedlich#Declension)__
-
 
 ### German Verb Conjugation
 
