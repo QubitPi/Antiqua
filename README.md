@@ -12,17 +12,17 @@ The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are writt
 3. it supports multi-lines value which is very handy for data of natural languages
 
 <!-- TOC -->
-* [Wilhelm Vocabulary](#wilhelm-vocabulary)
-  * [German](#german)
-    * [YAML Schema](#yaml-schema)
-    * [German Noun Declension](#german-noun-declension)
-    * [German (Attributive) Adjective Declension](#german-attributive-adjective-declension)
-    * [German Verb Conjugation](#german-verb-conjugation)
-  * [Korean](#korean)
-  * [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
-  * [Ancient Greek](#ancient-greek)
-  * [Latin](#latin)
-  * [License](#license)
+- [Wilhelm Vocabulary](#wilhelm-vocabulary)
+  - [German](#german)
+    - [YAML Schema](#yaml-schema)
+    - [German Noun Declension](#german-noun-declension)
+    - [German (Attributive) Adjective Declension](#german-attributive-adjective-declension)
+    - [German Verb Conjugation](#german-verb-conjugation)
+  - [Korean](#korean)
+  - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
+  - [Ancient Greek](#ancient-greek)
+  - [Latin](#latin)
+  - [License](#license)
 <!-- TOC -->
 
 [German](./german.yaml)
@@ -138,13 +138,13 @@ The declension table above is equivalent to
 
 ### German (Attributive) Adjective Declension
 
-There are 3 types of declensions for German adjectives
-
 > [!TIP]
 >
 > - Predicate adjectives (e.g. kalt in mir ist kalt "I am _cold_") are undeclined
 > - An adjective can both be predicative (a _brave_ boy) or attributive (The boy is _brave_). Only attributive
 >   adjectives are declined.
+
+There are 3 types of declensions for German adjectives
 
 1. [strong declension](https://en.wikipedia.org/wiki/German_declension#Strong_inflection),
 2. [week declension](https://en.wikipedia.org/wiki/German_declension#Weak_inflection), and
@@ -153,8 +153,9 @@ There are 3 types of declensions for German adjectives
 Each type bears a separate declension table. __To master German adjectives, we will need to memorize all of the three__.
 
 There is also [adjective comparison](https://en.wikipedia.org/wiki/German_adjectives#Adjective_comparison) which throws
-in potentially 6 more tables. But the rules for comparative and superlative forms are quite universal so we __ignore the
-two and focus only on the positive form__, which is the basic form of the adjective. 
+in potentially 6 more tables. But the
+[rules for comparative and superlative forms are quite universal](https://www.reddit.com/r/German/comments/i5mfrq/how_do_you_remember_adjective_declension/)
+so we __ignore the two and focus only on the positive form__, which is the basic form of the adjective. 
 
 Here is an example of the adjective declension used in this repository:
 
