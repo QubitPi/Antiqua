@@ -111,12 +111,14 @@ The declension table above is equivalent to
 |   __dative__   |   einem   |  einer   | einem  |  N/A   |
 | __accusative__ |   einen   |   eine   |  ein   |  N/A   |
 
-> [!NOTE]  
+> [!NOTE]
+>
 > - A list under `declension` is a table row
 > - All rows have the same number of columns
 > - Each element of the list corresponds to a table cell
 
 > [!TIP]
+>
 > __The declension tables for all nouns are sourced from
 > [Wiktionary](https://en.wiktionary.org/wiki/ein#Declension_2)__
 
