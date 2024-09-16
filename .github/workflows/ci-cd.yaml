@@ -26,3 +26,25 @@ jobs:
     with:
       use-custom-yamllint-config-file: true
       use-custom-markdownlint-config-file: true
+
+  load-neo4j:
+    name: Load vocabularies
+    if: github.ref == 'refs/heads/master'
+    needs: yml-md-style-and-link-checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Load
+        run: |
+          pip3 install wilhelm-python-sdk
+          python3 .github/load.py
+        env:
+          NEO4J_URI: ${{ secrets.NEO4J_URI }}
+          NEO4J_USERNAME: ${{ secrets.NEO4J_USERNAME }}
+          NEO4J_PASSWORD: ${{ secrets.NEO4J_PASSWORD }}
