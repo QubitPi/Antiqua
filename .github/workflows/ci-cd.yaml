@@ -46,5 +46,6 @@ jobs:
           python3 .github/load.py
         env:
           NEO4J_URI: ${{ secrets.NEO4J_URI }}
+          NEO4J_DATABASE: ${{ secrets.NEO4J_DATABASE }}
           NEO4J_USERNAME: ${{ secrets.NEO4J_USERNAME }}
           NEO4J_PASSWORD: ${{ secrets.NEO4J_PASSWORD }}
