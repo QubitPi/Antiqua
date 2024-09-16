@@ -118,20 +118,14 @@ vocabulary:
   - term: drei Millionen vierhunderteinundsiebzigtausend
     definition: 3,471,000
   - term: ich
-    definition: I
-    declension: https://www.verbformen.com/?w=ich
-  - term: wir
-    definition: we
-    declension: https://www.verbformen.com/?w=wir
-  - term: du
-    definition: you (informal, singular)
-    declension: https://www.verbformen.com/?w=du
-  - term: ihr
-    definition: you (informal, plural)
-    declension: https://www.verbformen.com/?w=ihr
-  - term: Sie
-    definition: you (formal, both singular & plural)
-    declension: https://www.verbformen.com/sie.htm
+    definition: (pronoun) I
+    declension:
+      - ["",         singular,   singular,              singular,       singular,       singular,       plural,     plural,                plural,     singular & plural         ]
+      - ["",         1st person, 2nd person (familiar), 3rd person (m), 3rd person (f), 3rd person (n), 1st person, 2nd person (familiar), 3rd person, 2nd person (polite/formal)]
+      - [nominative, ich,        du,                    er,             sie,            es,             wir,        ihr,                   sie,        Sie                       ]
+      - [genitive,   meiner,     deiner,                seiner,         ihrer,          seiner,         unser,      euer,                  ihrer,      Ihrer                     ]
+      - [dative,     mir,        dir,                   ihm,            ihr,            ihm,            uns,        euch,                  ihnen,      Ihnen                     ]
+      - [accusative, mich,       dich,                  ihn,            sie,            es,             uns,        euch,                  sie,        Sie                       ]
   - term: er
     definition:
       - he
@@ -534,10 +528,10 @@ vocabulary:
       - [genitive,   einer,    der,      Bäckerei, der,    Bäckereien]
       - [dative,     einer,    der,      Bäckerei, den,    Bäckereien]
       - [accusative, eine,     die,      Bäckerei, die,    Bäckereien]
-  - term: Dort ist der Kuchen augezeichnet
-    definition: The cake there is excellent
   - term: der Kuchen
     definition: the cake
+  - term: Dort ist der Kuchen augezeichnet
+    definition: The cake there is excellent
   - term: die Kneipe
     definition: the pub
   - term: das Kino
@@ -551,15 +545,6 @@ vocabulary:
       - [accusative, ein,      das,      Kino,     die,    Kinos ]
   - term: das Hotel
     definition: the hotel
-  - term: das Bier
-    definition: the beer
-    declension:
-      - ["",         singular, singular, singular,        plural, plural         ]
-      - ["",         indef.,   def.,     noun,            def.,   noun           ]
-      - [nominative, ein,      das,      Bier,            die,    "Biere, Bier"  ]
-      - [genitive,   eines,    des,      "Bieres, Biers", der,    "Biere, Bier"  ]
-      - [dative,     einem,    dem,      Bier,            den,    "Bieren, Biern"]
-      - [accusative, ein,      das,      Bier,            die,    "Biere, Bier"  ]
   - term: der Biergarten
     definition: the beer gargen
     declension:
@@ -571,15 +556,6 @@ vocabulary:
       - [accusative, einen,    den,      Biergarten,  die,    Biergärten]
   - term: das Café
     definition: the café
-  - term: der Kaffee
-    definition: the coffee
-    declension:
-      - ["",         singular, singular, singular, plural, plural ]
-      - ["",         indef.,   def.,     noun,     def.,   noun   ]
-      - [nominative, ein,      der,      Kaffee,   die,    Kaffees]
-      - [genitive,   eines,    des,      Kaffees,  der,    Kaffees]
-      - [dative,     einem,    dem,      Kaffee,   den,    Kaffees]
-      - [accusative, einen,    den,      Kaffee,   die,    Kaffees]
   - term: die Kirche
     definition: the church
   - term: der Supermarkt
@@ -603,16 +579,131 @@ vocabulary:
   - term: das Restaurant
     definition: the restaurant
     declension:
-      - ["",         singular, singular, singular,    plural, plural      ]
-      - ["",         indef.,   def.,     noun,        def.,   noun        ]
-      - [nominative, ein,      das,      Restaurant,  die,    Restaurants ]
-      - [genitive,   eines,    des,      Restaurants, der,    Restaurants ]
-      - [dative,     einem,    dem,      Restaurant,  den,    Restaurants ]
-      - [accusative, ein,      das,      Restaurant,  die,    Restaurants ]
-  - term: Wir möchten bestellen.
-    definition: (in restaurant) We'd like to order.
-  - term: Was möchten/nehmen Sie, bitte?
-    definition: (in restaurant) What would you like?
+      - ["",         singular, singular, singular,    plural, plural     ]
+      - ["",         indef.,   def.,     noun,        def.,   noun       ]
+      - [nominative, ein,      das,      Restaurant,  die,    Restaurants]
+      - [genitive,   eines,    des,      Restaurants, der,    Restaurants]
+      - [dative,     einem,    dem,      Restaurant,  den,    Restaurants]
+      - [accusative, ein,      das,      Restaurant,  die,    Restaurants]
+  - term: der Kaffee
+    definition: the coffee
+    declension:
+      - ["",         singular, singular, singular, plural, plural ]
+      - ["",         indef.,   def.,     noun,     def.,   noun   ]
+      - [nominative, ein,      der,      Kaffee,   die,    Kaffees]
+      - [genitive,   eines,    des,      Kaffees,  der,    Kaffees]
+      - [dative,     einem,    dem,      Kaffee,   den,    Kaffees]
+      - [accusative, einen,    den,      Kaffee,   die,    Kaffees]
+  - term: der Orangensaft
+    definition: the orange juice
+    declension:
+      - ["",         singular, singular, singular,                      plural, plural       ]
+      - ["",         indef.,   def.,     noun,                          def.,   noun         ]
+      - [nominative, ein,      der,      Orangensaft,                   die,    Orangensäfte ]
+      - [genitive,   eines,    des,      "Orangensaftes, Orangensafts", der,    Orangensäfte ]
+      - [dative,     einem,    dem,      Orangensaft,                   den,    Orangensäften]
+      - [accusative, einen,    den,      Orangensaft,                   die,    Orangensäfte ]
+  - term: der Tee
+    definition: the tea
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, ein,      der,      Tee,      die,    Tees  ]
+      - [genitive,   eines,    des,      Tees,     der,    Tees  ]
+      - [dative,     einem,    dem,      Tee,      den,    Tees  ]
+      - [accusative, einen,    den,      Tee,      die,    Tees  ]
+  - term: der Wein
+    definition: the wine
+    declension:
+      - ["",         singular, singular, singular,        plural, plural]
+      - ["",         indef.,   def.,     noun,            def.,   noun  ]
+      - [nominative, ein,      der,      Wein,            die,    Weine ]
+      - [genitive,   eines,    des,      "Weines, Weins", der,    Weine ]
+      - [dative,     einem,    dem,      Wein,            den,    Weinen]
+      - [accusative, einen,    den,      Wein,            die,    Weine ]
+  - term: der Schnaps
+    definition: the spirit
+    declension:
+      - ["",         singular, singular, singular,  plural, plural   ]
+      - ["",         indef.,   def.,     noun,      def.,   noun     ]
+      - [nominative, ein,      der,      Schnaps,   die,    Schnäpse ]
+      - [genitive,   eines,    des,      Schnapses, der,    Schnäpse ]
+      - [dative,     einem,    dem,      Schnaps,   den,    Schnäpsen]
+      - [accusative, einen,    den,      Schnaps,   die,    Schnäpse ]
+  - term: der Sekt
+    definition: the sparkling wine
+    declension:
+      - ["",         singular, singular, singular,        plural, plural]
+      - ["",         indef.,   def.,     noun,            def.,   noun  ]
+      - [nominative, ein,      der,      Sekt,            die,    Sekte ]
+      - [genitive,   eines,    des,      "Sektes, Sekts", der,    Sekte ]
+      - [dative,     einem,    dem,      Sekt,            den,    Sekten]
+      - [accusative, einen,    den,      Sekt,            die,    Sekte ]
+  - term: die Milch
+    definition: the milk
+    declension:
+      - ["",         singular, singular, singular, plural, plural           ]
+      - ["",         indef.,   def.,     noun,     def.,   noun             ]
+      - [nominative, eine,     die,      Milch,    die,    "Milchen, Milche"]
+      - [genitive,   einer,    der,      Milch,    der,    "Milchen, Milche"]
+      - [dative,     einer,    der,      Milch,    den,    Milchen          ]
+      - [accusative, eine,     die,      Milch,    die,    "Milchen, Milche"]
+  - term: die Limonade
+    definition: the lemonade
+    declension:
+      - ["",         singular, singular, singular, plural, plural   ]
+      - ["",         indef.,   def.,     noun,     def.,   noun     ]
+      - [nominative, eine,     die,      Limonade, die,    Limonaden]
+      - [genitive,   einer,    der,      Limonade, der,    Limonaden]
+      - [dative,     einer,    der,      Limonade, den,    Limonaden]
+      - [accusative, eine,     die,      Limonade, die,    Limonaden]
+  - term: die Cola (northern and central Germany)
+    definition: the Coke
+    declension:
+      - ["",         singular, singular, singular, plural, plural,          plural    ]
+      - ["",         indef.,   def.,     noun,     def.,   kinds or brands, quantities]
+      - [nominative, eine,     die,      Cola,     die,    Colas,           Cola      ]
+      - [genitive,   einer,    der,      Cola,     der,    Colas,           Cola      ]
+      - [dative,     einer,    der,      Cola,     den,    Colas,           Cola      ]
+      - [accusative, eine,     die,      Cola,     die,    Colas,           Cola      ]
+  - term: das Cola (southern Germany, Austria, and Switzerland)
+    definition: the Coke
+    declension:
+      - ["",         singular, singular, singular,      plural, plural,          plural    ]
+      - ["",         indef.,   def.,     noun,          def.,   kinds or brands, quantities]
+      - [nominative, ein,      das,      Cola,          die,    Colas,           Cola      ]
+      - [genitive,   eines,    des,      "Cola, Colas", der,    Colas,           Cola      ]
+      - [dative,     einem,    dem,      Cola,          den,    Colas,           Cola      ]
+      - [accusative, ein,      das,      Cola,          die,    Colas,           Cola      ]
+  - term: das Eis
+    definition:
+      - the ice
+      - (Germany, Austria) the ice cream
+    declension:
+      - ["",         singular, singular, singular, plural, plural      ]
+      - ["",         indef.,   def.,     noun,     def.,   noun        ]
+      - [nominative, ein,      das,      Eis,      die,    "Eis, Eise" ]
+      - [genitive,   eines,    des,      Eises,    der,    "Eis, Eise" ]
+      - [dative,     einem,    dem,      Eis,      den,    "Eis, Eisen"]
+      - [accusative, ein,      das,      Eis,      die,    "Eis, Eise" ]
+  - term: das Bier
+    definition: the beer
+    declension:
+      - ["",         singular, singular, singular,        plural, plural         ]
+      - ["",         indef.,   def.,     noun,            def.,   noun           ]
+      - [nominative, ein,      das,      Bier,            die,    "Biere, Bier"  ]
+      - [genitive,   eines,    des,      "Bieres, Biers", der,    "Biere, Bier"  ]
+      - [dative,     einem,    dem,      Bier,            den,    "Bieren, Biern"]
+      - [accusative, ein,      das,      Bier,            die,    "Biere, Bier"  ]
+  - term: das Wasser
+    definition: the water
+    declension:
+      - ["",         singular, singular, singular, plural, plural            ]
+      - ["",         indef.,   def.,     noun,     def.,   noun              ]
+      - [nominative, ein,      das,      Wasser,   die,    "Wasser, Wässer"  ]
+      - [genitive,   eines,    des,      Wassers,  der,    "Wasser, Wässer"  ]
+      - [dative,     einem,    dem,      Wasser,   den,    "Wassern, Wässern"]
+      - [accusative, ein,      das,      Wasser,   die,    "Wasser, Wässer"  ]
   - term: das Mineralwasser
     definition: the mineral water
     declension:
@@ -631,38 +722,70 @@ vocabulary:
       - [genitive,   eines,    des,      "Weizenbieres, Weizenbiers", der,    Weizenbiere ]
       - [dative,     einem,    dem,      Weizenbier,                  den,    Weizenbieren]
       - [accusative, ein,      das,      Weizenbier,                  die,    Weizenbiere ]
-  - term: der Orangensaft
-    definition: the orange juice
+  - term: der Becher
+    definition: the cup without a handle
     declension:
-      - ["",         singular, singular, singular,                      plural, plural       ]
-      - ["",         indef.,   def.,     noun,                          def.,   noun         ]
-      - [nominative, ein,      der,      Orangensaft,                   die,    Orangensäfte ]
-      - [genitive,   eines,    des,      "Orangensaftes, Orangensafts", der,    Orangensäfte ]
-      - [dative,     einem,    dem,      Orangensaft,                   den,    Orangensäften]
-      - [accusative, einen,    den,      Orangensaft,                   die,    Orangensäfte ]
-  - term: die Limonade
-    definition: the lemonade
+      - ["",         singular, singular, singular, plural, plural ]
+      - ["",         indef.,   def.,     noun,     def.,   noun   ]
+      - [nominative, ein,      der,      Becher,   die,    Becher ]
+      - [genitive,   eines,    des,      Bechers,  der,    Becher ]
+      - [dative,     einem,    dem,      Becher,   den,    Bechern]
+      - [accusative, einen,    den,      Becher,   die,    Becher ]
+  - term: Paul isst einen Becher Eis
+    definition: Paul eats a cup of ice cream
+  - term: zwei Becher Eis
+    definition: two cups of ice cream
+  - term: die Tasse
+    definition: the cup with a handle
     declension:
-      - ["",         singular, singular, singular, plural, plural   ]
-      - ["",         indef.,   def.,     noun,     def.,   noun     ]
-      - [nominative, eine,     die,      Limonade, die,    Limonaden]
-      - [genitive,   einer,    der,      Limonade, der,    Limonaden]
-      - [dative,     einer,    der,      Limonade, den,    Limonaden]
-      - [accusative, eine,     die,      Limonade, die,    Limonaden]
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, eine,     die,      Tasse,    die,    Tassen]
+      - [genitive,   einer,    der,      Tasse,    der,    Tassen]
+      - [dative,     einer,    der,      Tasse,    den,    Tassen]
+      - [accusative, eine,     die,      Tasse,    die,    Tassen]
+  - term: eine Tasse Kaffee
+    definition: a cup of Coffee
+  - term: zwei Tassen Kaffee
+    definition: two cups of Coffee
+  - term: die Dose
+    definition:
+      - the box
+      - the tin
+      - the can
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, eine,     die,      Dose,     die,    Dosen ]
+      - [genitive,   einer,    der,      Dose,     der,    Dosen ]
+      - [dative,     einer,    der,      Dose,     den,    Dosen ]
+      - [accusative, eine,     die,      Dose,     die,    Dosen ]
+  - term: eine Dose Cola
+    definition: a can of coke
+  - term: zwei Dosen Cola
+    defintion: three cans of coke
+  - term: das Glas
+    definition: the glass
+    declension:
+      - ["",         singular, singular, singular, plural, plural         ]
+      - ["",         indef.,   def.,     noun,     def.,   noun           ]
+      - [nominative, ein,      das,      Glas,     die,    "Gläser, Glas" ]
+      - [genitive,   eines,    des,      Glases,   der,    "Gläser, Glas" ]
+      - [dative,     einem,    dem,      Glas,     den,    "Gläsern, Glas"]
+      - [accusative, ein,      das,      Glas,     die,    "Gläser, Glas" ]
+  - term: ein Glas Wasser
+    defintion: a glass of water
+  - term: zwei Gläser Wasser
+    definition: two glasses of water
   - term: trinken
     definition: to drink
     conjugation: https://en.wiktionary.org/wiki/trinken#Conjugation
+  - term: Wir möchten bestellen.
+    definition: (in restaurant) We'd like to order.
+  - term: Was möchten/nehmen/behommen/trinken Sie, bitte?
+    definition: (in restaurant) What would you like?
   - term: Schön kühl, bitte
     definition: (drink) make it cold, please
-  - term: das Eis
-    definition: the ice
-    declension:
-      - ["",         singular, singular, singular, plural, plural      ]
-      - ["",         indef.,   def.,     noun,     def.,   noun        ]
-      - [nominative, ein,      das,      Eis,      die,    "Eis, Eise" ]
-      - [genitive,   eines,    des,      Eises,    der,    "Eis, Eise" ]
-      - [dative,     einem,    dem,      Eis,      den,    "Eis, Eisen"]
-      - [accusative, ein,      das,      Eis,      die,    "Eis, Eise" ]
   - term: mit Eis
     definition: (drink) with ice
   - term: ohne Eis
@@ -1272,6 +1395,32 @@ vocabulary:
       - (adv.) however
       - (adv.) really
       - (adv.) just
+  - term: das Nesthäkchen
+    definition: the lastborn of a family's children
+    declension:
+      - ["",         singular, singular, singular,     plural, plural     ]
+      - ["",         indef.,   def.,     noun,         def.,   noun       ]
+      - [nominative, ein,      das,      Nesthäkchen,  die,    Nesthäkchen]
+      - [genitive,   eines,    des,      Nesthäkchens, der,    Nesthäkchen]
+      - [dative,     einem,    dem,      Nesthäkchen,  den,    Nesthäkchen]
+      - [accusative, ein,      das,      Nesthäkchen,  die,    Nesthäkchen]
+  - term: der Dienst
+    definition:
+      - the service
+      - the duty
+    declension:
+      - ["",         singular, singular, singular,            plural, plural  ]
+      - ["",         indef.,   def.,     noun,                def.,   noun    ]
+      - [nominative, ein,      der,      Dienst,              die,    Dienste ]
+      - [genitive,   eines,    des,      "Dienstes, Diensts", der,    Dienste ]
+      - [dative,     einem,    dem,      Dienst,              den,    Diensten]
+      - [accusative, einen,    den,      Dienst,              die,    Dienste ]
+  - term: leisten
+    definition:
+      - to perform
+      - to provide
+      - to afford
+    conjugation: https://en.wiktionary.org/wiki/leisten#Conjugation
 
 
 
