@@ -21,9 +21,9 @@ How Data (Vocabulary) is Stored in a Graph Database
 
 Graph data representation assumes universal connectivity among world entities. This applies pretty well to the realm of
 languages. Multilanguate learners have already seen that Indo-European languages are similar in many different ways.
-What's missing is connecting the dots using Graph Databases. 
+What's missing is connecting the dots using Graph Databases.
 
-__Language represented as a graph reveals lots of interesting information__. To accomplish such representation, each 
+__Language represented as a graph reveals lots of interesting information__. To accomplish such representation, each
 word (`term`) is presented in the following way
 
 ### Definition
@@ -221,7 +221,7 @@ example,
 and advise user to employ a much more practical method to learn daily conjugation as follows. We take "__aufwachsen__"
 as an example.
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > I'm not advertising for any organizations. I'm simply sharing good resources.
 
 [Netzverb Dictionary](https://www.verbformen.com/) is the best German dictionary _targeting the vocabulary inflections_.
@@ -263,6 +263,10 @@ vocabulary:
 
 不用费太多功夫记牢简单的语法和词汇，剩下的就是拿韩语字幕剧不停练习听说读写既成。
 
+> [!NOTE]
+>
+> 韩语不属于汉藏语系，因其所属语系非常狭小，无法和其它语言产生足够关联，因此其数据暂时不被存入图数据库进行数据分析
+
 Classical Hebrew (Coming Soon)
 ------------------------------
 
@@ -278,7 +282,7 @@ vocabulary:
     definition: list
 ```
 
-[Wiktionary is the best source for Attic pronunciation](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CF%82#Pronunciation), 
+[Wiktionary is the best source for Attic pronunciation](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CF%82#Pronunciation),
 although [some words are missing the audio](https://en.wiktionary.org/wiki/%CE%BA%CE%B1%CE%AF#Pronunciation). Due to the
 scarcity of the audio resources among AG lerners, [a separate project](https://github.com/QubitPi/ancient-greek-reader)
 has been initiated to expand the audio practice materials by AI
