@@ -274,14 +274,10 @@ vocabulary:
     definition: list
 ```
 
-Ancient Greek audio resources are very limited due to its far-reaching period when it was spoken in history. Several
-good resources are scattered across the internet:
-
-- [Athenaze: the Alphabet and Double Sounds](https://www.youtube.com/watch?v=uaae3WqxJ4M)
-- [Athenaze: Pronunciation Practice (introduction)](https://www.youtube.com/watch?v=LLGyAZSSkCw)
-- [Pronuncation Drill from p. 11, Hansen Quinn](https://www.youtube.com/watch?v=mAAuMhQkaPA)
-- [Pronunciatin Practice of AtticGreek.org](http://atticgreek.org/pronunc/pronunc_practice.html)
-- [How to do pitch accents in Ancient Greek restored pronunciation](https://www.youtube.com/watch?v=H3jMlF0qVYU)
+[Wiktionary is the best source for Attic pronunciation](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CF%82#Pronunciation), 
+although [some words are missing the audio](https://en.wiktionary.org/wiki/%CE%BA%CE%B1%CE%AF#Pronunciation). Due to the
+scarcity of the audio resources among AG lerners, [a separate project](https://github.com/QubitPi/ancient-greek-reader)
+has been initiated to expand the audio practice materials by AI
 
 [Latin](./latin.yaml)
 ---------------------

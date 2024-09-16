@@ -1,46 +1,80 @@
 vocabulary:
   - term: ὁ ἡ τό
-    definition: the
+    definition: the (m, f, n)
   - term: αὐτός αὐτή αὐτό
-    definition: him- her- itself etc. (for emphasis); the same (with article); (pron.) him, her, it etc. (in oblique cases)
+    definition:
+      - (without article) he, she, it, they
+      - (without article) himself, herself, itself, themselves
+      - (with definite article) same
   - term: καί
-    definition: and, also, even; καί...καί both...and
+    definition:
+      - and
+      - also, even;
+  - term: καί ... καί ...
+    definition: both ... and ...
+  - term: μέν
+    definition:
+      - indeed
+      - accordingly
   - term: δέ
-    definition: and; but
-  - term: τίς τί
-    definition: who? what? which? (interrog. pron./adj.)
-  - term: εἰμί, ἔσομαι, impf. ἦν, infin. εἶναι
-    definition: be, exist
-  - term: οὗτος αὕτη τοῦτο
-    definition: this, these; μετὰ ταῦτα after this
-  - term: ἤ
-    definition: or; than (after a comparative); ἤ...ἤ either...or
-  - term: ἐν
-    definition: in, among (+dat.)
+    definition: and, but
   - term: μέν...δέ
-    definition: on the one hand...on the other hand (often untranslated); μέν (by itself) indeed
+    definition: on the one hand...on the other hand (often untranslated)
   - term: τις τι
-    definition: someone, something, anyone, anything, some, any (enclitic indef. pron./adj.)
+    definition: someone, something, anyone, anything, some, any
+  - term: τίς τί
+    definition: (interrogative pron./adj.) who? what? which?
   - term: ὅς ἥ ὅ
-    definition: who, which, that
+    definition:
+      - this
+      - who, which, that
+  - term: εἰμί, ἔσομαι, ἦν, εἶναι
+    definition: to be, exist
+  - term: οὗτος αὕτη τοῦτο
+    definition: this, these
+  - term: ἤ
+    definition:
+      - or
+      - (in a comparative construction) than, as
+  - term: ἤ ... ἤ
+    definition: either ... or
+  - term: ἐν
+    definition:
+      - in
+      - (with dative plural) among
   - term: γάρ
-    definition: for (explanatory), indeed, in fact (confirming)
+    definition:
+      - for
+      - since
   - term: οὐ, οὐκ, οὐχ
-    definition: not (with indicative verbs)
-  - term: λέγω, ἐρῶ, εἶπον, εἴρηκα, λέλεγμαι, ἐλέχθην and ἐρρήθην
-    definition: say, speak (of), recount; pick up, collect, count
+    definition: not
+  - term: λέγω, ἐρῶ, εἶπον, εἴρηκα, λέλεγμαι, ἐλέχθην, ἐρρήθην
+    definition:
+      - to say, speak
+      - to pick up
   - term: ὡς
-    definition: as, since; (introducing purpose clause) so that (+subj./opt.); (introducing indir. statement) that
+    definition: as, since
   - term: τε
-    definition: and; τε…τε both…and
+    definition: and
+  - term: τε ... τε
+    definition: both ... and
   - term: εἰς
-    definition: into, to, towards (+acc.)
+    definition: into
   - term: ἐπί
-    definition: at (+gen.); on (+dat.); on to, against (+acc.)
+    definition: on, upon
   - term: κατά
-    definition: down, down (from or along), throughout, according to; κατὰ γῆν by land; κατὰ φύσιν in accordance with nature; κατ’ ἔθνη by nations; καθ᾿ἕνα one by one.
-  - term: ἐγώ ἐμοῦ, (pl.) ἡμεῖς, ἡμῶν
-    definition: I, we
+    definition:
+      - (genitive) against
+      - (genitive) into
+      - (accusative) downwards
+      - (accusative) along, through
+      - (accusative) towards
+      - (accusative) for the purpose of
+      - (accusative) according to
+  - term: ἐγώ
+    definition: I
+  - term: ἡμεῖς
+    definition: we
   - term: πρός
     definition: from the side of, in the presence of (+gen.); near, at, in addition to (+dat.); to, towards, in relation to (+acc.)
   - term: γίγνομαι, γενήσομαι, 2 aor. ἐγενόμην, γέγονα, γεγένημαι, ἐγενήθην
