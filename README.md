@@ -249,24 +249,6 @@ with
 >   instead. This is why we left the conjugation link to Wiktionary for now and it will definitely serve us well as I'm
 >   trying to make it happen
 
-[Korean](./korean.yaml)
------------------------
-
-中国人学习韩语有先天优势，加之韩语本身也是一门相当简单的语言，所以这里将语法和词汇合并在一起；
-每一项也只由 `term`（韩）和 `definition`（中）组成，
-
-```yaml
-vocabulary:
-  - term: string
-    definition: list
-```
-
-不用费太多功夫记牢简单的语法和词汇，剩下的就是拿韩语字幕剧不停练习听说读写既成。
-
-> [!NOTE]
->
-> 韩语不属于汉藏语系，因其所属语系非常狭小，无法和其它语言产生足够关联，因此其数据暂时不被存入图数据库进行数据分析
-
 Classical Hebrew (Coming Soon)
 ------------------------------
 
@@ -295,6 +277,24 @@ vocabulary:
   - term: string
     definition: list
 ```
+
+[Korean](./korean.yaml)
+-----------------------
+
+中国人学习韩语有先天优势，加之韩语本身也是一门相当简单的语言，所以这里将语法和词汇合并在一起；
+每一项也只由 `term`（韩）和 `definition`（中）组成，
+
+```yaml
+vocabulary:
+  - term: string
+    definition: list
+```
+
+不用费太多功夫记牢简单的语法和词汇，剩下的就是拿韩语字幕剧不停练习听说读写既成。
+
+> [!NOTE]
+>
+> 韩语不属于汉藏语系，因其所属语系非常狭小，无法和其它语言产生足够关联，因此其数据暂时不被存入图数据库进行数据分析
 
 License
 -------
