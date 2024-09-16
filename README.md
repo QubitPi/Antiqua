@@ -249,12 +249,6 @@ with
 >   instead. This is why we left the conjugation link to Wiktionary for now and it will definitely serve us well as I'm
 >   trying to make it happen
 
-Classical Hebrew (Coming Soon)
-------------------------------
-
-The vocabulary is presented to help read and understand [Biblical Hebrew](https://mechon-mamre.org/p/pt/pt00.htm#mp3). A
-[complementary audio](https://mechon-mamre.org/p/pt/ptmp3prq.htm) helps well with the pronunciation.
-
 [Ancient Greek](./greek.yaml)
 -----------------------------
 
@@ -277,6 +271,12 @@ vocabulary:
   - term: string
     definition: list
 ```
+
+Classical Hebrew (Coming Soon)
+------------------------------
+
+The vocabulary is presented to help read and understand [Biblical Hebrew](https://mechon-mamre.org/p/pt/pt00.htm#mp3). A
+[complementary audio](https://mechon-mamre.org/p/pt/ptmp3prq.htm) helps well with the pronunciation.
 
 [Korean](./korean.yaml)
 -----------------------
