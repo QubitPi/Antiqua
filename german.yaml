@@ -503,7 +503,7 @@ vocabulary:
   - term: alt
     definition: old
   - term: Ich bin 23 Jahre alt.
-    defintion: I'm 23 years old.
+    definition: I'm 23 years old.
   - term: die Fremdsprache
     definition: foreign language
   - term: die Muttersprache
@@ -763,7 +763,7 @@ vocabulary:
   - term: eine Dose Cola
     definition: a can of coke
   - term: zwei Dosen Cola
-    defintion: three cans of coke
+    definition: three cans of coke
   - term: das Glas
     definition: the glass
     declension:
@@ -774,7 +774,7 @@ vocabulary:
       - [dative,     einem,    dem,      Glas,     den,    "Gläsern, Glas"]
       - [accusative, ein,      das,      Glas,     die,    "Gläser, Glas" ]
   - term: ein Glas Wasser
-    defintion: a glass of water
+    definition: a glass of water
   - term: zwei Gläser Wasser
     definition: two glasses of water
   - term: trinken
@@ -1457,7 +1457,7 @@ vocabulary:
     definition: to discuss
     conjugation: https://en.wiktionary.org/wiki/diskutieren#Conjugation
   - term: die Angelegenheit
-    definiton: matter, issue, affair
+    definition: matter, issue, affair
     declension: https://en.wiktionary.org/wiki/Angelegenheit#Declension
   - term: die Sache
     definition:

@@ -5,27 +5,32 @@ Wilhelm Vocabulary
 ![GitHub workflow status badge][GitHub workflow status]
 [![Apache License Badge]](https://www.apache.org/licenses/LICENSE-2.0)
 
+Data Format
+-----------
+
 The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are written in YAML format, because
 
 1. it is machine-readable so that it can be consumed quickly in data pipelines
 2. it is human-readable and, thus, easy to modify
 3. it supports multi-lines value which is very handy for data of natural languages
 
-<!-- TOC -->
+How Data (Vocabulary) is Stored in a Graph Database
+---------------------------------------------------
 
-- [Wilhelm Vocabulary](#wilhelm-vocabulary)
-  - [German](#german)
-    - [YAML Schema](#yaml-schema)
-    - [German Noun Declension](#german-noun-declension)
-    - [German (Attributive) Adjective Declension](#german-attributive-adjective-declension)
-    - [German Verb Conjugation](#german-verb-conjugation)
-  - [Korean](#korean)
-  - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
-  - [Ancient Greek](#ancient-greek)
-  - [Latin](#latin)
-  - [License](#license)
+### Data Model
 
-<!-- TOC -->
+Graph data representation assumes universal connectivity among world entities. This applies pretty well to the realm of
+languages. Multilanguate learners have already seen that Indo-European languages are similar in many different ways.
+What's missing is connecting the dots using Graph Databases. 
+
+__Language represented as a graph reveals lots of interesting information__. To accomplish such representation, each 
+word (`term`) is presented in the following way
+
+### Definition
+
+_The meaning of a word is called the `definition`__
+
+![Error loading general-schema.png](./general-schema.png)
 
 [German](./german.yaml)
 -----------------------
@@ -36,7 +41,6 @@ The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are writt
 vocabulary:
   - term: string
     definition: list
-    plural: string
     declension/conjugation: application-specific table
 ```
 
@@ -76,7 +80,7 @@ vocabulary:
 > [!TIP]
 >
 > The parenthesized value at the beginning of each `definition` item played an un-ignorable role: it is the label of the
-> relationship between `term` and `defintion` in graph database loaded by
+> relationship between `term` and `definition` in graph database loaded by
 > [Wilhelm SDK](https://github.com/QubitPi/wilhelm-graphdb-python). For example, both German words
 >
 > ```yaml
