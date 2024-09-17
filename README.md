@@ -1,7 +1,6 @@
 Wilhelm Vocabulary
 ==================
 
-![GitHub last commit badge][GitHub last commit]
 ![GitHub workflow status badge][GitHub workflow status]
 [![Apache License Badge]](https://www.apache.org/licenses/LICENSE-2.0)
 
@@ -308,5 +307,4 @@ The use and distribution terms for [wilhelm-vocabulary]() are covered by the [Ap
 [Apache License Badge]: https://img.shields.io/badge/Apache%202.0-F25910.svg?style=for-the-badge&logo=Apache&logoColor=white
 [Apache License, Version 2.0]: http://www.apache.org/licenses/LICENSE-2.0.html
 
-[GitHub last commit]: https://img.shields.io/github/last-commit/QubitPi/wilhelm-vocabulary/master?logo=github&style=for-the-badge
-[GitHub workflow status]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&logo=github&style=for-the-badge
+[GitHub workflow status]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&style=for-the-badge&logo=neo4j&logoColor=white&label=Database%20Loading
