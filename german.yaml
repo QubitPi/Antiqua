@@ -1063,7 +1063,7 @@ vocabulary:
     definition: journalist
     declension: https://www.verbformen.com/?w=Journalist
   - term: die Journalistin
-    definition: journalist (female)
+    definition: (female) journalist
     declension: https://www.verbformen.com/?w=Journalistin
   - term: der Kellner
     definition: waiter
@@ -1072,10 +1072,10 @@ vocabulary:
     definition: waitress
     declension: https://www.verbformen.com/?w=Kellnerin
   - term: der Maurer
-    definition: bricklayer (male)
+    definition: (male) bricklayer
     declension: https://www.verbformen.com/?w=Maurer
   - term: die Maurerin
-    definition: bricklayer (female)
+    definition: (female) bricklayer
     declension: https://www.verbformen.com/?w=Maurerin
   - term: der Musiker
     definition: musician
@@ -1084,16 +1084,16 @@ vocabulary:
     definition: (female) musician
     declension: https://www.verbformen.com/?w=Musikerin
   - term: der Sekretär
-    definition: secretary (male)
+    definition: (male) secretary
     declension: https://www.verbformen.com/?w=Sekret%C3%A4r
   - term: die Sekretärin
     definition: (female) secretary
     declension: https://www.verbformen.com/?w=Sekret%C3%A4rin
   - term: der Student
-    definition: student (male)
+    definition: (male) student
     declension: https://www.verbformen.com/?w=Student
   - term: die Studentin
-    definition: student (female)
+    definition: (female) student
     declension: https://www.verbformen.com/?w=Studentin
   - term: der Taxifahrer
     definition: taxi driver
@@ -1102,40 +1102,40 @@ vocabulary:
     definition: (female) taxi driver
     declension: https://www.verbformen.com/?w=Taxifahrerin
   - term: der Tischler
-    definition: carpenter (male)
+    definition: (male) carpenter
     declension: https://www.verbformen.com/?w=Tischler
   - term: die Tischlerin
-    definition: carpenter (female)
+    definition: (female) carpenter
     declension: https://www.verbformen.com/?w=Tischlerin
   - term: der Verkaüfer
-    definition: shop assistant (male)
+    definition: (male) shop assistant
     declension: https://www.verbformen.com/?w=Verka%C3%BCfer
   - term: die Verkaüferin
-    definition: shop assistant (female)
+    definition: (female) shop assistant
     declension: https://www.verbformen.com/?w=Verk%C3%A4uferin
   - term: der Arzt
-    definition: doctor (male)
+    definition: (male) doctor
     declension: https://www.verbformen.com/?w=Arzt
   - term: die Ärztin
-    definition: doctor (female)
+    definition: (female) doctor
     declension: https://www.verbformen.com/?w=%C3%84rztin
   - term: der Koch
-    definition: chef (male)
+    definition: (male) chef
     declension: https://www.verbformen.com/?w=Koch
   - term: die Köchin
-    definition: chef (female)
+    definition: (female) chef
     declension: https://www.verbformen.com/?w=K%C3%B6chin
   - term: der Friseur
-    definition: hairdresser (male)
+    definition: (male) hairdresser
     declension: https://www.verbformen.com/?w=Friseur
   - term: die Friseuse
-    definition: hairdresser (female)
+    definition: (female) hairdresser
     declension: https://www.verbformen.com/?w=Friseuse
   - term: der Frisör
-    definition: hairdresser (male)
+    definition: (male) hairdresser
     declension: https://www.verbformen.com/?w=Fris%C3%B6r
   - term: die Frisöse
-    definition: hairdresser (female)
+    definition: (female) hairdresser
     declension: https://www.verbformen.com/?w=Fris%C3%B6se
   - term: der Hausmann
     definition: househusband
@@ -1144,19 +1144,19 @@ vocabulary:
     definition: housewife
     declension: https://www.verbformen.com/?w=Hausfrau
   - term: der Kaufmann
-    definition: trader (male)
+    definition: (male) trader
     declension: https://www.verbformen.com/?w=Kaufmann
   - term: die Kauffrau
-    definition: trader (female)
+    definition: (female) trader
     declension: https://www.verbformen.com/?w=Kauffrau
   - term: der Kranker
     definition: sick person
     declension: https://en.wiktionary.org/wiki/Kranker#Declension
   - term: der Krankenpfleger
-    definition: nurse (male)
+    definition: (male) nurse
     declension: https://www.verbformen.com/?w=Krankenpfleger
   - term: die Krankenschwester
-    definition: nurse (female)
+    definition: (female) nurse
     declension: https://www.verbformen.com/?w=Krankenschwester
   - term: willkommen
     definition: welcome
@@ -1193,6 +1193,30 @@ vocabulary:
   - term: interessant
     definition: interesting
     declension: https://en.wiktionary.org/wiki/interessant#Declension
+  - term: interessiert
+    definition: (adj.) interested
+    declension:
+      - strong declension (without article)
+        - ["",         singular,       singular,       singular,       plural        ]
+        - ["",         masculine,      feminine,       neuter,         ""            ]
+        - [nominative, interessierter, interessierte,  interessiertes, interessierte ]
+        - [genitive,   interessierten, interessierter, interessierten, interessierter]
+        - [dative,     interessiertem, interessierter, interessiertem, interessierten]
+        - [accusative, interessierten, interessierte,  interessiertes, interessierte ]
+      - weak declension (with definite article)
+        - ["",         singular,           singular,           singular,           plural            ]
+        - ["",         masculine,          feminine,           neuter,             ""                ]
+        - [nominative, der interessierte,  die interessierte,  das interessierte,  die interessierten]
+        - [genitive,   des interessierten, der interessierten, des interessierten, der interessierten]
+        - [dative,     dem interessierten, der interessierten, dem interessierten, den interessierten]
+        - [accusative, den interessierten, die interessierte,  das interessierte,  die interessierten]
+      - mixed declension (with indefinite article)
+        - ["",         singular,             singular,             singular,             plural                 ]
+        - ["",         masculine,            feminine,             neuter,               ""                     ]
+        - [nominative, ein interessierter,   eine interessierte,   ein interessiertes,   (keine) interessierten ]
+        - [genitive,   eines interessierten, einer interessierten, eines interessierten, (keiner) interessierten]
+        - [dative,     einem interessierten, einer interessierten, einem interessierten, (keinen) interessierten]
+        - [accusative, einen interessierten, eine interessierte,   ein interessiertes,   (keine) interessierten ]
   - term: langweilig
     definition: boring
     declension: https://en.wiktionary.org/wiki/langweilig#Declension
@@ -1469,7 +1493,14 @@ vocabulary:
   - term: krank
     definition: sick, ill
   - term: werden
-    definition: to become
+    definition:
+      - will
+      - to be going to
+      - would
+      - to be done
+      - to become
+      - to happen
+    conjugation: https://en.wiktionary.org/wiki/werden#Conjugation
   - term: gesund
     definition: gesund
     declension:
@@ -1514,6 +1545,7 @@ vocabulary:
     definition: young
   - term: lieben
     definition: to love
+    conjugation: https://en.wiktionary.org/wiki/lieben#Conjugation
   - term: Sie ihn schon lange lieben?
     definition: Have you loved him for a long time?
   - term: immer
@@ -1560,6 +1592,7 @@ vocabulary:
     definition: perhaps
   - term: sollen
     definition: should
+    conjugation: https://en.wiktionary.org/wiki/sollen#Conjugation_2
   - term: Vielleicht sollten Sie ...
     definition: Maybe you should ...
   - term: weggehen
@@ -1568,6 +1601,24 @@ vocabulary:
     definition: leave here
   - term: Schon gut.
     definition: It's okay
+  - term: der Freund
+    definition: (male) the friend
+    declension:
+      - ["",         singular, singular, singular,            plural, plural  ]
+      - ["",         indef.,   def.,     noun,                def.,   noun    ]
+      - [nominative, ein,      der,      Freund,              die,    Freunde ]
+      - [genitive,   eines,    des,      "Freundes, Freunds", der,    Freunde ]
+      - [dative,     einem,    dem,      Freund,              den,    Freunden]
+      - [accusative, einen,    den,      Freund,              die,    Freunde ]
+  - term: die Freundin
+    definition: (female) the friend
+    declension:
+      - ["",         singular, singular, singular, plural, plural     ]
+      - ["",         indef.,   def.,     noun,     def.,   noun       ]
+      - [nominative, eine,     die,      Freundin, die,    Freundinnen]
+      - [genitive,   einer,    der,      Freundin, der,    Freundinnen]
+      - [dative,     einer,    der,      Freundin, den,    Freundinnen]
+      - [accusative, eine,     die,      Freundin, die,    Freundinnen]
   - term: aufwachsen
     definition: to grow up
     conjugation: https://en.wiktionary.org/wiki/aufwachsen#Conjugation
@@ -1610,6 +1661,15 @@ vocabulary:
       - [genitive,   eines,    des,      Nesthäkchens, der,    Nesthäkchen]
       - [dative,     einem,    dem,      Nesthäkchen,  den,    Nesthäkchen]
       - [accusative, ein,      das,      Nesthäkchen,  die,    Nesthäkchen]
+  - term: der Kriegsbeginn
+    definition: the start of the war
+    declension:
+      - ["",         singular, singular, singular,                        plural, plural]
+      - ["",         indef.,   def.,     noun,                            def.,   noun  ]
+      - [nominative, ein,      der,      Kriegsbeginn,                    N/A,    N/A   ]
+      - [genitive,   eines,    des,      "Kriegsbeginnes, Kriegsbeginns", N/A,    N/A   ]
+      - [dative,     einem,    dem,      Kriegsbeginn,                    N/A,    N/A   ]
+      - [accusative, einen,    den,      Kriegsbeginn,                    N/A,    N/A   ]
   - term: der Dienst
     definition:
       - the service
@@ -1627,6 +1687,338 @@ vocabulary:
       - to provide
       - to afford
     conjugation: https://en.wiktionary.org/wiki/leisten#Conjugation
+  - term: das Lazarett
+    definition: military hospital
+  - term: wollen
+    definition: to want
+    conjugation: https://en.wiktionary.org/wiki/wollen#Conjugation
+  - term: hinter
+    definition:
+      - (prop.) behind
+      - (prop.) after
+      - (prop.) beyond
+  - term: die Front
+    definition: the front
+    declension:
+      - ["",         singular, singular, singular, plural, plural ]
+      - ["",         indef.,   def.,     noun,     def.,   noun   ]
+      - [nominative, eine,     die,      Front,    die,    Fronten]
+      - [genitive,   einer,    der,      Front,    der,    Fronten]
+      - [dative,     einer,    der,      Front,    den,    Fronten]
+      - [accusative, eine,     die,      Front,    die,    Fronten]
+  - term: die Einheit
+    definition:
+      - unit
+      - unity
+    declension:
+      - ["",         singular, singular, singular, plural, plural   ]
+      - ["",         indef.,   def.,     noun,     def.,   noun     ]
+      - [nominative, eine,     die,      Einheit,  die,    Einheiten]
+      - [genitive,   einer,    der,      Einheit,  der,    Einheiten]
+      - [dative,     einer,    der,      Einheit,  den,    Einheiten]
+      - [accusative, eine,     die,      Einheit,  die,    Einheiten]
+  - term: folgen
+    definition:
+      - to follow
+      - to understand
+      - to obey
+    conjugation: https://en.wiktionary.org/wiki/folgen#Conjugation
+  - term: das Unteroffizier
+    definition: the non-commissioned officer
+    declension:
+      - ["",         singular, singular, singular,       plural, plural         ]
+      - ["",         indef.,   def.,     noun,           def.,   noun           ]
+      - [nominative, ein,      der,      Unteroffizier,  die,    Unteroffiziere ]
+      - [genitive,   eines,    des,      Unteroffiziers, der,    Unteroffiziere ]
+      - [dative,     einem,    dem,      Unteroffizier,  den,    Unteroffizieren]
+      - [accusative, einen,    den,      Unteroffizier,  die,    Unteroffiziere ]
+  - term: der Weltkrieg
+    definition: the world war
+    declension:
+      - ["",         singular, singular, singular,                  plural, plural     ]
+      - ["",         indef.,   def.,     noun,                      def.,   noun       ]
+      - [nominative, ein,      der,      Weltkrieg,                 die,    Weltkriege ]
+      - [genitive,   eines,    des,      "Weltkrieges, Weltkriegs", der,    Weltkriege ]
+      - [dative,     einem,    dem,      Weltkrieg,                 den,    Weltkriegen]
+      - [accusative, einen,    den,      Weltkrieg,                 die,    Weltkriege ]
+  - term: spät
+    definition: (adj.) late
+    declension:
+      - strong declension (without article)
+        - ["",         singular,    singular, singular, plural]
+        - ["",         masculine,   feminine, neuter,   ""    ]
+        - [nominative, später,      späte,    spätes,   späte ]
+        - [genitive,   späten,      später,   späten,   später]
+        - [dative,     spätem,      später,   spätem,   späten]
+        - [accusative, späten,      späte,    spätes,   späte ]
+      - weak declension (with definite article)
+        - ["",         singular,   singular,   singular,   plural    ]
+        - ["",         masculine,  feminine,   neuter,     ""        ]
+        - [nominative, der späte,  die späte,  das späte,  die späten]
+        - [genitive,   des späten, der späten, des späten, der späten]
+        - [dative,     dem späten, der späten, dem späten, den späten]
+        - [accusative, den späten, die späte,  das späte,  die späten]
+      - mixed declension (with indefinite article)
+        - ["",         singular,     singular,     singular,     plural         ]
+        - ["",         masculine,    feminine,     neuter,       ""             ]
+        - [nominative, ein später,   eine späte,   ein spätes,   (keine) späten ]
+        - [genitive,   eines späten, einer späten, eines späten, (keiner) späten]
+        - [dative,     einem späten, einer späten, einem späten, (keinen) späten]
+        - [accusative, einen späten, eine späte,   ein spätes,   (keine) späten ]
+  - term: angesehen
+    definition: (adj.) respected
+    declension:
+      - strong declension (without article)
+        - ["",         singular,    singular,    singular,    plural     ]
+        - ["",         masculine,   feminine,    neuter,      ""         ]
+        - [nominative, angesehener, angesehene,  angesehenes, angesehene ]
+        - [genitive,   angesehenen, angesehener, angesehenen, angesehener]
+        - [dative,     angesehenem, angesehener, angesehenem, angesehenen]
+        - [accusative, angesehenen, angesehene,  angesehenes, angesehene ]
+      - weak declension (with definite article)
+        - ["",         singular,        singular,        singular,        plural         ]
+        - ["",         masculine,       feminine,        neuter,          ""             ]
+        - [nominative, der angesehene,  die angesehene,  das angesehene,  die angesehenen]
+        - [genitive,   des angesehenen, der angesehenen, des angesehenen, der angesehenen]
+        - [dative,     dem angesehenen, der angesehenen, dem angesehenen, den angesehenen]
+        - [accusative, den angesehenen, die angesehene,  das angesehene,  die angesehenen]
+      - mixed declension (with indefinite article)
+        - ["",         singular,          singular,          singular,          plural              ]
+        - ["",         masculine,         feminine,          neuter,            ""                  ]
+        - [nominative, ein angesehener,   eine angesehene,   ein angesehenes,   (keine) angesehenen ]
+        - [genitive,   eines angesehenen, einer angesehenen, eines angesehenen, (keiner) angesehenen]
+        - [dative,     einem angesehenen, einer angesehenen, einem angesehenen, (keinen) angesehenen]
+        - [accusative, einen angesehenen, eine angesehene,   ein angesehenes,   (keine) angesehenen ]
+  - term: der Schneider
+    definition: the tailor
+    declension:
+      - ["",         singular, singular, singular,   plural, plural    ]
+      - ["",         indef.,   def.,     noun,       def.,   noun      ]
+      - [nominative, ein,      der,      Schneider,  die,    Schneider ]
+      - [genitive,   eines,    des,      Schneiders, der,    Schneider ]
+      - [dative,     einem,    dem,      Schneider,  den,    Schneidern]
+      - [accusative, einen,    den,      Schneider,  die,    Schneider ]
+  - term: übernehmen
+    definition: to take over
+    conjugation: https://en.wiktionary.org/wiki/%C3%BCbernehmen#Conjugation
+  - term: das Geschäft
+    definition:
+      - the store
+      - the business
+    declension:
+      - ["",         singular, singular, singular,                plural, plural    ]
+      - ["",         indef.,   def.,     noun,                    def.,   noun      ]
+      - [nominative, ein,      das,      Geschäft,                die,    Geschäfte ]
+      - [genitive,   eines,    des,      "Geschäftes, Geschäfts", der,    Geschäfte ]
+      - [dative,     einem,    dem,      Geschäft,                den,    Geschäften]
+      - [accusative, ein,      das,      Geschäft,                die,    Geschäfte ]
+  - term: bevor
+    definition:
+      - (conj.) before
+      - (adv.) before
+  - term: die Reichskristallnacht
+    definition: (Nazism) the Kristallnacht
+    declension:
+      - ["",         singular, singular, singular,            plural, plural]
+      - ["",         indef.,   def.,     noun,                def.,   noun  ]
+      - [nominative, eine,     die,      Reichskristallnacht, N/A,    N/A   ]
+      - [genitive,   einer,    der,      Reichskristallnacht, N/A,    N/A   ]
+      - [dative,     einer,    der,      Reichskristallnacht, N/A,    N/A   ]
+      - [accusative, eine,     die,      Reichskristallnacht, N/A,    N/A   ]
+  - term: die Scherbe
+    definition: the shard
+    declension:
+      - ["",         singular, singular, singular, plural, plural  ]
+      - ["",         indef.,   def.,     noun,     def.,   noun    ]
+      - [nominative, eine,     die,      Scherbe,  die,    Scherben]
+      - [genitive,   einer,    der,      Scherbe,  der,    Scherben]
+      - [dative,     einer,    der,      Scherbe,  den,    Scherben]
+      - [accusative, eine,     die,      Scherbe,  die,    Scherben]
+  - term: zerfallen
+    definition: to disintegrate
+    conjugation: https://en.wiktionary.org/wiki/zerfallen#Conjugation
+  - term: beide
+    definition: (pron.) both
+    declension:
+      - [case,       singular, plural (strong forms), plural (weak & mixed forms)]
+      - [nominative, beides,   beides,                die beiden                 ]
+      - [genitive,   (beides), beider,                der beiden                 ]
+      - [dative,     beidem,   beiden,                den beiden                 ]
+      - [accusative, beides,   beides,                die beiden                 ]
+  - term: unzertrennlich
+    definition: (adj.) inseparable
+    declension:
+      - strong declension (without article)
+        - ["",         singular,         singular,         singular,         plural          ]
+        - ["",         masculine,        feminine,         neuter,           ""              ]
+        - [nominative, unzertrennlicher, unzertrennliche,  unzertrennliches, unzertrennliche ]
+        - [genitive,   unzertrennlichen, unzertrennlicher, unzertrennlichen, unzertrennlicher]
+        - [dative,     unzertrennlichem, unzertrennlicher, unzertrennlichem, unzertrennlichen]
+        - [accusative, unzertrennlichen, unzertrennliche,  unzertrennliches, unzertrennliche ]
+      - weak declension (with definite article)
+        - ["",         singular,             singular,             singular,             plural              ]
+        - ["",         masculine,            feminine,             neuter,               ""                  ]
+        - [nominative, der unzertrennliche,  die unzertrennliche,  das unzertrennliche,  die unzertrennlichen]
+        - [genitive,   des unzertrennlichen, der unzertrennlichen, des unzertrennlichen, der unzertrennlichen]
+        - [dative,     dem unzertrennlichen, der unzertrennlichen, dem unzertrennlichen, den unzertrennlichen]
+        - [accusative, den unzertrennlichen, die unzertrennliche,  das unzertrennliche,  die unzertrennlichen]
+      - mixed declension (with indefinite article)
+        - ["",         singular,               singular,               singular,               plural                   ]
+        - ["",         masculine,              feminine,               neuter,                 ""                       ]
+        - [nominative, ein unzertrennlicher,   eine unzertrennliche,   ein unzertrennliches,   (keine) unzertrennlichen ]
+        - [genitive,   eines unzertrennlichen, einer unzertrennlichen, eines unzertrennlichen, (keiner) unzertrennlichen]
+        - [dative,     einem unzertrennlichen, einer unzertrennlichen, einem unzertrennlichen, (keinen) unzertrennlichen]
+        - [accusative, einen unzertrennlichen, eine unzertrennliche,   ein unzertrennliches,   (keine) unzertrennlichen ]
+  - term: die Beziehung
+    definition: the relationship
+    declension:
+      - ["",         singular, singular, singular,  plural, plural     ]
+      - ["",         indef.,   def.,     noun,      def.,   noun       ]
+      - [nominative, eine,     die,      Beziehung, die,    Beziehungen]
+      - [genitive,   einer,    der,      Beziehung, der,    Beziehungen]
+      - [dative,     einer,    der,      Beziehung, den,    Beziehungen]
+      - [accusative, eine,     die,      Beziehung, die,    Beziehungen]
+  - term: die Rassenschande
+    definition: (Nazism, obsolete) the miscegenation
+    declension:
+      - ["",         singular, singular, singular,      plural, plural]
+      - ["",         indef.,   def.,     noun,          def.,   noun  ]
+      - [nominative, eine,     die,      Rassenschande, N/A,    N/A   ]
+      - [genitive,   einer,    der,      Rassenschande, N/A,    N/A   ]
+      - [dative,     einer,    der,      Rassenschande, N/A,    N/A   ]
+      - [accusative, eine,     die,      Rassenschande, N/A,    N/A   ]
+  - term: gelten
+    definition:
+      - to be valid
+      - to hold true
+      - to be effective
+      - to be worth
+      - to be regarded
+      - to be necessary
+  - term: einmal
+    definition: (adv.) once
+  - term: neu
+    definition:
+      - (adj.) new
+      - (adj.) recent
+      - (adj.) modern
+    declension:
+      - strong declension (without article)
+        - ["",         singular,  singular, singular, plural]
+        - ["",         masculine, feminine, neuter,   ""    ]
+        - [nominative, neuer,     neue,     neues,    neue  ]
+        - [genitive,   neuen,     neuer,    neuen,    neuer ]
+        - [dative,     neuem,     neuer,    neuem,    neuen ]
+        - [accusative, neuen,     neue,     neues,    neue  ]
+      - weak declension (with definite article)
+        - ["",         singular,  singular,  singular,  plural   ]
+        - ["",         masculine, feminine,  neuter,    ""       ]
+        - [nominative, der neue,  die neue,  das neue,  die neuen]
+        - [genitive,   des neuen, der neuen, des neuen, der neuen]
+        - [dative,     dem neuen, der neuen, dem neuen, den neuen]
+        - [accusative, den neuen, die neue,  das neue,  die neuen]
+      - mixed declension (with indefinite article)
+        - ["",         singular,    singular,    singular,    plural        ]
+        - ["",         masculine,   feminine,    neuter,      ""            ]
+        - [nominative, ein neuer,   eine neue,   ein neues,   (keine) neuen ]
+        - [genitive,   eines neuen, einer neuen, eines neuen, (keiner) neuen]
+        - [dative,     einem neuen, einer neuen, einem neuen, (keinen) neuen]
+        - [accusative, einen neuen, eine neue,   ein neues,   (keine) neuen ]
+  - term: klein
+    definition:
+      - small
+      - young
+      - insignificant
+    declension:
+      - strong declension (without article)
+        - ["",         singular,  singular, singular, plural ]
+        - ["",         masculine, feminine, neuter,   ""     ]
+        - [nominative, kleiner,   kleine,   kleines,  kleine ]
+        - [genitive,   kleinen,   kleiner,  kleinen,  kleiner]
+        - [dative,     kleinem,   kleiner,  kleinem,  kleinen]
+        - [accusative, kleinen,   kleine,   kleines,  kleine ]
+      - weak declension (with definite article)
+        - ["",         singular,    singular,    singular,    plural     ]
+        - ["",         masculine,   feminine,    neuter,      ""         ]
+        - [nominative, der kleine,  die kleine,  das kleine,  die kleinen]
+        - [genitive,   des kleinen, der kleinen, des kleinen, der kleinen]
+        - [dative,     dem kleinen, der kleinen, dem kleinen, den kleinen]
+        - [accusative, den kleinen, die kleine,  das kleine,  die kleinen]
+      - mixed declension (with indefinite article)
+        - ["",         singular,      singular,      singular,      plural          ]
+        - ["",         masculine,     feminine,      neuter,        ""              ]
+        - [nominative, ein kleiner,   eine kleine,   ein kleines,   (keine) kleinen ]
+        - [genitive,   eines kleinen, einer kleinen, eines kleinen, (keiner) kleinen]
+        - [dative,     einem kleinen, einer kleinen, einem kleinen, (keinen) kleinen]
+        - [accusative, einen kleinen, eine kleine,   ein kleines,   (keine) kleinen ]
+  - term: der Bruder
+    definition: the brother
+    declension:
+      - ["",         singular, singular, singular, plural, plural ]
+      - ["",         indef.,   def.,     noun,     def.,   noun   ]
+      - [nominative, ein,      der,      Bruder,   die,    Brüder ]
+      - [genitive,   eines,    des,      Bruders,  der,    Brüder ]
+      - [dative,     einem,    dem,      Bruder,   den,    Brüdern]
+      - [accusative, einen,    den,      Bruder,   die,    Brüder ]
+  - term: der Bücherwurm
+    definition: the bookworm
+    declension:
+      - ["",         singular, singular, singular,                    plural, plural       ]
+      - ["",         indef.,   def.,     noun,                        def.,   noun         ]
+      - [nominative, ein,      der,      Bücherwurm,                  die,    Bücherwürmer ]
+      - [genitive,   eines,    des,      "Bücherwurmes, Bücherwurms", der,    Bücherwürmer ]
+      - [dative,     einem,    dem,      Bücherwurm,                  den,    Bücherwürmern]
+      - [accusative, einen,    den,      Bücherwurm,                  die,    Bücherwürmer ]
+  - term: bewundern
+    definition: to admire
+    conjugation: https://en.wiktionary.org/wiki/bewundern#Conjugation
+  - term: die Klugheit
+    definition:
+      - (uncountable) the prudence
+      - (uncountable) the intelligence
+      - (countable) wise action
+    declension:
+      - ["",         singular, singular, singular,  plural, plural    ]
+      - ["",         indef.,   def.,     noun,      def.,   noun      ]
+      - [nominative, eine,     die,      Klugheit,  die,    Klugheiten]
+      - [genitive,   einer,    der,      Klugheit,  der,    Klugheiten]
+      - [dative,     einer,    der,      Klugheit,  den,    Klugheiten]
+      - [accusative, eine,     die,      Klugheit,  die,    Klugheiten]
+  - term: der Witz
+    definition:
+      - wit
+      - joke
+      - humour
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, ein,      der,      Witz,     die,    Witze ]
+      - [genitive,   eines,    des,      Witzes,   der,    Witze ]
+      - [dative,     einem,    dem,      Witz,     den,    Witzen]
+      - [accusative, einen,    den,      Witz,     die,    Witze ]
+  - term: das Mal
+    definition:
+      - (as in the first "time"; many "times") time
+      - occasion
+    declension:
+      - ["",         singular, singular, singular,      plural, plural      ]
+      - ["",         indef.,   def.,     noun,          def.,   noun        ]
+      - [nominative, ein,      das,      Mal,           die,    "Male, Mal" ]
+      - [genitive,   eines,    des,      "Males, Mals", der,    "Male, Mal" ]
+      - [dative,     einem,    dem,      Mal,           den,    "Malen, Mal"]
+      - [accusative, ein,      das,      Mal,           die,    "Male, Mal" ]
+  - term: die Richtung
+    definition:
+      - the direction
+      - the route
+      - the depature
+    declension:
+      - ["",         singular, singular, singular,  plural, plural    ]
+      - ["",         indef.,   def.,     noun,      def.,   noun      ]
+      - [nominative, eine,     die,      Richtung,  die,    Richtungen]
+      - [genitive,   einer,    der,      Richtung,  der,    Richtungen]
+      - [dative,     einer,    der,      Richtung,  den,    Richtungen]
+      - [accusative, eine,     die,      Richtung,  die,    Richtungen]
 
 
 
@@ -1639,8 +2031,31 @@ vocabulary:
     definition: theme, subject
     declension: https://www.verbformen.com/?w=Thema
   - term: scharf
-    definition: sharp, hot
-    declension: https://www.verbformen.com/?w=scharf
+    definition:
+      - sharp,
+      - hot
+    declension:
+      - strong declension (without article)
+        - ["",         singular,  singular, singular, plural  ]
+        - ["",         masculine, feminine, neuter,   ""      ]
+        - [nominative, scharfer,  scharfe,  scharfes, scharfe ]
+        - [genitive,   scharfen,  scharfer, scharfen, scharfer]
+        - [dative,     scharfem,  scharfer, scharfem, scharfen]
+        - [accusative, scharfen,  scharfe,  scharfes, scharfe ]
+      - weak declension (with definite article)
+        - ["",         singular,     singular,     singular,     plural      ]
+        - ["",         masculine,    feminine,     neuter,       ""          ]
+        - [nominative, der scharfe,  die scharfe,  das scharfe,  die scharfen]
+        - [genitive,   des scharfen, der scharfen, des scharfen, der scharfen]
+        - [dative,     dem scharfen, der scharfen, dem scharfen, den scharfen]
+        - [accusative, den scharfen, die scharfe,  das scharfe,  die scharfen]
+      - mixed declension (with indefinite article)
+        - ["",         singular,       singular,       singular,       plural           ]
+        - ["",         masculine,      feminine,       neuter,         ""               ]
+        - [nominative, ein scharfer,   eine scharfe,   ein scharfes,   (keine) scharfen ]
+        - [genitive,   eines scharfen, einer scharfen, eines scharfen, (keiner) scharfen]
+        - [dative,     einem scharfen, einer scharfen, einem scharfen, (keinen) scharfen]
+        - [accusative, einen scharfen, eine scharfe,   ein scharfes,   (keine) scharfen ]
   - term: umstritten
     definition: controversial
     declension: https://www.verbformen.com/?w=umstritten
