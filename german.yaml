@@ -326,7 +326,7 @@ vocabulary:
   - term: Amsterdam
     definition: Amsterdam
   - term: das Russland
-    defintion: the Russia
+    definition: the Russia
     declension:
       - ["",         singular, singular, singular,  plural, plural]
       - ["",         indef.,   def.,     noun,      def.,   noun  ]
