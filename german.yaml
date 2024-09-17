@@ -325,6 +325,15 @@ vocabulary:
     definition: Brussels
   - term: Amsterdam
     definition: Amsterdam
+  - term: das Russland
+    defintion: the Russia
+    declension:
+      - ["",         singular, singular, singular,  plural, plural]
+      - ["",         indef.,   def.,     noun,      def.,   noun  ]
+      - [nominative, ein,      das,      Russland,  N/A,    N/A   ]
+      - [genitive,   eines,    des,      Russlands, N/A,    N/A   ]
+      - [dative,     einem,    dem,      Russland,  N/A,    N/A   ]
+      - [accusative, ein,      das,      Russland,  N/A,    N/A   ]
   - term: Russisch
     definition: Russian (language)
   - term: der Geburtsort
@@ -2034,6 +2043,21 @@ vocabulary:
       - [genitive,   einer,    der,      Richtung,  der,    Richtungen]
       - [dative,     einer,    der,      Richtung,  den,    Richtungen]
       - [accusative, eine,     die,      Richtung,  die,    Richtungen]
+  - term: der Einsatz
+    definition:
+      - something inserted
+      - compartment
+      - insertion
+      - usage
+      - employment
+      - commitment
+    declension:
+      - ["",         singular, singular, singular,  plural, plural   ]
+      - ["",         indef.,   def.,     noun,      def.,   noun     ]
+      - [nominative, ein,      der,      Einsatz,   die,    Einsätze ]
+      - [genitive,   eines,    des,      Einsatzes, der,    Einsätze ]
+      - [dative,     einem,    dem,      Einsatz,   den,    Einsätzen]
+      - [accusative, einen,    den,      Einsatz,   die,    Einsätze ]
 
 
 
