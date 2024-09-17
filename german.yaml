@@ -1619,6 +1619,21 @@ vocabulary:
       - [genitive,   einer,    der,      Freundin, der,    Freundinnen]
       - [dative,     einer,    der,      Freundin, den,    Freundinnen]
       - [accusative, eine,     die,      Freundin, die,    Freundinnen]
+  - term: verabschieden
+    definition: to say goodbye
+    conjugation: https://en.wiktionary.org/wiki/verabschieden#Conjugation
+  - term: der Weg
+    definition: the path
+    declension:
+      - ["",         singular, singular, singular,      plural, plural]
+      - ["",         indef.,   def.,     noun,          def.,   noun  ]
+      - [nominative, ein,      der,      Weg,           die,    Wege  ]
+      - [genitive,   eines,    des,      "Weges, Wegs", der,    Wege  ]
+      - [dative,     einem,    dem,      Weg,           den,    Wegen ]
+      - [accusative, einen,    den,      Weg,           die,    Wege  ]
+  - term: trennen
+    definition: to separate
+    conjugation: https://en.wiktionary.org/wiki/trennen#Conjugation
   - term: aufwachsen
     definition: to grow up
     conjugation: https://en.wiktionary.org/wiki/aufwachsen#Conjugation
