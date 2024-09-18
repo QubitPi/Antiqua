@@ -5,6 +5,7 @@ Wilhelm Vocabulary
 [![Apache License Badge]][Apache License, Version 2.0]
 
 <!-- TOC -->
+
 - [Wilhelm Vocabulary](#wilhelm-vocabulary)
   - [Data Format](#data-format)
   - [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
@@ -26,6 +27,7 @@ Wilhelm Vocabulary
     - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
     - [Korean](#korean)
   - [License](#license)
+
 <!-- TOC -->
 
 Data Format
@@ -43,10 +45,11 @@ How Data (Vocabulary) is Stored in a Graph Database
 ### Why Graph Database
 
 Graph data representation assumes universal connectivity among world entities. This applies pretty well to the realm of
-languages. Multilanguage learners have already seen that Indo-European languages are similar in many respects. The
+languages. Multilanguage learners have already seen that Indo-European languages are similar in many aspects. The
 similarities not only signify the historical facts about Philology but also surface a great opportunity for
-multilanguage learners to study much more efficiently. What's missing is connecting the dots using Graph Databases that
-visually presents these vastly enlightening links between the related languages very naturally.
+multilanguage learners to take advantages of them and study much more efficiently. What's missing is connecting the dots
+using Graph Databases that visually presents these vastly enlightening links between the related languages in a natural
+way.
 
 ### Definition
 
@@ -198,12 +201,12 @@ The declension table above is equivalent to
 
 ```yaml
     declension:
-      - ["",         singular, singular, singular,  plural, plural  ]
-      - ["",         indef.,   def.,     noun,      def.,   noun    ]
-      - [nominative, eine,     die,      █████████, die,    ████████]
-      - [genitive,   einer,    der,      █████████, der,    ████████]
-      - [dative,     einer,    der,      █████████, den,    ████████]
-      - [accusative, eine,     die,      █████████, die,    ████████]
+      - ["",         singular, singular, singular,  plural, plural]
+      - ["",         indef.,   def.,     noun,      def.,   noun  ]
+      - [nominative, eine,     die,      █████████, die,    ██████]
+      - [genitive,   einer,    der,      █████████, der,    ██████]
+      - [dative,     einer,    der,      █████████, den,    ██████]
+      - [accusative, eine,     die,      █████████, die,    ██████]
 ```
 
 ###### Neuter
