@@ -121,7 +121,7 @@ vocabulary:
 >
 > The parenthesized value at the beginning of each `definition` item played an un-ignorable role: it is the label of the
 > relationship between `term` and `definition` in graph database loaded by
-> [Wilhelm SDK](https://github.com/QubitPi/wilhelm-graphdb-python). For example, both German words
+> [Wilhelm SDK](https://github.com/QubitPi/wilhelm-python-sdk). For example, both German words
 >
 > ```yaml
 > - term: denn
@@ -201,12 +201,12 @@ The declension table above is equivalent to
 
 ```yaml
     declension:
-      - ["",         singular, singular, singular,  plural, plural]
-      - ["",         indef.,   def.,     noun,      def.,   noun  ]
-      - [nominative, eine,     die,      █████████, die,    ██████]
-      - [genitive,   einer,    der,      █████████, der,    ██████]
-      - [dative,     einer,    der,      █████████, den,    ██████]
-      - [accusative, eine,     die,      █████████, die,    ██████]
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, eine,     die,      ████████, die,    ██████]
+      - [genitive,   einer,    der,      ████████, der,    ██████]
+      - [dative,     einer,    der,      ████████, den,    ██████]
+      - [accusative, eine,     die,      ████████, die,    ██████]
 ```
 
 ###### Neuter
