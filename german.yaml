@@ -401,7 +401,9 @@ vocabulary:
   - term: nicht mehr
     definition: no longer
   - term: noch
-    definition: still
+    definition:
+      - still
+      - yet
   - term: nicht ... sondern
     definition: not... but...
   - term: arbeiten
@@ -539,6 +541,13 @@ vocabulary:
       - [accusative, eine,     die,      Bäckerei, die,    Bäckereien]
   - term: der Kuchen
     definition: the cake
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, ein,      der,      Kuchen,   die,    Kuchen]
+      - [genitive,   eines,    des,      Kuchens,  der,    Kuchen]
+      - [dative,     einem,    dem,      Kuchen,   den,    Kuchen]
+      - [accusative, einen,    den,      Kuchen,   die,    Kuchen]
   - term: Dort ist der Kuchen augezeichnet
     definition: The cake there is excellent
   - term: die Kneipe
@@ -704,6 +713,15 @@ vocabulary:
       - [genitive,   eines,    des,      "Brotes, Brots", der,    Brote ]
       - [dative,     einem,    dem,      Brot,            den,    Broten]
       - [accusative, ein,      das,      Brot,            die,    Brote ]
+  - term: das Brötchen
+    definition: the bread roll
+    declension:
+      - ["",         singular, singular, singular,  plural, plural  ]
+      - ["",         indef.,   def.,     noun,      def.,   noun    ]
+      - [nominative, ein,      das,      Brötchen,  die,    Brötchen]
+      - [genitive,   eines,    des,      Brötchens, der,    Brötchen]
+      - [dative,     einem,    dem,      Brötchen,  den,    Brötchen]
+      - [accusative, ein,      das,      Brötchen,  die,    Brötchen]
   - term: das Müsli
     definition: the muesli
     declension:
@@ -1486,6 +1504,27 @@ vocabulary:
       - [accusative, ein,      das,      Problem,  die,    Probleme ]
   - term: Kein Problem
     definition: No problem
+  - term: das Ding
+    definition: the thing
+    declension:
+      - ["",         singular, singular, singular,        plural, plural           ]
+      - ["",         indef.,   def.,     noun,            def.,   noun             ]
+      - [nominative, ein,      das,      Ding,            die,    "Dinge, Dinger"  ]
+      - [genitive,   eines,    des,      "Dinges, Dings", der,    Dinge, Dinger    ]
+      - [dative,     einem,    dem,      Ding,            den,    "Dingen, Dingern"]
+      - [accusative, ein,      das,      Ding,            die,    Dinge, Dinger    ]
+  - term: kaufen
+    definition: to buy
+    conjugation: https://en.wiktionary.org/wiki/kaufen#Conjugation
+  - term: das Beispiel
+    definition: the example
+    declension:
+      - ["",         singular, singular, singular,                plural, plural    ]
+      - ["",         indef.,   def.,     noun,                    def.,   noun      ]
+      - [nominative, ein,      das,      Beispiel,                die,    Beispiele ]
+      - [genitive,   eines,    des,      "Beispieles, Beispiels", der,    Beispiele ]
+      - [dative,     einem,    dem,      Beispiel,                den,    Beispielen]
+      - [accusative, ein,      das,      Beispiel,                die,    Beispiele ]
 
 
 
@@ -1628,6 +1667,45 @@ vocabulary:
       - [genitive,   einer,    der,      Freundin, der,    Freundinnen]
       - [dative,     einer,    der,      Freundin, den,    Freundinnen]
       - [accusative, eine,     die,      Freundin, die,    Freundinnen]
+  - term: gebührend
+    definition:
+      - (adj.) befitting
+      - (adj.) worthy
+    declension:
+      - strong declension (without article)
+        - ["",         singular,    singular,    singular,    plural     ]
+        - ["",         masculine,   feminine,    neuter,      ""         ]
+        - [nominative, gebührender, gebührende,  gebührendes, gebührende ]
+        - [genitive,   gebührenden, gebührender, gebührenden, gebührender]
+        - [dative,     gebührendem, gebührender, gebührendem, gebührenden]
+        - [accusative, gebührenden, gebührende,  gebührendes, gebührende ]
+      - weak declension (with definite article)
+        - ["",         singular,        singular,        singular,        plural         ]
+        - ["",         masculine,       feminine,        neuter,          ""             ]
+        - [nominative, der gebührende,  die gebührende,  das gebührende,  die gebührenden]
+        - [genitive,   des gebührenden, der gebührenden, des gebührenden, der gebührenden]
+        - [dative,     dem gebührenden, der gebührenden, dem gebührenden, den gebührenden]
+        - [accusative, den gebührenden, die gebührende,  das gebührende,  die gebührenden]
+      - mixed declension (with indefinite article)
+        - ["",         singular,          singular,          singular,          plural              ]
+        - ["",         masculine,         feminine,          neuter,            ""                  ]
+        - [nominative, ein gebührender,   eine gebührende,   ein gebührendes,   (keine) gebührenden ]
+        - [genitive,   eines gebührenden, einer gebührenden, eines gebührenden, (keiner) gebührenden]
+        - [dative,     einem gebührenden, einer gebührenden, einem gebührenden, (keinen) gebührenden]
+        - [accusative, einen gebührenden, eine gebührende,   ein gebührendes,   (keine) gebührenden ]
+  - term: voneinander
+    definition: (adv.) from/of each other
+  - term: der Abschied
+    definition:
+      - parting, farewell
+      - goodbye
+    declension:
+      - ["",         singular, singular, singular,                plural, plural    ]
+      - ["",         indef.,   def.,     noun,                    def.,   noun      ]
+      - [nominative, ein,      der,      Abschied,                die,    Abschiede ]
+      - [genitive,   eines,    des,      "Abschiedes, Abschieds", der,    Abschiede ]
+      - [dative,     einem,    dem,      Abschied,                den,    Abschieden]
+      - [accusative, einen,    den,      Abschied,                die,    Abschiede ]
   - term: verabschieden
     definition: to say goodbye
     conjugation: https://en.wiktionary.org/wiki/verabschieden#Conjugation
@@ -1670,6 +1748,58 @@ vocabulary:
         - [genitive,   eines unterschiedlichen, einer unterschiedlichen, eines unterschiedlichen, (keiner) unterschiedlichen]
         - [dative,     einem unterschiedlichen, einer unterschiedlichen, einem unterschiedlichen, (keinen) unterschiedlichen]
         - [accusative, einen unterschiedlichen, eine unterschiedliche,   ein unterschiedliches,   (keine) unterschiedlichen ]
+  - term: verschieden
+    definition:
+      - (adj.) different
+      - (adj.) several
+    declension:
+      - strong declension (without article)
+        - ["",         singular,      singular,      singular,      plural       ]
+        - ["",         masculine,     feminine,      neuter,        ""           ]
+        - [nominative, verschiedener, verschiedene,  verschiedenes, verschiedene ]
+        - [genitive,   verschiedenen, verschiedener, verschiedenen, verschiedener]
+        - [dative,     verschiedenem, verschiedener, verschiedenem, verschiedenen]
+        - [accusative, verschiedenen, verschiedene,  verschiedenes, verschiedene ]
+      - weak declension (with definite article)
+        - ["",         singular,          singular,          singular,          plural           ]
+        - ["",         masculine,         feminine,          neuter,            ""               ]
+        - [nominative, der verschiedene,  die verschiedene,  das verschiedene,  die verschiedenen]
+        - [genitive,   des verschiedenen, der verschiedenen, des verschiedenen, der verschiedenen]
+        - [dative,     dem verschiedenen, der verschiedenen, dem verschiedenen, den verschiedenen]
+        - [accusative, den verschiedenen, die verschiedene,  das verschiedene,  die verschiedenen]
+      - mixed declension (with indefinite article)
+        - ["",         singular,            singular,            singular,            plural                ]
+        - ["",         masculine,           feminine,            neuter,              ""                    ]
+        - [nominative, ein verschiedener,   eine verschiedene,   ein verschiedenes,   (keine)  verschiedenen]
+        - [genitive,   eines verschiedenen, einer verschiedenen, eines verschiedenen, (keiner) verschiedenen]
+        - [dative,     einem verschiedenen, einer verschiedenen, einem verschiedenen, (keinen) verschiedenen]
+        - [accusative, einen verschiedenen, eine verschiedene,   ein verschiedenes,   (keine)  verschiedenen]
+  - term: anderer
+    definition:
+      - (adj.) other
+      - (adj.) different
+    declension:
+      - strong declension (without article)
+        - ["",         singular,                  singular,          singular,                  plural]
+        - ["",         masculine,                 feminine,          neuter,                    ""    ]
+        - [nominative, "anderer, andrer",         "andere, andre",   "anderes, andres",         "andere, andre"]
+        - [genitive,   "anderen, andern, andren", "anderer, andrer", "anderen, andern, andren", "anderer, andrer"]
+        - [dative,     "anderem, anderm, andrem", "anderer, andrer", "anderem, anderm, andrem", "anderen, andern, andren"]
+        - [accusative, "anderen, andern, andren", "andere, andre",   "anderes, andres",         "andere, andre"]
+      - weak declension (with definite article)
+        - ["",         singular,                               singular,                              singular,                              plural                                 ]
+        - ["",         masculine,                              feminine,                              neuter,                                ""                                     ]
+        - [nominative, "der andere, der andere",               "die andere, die andre",               "das andere, das andre",               "die anderen, die anderen, die anderen"]
+        - [genitive,   "des anderen, des anderen, des andren", "der anderen, der andern, der andren", "des anderen, des andern, des andren", "der anderen, der anderen, der andren" ]
+        - [dative,     "dem anderen, dem andern, dem andren",  "der anderen, der andern, der andren", "dem anderen, dem andern, dem andren", "den anderen, den andern, den andren"  ]
+        - [accusative, "den anderen, den andern, den andren",  "die andere, die andre",               "das andere, das andre",               "den andren, die andern, die andren"   ]
+      - mixed declension (with indefinite article)
+        - ["",         singular,                                    singular,                                    singular,                                     plural                                               ]
+        - ["",         masculine,                                   feminine,                                    neuter,                                       ""                                                   ]
+        - [nominative, "ein anderer, ein andrer",                   "eine andere, eine andre",                   "ein anderes, ein andres",                    "(keine) anderen, (keine) andern, (keine) andren"    ]
+        - [genitive,   "eines anderen, eines andern, eines andren", "einer anderen, einer andern, einer andren", "eines anderen, eines andern, eines andren",  "(keiner) anderen, (keiner) andern, (keiner) andren" ]
+        - [dative,     "einem anderen, einem andern, einem andren", "einer anderen, einer andern, einer andren", "einem anderen, einem anderen, einem andren", "(keinen) anderen, (keinen) anderen, (keinen) andren"]
+        - [accusative, "einen anderen, einen andern, einen andren", "eine andere, eine andre",                   "ein anderes, ein anderes",                   "(keine) anderen, (keine) andern, (keine) andren"    ]
   - term: doch
     definition:
       - (adv.) after all

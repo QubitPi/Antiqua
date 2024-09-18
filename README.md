@@ -27,7 +27,7 @@ visually presents these vastly enlightening links between the related languages.
 ### Definition
 
 _The meaning of a word is called the `definition`_. A term has a natural relationship to its definition(s). For example,
-the German noun ["Ecke"](https://en.wiktionary.org/wiki/Ecke#Noun) has at least 4 definitions:
+the German noun "[Ecke](https://en.wiktionary.org/wiki/Ecke#Noun)" has at least 4 definitions:
 
 ![Relationship between term and defintion(s)](./definition.png "Error loading definition.png")
 
@@ -145,6 +145,32 @@ The declension table above is equivalent to
 > __The declension tables for all nouns are sourced from
 > [Wiktionary](https://en.wiktionary.org/wiki/ein#Declension_2)__
 
+#### Noun Declension Templates
+
+##### Masculine
+
+```yaml
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, ein,      der,      ████████, die,    ██████]
+      - [genitive,   eines,    des,      ████████, der,    ██████]
+      - [dative,     einem,    dem,      ████████, den,    ██████]
+      - [accusative, einen,    den,      ████████, die,    ██████]
+```
+
+##### Neuter
+
+```yaml
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, ein,      das,      ████████, die,    ██████]
+      - [genitive,   eines,    des,      ████████, der,    ██████]
+      - [dative,     einem,    dem,      ████████, den,    ██████]
+      - [accusative, ein,      das,      ████████, die,    ██████]
+```
+
 ### German (Attributive) Adjective Declension
 
 > [!TIP]
@@ -166,7 +192,36 @@ in potentially 6 more tables. But the
 [rules for comparative and superlative forms are quite universal](https://www.reddit.com/r/German/comments/i5mfrq/how_do_you_remember_adjective_declension/)
 so we __ignore the two and focus only on the positive form__, which is the basic form of the adjective.
 
-Here is an example of the adjective declension used in this repository:
+The [template](https://www.jetbrains.com/help/idea/generate-custom-code-constructs-using-live-templates.html) of the
+adjective is as follows:
+
+```yaml
+    declension:
+      - strong declension (without article)
+        - ["",         singular,  singular, singular, plural]
+        - ["",         masculine, feminine, neuter,   ""    ]
+        - [nominative, █████████, ████████, ████████, ██████]
+        - [genitive,   █████████, ████████, ████████, ██████]
+        - [dative,     █████████, ████████, ████████, ██████]
+        - [accusative, █████████, ████████, ████████, ██████]
+      - weak declension (with definite article)
+        - ["",         singular,  singular, singular, plural]
+        - ["",         masculine, feminine, neuter,   ""    ]
+        - [nominative, der █████, die ████, das ███,  die ██]
+        - [genitive,   des █████, der ████, des ███,  der ██]
+        - [dative,     dem █████, der ████, dem ███,  den ██]
+        - [accusative, den █████, die ████, das ███,  die ██]
+      - mixed declension (with indefinite article)
+        - ["",         singular,  singular, singular, plural        ]
+        - ["",         masculine, feminine, neuter,   ""            ]
+        - [nominative, ein █████, eine ███, ein ███,  (keine)  █████]
+        - [genitive,   eines ███, einer ██, eines █,  (keiner) █████]
+        - [dative,     einem ███, einer ██, einem █,  (keinen) █████]
+        - [accusative, einen ███, eine ███, ein ███,  (keine)  █████]
+```
+
+Here is an example of the adjective declension for
+"[unterschiedlich](https://en.wiktionary.org/wiki/unterschiedlich#Declension)":
 
 ```yaml
   - term: unterschiedlich
