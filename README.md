@@ -380,7 +380,7 @@ initiated to expand the audio practice materials by AI
 ##### Greek Noun Declension
 
 The vocabulary entry for each noun consists of its nominative and genitive forms, an article which indicates the noun's
-gender, the English meaning, and the declension class of that noun. For example. 
+gender, the English meaning, and the declension class of that noun. For example.
 
 ```yaml
   - term: τέχνη τέχνης, ἡ
@@ -462,15 +462,15 @@ The conjugation table of a verb, thus, has the form of:
 
 ```yaml
     conjugation:
-      - (first person singular) present indicative active: 
-      - (first person singular) future indicative active: 
-      - (first person singular) aorist indicative active: 
-      - (first person singular) perfect indicative active: 
-      - (first person singular) perfect indicative passive: 
-      - (first person singular) aorist indicative passive: 
+      - (first person singular) present indicative active:
+      - (first person singular) future indicative active:
+      - (first person singular) aorist indicative active:
+      - (first person singular) perfect indicative active:
+      - (first person singular) perfect indicative passive:
+      - (first person singular) aorist indicative passive:
 ```
 
-For example: 
+For example:
 
 ```yaml
   - term: γίγνομαι
