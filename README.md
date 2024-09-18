@@ -23,6 +23,10 @@ Wilhelm Vocabulary
         - [German (Attributive) Adjective Declension](#german-attributive-adjective-declension)
       - [German Conjugation](#german-conjugation)
     - [Ancient Greek](#ancient-greek)
+      - [Greek Declension](#greek-declension)
+        - [Greek Noun Declension](#greek-noun-declension)
+        - [Greek Adjective Declension](#greek-adjective-declension)
+      - [Greek Conjugation](#greek-conjugation)
     - [Latin](#latin)
     - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
     - [Korean](#korean)
@@ -351,6 +355,7 @@ with
    which helps with pronunciations a lot
 
 > [!TIP]
+>
 > - __It is, thus, strongly recommended to study the conjugation through
 >   [Netzverb Dictionary](https://www.verbformen.com/) separately__
 > - Netzverb Dictionary, however, lacks a programmable API. Wiktionary [has a good one](https://dumps.wikimedia.org/)
@@ -365,10 +370,123 @@ vocabulary:
     definition: list
 ```
 
-[Wiktionary is the best source for Attic pronunciation](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CF%82#Pronunciation),
-although [some words are missing the audio](https://en.wiktionary.org/wiki/%CE%BA%CE%B1%CE%AF#Pronunciation). Due to the
-scarcity of the audio resources among AG lerners, [a separate project](https://github.com/QubitPi/ancient-greek-reader)
-has been initiated to expand the audio practice materials by AI
+[Wiktionary](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CF%82#Pronunciation) and
+[Logos Bible Study Platform](https://www.youtube.com/@logosbiblesoftware/search?query=Greek) are the best sources as
+pronunciation guides. Due to the scarcity of the audio resources among AG lerners, [a separate project](https://github.com/QubitPi/ancient-greek-reader) has been
+initiated to expand the audio practice materials by AI
+
+#### Greek Declension
+
+##### Greek Noun Declension
+
+The vocabulary entry for each noun consists of its nominative and genitive forms, an article which indicates the noun's
+gender, the English meaning, and the declension class of that noun. For example. 
+
+```yaml
+  - term: τέχνη τέχνης, ἡ
+    definition:
+      - art,
+      - skill,
+      - craft
+    declension class: first
+```
+
+the vocabulary entry above consists of the following 5 items:
+
+1. τέχνη: nominative singular
+2. τέχνης: genitive singular
+3. ἡ: nominative feminine singular of the article, which shows that the gender of the noun is feminine
+4. a list of English meanings of the word
+5. first: the noun belongs to the first declension
+
+The declension of the entry is not shown because to decline any noun, we can take the genitive singular, remove the
+genitive singular ending to get the stem, and then add the proper set of endings to the stem based its declension
+class[^2].
+
+[^2]: _[Greek: An Intensive Course, 2nd Revised Edition](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised/dp/0823216632)_, Hansen & Quinn, _p.20_
+
+For example, to decline _τέχνη τέχνης, ἡ, art_, take the genitive singular _τέχνης_, remove the genitive singular ending
+_-ης_, and add the appropriate endings to the stem which gives following paradigm:
+
+|    Case    | Singular | Plural  |
+|:----------:|:--------:|:-------:|
+| nominative |  τέχνη   | τέχναι  |
+|  genitive  |  τέχνης  | τεχνῶν  |
+|   dative   |  τέχνῃ   | τέχναις |
+| accusative |  τέχνην  | τέχνᾱς  |
+|  vocative  |  τέχνη   | τέχναι  |
+
+##### Greek Adjective Declension
+
+The adjectives must agree in gender, number, and case with the noun which it modifies[^3]. Whether this holds true for
+declension class of noun is not clear for now. What's cleared, however, is that each adjective has a _single_ defined
+declension table.
+
+[^3]: _[Greek: An Intensive Course, 2nd Revised Edition](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised/dp/0823216632)_, Hansen & Quinn, _p.89_
+
+There are less of a strong rule to derive the declensions of an Ancient Greek adjective. The data simply tabularizes
+the complete declension with the following template:
+
+```yaml
+    declension:
+      - ["",         singular,  singular, singular, dual,      dual,     dual    plural,    plural,   plural]
+      - ["",         masculine, feminine, neuter,   masculine, feminine, neuter, masculine, feminine, neuter]
+      - [nominative, █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+      - [genitive,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+      - [dative,     █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+      - [accusative, █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+      - [vocative,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+```
+
+#### Greek Conjugation
+
+The Greek verb has __6__ principal parts. All 6 must be learned whenever a new verb is encountered:
+
+1. (first person singular) present indicative active
+2. (first person singular) future indicative active
+3. (first person singular) aorist indicative active
+4. (first person singular) perfect indicative active
+5. (first person singular) perfect indicative passive
+6. (first person singular) aorist indicative passive
+
+> [!TIP]
+>
+> The minimum number of forms which one must know in order to generate all possible forms of a verb are called the
+> __principal parts__ of that verb.
+
+From the 6 forms above, various verb forms (i.e. stems & endings) can be derived by rules[^4]
+
+[^4]: _[Greek: An Intensive Course, 2nd Revised Edition](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised/dp/0823216632)_, Hansen & Quinn, _p.44_
+
+The conjugation table of a verb, thus, has the form of:
+
+```yaml
+    conjugation:
+      - (first person singular) present indicative active: 
+      - (first person singular) future indicative active: 
+      - (first person singular) aorist indicative active: 
+      - (first person singular) perfect indicative active: 
+      - (first person singular) perfect indicative passive: 
+      - (first person singular) aorist indicative passive: 
+```
+
+For example: 
+
+```yaml
+  - term: γίγνομαι
+    definition:
+      - to become
+      - to be born
+      - to happen
+      - to be
+    conjugation:
+      - (first person singular) present indicative active: γίγνομαι
+      - (first person singular) future indicative active: γενήσομαι
+      - (first person singular) aorist indicative active: ἐγενόμην
+      - (first person singular) perfect indicative active: γέγονᾰ
+      - (first person singular) perfect indicative passive: γεγένημαι
+      - (first person singular) aorist indicative passive: ἐγενήθην
+```
 
 ### [Latin](./latin.yaml)
 
@@ -399,7 +517,7 @@ vocabulary:
         Chinese: ...
 ```
 
-不用费太多功夫记牢简单的语法和词汇，剩下的就是拿韩语字幕剧不停练习听说读写既成。example 中的例句均来自[韩国本土语料](https://www.amazon.com/Korean-book-%EB%82%98%EC%9D%98-%EC%95%84%EC%A0%80%EC%94%A8-%EC%A0%842%EA%B6%8C/dp/8933871756)
+不用费太多功夫记牢简单的语法和词汇，剩下的就是拿韩语字幕剧不停练习听说读写既成。`example` 中的例句均来自[韩国本土语料](https://www.amazon.com/Korean-book-%EB%82%98%EC%9D%98-%EC%95%84%EC%A0%80%EC%94%A8-%EC%A0%842%EA%B6%8C/dp/8933871756)
 
 > [!NOTE]
 >

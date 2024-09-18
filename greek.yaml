@@ -76,21 +76,57 @@ vocabulary:
   - term: ἡμεῖς
     definition: we
   - term: πρός
-    definition: from the side of, in the presence of (+gen.); near, at, in addition to (+dat.); to, towards, in relation to (+acc.)
-  - term: γίγνομαι, γενήσομαι, 2 aor. ἐγενόμην, γέγονα, γεγένημαι, ἐγενήθην
-    definition: become; be born; happen, be
-  - term: ἐάν (εἰ-ἄν)
-    definition: if (+subj.)
+    definition:
+      - from the side of
+      - in the presence of;
+      - near,
+      - at,
+      - in addition to
+      - towards,
+      - in relation to
+  - term: γίγνομαι
+    definition:
+      - to become
+      - to be born
+      - to happen
+      - to be
+    conjugation:
+      - (first person singular) present indicative active: γίγνομαι
+      - (first person singular) future indicative active: γενήσομαι
+      - (first person singular) aorist indicative active: ἐγενόμην
+      - (first person singular) perfect indicative active: γέγονᾰ
+      - (first person singular) perfect indicative passive: γεγένημαι
+      - (first person singular) aorist indicative passive: ἐγενήθην
+  - term: ἐάν
+    definition: (conj.) if
   - term: διά
-    definition: through, during, because of (+gen., acc.)
+    definition:
+      - (prep.) through,
+      - (prep.) during,
+      - (prep.) because of
   - term: ἀλλά
-    definition: but
+    definition: (conj.) but
   - term: πᾶς πᾶσα πᾶν
-    definition: every, all; whole (with article)
-  - term: ἔχω, ἕξω or σχήσω, 2 aor. ἔσχον, ἔσχηκα, impf. εἶχον
-    definition: have, hold, keep
-  - term: ἐκ, ἐξ
-    definition: from, out of (+gen.)
+    definition:
+      - every,
+      - all,
+      - whole
+  - term: ἔχω
+    definition:
+      - to have,
+      - to hold,
+      - to keep
+    conjugation:
+      - (first person singular) present indicative active: ἔχω
+      - (first person singular) future indicative active: ἕξω or σχήσω
+      - (first person singular) aorist indicative active: ἔσχον
+      - (first person singular) perfect indicative active: ἔσχηκᾰ
+      - (first person singular) perfect indicative passive: ἔσχημαι
+      - (first person singular) aorist indicative passive: (ἐσχέθην)
+  - term: ἐκ/ἐξ
+    definition:
+      - from
+      - out of
   - term: πολύς πολλή πολύ
     definition: much, many; ὡς ἐπὶ τὸ πολύ for the most part
   - term: περί
@@ -150,7 +186,19 @@ vocabulary:
   - term: εἶπον
     definition: I said, I spoke, 2 aor. → λέγω, φημί
   - term: ἀγαθός –ή –όν
-    definition: good, virtuous, brave, noble
+    definition:
+      - good,
+      - virtuous
+      - brave
+      - noble
+    declension:
+      - ["",         singular,  singular, singular, dual,      dual,     dual    plural,    plural,   plural]
+      - ["",         masculine, feminine, neuter,   masculine, feminine, neuter, masculine, feminine, neuter]
+      - [nominative, █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+      - [genitive,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+      - [dative,     █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+      - [accusative, █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+      - [vocative,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
   - term: γε
     definition: (enclitic) indeed; at least, at any rate
   - term: δή
@@ -588,7 +636,11 @@ vocabulary:
   - term: καθίστημι, καταστήσω, κατέστησα, κατέστην, καθέστηκα, plupf. καθειστήκη, κατεστάθην
     definition: set down, establish; bring into a certain state, render
   - term: τέχνη τέχνης, ἡ
-    definition: art, skill, craft
+    definition:
+      - art,
+      - skill,
+      - craft
+    declension class: first
   - term: χρῆμα χρήματος, τό
     definition: thing, matter; (more commonly in pl.) goods or property, esp. money
   - term: σῴζω, σώσω, ἔσωσα, σέσωκα, ἐσώθην
