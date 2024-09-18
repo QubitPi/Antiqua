@@ -17,6 +17,7 @@ Wilhelm Vocabulary
       - [German Declension](#german-declension)
         - [Noun Declension Templates](#noun-declension-templates)
           - [Masculine](#masculine)
+          - [Feminine](#feminine)
           - [Neuter](#neuter)
         - [German (Attributive) Adjective Declension](#german-attributive-adjective-declension)
       - [German Conjugation](#german-conjugation)
@@ -191,6 +192,18 @@ The declension table above is equivalent to
       - [genitive,   eines,    des,      ████████, der,    ██████]
       - [dative,     einem,    dem,      ████████, den,    ██████]
       - [accusative, einen,    den,      ████████, die,    ██████]
+```
+
+###### Feminine
+
+```yaml
+    declension:
+      - ["",         singular, singular, singular,  plural, plural  ]
+      - ["",         indef.,   def.,     noun,      def.,   noun    ]
+      - [nominative, eine,     die,      █████████, die,    ████████]
+      - [genitive,   einer,    der,      █████████, der,    ████████]
+      - [dative,     einer,    der,      █████████, den,    ████████]
+      - [accusative, eine,     die,      █████████, die,    ████████]
 ```
 
 ###### Neuter

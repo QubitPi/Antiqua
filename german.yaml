@@ -2374,8 +2374,57 @@ vocabulary:
     definition: feeling; heart; soul; mind
     declension: https://www.verbformen.com/?w=Gem%C3%BCt
   - term: gewiss
-    definition: certain
-    declension: https://www.verbformen.com/?w=gewiss
+    definition: (adj.) certain
+    declension:
+      - strong declension (without article)
+        - ["",         singular,  singular, singular, plural  ]
+        - ["",         masculine, feminine, neuter,   ""      ]
+        - [nominative, gewisser,  gewisse,  gewisses, gewisse ]
+        - [genitive,   gewissen,  gewisser, gewissen, gewisser]
+        - [dative,     gewissem,  gewisser, gewissem, gewissen]
+        - [accusative, gewissen,  gewisse,  gewisses, gewisse ]
+      - weak declension (with definite article)
+        - ["",         singular,     singular,     singular,     plural      ]
+        - ["",         masculine,    feminine,     neuter,       ""          ]
+        - [nominative, der gewisse,  die gewisse,  das gewisse,  die gewissen]
+        - [genitive,   des gewissen, der gewissen, des gewissen, der gewissen]
+        - [dative,     dem gewissen, der gewissen, dem gewissen, den gewissen]
+        - [accusative, den gewissen, die gewisse,  das gewisse,  die gewissen]
+      - mixed declension (with indefinite article)
+        - ["",         singular,       singular,       singular,       plural           ]
+        - ["",         masculine,      feminine,       neuter,         ""               ]
+        - [nominative, ein gewisser,   eine gewisse,   ein gewisses,   (keine)  gewissen]
+        - [genitive,   eines gewissen, einer gewissen, eines gewissen, (keiner) gewissen]
+        - [dative,     einem gewissen, einer gewissen, einem gewissen, (keinen) gewissen]
+        - [accusative, einen gewissen, eine gewisse,   ein gewisses,   (keine)  gewissen]
   - term: die Weise
     definition: way
     declension: https://www.verbformen.com/declension/nouns/Weise.htm
+  - term: die Zeit
+    definition:
+      - time
+      - period
+      - era
+      - (grammar) tense
+    declension:
+      - ["",         singular, singular, singular,  plural, plural]
+      - ["",         indef.,   def.,     noun,      def.,   noun  ]
+      - [nominative, eine,     die,      Zeit,      die,    Zeiten]
+      - [genitive,   einer,    der,      Zeit,      der,    Zeiten]
+      - [dative,     einer,    der,      Zeit,      den,    Zeiten]
+      - [accusative, eine,     die,      Zeit,      die,    Zeiten]
+  - term: die Idee
+    definition: the idea
+    declension:
+      - ["",         singular, singular, singular,  plural, plural]
+      - ["",         indef.,   def.,     noun,      def.,   noun  ]
+      - [nominative, eine,     die,      Idee,      die,    Ideen ]
+      - [genitive,   einer,    der,      Idee,      der,    Ideen ]
+      - [dative,     einer,    der,      Idee,      den,    Ideen ]
+      - [accusative, eine,     die,      Idee,      die,    Ideen ]
+  - term: erwärmen
+    definition: to warm up
+    conjugation: https://en.wiktionary.org/wiki/erw%C3%A4rmen#Conjugation
+  - term: erwerben
+    definition: to gain
+    conjugation: https://en.wiktionary.org/wiki/erwerben#Conjugation
