@@ -696,7 +696,7 @@ vocabulary:
       - [dative,     einem,    dem,      Gemüse,   den,    Gemüsen]
       - [accusative, ein,      das,      Gemüse,   die,    Gemüse ]
   - term: das Getränk
-    definition: drink
+    definition: the drink
     declension:
       - ["",         singular, singular, singular,            plural, plural   ]
       - ["",         indef.,   def.,     noun,                def.,   noun     ]
