@@ -527,18 +527,15 @@ vocabulary:
     definition: the railway station
   - term: der Markt
     definition: market
-    declension: https://www.verbformen.com/?w=Markt
+    declension:
+      - ["",         singular, singular, singular,          plural, plural ]
+      - ["",         indef.,   def.,     noun,              def.,   noun   ]
+      - [nominative, ein,      der,      Markt,             die,    Märkte ]
+      - [genitive,   eines,    des,      "Marktes, Markts", der,    Märkte ]
+      - [dative,     einem,    dem,      Markt,             den,    Märkten]
+      - [accusative, einen,    den,      Markt,             die,    Märkte ]
   - term: der Flohmarkt
     definition: the flea market
-  - term: die Bäckerei
-    definition: the bakery
-    declension:
-      - ["",         singular, singular, singular, plural, plural    ]
-      - ["",         indef.,   def.,     noun,     def.,   noun      ]
-      - [nominative, eine,     die,      Bäckerei, die,    Bäckereien]
-      - [genitive,   einer,    der,      Bäckerei, der,    Bäckereien]
-      - [dative,     einer,    der,      Bäckerei, den,    Bäckereien]
-      - [accusative, eine,     die,      Bäckerei, die,    Bäckereien]
   - term: der Kuchen
     definition: the cake
     declension:
@@ -548,21 +545,6 @@ vocabulary:
       - [genitive,   eines,    des,      Kuchens,  der,    Kuchen]
       - [dative,     einem,    dem,      Kuchen,   den,    Kuchen]
       - [accusative, einen,    den,      Kuchen,   die,    Kuchen]
-  - term: Dort ist der Kuchen augezeichnet
-    definition: The cake there is excellent
-  - term: die Kneipe
-    definition: the pub
-  - term: das Kino
-    definition: the cinema
-    declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      das,      Kino,     die,    Kinos ]
-      - [genitive,   eines,    des,      Kinos,    der,    Kinos ]
-      - [dative,     einem,    dem,      Kino,     den,    Kinos ]
-      - [accusative, ein,      das,      Kino,     die,    Kinos ]
-  - term: das Hotel
-    definition: the hotel
   - term: der Biergarten
     definition: the beer gargen
     declension:
@@ -572,10 +554,6 @@ vocabulary:
       - [genitive,   eines,    des,      Biergartens, der,    Biergärten]
       - [dative,     einem,    dem,      Biergarten,  den,    Biergärten]
       - [accusative, einen,    den,      Biergarten,  die,    Biergärten]
-  - term: das Café
-    definition: the café
-  - term: die Kirche
-    definition: the church
   - term: der Supermarkt
     definition: the supermarket
     declension:
@@ -749,6 +727,15 @@ vocabulary:
       - [genitive,   eines,    des,      Salzes,   der,    Salze ]
       - [dative,     einem,    dem,      Salz,     den,    Salzen]
       - [accusative, ein,      das,      Salz,     die,    Salze ]
+  - term: der Getränkemarkt
+    definition: the beverage store
+    declension:
+      - ["",         singular, singular, singular,                          plural, plural         ]
+      - ["",         indef.,   def.,     noun,                              def.,   noun           ]
+      - [nominative, ein,      der,      Getränkemarkt,                     die,    Getränkemärkte ]
+      - [genitive,   eines,    des,      "Getränkemarktes, Getränkemarkts", der,    Getränkemärkte ]
+      - [dative,     einem,    dem,      Getränkemarkt,                     den,    Getränkemärkten]
+      - [accusative, einen,    den,      Getränkemarkt,                     die,    Getränkemärkte ]
   - term: der Park
     definition: the park
     declension:
@@ -758,6 +745,52 @@ vocabulary:
       - [genitive,   eines,    des,      "Parks, Parkes", der,    Parks ]
       - [dative,     einem,    dem,      Park,            den,    Parks ]
       - [accusative, einen,    den,      Park,            die,    Parks ]
+  - term: die Bäckerei
+    definition: the bakery
+    declension:
+      - ["",         singular, singular, singular, plural, plural    ]
+      - ["",         indef.,   def.,     noun,     def.,   noun      ]
+      - [nominative, eine,     die,      Bäckerei, die,    Bäckereien]
+      - [genitive,   einer,    der,      Bäckerei, der,    Bäckereien]
+      - [dative,     einer,    der,      Bäckerei, den,    Bäckereien]
+      - [accusative, eine,     die,      Bäckerei, die,    Bäckereien]
+  - term: Dort ist der Kuchen augezeichnet
+    definition: The cake there is excellent
+  - term: die Kneipe
+    definition: the pub
+  - term: die Kirche
+    definition: the church
+  - term: die Fleischerei
+    definition: the butchershop
+    declension:
+      - ["",         singular, singular, singular,    plural, plural       ]
+      - ["",         indef.,   def.,     noun,        def.,   noun         ]
+      - [nominative, eine,     die,      Fleischerei, die,    Fleischereien]
+      - [genitive,   einer,    der,      Fleischerei, der,    Fleischereien]
+      - [dative,     einer,    der,      Fleischerei, den,    Fleischereien]
+      - [accusative, eine,     die,      Fleischerei, die,    Fleischereien]
+  - term: das Fleisch
+    definition: the meat
+    declension:
+      - ["",         singular, singular, singular,              plural, plural]
+      - ["",         indef.,   def.,     noun,                  def.,   noun  ]
+      - [nominative, ein,      das,      Fleisch,               N/A,    N/A   ]
+      - [genitive,   eines,    des,      "Fleisches, Fleischs", N/A,    N/A   ]
+      - [dative,     einem,    dem,      Fleisch,               N/A,    N/A   ]
+      - [accusative, ein,      das,      Fleisch,               N/A,    N/A   ]
+  - term: das Kino
+    definition: the cinema
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, ein,      das,      Kino,     die,    Kinos ]
+      - [genitive,   eines,    des,      Kinos,    der,    Kinos ]
+      - [dative,     einem,    dem,      Kino,     den,    Kinos ]
+      - [accusative, ein,      das,      Kino,     die,    Kinos ]
+  - term: das Hotel
+    definition: the hotel
+  - term: das Café
+    definition: the café
   - term: das Restaurant
     definition: the restaurant
     declension:
@@ -1525,6 +1558,8 @@ vocabulary:
       - [genitive,   eines,    des,      "Beispieles, Beispiels", der,    Beispiele ]
       - [dative,     einem,    dem,      Beispiel,                den,    Beispielen]
       - [accusative, ein,      das,      Beispiel,                die,    Beispiele ]
+  - term: zum Beispiel
+    definition: for example
 
 
 
@@ -1667,7 +1702,9 @@ vocabulary:
       - [genitive,   einer,    der,      Freundin, der,    Freundinnen]
       - [dative,     einer,    der,      Freundin, den,    Freundinnen]
       - [accusative, eine,     die,      Freundin, die,    Freundinnen]
-  - term: gebührend
+  - term: einmal
+    definition: (adv.) once
+  - term:
     definition:
       - (adj.) befitting
       - (adj.) worthy
@@ -1721,9 +1758,44 @@ vocabulary:
   - term: trennen
     definition: to separate
     conjugation: https://en.wiktionary.org/wiki/trennen#Conjugation
+  - term: selber
+    definition: (pron.) the same
+    declension:
+      - strong (without article)
+        - ["",         singular,  singular, singular, plural]
+        - ["",         masculine, feminine, neuter,   ""    ]
+        - [nominative, selber,    selbe,    selbes,   selbe ]
+        - [genitive,   selbes,    selber,   selbes,   selber]
+        - [dative,     selbem,    selber,   selbem,   selben]
+        - [accusative, selben,    selbe,    selbes,   selbe ]
+      - weak declension (with definite article)
+        - ["",         singular,  singular, singular, plural]
+        - ["",         masculine, feminine, neuter,   ""    ]
+        - [nominative, selbe,     selbe,    selbe,    selben]
+        - [genitive,   selben,    selben,   selben,   selben]
+        - [dative,     selben,    selben,   selben,   selben]
+        - [accusative, selben,    selbe,    selbe,    selben]
+  - term: das Viertel
+    definition: the neighborhood
+    declension:
+      - [ "",         singular, singular, singular, plural, plural  ]
+      - [ "",         indef.,   def.,     noun,     def.,   noun    ]
+      - [ nominative, ein,      das,      Viertel,  die,    Viertel ]
+      - [ genitive,   eines,    des,      Viertels, der,    Viertel ]
+      - [ dative,     einem,    dem,      Viertel,  den,    Vierteln]
+      - [ accusative, ein,      das,      Viertel,  die,    Viertel ]
   - term: aufwachsen
     definition: to grow up
     conjugation: https://en.wiktionary.org/wiki/aufwachsen#Conjugation
+  - term: das Kind
+    definition: the child
+    declension:
+      - [ "",         singular, singular, singular,        plural, plural ]
+      - [ "",         indef.,   def.,     noun,            def.,   noun   ]
+      - [ nominative, ein,      das,      Kind,            die,    Kinder ]
+      - [ genitive,   eines,    des,      "Kindes, Kinds", der,    Kinder ]
+      - [ dative,     einem,    dem,      Kind,            den,    Kindern]
+      - [ accusative, ein,      das,      Kind,            die,    Kinder ]
   - term: unterschiedlich
     definition: (adj.) different
     declension:
@@ -1806,6 +1878,9 @@ vocabulary:
       - (adv.) however
       - (adv.) really
       - (adv.) just
+  - term: zusammenhalten
+    definition: to hold together
+    conjugation: https://en.wiktionary.org/wiki/zusammenhalten#Conjugation
   - term: das Nesthäkchen
     definition: the lastborn of a family's children
     declension:
@@ -2049,8 +2124,6 @@ vocabulary:
       - to be worth
       - to be regarded
       - to be necessary
-  - term: einmal
-    definition: (adv.) once
   - term: neu
     definition:
       - (adj.) new
