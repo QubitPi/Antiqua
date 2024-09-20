@@ -5,7 +5,7 @@ Wilhelm Vocabulary
 [![Apache License Badge]][Apache License, Version 2.0]
 
 <!-- TOC -->
-- 
+
 - [Wilhelm Vocabulary](#wilhelm-vocabulary)
   - [Data Format](#data-format)
   - [Data Pipeline](#data-pipeline)
@@ -27,7 +27,7 @@ Wilhelm Vocabulary
       - [Diacritic Mark Convention](#diacritic-mark-convention)
       - [Greek YAML Schema](#greek-yaml-schema)
       - [Greek Noun](#greek-noun)
-        - [Greek Verb](#greek-verb)
+      - [Greek Verb](#greek-verb)
     - [Latin](#latin)
     - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
     - [Korean](#korean)
@@ -438,7 +438,7 @@ _-ης_, and add the appropriate endings to the stem which gives following parad
 | accusative |  τέχνην  | τέχνᾱς  |
 |  vocative  |  τέχνη   | τέχναι  |
 
-##### Greek Verb
+#### Greek Verb
 
 The Greek verb has __6__ principal parts. All 6 must be learned whenever a new verb is encountered:
 
@@ -462,8 +462,8 @@ In practice, however,
 [obtaining precise and complete principal parts for some verbs has been proven to be impossible](https://latin.stackexchange.com/a/17432).
 While the best efforts have been made for reconstructing the complete principal parts, we also put a link to the
 Wiktionary of each verb for
-[wilhelm-python-sdk](https://sdk.wilhelmlang.com/en/latest/#module-wilhelm_python_sdk.ancient_greek_wiktionary_parser), which will dynamically 
-load the complete conjugation tables into graph database.
+[wilhelm-python-sdk](https://sdk.wilhelmlang.com/en/latest/#module-wilhelm_python_sdk.ancient_greek_wiktionary_parser),
+which will dynamically load the complete conjugation tables into graph database.
 
 What's also being loaded are the reconstructed principal parts with a list of references that validate the
 reconstruction.
