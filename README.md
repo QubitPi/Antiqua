@@ -259,21 +259,21 @@ adjective is as follows:
 
 ```yaml
     declension:
-      - strong declension (without article)
+      strong declension (without article):
         - ["",         singular,  singular, singular, plural]
         - ["",         masculine, feminine, neuter,   ""    ]
         - [nominative, █████████, ████████, ████████, ██████]
         - [genitive,   █████████, ████████, ████████, ██████]
         - [dative,     █████████, ████████, ████████, ██████]
         - [accusative, █████████, ████████, ████████, ██████]
-      - weak declension (with definite article)
+      weak declension (with definite article):
         - ["",         singular,  singular, singular, plural]
         - ["",         masculine, feminine, neuter,   ""    ]
         - [nominative, der █████, die ████, das ███,  die ██]
         - [genitive,   des █████, der ████, des ███,  der ██]
         - [dative,     dem █████, der ████, dem ███,  den ██]
         - [accusative, den █████, die ████, das ███,  die ██]
-      - mixed declension (with indefinite article)
+      mixed declension (with indefinite article):
         - ["",         singular,  singular, singular, plural        ]
         - ["",         masculine, feminine, neuter,   ""            ]
         - [nominative, ein █████, eine ███, ein ███,  (keine)  █████]

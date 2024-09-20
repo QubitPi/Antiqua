@@ -174,7 +174,13 @@ vocabulary:
     definition: I am called ...
   - term: der Name
     definition: name
-    declension: https://www.verbformen.com/?w=Name
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, ein,      der,      Name,     die,    Namen ]
+      - [genitive,   eines,    des,      Namens,   der,    Namen ]
+      - [dative,     einem,    dem,      Namen,    den,    Namen ]
+      - [accusative, einen,    den,      Namen,    die,    Namen ]
   - term: Mein Name ist ...
     definition: My name is ...
   - term: bitte
@@ -211,6 +217,13 @@ vocabulary:
     definition: I'm from (country), (city)
   - term: der Amerikaner
     definition: American
+    declension:
+      - ["",         singular, singular, singular,    plural, plural     ]
+      - ["",         indef.,   def.,     noun,        def.,   noun       ]
+      - [nominative, ein,      der,      Amerikaner,  die,    Amerikaner ]
+      - [genitive,   eines,    des,      Amerikaners, der,    Amerikaner ]
+      - [dative,     einem,    dem,      Amerikaner,  den,    Amerikanern]
+      - [accusative, einen,    den,      Amerikaner,  die,    Amerikaner ]
   - term: die Amerikanerin
     definition: (an) American (female)
   - term: den USA
@@ -223,10 +236,54 @@ vocabulary:
     definition: Germany
   - term: das Deutsch
     definition: German (language)
-  - term: der Deutscher
-    definition: German (male)
-  - term: die Deutsche
-    definition: German (female)
+  - term: Deutscher
+    definition: (adj. male) German
+    declension:
+      strong declension (without article):
+        - ["",         singular,  singular, singular, plural   ]
+        - ["",         masculine, feminine, neuter,   ""       ]
+        - [nominative, Deutscher, N/A,      N/A,      Deutsche ]
+        - [genitive,   Deutschen, N/A,      N/A,      Deutscher]
+        - [dative,     Deutschem, N/A,      N/A,      Deutschen]
+        - [accusative, Deutschen, N/A,      N/A,      Deutsche ]
+      weak declension (with definite article):
+        - ["",         singular,      singular, singular, plural       ]
+        - ["",         masculine,     feminine, neuter,   ""           ]
+        - [nominative, der Deutsche,  N/A,      N/A,      die Deutschen]
+        - [genitive,   des Deutschen, N/A,      N/A,      der Deutschen]
+        - [dative,     dem Deutschen, N/A,      N/A,      den Deutschen]
+        - [accusative, den Deutschen, N/A,      N/A,      die Deutschen]
+      mixed declension (with indefinite article):
+        - ["",         singular,        singular, singular, plural            ]
+        - ["",         masculine,       feminine, neuter,   ""                ]
+        - [nominative, ein   Deutscher, N/A,      N/A,      (keine)  Deutschen]
+        - [genitive,   eines Deutschen, N/A,      N/A,      (keiner) Deutschen]
+        - [dative,     einem Deutschen, N/A,      N/A,      (keinen) Deutschen]
+        - [accusative, einen Deutschen, N/A,      N/A,      (keine)  Deutschen]
+  - term: Deutsche
+    definition: (adj. female) German
+    declension:
+      strong declension (without article):
+        - ["",         singular,  singular,  singular, plural   ]
+        - ["",         masculine, feminine,  neuter,   ""       ]
+        - [nominative, N/A,       Deutsche,  N/A,      Deutsche ]
+        - [genitive,   N/A,       Deutscher, N/A,      Deutscher]
+        - [dative,     N/A,       Deutscher, N/A,      Deutschen]
+        - [accusative, N/A,       Deutsche,  N/A,      Deutsche ]
+      weak declension (with definite article):
+        - ["",         singular,  singular,      singular, plural       ]
+        - ["",         masculine, feminine,      neuter,   ""           ]
+        - [nominative, der N/A,   die Deutsche,  das N/A,  die Deutschen]
+        - [genitive,   des N/A,   der Deutschen, des N/A,  der Deutschen]
+        - [dative,     dem N/A,   der Deutschen, dem N/A,  den Deutschen]
+        - [accusative, den N/A,   die Deutsche,  das N/A,  die Deutschen]
+      mixed declension (with indefinite article):
+        - [ "",         singular,  singular,        singular, plural            ]
+        - [ "",         masculine, feminine,        neuter,   ""                ]
+        - [ nominative, N/A,       eine Deutsche,   N/A,      (keine)  Deutschen]
+        - [ genitive,   N/A,       einer Deutschen, N/A,      (keiner) Deutschen]
+        - [ dative,     N/A,       einer Deutschen, N/A,      (keinen) Deutschen]
+        - [ accusative, N/A,       eine Deutsche,   N/A,      (keine)  Deutschen]
   - term: das England
     definition: England
   - term: das Englisch
