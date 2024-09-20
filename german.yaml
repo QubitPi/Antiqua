@@ -644,6 +644,24 @@ vocabulary:
       - [genitive,   einer,    der,      Kartoffel, der,    Kartoffeln]
       - [dative,     einer,    der,      Kartoffel, den,    Kartoffeln]
       - [accusative, eine,     die,      Kartoffel, die,    Kartoffeln]
+  - term: die Butter
+    definition: the butter
+    declension:
+      - [ "",         singular, singular, singular, plural, plural]
+      - [ "",         indef.,   def.,     noun,     def.,   noun  ]
+      - [ nominative, eine,     die,      Butter,   N/A,    N/A   ]
+      - [ genitive,   einer,    der,      Butter,   N/A,    N/A   ]
+      - [ dative,     einer,    der,      Butter,   N/A,    N/A   ]
+      - [ accusative, eine,     die,      Butter,   N/A,    N/A   ]
+  - term: die Wurst
+    definition: the sausage
+    declension:
+      - [ "",         singular, singular, singular, plural, plural ]
+      - [ "",         indef.,   def.,     noun,     def.,   noun   ]
+      - [ nominative, eine,     die,      Wurst,    die,    Würste ]
+      - [ genitive,   einer,    der,      Wurst,    der,    Würste ]
+      - [ dative,     einer,    der,      Wurst,    den,    Würsten]
+      - [ accusative, eine,     die,      Wurst,    die,    Würste ]
   - term: das Lebensmittel
     definition:
       - any item or substance intended for human consumption (excluding drugs other than alcohol), food
@@ -1549,6 +1567,8 @@ vocabulary:
   - term: kaufen
     definition: to buy
     conjugation: https://en.wiktionary.org/wiki/kaufen#Conjugation
+  - term: Hier kann man viel kaufen.
+    definition: People can buy a lot here.
   - term: das Beispiel
     definition: the example
     declension:
@@ -1558,8 +1578,67 @@ vocabulary:
       - [genitive,   eines,    des,      "Beispieles, Beispiels", der,    Beispiele ]
       - [dative,     einem,    dem,      Beispiel,                den,    Beispielen]
       - [accusative, ein,      das,      Beispiel,                die,    Beispiele ]
+  - term: außerdem
+    definition: (adv.) in addition
   - term: zum Beispiel
     definition: for example
+  - term: vier
+    definition: (pron.) a lot
+  - term: vieles mehr
+    definition: much more
+  - term: Sonst noch etwas?
+    definition: Anything else?
+  - term: Ist das alles?
+    definition: Is that all?
+  - term: Was kostet ...? (sing.)
+    definition: What does ... cost?
+  - term: Was kosten ...? (pl.)
+    definition: What do ... cost?
+  - term: Wie teuer ist ...? (sing.)
+    definition: How much is ...?
+  - term: Wie teuer sind ...? (pl.)
+    definition: How much are ...?
+  - term: der Laden
+    definition: the shop
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, ein,      der,      Laden,    die,    Läden ]
+      - [genitive,   eines,    des,      Ladens,   der,    Läden ]
+      - [dative,     einem,    dem,      Laden,    den,    Läden ]
+      - [accusative, einen,    den,      Laden,    die,    Läden ]
+  - term: Das ist der Laden von ...
+    definition: This is ...(someone)'s shop.
+  - term: die Zeitung
+    definition: the newspaper
+    declension:
+      - [ "",         singular, singular, singular, plural, plural   ]
+      - [ "",         indef.,   def.,     noun,     def.,   noun     ]
+      - [ nominative, eine,     die,      Zeitung,  die,    Zeitungen]
+      - [ genitive,   einer,    der,      Zeitung,  der,    Zeitungen]
+      - [ dative,     einer,    der,      Zeitung,  den,    Zeitungen]
+      - [ accusative, eine,     die,      Zeitung,  die,    Zeitungen]
+  - term: die Süßigkeit
+    definition: the candy
+    declension:
+      - [ "",         singular, singular, singular,  plural, plural     ]
+      - [ "",         indef.,   def.,     noun,      def.,   noun       ]
+      - [ nominative, eine,     die,      Süßigkeit, die,    Süßigkeiten]
+      - [ genitive,   einer,    der,      Süßigkeit, der,    Süßigkeiten]
+      - [ dative,     einer,    der,      Süßigkeit, den,    Süßigkeiten]
+      - [ accusative, eine,     die,      Süßigkeit, die,    Süßigkeiten]
+  - term: die Zigarette
+    definition: the cigarette
+    declension:
+      - [ "",         singular, singular, singular,  plural, plural    ]
+      - [ "",         indef.,   def.,     noun,      def.,   noun      ]
+      - [ nominative, eine,     die,      Zigarette, die,    Zigaretten]
+      - [ genitive,   einer,    der,      Zigarette, der,    Zigaretten]
+      - [ dative,     einer,    der,      Zigarette, den,    Zigaretten]
+      - [ accusative, eine,     die,      Zigarette, die,    Zigaretten]
+  - term: beantworten
+    definition: to answer
+    conjugation: https://en.wiktionary.org/wiki/beantworten#Conjugation
 
 
 

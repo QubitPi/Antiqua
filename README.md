@@ -474,15 +474,16 @@ In conclusion, the entry of a verb, thus, has the form of:
   - term: string
     definition: list
     conjugation:
-      - wiktionary: string
-      - ["",                                                 Attic, (Possibly other dialects)]
-      - [(first person singular) present indicative active,  █████, ...                      ]
-      - [(first person singular) future indicative active,   █████, ...                      ]
-      - [(first person singular) aorist indicative active,   █████, ...                      ]
-      - [(first person singular) perfect indicative active,  █████, ...                      ]
-      - [(first person singular) perfect indicative passive, █████, ...                      ]
-      - [(first person singular) aorist indicative passive,  █████, ...                      ]
-      - references: list
+      wiktionary: string
+      principal parts:
+        - ["",                                                 Attic, (Possibly other dialects)]
+        - [(first person singular) present indicative active,  █████, ...                      ]
+        - [(first person singular) future indicative active,   █████, ...                      ]
+        - [(first person singular) aorist indicative active,   █████, ...                      ]
+        - [(first person singular) perfect indicative active,  █████, ...                      ]
+        - [(first person singular) perfect indicative passive, █████, ...                      ]
+        - [(first person singular) aorist indicative passive,  █████, ...                      ]
+      references: list
 ```
 
 For example:
@@ -493,20 +494,21 @@ For example:
       - to say, speak
       - to pick up
     conjugation:
-      - wiktionary: https://en.wiktionary.org/wiki/λέγω#Verb_2
-      - ["",                                                 Attic    , Koine          ]
-      - [(first person singular) present indicative active,  λέγω     , λέγω           ]
-      - [(first person singular) future indicative active,   λέξω     , ἐρῶ            ]
-      - [(first person singular) aorist indicative active,   ἔλεξα    , εἶπον/εἶπα     ]
-      - [(first person singular) perfect indicative active,  (missing), εἴρηκα         ]
-      - [(first person singular) perfect indicative passive, λέλεγμαι , λέλεγμαι       ]
-      - [(first person singular) aorist indicative passive,  ἐλέχθην  , ἐρρέθην/ἐρρήθην]
-      - references:
-          - https://en.wiktionary.org/wiki/λέγω#Inflection
-          - http://atticgreek.org/downloads/allPPbytypes.pdf
-          - https://books.openbookpublishers.com/10.11647/obp.0264/ch25.xhtml
-          - https://www.billmounce.com/greek-dictionary/lego
-          - https://koine-greek.fandom.com/wiki/Λέγω
+      wiktionary: https://en.wiktionary.org/wiki/λέγω#Verb_2
+      principal parts:
+        - ["",                                                 Attic    , Koine          ]
+        - [(first person singular) present indicative active,  λέγω     , λέγω           ]
+        - [(first person singular) future indicative active,   λέξω     , ἐρῶ            ]
+        - [(first person singular) aorist indicative active,   ἔλεξα    , εἶπον/εἶπα     ]
+        - [(first person singular) perfect indicative active,  (missing), εἴρηκα         ]
+        - [(first person singular) perfect indicative passive, λέλεγμαι , λέλεγμαι       ]
+        - [(first person singular) aorist indicative passive,  ἐλέχθην  , ἐρρέθην/ἐρρήθην]
+      references:
+        - https://en.wiktionary.org/wiki/λέγω#Inflection
+        - http://atticgreek.org/downloads/allPPbytypes.pdf
+        - https://books.openbookpublishers.com/10.11647/obp.0264/ch25.xhtml
+        - https://www.billmounce.com/greek-dictionary/lego
+        - https://koine-greek.fandom.com/wiki/Λέγω
 ```
 
 ### [Latin](./latin.yaml)
