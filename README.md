@@ -5,9 +5,10 @@ Wilhelm Vocabulary
 [![Apache License Badge]][Apache License, Version 2.0]
 
 <!-- TOC -->
-
+- 
 - [Wilhelm Vocabulary](#wilhelm-vocabulary)
   - [Data Format](#data-format)
+  - [Data Pipeline](#data-pipeline)
   - [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
     - [Why Graph Database](#why-graph-database)
     - [Definition](#definition)
@@ -23,10 +24,10 @@ Wilhelm Vocabulary
         - [German (Attributive) Adjective Declension](#german-attributive-adjective-declension)
       - [German Conjugation](#german-conjugation)
     - [Ancient Greek](#ancient-greek)
-      - [Greek Declension](#greek-declension)
-        - [Greek Noun Declension](#greek-noun-declension)
-        - [Greek Adjective Declension](#greek-adjective-declension)
-      - [Greek Conjugation](#greek-conjugation)
+      - [Diacritic Mark Convention](#diacritic-mark-convention)
+      - [Greek YAML Schema](#greek-yaml-schema)
+      - [Greek Noun](#greek-noun)
+        - [Greek Verb](#greek-verb)
     - [Latin](#latin)
     - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
     - [Korean](#korean)
@@ -42,6 +43,11 @@ The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are writt
 1. it is machine-readable so that it can be consumed quickly in data pipelines
 2. it is human-readable and, thus, easy to read and modify
 3. it supports multi-lines value which is very handy for language data
+
+Data Pipeline
+-------------
+
+![Data pipeline](data-pipeline.png "Error loading data-loading.png")
 
 How Data (Vocabulary) is Stored in a Graph Database
 ---------------------------------------------------
@@ -73,6 +79,8 @@ separately:
 
 - [German declension](#german-declension)
 - [German conjugation](#german-conjugation)
+- [Ancient Greek declension](#greek-declension)
+- [Ancient Greek conjugation](#greek-conjugation)
 
 Languages
 ---------
@@ -364,23 +372,39 @@ with
 
 ### [Ancient Greek](./greek.yaml)
 
-```yaml
-vocabulary:
-  - term: string
-    definition: list
-```
+> [!TIP]
+>
+> [Wiktionary](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CF%82#Pronunciation) and
+> [Logos Bible Study Platform](https://www.youtube.com/@logosbiblesoftware/search?query=Greek) are the best sources as
+> pronunciation guides. Due to the scarcity of the audio resources among AG lerners, [a separate project](https://github.com/QubitPi/ancient-greek-reader) has been
+> initiated to expand the audio practice materials by AI
 
-[Wiktionary](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CF%82#Pronunciation) and
-[Logos Bible Study Platform](https://www.youtube.com/@logosbiblesoftware/search?query=Greek) are the best sources as
-pronunciation guides. Due to the scarcity of the audio resources among AG lerners, [a separate project](https://github.com/QubitPi/ancient-greek-reader) has been
-initiated to expand the audio practice materials by AI
+[Ancient Greek is still an under-attesting language](https://latin.stackexchange.com/a/17432), what that means is no
+textbook is "complete". One will frequently see a certain grammar does not apply to or some inflections are missing for
+a word. Therefore, the best strategy to make inflection data of Ancient Greek is to crawl the entire inflection table of
+every word. This would be impractical manually but practical automatically using
+[wilhelm-python-sdk](https://github.com/QubitPi/wilhelm-python-sdk). The sections below will make references to the
+certain parts of SDK.
 
-#### Greek Declension
+#### Diacritic Mark Convention
 
-##### Greek Noun Declension
+We employ the following 3 diacritic signs only in vocabulary:
+
+1. the __acute__ (ά)
+2. the __circumflex__ (ᾶ), and
+3. the __grave__ (ὰ)
+
+In fact, it is called the [_medium diacritics_](https://lsj.gr/wiki/%E1%BC%80%CE%B3%CE%B1%CE%B8%CF%8C%CF%82)  and the
+same convention used in [Loeb Classical Library prints](https://ryanfb.xyz/loebolus/) from Harvard. Notice that,
+however, the commonly sourced [Wiktionary uses full diacritics](https://en.wiktionary.org/wiki/%E1%BC%80%CE%B3%CE%B1%CE%B8%CF%8C%CF%82#Declension),
+including the [breve diacritic mark](https://en.wikipedia.org/wiki/Breve); we don't do that.
+
+#### Greek YAML Schema
+
+#### Greek Noun
 
 The vocabulary entry for each noun consists of its nominative and genitive forms, an article which indicates the noun's
-gender, the English meaning, and the declension class of that noun. For example.
+gender, and the English meaning. For example.
 
 ```yaml
   - term: τέχνη τέχνης, ἡ
@@ -388,19 +412,17 @@ gender, the English meaning, and the declension class of that noun. For example.
       - art,
       - skill,
       - craft
-    declension class: first
 ```
 
-the vocabulary entry above consists of the following 5 items:
+the vocabulary entry above consists of the following 4 items:
 
 1. τέχνη: nominative singular
 2. τέχνης: genitive singular
 3. ἡ: nominative feminine singular of the article, which shows that the gender of the noun is feminine
 4. a list of English meanings of the word
-5. first: the noun belongs to the first declension
 
 The declension of the entry is not shown because to decline any noun, we can take the genitive singular, remove the
-genitive singular ending to get the stem, and then add the proper set of endings to the stem based its declension
+genitive singular ending to get the stem, and then add the proper set of endings to the stem based on its declension
 class[^2].
 
 [^2]: _[Greek: An Intensive Course, 2nd Revised Edition](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised/dp/0823216632)_, Hansen & Quinn, _p.20_
@@ -416,29 +438,7 @@ _-ης_, and add the appropriate endings to the stem which gives following parad
 | accusative |  τέχνην  | τέχνᾱς  |
 |  vocative  |  τέχνη   | τέχναι  |
 
-##### Greek Adjective Declension
-
-The adjectives must agree in gender, number, and case with the noun which it modifies[^3]. Whether this holds true for
-declension class of noun is not clear for now. What's cleared, however, is that each adjective has a _single_ defined
-declension table.
-
-[^3]: _[Greek: An Intensive Course, 2nd Revised Edition](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised/dp/0823216632)_, Hansen & Quinn, _p.89_
-
-There are less of a strong rule to derive the declensions of an Ancient Greek adjective. The data simply tabularizes
-the complete declension with the following template:
-
-```yaml
-    declension:
-      - ["",         singular,  singular, singular, dual,      dual,     dual    plural,    plural,   plural]
-      - ["",         masculine, feminine, neuter,   masculine, feminine, neuter, masculine, feminine, neuter]
-      - [nominative, █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
-      - [genitive,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
-      - [dative,     █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
-      - [accusative, █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
-      - [vocative,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
-```
-
-#### Greek Conjugation
+##### Greek Verb
 
 The Greek verb has __6__ principal parts. All 6 must be learned whenever a new verb is encountered:
 
@@ -458,34 +458,55 @@ From the 6 forms above, various verb forms (i.e. stems & endings) can be derived
 
 [^4]: _[Greek: An Intensive Course, 2nd Revised Edition](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised/dp/0823216632)_, Hansen & Quinn, _p.44_
 
-The conjugation table of a verb, thus, has the form of:
+In practice, however,
+[obtaining precise and complete principal parts for some verbs has been proven to be impossible](https://latin.stackexchange.com/a/17432).
+While the best efforts have been made for reconstructing the complete principal parts, we also put a link to the
+Wiktionary of each verb for
+[wilhelm-python-sdk](https://sdk.wilhelmlang.com/en/latest/#module-wilhelm_python_sdk.ancient_greek_wiktionary_parser), which will dynamically 
+load the complete conjugation tables into graph database.
+
+What's also being loaded are the reconstructed principal parts with a list of references that validate the
+reconstruction.
+
+In conclusion, the entry of a verb, thus, has the form of:
 
 ```yaml
+  - term: string
+    definition: list
     conjugation:
-      - (first person singular) present indicative active:
-      - (first person singular) future indicative active:
-      - (first person singular) aorist indicative active:
-      - (first person singular) perfect indicative active:
-      - (first person singular) perfect indicative passive:
-      - (first person singular) aorist indicative passive:
+      - wiktionary: string
+      - ["",                                                 Attic, (Possibly other dialects)]
+      - [(first person singular) present indicative active,  █████, ...                      ]
+      - [(first person singular) future indicative active,   █████, ...                      ]
+      - [(first person singular) aorist indicative active,   █████, ...                      ]
+      - [(first person singular) perfect indicative active,  █████, ...                      ]
+      - [(first person singular) perfect indicative passive, █████, ...                      ]
+      - [(first person singular) aorist indicative passive,  █████, ...                      ]
+      - references: list
 ```
 
 For example:
 
 ```yaml
-  - term: γίγνομαι
+  - term: λέγω
     definition:
-      - to become
-      - to be born
-      - to happen
-      - to be
+      - to say, speak
+      - to pick up
     conjugation:
-      - (first person singular) present indicative active: γίγνομαι
-      - (first person singular) future indicative active: γενήσομαι
-      - (first person singular) aorist indicative active: ἐγενόμην
-      - (first person singular) perfect indicative active: γέγονᾰ
-      - (first person singular) perfect indicative passive: γεγένημαι
-      - (first person singular) aorist indicative passive: ἐγενήθην
+      - wiktionary: https://en.wiktionary.org/wiki/λέγω#Verb_2
+      - ["",                                                 Attic    , Koine          ]
+      - [(first person singular) present indicative active,  λέγω     , λέγω           ]
+      - [(first person singular) future indicative active,   λέξω     , ἐρῶ            ]
+      - [(first person singular) aorist indicative active,   ἔλεξα    , εἶπον/εἶπα     ]
+      - [(first person singular) perfect indicative active,  (missing), εἴρηκα         ]
+      - [(first person singular) perfect indicative passive, λέλεγμαι , λέλεγμαι       ]
+      - [(first person singular) aorist indicative passive,  ἐλέχθην  , ἐρρέθην/ἐρρήθην]
+      - references:
+          - https://en.wiktionary.org/wiki/λέγω#Inflection
+          - http://atticgreek.org/downloads/allPPbytypes.pdf
+          - https://books.openbookpublishers.com/10.11647/obp.0264/ch25.xhtml
+          - https://www.billmounce.com/greek-dictionary/lego
+          - https://koine-greek.fandom.com/wiki/Λέγω
 ```
 
 ### [Latin](./latin.yaml)

@@ -1256,21 +1256,21 @@ vocabulary:
   - term: interessiert
     definition: (adj.) interested
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,       singular,       singular,       plural        ]
         - ["",         masculine,      feminine,       neuter,         ""            ]
         - [nominative, interessierter, interessierte,  interessiertes, interessierte ]
         - [genitive,   interessierten, interessierter, interessierten, interessierter]
         - [dative,     interessiertem, interessierter, interessiertem, interessierten]
         - [accusative, interessierten, interessierte,  interessiertes, interessierte ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,           singular,           singular,           plural            ]
         - ["",         masculine,          feminine,           neuter,             ""                ]
         - [nominative, der interessierte,  die interessierte,  das interessierte,  die interessierten]
         - [genitive,   des interessierten, der interessierten, des interessierten, der interessierten]
         - [dative,     dem interessierten, der interessierten, dem interessierten, den interessierten]
         - [accusative, den interessierten, die interessierte,  das interessierte,  die interessierten]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,             singular,             singular,             plural                 ]
         - ["",         masculine,            feminine,             neuter,               ""                     ]
         - [nominative, ein interessierter,   eine interessierte,   ein interessiertes,   (keine) interessierten ]
@@ -1419,21 +1419,21 @@ vocabulary:
   - term: durstig
     definition: thirsty
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,  singular,  singular,  plural   ]
         - ["",         masculine, feminine,  neuter,    ""       ]
         - [nominative, durstiger, durstige,  durstiges, durstige ]
         - [genitive,   durstigen, durstiger, durstigen, durstiger]
         - [dative,     durstigem, durstiger, durstigem, durstigen]
         - [accusative, durstigen, durstige,  durstiges, durstige ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,      singular,      singular,      plural       ]
         - ["",         masculine,     feminine,      neuter,        ""           ]
         - [nominative, der durstige,  die durstige,  das durstige,  die durstigen]
         - [genitive,   des durstigen, der durstigen, des durstigen, der durstigen]
         - [dative,     dem durstigen, der durstigen, dem durstigen, den durstigen]
         - [accusative, den durstigen, die durstige,  das durstige,  die durstigen]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,        singular,        singular,        plural            ]
         - ["",         masculine,       feminine,        neuter,          ""                ]
         - [nominative, ein durstiger,   eine durstige,   ein durstiges,   (keine) durstigen ]
@@ -1445,21 +1445,21 @@ vocabulary:
       - thick
       - fat
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,  singular, singular, plural]
         - ["",         masculine, feminine, neuter,   ""    ]
         - [nominative, dicker,    dicke,    dickes,   dicke ]
         - [genitive,   dicken,    dicker,   dicken,   dicker]
         - [dative,     dickem,    dicker,   dickem,   dicken]
         - [accusative, dicken,    dicke,    dickes,   dicke ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,   singular,   singular,   plural    ]
         - ["",         masculine,  feminine,   neuter,     ""        ]
         - [nominative, der dicke,  die dicke,  das dicke,  die dicken]
         - [genitive,   des dicken, der dicken, des dicken, der dicken]
         - [dative,     dem dicken, der dicken, dem dicken, den dicken]
         - [accusative, den dicken, die dicke,  das dicke,  die dicken]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,     singular,     singular,     plural         ]
         - ["",         masculine,    feminine,     neuter,       ""             ]
         - [nominative, ein dicker,   eine dicke,   ein dickes,   (keine) dicken ]
@@ -1474,21 +1474,21 @@ vocabulary:
       - cold
       - calm
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,  singular, singular, plural]
         - ["",         masculine, feminine, neuter,   ""    ]
         - [nominative, kühler,    kühle,    kühles,   kühle ]
         - [genitive,   kühlen,    kühler,   kühlen,   kühler]
         - [dative,     kühlem,    kühler,   kühlem,   kühlen]
         - [accusative, kühlen,    kühle,    kühles,   kühle ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,   singular,   singular,   plural    ]
         - ["",         masculine,  feminine,   neuter,     ""        ]
         - [nominative, der kühle,  die kühle,  das kühle,  die kühlen]
         - [genitive,   des kühlen, der kühlen, des kühlen, der kühlen]
         - [dative,     dem kühlen, der kühlen, dem kühlen, den kühlen]
         - [accusative, den kühlen, die kühle,  das kühle,  die kühlen]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,     singular,     singular,     plural         ]
         - ["",         masculine,    feminine,     neuter,       ""             ]
         - [nominative, ein kühler,   eine kühle,   ein kühles,   (keine) kühlen ]
@@ -1501,21 +1501,21 @@ vocabulary:
   - term: lecker
     definition: delicious
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,            singular,            singular,            plural             ]
         - ["",         masculine,           feminine,            neuter,              ""                 ]
         - [nominative, "leckerer, leckrer", "leckere, leckre",   "leckeres, leckres", "leckere, leckre"  ]
         - [genitive,   "leckeren, leckren", "leckerer, leckrer", "leckeren, leckren", "leckerer, leckrer"]
         - [dative,     "leckerem, leckrem", "leckerer, leckrer", "leckerem, leckrem", "leckeren, leckren"]
         - [accusative, "leckeren, leckren", "leckere, leckre",   "leckeres, leckres", "leckere, leckre"  ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,                    singular,                    singular,                    plural                     ]
         - ["",         masculine,                   feminine,                    neuter,                      ""                         ]
         - [nominative, "der leckere, der leckre",   "die leckere, die leckre",   "das leckere, das leckre",   "die leckeren, die leckren"]
         - [genitive,   "des leckeren, des leckren", "der leckeren, der leckren", "des leckeren, des leckren", "der leckeren, der leckren"]
         - [dative,     "dem leckeren, dem leckren", "der leckeren, der leckren", "dem leckeren, dem leckren", "den leckeren, den leckren"]
         - [accusative, "den leckeren, den leckren", "die leckere, die leckre",   "das leckere, das leckre",   "die leckeren, die leckren"]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,                        singular,                        singular,                        plural                               ]
         - ["",         masculine,                       feminine,                        neuter,                          ""                                   ]
         - [nominative, "ein leckerer, ein leckrer",     "eine leckere, eine leckre",     "ein leckeres, ein leckres",     "(keine) leckeren, (keine) leckren"  ]
@@ -1587,21 +1587,21 @@ vocabulary:
   - term: gesund
     definition: gesund
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,    singular,   singular,   plural  ]
         - ["",         masculine,   feminine,   neuter,     ""      ]
         - [nominative, gesunder,    gesunde,    gesundes,   gesunde ]
         - [genitive,   gesunden,    gesunder,   gesunden,   gesunder]
         - [dative,     gesundem,    gesunder,   gesundem,   gesunden]
         - [accusative, gesunden,    gesunde,    gesundes,   gesunde ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,     singular,     singular,     plural      ]
         - ["",         masculine,    feminine,     neuter,       ""          ]
         - [nominative, der gesunde,  die gesunde,  das gesunde,  die gesunden]
         - [genitive,   des gesunden, der gesunden, des gesunden, der gesunden]
         - [dative,     dem gesunden, der gesunden, dem gesunden, den gesunden]
         - [accusative, den gesunden, die gesunde,  das gesunde,  die gesunden]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,       singular,       singular,       plural           ]
         - ["",         masculine,      feminine,       neuter,         ""               ]
         - [nominative, ein gesunder,   eine gesunde,   ein gesundes,   (keine) gesunden ]
@@ -1709,21 +1709,21 @@ vocabulary:
       - (adj.) befitting
       - (adj.) worthy
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,    singular,    singular,    plural     ]
         - ["",         masculine,   feminine,    neuter,      ""         ]
         - [nominative, gebührender, gebührende,  gebührendes, gebührende ]
         - [genitive,   gebührenden, gebührender, gebührenden, gebührender]
         - [dative,     gebührendem, gebührender, gebührendem, gebührenden]
         - [accusative, gebührenden, gebührende,  gebührendes, gebührende ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,        singular,        singular,        plural         ]
         - ["",         masculine,       feminine,        neuter,          ""             ]
         - [nominative, der gebührende,  die gebührende,  das gebührende,  die gebührenden]
         - [genitive,   des gebührenden, der gebührenden, des gebührenden, der gebührenden]
         - [dative,     dem gebührenden, der gebührenden, dem gebührenden, den gebührenden]
         - [accusative, den gebührenden, die gebührende,  das gebührende,  die gebührenden]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,          singular,          singular,          plural              ]
         - ["",         masculine,         feminine,          neuter,            ""                  ]
         - [nominative, ein gebührender,   eine gebührende,   ein gebührendes,   (keine) gebührenden ]
@@ -1761,14 +1761,14 @@ vocabulary:
   - term: selber
     definition: (pron.) the same
     declension:
-      - strong (without article)
+      - strong (without article):
         - ["",         singular,  singular, singular, plural]
         - ["",         masculine, feminine, neuter,   ""    ]
         - [nominative, selber,    selbe,    selbes,   selbe ]
         - [genitive,   selbes,    selber,   selbes,   selber]
         - [dative,     selbem,    selber,   selbem,   selben]
         - [accusative, selben,    selbe,    selbes,   selbe ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,  singular, singular, plural]
         - ["",         masculine, feminine, neuter,   ""    ]
         - [nominative, selbe,     selbe,    selbe,    selben]
@@ -1799,21 +1799,21 @@ vocabulary:
   - term: unterschiedlich
     definition: (adj.) different
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,          singular,          singular,          plural           ]
         - ["",         masculine,         feminine,          neuter,            ""               ]
         - [nominative, unterschiedlicher, unterschiedliche,  unterschiedliches, unterschiedliche ]
         - [genitive,   unterschiedlichen, unterschiedlicher, unterschiedlichen, unterschiedlicher]
         - [dative,     unterschiedlichem, unterschiedlicher, unterschiedlichem, unterschiedlichen]
         - [accusative, unterschiedlichen, unterschiedliche,  unterschiedliches, unterschiedliche ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,              singular,              singular,              plural               ]
         - ["",         masculine,             feminine,              neuter,                ""                   ]
         - [nominative, der unterschiedliche,  die unterschiedliche,  das unterschiedliche,  die unterschiedlichen]
         - [genitive,   des unterschiedlichen, der unterschiedlichen, des unterschiedlichen, der unterschiedlichen]
         - [dative,     dem unterschiedlichen, der unterschiedlichen, dem unterschiedlichen, den unterschiedlichen]
         - [accusative, den unterschiedlichen, die unterschiedliche,  das unterschiedliche,  die unterschiedlichen]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,                singular,                singular,                plural                    ]
         - ["",         masculine,               feminine,                neuter,                  ""                        ]
         - [nominative, ein unterschiedlicher,   eine unterschiedliche,   ein unterschiedliches,   (keine) unterschiedlichen ]
@@ -1825,21 +1825,21 @@ vocabulary:
       - (adj.) different
       - (adj.) several
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,      singular,      singular,      plural       ]
         - ["",         masculine,     feminine,      neuter,        ""           ]
         - [nominative, verschiedener, verschiedene,  verschiedenes, verschiedene ]
         - [genitive,   verschiedenen, verschiedener, verschiedenen, verschiedener]
         - [dative,     verschiedenem, verschiedener, verschiedenem, verschiedenen]
         - [accusative, verschiedenen, verschiedene,  verschiedenes, verschiedene ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,          singular,          singular,          plural           ]
         - ["",         masculine,         feminine,          neuter,            ""               ]
         - [nominative, der verschiedene,  die verschiedene,  das verschiedene,  die verschiedenen]
         - [genitive,   des verschiedenen, der verschiedenen, des verschiedenen, der verschiedenen]
         - [dative,     dem verschiedenen, der verschiedenen, dem verschiedenen, den verschiedenen]
         - [accusative, den verschiedenen, die verschiedene,  das verschiedene,  die verschiedenen]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,            singular,            singular,            plural                ]
         - ["",         masculine,           feminine,            neuter,              ""                    ]
         - [nominative, ein verschiedener,   eine verschiedene,   ein verschiedenes,   (keine)  verschiedenen]
@@ -1851,21 +1851,21 @@ vocabulary:
       - (adj.) other
       - (adj.) different
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,                  singular,          singular,                  plural]
         - ["",         masculine,                 feminine,          neuter,                    ""    ]
         - [nominative, "anderer, andrer",         "andere, andre",   "anderes, andres",         "andere, andre"]
         - [genitive,   "anderen, andern, andren", "anderer, andrer", "anderen, andern, andren", "anderer, andrer"]
         - [dative,     "anderem, anderm, andrem", "anderer, andrer", "anderem, anderm, andrem", "anderen, andern, andren"]
         - [accusative, "anderen, andern, andren", "andere, andre",   "anderes, andres",         "andere, andre"]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,                               singular,                              singular,                              plural                                 ]
         - ["",         masculine,                              feminine,                              neuter,                                ""                                     ]
         - [nominative, "der andere, der andere",               "die andere, die andre",               "das andere, das andre",               "die anderen, die anderen, die anderen"]
         - [genitive,   "des anderen, des anderen, des andren", "der anderen, der andern, der andren", "des anderen, des andern, des andren", "der anderen, der anderen, der andren" ]
         - [dative,     "dem anderen, dem andern, dem andren",  "der anderen, der andern, der andren", "dem anderen, dem andern, dem andren", "den anderen, den andern, den andren"  ]
         - [accusative, "den anderen, den andern, den andren",  "die andere, die andre",               "das andere, das andre",               "den andren, die andern, die andren"   ]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,                                    singular,                                    singular,                                     plural                                               ]
         - ["",         masculine,                                   feminine,                                    neuter,                                       ""                                                   ]
         - [nominative, "ein anderer, ein andrer",                   "eine andere, eine andre",                   "ein anderes, ein andres",                    "(keine) anderen, (keine) andern, (keine) andren"    ]
@@ -1973,21 +1973,21 @@ vocabulary:
   - term: spät
     definition: (adj.) late
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,    singular, singular, plural]
         - ["",         masculine,   feminine, neuter,   ""    ]
         - [nominative, später,      späte,    spätes,   späte ]
         - [genitive,   späten,      später,   späten,   später]
         - [dative,     spätem,      später,   spätem,   späten]
         - [accusative, späten,      späte,    spätes,   späte ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,   singular,   singular,   plural    ]
         - ["",         masculine,  feminine,   neuter,     ""        ]
         - [nominative, der späte,  die späte,  das späte,  die späten]
         - [genitive,   des späten, der späten, des späten, der späten]
         - [dative,     dem späten, der späten, dem späten, den späten]
         - [accusative, den späten, die späte,  das späte,  die späten]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,     singular,     singular,     plural         ]
         - ["",         masculine,    feminine,     neuter,       ""             ]
         - [nominative, ein später,   eine späte,   ein spätes,   (keine) späten ]
@@ -1997,21 +1997,21 @@ vocabulary:
   - term: angesehen
     definition: (adj.) respected
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,    singular,    singular,    plural     ]
         - ["",         masculine,   feminine,    neuter,      ""         ]
         - [nominative, angesehener, angesehene,  angesehenes, angesehene ]
         - [genitive,   angesehenen, angesehener, angesehenen, angesehener]
         - [dative,     angesehenem, angesehener, angesehenem, angesehenen]
         - [accusative, angesehenen, angesehene,  angesehenes, angesehene ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,        singular,        singular,        plural         ]
         - ["",         masculine,       feminine,        neuter,          ""             ]
         - [nominative, der angesehene,  die angesehene,  das angesehene,  die angesehenen]
         - [genitive,   des angesehenen, der angesehenen, des angesehenen, der angesehenen]
         - [dative,     dem angesehenen, der angesehenen, dem angesehenen, den angesehenen]
         - [accusative, den angesehenen, die angesehene,  das angesehene,  die angesehenen]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,          singular,          singular,          plural              ]
         - ["",         masculine,         feminine,          neuter,            ""                  ]
         - [nominative, ein angesehener,   eine angesehene,   ein angesehenes,   (keine) angesehenen ]
@@ -2077,21 +2077,21 @@ vocabulary:
   - term: unzertrennlich
     definition: (adj.) inseparable
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,         singular,         singular,         plural          ]
         - ["",         masculine,        feminine,         neuter,           ""              ]
         - [nominative, unzertrennlicher, unzertrennliche,  unzertrennliches, unzertrennliche ]
         - [genitive,   unzertrennlichen, unzertrennlicher, unzertrennlichen, unzertrennlicher]
         - [dative,     unzertrennlichem, unzertrennlicher, unzertrennlichem, unzertrennlichen]
         - [accusative, unzertrennlichen, unzertrennliche,  unzertrennliches, unzertrennliche ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,             singular,             singular,             plural              ]
         - ["",         masculine,            feminine,             neuter,               ""                  ]
         - [nominative, der unzertrennliche,  die unzertrennliche,  das unzertrennliche,  die unzertrennlichen]
         - [genitive,   des unzertrennlichen, der unzertrennlichen, des unzertrennlichen, der unzertrennlichen]
         - [dative,     dem unzertrennlichen, der unzertrennlichen, dem unzertrennlichen, den unzertrennlichen]
         - [accusative, den unzertrennlichen, die unzertrennliche,  das unzertrennliche,  die unzertrennlichen]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,               singular,               singular,               plural                   ]
         - ["",         masculine,              feminine,               neuter,                 ""                       ]
         - [nominative, ein unzertrennlicher,   eine unzertrennliche,   ein unzertrennliches,   (keine) unzertrennlichen ]
@@ -2130,21 +2130,21 @@ vocabulary:
       - (adj.) recent
       - (adj.) modern
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,  singular, singular, plural]
         - ["",         masculine, feminine, neuter,   ""    ]
         - [nominative, neuer,     neue,     neues,    neue  ]
         - [genitive,   neuen,     neuer,    neuen,    neuer ]
         - [dative,     neuem,     neuer,    neuem,    neuen ]
         - [accusative, neuen,     neue,     neues,    neue  ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,  singular,  singular,  plural   ]
         - ["",         masculine, feminine,  neuter,    ""       ]
         - [nominative, der neue,  die neue,  das neue,  die neuen]
         - [genitive,   des neuen, der neuen, des neuen, der neuen]
         - [dative,     dem neuen, der neuen, dem neuen, den neuen]
         - [accusative, den neuen, die neue,  das neue,  die neuen]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,    singular,    singular,    plural        ]
         - ["",         masculine,   feminine,    neuter,      ""            ]
         - [nominative, ein neuer,   eine neue,   ein neues,   (keine) neuen ]
@@ -2157,21 +2157,21 @@ vocabulary:
       - young
       - insignificant
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,  singular, singular, plural ]
         - ["",         masculine, feminine, neuter,   ""     ]
         - [nominative, kleiner,   kleine,   kleines,  kleine ]
         - [genitive,   kleinen,   kleiner,  kleinen,  kleiner]
         - [dative,     kleinem,   kleiner,  kleinem,  kleinen]
         - [accusative, kleinen,   kleine,   kleines,  kleine ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,    singular,    singular,    plural     ]
         - ["",         masculine,   feminine,    neuter,      ""         ]
         - [nominative, der kleine,  die kleine,  das kleine,  die kleinen]
         - [genitive,   des kleinen, der kleinen, des kleinen, der kleinen]
         - [dative,     dem kleinen, der kleinen, dem kleinen, den kleinen]
         - [accusative, den kleinen, die kleine,  das kleine,  die kleinen]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,      singular,      singular,      plural          ]
         - ["",         masculine,     feminine,      neuter,        ""              ]
         - [nominative, ein kleiner,   eine kleine,   ein kleines,   (keine) kleinen ]
@@ -2277,21 +2277,21 @@ vocabulary:
       - sharp,
       - hot
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,  singular, singular, plural  ]
         - ["",         masculine, feminine, neuter,   ""      ]
         - [nominative, scharfer,  scharfe,  scharfes, scharfe ]
         - [genitive,   scharfen,  scharfer, scharfen, scharfer]
         - [dative,     scharfem,  scharfer, scharfem, scharfen]
         - [accusative, scharfen,  scharfe,  scharfes, scharfe ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,     singular,     singular,     plural      ]
         - ["",         masculine,    feminine,     neuter,       ""          ]
         - [nominative, der scharfe,  die scharfe,  das scharfe,  die scharfen]
         - [genitive,   des scharfen, der scharfen, des scharfen, der scharfen]
         - [dative,     dem scharfen, der scharfen, dem scharfen, den scharfen]
         - [accusative, den scharfen, die scharfe,  das scharfe,  die scharfen]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,       singular,       singular,       plural           ]
         - ["",         masculine,      feminine,       neuter,         ""               ]
         - [nominative, ein scharfer,   eine scharfe,   ein scharfes,   (keine) scharfen ]
@@ -2449,21 +2449,21 @@ vocabulary:
   - term: gewiss
     definition: (adj.) certain
     declension:
-      - strong declension (without article)
+      - strong declension (without article):
         - ["",         singular,  singular, singular, plural  ]
         - ["",         masculine, feminine, neuter,   ""      ]
         - [nominative, gewisser,  gewisse,  gewisses, gewisse ]
         - [genitive,   gewissen,  gewisser, gewissen, gewisser]
         - [dative,     gewissem,  gewisser, gewissem, gewissen]
         - [accusative, gewissen,  gewisse,  gewisses, gewisse ]
-      - weak declension (with definite article)
+      - weak declension (with definite article):
         - ["",         singular,     singular,     singular,     plural      ]
         - ["",         masculine,    feminine,     neuter,       ""          ]
         - [nominative, der gewisse,  die gewisse,  das gewisse,  die gewissen]
         - [genitive,   des gewissen, der gewissen, des gewissen, der gewissen]
         - [dative,     dem gewissen, der gewissen, dem gewissen, den gewissen]
         - [accusative, den gewissen, die gewisse,  das gewisse,  die gewissen]
-      - mixed declension (with indefinite article)
+      - mixed declension (with indefinite article):
         - ["",         singular,       singular,       singular,       plural           ]
         - ["",         masculine,      feminine,       neuter,         ""               ]
         - [nominative, ein gewisser,   eine gewisse,   ein gewisses,   (keine)  gewissen]

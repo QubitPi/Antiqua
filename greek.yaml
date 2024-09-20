@@ -48,10 +48,25 @@ vocabulary:
       - since
   - term: οὐ, οὐκ, οὐχ
     definition: not
-  - term: λέγω, ἐρῶ, εἶπον, εἴρηκα, λέλεγμαι, ἐλέχθην, ἐρρήθην
+  - term: λέγω
     definition:
       - to say, speak
       - to pick up
+    conjugation:
+      - wiktionary: https://en.wiktionary.org/wiki/λέγω#Verb_2
+      - ["",                                                 Attic    , Koine          ]
+      - [(first person singular) present indicative active,  λέγω     , λέγω           ]
+      - [(first person singular) future indicative active,   λέξω     , ἐρῶ            ]
+      - [(first person singular) aorist indicative active,   ἔλεξα    , εἶπον/εἶπα     ]
+      - [(first person singular) perfect indicative active,  (missing), εἴρηκα         ]
+      - [(first person singular) perfect indicative passive, λέλεγμαι , λέλεγμαι       ]
+      - [(first person singular) aorist indicative passive,  ἐλέχθην  , ἐρρέθην/ἐρρήθην]
+      - references:
+        - https://en.wiktionary.org/wiki/λέγω#Inflection
+        - http://atticgreek.org/downloads/allPPbytypes.pdf
+        - https://books.openbookpublishers.com/10.11647/obp.0264/ch25.xhtml
+        - https://www.billmounce.com/greek-dictionary/lego
+        - https://koine-greek.fandom.com/wiki/Λέγω
   - term: ὡς
     definition: as, since
   - term: τε
@@ -185,36 +200,66 @@ vocabulary:
     definition: no one, nothing
   - term: εἶπον
     definition: I said, I spoke, 2 aor. → λέγω, φημί
-  - term: ἀγαθός –ή –όν
+  - term: ἀγαθός -ή -όν
     definition:
       - good,
       - virtuous
       - brave
       - noble
-    declension:
-      - ["",         singular,  singular, singular, dual,      dual,     dual    plural,    plural,   plural]
-      - ["",         masculine, feminine, neuter,   masculine, feminine, neuter, masculine, feminine, neuter]
-      - [nominative, █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
-      - [genitive,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
-      - [dative,     █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
-      - [accusative, █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
-      - [vocative,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
   - term: γε
-    definition: (enclitic) indeed; at least, at any rate
+    definition:
+      - indeed
+      - at least
   - term: δή
-    definition: surely, really, now, in fact, indeed (gives greater exactness)
+    definition:
+      - surely
+      - really
+      - now
+      - in fact
+      - indeed
   - term: πόλις πόλεως, ἡ
-    definition: city, city-state
+    definition: city
   - term: εἷς μία ἕν
     definition: one
-  - term: ἵημι, ἥσω, ἧκα, -εἷκα, εἷμαι, -εἵθην
-    definition: put in motion, let go, shoot; (mid.) hasten, rush
-  - term: δέω, δεήσω, ἐδέησα, δεδέηκα, δεδέημαι, ἐδεήθην
-    definition: lack, miss, stand in need of (+gen.)
-  - term: ἄνθρωπος –ου, ὁ/ἡ
+  - term: ἵημι
+    definition:
+      - to put in motion
+      - to let go
+      - to shoot
+      - to hasten
+      - to rush
+    conjugation:
+      - (first person singular) present indicative active: ἵημι
+      - (first person singular) future indicative active: ἥσω
+      - (first person singular) aorist indicative active: ἧκα
+      - (first person singular) perfect indicative active: εἷκα
+      - (first person singular) perfect indicative passive: εἷμαι
+      - (first person singular) aorist indicative passive: εἵθην
+  - term: δέω
+    definition:
+      - lack
+      - miss
+      - stand in need of
+    conjugation:
+      - (first person singular) present indicative active: δέω
+      - (first person singular) future indicative active: δεήσω
+      - (first person singular) aorist indicative active: ἐδέησα
+      - (first person singular) perfect indicative active: δεδέηκα
+      - (first person singular) perfect indicative passive: δεδέημαι
+      - (first person singular) aorist indicative passive: ἐδεήθην
+  - term: ἄνθρωπος -ου, ὁ/ἡ
     definition: human being
-  - term: ὁράω, ὄψομαι, 2 aor. εἶδον, ἑόρακα and ἑώρακα, ὤφθην, impf. ἑώρων
-    definition: see, look (to)
+  - term: ὁράω
+    definition:
+      - see
+      - look
+    conjugation:
+      - (first person singular) present indicative active: ὁράω
+      - (first person singular) future indicative active: ὄψομαι
+      - (first person singular) aorist indicative active: εἶδον
+      - (first person singular) perfect indicative active: ἑόρακα, ἑώρακα
+      - (first person singular) perfect indicative passive: ἑώραμαι
+      - (first person singular) aorist indicative passive: ὤφθην
   - term: μόνος μόνη μόνον
     definition: alone, single
   - term: οὔτε...οὔτε
@@ -227,7 +272,7 @@ vocabulary:
     definition: think, suppose, imagine (+acc. and infin.); seem, seem good; (impers.) δοκεῖ μοι it seems to me
   - term: ἕτερος ἑτέρα ἕτερον
     definition: the other (of two); other, another
-  - term: κακός –ή –όν
+  - term: κακός -ή -όν
     definition: bad, wicked, cowardly
   - term: ἀνήρ ἀνδρός, ὁ
     definition: man, husband
@@ -251,7 +296,7 @@ vocabulary:
     definition: still, yet
   - term: φύσις φύσεως, ἡ
     definition: nature; (of the mind) one’s nature or disposition; regular order of nature
-  - term: μικρός –ά –όν
+  - term: μικρός -ά -όν
     definition: small, little, short
   - term: δύναμαι, δυνήσομαι, ἐδυνήθην, δεδύνημαι
     definition: (+infin.) to be able (to), be strong enough (to)
@@ -275,7 +320,7 @@ vocabulary:
     definition: earth
   - term: δύναμις δυνάμεως, ἡ
     definition: power, strength, ability
-  - term: καλός –ή –όν
+  - term: καλός -ή -όν
     definition: beautiful, noble, honorable
   - term: κύριος κυρίου, ὁ
     definition: lord, master
@@ -387,7 +432,7 @@ vocabulary:
     definition: neither...nor
   - term: μέσος μέση μέσον
     definition: middle, in the middle, moderate; τὸ μέσον midst
-  - term: ἀλλήλων –οις
+  - term: ἀλλήλων -οις
     definition: (oblique cases plural only) one another, each other
   - term: ἀεί
     definition: always
@@ -425,7 +470,7 @@ vocabulary:
     definition: little, small, few
   - term: νόμος νόμου, ὁ
     definition: custom, tradition, law
-  - term: κοινός –ή –όν
+  - term: κοινός -ή -όν
     definition: common, shared, mutual
   - term: οἴομαι or οἶμαι, οἰήσομαι, impf. ᾤμην, aor. ᾠήθην
     definition: think, suppose, imagine (+acc. and infin.)
@@ -437,13 +482,13 @@ vocabulary:
     definition: how?
   - term: ὅσπερ ἥπερ ὅπερ
     definition: the very one who, the very thing which
-  - term: τοσοῦτος –αύτη –οῦτο(ν)
+  - term: τοσοῦτος -αύτη -οῦτο(ν)
     definition: so large, so much
   - term: σύν
     definition: with (+ dat. of accompaniment or means)
   - term: εἶτα
     definition: then, next
-  - term: ἀληθής –ές
+  - term: ἀληθής -ές
     definition: true
   - term: δίκαιος δικαία δίκαιον
     definition: right, just
@@ -451,13 +496,13 @@ vocabulary:
     definition: (+infin.) think of doing, intend to, be about to
   - term: ἐθέλω, ἐθελήσω, ἠθέλησα, ἠθέληκα
     definition: (+infin.) wish (to); be willing (to)
-  - term: λοιπός –ή –όν
+  - term: λοιπός -ή -όν
     definition: rest, remaining, rest-of-the
   - term: ἀνάγκη ἀνάγκης, ἡ
     definition: necessity
   - term: ὅτε
     definition: when, whenever (+indic. or opt.)
-  - term: δεύτερος –α –ον
+  - term: δεύτερος -α -ον
     definition: second
   - term: πόλεμος πολέμου ὁ
     definition: war
@@ -509,11 +554,11 @@ vocabulary:
     definition: opposite (+gen.)
   - term: ναῦς νεώς, ἡ
     definition: ship
-  - term: τρίτος –η –ον
+  - term: τρίτος -η -ον
     definition: third
   - term: πνεῦμα πνεύματος, τό
     definition: wind, breath, spirit
-  - term: ὀρθός –ή –όν
+  - term: ὀρθός -ή -όν
     definition: upright, straight, true, regular
   - term: θάλασσα θαλάσσης, ἡ
     definition: the sea
@@ -523,7 +568,7 @@ vocabulary:
     definition: until (conj.); as far as, up to (prep. +gen.)
   - term: δόξα δόξης, ἡ
     definition: opinion, judgment; reputation, honor, glory
-  - term: κεφαλή –ῆς, ἡ
+  - term: κεφαλή -ῆς, ἡ
     definition: head
   - term: πῦρ πυρός, τό
     definition: fire
@@ -531,7 +576,7 @@ vocabulary:
     definition: smaller, less, fewer (comp. of μικρός)
   - term: πούς ποδός, ὁ
     definition: foot
-  - term: ἱερός –ά –όν
+  - term: ἱερός -ά -όν
     definition: holy, venerated, divine
   - term: εὐθύς εὐθεῖα εὐθύ
     definition: straight, direct; (adv.) immediately
@@ -539,11 +584,11 @@ vocabulary:
     definition: I will go (fut. of ἔρχομαι)
   - term: ταχύς ταχεῖα ταχύ
     definition: quick, fast; (adv.) τάχα quickly; perhaps
-  - term: ποταμός –οῦ, ὁ
+  - term: ποταμός -οῦ, ὁ
     definition: river, stream
   - term: οὐσία οὐσίας, ἡ
     definition: substance, property; essence
-  - term: ἀριθμός –οῦ, ὁ
+  - term: ἀριθμός -οῦ, ὁ
     definition: number
   - term: ὕστερος ὑστέρα ὕστερον
     definition: coming after, following (+gen.); next, later; (adv.) ὕστερον afterwards
@@ -583,7 +628,7 @@ vocabulary:
     definition: hostile; οἱ πολέμιοι the enemy
   - term: ἔρομαι, ἐρήσομαι, 2 aor. ἠρόμην
     definition: ask, ask one about (+double acc.)
-  - term: ἀδελφός –οῦ, ὁ
+  - term: ἀδελφός -οῦ, ὁ
     definition: brother
   - term: μέγεθος μεγέθους, τό
     definition: greatness, size, magnitude
@@ -640,7 +685,6 @@ vocabulary:
       - art,
       - skill,
       - craft
-    declension class: first
   - term: χρῆμα χρήματος, τό
     definition: thing, matter; (more commonly in pl.) goods or property, esp. money
   - term: σῴζω, σώσω, ἔσωσα, σέσωκα, ἐσώθην
@@ -677,23 +721,23 @@ vocabulary:
     definition: judge, decide, determine
   - term: ἀναιρέω, ἀναιρήσω, ἀνεῖλον, ἀνῄρηκα, ἀνῄρημαι, ἀνῃρέθην
     definition: raise, take up; kill, destroy
-  - term: μακρός –ά –όν
+  - term: μακρός -ά -όν
     definition: long, tall, large, long-lasting
   - term: ἥκω, ἥξω, pf. ἧκα
     definition: I have come, I am present
-  - term: ἡδονή –ῆς, ἡ
+  - term: ἡδονή -ῆς, ἡ
     definition: pleasure, enjoyment
   - term: μήτηρ μητρός, ἡ
     definition: mother
-  - term: δεινός –ή –όν
+  - term: δεινός -ή -όν
     definition: awesome, terrible; clever, clever at (+infin.)
-  - term: διαφορά –ᾶς, ἡ
+  - term: διαφορά -ᾶς, ἡ
     definition: difference, disagreement
   - term: κρατέω, κρατήσω, ἐκράτησα, κεκράτηκα, κεκράτημαι, ἐκρατήθην
     definition: be victorious, conquer, rule, surpass, excel (+gen.)
   - term: δῆμος δήμου, ὁ
     definition: the (common) people; country district (opp. πόλις)
-  - term: οὐρανός –οῦ, ὁ
+  - term: οὐρανός -οῦ, ὁ
     definition: sky, heaven
   - term: ἕπομαι ἕψομαι, 2 aor. ἑσπόμην
     definition: follow
@@ -707,7 +751,7 @@ vocabulary:
     definition: (prep.) except (+gen.); (conj.) except that, unless, but
   - term: τέσσαρες τέσσαρα
     definition: four
-  - term: δυνατός –ή –όν
+  - term: δυνατός -ή -όν
     definition: strong, powerful, able
   - term: οἶκος οἴκου, ὁ
     definition: house, home, family
@@ -719,7 +763,7 @@ vocabulary:
     definition: take from, take away
   - term: τύχη τύχης, ἡ
     definition: luck, fortune (good or bad), fate, chance
-  - term: φανερός –ά –όν
+  - term: φανερός -ά -όν
     definition: clear, evident
   - term: πρόσωπον προσώπου, τό
     definition: face, mask, person
@@ -731,13 +775,13 @@ vocabulary:
     definition: up, upwards
   - term: τάσσω, τάξω, ἔταξα, τέταχα, τέταγμαι, ἐτάχθην
     definition: arrange, put in order
-  - term: ὀφθαλμός –οῦ, ὁ
+  - term: ὀφθαλμός -οῦ, ὁ
     definition: eye
   - term: δέχομαι, δέξομαι, ἐδεξάμην, δέδεγμαι, -εδέχθην
     definition: take, accept; welcome, entertain
   - term: ἀφικνέομαι, ἀφίξομαι, 2 aor. ἀφικόμην, ἀφῖγμαι
     definition: come to, arrive at
-  - term: ἱκανός –ή –όν
+  - term: ἱκανός -ή -όν
     definition: sufficient, enough; competent, able to (+infin.)
   - term: ἐργάζομαι, ἐργάσομαι, εἰργασάμην, εἴργασμαι
     definition: work, labor
@@ -745,9 +789,9 @@ vocabulary:
     definition: battle
   - term: τρέφω, θρέψω, ἔθρεψα, τέθραμμαι, ἐτράφην
     definition: nourish, feed, support, maintain; rear, educate
-  - term: ἀδύνατος –ον
+  - term: ἀδύνατος -ον
     definition: impossible; powerless
-  - term: ἀκριβής –ές
+  - term: ἀκριβής -ές
     definition: exact, accurate, precise
   - term: που
     definition: (enclitic) somewhere; I suppose, perhaps (to qualify an assertion)
@@ -761,7 +805,7 @@ vocabulary:
     definition: stronger, mightier; better, more excellent (comp. of ἀγαθός)
   - term: βραχύς βραχεῖα βραχύ
     definition: brief, short
-  - term: ἰσχυρός –ά –όν
+  - term: ἰσχυρός -ά -όν
     definition: strong
   - term: ἀλήθεια ἀληθείας, ἡ
     definition: truth
@@ -775,7 +819,7 @@ vocabulary:
     definition: disease, sickness
   - term: λίθος λίθου, ὁ
     definition: stone
-  - term: παλαιός –ά –όν
+  - term: παλαιός -ά -όν
     definition: old, ancient
   - term: ἀφίημι, ἀφήσω, ἀφῆκα, ἀφεῖκα, ἀφεῖμαι, ἀφείθην
     definition: send away, let go; let alone, neglect
@@ -785,7 +829,7 @@ vocabulary:
     definition: action, transaction, business
   - term: σαφής σαφές
     definition: clear, distinct, plain
-  - term: σοφός –ή –όν
+  - term: σοφός -ή -όν
     definition: wise, clever, skilled
   - term: νικάω, νικήσω, ἐνίκησα, νενίκηκα, νενίκημαι, ἐνικήθην
     definition: conquer, win
@@ -819,7 +863,7 @@ vocabulary:
     definition: before, until
   - term: ἀδικέω, ἀδικήσω, ἠδίκησα, ἠδίκηκα, ἠδίκημαι, ἠδικήθην
     definition: do wrong; injure
-  - term: στρατηγός –οῦ, ὁ
+  - term: στρατηγός -οῦ, ὁ
     definition: leader of an army, commander, general
   - term: οὐκέτι
     definition: no longer, no more
@@ -845,7 +889,7 @@ vocabulary:
     definition: island
   - term: ἐκεῖ
     definition: there
-  - term: ἐπιστήμη –ης, ἡ
+  - term: ἐπιστήμη -ης, ἡ
     definition: knowledge, understanding, skill
   - term: ἐάω, ἐάσω, εἴασα
     definition: allow, permit (+acc. and infin.); let be, let alone
@@ -855,7 +899,7 @@ vocabulary:
     definition: perceive, understand, hear, learn
   - term: χαίρω, χαιρήσω, κεχάρηκα, κεχάρημαι, ἐχάρην
     definition: to be happy, rejoice at (+dat.), take joy in (+ptc.); χαῖρε, (pl.) χαίρετε hello, goodbye
-  - term: χαλεπός –ή –όν
+  - term: χαλεπός -ή -όν
     definition: difficult, troublesome
   - term: τέκνον τέκνου, τό
     definition: child
@@ -879,7 +923,7 @@ vocabulary:
     definition: take up, lift up; remove
   - term: ἀποκτείνω, ἀποκτενῶ, ἀπέκτεινα, ἀπέκτονα
     definition: kill
-  - term: στρατιώτης –ου, ὁ
+  - term: στρατιώτης -ου, ὁ
     definition: soldier
   - term: ἄνευ
     definition: without (+gen.)
@@ -889,11 +933,11 @@ vocabulary:
     definition: simply, singly, in one way
   - term: πίπτω, πεσοῦμαι, ἔπεσον, πέπτωκα
     definition: fall, fall down
-  - term: τέταρτος –η –ον
+  - term: τέταρτος -η -ον
     definition: fourth
   - term: κατασκευάζω, κατασκευάσω, κατεσκεύασα
     definition: equip, furnish, make ready
-  - term: ἐχθρός –ά –όν
+  - term: ἐχθρός -ά -όν
     definition: hated, hateful; hostile to (+dat.)
   - term: ἀγών ἀγῶνος, ὁ
     definition: contest; struggle
@@ -917,11 +961,11 @@ vocabulary:
     definition: put to flight; (mid. and pass.) flee, fear
   - term: βάλλω, βαλῶ, 2 aor. ἔβαλον, βέβληκα, βέβλημαι, ἐβλήθην
     definition: throw, hurl; throw at, hit (acc.) with (dat.)
-  - term: πονηρός –ά –όν
+  - term: πονηρός -ά -όν
     definition: worthless, bad, wicked
   - term: ξένος ξένου, ὁ
     definition: guest-friend; foreigner, stranger
-  - term: βάρβαρος –ον
+  - term: βάρβαρος -ον
     definition: non-Greek, foreign; barbarous
   - term: ὅπου
     definition: where, wherever
@@ -943,7 +987,7 @@ vocabulary:
     definition: trust in others, faith; that which gives confidence, assurance, pledge, guarantee
   - term: ὑπολαμβάνω, ὑπολήψομαι, ὑπέλαβον, ὑπείληφα, ὑπείλημμαι, ὑπελήφθην
     definition: take up, seize; answer, reply; assume, suppose
-  - term: ποιητής –οῦ, ὁ
+  - term: ποιητής -οῦ, ὁ
     definition: creator, poet
   - term: λανθάνω, λήσω, ἔλαθον, λέληθα
     definition: escape the notice of (+acc. and nom. participle), be unknown; (mid. and pass.) forget
@@ -991,7 +1035,7 @@ vocabulary:
     definition: see, look (at)
   - term: φόβος φόβου, ὁ
     definition: panic, fear, flight
-  - term: πολιτεία –ας, ἡ
+  - term: πολιτεία -ας, ἡ
     definition: constitution, citizenship, republic
   - term: στάδιον σταδίου, τό (pl. στάδια and στάδιοι)
     definition: stadion or stade, the longest Greek unit of linear measure, about 185 meters
@@ -1025,7 +1069,7 @@ vocabulary:
     definition: drive, set in motion
   - term: δέδοικα, δείσομαι, ἔδεισα
     definition: fear
-  - term: σύμμαχος –ον
+  - term: σύμμαχος -ον
     definition: allied with (+dat.); οἱ σύμμαχοι allies
   - term: ἡγεμών ἡγεμόνος, ὁ
     definition: guide, leader, commander
@@ -1033,7 +1077,7 @@ vocabulary:
     definition: heavy, grievous, tiresome
   - term: ὧδε
     definition: thus, in this way; hither, here
-  - term: αἰσχρός –ά –όν
+  - term: αἰσχρός -ά -όν
     definition: ugly, shameful, disgraceful
   - term: εἰρήνη εἰρήνης, ἡ
     definition: peace
@@ -1047,7 +1091,7 @@ vocabulary:
     definition: worse, inferior (comp. of κακός)
   - term: βοηθέω, βοηθήσω, ἐβοήθησα, βεβοήθηκα
     definition: help, assist (+dat.)
-  - term: λαμπρός –ά –όν
+  - term: λαμπρός -ά -όν
     definition: bright, brilliant; well-known, illustrious
   - term: ἀπαλλάσσω, ἀπαλλάξω, ἀπήλλαξα, ἀπήλλαχα, ἀπήλλαγμαι, ἀπηλλάχθην or ἀπηλλάγην
     definition: set free, release, deliver
@@ -1073,7 +1117,7 @@ vocabulary:
     definition: seven
   - term: τολμάω, τολμήσω, ἐτόλμησα, τετόλμηκα, τετόλμημαι, ἐτολμήθην
     definition: have the courage, dare; undertake, undergo
-  - term: δεσπότης –ου, ὁ
+  - term: δεσπότης -ου, ὁ
     definition: master (of the household); absolute ruler
   - term: εἰκός εἰκότος, τό
     definition: likelihood, probability; εἰκός (ἐστι) it is likely (+infin.) →ἔοικα
@@ -1085,7 +1129,7 @@ vocabulary:
     definition: countless; μύριοι 10,000; μυριάς -άδος ἡ 10,000, a countless amount
   - term: αὐτίκα
     definition: at once, immediately
-  - term: δέκατος –η –ον
+  - term: δέκατος -η -ον
     definition: tenth
   - term: βαίνω, βήσομαι, 2 aor. ἔβην, βέβηκα
     definition: walk, come, go
@@ -1093,11 +1137,11 @@ vocabulary:
     definition: [enclitic added to pronouns and other particles for emphasis]
   - term: ἐλεύθερος ἐλευθέρα ἐλεύθερον
     definition: free, independent
-  - term: στρατιά –ᾶς, ἡ
+  - term: στρατιά -ᾶς, ἡ
     definition: army
   - term: ἀμφί
     definition: about, around
-  - term: συμφορά –ᾶς, ἡ
+  - term: συμφορά -ᾶς, ἡ
     definition: event, circumstance, misfortune
   - term: ἑκατόν
     definition: hundred
@@ -1105,7 +1149,7 @@ vocabulary:
     definition: victory
   - term: ἔπος ἔπους, τό
     definition: word, speech, tale; prophecy
-  - term: στρατός –οῦ, ὁ
+  - term: στρατός -οῦ, ὁ
     definition: army
   - term: φράζω, φράσω, ἔφρασα, πέφρακα, πέφρασμαι, ἐφράσθην
     definition: tell, declare; (mid. and pass.) think (about)
@@ -1115,13 +1159,13 @@ vocabulary:
     definition: thirty
   - term: ἕξ
     definition: six
-  - term: πεμπτός –ή –όν
+  - term: πεμπτός -ή -όν
     definition: fifth
   - term: μάρτυς μάρτυρος, ὁ/ἡ
     definition: witness
-  - term: χαλκοῦς –ῆ –οῦν
+  - term: χαλκοῦς -ῆ -οῦν
     definition: of copper or bronze
-  - term: ἕβδομος –η –ον
+  - term: ἕβδομος -η -ον
     definition: seventh
   - term: ποῦ
     definition: where
@@ -1131,21 +1175,21 @@ vocabulary:
     definition: light, daylight
   - term: ὀκτώ
     definition: eight
-  - term: ἕκτος –η –ον
+  - term: ἕκτος -η -ον
     definition: sixth
-  - term: τριακοστός –ή –όν
+  - term: τριακοστός -ή -όν
     definition: thirtieth
   - term: ἐννέα
     definition: nine
   - term: πότε
     definition: when?
-  - term: ὄγδοος –η –ον
+  - term: ὄγδοος -η -ον
     definition: eighth
-  - term: ἔνατος –α –ον
+  - term: ἔνατος -α -ον
     definition: ninth
-  - term: εἰκοστός –ή –όν
+  - term: εἰκοστός -ή -όν
     definition: twentieth
   - term: ἀγγέλλω, ἀγγελῶ, ἤγγειλα, ἤγγελκα, ἤγγελμαι, ἠγγέλθην
     definition: report, tell
-  - term: ἑκατοστός –ή –όν
+  - term: ἑκατοστός -ή -όν
     definition: hundredth
