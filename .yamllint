@@ -21,3 +21,4 @@ rules:
     max: 3
   indentation:
     spaces: 2
+    indent-sequences: false
