@@ -466,12 +466,12 @@ vocabulary:
   - term: der Geburtsort
     definition: place of birth
     declension:
-          - ["",         singular, singular, singular,                    plural, plural      ]
-          - ["",         indef.,   def.,     noun,                        def.,   noun        ]
-          - [nominative, ein,      der,      Geburtsort,                  die,    Geburtsorte ]
-          - [genitive,   eines,    des,      "Geburtsortes, Geburtsorts", der,    Geburtsorte ]
-          - [dative,     einem,    dem,      Geburtsort,                  den,    Geburtsorten]
-          - [accusative, einen,    den,      Geburtsort,                  die,    Geburtsorte ]
+      - ["",         singular, singular, singular,                    plural, plural      ]
+      - ["",         indef.,   def.,     noun,                        def.,   noun        ]
+      - [nominative, ein,      der,      Geburtsort,                  die,    Geburtsorte ]
+      - [genitive,   eines,    des,      "Geburtsortes, Geburtsorts", der,    Geburtsorte ]
+      - [dative,     einem,    dem,      Geburtsort,                  den,    Geburtsorten]
+      - [accusative, einen,    den,      Geburtsort,                  die,    Geburtsorte ]
   - term: Wohnort
     definition: place of residence
   - term: aber
