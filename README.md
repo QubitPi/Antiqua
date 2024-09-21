@@ -289,21 +289,21 @@ Here is an example of the adjective declension for
   - term: unterschiedlich
     definition: (adj.) different
     declension:
-      - strong declension (without article):
+      strong declension (without article):
         - ["",         singular,          singular,          singular,          plural           ]
         - ["",         masculine,         feminine,          neuter,            ""               ]
         - [nominative, unterschiedlicher, unterschiedliche,  unterschiedliches, unterschiedliche ]
         - [genitive,   unterschiedlichen, unterschiedlicher, unterschiedlichen, unterschiedlicher]
         - [dative,     unterschiedlichem, unterschiedlicher, unterschiedlichem, unterschiedlichen]
         - [accusative, unterschiedlichen, unterschiedliche,  unterschiedliches, unterschiedliche ]
-      - weak declension (with definite article):
+      weak declension (with definite article):
         - ["",         singular,              singular,              singular,              plural               ]
         - ["",         masculine,             feminine,              neuter,                ""                   ]
         - [nominative, der unterschiedliche,  die unterschiedliche,  das unterschiedliche,  die unterschiedlichen]
         - [genitive,   des unterschiedlichen, der unterschiedlichen, des unterschiedlichen, der unterschiedlichen]
         - [dative,     dem unterschiedlichen, der unterschiedlichen, dem unterschiedlichen, den unterschiedlichen]
         - [accusative, den unterschiedlichen, die unterschiedliche,  das unterschiedliche,  die unterschiedlichen]
-      - mixed declension (with indefinite article):
+      mixed declension (with indefinite article):
         - ["",         singular,                singular,                singular,                plural                    ]
         - ["",         masculine,               feminine,                neuter,                  ""                        ]
         - [nominative, ein unterschiedlicher,   eine unterschiedliche,   ein unterschiedliches,   (keine) unterschiedlichen ]

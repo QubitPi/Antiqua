@@ -291,7 +291,14 @@ vocabulary:
   - term: die Engländerin
     definition: (an) English person (female)
   - term: der Engländer
-    definition: (an) English person (male)
+    definition: (male) the English person
+    declension:
+      - ["",         singular, singular, singular,   plural, plural    ]
+      - ["",         indef.,   def.,     noun,       def.,   noun      ]
+      - [nominative, ein,      der,      Engländer,  die,    Engländer ]
+      - [genitive,   eines,    des,      Engländers, der,    Engländer ]
+      - [dative,     einem,    dem,      Engländer,  den,    Engländern]
+      - [accusative, einen,    den,      Engländer,  die,    Engländer ]
   - term: das Frankreich
     definition: France
   - term: das Französisch
@@ -299,7 +306,14 @@ vocabulary:
   - term: die Französin
     definition: (a) French (female)
   - term: der Franzose
-    definition: (a) French (make)
+    definition: (male) the French person
+    declension:
+      - ["",         singular, singular, singular,  plural, plural   ]
+      - ["",         indef.,   def.,     noun,      def.,   noun     ]
+      - [nominative, ein,      der,      Franzose,  die,    Franzosen]
+      - [genitive,   eines,    des,      Franzosen, der,    Franzosen]
+      - [dative,     einem,    dem,      Franzosen, den,    Franzosen]
+      - [accusative, einen,    den,      Franzosen, die,    Franzosen]
   - term: das Griechenland
     definition: Greece
   - term: das Griechisch
@@ -307,7 +321,14 @@ vocabulary:
   - term: die Griechin
     definition: (a) Greek (female)
   - term: der Grieche
-    definition: (a) Greek (male)
+    definition: (male) the Greek person
+    declension:
+      - ["",         singular, singular, singular, plural, plural  ]
+      - ["",         indef.,   def.,     noun,     def.,   noun    ]
+      - [nominative, ein,      der,      Grieche,  die,    Griechen]
+      - [genitive,   eines,    des,      Griechen, der,    Griechen]
+      - [dative,     einem,    dem,      Griechen, den,    Griechen]
+      - [accusative, einen,    den,      Griechen, die,    Griechen]
   - term: das Großbritannien
     definition: Great Britain
   - term: das Irland
@@ -316,6 +337,13 @@ vocabulary:
     definition: Irishwoman
   - term: der Ire
     definition: Irishman
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, ein,      der,      Ire,      die,    Iren  ]
+      - [genitive,   eines,    des,      Iren,     der,    Iren  ]
+      - [dative,     einem,    dem,      Iren,     den,    Iren  ]
+      - [accusative, einen,    den,      Iren,     die,    Iren  ]
   - term: das Italien
     definition: Italy
   - term: das Japanisch
@@ -323,7 +351,14 @@ vocabulary:
   - term: die Japanerin
     definition: (a) Japanese (female)
   - term: der Japaner
-    definition: (a) Japanese (male)
+    definition: (male) Japanese
+    declension:
+      - ["",         singular, singular, singular, plural, plural  ]
+      - ["",         indef.,   def.,     noun,     def.,   noun    ]
+      - [nominative, ein,      der,      Japaner,  die,    Japaner ]
+      - [genitive,   eines,    des,      Japaners, der,    Japaner ]
+      - [dative,     einem,    dem,      Japaner,  den,    Japanern]
+      - [accusative, einen,    den,      Japaner,  die,    Japaner ]
   - term: das Luxemburg
     definition: Luxembourg
   - term: die Niederlande
@@ -335,7 +370,14 @@ vocabulary:
   - term: die Österreicherin
     definition: (an) Austrian (female)
   - term: der Österreicher
-    definition: (an) Austraian (male)
+    definition: (male) Austraian
+    declension:
+      - ["",         singular, singular, singular,      plural, plural       ]
+      - ["",         indef.,   def.,     noun,          def.,   noun         ]
+      - [nominative, ein,      der,      Österreicher,  die,    Österreicher ]
+      - [genitive,   eines,    des,      Österreichers, der,    Österreicher ]
+      - [dative,     einem,    dem,      Österreicher,  den,    Österreichern]
+      - [accusative, einen,    den,      Österreicher,  die,    Österreicher ]
   - term: das Wien
     definition: Vienna (capital of Austria)
   - term: das Portugal
@@ -352,6 +394,13 @@ vocabulary:
     definition: Scotswoman
   - term: der Schotte
     definition: Scotsman
+    declension:
+      - ["",         singular, singular, singular, plural, plural  ]
+      - ["",         indef.,   def.,     noun,     def.,   noun    ]
+      - [nominative, ein,      der,      Schotte,  die,    Schotten]
+      - [genitive,   eines,    des,      Schotten, der,    Schotten]
+      - [dative,     einem,    dem,      Schotten, den,    Schotten]
+      - [accusative, einen,    den,      Schotten, die,    Schotten]
   - term: das Spanien
     definition: Spain
   - term: das Spanisch
@@ -359,7 +408,14 @@ vocabulary:
   - term: die Spanierin
     definition: (a) Spanish (female)
   - term: der Spanier
-    definition: (a) Spanish (make)
+    definition: (male) the Spanish person
+    declension:
+      - ["",         singular, singular, singular, plural, plural  ]
+      - ["",         indef.,   def.,     noun,     def.,   noun    ]
+      - [nominative, ein,      der,      Spanier,  die,    Spanier ]
+      - [genitive,   eines,    des,      Spaniers, der,    Spanier ]
+      - [dative,     einem,    dem,      Spanier,  den,    Spaniern]
+      - [accusative, einen,    den,      Spanier,  die,    Spanier ]
   - term: die Türkei
     definition: Turkey
   - term: das Türkisch
@@ -367,7 +423,14 @@ vocabulary:
   - term: die Türkin
     definition: (a) Turkish (female)
   - term: der Türke
-    definition: (a) Turkish (male)
+    definition: (male) Turkish
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, ein,      der,      Türke,    die,    Türken]
+      - [genitive,   eines,    des,      Türken,   der,    Türken]
+      - [dative,     einem,    dem,      Türken,   den,    Türken]
+      - [accusative, einen,    den,      Türken,   die,    Türken]
   - term: das Ungarn
     definition: Hungary
   - term: das Wales
@@ -378,6 +441,13 @@ vocabulary:
     definition: Welshwoman
   - term: der Waliser
     definition: Welshman
+    declension:
+      - ["",         singular, singular, singular, plural, plural  ]
+      - ["",         indef.,   def.,     noun,     def.,   noun    ]
+      - [nominative, ein,      der,      Waliser,  die,    Waliser ]
+      - [genitive,   eines,    des,      Walisers, der,    Waliser ]
+      - [dative,     einem,    dem,      Waliser,  den,    Walisern]
+      - [accusative, einen,    den,      Waliser,  die,    Waliser ]
   - term: Brüssel
     definition: Brussels
   - term: Amsterdam
@@ -395,6 +465,13 @@ vocabulary:
     definition: Russian (language)
   - term: der Geburtsort
     definition: place of birth
+    declension:
+          - ["",         singular, singular, singular,                    plural, plural      ]
+          - ["",         indef.,   def.,     noun,                        def.,   noun        ]
+          - [nominative, ein,      der,      Geburtsort,                  die,    Geburtsorte ]
+          - [genitive,   eines,    des,      "Geburtsortes, Geburtsorts", der,    Geburtsorte ]
+          - [dative,     einem,    dem,      Geburtsort,                  den,    Geburtsorten]
+          - [accusative, einen,    den,      Geburtsort,                  die,    Geburtsorte ]
   - term: Wohnort
     definition: place of residence
   - term: aber
@@ -484,6 +561,13 @@ vocabulary:
     definition: You are on list
   - term: der Bericht
     definition: report
+    declension:
+      - ["",         singular, singular, singular,              plural, plural   ]
+      - ["",         indef.,   def.,     noun,                  def.,   noun     ]
+      - [nominative, ein,      der,      Bericht,               die,    Berichte ]
+      - [genitive,   eines,    des,      "Berichtes, Berichts", der,    Berichte ]
+      - [dative,     einem,    dem,      Bericht,               den,    Berichten]
+      - [accusative, einen,    den,      Bericht,               die,    Berichte ]
   - term: die Börse
     definition: stock exchange
   - term: melden
@@ -550,6 +634,13 @@ vocabulary:
     definition: to study
   - term: der Familienstand
     definition: family status
+    declension:
+      - ["",         singular, singular, singular,                          plural, plural         ]
+      - ["",         indef.,   def.,     noun,                              def.,   noun           ]
+      - [nominative, ein,      der,      Familienstand,                     die,    Familienstände ]
+      - [genitive,   eines,    des,      "Familienstandes, Familienstands", der,    Familienstände ]
+      - [dative,     einem,    dem,      Familienstand,                     den,    Familienständen]
+      - [accusative, einen,    den,      Familienstand,                     die,    Familienstände ]
   - term: verheiratet
     definition: married
   - term: ledig
@@ -582,6 +673,13 @@ vocabulary:
     definition: at the moment
   - term: der Bahnhof
     definition: the railway station
+    declension:
+      - ["",         singular, singular, singular,              plural, plural   ]
+      - ["",         indef.,   def.,     noun,                  def.,   noun     ]
+      - [nominative, ein,      der,      Bahnhof,               die,    Bahnhöfe ]
+      - [genitive,   eines,    des,      "Bahnhofs, Bahnhofes", der,    Bahnhöfe ]
+      - [dative,     einem,    dem,      Bahnhof,               den,    Bahnhöfen]
+      - [accusative, einen,    den,      Bahnhof,               die,    Bahnhöfe ]
   - term: der Markt
     definition: market
     declension:
@@ -593,6 +691,13 @@ vocabulary:
       - [accusative, einen,    den,      Markt,             die,    Märkte ]
   - term: der Flohmarkt
     definition: the flea market
+    declension:
+      - ["",         singular, singular, singular,                  plural, plural     ]
+      - ["",         indef.,   def.,     noun,                      def.,   noun       ]
+      - [nominative, ein,      der,      Flohmarkt,                 die,    Flohmärkte ]
+      - [genitive,   eines,    des,      "Flohmarktes, Flohmarkts", der,    Flohmärkte ]
+      - [dative,     einem,    dem,      Flohmarkt,                 den,    Flohmärkten]
+      - [accusative, einen,    den,      Flohmarkt,                 die,    Flohmärkte ]
   - term: der Kuchen
     definition: the cake
     declension:
