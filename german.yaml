@@ -1921,6 +1921,78 @@ vocabulary:
     definition: How much is ...?
   - term: Wie teuer sind ...? (pl.)
     definition: How much are ...?
+  - term: zurück
+    definition: (adv.) back
+  - term: das Kilo
+    definition: the kilogram
+    declension:
+      - ["",         singular, singular, singular, plural, plural       ]
+      - ["",         indef.,   def.,     noun,     def.,   noun         ]
+      - [nominative, ein,      das,      "Kilo",   die,    "Kilos, Kilo"]
+      - [genitive,   eines,    des,      "Kilo",   der,    "Kilos, Kilo"]
+      - [dative,     einem,    dem,      "Kilo",   den,    "Kilos, Kilo"]
+      - [accusative, ein,      das,      "Kilo",   die,    "Kilos, Kilo"]
+  - term: der Euro
+    definition: (currency) the euro
+    declension:
+      - ["",         singular, singular, singular,      plural, plural       ]
+      - ["",         indef.,   def.,     noun,          def.,   noun         ]
+      - [nominative, ein,      der,      Euro,          die,    "Euros, Euro"]
+      - [genitive,   eines,    des,      "Euros, Euro", der,    "Euros, Euro"]
+      - [dative,     einem,    dem,      Euro,          den,    "Euros, Euro"]
+      - [accusative, einen,    den,      Euro,          die,    "Euros, Euro"]
+  - term: ganz
+    definition:
+      - (adj.) entire
+      - (adj.) all
+    declension:
+      strong declension (without article):
+        - ["",         singular,  singular, singular, plural]
+        - ["",         masculine, feminine, neuter,   ""    ]
+        - [nominative, ganzer,    ganze,    ganzes,   ganze ]
+        - [genitive,   ganzen,    ganzer,   ganzen,   ganzer]
+        - [dative,     ganzem,    ganzer,   ganzem,   ganzen]
+        - [accusative, ganzen,    ganze,    ganzes,   ganze ]
+      weak declension (with definite article):
+        - ["",         singular,   singular,   singular,   plural    ]
+        - ["",         masculine,  feminine,   neuter,     ""        ]
+        - [nominative, der ganze,  die ganze,  das ganze,  die ganzen]
+        - [genitive,   des ganzen, der ganzen, des ganzen, der ganzen]
+        - [dative,     dem ganzen, der ganzen, dem ganzen, den ganzen]
+        - [accusative, den ganzen, die ganze,  das ganze,  die ganzen]
+      mixed declension (with indefinite article):
+        - ["",         singular,     singular,     singular,     plural         ]
+        - ["",         masculine,    feminine,     neuter,       ""             ]
+        - [nominative, ein ganzer,   eine ganze,   ein ganzes,   (keine) ganzen ]
+        - [genitive,   eines ganzen, einer ganzen, eines ganzen, (keiner) ganzen]
+        - [dative,     einem ganzen, einer ganzen, einem ganzen, (keinen) ganzen]
+        - [accusative, einen ganzen, eine ganze,   ein ganzes,   (keine) ganzen ]
+  - term: frisch
+    definition:
+      - fresh
+      - recent
+    declension:
+      strong declension (without article):
+        - ["",         singular,  singular, singular, plural  ]
+        - ["",         masculine, feminine, neuter,   ""      ]
+        - [nominative, frischer,  frische,  frisches, frische ]
+        - [genitive,   frischen,  frischer, frischen, frischer]
+        - [dative,     frischem,  frischer, frischem, frischen]
+        - [accusative, frischen,  frische,  frisches, frische ]
+      weak declension (with definite article):
+        - ["",         singular,     singular,     singular,     plural      ]
+        - ["",         masculine,    feminine,     neuter,       ""          ]
+        - [nominative, der frische,  die frische,  das frische,  die frischen]
+        - [genitive,   des frischen, der frischen, des frischen, der frischen]
+        - [dative,     dem frischen, der frischen, dem frischen, den frischen]
+        - [accusative, den frischen, die frische,  das frische,  die frischen]
+      mixed declension (with indefinite article):
+        - ["",         singular,       singular,       singular,       plural           ]
+        - ["",         masculine,      feminine,       neuter,         ""               ]
+        - [nominative, ein frischer,   eine frische,   ein frisches,   (keine)  frischen]
+        - [genitive,   eines frischen, einer frischen, eines frischen, (keiner) frischen]
+        - [dative,     einem frischen, einer frischen, einem frischen, (keinen) frischen]
+        - [accusative, einen frischen, eine frische,   ein frisches,   (keine)  frischen]
   - term: der Laden
     definition: the shop
     declension:
@@ -1932,6 +2004,17 @@ vocabulary:
       - [accusative, einen,    den,      Laden,    die,    Läden ]
   - term: Das ist der Laden von ...
     definition: This is ...(someone)'s shop.
+  - term: der Riesling
+    definition:
+      - the Riesling grape
+      - Riesling (a white wine made from Riesling grapes)
+    declension:
+      - ["",         singular, singular, singular,  plural, plural    ]
+      - ["",         indef.,   def.,     noun,      def.,   noun      ]
+      - [nominative, ein,      der,      Riesling,  die,    Rieslinge ]
+      - [genitive,   eines,    des,      Rieslings, der,    Rieslinge ]
+      - [dative,     einem,    dem,      Riesling,  den,    Rieslingen]
+      - [accusative, einen,    den,      Riesling,  die,    Rieslinge ]
   - term: die Zeitung
     definition: the newspaper
     declension:

@@ -4,37 +4,6 @@ Wilhelm Vocabulary
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Apache License Badge]][Apache License, Version 2.0]
 
-<!-- TOC -->
-
-- [Wilhelm Vocabulary](#wilhelm-vocabulary)
-  - [Data Format](#data-format)
-  - [Data Pipeline](#data-pipeline)
-  - [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
-    - [Why Graph Database](#why-graph-database)
-    - [Base Schema](#base-schema)
-    - [Inflections](#inflections)
-    - [Basic Graph Query](#basic-graph-query)
-  - [Languages](#languages)
-    - [German](#german)
-      - [Noun Declension](#noun-declension)
-        - [Declension Templates](#declension-templates)
-          - [Masculine](#masculine)
-          - [Feminine](#feminine)
-          - [Neuter](#neuter)
-      - [(Attributive) Adjective Declension](#attributive-adjective-declension)
-      - [German Conjugation](#german-conjugation)
-    - [Ancient Greek](#ancient-greek)
-      - [Diacritic Mark Convention](#diacritic-mark-convention)
-      - [Greek YAML Schema](#greek-yaml-schema)
-      - [Greek Noun](#greek-noun)
-      - [Greek Verb](#greek-verb)
-    - [Latin](#latin)
-    - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
-    - [Korean](#korean)
-  - [License](#license)
-
-<!-- TOC -->
-
 Data Format
 -----------
 
@@ -43,6 +12,82 @@ The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are writt
 1. it is machine-readable so that it can be consumed quickly in data pipelines
 2. it is human-readable and, thus, easy to read and modify
 3. it supports multi-lines value which is very handy for language data
+
+### Encoding Table in YAML
+
+To encode the inflections which are common in most Indo-European languages, an
+[application-specific YAML](https://stackoverflow.com/q/30894438/14312712) that looks like the following are employed
+throughout this repository:
+
+```yaml
+  - term: der Kaufmann
+    definition: (male) trader
+    declension:
+      - ["",         singular, singular, singular,                plural, plural                   ]
+      - ["",         indef.,   def.,     noun,                    def.,   noun                     ]
+      - [nominative, ein,      der,      Kaufmann,                die,    "Kaufmänner, Kaufleute"  ]
+      - [genitive,   eines,    des,      "Kaufmannes, Kaufmanns", der,    "Kaufmänner, Kaufleute"  ]
+      - [dative,     einem,    dem,      Kaufmann,                den,    "Kaufmännern, Kaufleuten"]
+      - [accusative, einen,    den,      Kaufmann,                die,    "Kaufmänner, Kaufleute"  ]
+```
+
+> [!NOTE]
+>
+> - A list under `declension` is a table row
+> - All rows have the same number of columns
+> - Each element of the list corresponds to a table cell
+
+The declension (inflection) table above is equivalent to
+
+<table><thead>
+  <tr>
+    <th></th>
+    <th colspan="3">singular</th>
+    <th colspan="2">plural</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td>indef.</td>
+    <td>def.</td>
+    <td>noun</td>
+    <td>def.</td>
+    <td>noun</td>
+  </tr>
+  <tr>
+    <td>nominative</td>
+    <td>ein</td>
+    <td>der</td>
+    <td>Kaufmann</td>
+    <td>die</td>
+    <td>Kaufmänner, Kaufleute</td>
+  </tr>
+  <tr>
+    <td>genitive</td>
+    <td>eines</td>
+    <td>des</td>
+    <td>Kaufmannes, Kaufmanns</td>
+    <td>der</td>
+    <td>Kaufmänner, Kaufleute</td>
+  </tr>
+  <tr>
+    <td>dative</td>
+    <td>einem</td>
+    <td>dem</td>
+    <td>Kaufmann</td>
+    <td>den</td>
+    <td>Kaufmännern, Kaufleuten</td>
+  </tr>
+  <tr>
+    <td>accusative</td>
+    <td>einen</td>
+    <td>den</td>
+    <td>Kaufmann</td>
+    <td>die</td>
+    <td>Kaufmänner, Kaufleute</td>
+  </tr>
+</tbody>
+</table>
 
 Data Pipeline
 -------------
@@ -133,78 +178,7 @@ Languages
 
 #### Noun Declension
 
-__Declension__ is the inflection for nouns and adjectives. The declension table employees an
-[application-specific YAML](https://stackoverflow.com/q/30894438/14312712) that looks like the following:
-
-```yaml
-  - term: der Kaufmann
-    definition: (male) trader
-    declension:
-      - ["",         singular, singular, singular,                plural, plural                   ]
-      - ["",         indef.,   def.,     noun,                    def.,   noun                     ]
-      - [nominative, ein,      der,      Kaufmann,                die,    "Kaufmänner, Kaufleute"  ]
-      - [genitive,   eines,    des,      "Kaufmannes, Kaufmanns", der,    "Kaufmänner, Kaufleute"  ]
-      - [dative,     einem,    dem,      Kaufmann,                den,    "Kaufmännern, Kaufleuten"]
-      - [accusative, einen,    den,      Kaufmann,                die,    "Kaufmänner, Kaufleute"  ]
-```
-
-> [!NOTE]
->
-> - A list under `declension` is a table row
-> - All rows have the same number of columns
-> - Each element of the list corresponds to a table cell
-
-The declension table above is equivalent to
-
-<table><thead>
-  <tr>
-    <th></th>
-    <th colspan="3">singular</th>
-    <th colspan="2">plural</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td></td>
-    <td>indef.</td>
-    <td>def.</td>
-    <td>noun</td>
-    <td>def.</td>
-    <td>noun</td>
-  </tr>
-  <tr>
-    <td>nominative</td>
-    <td>ein</td>
-    <td>der</td>
-    <td>Kaufmann</td>
-    <td>die</td>
-    <td>Kaufmänner, Kaufleute</td>
-  </tr>
-  <tr>
-    <td>genitive</td>
-    <td>eines</td>
-    <td>des</td>
-    <td>Kaufmannes, Kaufmanns</td>
-    <td>der</td>
-    <td>Kaufmänner, Kaufleute</td>
-  </tr>
-  <tr>
-    <td>dative</td>
-    <td>einem</td>
-    <td>dem</td>
-    <td>Kaufmann</td>
-    <td>den</td>
-    <td>Kaufmännern, Kaufleuten</td>
-  </tr>
-  <tr>
-    <td>accusative</td>
-    <td>einen</td>
-    <td>den</td>
-    <td>Kaufmann</td>
-    <td>die</td>
-    <td>Kaufmänner, Kaufleute</td>
-  </tr>
-</tbody>
-</table>
+__Declension__ is the inflection for nouns and adjectives.
 
 > [!TIP]
 >
