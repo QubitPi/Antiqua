@@ -121,7 +121,7 @@ separately:
 
 - Search for a vocabulary with all its links:
 
-  ```
+  ```text
   MATCH (term:Term)-[r]-(x) WHERE term.name = "der Amerikaner" RETURN term, r, x;
   ```
 
