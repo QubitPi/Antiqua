@@ -42,7 +42,7 @@ jobs:
           python-version: "3.10"
       - name: Load
         run: |
-          pip3 install wilhelm-python-sdk
+          pip3 install --upgrade --force-reinstall wilhelm-python-sdk
           python3 .github/load.py
         env:
           NEO4J_URI: ${{ secrets.NEO4J_URI }}
