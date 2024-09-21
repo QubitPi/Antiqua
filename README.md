@@ -5,7 +5,6 @@ Wilhelm Vocabulary
 [![Apache License Badge]][Apache License, Version 2.0]
 
 <!-- TOC -->
-
 - [Wilhelm Vocabulary](#wilhelm-vocabulary)
   - [Data Format](#data-format)
   - [Data Pipeline](#data-pipeline)
@@ -21,7 +20,7 @@ Wilhelm Vocabulary
           - [Masculine](#masculine)
           - [Feminine](#feminine)
           - [Neuter](#neuter)
-        - [German (Attributive) Adjective Declension](#german-attributive-adjective-declension)
+      - [German (Attributive) Adjective Declension](#german-attributive-adjective-declension)
       - [German Conjugation](#german-conjugation)
     - [Ancient Greek](#ancient-greek)
       - [Diacritic Mark Convention](#diacritic-mark-convention)
@@ -32,7 +31,6 @@ Wilhelm Vocabulary
     - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
     - [Korean](#korean)
   - [License](#license)
-
 <!-- TOC -->
 
 Data Format
@@ -233,7 +231,7 @@ The declension table above is equivalent to
       - [accusative, ein,      das,      ████████, die,    ██████]
 ```
 
-##### German (Attributive) Adjective Declension
+#### German (Attributive) Adjective Declension
 
 > [!TIP]
 >

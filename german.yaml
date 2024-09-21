@@ -1276,8 +1276,14 @@ vocabulary:
     definition: Mathematics
     declension: https://en.wiktionary.org/wiki/Mathematik#Declension
   - term: der Jura
-    definition: law
-    declension: https://en.wiktionary.org/wiki/Jura#Declension_3
+    definition: the law
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, N/A,      N/A,      N/A,      die,    Jura  ]
+      - [genitive,   N/A,      N/A,      N/A,      der,    Jura  ]
+      - [dative,     N/A,      N/A,      N/A,      den,    Jura  ]
+      - [accusative, N/A,      N/A,      N/A,      die,    Jura  ]
   - term: die Betriebswirtschaftslehre (BWL)
     definition: business administration
     declension: https://en.wiktionary.org/wiki/Betriebswirtschaftslehre#Declension
@@ -1295,43 +1301,85 @@ vocabulary:
     declension: https://en.wiktionary.org/wiki/Medizin#Declension
   - term: der Automechaniker
     definition: (make) car mechanic
-    declension: https://www.verbformen.com/?w=Automechaniker
+    declension:
+      - ["",         singular, singular, singular,       plural, plural         ]
+      - ["",         indef.,   def.,     noun,           def.,   noun           ]
+      - [nominative, ein,      der,      Automechaniker, die,    Automechaniker ]
+      - [genitive,   eines,    des,      Automechaniker, der,    Automechaniker ]
+      - [dative,     einem,    dem,      Automechaniker, den,    Automechanikern]
+      - [accusative, einen,    den,      Automechaniker, die,    Automechaniker ]
   - term: die Automechanikerin
     definition: (female) car mechanic
     declension: https://www.verbformen.com/?w=Automechanikerin
   - term: der Journalist
     definition: journalist
-    declension: https://www.verbformen.com/?w=Journalist
+    declension:
+      - ["",         singular, singular, singular,     plural, plural      ]
+      - ["",         indef.,   def.,     noun,         def.,   noun        ]
+      - [nominative, ein,      der,      Journalist,   die,    Journalisten]
+      - [genitive,   eines,    des,      Journalisten, der,    Journalisten]
+      - [dative,     einem,    dem,      Journalisten, den,    Journalisten]
+      - [accusative, einen,    den,      Journalisten, die,    Journalisten]
   - term: die Journalistin
     definition: (female) journalist
     declension: https://www.verbformen.com/?w=Journalistin
   - term: der Kellner
     definition: waiter
-    declension: https://www.verbformen.com/?w=Kellner
+    declension:
+      - ["",         singular, singular, singular, plural, plural  ]
+      - ["",         indef.,   def.,     noun,     def.,   noun    ]
+      - [nominative, ein,      der,      Kellner,  die,    Kellner ]
+      - [genitive,   eines,    des,      Kellners, der,    Kellner ]
+      - [dative,     einem,    dem,      Kellner,  den,    Kellnern]
+      - [accusative, einen,    den,      Kellner,  die,    Kellner ]
   - term: die Kellnerin
     definition: waitress
     declension: https://www.verbformen.com/?w=Kellnerin
   - term: der Maurer
     definition: (male) bricklayer
-    declension: https://www.verbformen.com/?w=Maurer
+    declension:
+      - ["",         singular, singular, singular, plural, plural ]
+      - ["",         indef.,   def.,     noun,     def.,   noun   ]
+      - [nominative, ein,      der,      Maurer,   die,    Maurer ]
+      - [genitive,   eines,    des,      Maurers,  der,    Maurer ]
+      - [dative,     einem,    dem,      Maurer,   den,    Maurern]
+      - [accusative, einen,    den,      Maurer,   die,    Maurer ]
   - term: die Maurerin
     definition: (female) bricklayer
     declension: https://www.verbformen.com/?w=Maurerin
   - term: der Musiker
     definition: musician
-    declension: https://www.verbformen.com/?w=Musiker
+    declension:
+      - ["",         singular, singular, singular, plural, plural  ]
+      - ["",         indef.,   def.,     noun,     def.,   noun    ]
+      - [nominative, ein,      der,      Musiker,  die,    Musiker ]
+      - [genitive,   eines,    des,      Musikers, der,    Musiker ]
+      - [dative,     einem,    dem,      Musiker,  den,    Musikern]
+      - [accusative, einen,    den,      Musiker,  die,    Musiker ]
   - term: die Musikerin
     definition: (female) musician
     declension: https://www.verbformen.com/?w=Musikerin
   - term: der Sekretär
     definition: (male) secretary
-    declension: https://www.verbformen.com/?w=Sekret%C3%A4r
+    declension:
+      - ["",         singular, singular, singular,  plural, plural    ]
+      - ["",         indef.,   def.,     noun,      def.,   noun      ]
+      - [nominative, ein,      der,      Sekretär,  die,    Sekretäre ]
+      - [genitive,   eines,    des,      Sekretärs, der,    Sekretäre ]
+      - [dative,     einem,    dem,      Sekretär,  den,    Sekretären]
+      - [accusative, einen,    den,      Sekretär,  die,    Sekretäre ]
   - term: die Sekretärin
     definition: (female) secretary
     declension: https://www.verbformen.com/?w=Sekret%C3%A4rin
   - term: der Student
     definition: (male) student
-    declension: https://www.verbformen.com/?w=Student
+    declension:
+      - ["",         singular, singular, singular,  plural, plural   ]
+      - ["",         indef.,   def.,     noun,      def.,   noun     ]
+      - [nominative, ein,      der,      Student,   die,    Studenten]
+      - [genitive,   eines,    des,      Studenten, der,    Studenten]
+      - [dative,     einem,    dem,      Studenten, den,    Studenten]
+      - [accusative, einen,    den,      Studenten, die,    Studenten]
   - term: die Studentin
     definition: (female) student
     declension: https://www.verbformen.com/?w=Studentin
