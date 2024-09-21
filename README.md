@@ -13,6 +13,7 @@ Wilhelm Vocabulary
     - [Why Graph Database](#why-graph-database)
     - [Base Schema](#base-schema)
     - [Inflections](#inflections)
+    - [Basic Graph Query](#basic-graph-query)
   - [Languages](#languages)
     - [German](#german)
       - [Noun Declension](#noun-declension)
