@@ -268,7 +268,7 @@ vocabulary:
         - [dative,     einem Deutschen, N/A,      N/A,      (keinen) Deutschen]
         - [accusative, einen Deutschen, N/A,      N/A,      (keine)  Deutschen]
   - term: der Deutsche
-    definition: (Adjectival nouns) German
+    definition: (adjectival noun) German
     declension:
       strong declension (without article):
         - ["",         singular,  singular,  singular, plural   ]
@@ -333,7 +333,14 @@ vocabulary:
   - term: das Griechisch
     definition: Greek (language)
   - term: die Griechin
-    definition: (a) Greek (female)
+    definition: (female) Greek
+    declension:
+      - ["",         singular, singular, singular, plural, plural     ]
+      - ["",         indef.,   def.,     noun,     def.,   noun       ]
+      - [nominative, eine,     die,      Griechin, die,    Griechinnen]
+      - [genitive,   einer,    der,      Griechin, der,    Griechinnen]
+      - [dative,     einer,    der,      Griechin, den,    Griechinnen]
+      - [accusative, eine,     die,      Griechin, die,    Griechinnen]
   - term: der Grieche
     definition: (male) the Greek person
     declension:
@@ -1505,7 +1512,7 @@ vocabulary:
   - term: die Kauffrau
     definition: (female) trader
   - term: der Kranker
-    definition: (Adjectival nouns) the sick person
+    definition: (adjectival noun) the sick person
     declension:
       strong declension (without article):
         - ["",         singular,  singular, singular, plural ]
@@ -1961,7 +1968,7 @@ vocabulary:
   - term: die Erfahrung
     definition: experience
   - term: der Verletzter
-    definition: (Adjectival nouns) casualty
+    definition: (adjectival noun) casualty
     declension:
       strong declension (without article):
         - ["",         singular,   singular, singular, plural    ]

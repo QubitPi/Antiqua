@@ -117,6 +117,14 @@ separately:
 - [Ancient Greek declension](#greek-declension)
 - [Ancient Greek conjugation](#greek-conjugation)
 
+### Basic Graph Query
+
+- Search for a vocabulary with all its links:
+
+  ```
+  MATCH (term:Term)-[r]-(x) WHERE term.name = "der Amerikaner" RETURN term, r, x;
+  ```
+
 Languages
 ---------
 
