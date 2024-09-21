@@ -225,7 +225,14 @@ vocabulary:
       - [dative,     einem,    dem,      Amerikaner,  den,    Amerikanern]
       - [accusative, einen,    den,      Amerikaner,  die,    Amerikaner ]
   - term: die Amerikanerin
-    definition: (an) American (female)
+    definition: (female) American
+    declension:
+      - ["",         singular, singular, singular,     plural, plural         ]
+      - ["",         indef.,   def.,     noun,         def.,   noun           ]
+      - [nominative, eine,     die,      Amerikanerin, die,    Amerikanerinnen]
+      - [genitive,   einer,    der,      Amerikanerin, der,    Amerikanerinnen]
+      - [dative,     einer,    der,      Amerikanerin, den,    Amerikanerinnen]
+      - [accusative, eine,     die,      Amerikanerin, die,    Amerikanerinnen]
   - term: den USA
     definition: United States
   - term: das Belgien
@@ -1975,7 +1982,7 @@ vocabulary:
   - term: die Injektion
     definition: injection
   - term: der Hut
-    definition: hat
+    definition: the hat
     declension:
       - ["",         singular, singular, singular,      plural, plural]
       - ["",         indef.,   def.,     noun,          def.,   noun  ]
