@@ -260,8 +260,8 @@ vocabulary:
         - [genitive,   eines Deutschen, N/A,      N/A,      (keiner) Deutschen]
         - [dative,     einem Deutschen, N/A,      N/A,      (keinen) Deutschen]
         - [accusative, einen Deutschen, N/A,      N/A,      (keine)  Deutschen]
-  - term: Deutsche
-    definition: (adj. female) German
+  - term: der Deutsche
+    definition: (Adjectival nouns) German
     declension:
       strong declension (without article):
         - ["",         singular,  singular,  singular, plural   ]
@@ -1384,65 +1384,145 @@ vocabulary:
     definition: (female) student
     declension: https://www.verbformen.com/?w=Studentin
   - term: der Taxifahrer
-    definition: taxi driver
-    declension: https://www.verbformen.com/?w=Taxifahrer
+    definition: the taxi driver
+    declension:
+      - ["",         singular, singular, singular,    plural, plural     ]
+      - ["",         indef.,   def.,     noun,        def.,   noun       ]
+      - [nominative, ein,      der,      Taxifahrer,  die,    Taxifahrer ]
+      - [genitive,   eines,    des,      Taxifahrers, der,    Taxifahrer ]
+      - [dative,     einem,    dem,      Taxifahrer,  den,    Taxifahrern]
+      - [accusative, einen,    den,      Taxifahrer,  die,    Taxifahrer ]
   - term: die Taxifahrerin
     definition: (female) taxi driver
     declension: https://www.verbformen.com/?w=Taxifahrerin
   - term: der Tischler
     definition: (male) carpenter
-    declension: https://www.verbformen.com/?w=Tischler
+    declension:
+      - ["",         singular, singular, singular,  plural, plural   ]
+      - ["",         indef.,   def.,     noun,      def.,   noun     ]
+      - [nominative, ein,      der,      Tischler,  die,    Tischler ]
+      - [genitive,   eines,    des,      Tischlers, der,    Tischler ]
+      - [dative,     einem,    dem,      Tischler,  den,    Tischlern]
+      - [accusative, einen,    den,      Tischler,  die,    Tischler ]
   - term: die Tischlerin
     definition: (female) carpenter
     declension: https://www.verbformen.com/?w=Tischlerin
   - term: der Verkaüfer
     definition: (male) shop assistant
-    declension: https://www.verbformen.com/?w=Verka%C3%BCfer
+    declension:
+      - ["",         singular, singular, singular,   plural, plural    ]
+      - ["",         indef.,   def.,     noun,       def.,   noun      ]
+      - [nominative, ein,      der,      Verkäufer,  die,    Verkäufer ]
+      - [genitive,   eines,    des,      Verkäufers, der,    Verkäufer ]
+      - [dative,     einem,    dem,      Verkäufer,  den,    Verkäufern]
+      - [accusative, einen,    den,      Verkäufer,  die,    Verkäufer ]
   - term: die Verkaüferin
     definition: (female) shop assistant
     declension: https://www.verbformen.com/?w=Verk%C3%A4uferin
   - term: der Arzt
     definition: (male) doctor
-    declension: https://www.verbformen.com/?w=Arzt
+    declension:
+      - ["",         singular, singular, singular,        plural, plural]
+      - ["",         indef.,   def.,     noun,            def.,   noun  ]
+      - [nominative, ein,      der,      Arzt,            die,    Ärzte ]
+      - [genitive,   eines,    des,      "Arztes, Arzts", der,    Ärzte ]
+      - [dative,     einem,    dem,      Arzt,            den,    Ärzten]
+      - [accusative, einen,    den,      Arzt,            die,    Ärzte ]
   - term: die Ärztin
     definition: (female) doctor
     declension: https://www.verbformen.com/?w=%C3%84rztin
   - term: der Koch
     definition: (male) chef
-    declension: https://www.verbformen.com/?w=Koch
+    declension:
+      - ["",         singular, singular, singular,        plural, plural]
+      - ["",         indef.,   def.,     noun,            def.,   noun  ]
+      - [nominative, ein,      der,      Koch,            die,    Köche ]
+      - [genitive,   eines,    des,      "Kochs, Koches", der,    Köche ]
+      - [dative,     einem,    dem,      Koch,            den,    Köchen]
+      - [accusative, einen,    den,      Koch,            die,    Köche ]
   - term: die Köchin
     definition: (female) chef
     declension: https://www.verbformen.com/?w=K%C3%B6chin
   - term: der Friseur
     definition: (male) hairdresser
-    declension: https://www.verbformen.com/?w=Friseur
+    declension:
+      - ["",         singular, singular, singular, plural, plural   ]
+      - ["",         indef.,   def.,     noun,     def.,   noun     ]
+      - [nominative, ein,      der,      Friseur,  die,    Friseure ]
+      - [genitive,   eines,    des,      Friseurs, der,    Friseure ]
+      - [dative,     einem,    dem,      Friseur,  den,    Friseuren]
+      - [accusative, einen,    den,      Friseur,  die,    Friseure ]
   - term: die Friseuse
     definition: (female) hairdresser
     declension: https://www.verbformen.com/?w=Friseuse
   - term: der Frisör
     definition: (male) hairdresser
-    declension: https://www.verbformen.com/?w=Fris%C3%B6r
+    declension:
+      - ["",         singular, singular, singular, plural, plural  ]
+      - ["",         indef.,   def.,     noun,     def.,   noun    ]
+      - [nominative, ein,      der,      Frisör,   die,    Frisöre ]
+      - [genitive,   eines,    des,      Frisörs,  der,    Frisöre ]
+      - [dative,     einem,    dem,      Frisör,   den,    Frisören]
+      - [accusative, einen,    den,      Frisör,   die,    Frisöre ]
   - term: die Frisöse
     definition: (female) hairdresser
     declension: https://www.verbformen.com/?w=Fris%C3%B6se
   - term: der Hausmann
-    definition: househusband
-    declension: https://www.verbformen.com/?w=Hausmann
+    definition: the househusband
+    declension:
+      - ["",         singular, singular, singular,                plural, plural     ]
+      - ["",         indef.,   def.,     noun,                    def.,   noun       ]
+      - [nominative, ein,      der,      Hausmann,                die,    Hausmänner ]
+      - [genitive,   eines,    des,      "Hausmannes, Hausmanns", der,    Hausmänner ]
+      - [dative,     einem,    dem,      Hausmann,                den,    Hausmännern]
+      - [accusative, einen,    den,      Hausmann,                die,    Hausmänner ]
   - term: die Hausfrau
     definition: housewife
     declension: https://www.verbformen.com/?w=Hausfrau
   - term: der Kaufmann
     definition: (male) trader
-    declension: https://www.verbformen.com/?w=Kaufmann
+    declension:
+      - ["",         singular, singular, singular,                plural, plural                   ]
+      - ["",         indef.,   def.,     noun,                    def.,   noun                     ]
+      - [nominative, ein,      der,      Kaufmann,                die,    "Kaufmänner, Kaufleute"  ]
+      - [genitive,   eines,    des,      "Kaufmannes, Kaufmanns", der,    "Kaufmänner, Kaufleute"  ]
+      - [dative,     einem,    dem,      Kaufmann,                den,    "Kaufmännern, Kaufleuten"]
+      - [accusative, einen,    den,      Kaufmann,                die,    "Kaufmänner, Kaufleute"  ]
   - term: die Kauffrau
     definition: (female) trader
-    declension: https://www.verbformen.com/?w=Kauffrau
   - term: der Kranker
-    definition: sick person
-    declension: https://en.wiktionary.org/wiki/Kranker#Declension
+    definition: (Adjectival nouns) the sick person
+    declension:
+      strong declension (without article):
+        - ["",         singular,  singular, singular, plural ]
+        - ["",         masculine, feminine, neuter,   ""     ]
+        - [nominative, Kranker,   N/A,      N/A,      Kranke ]
+        - [genitive,   Kranken,   N/A,      N/A,      Kranker]
+        - [dative,     Krankem,   N/A,      N/A,      Kranken]
+        - [accusative, Kranken,   N/A,      N/A,      Kranke ]
+      weak declension (with definite article):
+        - ["",         singular,    singular, singular, plural     ]
+        - ["",         masculine,   feminine, neuter,   ""         ]
+        - [nominative, der Kranke,  N/A,      N/A,      die Kranken]
+        - [genitive,   des Kranken, N/A,      N/A,      der Kranken]
+        - [dative,     dem Kranken, N/A,      N/A,      den Kranken]
+        - [accusative, den Kranken, N/A,      N/A,      die Kranken]
+      mixed declension (with indefinite article):
+        - ["",         singular,      singular, singular, plural          ]
+        - ["",         masculine,     feminine, neuter,   ""              ]
+        - [nominative, ein Kranker,   N/A,      N/A,      (keine)  Kranken]
+        - [genitive,   eines Kranken, N/A,      N/A,      (keiner) Kranken]
+        - [dative,     einem Kranken, N/A,      N/A,      (keinen) Kranken]
+        - [accusative, einen Kranken, N/A,      N/A,      (keine)  Kranken]
   - term: der Krankenpfleger
     definition: (male) nurse
-    declension: https://www.verbformen.com/?w=Krankenpfleger
+    declension:
+      - ["",         singular, singular, singular,        plural, plural         ]
+      - ["",         indef.,   def.,     noun,            def.,   noun           ]
+      - [nominative, ein,      der,      Krankenpfleger,  die,    Krankenpfleger ]
+      - [genitive,   eines,    des,      Krankenpflegers, der,    Krankenpfleger ]
+      - [dative,     einem,    dem,      Krankenpfleger,  den,    Krankenpflegern]
+      - [accusative, einen,    den,      Krankenpfleger,  die,    Krankenpfleger ]
   - term: die Krankenschwester
     definition: (female) nurse
     declension: https://www.verbformen.com/?w=Krankenschwester
@@ -1457,14 +1537,26 @@ vocabulary:
     definition:
       - man
       - husband
-    declension: https://www.verbformen.com/?w=Mann
+    declension:
+      - ["",         singular, singular, singular,        plural, plural]
+      - ["",         indef.,   def.,     noun,            def.,   noun  ]
+      - [nominative, ein,      der,      Mann,            die,    Männer]
+      - [genitive,   eines,    des,      "Mannes, Manns", der,    Männer]
+      - [dative,     einem,    dem,      Mann,            den,    Männer]
+      - [accusative, einen,    den,      Mann,            die,    Männer]
   - term: hoffentlich
     definition: hopefully
   - term: ach so
     definition: I see
   - term: der Beruf
     definition: job
-    declension: https://www.verbformen.com/?w=Beruf
+    declension:
+      - ["",         singular, singular, singular,          plural, plural ]
+      - ["",         indef.,   def.,     noun,              def.,   noun   ]
+      - [nominative, ein,      der,      Beruf,             die,    Berufe ]
+      - [genitive,   eines,    des,      "Berufes, Berufs", der,    Berufe ]
+      - [dative,     einem,    dem,      Beruf,             den,    Berufen]
+      - [accusative, einen,    den,      Beruf,             die,    Berufe ]
   - term: berufstätig
     definition: employed
     declension: https://www.verbformen.com/?w=berufst%C3%A4tig
@@ -1855,13 +1947,51 @@ vocabulary:
   - term: die Erfahrung
     definition: experience
   - term: der Verletzter
-    definition: injured person, casualty
+    definition: (Adjectival nouns) casualty
+    declension:
+      strong declension (without article):
+        - ["",         singular,   singular, singular, plural    ]
+        - ["",         masculine,  feminine, neuter,   ""        ]
+        - [nominative, Verletzter, N/A,      N/A,      Verletzte ]
+        - [genitive,   Verletzten, N/A,      N/A,      Verletzter]
+        - [dative,     Verletztem, N/A,      N/A,      Verletzten]
+        - [accusative, Verletzten, N/A,      N/A,      Verletzte ]
+      weak declension (with definite article):
+        - ["",         singular,       singular, singular, plural        ]
+        - ["",         masculine,      feminine, neuter,   ""            ]
+        - [nominative, der Verletzte,  N/A,      N/A,      die Verletzten]
+        - [genitive,   des Verletzten, N/A,      N/A,      der Verletzten]
+        - [dative,     dem Verletzten, N/A,      N/A,      den Verletzten]
+        - [accusative, den Verletzten, N/A,      N/A,      die Verletzten]
+      mixed declension (with indefinite article):
+        - ["",         singular,         singular, singular, plural            ]
+        - ["",         masculine,        feminine, neuter,   ""                ]
+        - [nominative, ein Verletzter,   N/A,      N/A,     (keine)  Verletzten]
+        - [genitive,   eines Verletzten, N/A,      N/A,     (keiner) Verletzten]
+        - [dative,     einem Verletzten, N/A,      N/A,     (keinen) Verletzten]
+        - [accusative, einen Verletzten, N/A,      N/A,     (keine)  Verletzten]
   - term: die Spritze
     definition: syringe
   - term: die Injektion
     definition: injection
   - term: der Hut
     definition: hat
+    declension:
+          - ["",         singular, singular, singular,      plural, plural]
+          - ["",         indef.,   def.,     noun,          def.,   noun  ]
+          - [nominative, ein,      der,      Hut,           die,    Hüte  ]
+          - [genitive,   eines,    des,      "Hutes, Huts", der,    Hüte  ]
+          - [dative,     einem,    dem,      Hut,           den,    Hüten ]
+          - [accusative, einen,    den,      Hut,           die,    Hüte  ]
+  - term: die Hut
+    definition: the protection
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, eine,     die,      Hut,      die,    Huten ]
+      - [genitive,   einer,    der,      Hut,      der,    Huten ]
+      - [dative,     einer,    der,      Hut,      den,    Huten ]
+      - [accusative, eine,     die,      Hut,      die,    Huten ]
   - term: krank
     definition: sick, ill
   - term: werden
@@ -1903,8 +2033,22 @@ vocabulary:
     definition: Why help us?
   - term: der Gegner
     definition: enemy
+    declension:
+      - ["",         singular, singular, singular, plural, plural ]
+      - ["",         indef.,   def.,     noun,     def.,   noun   ]
+      - [nominative, ein,      der,      Gegner,   die,    Gegner ]
+      - [genitive,   eines,    des,      Gegners,  der,    Gegner ]
+      - [dative,     einem,    dem,      Gegner,   den,    Gegnern]
+      - [accusative, einen,    den,      Gegner,   die,    Gegner ]
   - term: der Mensch
-    definition: people
+    definition: human
+    declension:
+          - ["",         singular, singular, singular, plural, plural  ]
+          - ["",         indef.,   def.,     noun,     def.,   noun    ]
+          - [nominative, ein,      der,      Mensch,   die,    Menschen]
+          - [genitive,   eines,    des,      Menschen, der,    Menschen]
+          - [dative,     einem,    dem,      Menschen, den,    Menschen]
+          - [accusative, einen,    den,      Menschen, die,    Menschen]
   - term: sagen
     definition: to say
   - term: Das machen Sie auch, oder?
@@ -1937,8 +2081,6 @@ vocabulary:
   - term: die Wissenschaft
     definition: Science
     declension: https://en.wiktionary.org/wiki/Wissenschaft#Declension
-  - term: der Mann
-    definition: man
   - term: nie
     definition: adv. never
   - term: kämpfen
@@ -2555,7 +2697,13 @@ vocabulary:
 
   - term: der Volksgenosse
     definition: countryman
-    declension: https://www.verbformen.com/?w=Volksgenosse
+    declension:
+      - ["",         singular, singular, singular,      plural, plural       ]
+      - ["",         indef.,   def.,     noun,          def.,   noun         ]
+      - [nominative, ein,      der,      Volksgenosse,  die,    Volksgenossen]
+      - [genitive,   eines,    des,      Volksgenossen, der,    Volksgenossen]
+      - [dative,     einem,    dem,      Volksgenossen, den,    Volksgenossen]
+      - [accusative, einen,    den,      Volksgenossen, die,    Volksgenossen]
   - term: die Volksgenossin
     definition: female equivalent of Volksgenosse
   - term: das Thema
@@ -2700,7 +2848,13 @@ vocabulary:
     declension: https://en.wiktionary.org/wiki/erste#Declension
   - term: der Teil
     definition: part, portion
-    declension: https://www.verbformen.com/?w=Teil
+    declension:
+      - ["",         singular, singular, singular,        plural, plural]
+      - ["",         indef.,   def.,     noun,            def.,   noun  ]
+      - [nominative, ein,      der,      Teil,            die,    Teile ]
+      - [genitive,   eines,    des,      "Teiles, Teils", der,    Teile ]
+      - [dative,     einem,    dem,      Teil,            den,    Teilen]
+      - [accusative, einen,    den,      Teil,            die,    Teile ]
   - term: die Ästhetik
     definition: aesthetics
     declension: https://www.verbformen.com/?w=%C3%84sthetik
@@ -2714,8 +2868,16 @@ vocabulary:
     definition: realization, recognition, insight, perception
     declension: https://www.verbformen.com/?w=Erkenntnis
   - term: der Gegenstand
-    definition: object, thing
-    declension: https://www.verbformen.com/?w=Gegenstand
+    definition:
+      - object
+      - thing
+    declension:
+      - ["",         singular, singular, singular,                    plural, plural      ]
+      - ["",         indef.,   def.,     noun,                        def.,   noun        ]
+      - [nominative, ein,      der,      Gegenstand,                  die,    Gegenstände ]
+      - [genitive,   eines,    des,      "Gegenstandes, Gegenstands", der,    Gegenstände ]
+      - [dative,     einem,    dem,      Gegenstand,                  den,    Gegenständen]
+      - [accusative, einen,    den,      Gegenstand,                  die,    Gegenstände ]
   - term: beziehen
     definition: to relate
     conjugation: https://www.verbformen.com/?w=beziehen
