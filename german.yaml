@@ -1977,12 +1977,12 @@ vocabulary:
   - term: der Hut
     definition: hat
     declension:
-          - ["",         singular, singular, singular,      plural, plural]
-          - ["",         indef.,   def.,     noun,          def.,   noun  ]
-          - [nominative, ein,      der,      Hut,           die,    Hüte  ]
-          - [genitive,   eines,    des,      "Hutes, Huts", der,    Hüte  ]
-          - [dative,     einem,    dem,      Hut,           den,    Hüten ]
-          - [accusative, einen,    den,      Hut,           die,    Hüte  ]
+      - ["",         singular, singular, singular,      plural, plural]
+      - ["",         indef.,   def.,     noun,          def.,   noun  ]
+      - [nominative, ein,      der,      Hut,           die,    Hüte  ]
+      - [genitive,   eines,    des,      "Hutes, Huts", der,    Hüte  ]
+      - [dative,     einem,    dem,      Hut,           den,    Hüten ]
+      - [accusative, einen,    den,      Hut,           die,    Hüte  ]
   - term: die Hut
     definition: the protection
     declension:
@@ -2043,12 +2043,12 @@ vocabulary:
   - term: der Mensch
     definition: human
     declension:
-          - ["",         singular, singular, singular, plural, plural  ]
-          - ["",         indef.,   def.,     noun,     def.,   noun    ]
-          - [nominative, ein,      der,      Mensch,   die,    Menschen]
-          - [genitive,   eines,    des,      Menschen, der,    Menschen]
-          - [dative,     einem,    dem,      Menschen, den,    Menschen]
-          - [accusative, einen,    den,      Menschen, die,    Menschen]
+      - ["",         singular, singular, singular, plural, plural  ]
+      - ["",         indef.,   def.,     noun,     def.,   noun    ]
+      - [nominative, ein,      der,      Mensch,   die,    Menschen]
+      - [genitive,   eines,    des,      Menschen, der,    Menschen]
+      - [dative,     einem,    dem,      Menschen, den,    Menschen]
+      - [accusative, einen,    den,      Menschen, die,    Menschen]
   - term: sagen
     definition: to say
   - term: Das machen Sie auch, oder?

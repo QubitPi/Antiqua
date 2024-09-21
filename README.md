@@ -11,17 +11,16 @@ Wilhelm Vocabulary
   - [Data Pipeline](#data-pipeline)
   - [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
     - [Why Graph Database](#why-graph-database)
-    - [Definition](#definition)
+    - [Base Schema](#base-schema)
     - [Inflections](#inflections)
   - [Languages](#languages)
     - [German](#german)
-      - [YAML Schema](#yaml-schema)
-      - [German Declension](#german-declension)
-        - [Noun Declension Templates](#noun-declension-templates)
+      - [Noun Declension](#noun-declension)
+        - [Declension Templates](#declension-templates)
           - [Masculine](#masculine)
           - [Feminine](#feminine)
           - [Neuter](#neuter)
-      - [German (Attributive) Adjective Declension](#german-attributive-adjective-declension)
+      - [(Attributive) Adjective Declension](#attributive-adjective-declension)
       - [German Conjugation](#german-conjugation)
     - [Ancient Greek](#ancient-greek)
       - [Diacritic Mark Convention](#diacritic-mark-convention)
@@ -123,30 +122,6 @@ Languages
 
 ### [German](./german.yaml)
 
-
-
-    - Those with `conjugation` field denotes a __verb__; its definition also begins with an _indefinite form_, i.e.
-      "to ..."
-    - The rests are explicitly stated in the `definition` field. For example,
-
-      ```yaml
-        - term: ob
-          definition:
-            - (conj.) if
-            - (conj.) whether
-      ```
-
-      means "ob" is a **conjunction** in this case and
-
-      ```yaml
-        - term: denn
-          definition:
-            - (adv.) then, thus
-            - (conj.) because
-      ```
-
-      tells that "denn" can be __adverb__ or __conjunction__
-
 #### Noun Declension
 
 __Declension__ is the inflection for nouns and adjectives. The declension table employees an
@@ -246,15 +221,27 @@ following form:
 
 For example:
 
-
+```yaml
+  - term: der Gegenstand
+    definition:
+      - object
+      - thing
+    declension:
+      - ["",         singular, singular, singular,                    plural, plural      ]
+      - ["",         indef.,   def.,     noun,                        def.,   noun        ]
+      - [nominative, ein,      der,      Gegenstand,                  die,    Gegenstände ]
+      - [genitive,   eines,    des,      "Gegenstandes, Gegenstands", der,    Gegenstände ]
+      - [dative,     einem,    dem,      Gegenstand,                  den,    Gegenständen]
+      - [accusative, einen,    den,      Gegenstand,                  die,    Gegenstände ]
+```
 
 > [!CAUTION]
 >
 > [Adjectival nouns](https://en.wikibooks.org/wiki/German/Grammar/Nouns/Adjectival_Nouns), however, do NOT follow the
 > template above. Instead, it uses [adjective declension table template](#attributive-adjective-declension)
-> 
+>
 > The definition of the adjectival nouns begins with "__(Adjectival nouns)__"`. For example:
-> 
+>
 > ```yaml
 >   - term: der Kranker
 >     definition: (Adjectival nouns) the sick person
@@ -281,7 +268,7 @@ For example:
 >         - [dative,     einem Kranken, N/A,      N/A,      (keinen) Kranken]
 >         - [accusative, einen Kranken, N/A,      N/A,      (keine)  Kranken]
 > ```
-> 
+>
 > Note that since "Kranker" is masculine, all feminine and neuter declensions are undefined and, thus, are marked with
 > "N/A".
 
@@ -401,8 +388,8 @@ Here is an example of the adjective declension for
 
 #### German Conjugation
 
-- The `conjugation` is the inflection paradigm for a German verb and `declension` the inflection for nouns and
-  adjectives. Only one of the two is present for a term.
+The conjugation is the inflection paradigm for a German verb. Those with `conjugation` field denotes a __verb__; its
+definition also begins with an _indefinite form_, i.e. "to ..."
 
 There are __3__ persons, __2__ numbers, and __4__ moods (indicative, conditional, imperative and subjunctive) to
 consider in conjugation. There are __6__ tenses in German: the present and past are conjugated, and there are four
