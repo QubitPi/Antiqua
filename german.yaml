@@ -296,7 +296,14 @@ vocabulary:
   - term: das Englisch
     definition: English
   - term: die Engländerin
-    definition: (an) English person (female)
+    definition: (female) the English person
+    declension:
+      - ["",         singular, singular, singular,    plural, plural        ]
+      - ["",         indef.,   def.,     noun,        def.,   noun          ]
+      - [nominative, eine,     die,      Engländerin, die,    Engländerinnen]
+      - [genitive,   einer,    der,      Engländerin, der,    Engländerinnen]
+      - [dative,     einer,    der,      Engländerin, den,    Engländerinnen]
+      - [accusative, eine,     die,      Engländerin, die,    Engländerinnen]
   - term: der Engländer
     definition: (male) the English person
     declension:
