@@ -4,6 +4,39 @@ Wilhelm Vocabulary
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Apache License Badge]][Apache License, Version 2.0]
 
+<!-- TOC -->
+
+- [Wilhelm Vocabulary](#wilhelm-vocabulary)
+  - [Data Format](#data-format)
+    - [Encoding Table in YAML](#encoding-table-in-yaml)
+  - [Data Pipeline](#data-pipeline)
+  - [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
+    - [Why Graph Database](#why-graph-database)
+    - [Base Schema](#base-schema)
+    - [Inflections](#inflections)
+    - [Basic Graph Query](#basic-graph-query)
+  - [Languages](#languages)
+    - [German](#german)
+      - [Noun Declension](#noun-declension)
+        - [Declension Templates](#declension-templates)
+          - [Masculine](#masculine)
+          - [Feminine](#feminine)
+          - [Neuter](#neuter)
+      - [(Attributive) Adjective Declension](#attributive-adjective-declension)
+      - [Pronoun Declension](#pronoun-declension)
+      - [Verb Conjugation](#verb-conjugation)
+    - [Ancient Greek](#ancient-greek)
+      - [Diacritic Mark Convention](#diacritic-mark-convention)
+      - [Noun Declension](#noun-declension-1)
+      - [Adjective Declension](#adjective-declension)
+      - [Verb Conjugation](#verb-conjugation-1)
+    - [Latin](#latin)
+    - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
+    - [Korean](#korean)
+  - [License](#license)
+
+<!-- TOC -->
+
 Data Format
 -----------
 
@@ -193,13 +226,13 @@ __Declension__ is the inflection for nouns and adjectives.
 following form:
 
 ```yaml
-    declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      ████████, die,    ██████]
-      - [genitive,   eines,    des,      ████████, der,    ██████]
-      - [dative,     einem,    dem,      ████████, den,    ██████]
-      - [accusative, einen,    den,      ████████, die,    ██████]
+declension:
+  - ["",         singular, singular, singular, plural, plural]
+  - ["",         indef.,   def.,     noun,     def.,   noun  ]
+  - [nominative, ein,      der,      ████████, die,    ██████]
+  - [genitive,   eines,    des,      ████████, der,    ██████]
+  - [dative,     einem,    dem,      ████████, den,    ██████]
+  - [accusative, einen,    den,      ████████, die,    ██████]
 ```
 
 For example:
@@ -261,13 +294,13 @@ For example:
 following form:
 
 ```yaml
-    declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, eine,     die,      ████████, die,    ██████]
-      - [genitive,   einer,    der,      ████████, der,    ██████]
-      - [dative,     einer,    der,      ████████, den,    ██████]
-      - [accusative, eine,     die,      ████████, die,    ██████]
+declension:
+  - ["",         singular, singular, singular, plural, plural]
+  - ["",         indef.,   def.,     noun,     def.,   noun  ]
+  - [nominative, eine,     die,      ████████, die,    ██████]
+  - [genitive,   einer,    der,      ████████, der,    ██████]
+  - [dative,     einer,    der,      ████████, den,    ██████]
+  - [accusative, eine,     die,      ████████, die,    ██████]
 ```
 
 ###### Neuter
@@ -276,13 +309,13 @@ following form:
 following form:
 
 ```yaml
-    declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      das,      ████████, die,    ██████]
-      - [genitive,   eines,    des,      ████████, der,    ██████]
-      - [dative,     einem,    dem,      ████████, den,    ██████]
-      - [accusative, ein,      das,      ████████, die,    ██████]
+declension:
+  - ["",         singular, singular, singular, plural, plural]
+  - ["",         indef.,   def.,     noun,     def.,   noun  ]
+  - [nominative, ein,      das,      ████████, die,    ██████]
+  - [genitive,   eines,    des,      ████████, der,    ██████]
+  - [dative,     einem,    dem,      ████████, den,    ██████]
+  - [accusative, ein,      das,      ████████, die,    ██████]
 ```
 
 #### (Attributive) Adjective Declension
@@ -310,28 +343,28 @@ The [template](https://www.jetbrains.com/help/idea/generate-custom-code-construc
 adjective is as follows:
 
 ```yaml
-    declension:
-      strong declension (without article):
-        - ["",         singular,  singular, singular, plural]
-        - ["",         masculine, feminine, neuter,   ""    ]
-        - [nominative, █████████, ████████, ████████, ██████]
-        - [genitive,   █████████, ████████, ████████, ██████]
-        - [dative,     █████████, ████████, ████████, ██████]
-        - [accusative, █████████, ████████, ████████, ██████]
-      weak declension (with definite article):
-        - ["",         singular,  singular, singular, plural]
-        - ["",         masculine, feminine, neuter,   ""    ]
-        - [nominative, der █████, die ████, das ███,  die ██]
-        - [genitive,   des █████, der ████, des ███,  der ██]
-        - [dative,     dem █████, der ████, dem ███,  den ██]
-        - [accusative, den █████, die ████, das ███,  die ██]
-      mixed declension (with indefinite article):
-        - ["",         singular,  singular, singular, plural        ]
-        - ["",         masculine, feminine, neuter,   ""            ]
-        - [nominative, ein █████, eine ███, ein ███,  (keine)  █████]
-        - [genitive,   eines ███, einer ██, eines █,  (keiner) █████]
-        - [dative,     einem ███, einer ██, einem █,  (keinen) █████]
-        - [accusative, einen ███, eine ███, ein ███,  (keine)  █████]
+declension:
+  strong declension (without article):
+    - ["",         singular,  singular, singular, plural]
+    - ["",         masculine, feminine, neuter,   ""    ]
+    - [nominative, █████████, ████████, ████████, ██████]
+    - [genitive,   █████████, ████████, ████████, ██████]
+    - [dative,     █████████, ████████, ████████, ██████]
+    - [accusative, █████████, ████████, ████████, ██████]
+  weak declension (with definite article):
+    - ["",         singular,  singular, singular, plural]
+    - ["",         masculine, feminine, neuter,   ""    ]
+    - [nominative, der █████, die ████, das ███,  die ██]
+    - [genitive,   des █████, der ████, des ███,  der ██]
+    - [dative,     dem █████, der ████, dem ███,  den ██]
+    - [accusative, den █████, die ████, das ███,  die ██]
+  mixed declension (with indefinite article):
+    - ["",         singular,  singular, singular, plural        ]
+    - ["",         masculine, feminine, neuter,   ""            ]
+    - [nominative, ein █████, eine ███, ein ███,  (keine)  █████]
+    - [genitive,   eines ███, einer ██, eines █,  (keiner) █████]
+    - [dative,     einem ███, einer ██, einem █,  (keinen) █████]
+    - [accusative, einen ███, eine ███, ein ███,  (keine)  █████]
 ```
 
 Here is an example of the adjective declension for
@@ -369,7 +402,20 @@ Here is an example of the adjective declension for
 > __The declension tables for all adjectives are sourced from
 > [Wiktionary](https://en.wiktionary.org/wiki/unterschiedlich#Declension)__
 
-#### German Conjugation
+#### Pronoun Declension
+
+Declension tamplate:
+
+```yaml
+declension:
+  - ["",         masclune, feminine, neuter, plural]
+  - [nominative, ████████, ████████, ██████, ██████]
+  - [genitive,   ████████, ████████, ██████, ██████]
+  - [dative,     ████████, ████████, ██████, ██████]
+  - [accusative, ████████, ████████, ██████, ██████]
+```
+
+#### Verb Conjugation
 
 The conjugation is the inflection paradigm for a German verb. Those with `conjugation` field denotes a __verb__; its
 definition also begins with an _indefinite form_, i.e. "to ..."
@@ -454,9 +500,7 @@ same convention used in [Loeb Classical Library prints](https://ryanfb.xyz/loebo
 however, the commonly sourced [Wiktionary uses full diacritics](https://en.wiktionary.org/wiki/%E1%BC%80%CE%B3%CE%B1%CE%B8%CF%8C%CF%82#Declension),
 including the [breve diacritic mark](https://en.wikipedia.org/wiki/Breve); we don't do that.
 
-#### Greek YAML Schema
-
-#### Greek Noun
+#### Noun Declension
 
 The vocabulary entry for each noun consists of its nominative and genitive forms, an article which indicates the noun's
 gender, and the English meaning. For example.
@@ -493,7 +537,22 @@ _-ης_, and add the appropriate endings to the stem which gives following parad
 | accusative |  τέχνην  | τέχνᾱς  |
 |  vocative  |  τέχνη   | τέχναι  |
 
-#### Greek Verb
+#### Adjective Declension
+
+Declension template:
+
+```yaml
+declension:
+  - ["",         singular,  singular, singular, dual,      dual,     dual    plural,    plural,   plural]
+  - ["",         masculine, feminine, neuter,   masculine, feminine, neuter, masculine, feminine, neuter]
+  - [nominative, █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+  - [genitive,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+  - [dative,     █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+  - [accusative, █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+  - [vocative,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+```
+
+#### Verb Conjugation
 
 The Greek verb has __6__ principal parts. All 6 must be learned whenever a new verb is encountered:
 
@@ -526,19 +585,19 @@ reconstruction.
 In conclusion, the entry of a verb, thus, has the form of:
 
 ```yaml
-  - term: string
-    definition: list
-    conjugation:
-      wiktionary: string
-      principal parts:
-        - ["",                                                 Attic, (Possibly other dialects)]
-        - [(first person singular) present indicative active,  █████, ...                      ]
-        - [(first person singular) future indicative active,   █████, ...                      ]
-        - [(first person singular) aorist indicative active,   █████, ...                      ]
-        - [(first person singular) perfect indicative active,  █████, ...                      ]
-        - [(first person singular) perfect indicative passive, █████, ...                      ]
-        - [(first person singular) aorist indicative passive,  █████, ...                      ]
-      references: list
+- term: string
+  definition: list
+  conjugation:
+    wiktionary: string
+    principal parts:
+      - ["",                                                 Attic, (Possibly other dialects)]
+      - [(first person singular) present indicative active,  █████, ...                      ]
+      - [(first person singular) future indicative active,   █████, ...                      ]
+      - [(first person singular) aorist indicative active,   █████, ...                      ]
+      - [(first person singular) perfect indicative active,  █████, ...                      ]
+      - [(first person singular) perfect indicative passive, █████, ...                      ]
+      - [(first person singular) aorist indicative passive,  █████, ...                      ]
+    references: list
 ```
 
 For example:

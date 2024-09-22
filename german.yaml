@@ -2933,6 +2933,9 @@ vocabulary:
   - term: können
     definition: to be able to
     conjugation: https://en.wiktionary.org/wiki/k%C3%B6nnen#Conjugation
+
+
+
   - term: rein
     definition: pure
   - term: die Vernunft
@@ -2965,12 +2968,22 @@ vocabulary:
   - term: die Art
     definition: kind, sort, type
     declension: https://www.verbformen.com/?w=Art
+  - term: durch
+    definition:
+      - (prep.) by means of
+      - (prep.) through
   - term: das Mittel
     definition: means
     declension: https://www.verbformen.com/?w=Mittel
   - term: die Erkenntnis
-    definition: realization, recognition, insight, perception
-    declension: https://www.verbformen.com/?w=Erkenntnis
+    definition: recognition
+    declension:
+       - ["",         singular, singular, singular,   plural, plural       ]
+       - ["",         indef.,   def.,     noun,       def.,   noun         ]
+       - [nominative, eine,     die,      Erkenntnis, die,    Erkenntnisse ]
+       - [genitive,   einer,    der,      Erkenntnis, der,    Erkenntnisse ]
+       - [dative,     einer,    der,      Erkenntnis, den,    Erkenntnissen]
+       - [accusative, eine,     die,      Erkenntnis, die,    Erkenntnisse ]
   - term: der Gegenstand
     definition:
       - object
@@ -2984,15 +2997,80 @@ vocabulary:
       - [accusative, einen,    den,      Gegenstand,                  die,    Gegenstände ]
   - term: beziehen
     definition: to relate
-    conjugation: https://www.verbformen.com/?w=beziehen
+    conjugation: https://en.wiktionary.org/wiki/beziehen#Conjugation
+  - term: derjenige
+    definition:
+      - (pron.) he
+      - (pron.) the one
+    declension:
+      - ["",         masclune,   feminine,   neuter,     plural    ]
+      - [nominative, derjenige,  diejenige,  dasjenige,  diejenigen]
+      - [genitive,   desjenigen, derjenigen, desjenigen, derjenigen]
+      - [dative,     demjenigen, derjenigen, demjenigen, denjenigen]
+      - [accusative, denjenigen, diejenige,  dasjenige,  diejenigen]
   - term: wodurch
-    definition: whereby, through what
+    definition:
+      - (adv.) whereby,
+      - (adv.) through what
+  - term: denken
+    definition: to think
+    conjugation: https://en.wiktionary.org/wiki/denken#Conjugation_2
+  - term: das Denken
+    definition: (gerund of genken) thought(s)
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, ein,      das,      Denken,   N/A,    N/A   ]
+      - [genitive,   eines,    des,      Denkens,  N/A,    N/A   ]
+      - [dative,     einem,    dem,      Denken,   N/A,    N/A   ]
+      - [accusative, ein,      das,      Denken,   N/A,    N/A   ]
+  - term: derselbe
+    definition: (pron.) the same
+    declension:
+      - ["",         masclune,  feminine,  neuter,    plural   ]
+      - [nominative, derselbe,  dieselbe,  dasselbe,  dieselben]
+      - [genitive,   desselben, derselben, desselben, derselben]
+      - [dative,     demselben, derselben, demselben, denselben]
+      - [accusative, denselben, dieselbe,  dasselbe,  dieselben]
   - term: unmittelbar
-    definition: immediate, direct
-    declension: https://www.verbformen.com/?w=unmittelbar
+    definition:
+      - immediate
+      - direct
+    declension:
+      strong declension (without article):
+        - ["",         singular,      singular,      singular,      plural       ]
+        - ["",         masculine,     feminine,      neuter,        ""           ]
+        - [nominative, unmittelbarer, unmittelbare,  unmittelbares, unmittelbare ]
+        - [genitive,   unmittelbaren, unmittelbarer, unmittelbaren, unmittelbarer]
+        - [dative,     unmittelbarem, unmittelbarer, unmittelbarem, unmittelbaren]
+        - [accusative, unmittelbaren, unmittelbare,  unmittelbares, unmittelbare ]
+      weak declension (with definite article):
+        - ["",         singular,          singular,          singular,          plural           ]
+        - ["",         masculine,         feminine,          neuter,            ""               ]
+        - [nominative, der unmittelbare,  die unmittelbare,  das unmittelbare,  die unmittelbaren]
+        - [genitive,   des unmittelbaren, der unmittelbaren, des unmittelbaren, der unmittelbaren]
+        - [dative,     dem unmittelbaren, der unmittelbaren, dem unmittelbaren, den unmittelbaren]
+        - [accusative, den unmittelbaren, die unmittelbare,  das unmittelbare,  die unmittelbaren]
+      mixed declension (with indefinite article):
+        - ["",         singular,            singular,            singular,            plural                ]
+        - ["",         masculine,           feminine,            neuter,              ""                    ]
+        - [nominative, ein unmittelbarer,   eine unmittelbare,   ein unmittelbares,   (keine)  unmittelbaren]
+        - [genitive,   eines unmittelbaren, einer unmittelbaren, eines unmittelbaren, (keiner) unmittelbaren]
+        - [dative,     einem unmittelbaren, einer unmittelbaren, einem unmittelbaren, (keinen) unmittelbaren]
+        - [accusative, einen unmittelbaren, eine unmittelbare,   ein unmittelbares,   (keine)  unmittelbaren]
+  - term: abzwecken
+    definition: to be aimed at
   - term: die Anschauung
-    definition: intuition, view, opinion
-    declension: https://www.verbformen.com/?w=Anschauung
+    definition:
+      - intuition
+      - opinion
+    declension:
+      - ["",         singular, singular, singular,   plural, plural      ]
+      - ["",         indef.,   def.,     noun,       def.,   noun        ]
+      - [nominative, eine,     die,      Anschauung, die,    Anschauungen]
+      - [genitive,   einer,    der,      Anschauung, der,    Anschauungen]
+      - [dative,     einer,    der,      Anschauung, den,    Anschauungen]
+      - [accusative, eine,     die,      Anschauung, die,    Anschauungen]
   - term: statt
     definition: instead of
   - term: möglich
