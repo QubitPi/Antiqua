@@ -1,4 +1,60 @@
 vocabulary:
+  - term: dieser
+    definition:
+      - this
+      - that
+    declension:
+      - ["",         masclune, feminine, neuter, plural]
+      - [nominative, dieser,   diese,    dieses, diese ]
+      - [genitive,   dieses,   dieser,   dieses, dieser]
+      - [dative,     diesem,   dieser,   diesem, diesen]
+      - [accusative, diesen,   diese,    dieses, diese ]
+  - term: ich
+    definition: (pronoun) I
+    declension:
+      - ["",         singular,   singular,              singular,       singular,       singular,       plural,     plural,                plural,     singular & plural         ]
+      - ["",         1st person, 2nd person (familiar), 3rd person (m), 3rd person (f), 3rd person (n), 1st person, 2nd person (familiar), 3rd person, 2nd person (polite/formal)]
+      - [nominative, ich,        du,                    er,             sie,            es,             wir,        ihr,                   sie,        Sie                       ]
+      - [genitive,   meiner,     deiner,                seiner,         ihrer,          seiner,         unser,      euer,                  ihrer,      Ihrer                     ]
+      - [dative,     mir,        dir,                   ihm,            ihr,            ihm,            uns,        euch,                  ihnen,      Ihnen                     ]
+      - [accusative, mich,       dich,                  ihn,            sie,            es,             uns,        euch,                  sie,        Sie                       ]
+  - term: er
+    definition:
+      - he
+      - it
+        The declined "es".
+        Used when the grammatical gender of the object/article/thing/animal etc., being referred to, is masculine (der).
+        See the declension table of "es" for more details.
+        e.g. Dort steht ein Baum. Er ist über hundert Jahre alt. (There stands a tree. It is more than 100 years old.)
+      - she
+        The declined "er".
+        Use when the grammatical gender of the noun being referred to and designating a female person, is masculine (der)).
+        See the declension table of "er" for more details.
+        e.g. Im Frauengefängnis versuchte ein Häftling zu flüchten, aber er kam nicht weit. (In the women's prison, an inmate tried to escape, but she didn't get very far.)
+    declension: https://www.verbformen.com/?w=er
+  - term: sie
+    definition:
+      - she
+      - it
+        The declined "es".
+        Used When the object/article/thing/animal etc., referred to, is feminine (die)).
+        See the declension table of "es" for more details.
+        e.g. Scheint die Sonne noch? Nein, sie ist schon untergegangen. (Is the sun still shining? No, it has already gone down.)
+      - he
+        The declined "sie".
+        Used when the grammatical gender of the noun being referred to and designating a male person, is feminine (die)).
+        See declension table of "sie" for more details.
+        e.g. Die Geisel Richard Meier versuchte, sich zu befreien, aber sie schaffte es nicht. (The hostage Richard Meier tried to break free, but he didn’t succeed.)
+      - they
+    declension: https://www.verbformen.com/?w=sie
+  - term: es
+    definition:
+      - she/he: (old-fashioned) nominative and accusative neuter third-person singular personal pronoun
+      - it
+    declension: https://www.verbformen.com/?w=es
+  - term: mein
+    definition: my
+    declension: https://www.verbformen.com/?w=mein
   - term: "null"
     definition: 0
   - term: eins
@@ -117,52 +173,6 @@ vocabulary:
     definition: 1,708,000
   - term: drei Millionen vierhunderteinundsiebzigtausend
     definition: 3,471,000
-  - term: ich
-    definition: (pronoun) I
-    declension:
-      - ["",         singular,   singular,              singular,       singular,       singular,       plural,     plural,                plural,     singular & plural         ]
-      - ["",         1st person, 2nd person (familiar), 3rd person (m), 3rd person (f), 3rd person (n), 1st person, 2nd person (familiar), 3rd person, 2nd person (polite/formal)]
-      - [nominative, ich,        du,                    er,             sie,            es,             wir,        ihr,                   sie,        Sie                       ]
-      - [genitive,   meiner,     deiner,                seiner,         ihrer,          seiner,         unser,      euer,                  ihrer,      Ihrer                     ]
-      - [dative,     mir,        dir,                   ihm,            ihr,            ihm,            uns,        euch,                  ihnen,      Ihnen                     ]
-      - [accusative, mich,       dich,                  ihn,            sie,            es,             uns,        euch,                  sie,        Sie                       ]
-  - term: er
-    definition:
-      - he
-      - it
-        The declined "es".
-        Used when the grammatical gender of the object/article/thing/animal etc., being referred to, is masculine (der).
-        See the declension table of "es" for more details.
-        e.g. Dort steht ein Baum. Er ist über hundert Jahre alt. (There stands a tree. It is more than 100 years old.)
-      - she
-        The declined "er".
-        Use when the grammatical gender of the noun being referred to and designating a female person, is masculine (der)).
-        See the declension table of "er" for more details.
-        e.g. Im Frauengefängnis versuchte ein Häftling zu flüchten, aber er kam nicht weit. (In the women's prison, an inmate tried to escape, but she didn't get very far.)
-    declension: https://www.verbformen.com/?w=er
-  - term: sie
-    definition:
-      - she
-      - it
-        The declined "es".
-        Used When the object/article/thing/animal etc., referred to, is feminine (die)).
-        See the declension table of "es" for more details.
-        e.g. Scheint die Sonne noch? Nein, sie ist schon untergegangen. (Is the sun still shining? No, it has already gone down.)
-      - he
-        The declined "sie".
-        Used when the grammatical gender of the noun being referred to and designating a male person, is feminine (die)).
-        See declension table of "sie" for more details.
-        e.g. Die Geisel Richard Meier versuchte, sich zu befreien, aber sie schaffte es nicht. (The hostage Richard Meier tried to break free, but he didn’t succeed.)
-      - they
-    declension: https://www.verbformen.com/?w=sie
-  - term: es
-    definition:
-      - she/he: (old-fashioned) nominative and accusative neuter third-person singular personal pronoun
-      - it
-    declension: https://www.verbformen.com/?w=es
-  - term: mein
-    definition: my
-    declension: https://www.verbformen.com/?w=mein
   - term: Guten Tag
     definition: Good day
   - term: Hallo
@@ -928,6 +938,15 @@ vocabulary:
       - [genitive,   eines,    des,      Salzes,   der,    Salze ]
       - [dative,     einem,    dem,      Salz,     den,    Salzen]
       - [accusative, ein,      das,      Salz,     die,    Salze ]
+  - term: das Ei
+    definition: the egg
+    declension:
+      - ["",         singular, singular, singular,    plural, plural]
+      - ["",         indef.,   def.,     noun,        def.,   noun  ]
+      - [nominative, ein,      das,      Ei,          die,    Eier  ]
+      - [genitive,   eines,    des,      "Eies, Eis", der,    Eier  ]
+      - [dative,     einem,    dem,      Ei,          den,    Eiern ]
+      - [accusative, ein,      das,      Ei,          die,    Eier  ]
   - term: der Getränkemarkt
     definition: the beverage store
     declension:
@@ -2045,6 +2064,8 @@ vocabulary:
   - term: beantworten
     definition: to answer
     conjugation: https://en.wiktionary.org/wiki/beantworten#Conjugation
+  - term: gern
+    definition: (adv.) gladly, with pleasure
 
 
 
@@ -3071,14 +3092,77 @@ vocabulary:
       - [genitive,   einer,    der,      Anschauung, der,    Anschauungen]
       - [dative,     einer,    der,      Anschauung, den,    Anschauungen]
       - [accusative, eine,     die,      Anschauung, die,    Anschauungen]
+  - term: nur
+    definition: (adv.) only
+  - term: fern
+    definition:
+      - (adj.) remote
+      - (adj.) far away
+    declension:
+      strong declension (without article):
+        - ["",         singular,  singular, singular, plural]
+        - ["",         masculine, feminine, neuter,   ""    ]
+        - [nominative, ferner,    ferne,    fernes,   ferne ]
+        - [genitive,   fernen,    ferner,   fernen,   ferner]
+        - [dative,     fernem,    ferner,   fernem,   fernen]
+        - [accusative, fernen,    ferne,    fernes,   ferne ]
+      weak declension (with definite article):
+        - ["",         singular,   singular,   singular,   plural    ]
+        - ["",         masculine,  feminine,   neuter,     ""        ]
+        - [nominative, der ferne,  die ferne,  das ferne,  die fernen]
+        - [genitive,   des fernen, der fernen, des fernen, der fernen]
+        - [dative,     dem fernen, der fernen, dem fernen, den fernen]
+        - [accusative, den fernen, die ferne,  das ferne,  die fernen]
+      mixed declension (with indefinite article):
+        - ["",         singular,     singular,     singular,     plural         ]
+        - ["",         masculine,    feminine,     neuter,       ""             ]
+        - [nominative, ein ferner,   eine ferne,   ein fernes,   (keine)  fernen]
+        - [genitive,   eines fernen, einer fernen, eines fernen, (keiner) fernen]
+        - [dative,     einem fernen, einer fernen, einem fernen, (keinen) fernen]
+        - [accusative, einen fernen, eine ferne,   ein fernes,   (keine)  fernen]
   - term: statt
     definition: instead of
+  - term: wiederum
+    definition:
+      - (adv.) in turn
+      - (adv.) vice versa
   - term: möglich
-    definition: possible
-    declension: https://www.verbformen.com/?w=m%C3%B6glich
+    definition: (adj.) possible
+    declension:
+      strong declension (without article):
+        - ["",         singular,  singular,  singular, plural    ]
+        - ["",         masculine, feminine,  neuter,   ""        ]
+        - [nominative, möglicher, mögliche,  mögliches, mögliche ]
+        - [genitive,   möglichen, möglicher, möglichen, möglicher]
+        - [dative,     möglichem, möglicher, möglichem, möglichen]
+        - [accusative, möglichen, mögliche,  mögliches, mögliche ]
+      weak declension (with definite article):
+        - ["",         singular,      singular,      singular,      plural       ]
+        - ["",         masculine,     feminine,      neuter,        ""           ]
+        - [nominative, der mögliche,  die mögliche,  das mögliche,  die möglichen]
+        - [genitive,   des möglichen, der möglichen, des möglichen, der möglichen]
+        - [dative,     dem möglichen, der möglichen, dem möglichen, den möglichen]
+        - [accusative, den möglichen, die mögliche,  das mögliche,  die möglichen]
+      mixed declension (with indefinite article):
+        - ["",         singular,        singular,        singular,        plural            ]
+        - ["",         masculine,       feminine,        neuter,          ""                ]
+        - [nominative, ein möglicher,   eine mögliche,   ein mögliches,   (keine)  möglichen]
+        - [genitive,   eines möglichen, einer möglichen, eines möglichen, (keiner) möglichen]
+        - [dative,     einem möglichen, einer möglichen, einem möglichen, (keinen) möglichen]
+        - [accusative, einen möglichen, eine mögliche,   ein mögliches,   (keine)  möglichen]
   - term: das Gemüt
-    definition: feeling; heart; soul; mind
-    declension: https://www.verbformen.com/?w=Gem%C3%BCt
+    definition:
+      - feeling
+      - heart
+      - soul
+      - mind
+    declension:
+      - ["",         singular, singular, singular,          plural, plural  ]
+      - ["",         indef.,   def.,     noun,              def.,   noun    ]
+      - [nominative, ein,      das,      Gemüt,             die,    Gemüter ]
+      - [genitive,   eines,    des,      "Gemütes, Gemüts", der,    Gemüter ]
+      - [dative,     einem,    dem,      Gemüt,             den,    Gemütern]
+      - [accusative, ein,      das,      Gemüt,             die,    Gemüter ]
   - term: gewiss
     definition: (adj.) certain
     declension:
@@ -3105,7 +3189,13 @@ vocabulary:
         - [accusative, einen gewissen, eine gewisse,   ein gewisses,   (keine)  gewissen]
   - term: die Weise
     definition: way
-    declension: https://www.verbformen.com/declension/nouns/Weise.htm
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, eine,     die,      Weise,    die,    Weisen]
+      - [genitive,   einer,    der,      Weise,    der,    Weisen]
+      - [dative,     einer,    der,      Weise,    den,    Weisen]
+      - [accusative, eine,     die,      Weise,    die,    Weisen]
   - term: die Zeit
     definition:
       - time
