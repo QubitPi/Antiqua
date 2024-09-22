@@ -2978,12 +2978,12 @@ vocabulary:
   - term: die Erkenntnis
     definition: recognition
     declension:
-       - ["",         singular, singular, singular,   plural, plural       ]
-       - ["",         indef.,   def.,     noun,       def.,   noun         ]
-       - [nominative, eine,     die,      Erkenntnis, die,    Erkenntnisse ]
-       - [genitive,   einer,    der,      Erkenntnis, der,    Erkenntnisse ]
-       - [dative,     einer,    der,      Erkenntnis, den,    Erkenntnissen]
-       - [accusative, eine,     die,      Erkenntnis, die,    Erkenntnisse ]
+      - ["",         singular, singular, singular,   plural, plural       ]
+      - ["",         indef.,   def.,     noun,       def.,   noun         ]
+      - [nominative, eine,     die,      Erkenntnis, die,    Erkenntnisse ]
+      - [genitive,   einer,    der,      Erkenntnis, der,    Erkenntnisse ]
+      - [dative,     einer,    der,      Erkenntnis, den,    Erkenntnissen]
+      - [accusative, eine,     die,      Erkenntnis, die,    Erkenntnisse ]
   - term: der Gegenstand
     definition:
       - object
