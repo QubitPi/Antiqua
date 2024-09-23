@@ -473,16 +473,7 @@ with
 
 ### [Ancient Greek](./greek.yaml)
 
-[Ancient Greek is still an under-attesting language](https://latin.stackexchange.com/a/17432), what that means is no
-textbook is "complete". One will frequently see a certain grammar does not apply to or some inflections are missing for
-a word. Therefore, the best strategy to make inflection data of Ancient Greek is to crawl the entire inflection table of
-every word. This would be impractical manually but practical automatically using
-[wilhelm-python-sdk](https://github.com/QubitPi/wilhelm-python-sdk). The sections below will make references to the
-certain parts of SDK.
-
-> [!NOTE]  
->
-> Unless otherwise mentioned, we are talking about Attic Greek throughout this repository.
+Unless otherwise mentioned, we are talking about Attic Greek throughout this repository.
 
 #### Diacritic Mark Convention
 
