@@ -21,16 +21,6 @@ name: CI/CD
       - master
 
 jobs:
-  cancel-previous:
-    name: Cancel Previous Runs
-    runs-on: ubuntu-latest
-    steps:
-      - name: Cancel previous
-        uses: styfle/cancel-workflow-action@0.10.1
-        if: ${{github.ref != 'refs/head/master'}}
-        with:
-          access_token: ${{ github.token }}
-
   yml-md-style-and-link-checks:
     uses: QubitPi/hashistack/.github/workflows/yml-md-style-and-link-checks.yml@master
     with:
