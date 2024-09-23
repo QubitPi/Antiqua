@@ -473,13 +473,6 @@ with
 
 ### [Ancient Greek](./greek.yaml)
 
-> [!TIP]
->
-> [Wiktionary](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CF%82#Pronunciation) and
-> [Logos Bible Study Platform](https://www.youtube.com/@logosbiblesoftware/search?query=Greek) are the best sources as
-> pronunciation guides. Due to the scarcity of the audio resources among AG lerners, [a separate project](https://github.com/QubitPi/ancient-greek-reader) has been
-> initiated to expand the audio practice materials by AI
-
 [Ancient Greek is still an under-attesting language](https://latin.stackexchange.com/a/17432), what that means is no
 textbook is "complete". One will frequently see a certain grammar does not apply to or some inflections are missing for
 a word. Therefore, the best strategy to make inflection data of Ancient Greek is to crawl the entire inflection table of
@@ -488,7 +481,7 @@ every word. This would be impractical manually but practical automatically using
 certain parts of SDK.
 
 > [!NOTE]  
-> 
+>
 > Unless otherwise mentioned, we are talking about Attic Greek throughout this repository.
 
 #### Diacritic Mark Convention
