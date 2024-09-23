@@ -487,6 +487,10 @@ every word. This would be impractical manually but practical automatically using
 [wilhelm-python-sdk](https://github.com/QubitPi/wilhelm-python-sdk). The sections below will make references to the
 certain parts of SDK.
 
+> [!NOTE]  
+> 
+> Unless otherwise mentioned, we are talking about Attic Greek throughout this repository.
+
 #### Diacritic Mark Convention
 
 We employ the following 3 diacritic signs only in vocabulary:
@@ -511,14 +515,40 @@ gender, and the English meaning. For example.
       - art,
       - skill,
       - craft
+    declension class: 1st
 ```
 
 the vocabulary entry above consists of the following 4 items:
 
 1. τέχνη: nominative singular
 2. τέχνης: genitive singular
-3. ἡ: nominative feminine singular of the article, which shows that the gender of the noun is feminine
+3. ἡ: nominative feminine singular of the article, which shows that the gender of the noun is feminine. Gender will be
+   indicated by the appropriate form of the definite article "the":
+
+   - ὁ for the masculine nouns
+   - ἡ for the feminine nouns
+   - τό for the neutor nouns
+
 4. a list of English meanings of the word
+5. the noun employs the first declension. The 3 classes of declensions are
+
+   1. first declension (`1st`)
+   2. second declension (`2nd`)
+   3. third declension (`3rd`)
+
+   A multi-form nouns will have a list for this field. For example
+
+   ```yaml
+     - term: αὐτός αὐτή αὐτό
+       definition:
+         - (without article) he, she, it, they
+         - (without article) himself, herself, itself, themselves
+         - (with definite article) same
+       declension class:
+         αὐτός: 2nd
+         αὐτή: 1st
+         αὐτό: 2nd
+   ```
 
 The declension of the entry is not shown because to decline any noun, we can take the genitive singular, remove the
 genitive singular ending to get the stem, and then add the proper set of endings to the stem based on its declension

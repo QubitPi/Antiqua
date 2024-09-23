@@ -6,6 +6,10 @@ vocabulary:
       - (without article) he, she, it, they
       - (without article) himself, herself, itself, themselves
       - (with definite article) same
+    declension class:
+      αὐτός: 2nd
+      αὐτή: 1st
+      αὐτό: 2nd
   - term: καί
     definition:
       - and
@@ -686,6 +690,7 @@ vocabulary:
       - art,
       - skill,
       - craft
+    declension class: first
   - term: χρῆμα χρήματος, τό
     definition: thing, matter; (more commonly in pl.) goods or property, esp. money
   - term: σῴζω, σώσω, ἔσωσα, σέσωκα, ἐσώθην
@@ -693,7 +698,10 @@ vocabulary:
   - term: πέμπω, πέμψω, ἔπεμψα, πέπομφα, πέπεμμαι, ἐπέμφθην
     definition: send
   - term: φωνή φωνῆς, ἡ
-    definition: sound, voice
+    definition:
+      - sound
+      - voice
+    declension class: first
   - term: ἕνεκα
     definition: on account of, for the sake of (+gen.)
   - term: ἀπόλλυμι, ἀπολῶ, ἀπώλεσα, 2 aor. mid. ἀπωλόμην, pf. ἀπολώλεκα (“I have utterly destroyed”) or ἀπόλωλα (“I am undone”)
