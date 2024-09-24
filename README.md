@@ -471,7 +471,7 @@ with
 >   instead. This is why we left the conjugation link to Wiktionary for now and it will definitely serve us well as I'm
 >   trying to make it happen
 
-### [Ancient Greek](./greek.yaml)
+### [Ancient Greek](./ancient-greek.yaml)
 
 Unless otherwise mentioned, we are talking about Attic Greek throughout this repository.
 
