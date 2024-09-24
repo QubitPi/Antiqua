@@ -42,7 +42,7 @@ jobs:
       - name: Cleanup
         run: |
           pip3 install --upgrade --force-reinstall wilhelm-python-sdk
-          python3 .github/clean_up_neo4j.py
+          python3 .github/cleanup_neo4j.py
         env:
           NEO4J_URI: ${{ secrets.NEO4J_URI }}
           NEO4J_DATABASE: ${{ secrets.NEO4J_DATABASE }}
