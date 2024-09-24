@@ -50,13 +50,26 @@ jobs:
           NEO4J_PASSWORD: ${{ secrets.NEO4J_PASSWORD }}
 
   load-vocabulary:
-    name: Load vocabularies
+    name: Load ${{ matrix.language.name }} vocabularies
     if: github.ref == 'refs/heads/master'
     needs: cleanup-neo4j
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        script: [.github/load_german.py, .github/load_latin.py, .github/load_ancient_greek.py]
+        language: [
+          {
+            name: German,
+            load-script: .github/load_german.py
+          },
+          {
+            name: Ancient Greek,
+            load-script: .github/load_ancient_greek.py
+          },
+          {
+            name: Latin,
+            load-script: .github/load_latin.py
+          }
+        ]
     steps:
       - uses: actions/checkout@v3
         with:
@@ -65,10 +78,10 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
-      - name: Run ${{ matrix.script }}
+      - name: Load ${{ matrix.language.name }}
         run: |
           pip3 install --upgrade --force-reinstall wilhelm-python-sdk
-          python3 ${{ matrix.script }}
+          python3 ${{ matrix.language.load-script }}
         env:
           NEO4J_URI: ${{ secrets.NEO4J_URI }}
           NEO4J_DATABASE: ${{ secrets.NEO4J_DATABASE }}
