@@ -624,8 +624,32 @@ vocabulary:
       - [dative,     einer,    der       Bank,     den,    Bänke ]
       - [accusative, eine,     die       Bank,     die,    Bänke ]
   - term: das Geld
-    definition: money
-    declension: https://en.wiktionary.org/wiki/Geld#Declension
+    definition: the money
+    declension:
+      - ["",         singular, singular, singular,        plural, plural ]
+      - ["",         indef.,   def.,     noun,            def.,   noun   ]
+      - [nominative, ein,      das,      Geld,            die,    Gelder ]
+      - [genitive,   eines,    des,      "Geldes, Gelds", der,    Gelder ]
+      - [dative,     einem,    dem,      Geld,            den,    Geldern]
+      - [accusative, ein,      das,      Geld,            die,    Gelder ]
+  - term: die Währung
+    definition: the currency
+    declension:
+      - ["",         singular, singular, singular, plural, plural   ]
+      - ["",         indef.,   def.,     noun,     def.,   noun     ]
+      - [nominative, eine,     die,      Währung,  die,    Währungen]
+      - [genitive,   einer,    der,      Währung,  der,    Währungen]
+      - [dative,     einer,    der,      Währung,  den,    Währungen]
+      - [accusative, eine,     die,      Währung,  die,    Währungen]
+  - term: der Cent
+    definition: (monetary) cent
+    declension:
+      - ["",         singular, singular, singular,      plural, plural       ]
+      - ["",         indef.,   def.,     noun,          def.,   noun         ]
+      - [nominative, ein,      der,      Cent,          die,    "Cents, Cent"]
+      - [genitive,   eines,    des,      "Cents, Cent", der,    "Cents, Cent"]
+      - [dative,     einem,    dem,      Cent,          den,    "Cents, Cent"]
+      - [accusative, einen,    den,      Cent,          die,    "Cents, Cent"]
   - term: Wie ist Ihre Telefonnummer?
     definition: What is your telephone number?
   - term: Welche Telefonnummer haben Sie?
@@ -2066,6 +2090,39 @@ vocabulary:
     conjugation: https://en.wiktionary.org/wiki/beantworten#Conjugation
   - term: gern
     definition: (adv.) gladly, with pleasure
+  - term: das Pfund
+    definition: the metric pound
+    declension:
+      - ["",         singular, singular, singular,        plural, plural ]
+      - ["",         indef.,   def.,     noun,            def.,   noun   ]
+      - [nominative, ein,      das,      Pfund,           die,    Pfunde ]
+      - [genitive,   eines,    des,      Pfundes, Pfunds, der,    Pfunde ]
+      - [dative,     einem,    dem,      Pfund,           den,    Pfunden]
+      - [accusative, ein,      das,      Pfund,           die,    Pfunde ]
+  - term: halb
+    definition: (adj.) half
+    declension:
+      strong declension (without article):
+        - ["",         singular,  singular, singular, plural]
+        - ["",         masculine, feminine, neuter,   ""    ]
+        - [nominative, halber,    halbe,    halbes,   halbe ]
+        - [genitive,   halben,    halber,   halben,   halber]
+        - [dative,     halbem,    halber,   halbem,   halben]
+        - [accusative, halben,    halbe,    halbes,   halbe ]
+      weak declension (with definite article):
+        - ["",         singular,   singular,   singular,   plural    ]
+        - ["",         masculine,  feminine,   neuter,     ""        ]
+        - [nominative, der halbe,  die halbe,  das halbe,  die halben]
+        - [genitive,   des halben, der halben, des halben, der halben]
+        - [dative,     dem halben, der halben, dem halben, den halben]
+        - [accusative, den halben, die halbe,  das halbe,  die halben]
+      mixed declension (with indefinite article):
+        - ["",         singular,     singular,     singular,     plural         ]
+        - ["",         masculine,    feminine,     neuter,       ""             ]
+        - [nominative, ein halber,   eine halbe,   ein halbes,   (keine)  halben]
+        - [genitive,   eines halben, einer halben, eines halben, (keiner) halben]
+        - [dative,     einem halben, einer halben, einem halben, (keinen) halben]
+        - [accusative, einen halben, eine halbe,   ein halbes,   (keine)  halben]
 
 
 
@@ -2174,8 +2231,12 @@ vocabulary:
       - [genitive,   eines,    des,      Menschen, der,    Menschen]
       - [dative,     einem,    dem,      Menschen, den,    Menschen]
       - [accusative, einen,    den,      Menschen, die,    Menschen]
+  - term: schreiben
+    definition: to write
+    conjugation: https://en.wiktionary.org/wiki/schreiben#Conjugation
   - term: sagen
     definition: to say
+    conjugation: https://en.wiktionary.org/wiki/sagen#Conjugation
   - term: Das machen Sie auch, oder?
     definition: You do that too, right?
   - term: Warum Sie nicht sagen?
