@@ -852,6 +852,9 @@ vocabulary:
       - [genitive,   einer,    der,      Tomate,   der,    Tomaten]
       - [dative,     einer,    der,      Tomate,   den,    Tomaten]
       - [accusative, eine,     die,      Tomate,   die,    Tomaten]
+  - term: die Grilltomate
+    definition: the grilled tomato
+    declension: Unknown
   - term: die Kartoffel
     definition: the potato
     declension:
@@ -1098,6 +1101,62 @@ vocabulary:
       - [genitive,   eines,    des,      "Sektes, Sekts", der,    Sekte ]
       - [dative,     einem,    dem,      Sekt,            den,    Sekten]
       - [accusative, einen,    den,      Sekt,            die,    Sekte ]
+  - term: der Salat
+    definition: the salad
+    declension:
+      - ["",         singular, singular, singular,          plural, plural ]
+      - ["",         indef.,   def.,     noun,              def.,   noun   ]
+      - [nominative, ein,      der,      Salat,             die,    Salate ]
+      - [genitive,   eines,    des,      "Salats, Salates", der,    Salate ]
+      - [dative,     einem,    dem,      Salat,             den,    Salaten]
+      - [accusative, einen,    den,      Salat,             die,    Salate ]
+  - term: der Pfeffer
+    definition: the pepper
+    declension:
+      - ["",         singular, singular, singular, plural, plural  ]
+      - ["",         indef.,   def.,     noun,     def.,   noun    ]
+      - [nominative, ein,      der,      Pfeffer,  die,    Pfeffer ]
+      - [genitive,   eines,    des,      Pfeffers, der,    Pfeffer ]
+      - [dative,     einem,    dem,      Pfeffer,  den,    Pfeffern]
+      - [accusative, einen,    den,      Pfeffer,  die,    Pfeffer ]
+  - term: der Eisbecher
+    definition: the sundae
+    declension:
+      - ["",         singular, singular, singular,   plural, plural    ]
+      - ["",         indef.,   def.,     noun,       def.,   noun      ]
+      - [nominative, ein,      der,      Eisbecher,  die,    Eisbecher ]
+      - [genitive,   eines,    des,      Eisbechers, der,    Eisbecher ]
+      - [dative,     einem,    dem,      Eisbecher,  den,    Eisbechern]
+      - [accusative, einen,    den,      Eisbecher,  die,    Eisbecher ]
+  - term: die Nudel
+    definition:
+      - noodle
+      - (in the plural form) pasta
+    declension:
+      - ["",         singular, singular, singular, plural, plural]
+      - ["",         indef.,   def.,     noun,     def.,   noun  ]
+      - [nominative, eine,     die,      Nudel,    die,    Nudeln]
+      - [genitive,   einer,    der,      Nudel,    der,    Nudeln]
+      - [dative,     einer,    der,      Nudel,    den,    Nudeln]
+      - [accusative, eine,     die,      Nudel,    die,    Nudeln]
+  - term: die Zwiebelsuppe
+    definition: the onion soup
+    declension:
+      - ["",         singular, singular, singular,     plural, plural       ]
+      - ["",         indef.,   def.,     noun,         def.,   noun         ]
+      - [nominative, eine,     die,      Zwiebelsuppe, die,    Zwiebelsuppen]
+      - [genitive,   einer,    der,      Zwiebelsuppe, der,    Zwiebelsuppen]
+      - [dative,     einer,    der,      Zwiebelsuppe, den,    Zwiebelsuppen]
+      - [accusative, eine,     die,      Zwiebelsuppe, die,    Zwiebelsuppen]
+  - term: die Gemüsesuppe
+    definition: the vegetable soup
+    declension:
+      - ["",         singular, singular, singular,    plural, plural      ]
+      - ["",         indef.,   def.,     noun,        def.,   noun        ]
+      - [nominative, eine,     die,      Gemüsesuppe, die,    Gemüsesuppen]
+      - [genitive,   einer,    der,      Gemüsesuppe, der,    Gemüsesuppen]
+      - [dative,     einer,    der,      Gemüsesuppe, den,    Gemüsesuppen]
+      - [accusative, eine,     die,      Gemüsesuppe, die,    Gemüsesuppen]
   - term: die Milch
     definition: the milk
     declension:
@@ -1181,6 +1240,26 @@ vocabulary:
       - [genitive,   eines,    des,      "Weizenbieres, Weizenbiers", der,    Weizenbiere ]
       - [dative,     einem,    dem,      Weizenbier,                  den,    Weizenbieren]
       - [accusative, ein,      das,      Weizenbier,                  die,    Weizenbiere ]
+  - term: das Omelett
+    definition: the omelette
+    declension:
+      - ["",         singular, singular, singular,              plural, plural               ]
+      - ["",         indef.,   def.,     noun,                  def.,   noun                 ]
+      - [nominative, ein,      das,      Omelett,               die,    "Omelette, Omeletts" ]
+      - [genitive,   eines,    des,      "Omelettes, Omeletts", der,    "Omelette, Omeletts" ]
+      - [dative,     einem,    dem,      Omelett,               den,    "Omeletten, Omeletts"]
+      - [accusative, ein,      das,      Omelett,               die,    "Omelette, Omeletts" ]
+  - term: das Schnitzel
+    definition: the cutlet
+    declension:
+      - ["",         singular, singular, singular,   plural, plural    ]
+      - ["",         indef.,   def.,     noun,       def.,   noun      ]
+      - [nominative, ein,      das,      Schnitzel,  die,    Schnitzel ]
+      - [genitive,   eines,    des,      Schnitzels, der,    Schnitzel ]
+      - [dative,     einem,    dem,      Schnitzel,  den,    Schnitzeln]
+      - [accusative, ein,      das,      Schnitzel,  die,    Schnitzel ]
+  - term: Pommes frites
+    definition: French fries
   - term: der Becher
     definition: the cup without a handle
     declension:
@@ -1290,6 +1369,57 @@ vocabulary:
   - term: trinken
     definition: to drink
     conjugation: https://en.wiktionary.org/wiki/trinken#Conjugation
+  - term: grün
+    definition: (adj.) green
+    declension:
+      strong declension (without article):
+        - ["",         singular,  singular, singular, plural]
+        - ["",         masculine, feminine, neuter,   ""    ]
+        - [nominative, grüner,    grüne,    grünes,   grüne ]
+        - [genitive,   grünen,    grüner,   grünen,   grüner]
+        - [dative,     grünem,    grüner,   grünem,   grünen]
+        - [accusative, grünen,    grüne,    grünes,   grüne ]
+      weak declension (with definite article):
+        - ["",         singular,   singular,   singular,   plural    ]
+        - ["",         masculine,  feminine,   neuter,     ""        ]
+        - [nominative, der grüne,  die grüne,  das grüne,  die grünen]
+        - [genitive,   des grünen, der grünen, des grünen, der grünen]
+        - [dative,     dem grünen, der grünen, dem grünen, den grünen]
+        - [accusative, den grünen, die grüne,  das grüne,  die grünen]
+      mixed declension (with indefinite article):
+        - ["",         singular,     singular,     singular,     plural         ]
+        - ["",         masculine,    feminine,     neuter,       ""             ]
+        - [nominative, ein grüner,   eine grüne,   ein grünes,   (keine)  grünen]
+        - [genitive,   eines grünen, einer grünen, eines grünen, (keiner) grünen]
+        - [dative,     einem grünen, einer grünen, einem grünen, (keinen) grünen]
+        - [accusative, einen grünen, eine grüne,   ein grünes,   (keine)  grünen]
+  - term: gemischt
+    definition: (adj.) mixed
+    declension:
+      strong declension (without article):
+        - ["",         singular,   singular,   singular,   plural    ]
+        - ["",         masculine,  feminine,   neuter,     ""        ]
+        - [nominative, gemischter, gemischte,  gemischtes, gemischte ]
+        - [genitive,   gemischten, gemischter, gemischten, gemischter]
+        - [dative,     gemischtem, gemischter, gemischtem, gemischten]
+        - [accusative, gemischten, gemischte,  gemischtes, gemischte ]
+      weak declension (with definite article):
+        - ["",         singular,       singular,       singular,       plural        ]
+        - ["",         masculine,      feminine,       neuter,         ""            ]
+        - [nominative, der gemischte,  die gemischte,  das gemischte,  die gemischten]
+        - [genitive,   des gemischten, der gemischten, des gemischten, der gemischten]
+        - [dative,     dem gemischten, der gemischten, dem gemischten, den gemischten]
+        - [accusative, den gemischten, die gemischte,  das gemischte,  die gemischten]
+      mixed declension (with indefinite article):
+        - ["",         singular,         singular,         singular,         plural             ]
+        - ["",         masculine,        feminine,         neuter,           ""                 ]
+        - [nominative, ein gemischter,   eine gemischte,   ein gemischtes,   (keine)  gemischten]
+        - [genitive,   eines gemischten, einer gemischten, eines gemischten, (keiner) gemischten]
+        - [dative,     einem gemischten, einer gemischten, einem gemischten, (keinen) gemischten]
+        - [accusative, einen gemischten, eine gemischte,   ein gemischtes,   (keine)  gemischten]
+  - term: panieren
+    definition: to bread
+    conjugation: https://en.wiktionary.org/wiki/panieren#Conjugation
   - term: Wir möchten bestellen.
     definition: (in restaurant) We'd like to order.
   - term: Was möchten/nehmen/behommen/trinken Sie, bitte?
