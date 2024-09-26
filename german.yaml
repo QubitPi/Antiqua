@@ -1050,6 +1050,15 @@ vocabulary:
       - [genitive,   Milch,    "Milchen, Milche"]
       - [dative,     Milch,    Milchen          ]
       - [accusative, Milch,    "Milchen, Milche"]
+  - term: die Sahne
+    definition: the cream
+    declension:
+      - ["",         singular, plural]
+      - ["",         noun,     noun  ]
+      - [nominative, Sahne,    N/A   ]
+      - [genitive,   Sahne,    N/A   ]
+      - [dative,     Sahne,    N/A   ]
+      - [accusative, Sahne,    N/A   ]
   - term: die Limonade
     definition: the lemonade
     declension:
@@ -1239,16 +1248,68 @@ vocabulary:
     definition: (adj.) mixed
   - term: panieren
     definition: to bread
-  - term: Wir möchten bestellen.
-    definition: (in restaurant) We'd like to order.
+  - term: Wir möchten/Ich möchte bestellen.
+    definition: (in restaurant) We'd like to/I'd like to order.
   - term: Was möchten/nehmen/behommen/trinken Sie, bitte?
     definition: (in restaurant) What would you like?
+  - term: die Vorspeise
+    definition: the appetizer, the starter (food)
+    declension:
+      - ["",         singular,  plural    ]
+      - ["",         noun,      noun      ]
+      - [nominative, Vorspeise, Vorspeisen]
+      - [genitive,   Vorspeise, Vorspeisen]
+      - [dative,     Vorspeise, Vorspeisen]
+      - [accusative, Vorspeise, Vorspeisen]
+  - term: das Hauptgericht
+    definition: the main dish
+    declension:
+      - ["",         singular,                      plural        ]
+      - ["",         noun,                          noun          ]
+      - [nominative, Hauptgericht,                  Hauptgerichte ]
+      - [genitive,   Hauptgerichtes, Hauptgerichts, Hauptgerichte ]
+      - [dative,     Hauptgericht,                  Hauptgerichten]
+      - [accusative, Hauptgericht,                  Hauptgerichte ]
+  - term: der Nachtisch
+    definition: the dessert
+    declension:
+      - ["",         singular,                  plural     ]
+      - ["",         noun,                      noun       ]
+      - [nominative, Nachtischen,               Nachtische ]
+      - [genitive,   "Nachtisches, Nachtischs", Nachtische ]
+      - [dative,     Nachtischen,               Nachtischen]
+      - [accusative, Nachtischen,               Nachtische ]
+  - term: die Nachspeise
+    definition: the dessert
+    declension:
+      - ["",         singular,   plural     ]
+      - ["",         noun,       noun       ]
+      - [nominative, Nachspeise, Nachspeisen]
+      - [genitive,   Nachspeise, Nachspeisen]
+      - [dative,     Nachspeise, Nachspeisen]
+      - [accusative, Nachspeise, Nachspeisen]
+  - term: Als Vorspeise nehme ich ...
+    definition: As a starter I'll take ...
+  - term: Als Hauptgericht bekomme ich ...
+    definition: For my main course I'll take ...
+  - term: Als Nachspeise möchte ich ...
+    definition: For dessert I'd like ...
   - term: Schön kühl, bitte
     definition: (drink) make it cold, please
   - term: mit Eis
     definition: (drink) with ice
   - term: ohne Eis
     definition: (drink) without ice
+  - term: schmecken
+    definition:
+      - to taste
+      - to taste good
+  - term: Hat es geschmeckt?
+    definition: Did it taste good?
+  - term: bezahlen
+    definition: to pay
+  - term: Ich möchte bazahlen.
+    definition: I'd like to pay.
   - term: besonders
     definition: especially
   - term: bis bald
