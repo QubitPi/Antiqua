@@ -31,7 +31,6 @@ vocabulary:
         Use when the grammatical gender of the noun being referred to and designating a female person, is masculine (der)).
         See the declension table of "er" for more details.
         e.g. Im Frauengefängnis versuchte ein Häftling zu flüchten, aber er kam nicht weit. (In the women's prison, an inmate tried to escape, but she didn't get very far.)
-    declension: https://www.verbformen.com/?w=er
   - term: sie
     definition:
       - she
@@ -46,15 +45,12 @@ vocabulary:
         See declension table of "sie" for more details.
         e.g. Die Geisel Richard Meier versuchte, sich zu befreien, aber sie schaffte es nicht. (The hostage Richard Meier tried to break free, but he didn’t succeed.)
       - they
-    declension: https://www.verbformen.com/?w=sie
   - term: es
     definition:
       - she/he: (old-fashioned) nominative and accusative neuter third-person singular personal pronoun
       - it
-    declension: https://www.verbformen.com/?w=es
   - term: mein
     definition: my
-    declension: https://www.verbformen.com/?w=mein
   - term: "null"
     definition: 0
   - term: eins
@@ -179,7 +175,6 @@ vocabulary:
     definition: Hello
   - term: heißen
     definition: be called
-    conjugation: https://www.verbformen.com/?w=hei%C3%9Fen
   - term: Ich heiße ...
     definition: I am called ...
   - term: der Name
@@ -452,7 +447,6 @@ vocabulary:
     definition: now
   - term: Entschuldigen
     definition: to excuse
-    conjugation: https://en.wiktionary.org/wiki/entschuldigen#Conjugation
   - term: Entschuldigen Sie
     definition: excuse me
   - term: entschuldigen Sie bitte
@@ -491,7 +485,6 @@ vocabulary:
     definition: today
   - term: heutig
     definition: today's
-    declension: https://www.verbformen.com/?w=heutigen
   - term: na ja
     definition: oh well
   - term: Mir geht es gut
@@ -512,7 +505,6 @@ vocabulary:
     definition: not... but...
   - term: arbeiten
     definition: to work
-    conjugation: https://www.verbformen.com/?w=arbeiten
   - term: arbeiten bei ...
     definition: work for
   - term: schön
@@ -545,7 +537,6 @@ vocabulary:
     definition: to report
   - term: vermeiden
     definition: to avoid
-    conjugation: https://en.wiktionary.org/wiki/vermeiden#Conjugation
   - term: legen um 3 Prozent zu
     definition: increase by 3 percent
   - term: leicht
@@ -1242,14 +1233,12 @@ vocabulary:
     definition: a piece of cheese
   - term: trinken
     definition: to drink
-    conjugation: https://en.wiktionary.org/wiki/trinken#Conjugation
   - term: grün
     definition: (adj.) green
   - term: gemischt
     definition: (adj.) mixed
   - term: panieren
     definition: to bread
-    conjugation: https://en.wiktionary.org/wiki/panieren#Conjugation
   - term: Wir möchten bestellen.
     definition: (in restaurant) We'd like to order.
   - term: Was möchten/nehmen/behommen/trinken Sie, bitte?
@@ -1272,33 +1261,24 @@ vocabulary:
     declensin: https://www.verbformen.com/?w=Stadtzentrum
   - term: die Sprachschule
     definition: language school
-    declension: https://www.verbformen.com/?w=Sprachschule
   - term: die Bildung
     definition:
       - education
       - creation
-    declension: https://en.wiktionary.org/wiki/Bildung#Declension
   - term: die Ausbildung
     definition: training, apprenticeship, vocational education
-    declension: https://en.wiktionary.org/wiki/Ausbildung#Declension
   - term: die Anglistik
     definition: English studies
-    declension: https://en.wiktionary.org/wiki/Anglistik#Declension
   - term: die Germanistik
     definition: Germanic studies
-    declension: https://en.wiktionary.org/wiki/Germanistik#Declension
   - term: die Romanistik
     definition: Romance studies
-    declension: https://en.wiktionary.org/wiki/Romanistik#Declension
   - term: die Geschichte
     definition: History
-    declension: https://en.wiktionary.org/wiki/Geschichte#Declension
   - term: die Informatik
     definition: computer science
-    declension: https://en.wiktionary.org/wiki/Informatik#Declension
   - term: die Mathematik
     definition: Mathematics
-    declension: https://en.wiktionary.org/wiki/Mathematik#Declension
   - term: der Jura
     definition: the law
     declension:
@@ -1309,19 +1289,14 @@ vocabulary:
       - [accusative, N/A,      Jura  ]
   - term: die Betriebswirtschaftslehre (BWL)
     definition: business administration
-    declension: https://en.wiktionary.org/wiki/Betriebswirtschaftslehre#Declension
   - term: Volkswirtschaftslehre (VWL)
     definition: economics
-    declension: https://en.wiktionary.org/wiki/Volkswirtschaftslehre#Declension
   - term: die Biologie
     definition: Biology
-    declension: https://en.wiktionary.org/wiki/Biologie#Declension
   - term: die Chemie
     definition: Chemistry
-    declension: https://en.wiktionary.org/wiki/Chemie#Declension
   - term: die Medizin
     definition: medicine
-    declension: https://en.wiktionary.org/wiki/Medizin#Declension
   - term: der Automechaniker
     definition: (make) car mechanic
     declension:
@@ -1332,7 +1307,6 @@ vocabulary:
       - [accusative, Automechaniker, Automechaniker ]
   - term: die Automechanikerin
     definition: (female) car mechanic
-    declension: https://www.verbformen.com/?w=Automechanikerin
   - term: der Journalist
     definition: journalist
     declension:
@@ -1343,7 +1317,6 @@ vocabulary:
       - [accusative, Journalisten, Journalisten]
   - term: die Journalistin
     definition: (female) journalist
-    declension: https://www.verbformen.com/?w=Journalistin
   - term: der Kellner
     definition: waiter
     declension:
@@ -1354,7 +1327,6 @@ vocabulary:
       - [accusative, Kellner,  Kellner ]
   - term: die Kellnerin
     definition: waitress
-    declension: https://www.verbformen.com/?w=Kellnerin
   - term: der Maurer
     definition: (male) bricklayer
     declension:
@@ -1365,7 +1337,6 @@ vocabulary:
       - [accusative, Maurer,   Maurer ]
   - term: die Maurerin
     definition: (female) bricklayer
-    declension: https://www.verbformen.com/?w=Maurerin
   - term: der Musiker
     definition: musician
     declension:
@@ -1376,7 +1347,6 @@ vocabulary:
       - [accusative, Musiker,  Musiker ]
   - term: die Musikerin
     definition: (female) musician
-    declension: https://www.verbformen.com/?w=Musikerin
   - term: der Sekretär
     definition: (male) secretary
     declension:
@@ -1387,7 +1357,6 @@ vocabulary:
       - [accusative, Sekretär,  Sekretäre ]
   - term: die Sekretärin
     definition: (female) secretary
-    declension: https://www.verbformen.com/?w=Sekret%C3%A4rin
   - term: der Student
     definition: (male) student
     declension:
@@ -1398,7 +1367,6 @@ vocabulary:
       - [accusative, Studenten, Studenten]
   - term: die Studentin
     definition: (female) student
-    declension: https://www.verbformen.com/?w=Studentin
   - term: der Taxifahrer
     definition: the taxi driver
     declension:
@@ -1409,7 +1377,6 @@ vocabulary:
       - [accusative, Taxifahrer,  Taxifahrer ]
   - term: die Taxifahrerin
     definition: (female) taxi driver
-    declension: https://www.verbformen.com/?w=Taxifahrerin
   - term: der Tischler
     definition: (male) carpenter
     declension:
@@ -1420,7 +1387,6 @@ vocabulary:
       - [accusative, Tischler,  Tischler ]
   - term: die Tischlerin
     definition: (female) carpenter
-    declension: https://www.verbformen.com/?w=Tischlerin
   - term: der Verkaüfer
     definition: (male) shop assistant
     declension:
@@ -1431,7 +1397,6 @@ vocabulary:
       - [accusative, Verkäufer,  Verkäufer ]
   - term: die Verkaüferin
     definition: (female) shop assistant
-    declension: https://www.verbformen.com/?w=Verk%C3%A4uferin
   - term: der Arzt
     definition: (male) doctor
     declension:
@@ -1442,7 +1407,6 @@ vocabulary:
       - [accusative, Arzt,            Ärzte ]
   - term: die Ärztin
     definition: (female) doctor
-    declension: https://www.verbformen.com/?w=%C3%84rztin
   - term: der Koch
     definition: (male) chef
     declension:
@@ -1453,7 +1417,6 @@ vocabulary:
       - [accusative, Koch,            Köche ]
   - term: die Köchin
     definition: (female) chef
-    declension: https://www.verbformen.com/?w=K%C3%B6chin
   - term: der Friseur
     definition: (male) hairdresser
     declension:
@@ -1464,7 +1427,6 @@ vocabulary:
       - [accusative, Friseur,  Friseure ]
   - term: die Friseuse
     definition: (female) hairdresser
-    declension: https://www.verbformen.com/?w=Friseuse
   - term: der Frisör
     definition: (male) hairdresser
     declension:
@@ -1475,7 +1437,6 @@ vocabulary:
       - [accusative, Frisör,   Frisöre ]
   - term: die Frisöse
     definition: (female) hairdresser
-    declension: https://www.verbformen.com/?w=Fris%C3%B6se
   - term: der Hausmann
     definition: the househusband
     declension:
@@ -1486,7 +1447,6 @@ vocabulary:
       - [accusative, Hausmann,                Hausmänner ]
   - term: die Hausfrau
     definition: housewife
-    declension: https://www.verbformen.com/?w=Hausfrau
   - term: der Kaufmann
     definition: (male) trader
     declension:
@@ -1509,10 +1469,8 @@ vocabulary:
       - [accusative, Krankenpfleger,  Krankenpfleger ]
   - term: die Krankenschwester
     definition: (female) nurse
-    declension: https://www.verbformen.com/?w=Krankenschwester
   - term: willkommen
     definition: welcome
-    declension: https://www.verbformen.com/?w=willkommen
   - term: denn
     definition:
       - (adv.) then, thus
@@ -1541,7 +1499,6 @@ vocabulary:
       - [accusative, Beruf,             Berufe ]
   - term: berufstätig
     definition: employed
-    declension: https://www.verbformen.com/?w=berufst%C3%A4tig
   - term: Sind Sie berufstätig?
     definition: Do you have a job?
   - term: Was sind Sie von Beruf?
@@ -1554,12 +1511,10 @@ vocabulary:
     definition: That's great!
   - term: interessant
     definition: interesting
-    declension: https://en.wiktionary.org/wiki/interessant#Declension
   - term: interessiert
     definition: (adj.) interested
   - term: langweilig
     definition: boring
-    declension: https://en.wiktionary.org/wiki/langweilig#Declension
   - term: Na ja
     definition: (informal) Oh well
   - term: wohl
@@ -1570,47 +1525,36 @@ vocabulary:
     definition: Is there a ... nearby?
   - term: haben
     definition: to have
-    conjugation: https://en.wiktionary.org/wiki/haben#Conjugation
   - term: nehmen
     definition: to take
-    conjugation: https://en.wiktionary.org/wiki/nehmen#Conjugation
   - term: gehen
     definition: to go
-    conjugation: https://en.wiktionary.org/wiki/gehen#Conjugation
   - term: geben
     definition: to give
-    conjugation: https://en.wiktionary.org/wiki/geben#Conjugation
   - term: finden
     definition: to find
-    conjugation: https://en.wiktionary.org/wiki/finden#Conjugation
   - term: bekommen
     definition: to get
-    conjugation: https://en.wiktionary.org/wiki/bekommen#Conjugation
   - term: weit
     definition:
       - wide
       - large
       - far
-    declension: https://en.wiktionary.org/wiki/weit#Declension
   - term: ungefähr
     definition: (adj.) approximate
-    declension: https://en.wiktionary.org/wiki/ungef%C3%A4hr#Declension
   - term: brauchen
     definition: to need
-    conjugation: https://en.wiktionary.org/wiki/brauchen#Conjugation
   - term: mögen
     definition:
       - would like
       - to like
       - to want to
       - may
-    conjugation: https://en.wiktionary.org/wiki/m%C3%B6gen#Conjugation
   - term: nämlich
     definition:
       - (adj.) same
       - (adv.) namely
       - (adv.) because
-    declension: https://en.wiktionary.org/wiki/n%C3%A4mlich#Declension
   - term: na klar
     definition: of course
   - term: die Ecke
@@ -1625,7 +1569,6 @@ vocabulary:
     definition: go around the corner to the right here
   - term: die Straße
     definition: the street
-    declension: https://en.wiktionary.org/wiki/Stra%C3%9Fe#Declension
   - term: links
     definition:
       - (adv.) on the left
@@ -1700,14 +1643,12 @@ vocabulary:
       - fat
   - term: bestellen
     definition: to order
-    conjugation: https://en.wiktionary.org/wiki/bestellen#Conjugation
   - term: kühl
     definition:
       - cold
       - calm
   - term: schmecken
     definition: to taste
-    conjugation: https://en.wiktionary.org/wiki/schmecken#Verb
   - term: lecker
     definition: delicious
   - term: also
@@ -1734,7 +1675,6 @@ vocabulary:
       - [accusative, Ding,            Dinge, Dinger    ]
   - term: kaufen
     definition: to buy
-    conjugation: https://en.wiktionary.org/wiki/kaufen#Conjugation
   - term: Hier kann man viel kaufen.
     definition: People can buy a lot here.
   - term: das Beispiel
@@ -1837,7 +1777,6 @@ vocabulary:
       - [ accusative, Zigarette, Zigaretten]
   - term: beantworten
     definition: to answer
-    conjugation: https://en.wiktionary.org/wiki/beantworten#Conjugation
   - term: gern
     definition: (adv.) gladly, with pleasure
   - term: das Pfund
@@ -1897,7 +1836,6 @@ vocabulary:
       - to be done
       - to become
       - to happen
-    conjugation: https://en.wiktionary.org/wiki/werden#Conjugation
   - term: gesund
     definition: gesund
   - term: helfen
@@ -1922,10 +1860,8 @@ vocabulary:
       - [accusative, Menschen, Menschen]
   - term: schreiben
     definition: to write
-    conjugation: https://en.wiktionary.org/wiki/schreiben#Conjugation
   - term: sagen
     definition: to say
-    conjugation: https://en.wiktionary.org/wiki/sagen#Conjugation
   - term: Das machen Sie auch, oder?
     definition: You do that too, right?
   - term: Warum Sie nicht sagen?
@@ -1936,7 +1872,6 @@ vocabulary:
     definition: young
   - term: lieben
     definition: to love
-    conjugation: https://en.wiktionary.org/wiki/lieben#Conjugation
   - term: Sie ihn schon lange lieben?
     definition: Have you loved him for a long time?
   - term: immer
@@ -1955,7 +1890,6 @@ vocabulary:
     definition: to know
   - term: die Wissenschaft
     definition: Science
-    declension: https://en.wiktionary.org/wiki/Wissenschaft#Declension
   - term: nie
     definition: adv. never
   - term: kämpfen
@@ -1970,7 +1904,6 @@ vocabulary:
     definition: I haven't heard from him since July.
   - term: die Woche
     definition: week
-    declension: https://www.verbformen.com/?w=Woche
   - term: das Jahren
     definition: year
   - term: seit zwei Jahren
@@ -1981,7 +1914,6 @@ vocabulary:
     definition: perhaps
   - term: sollen
     definition: should
-    conjugation: https://en.wiktionary.org/wiki/sollen#Conjugation_2
   - term: Vielleicht sollten Sie ...
     definition: Maybe you should ...
   - term: weggehen
@@ -2026,7 +1958,6 @@ vocabulary:
       - [accusative, Abschied,                Abschiede ]
   - term: verabschieden
     definition: to say goodbye
-    conjugation: https://en.wiktionary.org/wiki/verabschieden#Conjugation
   - term: der Weg
     definition: the path
     declension:
@@ -2037,7 +1968,6 @@ vocabulary:
       - [accusative, Weg,           Wege  ]
   - term: trennen
     definition: to separate
-    conjugation: https://en.wiktionary.org/wiki/trennen#Conjugation
   - term: das Viertel
     definition: the neighborhood
     declension:
@@ -2048,7 +1978,6 @@ vocabulary:
       - [ accusative, Viertel,  Viertel ]
   - term: aufwachsen
     definition: to grow up
-    conjugation: https://en.wiktionary.org/wiki/aufwachsen#Conjugation
   - term: das Kind
     definition: the child
     declension:
@@ -2075,7 +2004,6 @@ vocabulary:
       - (adv.) just
   - term: zusammenhalten
     definition: to hold together
-    conjugation: https://en.wiktionary.org/wiki/zusammenhalten#Conjugation
   - term: das Nesthäkchen
     definition: the lastborn of a family's children
     declension:
@@ -2107,12 +2035,10 @@ vocabulary:
       - to perform
       - to provide
       - to afford
-    conjugation: https://en.wiktionary.org/wiki/leisten#Conjugation
   - term: das Lazarett
     definition: military hospital
   - term: wollen
     definition: to want
-    conjugation: https://en.wiktionary.org/wiki/wollen#Conjugation
   - term: hinter
     definition:
       - (prop.) behind
@@ -2141,7 +2067,6 @@ vocabulary:
       - to follow
       - to understand
       - to obey
-    conjugation: https://en.wiktionary.org/wiki/folgen#Conjugation
   - term: das Unteroffizier
     definition: the non-commissioned officer
     declension:
@@ -2172,7 +2097,6 @@ vocabulary:
       - [accusative, Schneider,  Schneider ]
   - term: übernehmen
     definition: to take over
-    conjugation: https://en.wiktionary.org/wiki/%C3%BCbernehmen#Conjugation
   - term: das Geschäft
     definition:
       - the store
@@ -2205,7 +2129,6 @@ vocabulary:
       - [accusative, Scherbe,  Scherben]
   - term: zerfallen
     definition: to disintegrate
-    conjugation: https://en.wiktionary.org/wiki/zerfallen#Conjugation
   - term: derjenige
     definition:
       - (pron.) he
@@ -2280,7 +2203,6 @@ vocabulary:
       - [accusative, Bücherwurm,                  Bücherwürmer ]
   - term: bewundern
     definition: to admire
-    conjugation: https://en.wiktionary.org/wiki/bewundern#Conjugation
   - term: die Klugheit
     definition:
       - (uncountable) the prudence
@@ -2353,49 +2275,38 @@ vocabulary:
     definition: female equivalent of Volksgenosse
   - term: das Thema
     definition: theme, subject
-    declension: https://www.verbformen.com/?w=Thema
   - term: scharf
     definition:
       - sharp,
       - hot
   - term: umstritten
     definition: controversial
-    declension: https://www.verbformen.com/?w=umstritten
   - term: scharf umstritten
     definition: hotly disputed
   - term: die Seite
     definition: side
   - term: beleuchten
     definition: to illuminate
-    conjugation: https://en.wiktionary.org/wiki/beleuchten#Conjugation
   - term: die Beleuchtung
     definition: illumination
-    declension: https://en.wiktionary.org/wiki/Beleuchtung#Declension
   - term: bewusst
     definition: (adj.) conscious, aware
-    declension: https://en.wiktionary.org/wiki/bewusst#Declension
   - term: bewußt
     definition: Formerly standard spelling of bewusst which was deprecated in the German orthography reform of 1996
   - term: diskutieren
     definition: to discuss
-    conjugation: https://en.wiktionary.org/wiki/diskutieren#Conjugation
   - term: die Angelegenheit
     definition: matter, issue, affair
-    declension: https://en.wiktionary.org/wiki/Angelegenheit#Declension
   - term: die Sache
     definition:
       - matter, issue, affair
       - thing, object
-    declension: https://en.wiktionary.org/wiki/Sache#Declension
   - term: theoretisch
     definition: theoretical
-    declension: https://en.wiktionary.org/wiki/theoretisch#Declension
   - term: die Praxis
     definition: practice, opposite of theory
-    declension: https://en.wiktionary.org/wiki/Praxis#Declension
   - term: erforschen
     definition: to explore
-    conjugation: https://en.wiktionary.org/wiki/erforschen#Conjugation
   - term: welcher
     definition: which
   - term: etwa
@@ -2408,19 +2319,14 @@ vocabulary:
     definition: approximately 400 meters
   - term: bessern
     definition: to improve
-    conjugation: https://en.wiktionary.org/wiki/bessern#Conjugation
   - term: Erfolg
     definition: success
-    declension: https://en.wiktionary.org/wiki/Erfolg#Declension
   - term: führen
     definition: to lead
-    conjugation: https://en.wiktionary.org/wiki/f%C3%BChren#Conjugation
   - term: gewünscht
     definition: desired
-    declension: https://en.wiktionary.org/wiki/gew%C3%BCnscht#Declension
   - term: geistreich
     definition: witty
-    declension: https://en.wiktionary.org/wiki/geistreich#Declension
   - term: die Aufgabe
     definition: |
       - duty, job
@@ -2435,7 +2341,6 @@ vocabulary:
     definition: someone
   - term: Ergebnis
     definition: result
-    declension: https://en.wiktionary.org/wiki/Ergebnis#Declension
   - term: führt zu keinem Ergebnis
     definition: leads to no result
   - term: ob
@@ -2448,10 +2353,8 @@ vocabulary:
       - (conj.) if
   - term: einwirken
     definition: to affect
-    conjugation: https://en.wiktionary.org/wiki/einwirken#Conjugation
   - term: können
     definition: to be able to
-    conjugation: https://en.wiktionary.org/wiki/k%C3%B6nnen#Conjugation
 
 
 
@@ -2459,19 +2362,14 @@ vocabulary:
     definition: pure
   - term: die Vernunft
     definition: reason
-    declension: https://www.verbformen.com/?w=Vernunft
   - term: Transzendental
     definition: transcendental
-    declension: https://www.verbformen.com/?w=Transzendental
   - term: elementar
     definition: elemental, fundamental
-    declension: https://www.verbformen.com/?w=Elementar
   - term: die Lehre
     definition: theory, doctrine
-    declension: https://www.verbformen.com/?w=Lehre
   - term: erste
     definition: first
-    declension: https://en.wiktionary.org/wiki/erste#Declension
   - term: der Teil
     definition: part, portion
     declension:
@@ -2482,17 +2380,14 @@ vocabulary:
       - [accusative, Teil,            Teile ]
   - term: die Ästhetik
     definition: aesthetics
-    declension: https://www.verbformen.com/?w=%C3%84sthetik
   - term: die Art
     definition: kind, sort, type
-    declension: https://www.verbformen.com/?w=Art
   - term: durch
     definition:
       - (prep.) by means of
       - (prep.) through
   - term: das Mittel
     definition: means
-    declension: https://www.verbformen.com/?w=Mittel
   - term: die Erkenntnis
     definition: recognition
     declension:
@@ -2513,14 +2408,12 @@ vocabulary:
       - [accusative, Gegenstand,                  Gegenstände ]
   - term: beziehen
     definition: to relate
-    conjugation: https://en.wiktionary.org/wiki/beziehen#Conjugation
   - term: wodurch
     definition:
       - (adv.) whereby,
       - (adv.) through what
   - term: denken
     definition: to think
-    conjugation: https://en.wiktionary.org/wiki/denken#Conjugation_2
   - term: das Denken
     definition: (gerund of genken) thought(s)
     declension:
@@ -2626,7 +2519,5 @@ vocabulary:
       - [accusative, Idee,     Ideen ]
   - term: erwärmen
     definition: to warm up
-    conjugation: https://en.wiktionary.org/wiki/erw%C3%A4rmen#Conjugation
   - term: erwerben
     definition: to gain
-    conjugation: https://en.wiktionary.org/wiki/erwerben#Conjugation
