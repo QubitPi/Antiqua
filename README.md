@@ -4,39 +4,6 @@ Wilhelm Vocabulary
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Apache License Badge]][Apache License, Version 2.0]
 
-<!-- TOC -->
-
-- [Wilhelm Vocabulary](#wilhelm-vocabulary)
-  - [Data Format](#data-format)
-    - [Encoding Table in YAML](#encoding-table-in-yaml)
-  - [Data Pipeline](#data-pipeline)
-  - [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
-    - [Why Graph Database](#why-graph-database)
-    - [Base Schema](#base-schema)
-    - [Inflections](#inflections)
-    - [Basic Graph Query](#basic-graph-query)
-  - [Languages](#languages)
-    - [German](#german)
-      - [Noun Declension](#noun-declension)
-        - [Declension Templates](#declension-templates)
-          - [Masculine](#masculine)
-          - [Feminine](#feminine)
-          - [Neuter](#neuter)
-      - [(Attributive) Adjective Declension](#attributive-adjective-declension)
-      - [Pronoun Declension](#pronoun-declension)
-      - [Verb Conjugation](#verb-conjugation)
-    - [Ancient Greek](#ancient-greek)
-      - [Diacritic Mark Convention](#diacritic-mark-convention)
-      - [Noun Declension](#noun-declension-1)
-      - [Adjective Declension](#adjective-declension)
-      - [Verb Conjugation](#verb-conjugation-1)
-    - [Latin](#latin)
-    - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
-    - [Korean](#korean)
-  - [License](#license)
-
-<!-- TOC -->
-
 Data Format
 -----------
 
