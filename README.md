@@ -218,21 +218,19 @@ __Declension__ is the inflection for nouns and adjectives.
 > __The declension tables for all nouns are sourced from
 > [Wiktionary](https://en.wiktionary.org/wiki/Kaufmann#Declension)__
 
-##### Declension Templates
-
-###### Masculine
+##### Declension Template
 
 `term` with a _definite article_ of __der__ signifies a __masculine noun__ which has a declension table template of the
 following form:
 
 ```yaml
 declension:
-  - ["",         singular, singular, singular, plural, plural]
-  - ["",         indef.,   def.,     noun,     def.,   noun  ]
-  - [nominative, ein,      der,      ████████, die,    ██████]
-  - [genitive,   eines,    des,      ████████, der,    ██████]
-  - [dative,     einem,    dem,      ████████, den,    ██████]
-  - [accusative, einen,    den,      ████████, die,    ██████]
+  - ["",         singular, plural]
+  - ["",         noun,     noun  ]
+  - [nominative, ████████, ██████]
+  - [genitive,   ████████, ██████]
+  - [dative,     ████████, ██████]
+  - [accusative, ████████, ██████]
 ```
 
 For example:
@@ -254,82 +252,7 @@ For example:
 > [!CAUTION]
 >
 > [Adjectival nouns](https://en.wikibooks.org/wiki/German/Grammar/Nouns/Adjectival_Nouns), however, do NOT follow the
-> template above. Instead, it uses [adjective declension table template](#attributive-adjective-declension)
->
-> The definition of the adjectival nouns begins with "__(Adjectival nouns)__"`. For example:
->
-> ```yaml
->   - term: der Kranker
->     definition: (Adjectival nouns) the sick person
->     declension:
->       strong declension (without article):
->         - ["",         singular,  singular, singular, plural ]
->         - ["",         masculine, feminine, neuter,   ""     ]
->         - [nominative, Kranker,   N/A,      N/A,      Kranke ]
->         - [genitive,   Kranken,   N/A,      N/A,      Kranker]
->         - [dative,     Krankem,   N/A,      N/A,      Kranken]
->         - [accusative, Kranken,   N/A,      N/A,      Kranke ]
->       weak declension (with definite article):
->         - ["",         singular,    singular, singular, plural     ]
->         - ["",         masculine,   feminine, neuter,   ""         ]
->         - [nominative, der Kranke,  N/A,      N/A,      die Kranken]
->         - [genitive,   des Kranken, N/A,      N/A,      der Kranken]
->         - [dative,     dem Kranken, N/A,      N/A,      den Kranken]
->         - [accusative, den Kranken, N/A,      N/A,      die Kranken]
->       mixed declension (with indefinite article):
->         - ["",         singular,      singular, singular, plural          ]
->         - ["",         masculine,     feminine, neuter,   ""              ]
->         - [nominative, ein Kranker,   N/A,      N/A,      (keine)  Kranken]
->         - [genitive,   eines Kranken, N/A,      N/A,      (keiner) Kranken]
->         - [dative,     einem Kranken, N/A,      N/A,      (keinen) Kranken]
->         - [accusative, einen Kranken, N/A,      N/A,      (keine)  Kranken]
-> ```
->
-> Note that since "Kranker" is masculine, all feminine and neuter declensions are undefined and, thus, are marked with
-> "N/A".
-
-###### Feminine
-
-`term` with a _definite article_ of __die__ signifies a __feminine noun__ which has a declension table template of the
-following form:
-
-```yaml
-declension:
-  - ["",         singular, singular, singular, plural, plural]
-  - ["",         indef.,   def.,     noun,     def.,   noun  ]
-  - [nominative, eine,     die,      ████████, die,    ██████]
-  - [genitive,   einer,    der,      ████████, der,    ██████]
-  - [dative,     einer,    der,      ████████, den,    ██████]
-  - [accusative, eine,     die,      ████████, die,    ██████]
-```
-
-###### Neuter
-
-`term` with a _definite article_ of __das__ signifies a __neuter noun__ which has a declension table template of the
-following form:
-
-```yaml
-declension:
-  - ["",         singular, singular, singular, plural, plural]
-  - ["",         indef.,   def.,     noun,     def.,   noun  ]
-  - [nominative, ein,      das,      ████████, die,    ██████]
-  - [genitive,   eines,    des,      ████████, der,    ██████]
-  - [dative,     einem,    dem,      ████████, den,    ██████]
-  - [accusative, ein,      das,      ████████, die,    ██████]
-```
-
-#### Pronoun Declension
-
-Declension tamplate:
-
-```yaml
-declension:
-  - ["",         masclune, feminine, neuter, plural]
-  - [nominative, ████████, ████████, ██████, ██████]
-  - [genitive,   ████████, ████████, ██████, ██████]
-  - [dative,     ████████, ████████, ██████, ██████]
-  - [accusative, ████████, ████████, ██████, ██████]
-```
+> template above.
 
 #### Verb Conjugation
 

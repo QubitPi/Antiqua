@@ -185,12 +185,11 @@ vocabulary:
   - term: der Name
     definition: name
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      Name,     die,    Namen ]
-      - [genitive,   eines,    des,      Namens,   der,    Namen ]
-      - [dative,     einem,    dem,      Namen,    den,    Namen ]
-      - [accusative, einen,    den,      Namen,    die,    Namen ]
+      - ["",         singular, plural]
+      - [nominative, Name,     Namen ]
+      - [genitive,   Namens,   Namen ]
+      - [dative,     Namen,    Namen ]
+      - [accusative, Namen,    Namen ]
   - term: Mein Name ist ...
     definition: My name is ...
   - term: bitte
@@ -228,21 +227,19 @@ vocabulary:
   - term: der Amerikaner
     definition: American
     declension:
-      - ["",         singular, singular, singular,    plural, plural     ]
-      - ["",         indef.,   def.,     noun,        def.,   noun       ]
-      - [nominative, ein,      der,      Amerikaner,  die,    Amerikaner ]
-      - [genitive,   eines,    des,      Amerikaners, der,    Amerikaner ]
-      - [dative,     einem,    dem,      Amerikaner,  den,    Amerikanern]
-      - [accusative, einen,    den,      Amerikaner,  die,    Amerikaner ]
+      - ["",         singular,    plural     ]
+      - [nominative, Amerikaner,  Amerikaner ]
+      - [genitive,   Amerikaners, Amerikaner ]
+      - [dative,     Amerikaner,  Amerikanern]
+      - [accusative, Amerikaner,  Amerikaner ]
   - term: die Amerikanerin
     definition: (female) American
     declension:
-      - ["",         singular, singular, singular,     plural, plural         ]
-      - ["",         indef.,   def.,     noun,         def.,   noun           ]
-      - [nominative, eine,     die,      Amerikanerin, die,    Amerikanerinnen]
-      - [genitive,   einer,    der,      Amerikanerin, der,    Amerikanerinnen]
-      - [dative,     einer,    der,      Amerikanerin, den,    Amerikanerinnen]
-      - [accusative, eine,     die,      Amerikanerin, die,    Amerikanerinnen]
+      - ["",         singular,     plural         ]
+      - [nominative, Amerikanerin, Amerikanerinnen]
+      - [genitive,   Amerikanerin, Amerikanerinnen]
+      - [dative,     Amerikanerin, Amerikanerinnen]
+      - [accusative, Amerikanerin, Amerikanerinnen]
   - term: den USA
     definition: United States
   - term: das Belgien
@@ -264,21 +261,19 @@ vocabulary:
   - term: die Engländerin
     definition: (female) the English person
     declension:
-      - ["",         singular, singular, singular,    plural, plural        ]
-      - ["",         indef.,   def.,     noun,        def.,   noun          ]
-      - [nominative, eine,     die,      Engländerin, die,    Engländerinnen]
-      - [genitive,   einer,    der,      Engländerin, der,    Engländerinnen]
-      - [dative,     einer,    der,      Engländerin, den,    Engländerinnen]
-      - [accusative, eine,     die,      Engländerin, die,    Engländerinnen]
+      - ["",         singular,    plural        ]
+      - [nominative, Engländerin, Engländerinnen]
+      - [genitive,   Engländerin, Engländerinnen]
+      - [dative,     Engländerin, Engländerinnen]
+      - [accusative, Engländerin, Engländerinnen]
   - term: der Engländer
     definition: (male) the English person
     declension:
-      - ["",         singular, singular, singular,   plural, plural    ]
-      - ["",         indef.,   def.,     noun,       def.,   noun      ]
-      - [nominative, ein,      der,      Engländer,  die,    Engländer ]
-      - [genitive,   eines,    des,      Engländers, der,    Engländer ]
-      - [dative,     einem,    dem,      Engländer,  den,    Engländern]
-      - [accusative, einen,    den,      Engländer,  die,    Engländer ]
+      - ["",         singular,   plural    ]
+      - [nominative, Engländer,  Engländer ]
+      - [genitive,   Engländers, Engländer ]
+      - [dative,     Engländer,  Engländern]
+      - [accusative, Engländer,  Engländer ]
   - term: das Frankreich
     definition: France
   - term: das Französisch
@@ -288,12 +283,11 @@ vocabulary:
   - term: der Franzose
     definition: (male) the French person
     declension:
-      - ["",         singular, singular, singular,  plural, plural   ]
-      - ["",         indef.,   def.,     noun,      def.,   noun     ]
-      - [nominative, ein,      der,      Franzose,  die,    Franzosen]
-      - [genitive,   eines,    des,      Franzosen, der,    Franzosen]
-      - [dative,     einem,    dem,      Franzosen, den,    Franzosen]
-      - [accusative, einen,    den,      Franzosen, die,    Franzosen]
+      - ["",         singular,  plural   ]
+      - [nominative, Franzose,  Franzosen]
+      - [genitive,   Franzosen, Franzosen]
+      - [dative,     Franzosen, Franzosen]
+      - [accusative, Franzosen, Franzosen]
   - term: das Griechenland
     definition: Greece
   - term: das Griechisch
@@ -301,21 +295,19 @@ vocabulary:
   - term: die Griechin
     definition: (female) Greek
     declension:
-      - ["",         singular, singular, singular, plural, plural     ]
-      - ["",         indef.,   def.,     noun,     def.,   noun       ]
-      - [nominative, eine,     die,      Griechin, die,    Griechinnen]
-      - [genitive,   einer,    der,      Griechin, der,    Griechinnen]
-      - [dative,     einer,    der,      Griechin, den,    Griechinnen]
-      - [accusative, eine,     die,      Griechin, die,    Griechinnen]
+      - ["",         singular, plural     ]
+      - [nominative, Griechin, Griechinnen]
+      - [genitive,   Griechin, Griechinnen]
+      - [dative,     Griechin, Griechinnen]
+      - [accusative, Griechin, Griechinnen]
   - term: der Grieche
     definition: (male) the Greek person
     declension:
-      - ["",         singular, singular, singular, plural, plural  ]
-      - ["",         indef.,   def.,     noun,     def.,   noun    ]
-      - [nominative, ein,      der,      Grieche,  die,    Griechen]
-      - [genitive,   eines,    des,      Griechen, der,    Griechen]
-      - [dative,     einem,    dem,      Griechen, den,    Griechen]
-      - [accusative, einen,    den,      Griechen, die,    Griechen]
+      - ["",         singular, plural  ]
+      - [nominative, Grieche,  Griechen]
+      - [genitive,   Griechen, Griechen]
+      - [dative,     Griechen, Griechen]
+      - [accusative, Griechen, Griechen]
   - term: das Großbritannien
     definition: Great Britain
   - term: das Irland
@@ -325,12 +317,11 @@ vocabulary:
   - term: der Ire
     definition: Irishman
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      Ire,      die,    Iren  ]
-      - [genitive,   eines,    des,      Iren,     der,    Iren  ]
-      - [dative,     einem,    dem,      Iren,     den,    Iren  ]
-      - [accusative, einen,    den,      Iren,     die,    Iren  ]
+      - ["",         singular, plural]
+      - [nominative, Ire,      Iren  ]
+      - [genitive,   Iren,     Iren  ]
+      - [dative,     Iren,     Iren  ]
+      - [accusative, Iren,     Iren  ]
   - term: das Italien
     definition: Italy
   - term: das Japanisch
@@ -340,12 +331,11 @@ vocabulary:
   - term: der Japaner
     definition: (male) Japanese
     declension:
-      - ["",         singular, singular, singular, plural, plural  ]
-      - ["",         indef.,   def.,     noun,     def.,   noun    ]
-      - [nominative, ein,      der,      Japaner,  die,    Japaner ]
-      - [genitive,   eines,    des,      Japaners, der,    Japaner ]
-      - [dative,     einem,    dem,      Japaner,  den,    Japanern]
-      - [accusative, einen,    den,      Japaner,  die,    Japaner ]
+      - ["",         singular, plural  ]
+      - [nominative, Japaner,  Japaner ]
+      - [genitive,   Japaners, Japaner ]
+      - [dative,     Japaner,  Japanern]
+      - [accusative, Japaner,  Japaner ]
   - term: das Luxemburg
     definition: Luxembourg
   - term: die Niederlande
@@ -359,12 +349,11 @@ vocabulary:
   - term: der Österreicher
     definition: (male) Austraian
     declension:
-      - ["",         singular, singular, singular,      plural, plural       ]
-      - ["",         indef.,   def.,     noun,          def.,   noun         ]
-      - [nominative, ein,      der,      Österreicher,  die,    Österreicher ]
-      - [genitive,   eines,    des,      Österreichers, der,    Österreicher ]
-      - [dative,     einem,    dem,      Österreicher,  den,    Österreichern]
-      - [accusative, einen,    den,      Österreicher,  die,    Österreicher ]
+      - ["",         singular,      plural       ]
+      - [nominative, Österreicher,  Österreicher ]
+      - [genitive,   Österreichers, Österreicher ]
+      - [dative,     Österreicher,  Österreichern]
+      - [accusative, Österreicher,  Österreicher ]
   - term: das Wien
     definition: Vienna (capital of Austria)
   - term: das Portugal
@@ -382,12 +371,11 @@ vocabulary:
   - term: der Schotte
     definition: Scotsman
     declension:
-      - ["",         singular, singular, singular, plural, plural  ]
-      - ["",         indef.,   def.,     noun,     def.,   noun    ]
-      - [nominative, ein,      der,      Schotte,  die,    Schotten]
-      - [genitive,   eines,    des,      Schotten, der,    Schotten]
-      - [dative,     einem,    dem,      Schotten, den,    Schotten]
-      - [accusative, einen,    den,      Schotten, die,    Schotten]
+      - ["",         singular, plural  ]
+      - [nominative, Schotte,  Schotten]
+      - [genitive,   Schotten, Schotten]
+      - [dative,     Schotten, Schotten]
+      - [accusative, Schotten, Schotten]
   - term: das Spanien
     definition: Spain
   - term: das Spanisch
@@ -397,12 +385,11 @@ vocabulary:
   - term: der Spanier
     definition: (male) the Spanish person
     declension:
-      - ["",         singular, singular, singular, plural, plural  ]
-      - ["",         indef.,   def.,     noun,     def.,   noun    ]
-      - [nominative, ein,      der,      Spanier,  die,    Spanier ]
-      - [genitive,   eines,    des,      Spaniers, der,    Spanier ]
-      - [dative,     einem,    dem,      Spanier,  den,    Spaniern]
-      - [accusative, einen,    den,      Spanier,  die,    Spanier ]
+      - ["",         singular, plural  ]
+      - [nominative, Spanier,  Spanier ]
+      - [genitive,   Spaniers, Spanier ]
+      - [dative,     Spanier,  Spaniern]
+      - [accusative, Spanier,  Spanier ]
   - term: die Türkei
     definition: Turkey
   - term: das Türkisch
@@ -412,12 +399,11 @@ vocabulary:
   - term: der Türke
     definition: (male) Turkish
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      Türke,    die,    Türken]
-      - [genitive,   eines,    des,      Türken,   der,    Türken]
-      - [dative,     einem,    dem,      Türken,   den,    Türken]
-      - [accusative, einen,    den,      Türken,   die,    Türken]
+      - ["",         singular, plural]
+      - [nominative, Türke,    Türken]
+      - [genitive,   Türken,   Türken]
+      - [dative,     Türken,   Türken]
+      - [accusative, Türken,   Türken]
   - term: das Ungarn
     definition: Hungary
   - term: das Wales
@@ -429,12 +415,11 @@ vocabulary:
   - term: der Waliser
     definition: Welshman
     declension:
-      - ["",         singular, singular, singular, plural, plural  ]
-      - ["",         indef.,   def.,     noun,     def.,   noun    ]
-      - [nominative, ein,      der,      Waliser,  die,    Waliser ]
-      - [genitive,   eines,    des,      Walisers, der,    Waliser ]
-      - [dative,     einem,    dem,      Waliser,  den,    Walisern]
-      - [accusative, einen,    den,      Waliser,  die,    Waliser ]
+      - ["",         singular, plural  ]
+      - [nominative, Waliser,  Waliser ]
+      - [genitive,   Walisers, Waliser ]
+      - [dative,     Waliser,  Walisern]
+      - [accusative, Waliser,  Waliser ]
   - term: Brüssel
     definition: Brussels
   - term: Amsterdam
@@ -442,23 +427,21 @@ vocabulary:
   - term: das Russland
     definition: the Russia
     declension:
-      - ["",         singular, singular, singular,  plural, plural]
-      - ["",         indef.,   def.,     noun,      def.,   noun  ]
-      - [nominative, ein,      das,      Russland,  N/A,    N/A   ]
-      - [genitive,   eines,    des,      Russlands, N/A,    N/A   ]
-      - [dative,     einem,    dem,      Russland,  N/A,    N/A   ]
-      - [accusative, ein,      das,      Russland,  N/A,    N/A   ]
+      - ["",         singular,  plural]
+      - [nominative, Russland,  N/A   ]
+      - [genitive,   Russlands, N/A   ]
+      - [dative,     Russland,  N/A   ]
+      - [accusative, Russland,  N/A   ]
   - term: Russisch
     definition: Russian (language)
   - term: der Geburtsort
     definition: place of birth
     declension:
-      - ["",         singular, singular, singular,                    plural, plural      ]
-      - ["",         indef.,   def.,     noun,                        def.,   noun        ]
-      - [nominative, ein,      der,      Geburtsort,                  die,    Geburtsorte ]
-      - [genitive,   eines,    des,      "Geburtsortes, Geburtsorts", der,    Geburtsorte ]
-      - [dative,     einem,    dem,      Geburtsort,                  den,    Geburtsorten]
-      - [accusative, einen,    den,      Geburtsort,                  die,    Geburtsorte ]
+      - ["",         singular,                    plural      ]
+      - [nominative, Geburtsort,                  Geburtsorte ]
+      - [genitive,   "Geburtsortes, Geburtsorts", Geburtsorte ]
+      - [dative,     Geburtsort,                  Geburtsorten]
+      - [accusative, Geburtsort,                  Geburtsorte ]
   - term: Wohnort
     definition: place of residence
   - term: aber
@@ -549,12 +532,11 @@ vocabulary:
   - term: der Bericht
     definition: report
     declension:
-      - ["",         singular, singular, singular,              plural, plural   ]
-      - ["",         indef.,   def.,     noun,                  def.,   noun     ]
-      - [nominative, ein,      der,      Bericht,               die,    Berichte ]
-      - [genitive,   eines,    des,      "Berichtes, Berichts", der,    Berichte ]
-      - [dative,     einem,    dem,      Bericht,               den,    Berichten]
-      - [accusative, einen,    den,      Bericht,               die,    Berichte ]
+      - ["",         singular,              plural   ]
+      - [nominative, Bericht,               Berichte ]
+      - [genitive,   "Berichtes, Berichts", Berichte ]
+      - [dative,     Bericht,               Berichten]
+      - [accusative, Bericht,               Berichte ]
   - term: die Börse
     definition: stock exchange
   - term: melden
@@ -573,39 +555,35 @@ vocabulary:
   - term: die Bank
     definition: the bank
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, eine,     die       Bank,     die,    Bänke ]
-      - [genitive,   einer,    der       Bank,     der,    Bänke ]
-      - [dative,     einer,    der       Bank,     den,    Bänke ]
-      - [accusative, eine,     die       Bank,     die,    Bänke ]
+      - ["",         singular, plural]
+      - [nominative, Bank,     Bänke ]
+      - [genitive,   Bank,     Bänke ]
+      - [dative,     Bank,     Bänke ]
+      - [accusative, Bank,     Bänke ]
   - term: das Geld
     definition: the money
     declension:
-      - ["",         singular, singular, singular,        plural, plural ]
-      - ["",         indef.,   def.,     noun,            def.,   noun   ]
-      - [nominative, ein,      das,      Geld,            die,    Gelder ]
-      - [genitive,   eines,    des,      "Geldes, Gelds", der,    Gelder ]
-      - [dative,     einem,    dem,      Geld,            den,    Geldern]
-      - [accusative, ein,      das,      Geld,            die,    Gelder ]
+      - ["",         singular,        plural ]
+      - [nominative, Geld,            Gelder ]
+      - [genitive,   "Geldes, Gelds", Gelder ]
+      - [dative,     Geld,            Geldern]
+      - [accusative, Geld,            Gelder ]
   - term: die Währung
     definition: the currency
     declension:
-      - ["",         singular, singular, singular, plural, plural   ]
-      - ["",         indef.,   def.,     noun,     def.,   noun     ]
-      - [nominative, eine,     die,      Währung,  die,    Währungen]
-      - [genitive,   einer,    der,      Währung,  der,    Währungen]
-      - [dative,     einer,    der,      Währung,  den,    Währungen]
-      - [accusative, eine,     die,      Währung,  die,    Währungen]
+      - ["",         singular, plural   ]
+      - [nominative, Währung,  Währungen]
+      - [genitive,   Währung,  Währungen]
+      - [dative,     Währung,  Währungen]
+      - [accusative, Währung,  Währungen]
   - term: der Cent
     definition: (monetary) cent
     declension:
-      - ["",         singular, singular, singular,      plural, plural       ]
-      - ["",         indef.,   def.,     noun,          def.,   noun         ]
-      - [nominative, ein,      der,      Cent,          die,    "Cents, Cent"]
-      - [genitive,   eines,    des,      "Cents, Cent", der,    "Cents, Cent"]
-      - [dative,     einem,    dem,      Cent,          den,    "Cents, Cent"]
-      - [accusative, einen,    den,      Cent,          die,    "Cents, Cent"]
+      - ["",         singular,      plural       ]
+      - [nominative, Cent,          "Cents, Cent"]
+      - [genitive,   "Cents, Cent", "Cents, Cent"]
+      - [dative,     Cent,          "Cents, Cent"]
+      - [accusative, Cent,          "Cents, Cent"]
   - term: Wie ist Ihre Telefonnummer?
     definition: What is your telephone number?
   - term: Welche Telefonnummer haben Sie?
@@ -653,12 +631,11 @@ vocabulary:
   - term: der Familienstand
     definition: family status
     declension:
-      - ["",         singular, singular, singular,                          plural, plural         ]
-      - ["",         indef.,   def.,     noun,                              def.,   noun           ]
-      - [nominative, ein,      der,      Familienstand,                     die,    Familienstände ]
-      - [genitive,   eines,    des,      "Familienstandes, Familienstands", der,    Familienstände ]
-      - [dative,     einem,    dem,      Familienstand,                     den,    Familienständen]
-      - [accusative, einen,    den,      Familienstand,                     die,    Familienstände ]
+      - ["",         singular,                          plural         ]
+      - [nominative, Familienstand,                     Familienstände ]
+      - [genitive,   "Familienstandes, Familienstands", Familienstände ]
+      - [dative,     Familienstand,                     Familienständen]
+      - [accusative, Familienstand,                     Familienstände ]
   - term: verheiratet
     definition: married
   - term: ledig
@@ -692,278 +669,248 @@ vocabulary:
   - term: der Bahnhof
     definition: the railway station
     declension:
-      - ["",         singular, singular, singular,              plural, plural   ]
-      - ["",         indef.,   def.,     noun,                  def.,   noun     ]
-      - [nominative, ein,      der,      Bahnhof,               die,    Bahnhöfe ]
-      - [genitive,   eines,    des,      "Bahnhofs, Bahnhofes", der,    Bahnhöfe ]
-      - [dative,     einem,    dem,      Bahnhof,               den,    Bahnhöfen]
-      - [accusative, einen,    den,      Bahnhof,               die,    Bahnhöfe ]
+      - ["",         singular,              plural   ]
+      - [nominative, Bahnhof,               Bahnhöfe ]
+      - [genitive,   "Bahnhofs, Bahnhofes", Bahnhöfe ]
+      - [dative,     Bahnhof,               Bahnhöfen]
+      - [accusative, Bahnhof,               Bahnhöfe ]
   - term: der Markt
     definition: market
     declension:
-      - ["",         singular, singular, singular,          plural, plural ]
-      - ["",         indef.,   def.,     noun,              def.,   noun   ]
-      - [nominative, ein,      der,      Markt,             die,    Märkte ]
-      - [genitive,   eines,    des,      "Marktes, Markts", der,    Märkte ]
-      - [dative,     einem,    dem,      Markt,             den,    Märkten]
-      - [accusative, einen,    den,      Markt,             die,    Märkte ]
+      - ["",         singular,          plural ]
+      - [nominative, Markt,             Märkte ]
+      - [genitive,   "Marktes, Markts", Märkte ]
+      - [dative,     Markt,             Märkten]
+      - [accusative, Markt,             Märkte ]
   - term: der Flohmarkt
     definition: the flea market
     declension:
-      - ["",         singular, singular, singular,                  plural, plural     ]
-      - ["",         indef.,   def.,     noun,                      def.,   noun       ]
-      - [nominative, ein,      der,      Flohmarkt,                 die,    Flohmärkte ]
-      - [genitive,   eines,    des,      "Flohmarktes, Flohmarkts", der,    Flohmärkte ]
-      - [dative,     einem,    dem,      Flohmarkt,                 den,    Flohmärkten]
-      - [accusative, einen,    den,      Flohmarkt,                 die,    Flohmärkte ]
+      - ["",         singular,                  plural     ]
+      - [nominative, Flohmarkt,                 Flohmärkte ]
+      - [genitive,   "Flohmarktes, Flohmarkts", Flohmärkte ]
+      - [dative,     Flohmarkt,                 Flohmärkten]
+      - [accusative, Flohmarkt,                 Flohmärkte ]
   - term: der Kuchen
     definition: the cake
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      Kuchen,   die,    Kuchen]
-      - [genitive,   eines,    des,      Kuchens,  der,    Kuchen]
-      - [dative,     einem,    dem,      Kuchen,   den,    Kuchen]
-      - [accusative, einen,    den,      Kuchen,   die,    Kuchen]
+      - ["",         singular, plural]
+      - [nominative, Kuchen,   Kuchen]
+      - [genitive,   Kuchens,  Kuchen]
+      - [dative,     Kuchen,   Kuchen]
+      - [accusative, Kuchen,   Kuchen]
   - term: der Biergarten
     definition: the beer gargen
     declension:
-      - ["",         singular, singular, singular,    plural, plural    ]
-      - ["",         indef.,   def.,     noun,        def.,   noun      ]
-      - [nominative, ein,      der,      Biergarten,  die,    Biergärten]
-      - [genitive,   eines,    des,      Biergartens, der,    Biergärten]
-      - [dative,     einem,    dem,      Biergarten,  den,    Biergärten]
-      - [accusative, einen,    den,      Biergarten,  die,    Biergärten]
+      - ["",         singular,    plural    ]
+      - [nominative, Biergarten,  Biergärten]
+      - [genitive,   Biergartens, Biergärten]
+      - [dative,     Biergarten,  Biergärten]
+      - [accusative, Biergarten,  Biergärten]
   - term: der Supermarkt
     definition: the supermarket
     declension:
-      - ["",         singular, singular, singular,                    plural, plural      ]
-      - ["",         indef.,   def.,     noun,                        def.,   noun        ]
-      - [nominative, ein,      der,      Supermarkt,                  die,    Supermärkte ]
-      - [genitive,   eines,    des,      "Supermarktes, Supermarkts", der,    Supermärkte ]
-      - [dative,     einem,    dem,      Supermarkt,                  den,    Supermärkten]
-      - [accusative, einen,    den,      Supermarkt,                  die,    Supermärkte ]
+      - ["",         singular,                    plural      ]
+      - [nominative, Supermarkt,                  Supermärkte ]
+      - [genitive,   "Supermarktes, Supermarkts", Supermärkte ]
+      - [dative,     Supermarkt,                  Supermärkten]
+      - [accusative, Supermarkt,                  Supermärkte ]
   - term: der Zucker
     definition: the sugar
     declension:
-      - ["",         singular, singular, singular, plural, plural ]
-      - ["",         indef.,   def.,     noun,     def.,   noun   ]
-      - [nominative, ein,      der,      Zucker,   die,    Zucker ]
-      - [genitive,   eines,    des,      Zuckers,  der,    Zucker ]
-      - [dative,     einem,    dem,      Zucker,   den,    Zuckern]
-      - [accusative, einen,    den,      Zucker,   die,    Zucker ]
+      - ["",         singular, plural ]
+      - [nominative, Zucker,   Zucker ]
+      - [genitive,   Zuckers,  Zucker ]
+      - [dative,     Zucker,   Zuckern]
+      - [accusative, Zucker,   Zucker ]
   - term: der Mais
     definition: the maize
     declension:
-      - ["",         singular, singular, singular,     plural, plural]
-      - ["",         indef.,   def.,     noun,         def.,   noun  ]
-      - [nominative, ein,      der,      Mais,         N/A,    N/A   ]
-      - [genitive,   eines,    des,      Maises, Mais, N/A,    N/A   ]
-      - [dative,     einem,    dem,      Mais,         N/A,    N/A   ]
-      - [accusative, einen,    den,      Mais,         N/A,    N/A   ]
+      - ["",         singular,     plural]
+      - [nominative, Mais,         N/A   ]
+      - [genitive,   Maises, Mais, N/A   ]
+      - [dative,     Mais,         N/A   ]
+      - [accusative, Mais,         N/A   ]
   - term: der Reis
     definition: the rice
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      Reis,     die,    Reise ]
-      - [genitive,   eines,    des,      Reises,   der,    Reise ]
-      - [dative,     einem,    dem,      Reis,     den,    Reisen]
-      - [accusative, einen,    den,      Reis,     die,    Reise ]
+      - ["",         singular, plural]
+      - [nominative, Reis,     Reise ]
+      - [genitive,   Reises,   Reise ]
+      - [dative,     Reis,     Reisen]
+      - [accusative, Reis,     Reise ]
   - term: der Cornflakes
     definition: the corn flakes
     declension:
-      - ["",         singular, singular, singular, plural, plural    ]
-      - ["",         indef.,   def.,     noun,     def.,   noun      ]
-      - [nominative, N/A,      N/A,      N/A,      die,    Cornflakes]
-      - [genitive,   N/A,      N/A,      N/A,      der,    Cornflakes]
-      - [dative,     N/A,      N/A,      N/A,      den,    Cornflakes]
-      - [accusative, N/A,      N/A,      N/A,      die,    Cornflakes]
+      - ["",         singular,plural    ]
+      - [nominative, N/A,     Cornflakes]
+      - [genitive,   N/A,     Cornflakes]
+      - [dative,     N/A,     Cornflakes]
+      - [accusative, N/A,     Cornflakes]
   - term: der Käse
     definition: the cheese
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      Käse,     die,    Käse  ]
-      - [genitive,   eines,    des,      Käses,    der,    Käse  ]
-      - [dative,     einem,    dem,      Käse,     den,    Käsen ]
-      - [accusative, einen,    den,      Käse,     die,    Käse  ]
+      - ["",         singular, plural]
+      - [nominative, Käse,     Käse  ]
+      - [genitive,   Käses,    Käse  ]
+      - [dative,     Käse,     Käsen ]
+      - [accusative, Käse,     Käse  ]
   - term: der Blumenkohl
     definition: the cauliflower
     declension:
-      - ["",         singular, singular, singular,                       plural, plural      ]
-      - ["",         indef.,   def.,     noun,                           def.,   noun        ]
-      - [nominative, ein,      der,      Blumenkohl,                     die,    Blumenkohle ]
-      - [genitive,   eines,    des,      "Blumenkohles, Blumenkohls",    der,    Blumenkohle ]
-      - [dative,     einem,    dem,      Blumenkohl,                     den,    Blumenkohlen]
-      - [accusative, einen,    den,      Blumenkohl,                     die,    Blumenkohle ]
+      - ["",         singular,                    plural      ]
+      - [nominative, Blumenkohl,                  Blumenkohle ]
+      - [genitive,   "Blumenkohles, Blumenkohls", Blumenkohle ]
+      - [dative,     Blumenkohl,                  Blumenkohlen]
+      - [accusative, Blumenkohl,                  Blumenkohle ]
   - term: der Apfel
     definition: the apple
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      Apfel,    die,    Äpfel ]
-      - [genitive,   eines,    des,      Apfels,   der,    Äpfel ]
-      - [dative,     einem,    dem,      Apfel,    den,    Äpfeln]
-      - [accusative, einen,    den,      Apfel,    die,    Äpfel ]
+      - ["",         singular, plural]
+      - [nominative, Apfel,    Äpfel ]
+      - [genitive,   Apfels,   Äpfel ]
+      - [dative,     Apfel,    Äpfeln]
+      - [accusative, Apfel,    Äpfel ]
   - term: die Tomate
     definition: the tomato
     declension:
-      - ["",         singular, singular, singular, plural, plural ]
-      - ["",         indef.,   def.,     noun,     def.,   noun   ]
-      - [nominative, eine,     die,      Tomate,   die,    Tomaten]
-      - [genitive,   einer,    der,      Tomate,   der,    Tomaten]
-      - [dative,     einer,    der,      Tomate,   den,    Tomaten]
-      - [accusative, eine,     die,      Tomate,   die,    Tomaten]
+      - ["",         singular, plural ]
+      - [nominative, Tomate,   Tomaten]
+      - [genitive,   Tomate,   Tomaten]
+      - [dative,     Tomate,   Tomaten]
+      - [accusative, Tomate,   Tomaten]
   - term: die Grilltomate
     definition: the grilled tomato
     declension: Unknown
   - term: die Kartoffel
     definition: the potato
     declension:
-      - ["",         singular, singular, singular,  plural, plural    ]
-      - ["",         indef.,   def.,     noun,      def.,   noun      ]
-      - [nominative, eine,     die,      Kartoffel, die,    Kartoffeln]
-      - [genitive,   einer,    der,      Kartoffel, der,    Kartoffeln]
-      - [dative,     einer,    der,      Kartoffel, den,    Kartoffeln]
-      - [accusative, eine,     die,      Kartoffel, die,    Kartoffeln]
+      - ["",         singular,  plural    ]
+      - [nominative, Kartoffel, Kartoffeln]
+      - [genitive,   Kartoffel, Kartoffeln]
+      - [dative,     Kartoffel, Kartoffeln]
+      - [accusative, Kartoffel, Kartoffeln]
   - term: die Butter
     definition: the butter
     declension:
-      - [ "",         singular, singular, singular, plural, plural]
-      - [ "",         indef.,   def.,     noun,     def.,   noun  ]
-      - [ nominative, eine,     die,      Butter,   N/A,    N/A   ]
-      - [ genitive,   einer,    der,      Butter,   N/A,    N/A   ]
-      - [ dative,     einer,    der,      Butter,   N/A,    N/A   ]
-      - [ accusative, eine,     die,      Butter,   N/A,    N/A   ]
+      - [ "",         singular, plural]
+      - [ nominative, Butter,   N/A   ]
+      - [ genitive,   Butter,   N/A   ]
+      - [ dative,     Butter,   N/A   ]
+      - [ accusative, Butter,   N/A   ]
   - term: die Wurst
     definition: the sausage
     declension:
-      - [ "",         singular, singular, singular, plural, plural ]
-      - [ "",         indef.,   def.,     noun,     def.,   noun   ]
-      - [ nominative, eine,     die,      Wurst,    die,    Würste ]
-      - [ genitive,   einer,    der,      Wurst,    der,    Würste ]
-      - [ dative,     einer,    der,      Wurst,    den,    Würsten]
-      - [ accusative, eine,     die,      Wurst,    die,    Würste ]
+      - [ "",         singular, plural ]
+      - [ nominative, Wurst,    Würste ]
+      - [ genitive,   Wurst,    Würste ]
+      - [ dative,     Wurst,    Würsten]
+      - [ accusative, Wurst,    Würste ]
   - term: das Lebensmittel
     definition:
       - any item or substance intended for human consumption (excluding drugs other than alcohol), food
       - (pl.) groceries
     declension:
-      - ["",         singular, singular, singular,      plural, plural       ]
-      - ["",         indef.,   def.,     noun,          def.,   noun         ]
-      - [nominative, ein,      das,      Lebensmittel,  die,    Lebensmittel ]
-      - [genitive,   eines,    des,      Lebensmittels, der,    Lebensmittel ]
-      - [dative,     einem,    dem,      Lebensmittel,  den,    Lebensmitteln]
-      - [accusative, ein,      das,      Lebensmittel,  die,    Lebensmittel ]
+      - ["",         singular,      plural       ]
+      - [nominative, Lebensmittel,  Lebensmittel ]
+      - [genitive,   Lebensmittels, Lebensmittel ]
+      - [dative,     Lebensmittel,  Lebensmitteln]
+      - [accusative, Lebensmittel,  Lebensmittel ]
   - term: das Obst
     definition: the fruit
     declension:
-      - ["",         singular, singular, singular,        plural, plural]
-      - ["",         indef.,   def.,     noun,            def.,   noun  ]
-      - [nominative, ein,      das,      Obst,            N/A,    N/A   ]
-      - [genitive,   eines,    des,      "Obstes, Obsts", N/A,    N/A   ]
-      - [dative,     einem,    dem,      Obst,            N/A,    N/A   ]
-      - [accusative, ein,      das,      Obst,            N/A,    N/A   ]
+      - ["",         singular,        plural]
+      - [nominative, Obst,            N/A   ]
+      - [genitive,   "Obstes, Obsts", N/A   ]
+      - [dative,     Obst,            N/A   ]
+      - [accusative, Obst,            N/A   ]
   - term: das Gemüse
     definition: the vegetables
     declension:
-      - ["",         singular, singular, singular, plural, plural ]
-      - ["",         indef.,   def.,     noun,     def.,   noun   ]
-      - [nominative, ein,      das,      Gemüse,   die,    Gemüse ]
-      - [genitive,   eines,    des,      Gemüses,  der,    Gemüse ]
-      - [dative,     einem,    dem,      Gemüse,   den,    Gemüsen]
-      - [accusative, ein,      das,      Gemüse,   die,    Gemüse ]
+      - ["",         singular, plural ]
+      - [nominative, Gemüse,   Gemüse ]
+      - [genitive,   Gemüses,  Gemüse ]
+      - [dative,     Gemüse,   Gemüsen]
+      - [accusative, Gemüse,   Gemüse ]
   - term: das Getränk
     definition: the drink
     declension:
-      - ["",         singular, singular, singular,            plural, plural   ]
-      - ["",         indef.,   def.,     noun,                def.,   noun     ]
-      - [nominative, ein,      das,      Getränk,             die,    Getränke ]
-      - [genitive,   eines,    des,      Getränkes, Getränks, der,    Getränke ]
-      - [dative,     einem,    dem,      Getränk,             den,    Getränken]
-      - [accusative, ein,      das,      Getränk,             die,    Getränke ]
+      - ["",         singular,            plural   ]
+      - [nominative, Getränk,             Getränke ]
+      - [genitive,   Getränkes, Getränks, Getränke ]
+      - [dative,     Getränk,             Getränken]
+      - [accusative, Getränk,             Getränke ]
   - term: das Brot
     definition: the bread
     declension:
-      - ["",         singular, singular, singular,        plural, plural]
-      - ["",         indef.,   def.,     noun,            def.,   noun  ]
-      - [nominative, ein,      das,      Brot,            die,    Brote ]
-      - [genitive,   eines,    des,      "Brotes, Brots", der,    Brote ]
-      - [dative,     einem,    dem,      Brot,            den,    Broten]
-      - [accusative, ein,      das,      Brot,            die,    Brote ]
+      - ["",         singular,        plural]
+      - [nominative, Brot,            Brote ]
+      - [genitive,   "Brotes, Brots", Brote ]
+      - [dative,     Brot,            Broten]
+      - [accusative, Brot,            Brote ]
   - term: das Brötchen
     definition: the bread roll
     declension:
-      - ["",         singular, singular, singular,  plural, plural  ]
-      - ["",         indef.,   def.,     noun,      def.,   noun    ]
-      - [nominative, ein,      das,      Brötchen,  die,    Brötchen]
-      - [genitive,   eines,    des,      Brötchens, der,    Brötchen]
-      - [dative,     einem,    dem,      Brötchen,  den,    Brötchen]
-      - [accusative, ein,      das,      Brötchen,  die,    Brötchen]
+      - ["",         singular,  plural  ]
+      - [nominative, Brötchen,  Brötchen]
+      - [genitive,   Brötchens, Brötchen]
+      - [dative,     Brötchen,  Brötchen]
+      - [accusative, Brötchen,  Brötchen]
   - term: das Müsli
     definition: the muesli
     declension:
-      - ["",         singular, singular, singular,        plural, plural]
-      - ["",         indef.,   def.,     noun,            def.,   noun  ]
-      - [nominative, ein,      das,      Müsli,           die,    Müslis]
-      - [genitive,   eines,    des,      "Müsli, Müslis", der,    Müslis]
-      - [dative,     einem,    dem,      Müsli,           den,    Müslis]
-      - [accusative, ein,      das,      Müsli,           die,    Müslis]
+      - ["",         singular,       plural]
+      - [nominative, Müsli,          Müslis]
+      - [genitive,   "Müsli, Müslis",Müslis]
+      - [dative,     Müsli,          Müslis]
+      - [accusative, Müsli,          Müslis]
   - term: das Öl
     definition: the oil
     declension:
-      - ["",         singular, singular, singular,    plural, plural]
-      - ["",         indef.,   def.,     noun,        def.,   noun  ]
-      - [nominative, ein,      das,      Öl,          die,    Öle   ]
-      - [genitive,   eines,    des,      "Öles, Öls", der,    Öle   ]
-      - [dative,     einem,    dem,      Öl,          den,    Ölen  ]
-      - [accusative, ein,      das,      Öl,          die,    Öle   ]
+      - ["",         singular,    plural]
+      - [nominative, Öl,          Öle   ]
+      - [genitive,   "Öles, Öls", Öle   ]
+      - [dative,     Öl,          Ölen  ]
+      - [accusative, Öl,          Öle   ]
   - term: das Salz
     definition: the salt
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      das,      Salz,     die,    Salze ]
-      - [genitive,   eines,    des,      Salzes,   der,    Salze ]
-      - [dative,     einem,    dem,      Salz,     den,    Salzen]
-      - [accusative, ein,      das,      Salz,     die,    Salze ]
+      - ["",         singular, plural]
+      - [nominative, Salz,     Salze ]
+      - [genitive,   Salzes,   Salze ]
+      - [dative,     Salz,     Salzen]
+      - [accusative, Salz,     Salze ]
   - term: das Ei
     definition: the egg
     declension:
-      - ["",         singular, singular, singular,    plural, plural]
-      - ["",         indef.,   def.,     noun,        def.,   noun  ]
-      - [nominative, ein,      das,      Ei,          die,    Eier  ]
-      - [genitive,   eines,    des,      "Eies, Eis", der,    Eier  ]
-      - [dative,     einem,    dem,      Ei,          den,    Eiern ]
-      - [accusative, ein,      das,      Ei,          die,    Eier  ]
+      - ["",         singular,    plural]
+      - [nominative, Ei,          Eier  ]
+      - [genitive,   "Eies, Eis", Eier  ]
+      - [dative,     Ei,          Eiern ]
+      - [accusative, Ei,          Eier  ]
   - term: der Getränkemarkt
     definition: the beverage store
     declension:
-      - ["",         singular, singular, singular,                          plural, plural         ]
-      - ["",         indef.,   def.,     noun,                              def.,   noun           ]
-      - [nominative, ein,      der,      Getränkemarkt,                     die,    Getränkemärkte ]
-      - [genitive,   eines,    des,      "Getränkemarktes, Getränkemarkts", der,    Getränkemärkte ]
-      - [dative,     einem,    dem,      Getränkemarkt,                     den,    Getränkemärkten]
-      - [accusative, einen,    den,      Getränkemarkt,                     die,    Getränkemärkte ]
+      - ["",         singular,                          plural         ]
+      - [nominative, Getränkemarkt,                     Getränkemärkte ]
+      - [genitive,   "Getränkemarktes, Getränkemarkts", Getränkemärkte ]
+      - [dative,     Getränkemarkt,                     Getränkemärkten]
+      - [accusative, Getränkemarkt,                     Getränkemärkte ]
   - term: der Park
     definition: the park
     declension:
-      - ["",         singular, singular, singular,        plural, plural]
-      - ["",         indef.,   def.,     noun,            def.,   noun  ]
-      - [nominative, ein,      der,      Park,            die,    Parks ]
-      - [genitive,   eines,    des,      "Parks, Parkes", der,    Parks ]
-      - [dative,     einem,    dem,      Park,            den,    Parks ]
-      - [accusative, einen,    den,      Park,            die,    Parks ]
+      - ["",         singular,        plural]
+      - [nominative, Park,            Parks ]
+      - [genitive,   "Parks, Parkes", Parks ]
+      - [dative,     Park,            Parks ]
+      - [accusative, Park,            Parks ]
   - term: die Bäckerei
     definition: the bakery
     declension:
-      - ["",         singular, singular, singular, plural, plural    ]
-      - ["",         indef.,   def.,     noun,     def.,   noun      ]
-      - [nominative, eine,     die,      Bäckerei, die,    Bäckereien]
-      - [genitive,   einer,    der,      Bäckerei, der,    Bäckereien]
-      - [dative,     einer,    der,      Bäckerei, den,    Bäckereien]
-      - [accusative, eine,     die,      Bäckerei, die,    Bäckereien]
+      - ["",         singular, plural    ]
+      - [nominative, Bäckerei, Bäckereien]
+      - [genitive,   Bäckerei, Bäckereien]
+      - [dative,     Bäckerei, Bäckereien]
+      - [accusative, Bäckerei, Bäckereien]
   - term: Dort ist der Kuchen augezeichnet
     definition: The cake there is excellent
   - term: die Kneipe
@@ -973,30 +920,27 @@ vocabulary:
   - term: die Fleischerei
     definition: the butchershop
     declension:
-      - ["",         singular, singular, singular,    plural, plural       ]
-      - ["",         indef.,   def.,     noun,        def.,   noun         ]
-      - [nominative, eine,     die,      Fleischerei, die,    Fleischereien]
-      - [genitive,   einer,    der,      Fleischerei, der,    Fleischereien]
-      - [dative,     einer,    der,      Fleischerei, den,    Fleischereien]
-      - [accusative, eine,     die,      Fleischerei, die,    Fleischereien]
+      - ["",         singular,    plural       ]
+      - [nominative, Fleischerei, Fleischereien]
+      - [genitive,   Fleischerei, Fleischereien]
+      - [dative,     Fleischerei, Fleischereien]
+      - [accusative, Fleischerei, Fleischereien]
   - term: das Fleisch
     definition: the meat
     declension:
-      - ["",         singular, singular, singular,              plural, plural]
-      - ["",         indef.,   def.,     noun,                  def.,   noun  ]
-      - [nominative, ein,      das,      Fleisch,               N/A,    N/A   ]
-      - [genitive,   eines,    des,      "Fleisches, Fleischs", N/A,    N/A   ]
-      - [dative,     einem,    dem,      Fleisch,               N/A,    N/A   ]
-      - [accusative, ein,      das,      Fleisch,               N/A,    N/A   ]
+      - ["",         singular,              plural]
+      - [nominative, Fleisch,               N/A   ]
+      - [genitive,   "Fleisches, Fleischs", N/A   ]
+      - [dative,     Fleisch,               N/A   ]
+      - [accusative, Fleisch,               N/A   ]
   - term: das Kino
     definition: the cinema
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      das,      Kino,     die,    Kinos ]
-      - [genitive,   eines,    des,      Kinos,    der,    Kinos ]
-      - [dative,     einem,    dem,      Kino,     den,    Kinos ]
-      - [accusative, ein,      das,      Kino,     die,    Kinos ]
+      - ["",         singular, plural]
+      - [nominative, Kino,     Kinos ]
+      - [genitive,   Kinos,    Kinos ]
+      - [dative,     Kino,     Kinos ]
+      - [accusative, Kino,     Kinos ]
   - term: das Hotel
     definition: the hotel
   - term: das Café
@@ -1004,234 +948,209 @@ vocabulary:
   - term: das Restaurant
     definition: the restaurant
     declension:
-      - ["",         singular, singular, singular,    plural, plural     ]
-      - ["",         indef.,   def.,     noun,        def.,   noun       ]
-      - [nominative, ein,      das,      Restaurant,  die,    Restaurants]
-      - [genitive,   eines,    des,      Restaurants, der,    Restaurants]
-      - [dative,     einem,    dem,      Restaurant,  den,    Restaurants]
-      - [accusative, ein,      das,      Restaurant,  die,    Restaurants]
+      - ["",         singular,    plural     ]
+      - [nominative, Restaurant,  Restaurants]
+      - [genitive,   Restaurants, Restaurants]
+      - [dative,     Restaurant,  Restaurants]
+      - [accusative, Restaurant,  Restaurants]
   - term: der Kaffee
     definition: the coffee
     declension:
-      - ["",         singular, singular, singular, plural, plural ]
-      - ["",         indef.,   def.,     noun,     def.,   noun   ]
-      - [nominative, ein,      der,      Kaffee,   die,    Kaffees]
-      - [genitive,   eines,    des,      Kaffees,  der,    Kaffees]
-      - [dative,     einem,    dem,      Kaffee,   den,    Kaffees]
-      - [accusative, einen,    den,      Kaffee,   die,    Kaffees]
+      - ["",         singular, plural ]
+      - [nominative, Kaffee,   Kaffees]
+      - [genitive,   Kaffees,  Kaffees]
+      - [dative,     Kaffee,   Kaffees]
+      - [accusative, Kaffee,   Kaffees]
   - term: der Orangensaft
     definition: the orange juice
     declension:
-      - ["",         singular, singular, singular,                      plural, plural       ]
-      - ["",         indef.,   def.,     noun,                          def.,   noun         ]
-      - [nominative, ein,      der,      Orangensaft,                   die,    Orangensäfte ]
-      - [genitive,   eines,    des,      "Orangensaftes, Orangensafts", der,    Orangensäfte ]
-      - [dative,     einem,    dem,      Orangensaft,                   den,    Orangensäften]
-      - [accusative, einen,    den,      Orangensaft,                   die,    Orangensäfte ]
+      - ["",         singular,                      plural       ]
+      - [nominative, Orangensaft,                   Orangensäfte ]
+      - [genitive,   "Orangensaftes, Orangensafts", Orangensäfte ]
+      - [dative,     Orangensaft,                   Orangensäften]
+      - [accusative, Orangensaft,                   Orangensäfte ]
   - term: der Tee
     definition: the tea
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      Tee,      die,    Tees  ]
-      - [genitive,   eines,    des,      Tees,     der,    Tees  ]
-      - [dative,     einem,    dem,      Tee,      den,    Tees  ]
-      - [accusative, einen,    den,      Tee,      die,    Tees  ]
+      - ["",         singular, plural]
+      - [nominative, Tee,      Tees  ]
+      - [genitive,   Tees,     Tees  ]
+      - [dative,     Tee,      Tees  ]
+      - [accusative, Tee,      Tees  ]
   - term: der Wein
     definition: the wine
     declension:
-      - ["",         singular, singular, singular,        plural, plural]
-      - ["",         indef.,   def.,     noun,            def.,   noun  ]
-      - [nominative, ein,      der,      Wein,            die,    Weine ]
-      - [genitive,   eines,    des,      "Weines, Weins", der,    Weine ]
-      - [dative,     einem,    dem,      Wein,            den,    Weinen]
-      - [accusative, einen,    den,      Wein,            die,    Weine ]
+      - ["",         singular,        plural]
+      - [nominative, Wein,            Weine ]
+      - [genitive,   "Weines, Weins", Weine ]
+      - [dative,     Wein,            Weinen]
+      - [accusative, Wein,            Weine ]
   - term: der Schnaps
     definition: the spirit
     declension:
-      - ["",         singular, singular, singular,  plural, plural   ]
-      - ["",         indef.,   def.,     noun,      def.,   noun     ]
-      - [nominative, ein,      der,      Schnaps,   die,    Schnäpse ]
-      - [genitive,   eines,    des,      Schnapses, der,    Schnäpse ]
-      - [dative,     einem,    dem,      Schnaps,   den,    Schnäpsen]
-      - [accusative, einen,    den,      Schnaps,   die,    Schnäpse ]
+      - ["",         singular,  plural   ]
+      - [nominative, Schnaps,   Schnäpse ]
+      - [genitive,   Schnapses, Schnäpse ]
+      - [dative,     Schnaps,   Schnäpsen]
+      - [accusative, Schnaps,   Schnäpse ]
   - term: der Sekt
     definition: the sparkling wine
     declension:
-      - ["",         singular, singular, singular,        plural, plural]
-      - ["",         indef.,   def.,     noun,            def.,   noun  ]
-      - [nominative, ein,      der,      Sekt,            die,    Sekte ]
-      - [genitive,   eines,    des,      "Sektes, Sekts", der,    Sekte ]
-      - [dative,     einem,    dem,      Sekt,            den,    Sekten]
-      - [accusative, einen,    den,      Sekt,            die,    Sekte ]
+      - ["",         singular,         plural]
+      - [nominative, Sekt,             Sekte ]
+      - [genitive,   "Sektes, Sekts",  Sekte ]
+      - [dative,     Sekt,             Sekten]
+      - [accusative, Sekt,             Sekte ]
   - term: der Salat
     definition: the salad
     declension:
-      - ["",         singular, singular, singular,          plural, plural ]
-      - ["",         indef.,   def.,     noun,              def.,   noun   ]
-      - [nominative, ein,      der,      Salat,             die,    Salate ]
-      - [genitive,   eines,    des,      "Salats, Salates", der,    Salate ]
-      - [dative,     einem,    dem,      Salat,             den,    Salaten]
-      - [accusative, einen,    den,      Salat,             die,    Salate ]
+      - ["",         singular,          plural ]
+      - [nominative, Salat,             Salate ]
+      - [genitive,   "Salats, Salates", Salate ]
+      - [dative,     Salat,             Salaten]
+      - [accusative, Salat,             Salate ]
   - term: der Pfeffer
     definition: the pepper
     declension:
-      - ["",         singular, singular, singular, plural, plural  ]
-      - ["",         indef.,   def.,     noun,     def.,   noun    ]
-      - [nominative, ein,      der,      Pfeffer,  die,    Pfeffer ]
-      - [genitive,   eines,    des,      Pfeffers, der,    Pfeffer ]
-      - [dative,     einem,    dem,      Pfeffer,  den,    Pfeffern]
-      - [accusative, einen,    den,      Pfeffer,  die,    Pfeffer ]
+      - ["",         singular, plural  ]
+      - [nominative, Pfeffer,  Pfeffer ]
+      - [genitive,   Pfeffers, Pfeffer ]
+      - [dative,     Pfeffer,  Pfeffern]
+      - [accusative, Pfeffer,  Pfeffer ]
   - term: der Eisbecher
     definition: the sundae
     declension:
-      - ["",         singular, singular, singular,   plural, plural    ]
-      - ["",         indef.,   def.,     noun,       def.,   noun      ]
-      - [nominative, ein,      der,      Eisbecher,  die,    Eisbecher ]
-      - [genitive,   eines,    des,      Eisbechers, der,    Eisbecher ]
-      - [dative,     einem,    dem,      Eisbecher,  den,    Eisbechern]
-      - [accusative, einen,    den,      Eisbecher,  die,    Eisbecher ]
+      - ["",         singular,   plural    ]
+      - [nominative, Eisbecher,  Eisbecher ]
+      - [genitive,   Eisbechers, Eisbecher ]
+      - [dative,     Eisbecher,  Eisbechern]
+      - [accusative, Eisbecher,  Eisbecher ]
   - term: die Nudel
     definition:
       - noodle
       - (in the plural form) pasta
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, eine,     die,      Nudel,    die,    Nudeln]
-      - [genitive,   einer,    der,      Nudel,    der,    Nudeln]
-      - [dative,     einer,    der,      Nudel,    den,    Nudeln]
-      - [accusative, eine,     die,      Nudel,    die,    Nudeln]
+      - ["",         singular, plural]
+      - [nominative, Nudel,    Nudeln]
+      - [genitive,   Nudel,    Nudeln]
+      - [dative,     Nudel,    Nudeln]
+      - [accusative, Nudel,    Nudeln]
   - term: die Zwiebelsuppe
     definition: the onion soup
     declension:
-      - ["",         singular, singular, singular,     plural, plural       ]
-      - ["",         indef.,   def.,     noun,         def.,   noun         ]
-      - [nominative, eine,     die,      Zwiebelsuppe, die,    Zwiebelsuppen]
-      - [genitive,   einer,    der,      Zwiebelsuppe, der,    Zwiebelsuppen]
-      - [dative,     einer,    der,      Zwiebelsuppe, den,    Zwiebelsuppen]
-      - [accusative, eine,     die,      Zwiebelsuppe, die,    Zwiebelsuppen]
+      - ["",         singular,     plural       ]
+      - [nominative, Zwiebelsuppe, Zwiebelsuppen]
+      - [genitive,   Zwiebelsuppe, Zwiebelsuppen]
+      - [dative,     Zwiebelsuppe, Zwiebelsuppen]
+      - [accusative, Zwiebelsuppe, Zwiebelsuppen]
   - term: die Gemüsesuppe
     definition: the vegetable soup
     declension:
-      - ["",         singular, singular, singular,    plural, plural      ]
-      - ["",         indef.,   def.,     noun,        def.,   noun        ]
-      - [nominative, eine,     die,      Gemüsesuppe, die,    Gemüsesuppen]
-      - [genitive,   einer,    der,      Gemüsesuppe, der,    Gemüsesuppen]
-      - [dative,     einer,    der,      Gemüsesuppe, den,    Gemüsesuppen]
-      - [accusative, eine,     die,      Gemüsesuppe, die,    Gemüsesuppen]
+      - ["",         singular,    plural      ]
+      - [nominative, Gemüsesuppe, Gemüsesuppen]
+      - [genitive,   Gemüsesuppe, Gemüsesuppen]
+      - [dative,     Gemüsesuppe, Gemüsesuppen]
+      - [accusative, Gemüsesuppe, Gemüsesuppen]
   - term: die Milch
     definition: the milk
     declension:
-      - ["",         singular, singular, singular, plural, plural           ]
-      - ["",         indef.,   def.,     noun,     def.,   noun             ]
-      - [nominative, eine,     die,      Milch,    die,    "Milchen, Milche"]
-      - [genitive,   einer,    der,      Milch,    der,    "Milchen, Milche"]
-      - [dative,     einer,    der,      Milch,    den,    Milchen          ]
-      - [accusative, eine,     die,      Milch,    die,    "Milchen, Milche"]
+      - ["",         singular, plural           ]
+      - [nominative, Milch,    "Milchen, Milche"]
+      - [genitive,   Milch,    "Milchen, Milche"]
+      - [dative,     Milch,    Milchen          ]
+      - [accusative, Milch,    "Milchen, Milche"]
   - term: die Limonade
     definition: the lemonade
     declension:
-      - ["",         singular, singular, singular, plural, plural   ]
-      - ["",         indef.,   def.,     noun,     def.,   noun     ]
-      - [nominative, eine,     die,      Limonade, die,    Limonaden]
-      - [genitive,   einer,    der,      Limonade, der,    Limonaden]
-      - [dative,     einer,    der,      Limonade, den,    Limonaden]
-      - [accusative, eine,     die,      Limonade, die,    Limonaden]
+      - ["",         singular, plural   ]
+      - [nominative, Limonade, Limonaden]
+      - [genitive,   Limonade, Limonaden]
+      - [dative,     Limonade, Limonaden]
+      - [accusative, Limonade, Limonaden]
   - term: die Cola (northern and central Germany)
     definition: the Coke
     declension:
-      - ["",         singular, singular, singular, plural, plural,          plural    ]
-      - ["",         indef.,   def.,     noun,     def.,   kinds or brands, quantities]
-      - [nominative, eine,     die,      Cola,     die,    Colas,           Cola      ]
-      - [genitive,   einer,    der,      Cola,     der,    Colas,           Cola      ]
-      - [dative,     einer,    der,      Cola,     den,    Colas,           Cola      ]
-      - [accusative, eine,     die,      Cola,     die,    Colas,           Cola      ]
+      - ["",         singular, plural (kinds or brands), plural (quantities)]
+      - [nominative, Cola,     Colas,                    Cola               ]
+      - [genitive,   Cola,     Colas,                    Cola               ]
+      - [dative,     Cola,     Colas,                    Cola               ]
+      - [accusative, Cola,     Colas,                    Cola               ]
   - term: das Cola (southern Germany, Austria, and Switzerland)
     definition: the Coke
     declension:
-      - ["",         singular, singular, singular,      plural, plural,          plural    ]
-      - ["",         indef.,   def.,     noun,          def.,   kinds or brands, quantities]
-      - [nominative, ein,      das,      Cola,          die,    Colas,           Cola      ]
-      - [genitive,   eines,    des,      "Cola, Colas", der,    Colas,           Cola      ]
-      - [dative,     einem,    dem,      Cola,          den,    Colas,           Cola      ]
-      - [accusative, ein,      das,      Cola,          die,    Colas,           Cola      ]
+      - ["",         singular,      plural (kinds or brands), plural (quantities)]
+      - [nominative, Cola,          Colas,                    Cola               ]
+      - [genitive,   "Cola, Colas", Colas,                    Cola               ]
+      - [dative,     Cola,          Colas,                    Cola               ]
+      - [accusative, Cola,          Colas,                    Cola               ]
   - term: das Eis
     definition:
       - the ice
       - (Germany, Austria) the ice cream
     declension:
-      - ["",         singular, singular, singular, plural, plural      ]
-      - ["",         indef.,   def.,     noun,     def.,   noun        ]
-      - [nominative, ein,      das,      Eis,      die,    "Eis, Eise" ]
-      - [genitive,   eines,    des,      Eises,    der,    "Eis, Eise" ]
-      - [dative,     einem,    dem,      Eis,      den,    "Eis, Eisen"]
-      - [accusative, ein,      das,      Eis,      die,    "Eis, Eise" ]
+      - ["",         singular, plural      ]
+      - [nominative, Eis,      "Eis, Eise" ]
+      - [genitive,   Eises,    "Eis, Eise" ]
+      - [dative,     Eis,      "Eis, Eisen"]
+      - [accusative, Eis,      "Eis, Eise" ]
   - term: das Bier
     definition: the beer
     declension:
-      - ["",         singular, singular, singular,        plural, plural         ]
-      - ["",         indef.,   def.,     noun,            def.,   noun           ]
-      - [nominative, ein,      das,      Bier,            die,    "Biere, Bier"  ]
-      - [genitive,   eines,    des,      "Bieres, Biers", der,    "Biere, Bier"  ]
-      - [dative,     einem,    dem,      Bier,            den,    "Bieren, Biern"]
-      - [accusative, ein,      das,      Bier,            die,    "Biere, Bier"  ]
+      - ["",         singular,        plural         ]
+      - [nominative, Bier,            "Biere, Bier"  ]
+      - [genitive,   "Bieres, Biers", "Biere, Bier"  ]
+      - [dative,     Bier,            "Bieren, Biern"]
+      - [accusative, Bier,            "Biere, Bier"  ]
   - term: das Wasser
     definition: the water
     declension:
-      - ["",         singular, singular, singular, plural, plural            ]
-      - ["",         indef.,   def.,     noun,     def.,   noun              ]
-      - [nominative, ein,      das,      Wasser,   die,    "Wasser, Wässer"  ]
-      - [genitive,   eines,    des,      Wassers,  der,    "Wasser, Wässer"  ]
-      - [dative,     einem,    dem,      Wasser,   den,    "Wassern, Wässern"]
-      - [accusative, ein,      das,      Wasser,   die,    "Wasser, Wässer"  ]
+      - ["",         singular, plural            ]
+      - [nominative, Wasser,   "Wasser, Wässer"  ]
+      - [genitive,   Wassers,  "Wasser, Wässer"  ]
+      - [dative,     Wasser,   "Wassern, Wässern"]
+      - [accusative, Wasser,   "Wasser, Wässer"  ]
   - term: das Mineralwasser
     definition: the mineral water
     declension:
-      - ["",         singular, singular, singular,       plural, plural                          ]
-      - ["",         indef.,   def.,     noun,           def.,   noun                            ]
-      - [nominative, ein,      das,      Mineralwasser,  die,    "Mineralwässer, Mineralwasser"  ]
-      - [genitive,   eines,    des,      Mineralwassers, der,    "Mineralwässer, Mineralwasser"  ]
-      - [dative,     einem,    dem,      Mineralwasser,  den,    "Mineralwässern, Mineralwassern"]
-      - [accusative, ein,      das,      Mineralwasser,  die,    "Mineralwässer, Mineralwasser"  ]
+      - ["",         singular,       plural                          ]
+      - [nominative, Mineralwasser,  "Mineralwässer, Mineralwasser"  ]
+      - [genitive,   Mineralwassers, "Mineralwässer, Mineralwasser"  ]
+      - [dative,     Mineralwasser,  "Mineralwässern, Mineralwassern"]
+      - [accusative, Mineralwasser,  "Mineralwässer, Mineralwasser"  ]
   - term: das Weizenbier
     definition: wheat beer
     declension:
-      - ["",         singular, singular, singular,                    plural, plural      ]
-      - ["",         indef.,   def.,     noun,                        def.,   noun        ]
-      - [nominative, ein,      das,      Weizenbier,                  die,    Weizenbiere ]
-      - [genitive,   eines,    des,      "Weizenbieres, Weizenbiers", der,    Weizenbiere ]
-      - [dative,     einem,    dem,      Weizenbier,                  den,    Weizenbieren]
-      - [accusative, ein,      das,      Weizenbier,                  die,    Weizenbiere ]
+      - ["",         singular,                    plural      ]
+      - [nominative, Weizenbier,                  Weizenbiere ]
+      - [genitive,   "Weizenbieres, Weizenbiers", Weizenbiere ]
+      - [dative,     Weizenbier,                  Weizenbieren]
+      - [accusative, Weizenbier,                  Weizenbiere ]
   - term: das Omelett
     definition: the omelette
     declension:
-      - ["",         singular, singular, singular,              plural, plural               ]
-      - ["",         indef.,   def.,     noun,                  def.,   noun                 ]
-      - [nominative, ein,      das,      Omelett,               die,    "Omelette, Omeletts" ]
-      - [genitive,   eines,    des,      "Omelettes, Omeletts", der,    "Omelette, Omeletts" ]
-      - [dative,     einem,    dem,      Omelett,               den,    "Omeletten, Omeletts"]
-      - [accusative, ein,      das,      Omelett,               die,    "Omelette, Omeletts" ]
+      - ["",         singular,              plural               ]
+      - [nominative, Omelett,               "Omelette, Omeletts" ]
+      - [genitive,   "Omelettes, Omeletts", "Omelette, Omeletts" ]
+      - [dative,     Omelett,               "Omeletten, Omeletts"]
+      - [accusative, Omelett,               "Omelette, Omeletts" ]
   - term: das Schnitzel
     definition: the cutlet
     declension:
-      - ["",         singular, singular, singular,   plural, plural    ]
-      - ["",         indef.,   def.,     noun,       def.,   noun      ]
-      - [nominative, ein,      das,      Schnitzel,  die,    Schnitzel ]
-      - [genitive,   eines,    des,      Schnitzels, der,    Schnitzel ]
-      - [dative,     einem,    dem,      Schnitzel,  den,    Schnitzeln]
-      - [accusative, ein,      das,      Schnitzel,  die,    Schnitzel ]
+      - ["",         singular,   plural    ]
+      - [nominative, Schnitzel,  Schnitzel ]
+      - [genitive,   Schnitzels, Schnitzel ]
+      - [dative,     Schnitzel,  Schnitzeln]
+      - [accusative, Schnitzel,  Schnitzel ]
   - term: Pommes frites
     definition: French fries
   - term: der Becher
     definition: the cup without a handle
     declension:
-      - ["",         singular, singular, singular, plural, plural ]
-      - ["",         indef.,   def.,     noun,     def.,   noun   ]
-      - [nominative, ein,      der,      Becher,   die,    Becher ]
-      - [genitive,   eines,    des,      Bechers,  der,    Becher ]
-      - [dative,     einem,    dem,      Becher,   den,    Bechern]
-      - [accusative, einen,    den,      Becher,   die,    Becher ]
+      - ["",         singular, plural ]
+      - [nominative, Becher,   Becher ]
+      - [genitive,   Bechers,  Becher ]
+      - [dative,     Becher,   Bechern]
+      - [accusative, Becher,   Becher ]
   - term: Paul isst einen Becher Eis
     definition: Paul eats a cup of ice cream
   - term: zwei Becher Eis
@@ -1239,12 +1158,11 @@ vocabulary:
   - term: die Tasse
     definition: the cup with a handle
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, eine,     die,      Tasse,    die,    Tassen]
-      - [genitive,   einer,    der,      Tasse,    der,    Tassen]
-      - [dative,     einer,    der,      Tasse,    den,    Tassen]
-      - [accusative, eine,     die,      Tasse,    die,    Tassen]
+      - ["",         singular, plural]
+      - [nominative, Tasse,    Tassen]
+      - [genitive,   Tasse,    Tassen]
+      - [dative,     Tasse,    Tassen]
+      - [accusative, Tasse,    Tassen]
   - term: eine Tasse Kaffee
     definition: a cup of Coffee
   - term: zwei Tassen Kaffee
@@ -1252,12 +1170,11 @@ vocabulary:
   - term: die Flasche
     definition: the bottle
     declension:
-      - ["",         singular, singular, singular, plural, plural  ]
-      - ["",         indef.,   def.,     noun,     def.,   noun    ]
-      - [nominative, eine,     die,      Flasche,  die,    Flaschen]
-      - [genitive,   einer,    der,      Flasche,  der,    Flaschen]
-      - [dative,     einer,    der,      Flasche,  den,    Flaschen]
-      - [accusative, eine,     die,      Flasche,  die,    Flaschen]
+      - ["",         singular, plural  ]
+      - [nominative, Flasche,  Flaschen]
+      - [genitive,   Flasche,  Flaschen]
+      - [dative,     Flasche,  Flaschen]
+      - [accusative, Flasche,  Flaschen]
   - term: eine Flasche Wein
     definition: a bottle of wine
   - term: die Dose
@@ -1266,12 +1183,11 @@ vocabulary:
       - the tin
       - the can
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, eine,     die,      Dose,     die,    Dosen ]
-      - [genitive,   einer,    der,      Dose,     der,    Dosen ]
-      - [dative,     einer,    der,      Dose,     den,    Dosen ]
-      - [accusative, eine,     die,      Dose,     die,    Dosen ]
+      - ["",         singular, plural]
+      - [nominative, Dose,     Dosen ]
+      - [genitive,   Dose,     Dosen ]
+      - [dative,     Dose,     Dosen ]
+      - [accusative, Dose,     Dosen ]
   - term: eine Dose Cola
     definition: a can of coke
   - term: zwei Dosen Cola
@@ -1279,41 +1195,37 @@ vocabulary:
   - term: die Tüte
     definition: the small bag
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, eine,     die,      Tüte,     die,    Tüten ]
-      - [genitive,   einer,    der,      Tüte,     der,    Tüten ]
-      - [dative,     einer,    der,      Tüte,     den,    Tüten ]
-      - [accusative, eine,     die,      Tüte,     die,    Tüten ]
+      - ["",         singular, plural]
+      - [nominative, Tüte,     Tüten ]
+      - [genitive,   Tüte,     Tüten ]
+      - [dative,     Tüte,     Tüten ]
+      - [accusative, Tüte,     Tüten ]
   - term: die Packung
     definition: pack
     declension:
-      - ["",         singular, singular, singular, plural, plural   ]
-      - ["",         indef.,   def.,     noun,     def.,   noun     ]
-      - [nominative, eine,     die,      Packung,  die,    Packungen]
-      - [genitive,   einer,    der,      Packung,  der,    Packungen]
-      - [dative,     einer,    der,      Packung,  den,    Packungen]
-      - [accusative, eine,     die,      Packung,  die,    Packungen]
+      - ["",         singular, plural   ]
+      - [nominative, Packung,  Packungen]
+      - [genitive,   Packung,  Packungen]
+      - [dative,     Packung,  Packungen]
+      - [accusative, Packung,  Packungen]
   - term: das Kännchen
     definition: small can
     declension:
-      - ["",         singular, singular, singular,  plural, plural  ]
-      - ["",         indef.,   def.,     noun,      def.,   noun    ]
-      - [nominative, ein,      das,      Kännchens, die,    Kännchen]
-      - [genitive,   eines,    des,      Glases,    der,    Kännchen]
-      - [dative,     einem,    dem,      Kännchen,  den,    Kännchen]
-      - [accusative, ein,      das,      Kännchen,  die,    Kännchen]
+      - ["",         singular,  plural  ]
+      - [nominative, Kännchens, Kännchen]
+      - [genitive,   Glases,    Kännchen]
+      - [dative,     Kännchen,  Kännchen]
+      - [accusative, Kännchen,  Kännchen]
   - term: ein Kännchen Kaffee
     definition: a pot of coffee
   - term: das Glas
     definition: the glass
     declension:
-      - ["",         singular, singular, singular, plural, plural         ]
-      - ["",         indef.,   def.,     noun,     def.,   noun           ]
-      - [nominative, ein,      das,      Glas,     die,    "Gläser, Glas" ]
-      - [genitive,   eines,    des,      Glases,   der,    "Gläser, Glas" ]
-      - [dative,     einem,    dem,      Glas,     den,    "Gläsern, Glas"]
-      - [accusative, ein,      das,      Glas,     die,    "Gläser, Glas" ]
+      - ["",         singular, plural         ]
+      - [nominative, Glas,     "Gläser, Glas" ]
+      - [genitive,   Glases,   "Gläser, Glas" ]
+      - [dative,     Glas,     "Gläsern, Glas"]
+      - [accusative, Glas,     "Gläser, Glas" ]
   - term: ein Glas Wasser
     definition: a glass of water
   - term: zwei Gläser Wasser
@@ -1321,12 +1233,11 @@ vocabulary:
   - term: das Stück
     definition: one, item, piece
     declension:
-      - ["",         singular, singular, singular,        plural, plural                    ]
-      - ["",         indef.,   def.,     noun,            def.,   noun                      ]
-      - [nominative, ein,      das,      Stück,           die,    "Stücke, Stücker, Stück"  ]
-      - [genitive,   eines,    des,      Stückes, Stücks, der,    "Stücke, Stücker, Stück"  ]
-      - [dative,     einem,    dem,      Stück,           den,    "Stücken, Stückern, Stück"]
-      - [accusative, ein,      das,      Stück,           die,    "Stücke, Stücker, Stück"  ]
+      - ["",         singular,        plural                    ]
+      - [nominative, Stück,           "Stücke, Stücker, Stück"  ]
+      - [genitive,   Stückes, Stücks, "Stücke, Stücker, Stück"  ]
+      - [dative,     Stück,           "Stücken, Stückern, Stück"]
+      - [accusative, Stück,           "Stücke, Stücker, Stück"  ]
   - term: ein Stück Käse
     definition: a piece of cheese
   - term: trinken
@@ -1391,12 +1302,11 @@ vocabulary:
   - term: der Jura
     definition: the law
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, N/A,      N/A,      N/A,      die,    Jura  ]
-      - [genitive,   N/A,      N/A,      N/A,      der,    Jura  ]
-      - [dative,     N/A,      N/A,      N/A,      den,    Jura  ]
-      - [accusative, N/A,      N/A,      N/A,      die,    Jura  ]
+      - ["",         singular, plural]
+      - [nominative, N/A,      Jura  ]
+      - [genitive,   N/A,      Jura  ]
+      - [dative,     N/A,      Jura  ]
+      - [accusative, N/A,      Jura  ]
   - term: die Betriebswirtschaftslehre (BWL)
     definition: business administration
     declension: https://en.wiktionary.org/wiki/Betriebswirtschaftslehre#Declension
@@ -1415,192 +1325,176 @@ vocabulary:
   - term: der Automechaniker
     definition: (make) car mechanic
     declension:
-      - ["",         singular, singular, singular,       plural, plural         ]
-      - ["",         indef.,   def.,     noun,           def.,   noun           ]
-      - [nominative, ein,      der,      Automechaniker, die,    Automechaniker ]
-      - [genitive,   eines,    des,      Automechaniker, der,    Automechaniker ]
-      - [dative,     einem,    dem,      Automechaniker, den,    Automechanikern]
-      - [accusative, einen,    den,      Automechaniker, die,    Automechaniker ]
+      - ["",         singular,       plural         ]
+      - [nominative, Automechaniker, Automechaniker ]
+      - [genitive,   Automechaniker, Automechaniker ]
+      - [dative,     Automechaniker, Automechanikern]
+      - [accusative, Automechaniker, Automechaniker ]
   - term: die Automechanikerin
     definition: (female) car mechanic
     declension: https://www.verbformen.com/?w=Automechanikerin
   - term: der Journalist
     definition: journalist
     declension:
-      - ["",         singular, singular, singular,     plural, plural      ]
-      - ["",         indef.,   def.,     noun,         def.,   noun        ]
-      - [nominative, ein,      der,      Journalist,   die,    Journalisten]
-      - [genitive,   eines,    des,      Journalisten, der,    Journalisten]
-      - [dative,     einem,    dem,      Journalisten, den,    Journalisten]
-      - [accusative, einen,    den,      Journalisten, die,    Journalisten]
+      - ["",         singular,     plural      ]
+      - [nominative, Journalist,   Journalisten]
+      - [genitive,   Journalisten, Journalisten]
+      - [dative,     Journalisten, Journalisten]
+      - [accusative, Journalisten, Journalisten]
   - term: die Journalistin
     definition: (female) journalist
     declension: https://www.verbformen.com/?w=Journalistin
   - term: der Kellner
     definition: waiter
     declension:
-      - ["",         singular, singular, singular, plural, plural  ]
-      - ["",         indef.,   def.,     noun,     def.,   noun    ]
-      - [nominative, ein,      der,      Kellner,  die,    Kellner ]
-      - [genitive,   eines,    des,      Kellners, der,    Kellner ]
-      - [dative,     einem,    dem,      Kellner,  den,    Kellnern]
-      - [accusative, einen,    den,      Kellner,  die,    Kellner ]
+      - ["",         singular, plural  ]
+      - [nominative, Kellner,  Kellner ]
+      - [genitive,   Kellners, Kellner ]
+      - [dative,     Kellner,  Kellnern]
+      - [accusative, Kellner,  Kellner ]
   - term: die Kellnerin
     definition: waitress
     declension: https://www.verbformen.com/?w=Kellnerin
   - term: der Maurer
     definition: (male) bricklayer
     declension:
-      - ["",         singular, singular, singular, plural, plural ]
-      - ["",         indef.,   def.,     noun,     def.,   noun   ]
-      - [nominative, ein,      der,      Maurer,   die,    Maurer ]
-      - [genitive,   eines,    des,      Maurers,  der,    Maurer ]
-      - [dative,     einem,    dem,      Maurer,   den,    Maurern]
-      - [accusative, einen,    den,      Maurer,   die,    Maurer ]
+      - ["",         singular, plural ]
+      - [nominative, Maurer,   Maurer ]
+      - [genitive,   Maurers,  Maurer ]
+      - [dative,     Maurer,   Maurern]
+      - [accusative, Maurer,   Maurer ]
   - term: die Maurerin
     definition: (female) bricklayer
     declension: https://www.verbformen.com/?w=Maurerin
   - term: der Musiker
     definition: musician
     declension:
-      - ["",         singular, singular, singular, plural, plural  ]
-      - ["",         indef.,   def.,     noun,     def.,   noun    ]
-      - [nominative, ein,      der,      Musiker,  die,    Musiker ]
-      - [genitive,   eines,    des,      Musikers, der,    Musiker ]
-      - [dative,     einem,    dem,      Musiker,  den,    Musikern]
-      - [accusative, einen,    den,      Musiker,  die,    Musiker ]
+      - ["",         singular, plural  ]
+      - [nominative, Musiker,  Musiker ]
+      - [genitive,   Musikers, Musiker ]
+      - [dative,     Musiker,  Musikern]
+      - [accusative, Musiker,  Musiker ]
   - term: die Musikerin
     definition: (female) musician
     declension: https://www.verbformen.com/?w=Musikerin
   - term: der Sekretär
     definition: (male) secretary
     declension:
-      - ["",         singular, singular, singular,  plural, plural    ]
-      - ["",         indef.,   def.,     noun,      def.,   noun      ]
-      - [nominative, ein,      der,      Sekretär,  die,    Sekretäre ]
-      - [genitive,   eines,    des,      Sekretärs, der,    Sekretäre ]
-      - [dative,     einem,    dem,      Sekretär,  den,    Sekretären]
-      - [accusative, einen,    den,      Sekretär,  die,    Sekretäre ]
+      - ["",         singular,  plural    ]
+      - [nominative, Sekretär,  Sekretäre ]
+      - [genitive,   Sekretärs, Sekretäre ]
+      - [dative,     Sekretär,  Sekretären]
+      - [accusative, Sekretär,  Sekretäre ]
   - term: die Sekretärin
     definition: (female) secretary
     declension: https://www.verbformen.com/?w=Sekret%C3%A4rin
   - term: der Student
     definition: (male) student
     declension:
-      - ["",         singular, singular, singular,  plural, plural   ]
-      - ["",         indef.,   def.,     noun,      def.,   noun     ]
-      - [nominative, ein,      der,      Student,   die,    Studenten]
-      - [genitive,   eines,    des,      Studenten, der,    Studenten]
-      - [dative,     einem,    dem,      Studenten, den,    Studenten]
-      - [accusative, einen,    den,      Studenten, die,    Studenten]
+      - ["",         singular,  plural   ]
+      - [nominative, Student,   Studenten]
+      - [genitive,   Studenten, Studenten]
+      - [dative,     Studenten, Studenten]
+      - [accusative, Studenten, Studenten]
   - term: die Studentin
     definition: (female) student
     declension: https://www.verbformen.com/?w=Studentin
   - term: der Taxifahrer
     definition: the taxi driver
     declension:
-      - ["",         singular, singular, singular,    plural, plural     ]
-      - ["",         indef.,   def.,     noun,        def.,   noun       ]
-      - [nominative, ein,      der,      Taxifahrer,  die,    Taxifahrer ]
-      - [genitive,   eines,    des,      Taxifahrers, der,    Taxifahrer ]
-      - [dative,     einem,    dem,      Taxifahrer,  den,    Taxifahrern]
-      - [accusative, einen,    den,      Taxifahrer,  die,    Taxifahrer ]
+      - ["",         singular,    plural     ]
+      - [nominative, Taxifahrer,  Taxifahrer ]
+      - [genitive,   Taxifahrers, Taxifahrer ]
+      - [dative,     Taxifahrer,  Taxifahrern]
+      - [accusative, Taxifahrer,  Taxifahrer ]
   - term: die Taxifahrerin
     definition: (female) taxi driver
     declension: https://www.verbformen.com/?w=Taxifahrerin
   - term: der Tischler
     definition: (male) carpenter
     declension:
-      - ["",         singular, singular, singular,  plural, plural   ]
-      - ["",         indef.,   def.,     noun,      def.,   noun     ]
-      - [nominative, ein,      der,      Tischler,  die,    Tischler ]
-      - [genitive,   eines,    des,      Tischlers, der,    Tischler ]
-      - [dative,     einem,    dem,      Tischler,  den,    Tischlern]
-      - [accusative, einen,    den,      Tischler,  die,    Tischler ]
+      - ["",         singular,  plural   ]
+      - [nominative, Tischler,  Tischler ]
+      - [genitive,   Tischlers, Tischler ]
+      - [dative,     Tischler,  Tischlern]
+      - [accusative, Tischler,  Tischler ]
   - term: die Tischlerin
     definition: (female) carpenter
     declension: https://www.verbformen.com/?w=Tischlerin
   - term: der Verkaüfer
     definition: (male) shop assistant
     declension:
-      - ["",         singular, singular, singular,   plural, plural    ]
-      - ["",         indef.,   def.,     noun,       def.,   noun      ]
-      - [nominative, ein,      der,      Verkäufer,  die,    Verkäufer ]
-      - [genitive,   eines,    des,      Verkäufers, der,    Verkäufer ]
-      - [dative,     einem,    dem,      Verkäufer,  den,    Verkäufern]
-      - [accusative, einen,    den,      Verkäufer,  die,    Verkäufer ]
+      - ["",         singular,   plural    ]
+      - [nominative, Verkäufer,  Verkäufer ]
+      - [genitive,   Verkäufers, Verkäufer ]
+      - [dative,     Verkäufer,  Verkäufern]
+      - [accusative, Verkäufer,  Verkäufer ]
   - term: die Verkaüferin
     definition: (female) shop assistant
     declension: https://www.verbformen.com/?w=Verk%C3%A4uferin
   - term: der Arzt
     definition: (male) doctor
     declension:
-      - ["",         singular, singular, singular,        plural, plural]
-      - ["",         indef.,   def.,     noun,            def.,   noun  ]
-      - [nominative, ein,      der,      Arzt,            die,    Ärzte ]
-      - [genitive,   eines,    des,      "Arztes, Arzts", der,    Ärzte ]
-      - [dative,     einem,    dem,      Arzt,            den,    Ärzten]
-      - [accusative, einen,    den,      Arzt,            die,    Ärzte ]
+      - ["",         singular,        plural]
+      - [nominative, Arzt,            Ärzte ]
+      - [genitive,   "Arztes, Arzts", Ärzte ]
+      - [dative,     Arzt,            Ärzten]
+      - [accusative, Arzt,            Ärzte ]
   - term: die Ärztin
     definition: (female) doctor
     declension: https://www.verbformen.com/?w=%C3%84rztin
   - term: der Koch
     definition: (male) chef
     declension:
-      - ["",         singular, singular, singular,        plural, plural]
-      - ["",         indef.,   def.,     noun,            def.,   noun  ]
-      - [nominative, ein,      der,      Koch,            die,    Köche ]
-      - [genitive,   eines,    des,      "Kochs, Koches", der,    Köche ]
-      - [dative,     einem,    dem,      Koch,            den,    Köchen]
-      - [accusative, einen,    den,      Koch,            die,    Köche ]
+      - ["",         singular,        plural]
+      - [nominative, Koch,            Köche ]
+      - [genitive,   "Kochs, Koches", Köche ]
+      - [dative,     Koch,            Köchen]
+      - [accusative, Koch,            Köche ]
   - term: die Köchin
     definition: (female) chef
     declension: https://www.verbformen.com/?w=K%C3%B6chin
   - term: der Friseur
     definition: (male) hairdresser
     declension:
-      - ["",         singular, singular, singular, plural, plural   ]
-      - ["",         indef.,   def.,     noun,     def.,   noun     ]
-      - [nominative, ein,      der,      Friseur,  die,    Friseure ]
-      - [genitive,   eines,    des,      Friseurs, der,    Friseure ]
-      - [dative,     einem,    dem,      Friseur,  den,    Friseuren]
-      - [accusative, einen,    den,      Friseur,  die,    Friseure ]
+      - ["",         singular, plural   ]
+      - [nominative, Friseur,  Friseure ]
+      - [genitive,   Friseurs, Friseure ]
+      - [dative,     Friseur,  Friseuren]
+      - [accusative, Friseur,  Friseure ]
   - term: die Friseuse
     definition: (female) hairdresser
     declension: https://www.verbformen.com/?w=Friseuse
   - term: der Frisör
     definition: (male) hairdresser
     declension:
-      - ["",         singular, singular, singular, plural, plural  ]
-      - ["",         indef.,   def.,     noun,     def.,   noun    ]
-      - [nominative, ein,      der,      Frisör,   die,    Frisöre ]
-      - [genitive,   eines,    des,      Frisörs,  der,    Frisöre ]
-      - [dative,     einem,    dem,      Frisör,   den,    Frisören]
-      - [accusative, einen,    den,      Frisör,   die,    Frisöre ]
+      - ["",         singular, plural  ]
+      - [nominative, Frisör,   Frisöre ]
+      - [genitive,   Frisörs,  Frisöre ]
+      - [dative,     Frisör,   Frisören]
+      - [accusative, Frisör,   Frisöre ]
   - term: die Frisöse
     definition: (female) hairdresser
     declension: https://www.verbformen.com/?w=Fris%C3%B6se
   - term: der Hausmann
     definition: the househusband
     declension:
-      - ["",         singular, singular, singular,                plural, plural     ]
-      - ["",         indef.,   def.,     noun,                    def.,   noun       ]
-      - [nominative, ein,      der,      Hausmann,                die,    Hausmänner ]
-      - [genitive,   eines,    des,      "Hausmannes, Hausmanns", der,    Hausmänner ]
-      - [dative,     einem,    dem,      Hausmann,                den,    Hausmännern]
-      - [accusative, einen,    den,      Hausmann,                die,    Hausmänner ]
+      - ["",         singular,                plural     ]
+      - [nominative, Hausmann,                Hausmänner ]
+      - [genitive,   "Hausmannes, Hausmanns", Hausmänner ]
+      - [dative,     Hausmann,                Hausmännern]
+      - [accusative, Hausmann,                Hausmänner ]
   - term: die Hausfrau
     definition: housewife
     declension: https://www.verbformen.com/?w=Hausfrau
   - term: der Kaufmann
     definition: (male) trader
     declension:
-      - ["",         singular, singular, singular,                plural, plural                   ]
-      - ["",         indef.,   def.,     noun,                    def.,   noun                     ]
-      - [nominative, ein,      der,      Kaufmann,                die,    "Kaufmänner, Kaufleute"  ]
-      - [genitive,   eines,    des,      "Kaufmannes, Kaufmanns", der,    "Kaufmänner, Kaufleute"  ]
-      - [dative,     einem,    dem,      Kaufmann,                den,    "Kaufmännern, Kaufleuten"]
-      - [accusative, einen,    den,      Kaufmann,                die,    "Kaufmänner, Kaufleute"  ]
+      - ["",         singular,                plural                   ]
+      - [nominative, Kaufmann,                "Kaufmänner, Kaufleute"  ]
+      - [genitive,   "Kaufmannes, Kaufmanns", "Kaufmänner, Kaufleute"  ]
+      - [dative,     Kaufmann,                "Kaufmännern, Kaufleuten"]
+      - [accusative, Kaufmann,                "Kaufmänner, Kaufleute"  ]
   - term: die Kauffrau
     definition: (female) trader
   - term: der Kranker
@@ -1608,12 +1502,11 @@ vocabulary:
   - term: der Krankenpfleger
     definition: (male) nurse
     declension:
-      - ["",         singular, singular, singular,        plural, plural         ]
-      - ["",         indef.,   def.,     noun,            def.,   noun           ]
-      - [nominative, ein,      der,      Krankenpfleger,  die,    Krankenpfleger ]
-      - [genitive,   eines,    des,      Krankenpflegers, der,    Krankenpfleger ]
-      - [dative,     einem,    dem,      Krankenpfleger,  den,    Krankenpflegern]
-      - [accusative, einen,    den,      Krankenpfleger,  die,    Krankenpfleger ]
+      - ["",         singular,        plural         ]
+      - [nominative, Krankenpfleger,  Krankenpfleger ]
+      - [genitive,   Krankenpflegers, Krankenpfleger ]
+      - [dative,     Krankenpfleger,  Krankenpflegern]
+      - [accusative, Krankenpfleger,  Krankenpfleger ]
   - term: die Krankenschwester
     definition: (female) nurse
     declension: https://www.verbformen.com/?w=Krankenschwester
@@ -1629,12 +1522,11 @@ vocabulary:
       - man
       - husband
     declension:
-      - ["",         singular, singular, singular,        plural, plural]
-      - ["",         indef.,   def.,     noun,            def.,   noun  ]
-      - [nominative, ein,      der,      Mann,            die,    Männer]
-      - [genitive,   eines,    des,      "Mannes, Manns", der,    Männer]
-      - [dative,     einem,    dem,      Mann,            den,    Männer]
-      - [accusative, einen,    den,      Mann,            die,    Männer]
+      - ["",         singular,        plural]
+      - [nominative, Mann,            Männer]
+      - [genitive,   "Mannes, Manns", Männer]
+      - [dative,     Mann,            Männer]
+      - [accusative, Mann,            Männer]
   - term: hoffentlich
     definition: hopefully
   - term: ach so
@@ -1642,12 +1534,11 @@ vocabulary:
   - term: der Beruf
     definition: job
     declension:
-      - ["",         singular, singular, singular,          plural, plural ]
-      - ["",         indef.,   def.,     noun,              def.,   noun   ]
-      - [nominative, ein,      der,      Beruf,             die,    Berufe ]
-      - [genitive,   eines,    des,      "Berufes, Berufs", der,    Berufe ]
-      - [dative,     einem,    dem,      Beruf,             den,    Berufen]
-      - [accusative, einen,    den,      Beruf,             die,    Berufe ]
+      - ["",         singular,          plural ]
+      - [nominative, Beruf,             Berufe ]
+      - [genitive,   "Berufes, Berufs", Berufe ]
+      - [dative,     Beruf,             Berufen]
+      - [accusative, Beruf,             Berufe ]
   - term: berufstätig
     definition: employed
     declension: https://www.verbformen.com/?w=berufst%C3%A4tig
@@ -1768,43 +1659,39 @@ vocabulary:
   - term: der Vater
     definition: the father
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      Vater,    die,    Väter ]
-      - [genitive,   eines,    des,      Vaters,   der,    Väter ]
-      - [dative,     einem,    dem,      Vater,    den,    Vätern]
-      - [accusative, einen,    den,      Vater,    die,    Väter ]
+      - ["",         singular, plural]
+      - [nominative, Vater,    Väter ]
+      - [genitive,   Vaters,   Väter ]
+      - [dative,     Vater,    Vätern]
+      - [accusative, Vater,    Väter ]
   - term: die Mutter
     definition: the mother
     declension:
-      - ["",         singular, singular, singular, plural, plural ]
-      - ["",         indef.,   def.,     noun,     def.,   noun   ]
-      - [nominative, eine,     die,      Mutter,   die,    Mütter ]
-      - [genitive,   einer,    der,      Mutter,   der,    Mütter ]
-      - [dative,     einer,    der,      Mutter,   den,    Müttern]
-      - [accusative, eine,     die,      Mutter,   die,    Mütter ]
+      - ["",         singular, plural ]
+      - [nominative, Mutter,   Mütter ]
+      - [genitive,   Mutter,   Mütter ]
+      - [dative,     Mutter,   Müttern]
+      - [accusative, Mutter,   Mütter ]
   - term: der Junge
     definition:
       - the boy
       - (card games) jack
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      Junge,    die,    Jungen]
-      - [genitive,   eines,    des,      Jungen,   der,    Jungen]
-      - [dative,     einem,    dem,      Jungen,   den,    Jungen]
-      - [accusative, einen,    den,      Jungen,   die,    Jungen]
+      - ["",         singular, plural]
+      - [nominative, Junge,    Jungen]
+      - [genitive,   Jungen,   Jungen]
+      - [dative,     Jungen,   Jungen]
+      - [accusative, Jungen,   Jungen]
   - term: das Mädchen
     definition:
       - the girl
       - the maiden
     declension:
-      - ["",         singular, singular, singular, plural, plural ]
-      - ["",         indef.,   def.,     noun,     def.,   noun   ]
-      - [nominative, ein,      das,      Mädchen,  die,    Mädchen]
-      - [genitive,   eines,    des,      Mädchens, der,    Mädchen]
-      - [dative,     einem,    dem,      Mädchen,  den,    Mädchen]
-      - [accusative, ein,      das,      Mädchen,  die,    Mädchen]
+      - ["",         singular, plural ]
+      - [nominative, Mädchen,  Mädchen]
+      - [genitive,   Mädchens, Mädchen]
+      - [dative,     Mädchen,  Mädchen]
+      - [accusative, Mädchen,  Mädchen]
   - term: durstig
     definition: thirsty
   - term: dick
@@ -1830,23 +1717,21 @@ vocabulary:
   - term: das Problem
     definition: the problem
     declension:
-      - ["",         singular, singular, singular, plural, plural   ]
-      - ["",         indef.,   def.,     noun,     def.,   noun     ]
-      - [nominative, ein,      das,      Problem,  die,    Probleme ]
-      - [genitive,   eines,    des,      Problems, der,    Probleme ]
-      - [dative,     einem,    dem,      Problem,  den,    Problemen]
-      - [accusative, ein,      das,      Problem,  die,    Probleme ]
+      - ["",         singular, plural   ]
+      - [nominative, Problem,  Probleme ]
+      - [genitive,   Problems, Probleme ]
+      - [dative,     Problem,  Problemen]
+      - [accusative, Problem,  Probleme ]
   - term: Kein Problem
     definition: No problem
   - term: das Ding
     definition: the thing
     declension:
-      - ["",         singular, singular, singular,        plural, plural           ]
-      - ["",         indef.,   def.,     noun,            def.,   noun             ]
-      - [nominative, ein,      das,      Ding,            die,    "Dinge, Dinger"  ]
-      - [genitive,   eines,    des,      "Dinges, Dings", der,    Dinge, Dinger    ]
-      - [dative,     einem,    dem,      Ding,            den,    "Dingen, Dingern"]
-      - [accusative, ein,      das,      Ding,            die,    Dinge, Dinger    ]
+      - ["",         singular,        plural           ]
+      - [nominative, Ding,            "Dinge, Dinger"  ]
+      - [genitive,   "Dinges, Dings", Dinge, Dinger    ]
+      - [dative,     Ding,            "Dingen, Dingern"]
+      - [accusative, Ding,            Dinge, Dinger    ]
   - term: kaufen
     definition: to buy
     conjugation: https://en.wiktionary.org/wiki/kaufen#Conjugation
@@ -1855,12 +1740,11 @@ vocabulary:
   - term: das Beispiel
     definition: the example
     declension:
-      - ["",         singular, singular, singular,                plural, plural    ]
-      - ["",         indef.,   def.,     noun,                    def.,   noun      ]
-      - [nominative, ein,      das,      Beispiel,                die,    Beispiele ]
-      - [genitive,   eines,    des,      "Beispieles, Beispiels", der,    Beispiele ]
-      - [dative,     einem,    dem,      Beispiel,                den,    Beispielen]
-      - [accusative, ein,      das,      Beispiel,                die,    Beispiele ]
+      - ["",         singular,                plural    ]
+      - [nominative, Beispiel,                Beispiele ]
+      - [genitive,   "Beispieles, Beispiels", Beispiele ]
+      - [dative,     Beispiel,                Beispielen]
+      - [accusative, Beispiel,                Beispiele ]
   - term: außerdem
     definition: (adv.) in addition
   - term: zum Beispiel
@@ -1886,21 +1770,19 @@ vocabulary:
   - term: das Kilo
     definition: the kilogram
     declension:
-      - ["",         singular, singular, singular, plural, plural       ]
-      - ["",         indef.,   def.,     noun,     def.,   noun         ]
-      - [nominative, ein,      das,      "Kilo",   die,    "Kilos, Kilo"]
-      - [genitive,   eines,    des,      "Kilo",   der,    "Kilos, Kilo"]
-      - [dative,     einem,    dem,      "Kilo",   den,    "Kilos, Kilo"]
-      - [accusative, ein,      das,      "Kilo",   die,    "Kilos, Kilo"]
+      - ["",         singular, plural       ]
+      - [nominative, "Kilo",   "Kilos, Kilo"]
+      - [genitive,   "Kilo",   "Kilos, Kilo"]
+      - [dative,     "Kilo",   "Kilos, Kilo"]
+      - [accusative, "Kilo",   "Kilos, Kilo"]
   - term: der Euro
     definition: (currency) the euro
     declension:
-      - ["",         singular, singular, singular,      plural, plural       ]
-      - ["",         indef.,   def.,     noun,          def.,   noun         ]
-      - [nominative, ein,      der,      Euro,          die,    "Euros, Euro"]
-      - [genitive,   eines,    des,      "Euros, Euro", der,    "Euros, Euro"]
-      - [dative,     einem,    dem,      Euro,          den,    "Euros, Euro"]
-      - [accusative, einen,    den,      Euro,          die,    "Euros, Euro"]
+      - ["",         singular,      plural       ]
+      - [nominative, Euro,          "Euros, Euro"]
+      - [genitive,   "Euros, Euro", "Euros, Euro"]
+      - [dative,     Euro,          "Euros, Euro"]
+      - [accusative, Euro,          "Euros, Euro"]
   - term: ganz
     definition:
       - (adj.) entire
@@ -1912,12 +1794,11 @@ vocabulary:
   - term: der Laden
     definition: the shop
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      Laden,    die,    Läden ]
-      - [genitive,   eines,    des,      Ladens,   der,    Läden ]
-      - [dative,     einem,    dem,      Laden,    den,    Läden ]
-      - [accusative, einen,    den,      Laden,    die,    Läden ]
+      - ["",         singular, plural]
+      - [nominative, Laden,    Läden ]
+      - [genitive,   Ladens,   Läden ]
+      - [dative,     Laden,    Läden ]
+      - [accusative, Laden,    Läden ]
   - term: Das ist der Laden von ...
     definition: This is ...(someone)'s shop.
   - term: der Riesling
@@ -1925,39 +1806,35 @@ vocabulary:
       - the Riesling grape
       - Riesling (a white wine made from Riesling grapes)
     declension:
-      - ["",         singular, singular, singular,  plural, plural    ]
-      - ["",         indef.,   def.,     noun,      def.,   noun      ]
-      - [nominative, ein,      der,      Riesling,  die,    Rieslinge ]
-      - [genitive,   eines,    des,      Rieslings, der,    Rieslinge ]
-      - [dative,     einem,    dem,      Riesling,  den,    Rieslingen]
-      - [accusative, einen,    den,      Riesling,  die,    Rieslinge ]
+      - ["",         singular,  plural    ]
+      - [nominative, Riesling,  Rieslinge ]
+      - [genitive,   Rieslings, Rieslinge ]
+      - [dative,     Riesling,  Rieslingen]
+      - [accusative, Riesling,  Rieslinge ]
   - term: die Zeitung
     definition: the newspaper
     declension:
-      - [ "",         singular, singular, singular, plural, plural   ]
-      - [ "",         indef.,   def.,     noun,     def.,   noun     ]
-      - [ nominative, eine,     die,      Zeitung,  die,    Zeitungen]
-      - [ genitive,   einer,    der,      Zeitung,  der,    Zeitungen]
-      - [ dative,     einer,    der,      Zeitung,  den,    Zeitungen]
-      - [ accusative, eine,     die,      Zeitung,  die,    Zeitungen]
+      - [ "",         singular, plural   ]
+      - [ nominative, Zeitung,  Zeitungen]
+      - [ genitive,   Zeitung,  Zeitungen]
+      - [ dative,     Zeitung,  Zeitungen]
+      - [ accusative, Zeitung,  Zeitungen]
   - term: die Süßigkeit
     definition: the candy
     declension:
-      - [ "",         singular, singular, singular,  plural, plural     ]
-      - [ "",         indef.,   def.,     noun,      def.,   noun       ]
-      - [ nominative, eine,     die,      Süßigkeit, die,    Süßigkeiten]
-      - [ genitive,   einer,    der,      Süßigkeit, der,    Süßigkeiten]
-      - [ dative,     einer,    der,      Süßigkeit, den,    Süßigkeiten]
-      - [ accusative, eine,     die,      Süßigkeit, die,    Süßigkeiten]
+      - [ "",         singular,  plural     ]
+      - [ nominative, Süßigkeit, Süßigkeiten]
+      - [ genitive,   Süßigkeit, Süßigkeiten]
+      - [ dative,     Süßigkeit, Süßigkeiten]
+      - [ accusative, Süßigkeit, Süßigkeiten]
   - term: die Zigarette
     definition: the cigarette
     declension:
-      - [ "",         singular, singular, singular,  plural, plural    ]
-      - [ "",         indef.,   def.,     noun,      def.,   noun      ]
-      - [ nominative, eine,     die,      Zigarette, die,    Zigaretten]
-      - [ genitive,   einer,    der,      Zigarette, der,    Zigaretten]
-      - [ dative,     einer,    der,      Zigarette, den,    Zigaretten]
-      - [ accusative, eine,     die,      Zigarette, die,    Zigaretten]
+      - [ "",         singular,  plural    ]
+      - [ nominative, Zigarette, Zigaretten]
+      - [ genitive,   Zigarette, Zigaretten]
+      - [ dative,     Zigarette, Zigaretten]
+      - [ accusative, Zigarette, Zigaretten]
   - term: beantworten
     definition: to answer
     conjugation: https://en.wiktionary.org/wiki/beantworten#Conjugation
@@ -1966,12 +1843,11 @@ vocabulary:
   - term: das Pfund
     definition: the metric pound
     declension:
-      - ["",         singular, singular, singular,        plural, plural ]
-      - ["",         indef.,   def.,     noun,            def.,   noun   ]
-      - [nominative, ein,      das,      Pfund,           die,    Pfunde ]
-      - [genitive,   eines,    des,      Pfundes, Pfunds, der,    Pfunde ]
-      - [dative,     einem,    dem,      Pfund,           den,    Pfunden]
-      - [accusative, ein,      das,      Pfund,           die,    Pfunde ]
+      - ["",         singular,          plural ]
+      - [nominative, Pfund,             Pfunde ]
+      - [genitive,   "Pfundes, Pfunds", Pfunde ]
+      - [dative,     Pfund,             Pfunden]
+      - [accusative, Pfund,             Pfunde ]
   - term: halb
     definition: (adj.) half
   - term: das Gerichte
@@ -1979,12 +1855,11 @@ vocabulary:
       - (law) court
       - (a type of prepared food) dish
     declension:
-      - ["",         singular, singular, singular,              plural, plural   ]
-      - ["",         indef.,   def.,     noun,                  def.,   noun     ]
-      - [nominative, ein,      das,      Gericht,               die,    Gerichte ]
-      - [genitive,   eines,    des,      "Gerichtes, Gerichts", der,    Gerichte ]
-      - [dative,     einem,    dem,      Gericht,               den,    Gerichten]
-      - [accusative, ein,      das,      Gericht,               die,    Gerichte ]
+      - ["",         singular,              plural   ]
+      - [nominative, Gericht,               Gerichte ]
+      - [genitive,   "Gerichtes, Gerichts", Gerichte ]
+      - [dative,     Gericht,               Gerichten]
+      - [accusative, Gericht,               Gerichte ]
 
 
 
@@ -1999,21 +1874,19 @@ vocabulary:
   - term: der Hut
     definition: the hat
     declension:
-      - ["",         singular, singular, singular,      plural, plural]
-      - ["",         indef.,   def.,     noun,          def.,   noun  ]
-      - [nominative, ein,      der,      Hut,           die,    Hüte  ]
-      - [genitive,   eines,    des,      "Hutes, Huts", der,    Hüte  ]
-      - [dative,     einem,    dem,      Hut,           den,    Hüten ]
-      - [accusative, einen,    den,      Hut,           die,    Hüte  ]
+      - ["",         singular,      plural]
+      - [nominative, Hut,           Hüte  ]
+      - [genitive,   "Hutes, Huts", Hüte  ]
+      - [dative,     Hut,           Hüten ]
+      - [accusative, Hut,           Hüte  ]
   - term: die Hut
     definition: the protection
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, eine,     die,      Hut,      die,    Huten ]
-      - [genitive,   einer,    der,      Hut,      der,    Huten ]
-      - [dative,     einer,    der,      Hut,      den,    Huten ]
-      - [accusative, eine,     die,      Hut,      die,    Huten ]
+      - ["",         singular, plural]
+      - [nominative, Hut,      Huten ]
+      - [genitive,   Hut,      Huten ]
+      - [dative,     Hut,      Huten ]
+      - [accusative, Hut,      Huten ]
   - term: krank
     definition: sick, ill
   - term: werden
@@ -2034,21 +1907,19 @@ vocabulary:
   - term: der Gegner
     definition: enemy
     declension:
-      - ["",         singular, singular, singular, plural, plural ]
-      - ["",         indef.,   def.,     noun,     def.,   noun   ]
-      - [nominative, ein,      der,      Gegner,   die,    Gegner ]
-      - [genitive,   eines,    des,      Gegners,  der,    Gegner ]
-      - [dative,     einem,    dem,      Gegner,   den,    Gegnern]
-      - [accusative, einen,    den,      Gegner,   die,    Gegner ]
+      - ["",         singular, plural ]
+      - [nominative, Gegner,   Gegner ]
+      - [genitive,   Gegners,  Gegner ]
+      - [dative,     Gegner,   Gegnern]
+      - [accusative, Gegner,   Gegner ]
   - term: der Mensch
     definition: human
     declension:
-      - ["",         singular, singular, singular, plural, plural  ]
-      - ["",         indef.,   def.,     noun,     def.,   noun    ]
-      - [nominative, ein,      der,      Mensch,   die,    Menschen]
-      - [genitive,   eines,    des,      Menschen, der,    Menschen]
-      - [dative,     einem,    dem,      Menschen, den,    Menschen]
-      - [accusative, einen,    den,      Menschen, die,    Menschen]
+      - ["",         singular, plural  ]
+      - [nominative, Mensch,   Menschen]
+      - [genitive,   Menschen, Menschen]
+      - [dative,     Menschen, Menschen]
+      - [accusative, Menschen, Menschen]
   - term: schreiben
     definition: to write
     conjugation: https://en.wiktionary.org/wiki/schreiben#Conjugation
@@ -2122,21 +1993,19 @@ vocabulary:
   - term: der Freund
     definition: (male) the friend
     declension:
-      - ["",         singular, singular, singular,            plural, plural  ]
-      - ["",         indef.,   def.,     noun,                def.,   noun    ]
-      - [nominative, ein,      der,      Freund,              die,    Freunde ]
-      - [genitive,   eines,    des,      "Freundes, Freunds", der,    Freunde ]
-      - [dative,     einem,    dem,      Freund,              den,    Freunden]
-      - [accusative, einen,    den,      Freund,              die,    Freunde ]
+      - ["",         singular,            plural  ]
+      - [nominative, Freund,              Freunde ]
+      - [genitive,   "Freundes, Freunds", Freunde ]
+      - [dative,     Freund,              Freunden]
+      - [accusative, Freund,              Freunde ]
   - term: die Freundin
     definition: (female) the friend
     declension:
-      - ["",         singular, singular, singular, plural, plural     ]
-      - ["",         indef.,   def.,     noun,     def.,   noun       ]
-      - [nominative, eine,     die,      Freundin, die,    Freundinnen]
-      - [genitive,   einer,    der,      Freundin, der,    Freundinnen]
-      - [dative,     einer,    der,      Freundin, den,    Freundinnen]
-      - [accusative, eine,     die,      Freundin, die,    Freundinnen]
+      - ["",         singular, plural     ]
+      - [nominative, Freundin, Freundinnen]
+      - [genitive,   Freundin, Freundinnen]
+      - [dative,     Freundin, Freundinnen]
+      - [accusative, Freundin, Freundinnen]
   - term: einmal
     definition: (adv.) once
   - term: gebührend
@@ -2150,65 +2019,44 @@ vocabulary:
       - parting, farewell
       - goodbye
     declension:
-      - ["",         singular, singular, singular,                plural, plural    ]
-      - ["",         indef.,   def.,     noun,                    def.,   noun      ]
-      - [nominative, ein,      der,      Abschied,                die,    Abschiede ]
-      - [genitive,   eines,    des,      "Abschiedes, Abschieds", der,    Abschiede ]
-      - [dative,     einem,    dem,      Abschied,                den,    Abschieden]
-      - [accusative, einen,    den,      Abschied,                die,    Abschiede ]
+      - ["",         singular,                plural    ]
+      - [nominative, Abschied,                Abschiede ]
+      - [genitive,   "Abschiedes, Abschieds", Abschiede ]
+      - [dative,     Abschied,                Abschieden]
+      - [accusative, Abschied,                Abschiede ]
   - term: verabschieden
     definition: to say goodbye
     conjugation: https://en.wiktionary.org/wiki/verabschieden#Conjugation
   - term: der Weg
     definition: the path
     declension:
-      - ["",         singular, singular, singular,      plural, plural]
-      - ["",         indef.,   def.,     noun,          def.,   noun  ]
-      - [nominative, ein,      der,      Weg,           die,    Wege  ]
-      - [genitive,   eines,    des,      "Weges, Wegs", der,    Wege  ]
-      - [dative,     einem,    dem,      Weg,           den,    Wegen ]
-      - [accusative, einen,    den,      Weg,           die,    Wege  ]
+      - ["",         singular,      plural]
+      - [nominative, Weg,           Wege  ]
+      - [genitive,   "Weges, Wegs", Wege  ]
+      - [dative,     Weg,           Wegen ]
+      - [accusative, Weg,           Wege  ]
   - term: trennen
     definition: to separate
     conjugation: https://en.wiktionary.org/wiki/trennen#Conjugation
-  - term: selber
-    definition: (pron.) the same
-    declension:
-      strong (without article):
-        - ["",         singular,  singular, singular, plural]
-        - ["",         masculine, feminine, neuter,   ""    ]
-        - [nominative, selber,    selbe,    selbes,   selbe ]
-        - [genitive,   selbes,    selber,   selbes,   selber]
-        - [dative,     selbem,    selber,   selbem,   selben]
-        - [accusative, selben,    selbe,    selbes,   selbe ]
-      weak declension (with definite article):
-        - ["",         singular,  singular, singular, plural]
-        - ["",         masculine, feminine, neuter,   ""    ]
-        - [nominative, selbe,     selbe,    selbe,    selben]
-        - [genitive,   selben,    selben,   selben,   selben]
-        - [dative,     selben,    selben,   selben,   selben]
-        - [accusative, selben,    selbe,    selbe,    selben]
   - term: das Viertel
     definition: the neighborhood
     declension:
-      - [ "",         singular, singular, singular, plural, plural  ]
-      - [ "",         indef.,   def.,     noun,     def.,   noun    ]
-      - [ nominative, ein,      das,      Viertel,  die,    Viertel ]
-      - [ genitive,   eines,    des,      Viertels, der,    Viertel ]
-      - [ dative,     einem,    dem,      Viertel,  den,    Vierteln]
-      - [ accusative, ein,      das,      Viertel,  die,    Viertel ]
+      - [ "",         singular, plural  ]
+      - [ nominative, Viertel,  Viertel ]
+      - [ genitive,   Viertels, Viertel ]
+      - [ dative,     Viertel,  Vierteln]
+      - [ accusative, Viertel,  Viertel ]
   - term: aufwachsen
     definition: to grow up
     conjugation: https://en.wiktionary.org/wiki/aufwachsen#Conjugation
   - term: das Kind
     definition: the child
     declension:
-      - [ "",         singular, singular, singular,        plural, plural ]
-      - [ "",         indef.,   def.,     noun,            def.,   noun   ]
-      - [ nominative, ein,      das,      Kind,            die,    Kinder ]
-      - [ genitive,   eines,    des,      "Kindes, Kinds", der,    Kinder ]
-      - [ dative,     einem,    dem,      Kind,            den,    Kindern]
-      - [ accusative, ein,      das,      Kind,            die,    Kinder ]
+      - [ "",         singular,        plural ]
+      - [ nominative, Kind,            Kinder ]
+      - [ genitive,   "Kindes, Kinds", Kinder ]
+      - [ dative,     Kind,            Kindern]
+      - [ accusative, Kind,            Kinder ]
   - term: unterschiedlich
     definition: (adj.) different
   - term: verschieden
@@ -2231,32 +2079,29 @@ vocabulary:
   - term: das Nesthäkchen
     definition: the lastborn of a family's children
     declension:
-      - ["",         singular, singular, singular,     plural, plural     ]
-      - ["",         indef.,   def.,     noun,         def.,   noun       ]
-      - [nominative, ein,      das,      Nesthäkchen,  die,    Nesthäkchen]
-      - [genitive,   eines,    des,      Nesthäkchens, der,    Nesthäkchen]
-      - [dative,     einem,    dem,      Nesthäkchen,  den,    Nesthäkchen]
-      - [accusative, ein,      das,      Nesthäkchen,  die,    Nesthäkchen]
+      - ["",         singular,     plural     ]
+      - [nominative, Nesthäkchen,  Nesthäkchen]
+      - [genitive,   Nesthäkchens, Nesthäkchen]
+      - [dative,     Nesthäkchen,  Nesthäkchen]
+      - [accusative, Nesthäkchen,  Nesthäkchen]
   - term: der Kriegsbeginn
     definition: the start of the war
     declension:
-      - ["",         singular, singular, singular,                        plural, plural]
-      - ["",         indef.,   def.,     noun,                            def.,   noun  ]
-      - [nominative, ein,      der,      Kriegsbeginn,                    N/A,    N/A   ]
-      - [genitive,   eines,    des,      "Kriegsbeginnes, Kriegsbeginns", N/A,    N/A   ]
-      - [dative,     einem,    dem,      Kriegsbeginn,                    N/A,    N/A   ]
-      - [accusative, einen,    den,      Kriegsbeginn,                    N/A,    N/A   ]
+      - ["",         singular,                        plural]
+      - [nominative, Kriegsbeginn,                    N/A   ]
+      - [genitive,   "Kriegsbeginnes, Kriegsbeginns", N/A   ]
+      - [dative,     Kriegsbeginn,                    N/A   ]
+      - [accusative, Kriegsbeginn,                    N/A   ]
   - term: der Dienst
     definition:
       - the service
       - the duty
     declension:
-      - ["",         singular, singular, singular,            plural, plural  ]
-      - ["",         indef.,   def.,     noun,                def.,   noun    ]
-      - [nominative, ein,      der,      Dienst,              die,    Dienste ]
-      - [genitive,   eines,    des,      "Dienstes, Diensts", der,    Dienste ]
-      - [dative,     einem,    dem,      Dienst,              den,    Diensten]
-      - [accusative, einen,    den,      Dienst,              die,    Dienste ]
+      - ["",         singular,            plural  ]
+      - [nominative, Dienst,              Dienste ]
+      - [genitive,   "Dienstes, Diensts", Dienste ]
+      - [dative,     Dienst,              Diensten]
+      - [accusative, Dienst,              Dienste ]
   - term: leisten
     definition:
       - to perform
@@ -2276,23 +2121,21 @@ vocabulary:
   - term: die Front
     definition: the front
     declension:
-      - ["",         singular, singular, singular, plural, plural ]
-      - ["",         indef.,   def.,     noun,     def.,   noun   ]
-      - [nominative, eine,     die,      Front,    die,    Fronten]
-      - [genitive,   einer,    der,      Front,    der,    Fronten]
-      - [dative,     einer,    der,      Front,    den,    Fronten]
-      - [accusative, eine,     die,      Front,    die,    Fronten]
+      - ["",         singular, plural ]
+      - [nominative, Front,    Fronten]
+      - [genitive,   Front,    Fronten]
+      - [dative,     Front,    Fronten]
+      - [accusative, Front,    Fronten]
   - term: die Einheit
     definition:
       - unit
       - unity
     declension:
-      - ["",         singular, singular, singular, plural, plural   ]
-      - ["",         indef.,   def.,     noun,     def.,   noun     ]
-      - [nominative, eine,     die,      Einheit,  die,    Einheiten]
-      - [genitive,   einer,    der,      Einheit,  der,    Einheiten]
-      - [dative,     einer,    der,      Einheit,  den,    Einheiten]
-      - [accusative, eine,     die,      Einheit,  die,    Einheiten]
+      - ["",         singular, plural   ]
+      - [nominative, Einheit,  Einheiten]
+      - [genitive,   Einheit,  Einheiten]
+      - [dative,     Einheit,  Einheiten]
+      - [accusative, Einheit,  Einheiten]
   - term: folgen
     definition:
       - to follow
@@ -2302,21 +2145,19 @@ vocabulary:
   - term: das Unteroffizier
     definition: the non-commissioned officer
     declension:
-      - ["",         singular, singular, singular,       plural, plural         ]
-      - ["",         indef.,   def.,     noun,           def.,   noun           ]
-      - [nominative, ein,      der,      Unteroffizier,  die,    Unteroffiziere ]
-      - [genitive,   eines,    des,      Unteroffiziers, der,    Unteroffiziere ]
-      - [dative,     einem,    dem,      Unteroffizier,  den,    Unteroffizieren]
-      - [accusative, einen,    den,      Unteroffizier,  die,    Unteroffiziere ]
+      - ["",         singular,       plural         ]
+      - [nominative, Unteroffizier,  Unteroffiziere ]
+      - [genitive,   Unteroffiziers, Unteroffiziere ]
+      - [dative,     Unteroffizier,  Unteroffizieren]
+      - [accusative, Unteroffizier,  Unteroffiziere ]
   - term: der Weltkrieg
     definition: the world war
     declension:
-      - ["",         singular, singular, singular,                  plural, plural     ]
-      - ["",         indef.,   def.,     noun,                      def.,   noun       ]
-      - [nominative, ein,      der,      Weltkrieg,                 die,    Weltkriege ]
-      - [genitive,   eines,    des,      "Weltkrieges, Weltkriegs", der,    Weltkriege ]
-      - [dative,     einem,    dem,      Weltkrieg,                 den,    Weltkriegen]
-      - [accusative, einen,    den,      Weltkrieg,                 die,    Weltkriege ]
+      - ["",         singular,                  plural     ]
+      - [nominative, Weltkrieg,                 Weltkriege ]
+      - [genitive,   "Weltkrieges, Weltkriegs", Weltkriege ]
+      - [dative,     Weltkrieg,                 Weltkriegen]
+      - [accusative, Weltkrieg,                 Weltkriege ]
   - term: spät
     definition: (adj.) late
   - term: angesehen
@@ -2324,12 +2165,11 @@ vocabulary:
   - term: der Schneider
     definition: the tailor
     declension:
-      - ["",         singular, singular, singular,   plural, plural    ]
-      - ["",         indef.,   def.,     noun,       def.,   noun      ]
-      - [nominative, ein,      der,      Schneider,  die,    Schneider ]
-      - [genitive,   eines,    des,      Schneiders, der,    Schneider ]
-      - [dative,     einem,    dem,      Schneider,  den,    Schneidern]
-      - [accusative, einen,    den,      Schneider,  die,    Schneider ]
+      - ["",         singular,   plural    ]
+      - [nominative, Schneider,  Schneider ]
+      - [genitive,   Schneiders, Schneider ]
+      - [dative,     Schneider,  Schneidern]
+      - [accusative, Schneider,  Schneider ]
   - term: übernehmen
     definition: to take over
     conjugation: https://en.wiktionary.org/wiki/%C3%BCbernehmen#Conjugation
@@ -2338,12 +2178,11 @@ vocabulary:
       - the store
       - the business
     declension:
-      - ["",         singular, singular, singular,                plural, plural    ]
-      - ["",         indef.,   def.,     noun,                    def.,   noun      ]
-      - [nominative, ein,      das,      Geschäft,                die,    Geschäfte ]
-      - [genitive,   eines,    des,      "Geschäftes, Geschäfts", der,    Geschäfte ]
-      - [dative,     einem,    dem,      Geschäft,                den,    Geschäften]
-      - [accusative, ein,      das,      Geschäft,                die,    Geschäfte ]
+      - ["",         singular,                plural    ]
+      - [nominative, Geschäft,                Geschäfte ]
+      - [genitive,   "Geschäftes, Geschäfts", Geschäfte ]
+      - [dative,     Geschäft,                Geschäften]
+      - [accusative, Geschäft,                Geschäfte ]
   - term: bevor
     definition:
       - (conj.) before
@@ -2351,52 +2190,60 @@ vocabulary:
   - term: die Reichskristallnacht
     definition: (Nazism) the Kristallnacht
     declension:
-      - ["",         singular, singular, singular,            plural, plural]
-      - ["",         indef.,   def.,     noun,                def.,   noun  ]
-      - [nominative, eine,     die,      Reichskristallnacht, N/A,    N/A   ]
-      - [genitive,   einer,    der,      Reichskristallnacht, N/A,    N/A   ]
-      - [dative,     einer,    der,      Reichskristallnacht, N/A,    N/A   ]
-      - [accusative, eine,     die,      Reichskristallnacht, N/A,    N/A   ]
+      - ["",         singular,            plural]
+      - [nominative, Reichskristallnacht, N/A   ]
+      - [genitive,   Reichskristallnacht, N/A   ]
+      - [dative,     Reichskristallnacht, N/A   ]
+      - [accusative, Reichskristallnacht, N/A   ]
   - term: die Scherbe
     definition: the shard
     declension:
-      - ["",         singular, singular, singular, plural, plural  ]
-      - ["",         indef.,   def.,     noun,     def.,   noun    ]
-      - [nominative, eine,     die,      Scherbe,  die,    Scherben]
-      - [genitive,   einer,    der,      Scherbe,  der,    Scherben]
-      - [dative,     einer,    der,      Scherbe,  den,    Scherben]
-      - [accusative, eine,     die,      Scherbe,  die,    Scherben]
+      - ["",         singular, plural  ]
+      - [nominative, Scherbe,  Scherben]
+      - [genitive,   Scherbe,  Scherben]
+      - [dative,     Scherbe,  Scherben]
+      - [accusative, Scherbe,  Scherben]
   - term: zerfallen
     definition: to disintegrate
     conjugation: https://en.wiktionary.org/wiki/zerfallen#Conjugation
-  - term: beide
-    definition: (pron.) both
+  - term: derjenige
+    definition:
+      - (pron.) he
+      - (pron.) the one
     declension:
-      - [case,       singular, plural (strong forms), plural (weak & mixed forms)]
-      - [nominative, beides,   beides,                die beiden                 ]
-      - [genitive,   (beides), beider,                der beiden                 ]
-      - [dative,     beidem,   beiden,                den beiden                 ]
-      - [accusative, beides,   beides,                die beiden                 ]
+      - ["",         masclune,   feminine,   neuter,     plural    ]
+      - [nominative, derjenige,  diejenige,  dasjenige,  diejenigen]
+      - [genitive,   desjenigen, derjenigen, desjenigen, derjenigen]
+      - [dative,     demjenigen, derjenigen, demjenigen, denjenigen]
+      - [accusative, denjenigen, diejenige,  dasjenige,  diejenigen]
+  - term: beide
+    definition:
+      - (pron.) both
+      - (pron. the) two
+    declension:
+      - ["",         masculine, feminine, neuter,   plural, plural (with definite article)]
+      - [nominative, N/A,       N/A,      beides,   beides, die beiden                    ]
+      - [genitive,   N/A,       N/A,      (beides), beider, der beiden                    ]
+      - [dative,     N/A,       N/A,      beidem,   beiden, den beiden                    ]
+      - [accusative, N/A,       N/A,      beides,   beides, die beiden                    ]
   - term: unzertrennlich
     definition: (adj.) inseparable
   - term: die Beziehung
     definition: the relationship
     declension:
-      - ["",         singular, singular, singular,  plural, plural     ]
-      - ["",         indef.,   def.,     noun,      def.,   noun       ]
-      - [nominative, eine,     die,      Beziehung, die,    Beziehungen]
-      - [genitive,   einer,    der,      Beziehung, der,    Beziehungen]
-      - [dative,     einer,    der,      Beziehung, den,    Beziehungen]
-      - [accusative, eine,     die,      Beziehung, die,    Beziehungen]
+      - ["",         singular,  plural     ]
+      - [nominative, Beziehung, Beziehungen]
+      - [genitive,   Beziehung, Beziehungen]
+      - [dative,     Beziehung, Beziehungen]
+      - [accusative, Beziehung, Beziehungen]
   - term: die Rassenschande
     definition: (Nazism, obsolete) the miscegenation
     declension:
-      - ["",         singular, singular, singular,      plural, plural]
-      - ["",         indef.,   def.,     noun,          def.,   noun  ]
-      - [nominative, eine,     die,      Rassenschande, N/A,    N/A   ]
-      - [genitive,   einer,    der,      Rassenschande, N/A,    N/A   ]
-      - [dative,     einer,    der,      Rassenschande, N/A,    N/A   ]
-      - [accusative, eine,     die,      Rassenschande, N/A,    N/A   ]
+      - ["",         singular,      plural]
+      - [nominative, Rassenschande, N/A   ]
+      - [genitive,   Rassenschande, N/A   ]
+      - [dative,     Rassenschande, N/A   ]
+      - [accusative, Rassenschande, N/A   ]
   - term: gelten
     definition:
       - to be valid
@@ -2418,21 +2265,19 @@ vocabulary:
   - term: der Bruder
     definition: the brother
     declension:
-      - ["",         singular, singular, singular, plural, plural ]
-      - ["",         indef.,   def.,     noun,     def.,   noun   ]
-      - [nominative, ein,      der,      Bruder,   die,    Brüder ]
-      - [genitive,   eines,    des,      Bruders,  der,    Brüder ]
-      - [dative,     einem,    dem,      Bruder,   den,    Brüdern]
-      - [accusative, einen,    den,      Bruder,   die,    Brüder ]
+      - ["",         singular, plural ]
+      - [nominative, Bruder,   Brüder ]
+      - [genitive,   Bruders,  Brüder ]
+      - [dative,     Bruder,   Brüdern]
+      - [accusative, Bruder,   Brüder ]
   - term: der Bücherwurm
     definition: the bookworm
     declension:
-      - ["",         singular, singular, singular,                    plural, plural       ]
-      - ["",         indef.,   def.,     noun,                        def.,   noun         ]
-      - [nominative, ein,      der,      Bücherwurm,                  die,    Bücherwürmer ]
-      - [genitive,   eines,    des,      "Bücherwurmes, Bücherwurms", der,    Bücherwürmer ]
-      - [dative,     einem,    dem,      Bücherwurm,                  den,    Bücherwürmern]
-      - [accusative, einen,    den,      Bücherwurm,                  die,    Bücherwürmer ]
+      - ["",         singular,                    plural       ]
+      - [nominative, Bücherwurm,                  Bücherwürmer ]
+      - [genitive,   "Bücherwurmes, Bücherwurms", Bücherwürmer ]
+      - [dative,     Bücherwurm,                  Bücherwürmern]
+      - [accusative, Bücherwurm,                  Bücherwürmer ]
   - term: bewundern
     definition: to admire
     conjugation: https://en.wiktionary.org/wiki/bewundern#Conjugation
@@ -2442,47 +2287,43 @@ vocabulary:
       - (uncountable) the intelligence
       - (countable) wise action
     declension:
-      - ["",         singular, singular, singular,  plural, plural    ]
-      - ["",         indef.,   def.,     noun,      def.,   noun      ]
-      - [nominative, eine,     die,      Klugheit,  die,    Klugheiten]
-      - [genitive,   einer,    der,      Klugheit,  der,    Klugheiten]
-      - [dative,     einer,    der,      Klugheit,  den,    Klugheiten]
-      - [accusative, eine,     die,      Klugheit,  die,    Klugheiten]
+      - ["",         singular, plural    ]
+      - [nominative, Klugheit, Klugheiten]
+      - [genitive,   Klugheit, Klugheiten]
+      - [dative,     Klugheit, Klugheiten]
+      - [accusative, Klugheit, Klugheiten]
   - term: der Witz
     definition:
       - wit
       - joke
       - humour
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      der,      Witz,     die,    Witze ]
-      - [genitive,   eines,    des,      Witzes,   der,    Witze ]
-      - [dative,     einem,    dem,      Witz,     den,    Witzen]
-      - [accusative, einen,    den,      Witz,     die,    Witze ]
+      - ["",         singular, plural]
+      - [nominative, Witz,     Witze ]
+      - [genitive,   Witzes,   Witze ]
+      - [dative,     Witz,     Witzen]
+      - [accusative, Witz,     Witze ]
   - term: das Mal
     definition:
       - (as in the first "time"; many "times") time
       - occasion
     declension:
-      - ["",         singular, singular, singular,      plural, plural      ]
-      - ["",         indef.,   def.,     noun,          def.,   noun        ]
-      - [nominative, ein,      das,      Mal,           die,    "Male, Mal" ]
-      - [genitive,   eines,    des,      "Males, Mals", der,    "Male, Mal" ]
-      - [dative,     einem,    dem,      Mal,           den,    "Malen, Mal"]
-      - [accusative, ein,      das,      Mal,           die,    "Male, Mal" ]
+      - ["",         singular,      plural      ]
+      - [nominative, Mal,           "Male, Mal" ]
+      - [genitive,   "Males, Mals", "Male, Mal" ]
+      - [dative,     Mal,           "Malen, Mal"]
+      - [accusative, Mal,           "Male, Mal" ]
   - term: die Richtung
     definition:
       - the direction
       - the route
       - the depature
     declension:
-      - ["",         singular, singular, singular,  plural, plural    ]
-      - ["",         indef.,   def.,     noun,      def.,   noun      ]
-      - [nominative, eine,     die,      Richtung,  die,    Richtungen]
-      - [genitive,   einer,    der,      Richtung,  der,    Richtungen]
-      - [dative,     einer,    der,      Richtung,  den,    Richtungen]
-      - [accusative, eine,     die,      Richtung,  die,    Richtungen]
+      - ["",         singular, plural    ]
+      - [nominative, Richtung, Richtungen]
+      - [genitive,   Richtung, Richtungen]
+      - [dative,     Richtung, Richtungen]
+      - [accusative, Richtung, Richtungen]
   - term: der Einsatz
     definition:
       - something inserted
@@ -2492,24 +2333,22 @@ vocabulary:
       - employment
       - commitment
     declension:
-      - ["",         singular, singular, singular,  plural, plural   ]
-      - ["",         indef.,   def.,     noun,      def.,   noun     ]
-      - [nominative, ein,      der,      Einsatz,   die,    Einsätze ]
-      - [genitive,   eines,    des,      Einsatzes, der,    Einsätze ]
-      - [dative,     einem,    dem,      Einsatz,   den,    Einsätzen]
-      - [accusative, einen,    den,      Einsatz,   die,    Einsätze ]
+      - ["",         singular,  plural   ]
+      - [nominative, Einsatz,   Einsätze ]
+      - [genitive,   Einsatzes, Einsätze ]
+      - [dative,     Einsatz,   Einsätzen]
+      - [accusative, Einsatz,   Einsätze ]
 
 
 
   - term: der Volksgenosse
     definition: countryman
     declension:
-      - ["",         singular, singular, singular,      plural, plural       ]
-      - ["",         indef.,   def.,     noun,          def.,   noun         ]
-      - [nominative, ein,      der,      Volksgenosse,  die,    Volksgenossen]
-      - [genitive,   eines,    des,      Volksgenossen, der,    Volksgenossen]
-      - [dative,     einem,    dem,      Volksgenossen, den,    Volksgenossen]
-      - [accusative, einen,    den,      Volksgenossen, die,    Volksgenossen]
+      - ["",         singular,      plural       ]
+      - [nominative, Volksgenosse,  Volksgenossen]
+      - [genitive,   Volksgenossen, Volksgenossen]
+      - [dative,     Volksgenossen, Volksgenossen]
+      - [accusative, Volksgenossen, Volksgenossen]
   - term: die Volksgenossin
     definition: female equivalent of Volksgenosse
   - term: das Thema
@@ -2636,12 +2475,11 @@ vocabulary:
   - term: der Teil
     definition: part, portion
     declension:
-      - ["",         singular, singular, singular,        plural, plural]
-      - ["",         indef.,   def.,     noun,            def.,   noun  ]
-      - [nominative, ein,      der,      Teil,            die,    Teile ]
-      - [genitive,   eines,    des,      "Teiles, Teils", der,    Teile ]
-      - [dative,     einem,    dem,      Teil,            den,    Teilen]
-      - [accusative, einen,    den,      Teil,            die,    Teile ]
+      - ["",         singular,        plural]
+      - [nominative, Teil,            Teile ]
+      - [genitive,   "Teiles, Teils", Teile ]
+      - [dative,     Teil,            Teilen]
+      - [accusative, Teil,            Teile ]
   - term: die Ästhetik
     definition: aesthetics
     declension: https://www.verbformen.com/?w=%C3%84sthetik
@@ -2658,36 +2496,24 @@ vocabulary:
   - term: die Erkenntnis
     definition: recognition
     declension:
-      - ["",         singular, singular, singular,   plural, plural       ]
-      - ["",         indef.,   def.,     noun,       def.,   noun         ]
-      - [nominative, eine,     die,      Erkenntnis, die,    Erkenntnisse ]
-      - [genitive,   einer,    der,      Erkenntnis, der,    Erkenntnisse ]
-      - [dative,     einer,    der,      Erkenntnis, den,    Erkenntnissen]
-      - [accusative, eine,     die,      Erkenntnis, die,    Erkenntnisse ]
+      - ["",         singular,   plural       ]
+      - [nominative, Erkenntnis, Erkenntnisse ]
+      - [genitive,   Erkenntnis, Erkenntnisse ]
+      - [dative,     Erkenntnis, Erkenntnissen]
+      - [accusative, Erkenntnis, Erkenntnisse ]
   - term: der Gegenstand
     definition:
       - object
       - thing
     declension:
-      - ["",         singular, singular, singular,                    plural, plural      ]
-      - ["",         indef.,   def.,     noun,                        def.,   noun        ]
-      - [nominative, ein,      der,      Gegenstand,                  die,    Gegenstände ]
-      - [genitive,   eines,    des,      "Gegenstandes, Gegenstands", der,    Gegenstände ]
-      - [dative,     einem,    dem,      Gegenstand,                  den,    Gegenständen]
-      - [accusative, einen,    den,      Gegenstand,                  die,    Gegenstände ]
+      - ["",         singular,                    plural      ]
+      - [nominative, Gegenstand,                  Gegenstände ]
+      - [genitive,   "Gegenstandes, Gegenstands", Gegenstände ]
+      - [dative,     Gegenstand,                  Gegenständen]
+      - [accusative, Gegenstand,                  Gegenstände ]
   - term: beziehen
     definition: to relate
     conjugation: https://en.wiktionary.org/wiki/beziehen#Conjugation
-  - term: derjenige
-    definition:
-      - (pron.) he
-      - (pron.) the one
-    declension:
-      - ["",         masclune,   feminine,   neuter,     plural    ]
-      - [nominative, derjenige,  diejenige,  dasjenige,  diejenigen]
-      - [genitive,   desjenigen, derjenigen, desjenigen, derjenigen]
-      - [dative,     demjenigen, derjenigen, demjenigen, denjenigen]
-      - [accusative, denjenigen, diejenige,  dasjenige,  diejenigen]
   - term: wodurch
     definition:
       - (adv.) whereby,
@@ -2698,12 +2524,11 @@ vocabulary:
   - term: das Denken
     definition: (gerund of genken) thought(s)
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, ein,      das,      Denken,   N/A,    N/A   ]
-      - [genitive,   eines,    des,      Denkens,  N/A,    N/A   ]
-      - [dative,     einem,    dem,      Denken,   N/A,    N/A   ]
-      - [accusative, ein,      das,      Denken,   N/A,    N/A   ]
+      - ["",         singular, plural]
+      - [nominative, Denken,   N/A   ]
+      - [genitive,   Denkens,  N/A   ]
+      - [dative,     Denken,   N/A   ]
+      - [accusative, Denken,   N/A   ]
   - term: derselbe
     definition: (pron.) the same
     declension:
@@ -2712,6 +2537,21 @@ vocabulary:
       - [genitive,   desselben, derselben, desselben, derselben]
       - [dative,     demselben, derselben, demselben, denselben]
       - [accusative, denselben, dieselbe,  dasselbe,  dieselben]
+  - term: selber
+    definition: (pron.) the same
+    declension:
+      strong (without article):
+        - ["",         masculine, feminine, neuter,   plural]
+        - [nominative, selber,    selbe,    selbes,   selbe ]
+        - [genitive,   selbes,    selber,   selbes,   selber]
+        - [dative,     selbem,    selber,   selbem,   selben]
+        - [accusative, selben,    selbe,    selbes,   selbe ]
+      weak declension (with definite article):
+        - ["",         masculine, feminine, neuter,   plural]
+        - [nominative, selbe,     selbe,    selbe,    selben]
+        - [genitive,   selben,    selben,   selben,   selben]
+        - [dative,     selben,    selben,   selben,   selben]
+        - [accusative, selben,    selbe,    selbe,    selben]
   - term: unmittelbar
     definition:
       - immediate
@@ -2723,12 +2563,11 @@ vocabulary:
       - intuition
       - opinion
     declension:
-      - ["",         singular, singular, singular,   plural, plural      ]
-      - ["",         indef.,   def.,     noun,       def.,   noun        ]
-      - [nominative, eine,     die,      Anschauung, die,    Anschauungen]
-      - [genitive,   einer,    der,      Anschauung, der,    Anschauungen]
-      - [dative,     einer,    der,      Anschauung, den,    Anschauungen]
-      - [accusative, eine,     die,      Anschauung, die,    Anschauungen]
+      - ["",         singular,   plural      ]
+      - [nominative, Anschauung, Anschauungen]
+      - [genitive,   Anschauung, Anschauungen]
+      - [dative,     Anschauung, Anschauungen]
+      - [accusative, Anschauung, Anschauungen]
   - term: nur
     definition: (adv.) only
   - term: fern
@@ -2750,23 +2589,21 @@ vocabulary:
       - soul
       - mind
     declension:
-      - ["",         singular, singular, singular,          plural, plural  ]
-      - ["",         indef.,   def.,     noun,              def.,   noun    ]
-      - [nominative, ein,      das,      Gemüt,             die,    Gemüter ]
-      - [genitive,   eines,    des,      "Gemütes, Gemüts", der,    Gemüter ]
-      - [dative,     einem,    dem,      Gemüt,             den,    Gemütern]
-      - [accusative, ein,      das,      Gemüt,             die,    Gemüter ]
+      - ["",         singular,          plural  ]
+      - [nominative, Gemüt,             Gemüter ]
+      - [genitive,   "Gemütes, Gemüts", Gemüter ]
+      - [dative,     Gemüt,             Gemütern]
+      - [accusative, Gemüt,             Gemüter ]
   - term: gewiss
     definition: (adj.) certain
   - term: die Weise
     definition: way
     declension:
-      - ["",         singular, singular, singular, plural, plural]
-      - ["",         indef.,   def.,     noun,     def.,   noun  ]
-      - [nominative, eine,     die,      Weise,    die,    Weisen]
-      - [genitive,   einer,    der,      Weise,    der,    Weisen]
-      - [dative,     einer,    der,      Weise,    den,    Weisen]
-      - [accusative, eine,     die,      Weise,    die,    Weisen]
+      - ["",         singular, plural]
+      - [nominative, Weise,    Weisen]
+      - [genitive,   Weise,    Weisen]
+      - [dative,     Weise,    Weisen]
+      - [accusative, Weise,    Weisen]
   - term: die Zeit
     definition:
       - time
@@ -2774,21 +2611,19 @@ vocabulary:
       - era
       - (grammar) tense
     declension:
-      - ["",         singular, singular, singular,  plural, plural]
-      - ["",         indef.,   def.,     noun,      def.,   noun  ]
-      - [nominative, eine,     die,      Zeit,      die,    Zeiten]
-      - [genitive,   einer,    der,      Zeit,      der,    Zeiten]
-      - [dative,     einer,    der,      Zeit,      den,    Zeiten]
-      - [accusative, eine,     die,      Zeit,      die,    Zeiten]
+      - ["",         singular, plural]
+      - [nominative, Zeit,     Zeiten]
+      - [genitive,   Zeit,     Zeiten]
+      - [dative,     Zeit,     Zeiten]
+      - [accusative, Zeit,     Zeiten]
   - term: die Idee
     definition: the idea
     declension:
-      - ["",         singular, singular, singular,  plural, plural]
-      - ["",         indef.,   def.,     noun,      def.,   noun  ]
-      - [nominative, eine,     die,      Idee,      die,    Ideen ]
-      - [genitive,   einer,    der,      Idee,      der,    Ideen ]
-      - [dative,     einer,    der,      Idee,      den,    Ideen ]
-      - [accusative, eine,     die,      Idee,      die,    Ideen ]
+      - ["",         singular, plural]
+      - [nominative, Idee,     Ideen ]
+      - [genitive,   Idee,     Ideen ]
+      - [dative,     Idee,     Ideen ]
+      - [accusative, Idee,     Ideen ]
   - term: erwärmen
     definition: to warm up
     conjugation: https://en.wiktionary.org/wiki/erw%C3%A4rmen#Conjugation
