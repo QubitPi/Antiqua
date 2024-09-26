@@ -741,11 +741,11 @@ vocabulary:
   - term: der Cornflakes
     definition: the corn flakes
     declension:
-      - ["",         singular,plural    ]
-      - [nominative, N/A,     Cornflakes]
-      - [genitive,   N/A,     Cornflakes]
-      - [dative,     N/A,     Cornflakes]
-      - [accusative, N/A,     Cornflakes]
+      - ["",         singular, plural    ]
+      - [nominative, N/A,      Cornflakes]
+      - [genitive,   N/A,      Cornflakes]
+      - [dative,     N/A,      Cornflakes]
+      - [accusative, N/A,      Cornflakes]
   - term: der Käse
     definition: the cheese
     declension:
@@ -858,11 +858,11 @@ vocabulary:
   - term: das Müsli
     definition: the muesli
     declension:
-      - ["",         singular,       plural]
-      - [nominative, Müsli,          Müslis]
-      - [genitive,   "Müsli, Müslis",Müslis]
-      - [dative,     Müsli,          Müslis]
-      - [accusative, Müsli,          Müslis]
+      - ["",         singular,        plural]
+      - [nominative, Müsli,           Müslis]
+      - [genitive,   "Müsli, Müslis", Müslis]
+      - [dative,     Müsli,           Müslis]
+      - [accusative, Müsli,           Müslis]
   - term: das Öl
     definition: the oil
     declension:
