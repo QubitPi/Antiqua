@@ -2433,18 +2433,11 @@ vocabulary:
   - term: selber
     definition: (pron.) the same
     declension:
-      strong (without article):
-        - ["",         masculine, feminine, neuter,   plural]
-        - [nominative, selber,    selbe,    selbes,   selbe ]
-        - [genitive,   selbes,    selber,   selbes,   selber]
-        - [dative,     selbem,    selber,   selbem,   selben]
-        - [accusative, selben,    selbe,    selbes,   selbe ]
-      weak declension (with definite article):
-        - ["",         masculine, feminine, neuter,   plural]
-        - [nominative, selbe,     selbe,    selbe,    selben]
-        - [genitive,   selben,    selben,   selben,   selben]
-        - [dative,     selben,    selben,   selben,   selben]
-        - [accusative, selben,    selbe,    selbe,    selben]
+      - [ "",         m. (w/o article), f. (w/o article), n. (w/o article), plural (w/o article), m. (w/ def. article), f. (w/ def. article), n. (w/ def. article), plural (w/ def.  article) ]
+      - [ nominative, selber,           selbe,            selbes,           selbe ,               selbe,                selbe,                selbe,                selben                    ]
+      - [ genitive,   selbes,           selber,           selbes,           selber,               selben,               selben,               selben,               selben                    ]
+      - [ dative,     selbem,           selber,           selbem,           selben,               selben,               selben,               selben,               selben                    ]
+      - [ accusative, selben,           selbe,            selbes,           selbe ,               selben,               selbe,                selbe,                selben                    ]
   - term: unmittelbar
     definition:
       - immediate

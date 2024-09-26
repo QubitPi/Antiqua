@@ -20,15 +20,16 @@ To encode the inflections which are common in most Indo-European languages, an
 throughout this repository:
 
 ```yaml
-  - term: der Kaufmann
-    definition: (male) trader
+  - term: der Gegenstand
+    definition:
+      - object
+      - thing
     declension:
-      - ["",         singular, singular, singular,                plural, plural                   ]
-      - ["",         indef.,   def.,     noun,                    def.,   noun                     ]
-      - [nominative, ein,      der,      Kaufmann,                die,    "Kaufmänner, Kaufleute"  ]
-      - [genitive,   eines,    des,      "Kaufmannes, Kaufmanns", der,    "Kaufmänner, Kaufleute"  ]
-      - [dative,     einem,    dem,      Kaufmann,                den,    "Kaufmännern, Kaufleuten"]
-      - [accusative, einen,    den,      Kaufmann,                die,    "Kaufmänner, Kaufleute"  ]
+      - ["",         singular,                    plural      ]
+      - [nominative, Gegenstand,                  Gegenstände ]
+      - [genitive,   "Gegenstandes, Gegenstands", Gegenstände ]
+      - [dative,     Gegenstand,                  Gegenständen]
+      - [accusative, Gegenstand,                  Gegenstände ]
 ```
 
 > [!NOTE]
@@ -39,52 +40,31 @@ throughout this repository:
 
 The declension (inflection) table above is equivalent to
 
-<table><thead>
-  <tr>
-    <th></th>
-    <th colspan="3">singular</th>
-    <th colspan="2">plural</th>
-  </tr></thead>
-<tbody>
+<table><tbody>
   <tr>
     <td></td>
-    <td>indef.</td>
-    <td>def.</td>
-    <td>noun</td>
-    <td>def.</td>
-    <td>noun</td>
+    <td>singular</td>
+    <td>plural</td>
   </tr>
   <tr>
     <td>nominative</td>
-    <td>ein</td>
-    <td>der</td>
-    <td>Kaufmann</td>
-    <td>die</td>
-    <td>Kaufmänner, Kaufleute</td>
+    <td>Gegenstand</td>
+    <td>Gegenstände</td>
   </tr>
   <tr>
     <td>genitive</td>
-    <td>eines</td>
-    <td>des</td>
-    <td>Kaufmannes, Kaufmanns</td>
-    <td>der</td>
-    <td>Kaufmänner, Kaufleute</td>
+    <td>Gegenstandes, Gegenstands</td>
+    <td>Gegenstände</td>
   </tr>
   <tr>
     <td>dative</td>
-    <td>einem</td>
-    <td>dem</td>
-    <td>Kaufmann</td>
-    <td>den</td>
-    <td>Kaufmännern, Kaufleuten</td>
+    <td>Gegenstand</td>
+    <td>Gegenständen</td>
   </tr>
   <tr>
     <td>accusative</td>
-    <td>einen</td>
-    <td>den</td>
-    <td>Kaufmann</td>
-    <td>die</td>
-    <td>Kaufmänner, Kaufleute</td>
+    <td>Gegenstand</td>
+    <td>Gegenstände</td>
   </tr>
 </tbody>
 </table>
@@ -153,17 +133,9 @@ the German noun "[Ecke](https://en.wiktionary.org/wiki/Ecke#Noun)" has at least 
 > __Visualzing synonyms this way presents a big advantage to human brain__ who is exceedingly good at memorizing
 > patterns
 
-### Inflections
+### Docker
 
-Indo-European languages are mostly inflected. The way inflections are encoded are documented for each language
-separately:
-
-- [German declension](#german-declension)
-- [German conjugation](#german-conjugation)
-- [Ancient Greek declension](#greek-declension)
-- [Ancient Greek conjugation](#greek-conjugation)
-
-### Basic Graph Query
+More details TBA.
 
 - Search for a vocabulary with all its links:
 
