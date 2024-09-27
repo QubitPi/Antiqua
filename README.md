@@ -139,11 +139,19 @@ More details TBA.
 
 #### Interesting Queries
 
-- Search for a vocabulary with all its links:
+- Expanding German "nämlich":
 
-  ```text
-  MATCH (term:Term)-[r]-(x) WHERE r.name = "gerund of" RETURN term, r, x
+  ```cypher
+  MATCH (term:Term{name:'nämlich'})
+  CALL apoc.path.expand(term, "RELATED|DEFINITION", null, 1, -1)
+  YIELD path
+  RETURN path, length(path) AS hops
+  ORDER BY hops;
   ```
+
+  ![Expanding "nämlich"](./german-greek-latin.png "Error loading german-greek-latin.png")
+
+- Search for all gerunds: `MATCH (term:Term)-[r]-(x) WHERE r.name = "gerund of" RETURN term, r, x`
 
 Languages
 ---------
