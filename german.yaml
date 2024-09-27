@@ -1038,7 +1038,6 @@ vocabulary:
     definition: French fries
     declension:
       - ["",         singular, plural]
-      - ["",         noun,     noun  ]
       - [nominative, Pommes,   Pommes]
       - [genitive,   Pommes,   Pommes]
       - [dative,     Pommes,   Pommes]
@@ -1047,7 +1046,6 @@ vocabulary:
     definition: French fries
     declension:
       - ["",         singular, plural       ]
-      - ["",         noun,     noun         ]
       - [nominative, N/A,      Pommes frites]
       - [genitive,   N/A,      Pommes frites]
       - [dative,     N/A,      Pommes frites]
@@ -1080,7 +1078,6 @@ vocabulary:
     definition: the cream
     declension:
       - ["",         singular, plural]
-      - ["",         noun,     noun  ]
       - [nominative, Sahne,    N/A   ]
       - [genitive,   Sahne,    N/A   ]
       - [dative,     Sahne,    N/A   ]
@@ -1273,7 +1270,6 @@ vocabulary:
     definition: (gerund of) trinken
     declension:
       - ["",         singular, plural ]
-      - ["",         noun,     noun   ]
       - [nominative, Trinken,  Trinken]
       - [genitive,   Trinkens, Trinken]
       - [dative,     Trinken,  Trinken]
@@ -1292,7 +1288,6 @@ vocabulary:
     definition: the appetizer, the starter (food)
     declension:
       - ["",         singular,  plural    ]
-      - ["",         noun,      noun      ]
       - [nominative, Vorspeise, Vorspeisen]
       - [genitive,   Vorspeise, Vorspeisen]
       - [dative,     Vorspeise, Vorspeisen]
@@ -1301,7 +1296,6 @@ vocabulary:
     definition: the main dish
     declension:
       - ["",         singular,                      plural        ]
-      - ["",         noun,                          noun          ]
       - [nominative, Hauptgericht,                  Hauptgerichte ]
       - [genitive,   Hauptgerichtes, Hauptgerichts, Hauptgerichte ]
       - [dative,     Hauptgericht,                  Hauptgerichten]
@@ -1310,7 +1304,6 @@ vocabulary:
     definition: the dessert
     declension:
       - ["",         singular,                  plural     ]
-      - ["",         noun,                      noun       ]
       - [nominative, Nachtischen,               Nachtische ]
       - [genitive,   "Nachtisches, Nachtischs", Nachtische ]
       - [dative,     Nachtischen,               Nachtischen]
@@ -1319,7 +1312,6 @@ vocabulary:
     definition: the dessert
     declension:
       - ["",         singular,   plural     ]
-      - ["",         noun,       noun       ]
       - [nominative, Nachspeise, Nachspeisen]
       - [genitive,   Nachspeise, Nachspeisen]
       - [dative,     Nachspeise, Nachspeisen]
