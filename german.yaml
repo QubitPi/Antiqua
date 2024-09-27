@@ -663,6 +663,22 @@ vocabulary:
     definition: mother tongue
   - term: lernen
     definition: to learn
+  - term: das Moment
+    definition: (Physics) momentum
+    declension:
+      - ["",         singular,            plural  ]
+      - [nominative, Moment,              Momente ]
+      - [genitive,   "Momentes, Moments", Momente ]
+      - [dative,     Moment,              Momenten]
+      - [accusative, Moment,              Momente ]
+  - term: der Moment
+    definition: moment
+    declension:
+      - ["",         singular,            plural  ]
+      - [nominative, Moment,              Momente ]
+      - [genitive,   "Momentes, Moments", Momente ]
+      - [dative,     Moment,              Momenten]
+      - [accusative, Moment,              Momente ]
   - term: im Moment
     definition: at the moment
   - term: der Bahnhof
@@ -1338,6 +1354,10 @@ vocabulary:
     definition: to pay
   - term: Ich möchte bazahlen.
     definition: I'd like to pay.
+  - term: zusammenhalten
+    definition: to hold together
+  - term: Das macht zusammen ...
+    definition: The total($) would be ...
   - term: besonders
     definition: especially
   - term: bis bald
@@ -1416,6 +1436,14 @@ vocabulary:
       - [accusative, Kellner,  Kellner ]
   - term: die Kellnerin
     definition: waitress
+  - term: der Ober
+    definition: (synonym) der Kellner
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Ober,     Ober  ]
+      - [genitive,   Obers,    Ober  ]
+      - [dative,     Ober,     Obern ]
+      - [accusative, Ober,     Ober  ]
   - term: der Maurer
     definition: (male) bricklayer
     declension:
@@ -2091,8 +2119,6 @@ vocabulary:
       - (adv.) however
       - (adv.) really
       - (adv.) just
-  - term: zusammenhalten
-    definition: to hold together
   - term: das Nesthäkchen
     definition: the lastborn of a family's children
     declension:
@@ -2504,7 +2530,7 @@ vocabulary:
   - term: denken
     definition: to think
   - term: das Denken
-    definition: (gerund of genken) thought(s)
+    definition: (gerund of) denken
     declension:
       - ["",         singular, plural]
       - [nominative, Denken,   N/A   ]

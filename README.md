@@ -142,7 +142,7 @@ More details TBA.
 - Search for a vocabulary with all its links:
 
   ```text
-  MATCH (term:Term)-[r]-(x) WHERE term.name = "trinken" RETURN term, r, x
+  MATCH (term:Term)-[r]-(x) WHERE r.name = "gerund of" RETURN term, r, x
   ```
 
 Languages
