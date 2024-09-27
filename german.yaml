@@ -51,6 +51,14 @@ vocabulary:
       - it
   - term: mein
     definition: my
+  - term: kein
+    definition: (pron.) not
+    declension:
+      - ["",         masclune, feminine, neuter, plural]
+      - [nominative, kein,     keine,    kein,   keine ]
+      - [genitive,   keines,   keiner,   keines, keiner]
+      - [dative,     keinem,   keiner,   keinem, keinen]
+      - [accusative, keinen,   keine,    kein,   keine ]
   - term: "null"
     definition: 0
   - term: eins
@@ -1026,6 +1034,24 @@ vocabulary:
       - [genitive,   Nudel,    Nudeln]
       - [dative,     Nudel,    Nudeln]
       - [accusative, Nudel,    Nudeln]
+  - term: die Pommes
+    definition: French fries
+    declension:
+      - ["",         singular, plural]
+      - ["",         noun,     noun  ]
+      - [nominative, Pommes,   Pommes]
+      - [genitive,   Pommes,   Pommes]
+      - [dative,     Pommes,   Pommes]
+      - [accusative, Pommes,   Pommes]
+  - term: Pommes frites
+    definition: French fries
+    declension:
+      - ["",         singular, plural       ]
+      - ["",         noun,     noun         ]
+      - [nominative, N/A,      Pommes frites]
+      - [genitive,   N/A,      Pommes frites]
+      - [dative,     N/A,      Pommes frites]
+      - [accusative, N/A,      Pommes frites]
   - term: die Zwiebelsuppe
     definition: the onion soup
     declension:
@@ -1141,8 +1167,9 @@ vocabulary:
       - [genitive,   Schnitzels, Schnitzel ]
       - [dative,     Schnitzel,  Schnitzeln]
       - [accusative, Schnitzel,  Schnitzel ]
-  - term: Pommes frites
-    definition: French fries
+  - term: das Pfeffersteak
+    definition: the pepper steak
+    declension: Unknown
   - term: der Becher
     definition: the cup without a handle
     declension:
@@ -1242,6 +1269,15 @@ vocabulary:
     definition: a piece of cheese
   - term: trinken
     definition: to drink
+  - term: das Trinken
+    definition: (gerund of) trinken
+    declension:
+      - ["",         singular, plural ]
+      - ["",         noun,     noun   ]
+      - [nominative, Trinken,  Trinken]
+      - [genitive,   Trinkens, Trinken]
+      - [dative,     Trinken,  Trinken]
+      - [accusative, Trinken,  Trinken]
   - term: grün
     definition: (adj.) green
   - term: gemischt
