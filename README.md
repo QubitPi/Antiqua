@@ -2,7 +2,35 @@ Wilhelm Vocabulary
 ==================
 
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
+[![Docker Hub][Docker Hub badge]][Docker Hub URL]
 [![Apache License Badge]][Apache License, Version 2.0]
+
+<!-- TOC -->
+
+- [Wilhelm Vocabulary](#wilhelm-vocabulary)
+  - [Data Format](#data-format)
+    - [Encoding Table in YAML](#encoding-table-in-yaml)
+  - [Data Pipeline](#data-pipeline)
+  - [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
+    - [Why Graph Database](#why-graph-database)
+    - [Base Schema](#base-schema)
+    - [Docker](#docker)
+      - [Interesting Queries](#interesting-queries)
+  - [Languages](#languages)
+    - [German](#german)
+      - [Noun Declension](#noun-declension)
+        - [Declension Template](#declension-template)
+    - [Ancient Greek](#ancient-greek)
+      - [Diacritic Mark Convention](#diacritic-mark-convention)
+      - [Noun Declension](#noun-declension-1)
+      - [Adjective Declension](#adjective-declension)
+      - [Verb Conjugation](#verb-conjugation)
+    - [Latin](#latin)
+    - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
+    - [Korean](#korean)
+  - [License](#license)
+
+<!-- TOC -->
 
 Data Format
 -----------
@@ -135,7 +163,32 @@ the German noun "[Ecke](https://en.wiktionary.org/wiki/Ecke#Noun)" has at least 
 
 ### Docker
 
-More details TBA.
+A Docker image has been made to allow us to explore the vocabulary in Neo4J browser backed by a Neo4J database in
+container. To get the image and run the container, simply do:
+
+```console
+docker run \
+    --publish=7474:7474 \
+    --publish=7687:7687 \
+    --env=NEO4J_AUTH=none \
+    --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes \
+    -e NEO4JLABS_PLUGINS=\[\"apoc\"\] \
+    jack20191124/wilhelm-vocabulary
+```
+
+> [!NOTE]
+>
+> The image is based on Neo4J Enterprise 5.23.0.
+
+- When container starts, access neo4j through browser at http://localhost:7474
+- Both __bolt://__ and __neo4j://__ protocols are fine.
+- Choose __No authentication__ for _Authentication type_
+- Then hit __Connect__ as shown below
+
+![Connecting to Neo4J Docker](./neo4j-docker-connect.png "Error loading neo4j-docker-connect.png")
+
+We have offered some queries that can be used to quickly explore our language data in the
+[next section](#interesting-queries)
 
 #### Interesting Queries
 
@@ -410,6 +463,9 @@ The use and distribution terms for [wilhelm-vocabulary]() are covered by the [Ap
 
 [Apache License Badge]: https://img.shields.io/badge/Apache%202.0-F25910.svg?style=for-the-badge&logo=Apache&logoColor=white
 [Apache License, Version 2.0]: https://www.apache.org/licenses/LICENSE-2.0
+
+[Docker Hub badge]: https://img.shields.io/badge/DockerHub-2596EC?style=for-the-badge&logo=docker&logoColor=white
+[Docker Hub URL]: https://hub.docker.com/r/jack20191124/wilhelm-vocabulary
 
 [GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=Database%20Loading
 [GitHub workflow status URL]: https://github.com/QubitPi/wilhelm-vocabulary/actions/workflows/ci-cd.yaml
