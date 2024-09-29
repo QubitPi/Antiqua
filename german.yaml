@@ -280,7 +280,17 @@ vocabulary:
   - term: das Frankreich
     definition: France
   - term: das Französisch
-    definition: French (language)
+    definition: (language) French
+    declension:
+      - ["",         singular,                    plural       ]
+      - [nominative, Französisch,                 Französische ]
+      - [genitive,   "Französisch, Französischs", Französischen]
+      - [dative,     Französisch,                 Französischen]
+      - [accusative, Französisch,                 Französische ]
+  - term: französisch
+    definition:
+      - (adj.) French
+      - (adj., colloquial, relational) oral sex
   - term: die Französin
     definition: (a) French (female)
   - term: der Franzose
@@ -663,24 +673,6 @@ vocabulary:
     definition: mother tongue
   - term: lernen
     definition: to learn
-  - term: das Moment
-    definition: (Physics) momentum
-    declension:
-      - ["",         singular,            plural  ]
-      - [nominative, Moment,              Momente ]
-      - [genitive,   "Momentes, Moments", Momente ]
-      - [dative,     Moment,              Momenten]
-      - [accusative, Moment,              Momente ]
-  - term: der Moment
-    definition: moment
-    declension:
-      - ["",         singular,            plural  ]
-      - [nominative, Moment,              Momente ]
-      - [genitive,   "Momentes, Moments", Momente ]
-      - [dative,     Moment,              Momenten]
-      - [accusative, Moment,              Momente ]
-  - term: im Moment
-    definition: at the moment
   - term: der Bahnhof
     definition: the railway station
     declension:
@@ -796,6 +788,22 @@ vocabulary:
   - term: die Grilltomate
     definition: the grilled tomato
     declension: Unknown
+  - term: die Soße
+    definition: the sauce
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Soße,     Soßen ]
+      - [genitive,   Soße,     Soßen ]
+      - [dative,     Soße,     Soßen ]
+      - [accusative, Soße,     Soßen ]
+  - term: die Tomatensoße
+    definition: the tomato sauce
+    declension:
+      - ["",         singular,    plural      ]
+      - [nominative, Tomatensoße, Tomatensoßen]
+      - [genitive,   Tomatensoße, Tomatensoßen]
+      - [dative,     Tomatensoße, Tomatensoßen]
+      - [accusative, Tomatensoße, Tomatensoßen]
   - term: die Kartoffel
     definition: the potato
     declension:
@@ -1040,6 +1048,14 @@ vocabulary:
       - [genitive,   Eisbechers, Eisbecher ]
       - [dative,     Eisbecher,  Eisbechern]
       - [accusative, Eisbecher,  Eisbecher ]
+  - term: die Speisekarte
+    definition: the menu
+    declension:
+      - ["",         singular,    plural      ]
+      - [nominative, Speisekarte, Speisekarten]
+      - [genitive,   Speisekarte, Speisekarten]
+      - [dative,     Speisekarte, Speisekarten]
+      - [accusative, Speisekarte, Speisekarten]
   - term: die Nudel
     definition:
       - noodle
@@ -1296,10 +1312,6 @@ vocabulary:
     definition: (adj.) mixed
   - term: panieren
     definition: to bread
-  - term: Wir möchten/Ich möchte bestellen.
-    definition: (in restaurant) We'd like to/I'd like to order.
-  - term: Was möchten/nehmen/behommen/trinken Sie, bitte?
-    definition: (in restaurant) What would you like?
   - term: die Vorspeise
     definition: the appetizer, the starter (food)
     declension:
@@ -1324,6 +1336,22 @@ vocabulary:
       - [genitive,   "Nachtisches, Nachtischs", Nachtische ]
       - [dative,     Nachtischen,               Nachtischen]
       - [accusative, Nachtischen,               Nachtische ]
+  - term: das Dessert
+    definition: (synonym of) der Nachtisch
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Dessert,  Desserts]
+      - [genitive,   Desserts, Desserts]
+      - [dative,     Dessert,  Desserts]
+      - [accusative, Dessert,  Desserts]
+  - term: die Nachspeise
+    definition: (synonym of) der Nachtisch
+    declension:
+      - ["",         singular,   plural     ]
+      - [nominative, Nachspeise, Nachspeisen]
+      - [genitive,   Nachspeise, Nachspeisen]
+      - [dative,     Nachspeise, Nachspeisen]
+      - [accusative, Nachspeise, Nachspeisen]
   - term: die Nachspeise
     definition: the dessert
     declension:
@@ -1332,14 +1360,26 @@ vocabulary:
       - [genitive,   Nachspeise, Nachspeisen]
       - [dative,     Nachspeise, Nachspeisen]
       - [accusative, Nachspeise, Nachspeisen]
+  - term: Wir möchten/Ich möchte bestellen.
+    definition: (in restaurant) We'd like to/I'd like to order.
+  - term: Was möchten/nehmen/behommen/trinken Sie, bitte?
+    definition: (in restaurant) What would you like?
+  - term: Möchten Sie vielleicht auch etwas zum ...?
+    definition: Would you like something for ... too?
   - term: Als Vorspeise nehme ich ...
     definition: As a starter I'll take ...
   - term: Als Hauptgericht bekomme ich ...
     definition: For my main course I'll take ...
-  - term: Als Nachspeise möchte ich ...
+  - term: Als Nachspeise/Dessert möchte ich ...
     definition: For dessert I'd like ...
+  - term: statt
+    definition: instead of
+  - term: Kann ich statt dessen einen/ein/ein ... haben?
+    definition: Can I have a/an ... instead?
   - term: Schön kühl, bitte
     definition: (drink) make it cold, please
+  - term: Mit oder ohne Eis?
+    definition: With or without ice?
   - term: mit Eis
     definition: (drink) with ice
   - term: ohne Eis
@@ -1352,8 +1392,28 @@ vocabulary:
     definition: Did it taste good?
   - term: bezahlen
     definition: to pay
-  - term: Ich möchte bazahlen.
-    definition: I'd like to pay.
+  - term: Ich möchte (jetzt) bazahlen.
+    definition: I'd like to pay (now).
+  - term: das Moment
+    definition: (Physics) momentum
+    declension:
+      - ["",         singular,            plural  ]
+      - [nominative, Moment,              Momente ]
+      - [genitive,   "Momentes, Moments", Momente ]
+      - [dative,     Moment,              Momenten]
+      - [accusative, Moment,              Momente ]
+  - term: der Moment
+    definition: moment
+    declension:
+      - ["",         singular,            plural  ]
+      - [nominative, Moment,              Momente ]
+      - [genitive,   "Momentes, Moments", Momente ]
+      - [dative,     Moment,              Momenten]
+      - [accusative, Moment,              Momente ]
+  - term: im Moment
+    definition: at the moment
+  - term: Einen Moment, bitte.
+    definition: One moment, please.
   - term: zusammenhalten
     definition: to hold together
   - term: Das macht zusammen ...
@@ -2576,8 +2636,6 @@ vocabulary:
     definition:
       - (adj.) remote
       - (adj.) far away
-  - term: statt
-    definition: instead of
   - term: wiederum
     definition:
       - (adv.) in turn
