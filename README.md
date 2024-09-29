@@ -192,7 +192,7 @@ We have offered some queries that can be used to quickly explore our language da
 
 #### Interesting Queries
 
-- Expanding German "nämlich":
+- Expanding a word "nämlich" (reveals its relationship to other languages):
 
   ```cypher
   MATCH (term:Term{name:'nämlich'})
@@ -204,7 +204,7 @@ We have offered some queries that can be used to quickly explore our language da
 
   ![Expanding "nämlich"](./german-greek-latin.png "Error loading german-greek-latin.png")
 
-- Search for all gerunds: `MATCH (term:Term)-[r]-(x) WHERE r.name = "gerund of" RETURN term, r, x`
+- Search for all Synonyms: `MATCH (term:Term)-[r]-(synonym:Term) WHERE r.name = "synonym" RETURN term, r, synonym`
 
 Languages
 ---------
