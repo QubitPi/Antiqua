@@ -777,6 +777,30 @@ vocabulary:
       - [genitive,   Apfels,   Äpfel ]
       - [dative,     Apfel,    Äpfeln]
       - [accusative, Apfel,    Äpfel ]
+  - term: der Apfelstrudel
+    definition: the apple strudel
+    declension:
+      - ["",         singular,      plural       ]
+      - [nominative, Apfelstrudel,  Apfelstrudel ]
+      - [genitive,   Apfelstrudels, Apfelstrudel ]
+      - [dative,     Apfelstrudel,  Apfelstrudeln]
+      - [accusative, Apfelstrudel,  Apfelstrudel ]
+  - term: der Strudel
+    definition: the strudel
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Strudel,  Strudel ]
+      - [genitive,   Strudels, Strudel ]
+      - [dative,     Strudel,  Strudeln]
+      - [accusative, Strudel,  Strudel ]
+  - term: der Tomatensalat
+    definition: the tomate salad
+    declension:
+      - ["",         singular,                        plural        ]
+      - [nominative, Tomatensalat,                    Tomatensalate ]
+      - [genitive,   "Tomatensalates, Tomatensalats", Tomatensalate ]
+      - [dative,     Tomatensalat,                    Tomatensalaten]
+      - [accusative, Tomatensalat,                    Tomatensalate ]
   - term: die Tomate
     definition: the tomato
     declension:
@@ -1008,6 +1032,22 @@ vocabulary:
       - [genitive,   "Weines, Weins", Weine ]
       - [dative,     Wein,            Weinen]
       - [accusative, Wein,            Weine ]
+  - term: der Rotwein
+    definition: the red wine
+    declension:
+      - ["",         singular,              plural   ]
+      - [nominative, Rotwein,               Rotweine ]
+      - [genitive,   "Rotweines, Rotweins", Rotweine ]
+      - [dative,     Rotwein,               Rotweinen]
+      - [accusative, Rotwein,               Rotweine ]
+  - term: der Weißwein
+    definition: the white wine
+    declension:
+      - ["",         singular,                plural    ]
+      - [nominative, Weißwein,                Weißweine ]
+      - [genitive,   "Weißweines, Weißweins", Weißweine ]
+      - [dative,     Weißwein,                Weißweinen]
+      - [accusative, Weißwein,                Weißweine ]
   - term: der Schnaps
     definition: the spirit
     declension:
@@ -1032,6 +1072,14 @@ vocabulary:
       - [genitive,   "Salats, Salates", Salate ]
       - [dative,     Salat,             Salaten]
       - [accusative, Salat,             Salate ]
+  - term: der Obstsalat
+    definition: the fruit salad
+    declension:
+      - ["",         singular,                  plural     ]
+      - [nominative, Obstsalat,                 Obstsalate ]
+      - [genitive,   "Obstsalats, Obstsalates", Obstsalate ]
+      - [dative,     Obstsalat,                 Obstsalaten]
+      - [accusative, Obstsalat,                 Obstsalate ]
   - term: der Pfeffer
     definition: the pepper
     declension:
@@ -1308,6 +1356,11 @@ vocabulary:
       - [accusative, Trinken,  Trinken]
   - term: grün
     definition: (adj.) green
+  - term: der Grüner
+    definition:
+      - green
+      - the German green party
+      - the Austrian green party
   - term: gemischt
     definition: (adj.) mixed
   - term: panieren
@@ -1337,7 +1390,7 @@ vocabulary:
       - [dative,     Nachtischen,               Nachtischen]
       - [accusative, Nachtischen,               Nachtische ]
   - term: das Dessert
-    definition: (synonym of) der Nachtisch
+    definition: (synonym) der Nachtisch
     declension:
       - ["",         singular, plural  ]
       - [nominative, Dessert,  Desserts]
@@ -1345,7 +1398,7 @@ vocabulary:
       - [dative,     Dessert,  Desserts]
       - [accusative, Dessert,  Desserts]
   - term: die Nachspeise
-    definition: (synonym of) der Nachtisch
+    definition: (synonym) der Nachtisch
     declension:
       - ["",         singular,   plural     ]
       - [nominative, Nachspeise, Nachspeisen]
