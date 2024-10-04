@@ -1064,6 +1064,22 @@ vocabulary:
       - [genitive,   "Sektes, Sekts",  Sekte ]
       - [dative,     Sekt,             Sekten]
       - [accusative, Sekt,             Sekte ]
+  - term: der Tafelwein
+    definition: the table wine
+    declension:
+      - ["",         singular,                  plural     ]
+      - [nominative, Tafelwein,                 Tafelweine ]
+      - [genitive,   "Tafelweines, Tafelweins", Tafelweine ]
+      - [dative,     Tafelwein,                 Tafelweinen]
+      - [accusative, Tafelwein,                 Tafelweine ]
+  - term: der Qualitätswein
+    definition: The vintage wine
+    declension:
+      - ["",         singular,                          plural         ]
+      - [nominative, Qualitätswein,                     Qualitätsweine ]
+      - [genitive,   "Qualitätsweines, Qualitätsweins", Qualitätsweine ]
+      - [dative,     Qualitätswein,                     Qualitätsweinen]
+      - [accusative, Qualitätswein,                     Qualitätsweine ]
   - term: der Salat
     definition: the salad
     declension:
@@ -1471,6 +1487,14 @@ vocabulary:
     definition: to hold together
   - term: Das macht zusammen ...
     definition: The total($) would be ...
+  - term: gern
+    definition: (adv.) gladly, with pleasure
+  - term: essen
+    definition: to eat
+  - term: Ich esse gern Kuchen.
+    definition: I like eating cake.
+  - term: Essen Sie gern Fleisch?
+    definition: Do you like eating meat?
   - term: besonders
     definition: especially
   - term: bis bald
@@ -2008,8 +2032,6 @@ vocabulary:
       - [ accusative, Zigarette, Zigaretten]
   - term: beantworten
     definition: to answer
-  - term: gern
-    definition: (adv.) gladly, with pleasure
   - term: das Pfund
     definition: the metric pound
     declension:
@@ -2030,6 +2052,80 @@ vocabulary:
       - [genitive,   "Gerichtes, Gerichts", Gerichte ]
       - [dative,     Gericht,               Gerichten]
       - [accusative, Gericht,               Gerichte ]
+  - term: die Freizeit
+    definition: the free time
+    declension:
+      - ["",         singular, plural    ]
+      - [nominative, Freizeit, Freizeiten]
+      - [genitive,   Freizeit, Freizeiten]
+      - [dative,     Freizeit, Freizeiten]
+      - [accusative, Freizeit, Freizeiten]
+  - term: kochen
+    definition: to cook
+  - term: das Schwimmbad
+    definition: the public swimming pool
+    declension:
+      - ["",         singular,                    plural       ]
+      - [nominative, Schwimmbad,                  Schwimmbäder ]
+      - [genitive,   "Schwimmbads, Schwimmbades", Schwimmbäder ]
+      - [dative,     Schwimmbad,                  Schwimmbädern]
+      - [accusative, Schwimmbad,                  Schwimmbäder ]
+  - term: schwimmen
+    definition: to swim
+  - term: hören
+    definition: to hear
+  - term: die Musik
+    definition: the music
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Musik,    Musiken]
+      - [genitive,   Musik,    Musiken]
+      - [dative,     Musik,    Musiken]
+      - [accusative, Musik,    Musiken]
+  - term: klassisch
+    definition: (adj.) classical
+  - term: Fußball
+    definition:
+      - (countable) football
+      - (uncountable) soccer
+    declension:
+      - ["",         singular,              plural   ]
+      - [nominative, Fußball,               Fußbälle ]
+      - [genitive,   "Fußballs, Fußballes", Fußbälle ]
+      - [dative,     Fußball,               Fußbällen]
+      - [accusative, Fußball,               Fußbälle ]
+  - term: spielen
+    definition: to play
+  - term: lesen
+    definition: to read
+  - term: fahren
+    definition: to go
+  - term: Leute
+    definition: (plural only) people
+    declension:
+      - ["",         singular, plural]
+      - [nominative, N/A,      Leute ]
+      - [genitive,   N/A,      Leute ]
+      - [dative,     N/A,      Leuten]
+      - [accusative, N/A,      Leute ]
+  - term: das Picknick
+    definition: the picnic
+    declension:
+      - ["",         singular,  plural                 ]
+      - [nominative, Picknick,  "Picknicke, Picknicks" ]
+      - [genitive,   Picknicks, "Picknicke, Picknicks" ]
+      - [dative,     Picknick,  "Picknicken, Picknicks"]
+      - [accusative, Picknick,  "Picknicke, Picknicks" ]
+  - term: machen
+    definition: to make
+  - term: das Schach
+    definition: the chess
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Schach,   Schachs]
+      - [genitive,   Schachs,  Schachs]
+      - [dative,     Schach,   Schachs]
+      - [accusative, Schach,   Schachs]
 
 
 
@@ -2127,8 +2223,6 @@ vocabulary:
     definition: to fight
   - term: nur
     definition: only, just
-  - term: hören
-    definition: to hear
   - term: seit
     definition: since, for
   - term: Ich nichts von ihm gehört seit Juli.
