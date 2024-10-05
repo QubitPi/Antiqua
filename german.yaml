@@ -601,8 +601,6 @@ vocabulary:
     definition: What is your fax number?
   - term: Wie ist Ihre Hausnummer oder Ihre Zimmernummer?
     definition: What is your house number or your room number?
-  - term: sprechen
-    definition: to speak
   - term: kein
     definition: "no"
   - term: ein bisschen
@@ -1122,14 +1120,22 @@ vocabulary:
       - [accusative, Speisekarte, Speisekarten]
   - term: die Nudel
     definition:
-      - noodle
-      - (in the plural form) pasta
+      - the noodle
+      - (in the plural form) the pasta
     declension:
       - ["",         singular, plural]
       - [nominative, Nudel,    Nudeln]
       - [genitive,   Nudel,    Nudeln]
       - [dative,     Nudel,    Nudeln]
       - [accusative, Nudel,    Nudeln]
+  - term: die Pasta
+    definition: (food) the pasta
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Pasta,    N/A   ]
+      - [genitive,   Pasta,    N/A   ]
+      - [dative,     Pasta,    N/A   ]
+      - [accusative, Pasta,    N/A   ]
   - term: die Pommes
     definition: French fries
     declension:
@@ -1782,8 +1788,6 @@ vocabulary:
     definition: to have
   - term: nehmen
     definition: to take
-  - term: gehen
-    definition: to go
   - term: geben
     definition: to give
   - term: finden
@@ -2060,6 +2064,24 @@ vocabulary:
       - [genitive,   Freizeit, Freizeiten]
       - [dative,     Freizeit, Freizeiten]
       - [accusative, Freizeit, Freizeiten]
+  - term: hören
+    definition: to hear
+  - term: sagen
+    definition: to say
+  - term: sprechen
+    definition: to speak
+  - term: lesen
+    definition: to read
+  - term: schreiben
+    definition: to write
+  - term: spielen
+    definition: to play
+  - term: fahren
+    definition: to go
+  - term: gehen
+    definition: to go
+  - term: fliegen
+    definition: to fly
   - term: kochen
     definition: to cook
   - term: das Schwimmbad
@@ -2072,8 +2094,6 @@ vocabulary:
       - [accusative, Schwimmbad,                  Schwimmbäder ]
   - term: schwimmen
     definition: to swim
-  - term: hören
-    definition: to hear
   - term: die Musik
     definition: the music
     declension:
@@ -2094,12 +2114,6 @@ vocabulary:
       - [genitive,   "Fußballs, Fußballes", Fußbälle ]
       - [dative,     Fußball,               Fußbällen]
       - [accusative, Fußball,               Fußbälle ]
-  - term: spielen
-    definition: to play
-  - term: lesen
-    definition: to read
-  - term: fahren
-    definition: to go
   - term: Leute
     definition: (plural only) people
     declension:
@@ -2126,6 +2140,32 @@ vocabulary:
       - [genitive,   Schachs,  Schachs]
       - [dative,     Schach,   Schachs]
       - [accusative, Schach,   Schachs]
+  - term: nach
+    definition:
+      - (prep.) to
+      - (prep.) after
+      - (prep.) according to
+      - (adv.) after
+  - term: oft
+    definition: (adv.) often
+  - term: viel
+    definition: a lot
+  - term: beschäftigt
+    definition:
+      - (adj.) busy
+      - (adj.) employed
+  - term: beschäftigen
+    definition:
+      - to occupy
+      - to keep oneself busy
+  - term: die Postkarte
+    definition: the postcard
+    declension:
+      - ["",         singular,  plural    ]
+      - [nominative, Postkarte, Postkarten]
+      - [genitive,   Postkarte, Postkarten]
+      - [dative,     Postkarte, Postkarten]
+      - [accusative, Postkarte, Postkarten]
 
 
 
@@ -2185,10 +2225,6 @@ vocabulary:
       - [genitive,   Menschen, Menschen]
       - [dative,     Menschen, Menschen]
       - [accusative, Menschen, Menschen]
-  - term: schreiben
-    definition: to write
-  - term: sagen
-    definition: to say
   - term: Das machen Sie auch, oder?
     definition: You do that too, right?
   - term: Warum Sie nicht sagen?
