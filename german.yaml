@@ -197,6 +197,8 @@ vocabulary:
     definition: My name is ...
   - term: bitte
     definition: please
+  - term: wie
+    definition: how
   - term: Wie ist Ihr Name?
     definition: What's your name?
   - term: Wie heißen Sie?
@@ -337,6 +339,8 @@ vocabulary:
       - [accusative, Iren,     Iren  ]
   - term: das Italien
     definition: Italy
+  - term: italienisch
+    definition: (adj.) Italian
   - term: das Japanisch
     definition: Japanese (language)
   - term: die Japanerin
@@ -669,8 +673,6 @@ vocabulary:
     definition: foreign language
   - term: die Muttersprache
     definition: mother tongue
-  - term: lernen
-    definition: to learn
   - term: der Bahnhof
     definition: the railway station
     declension:
@@ -1128,6 +1130,14 @@ vocabulary:
       - [genitive,   Nudel,    Nudeln]
       - [dative,     Nudel,    Nudeln]
       - [accusative, Nudel,    Nudeln]
+  - term: die Pizza
+    definition: the pizza
+    declension:
+      - ["",         singular, plural          ]
+      - [nominative, Pizza,    "Pizzen, Pizzas"]
+      - [genitive,   Pizza,    "Pizzen, Pizzas"]
+      - [dative,     Pizza,    "Pizzen, Pizzas"]
+      - [accusative, Pizza,    "Pizzen, Pizzas"]
   - term: die Pasta
     definition: (food) the pasta
     declension:
@@ -2064,6 +2074,14 @@ vocabulary:
       - [genitive,   Freizeit, Freizeiten]
       - [dative,     Freizeit, Freizeiten]
       - [accusative, Freizeit, Freizeiten]
+  - term: das Hobby
+    definition: the hobby
+    declension:
+      - ["",         singular, plural           ]
+      - [nominative, Hobby,    "Hobbys, Hobbies"]
+      - [genitive,   "Hobbys", "Hobbys, Hobbies"]
+      - [dative,     Hobby,    "Hobbys, Hobbies"]
+      - [accusative, Hobby,    "Hobbys, Hobbies"]
   - term: hören
     definition: to hear
   - term: sagen
@@ -2084,6 +2102,22 @@ vocabulary:
     definition: to fly
   - term: kochen
     definition: to cook
+  - term: lernen
+    definition: to learn
+  - term: kennen
+    definition: to know
+  - term: bringen
+    definition: to bring
+  - term: trainieren
+    definition:
+      - to train
+      - (gymnasium) to work out
+  - term: fotografieren
+    definition: to take photos
+  - term: schwimmen
+    definition: to swim
+  - term: lernen sich kennen
+    definition: get to know each other
   - term: das Schwimmbad
     definition: the public swimming pool
     declension:
@@ -2092,8 +2126,6 @@ vocabulary:
       - [genitive,   "Schwimmbads, Schwimmbades", Schwimmbäder ]
       - [dative,     Schwimmbad,                  Schwimmbädern]
       - [accusative, Schwimmbad,                  Schwimmbäder ]
-  - term: schwimmen
-    definition: to swim
   - term: die Musik
     definition: the music
     declension:
@@ -2166,6 +2198,44 @@ vocabulary:
       - [genitive,   Postkarte, Postkarten]
       - [dative,     Postkarte, Postkarten]
       - [accusative, Postkarte, Postkarten]
+  - term: eigentlich
+    definition:
+      - (adv.) actually
+      - (adj.) actual
+      - (adj.) proper
+  - term: der Roman
+    definition: the novel
+    declension:
+      - ["",         singular,          plural ]
+      - [nominative, Roman,             Romane ]
+      - [genitive,   "Romanes, Romans", Romane ]
+      - [dative,     Roman,             Romanen]
+      - [accusative, Roman,             Romane ]
+  - term: nachher
+    definition: (adv.) afterwards
+  - term: tja
+    definition:
+      - well
+      - hmm
+  - term: ach so
+    definition:
+      - I see
+      - oh
+      - ah
+  - term: ins
+    definition: to the
+  - term: Gehst du auch gern ins Kino?
+    definition: Do you also like going to the cinema?
+  - term: Hast du ein Hobby?
+    definition: Do yo have a hobby?
+  - term: Ich ... gern
+    definition: I like (doing) ...
+  - term: Ich lese gern Romane
+    definition: I like reading novels.
+  - term: Ins ... ich sehr gern
+    definition: I really like going to ... (some place)
+  - term: Isst du gern ...
+    definition: Do you like eating ...?
 
 
 
@@ -2283,6 +2353,8 @@ vocabulary:
     definition: leave here
   - term: Schon gut.
     definition: It's okay
+  - term: Der Krieg wird schon noch einen Mann aus ihm machen.
+    definition: The war will make a man out of him.
   - term: der Freund
     definition: (male) the friend
     declension:
@@ -2371,6 +2443,14 @@ vocabulary:
       - [genitive,   Nesthäkchens, Nesthäkchen]
       - [dative,     Nesthäkchen,  Nesthäkchen]
       - [accusative, Nesthäkchen,  Nesthäkchen]
+  - term: der Krieg
+    definition: the war
+    declension:
+      - ["",         singular, plural          ]
+      - [nominative, Krieg, Kriege             ]
+      - [genitive,   "Krieges, Kriegs", Kriege ]
+      - [dative,     Krieg,             Kriegen]
+      - [accusative, Krieg,             Kriege ]
   - term: der Kriegsbeginn
     definition: the start of the war
     declension:
@@ -2714,6 +2794,22 @@ vocabulary:
     definition: to affect
   - term: können
     definition: to be able to
+  - term: der Vorschein
+    definition:
+      - the view
+      - the light
+    declension:
+      - ["",         singular,   plural]
+      - [nominative, Vorschein,  N/A   ]
+      - [genitive,   Vorscheins, N/A   ]
+      - [dative,     Vorschein,  N/A   ]
+      - [accusative, Vorschein,  N/A   ]
+  - term: zum Vorschein kommen
+    definition: to come to light
+  - term: Ich würde gern ...
+    definition: I would like to ...
+  - term: mitmachen
+    definition: to take part
 
 
 
@@ -2839,6 +2935,14 @@ vocabulary:
       - [accusative, Gemüt,             Gemüter ]
   - term: gewiss
     definition: (adj.) certain
+  - term: sicher
+    definition:
+      - (adj.) certain
+      - (adj.) sure
+      - (adj.) safe
+      - (adv.) certainly
+      - (adv.) surely
+      - (adv.) safely
   - term: die Weise
     definition: way
     declension:
