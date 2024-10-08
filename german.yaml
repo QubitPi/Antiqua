@@ -704,6 +704,14 @@ vocabulary:
       - [genitive,   Kuchens,  Kuchen]
       - [dative,     Kuchen,   Kuchen]
       - [accusative, Kuchen,   Kuchen]
+  - term: der Garten
+    definition: the garden
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Garten,   Gärten]
+      - [genitive,   Gartens,  Gärten]
+      - [dative,     Garten,   Gärten]
+      - [accusative, Garten,   Gärten]
   - term: der Biergarten
     definition: the beer gargen
     declension:
@@ -1348,7 +1356,7 @@ vocabulary:
     declension:
       - ["",         singular,  plural  ]
       - [nominative, Kännchens, Kännchen]
-      - [genitive,   Glases,    Kännchen]
+      - [genitive,   Kännchens, Kännchen]
       - [dative,     Kännchen,  Kännchen]
       - [accusative, Kännchen,  Kännchen]
   - term: ein Kännchen Kaffee
@@ -2118,14 +2126,28 @@ vocabulary:
     definition: to know
   - term: bringen
     definition: to bring
+  - term: surfen
+    definition: to surf
   - term: trainieren
     definition:
       - to train
       - (gymnasium) to work out
   - term: fotografieren
     definition: to take photos
+  - term: die Fotografie
+    definition:
+      - (uncountable) the photography
+      - (countable) phtograph
+    declension:
+      - ["",         singular,   plural     ]
+      - [nominative, Fotografie, Fotografien]
+      - [genitive,   Fotografie, Fotografien]
+      - [dative,     Fotografie, Fotografien]
+      - [accusative, Fotografie, Fotografien]
   - term: schwimmen
     definition: to swim
+  - term: joggen
+    definition: to jog
   - term: lernen sich kennen
     definition: get to know each other
   - term: das Schwimmbad
@@ -2144,9 +2166,31 @@ vocabulary:
       - [genitive,   Musik,    Musiken]
       - [dative,     Musik,    Musiken]
       - [accusative, Musik,    Musiken]
+  - term: die Klassik
+    definition: the classical music
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Klassik,  N/A   ]
+      - [genitive,   Klassik,  N/A   ]
+      - [dative,     Klassik,  N/A   ]
+      - [accusative, Klassik,  N/A   ]
   - term: klassisch
     definition: (adj.) classical
-  - term: Fußball
+  - term: Klassische Musik
+    definition: the classical music
+  - term: Pop-Musik
+    definition: pop music
+  - term: Rock-Musik
+    definition: rock music
+  - term: der Sport
+    definition: the sport
+    declension:
+      - ["",         singular,          plural ]
+      - [nominative, Sport,             Sporte ]
+      - [genitive,   "Sportes, Sports", Sporte ]
+      - [dative,     Sport,             Sporten]
+      - [accusative, Sport,             Sporte ]
+  - term: der Fußball
     definition:
       - (countable) football
       - (uncountable) soccer
@@ -2156,6 +2200,68 @@ vocabulary:
       - [genitive,   "Fußballs, Fußballes", Fußbälle ]
       - [dative,     Fußball,               Fußbällen]
       - [accusative, Fußball,               Fußbälle ]
+  - term: der Golf
+    definition:
+      - the gulf
+      - (geography) the bay
+    declension:
+      - ["",         singular,        plural]
+      - [nominative, Golf,            Golfe ]
+      - [genitive,   "Golfes, Golfs", Golfe ]
+      - [dative,     Golf,            Golfen]
+      - [accusative, Golf,            Golfe ]
+  - term: der Jazz
+    definition: (musical art form) the jazz
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Jazz,     N/A   ]
+      - [genitive,   Jazz,     N/A   ]
+      - [dative,     Jazz,     N/A   ]
+      - [accusative, Jazz,     N/A   ]
+  - term: die Fitness
+    definition: the fitness
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Fitness,  N/A   ]
+      - [genitive,   Fitness,  N/A   ]
+      - [dative,     Fitness,  N/A   ]
+      - [accusative, Fitness,  N/A   ]
+  - term: das Tennis
+    definition: the tennis
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Tennis,   N/A   ]
+      - [genitive,   Tennis,   N/A   ]
+      - [dative,     Tennis,   N/A   ]
+      - [accusative, Tennis,   N/A   ]
+  - term: das Fallschirmspringen
+    definition: the skydiving
+    declension:
+      - ["",         singular,            plural]
+      - [nominative, Fallschirmspringen,  N/A   ]
+      - [genitive,   Fallschirmspringens, N/A   ]
+      - [dative,     Fallschirmspringen,  N/A   ]
+      - [accusative, Fallschirmspringen,  N/A   ]
+  - term: wandern
+    definition: to hike
+  - term: das Wandern
+    definition: (gerund of) wandern
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Wandern,  N/A   ]
+      - [genitive,   Wanderns, N/A   ]
+      - [dative,     Wandern,  N/A   ]
+      - [accusative, Wandern,  N/A   ]
+  - term: das Segel
+    definition: the sail
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Segel,    Segel ]
+      - [genitive,   Segels,   Segel ]
+      - [dative,     Segel,    Segeln]
+      - [accusative, Segel,    Segel ]
+  - term: das Segeln
+    definition: the sailing
   - term: Leute
     definition: (plural only) people
     declension:
@@ -2262,10 +2368,10 @@ vocabulary:
     definition: the travel
     declension:
       - ["",         singular, plural]
-      - [nominative, Reise, Reisen   ]
-      - [genitive,   Reise, Reisen   ]
-      - [dative,     Reise, Reisen   ]
-      - [accusative, Reise, Reisen   ]
+      - [nominative, Reise,    Reisen]
+      - [genitive,   Reise,    Reisen]
+      - [dative,     Reise,    Reisen]
+      - [accusative, Reise,    Reisen]
 
 
 
@@ -2729,6 +2835,30 @@ vocabulary:
       - [genitive,   Einsatzes, Einsätze ]
       - [dative,     Einsatz,   Einsätzen]
       - [accusative, Einsatz,   Einsätze ]
+  - term: der Krimi
+    definition: the crime story
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Krimi, Krimis   ]
+      - [genitive,   Krimis, Krimis  ]
+      - [dative,     Krimi, Krimis   ]
+      - [accusative, Krimi, Krimis   ]
+  - term: die Biografie
+    definition: the biography
+    declension:
+      - ["",         singular,  plural    ]
+      - [nominative, Biografie, Biografien]
+      - [genitive,   Biografie, Biografien]
+      - [dative,     Biografie, Biografien]
+      - [accusative, Biografie, Biografien]
+  - term: die Biographie
+    definition: (alternative spelling of) die Biografie
+    declension:
+      - ["",         singular,   plural     ]
+      - [nominative, Biographie, Biographien]
+      - [genitive,   Biographie, Biographien]
+      - [dative,     Biographie, Biographien]
+      - [accusative, Biographie, Biographien]
 
 
 
