@@ -4,11 +4,11 @@ vocabulary:
       - this
       - that
     declension:
-      - ["",         masclune, feminine, neuter, plural]
-      - [nominative, dieser,   diese,    dieses, diese ]
-      - [genitive,   dieses,   dieser,   dieses, dieser]
-      - [dative,     diesem,   dieser,   diesem, diesen]
-      - [accusative, diesen,   diese,    dieses, diese ]
+      - ["",         masclune, feminine, neuter, feminine]
+      - [nominative, dieser,   diese,    dieses, diese   ]
+      - [genitive,   dieses,   dieser,   dieses, dieser  ]
+      - [dative,     diesem,   dieser,   diesem, diesen  ]
+      - [accusative, diesen,   diese,    dieses, diese   ]
   - term: ich
     definition: (pronoun) I
     declension:
@@ -616,12 +616,11 @@ vocabulary:
   - term: die Nähe
     definition: vicinity
     declension:
-      - ["",         singular, singular, singular]
-      - ["",         indef.,   def.,     noun    ]
-      - [nominative, eine,     die,      Nähe    ]
-      - [genitive,   einer,    der,      Nähe    ]
-      - [dative,     einer,    der,      Nähe    ]
-      - [accusative, eine,     die,      Nähe    ]
+      - ["",         singular, singular]
+      - [nominative, die,      Nähe    ]
+      - [genitive,   der,      Nähe    ]
+      - [dative,     der,      Nähe    ]
+      - [accusative, die,      Nähe    ]
   - term: in der Nähe von ...
     definition: near
   - term: auch
@@ -1528,19 +1527,10 @@ vocabulary:
       - education
       - creation
   - term: die Ausbildung
-    definition: training, apprenticeship, vocational education
-  - term: die Anglistik
-    definition: English studies
-  - term: die Germanistik
-    definition: Germanic studies
-  - term: die Romanistik
-    definition: Romance studies
-  - term: die Geschichte
-    definition: History
-  - term: die Informatik
-    definition: computer science
-  - term: die Mathematik
-    definition: Mathematics
+    definition:
+      - training,
+      - apprenticeship,
+      - vocational education
   - term: der Jura
     definition: the law
     declension:
@@ -1549,6 +1539,26 @@ vocabulary:
       - [genitive,   N/A,      Jura  ]
       - [dative,     N/A,      Jura  ]
       - [accusative, N/A,      Jura  ]
+  - term: der Computer
+    definition: the computer
+    declension:
+      - ["",         singular,  plural   ]
+      - [nominative, Computer,  Computer ]
+      - [genitive,   Computers, Computer ]
+      - [dative,     Computer,  Computern]
+      - [accusative, Computer,  Computer ]
+  - term: die Informatik
+    definition: The Computer Science
+  - term: die Anglistik
+    definition: English studies
+  - term: die Germanistik
+    definition: Germanic studies
+  - term: die Romanistik
+    definition: Romance studies
+  - term: die Geschichte
+    definition: History
+  - term: die Mathematik
+    definition: Mathematics
   - term: die Betriebswirtschaftslehre (BWL)
     definition: business administration
   - term: Volkswirtschaftslehre (VWL)
