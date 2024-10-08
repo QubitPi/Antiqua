@@ -192,6 +192,9 @@ We have offered some queries that can be used to quickly explore our language da
 
 #### Interesting Queries
 
+- Search for all Synonyms: `MATCH (term:Term)-[r]-(synonym:Term) WHERE r.name = "synonym" RETURN term, r, synonym`
+- Finding all [gerunds](https://en.wiktionary.org/wiki/Appendix:Glossary#gerund):
+  `MATCH (source)-[link:RELATED]->(target) WHERE link.name = "gerund of" RETURN source, link, target;`
 - Expanding a word "nämlich" (reveals its relationship to other languages):
 
   ```cypher
@@ -204,7 +207,17 @@ We have offered some queries that can be used to quickly explore our language da
 
   ![Expanding "nämlich"](./german-greek-latin.png "Error loading german-greek-latin.png")
 
-- Search for all Synonyms: `MATCH (term:Term)-[r]-(synonym:Term) WHERE r.name = "synonym" RETURN term, r, synonym`
+- In German, "rice" and "travel" are related:
+
+  ```cypher
+  MATCH (term:Term{name:'die Reise'})
+  CALL apoc.path.expand(term, "RELATED|DEFINITION", null, 1, -1)
+  YIELD path
+  RETURN path, length(path) AS hops
+  ORDER BY hops;
+  ```
+
+  ![Declension sharing](./german-rice-travel.png "Error loading german-rice-travel.png")
 
 Languages
 ---------
