@@ -2348,6 +2348,8 @@ vocabulary:
     definition: I don't like swimming.
   - term: Hast du ein Hobby?
     definition: Do yo have a hobby?
+  - term: Was ist Ihr Hobby?
+    definition: What's your hobby?
   - term: Ich ... gern
     definition: I like (doing) ...
   - term: Ich lese gern Romane
@@ -2364,6 +2366,8 @@ vocabulary:
       - [genitive,   Umfrage,  Umfragen]
       - [dative,     Umfrage,  Umfragen]
       - [accusative, Umfrage,  Umfragen]
+  - term: machen eine Umfrage
+    definition: conduct a survey
   - term: die Reise
     definition: the travel
     declension:
@@ -2859,6 +2863,18 @@ vocabulary:
       - [genitive,   Biographie, Biographien]
       - [dative,     Biographie, Biographien]
       - [accusative, Biographie, Biographien]
+  - term: Lesen Sie gern ...?
+    definition: Do you like reading ...?
+  - term: Wir sind vom ...
+    definition: We are from ...
+  - term: das Radio
+    definition: the radio
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Radio,    Radios]
+      - [genitive,   Radios,   Radios]
+      - [dative,     Radio,    Radios]
+      - [accusative, Radio,    Radios]
 
 
 
