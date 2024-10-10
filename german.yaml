@@ -533,8 +533,16 @@ vocabulary:
     definition: beautiful, nice, pretty, handsome
   - term: liegen
     definition: to lie, be located
-  - term: Schreiben Sie die Fragen
-    definition: Write the questions
+  - term: die Frage
+    definition: the question
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Frage,    Fragen]
+      - [genitive,   Frage,    Fragen]
+      - [dative,     Frage,    Fragen]
+      - [accusative, Frage,    Fragen]
+  - term: Schreiben/Beantworten Sie die Fragen
+    definition: Write/Answer the questions
   - term: Fußballbundesliga
     definition: federal German soccer league
   - term: Wie schreibt man das?
@@ -2046,6 +2054,14 @@ vocabulary:
       - [ genitive,   Zeitung,  Zeitungen]
       - [ dative,     Zeitung,  Zeitungen]
       - [ accusative, Zeitung,  Zeitungen]
+  - term: die Illustrierte
+    definition: the magazine
+    declension:
+      - ["",         singular,      plural       ]
+      - [nominative, Illustrierte,  Illustrierten]
+      - [genitive,   Illustrierten, Illustrierten]
+      - [dative,     Illustrierten, Illustrierten]
+      - [accusative, Illustrierten, Illustrierten]
   - term: die Süßigkeit
     definition: the candy
     declension:
@@ -2092,6 +2108,14 @@ vocabulary:
       - [genitive,   Freizeit, Freizeiten]
       - [dative,     Freizeit, Freizeiten]
       - [accusative, Freizeit, Freizeiten]
+  - term: die Freizeitbeschäftigung
+    definition: the hobby
+    declension:
+      - ["",         singular,              plural                 ]
+      - [nominative, Freizeitbeschäftigung, Freizeitbeschäftigungen]
+      - [genitive,   Freizeitbeschäftigung, Freizeitbeschäftigungen]
+      - [dative,     Freizeitbeschäftigung, Freizeitbeschäftigungen]
+      - [accusative, Freizeitbeschäftigung, Freizeitbeschäftigungen]
   - term: das Hobby
     definition: the hobby
     declension:
@@ -2100,6 +2124,14 @@ vocabulary:
       - [genitive,   "Hobbys", "Hobbys, Hobbies"]
       - [dative,     Hobby,    "Hobbys, Hobbies"]
       - [accusative, Hobby,    "Hobbys, Hobbies"]
+  - term: der Verein
+    definition: the club
+    declension:
+      - ["",         singular,            plural  ]
+      - [nominative, Verein,              Vereine ]
+      - [genitive,   "Vereines, Vereins", Vereine ]
+      - [dative,     Verein,              Vereinen]
+      - [accusative, Verein,              Vereine ]
   - term: hören
     definition: to hear
   - term: sagen
@@ -2144,12 +2176,18 @@ vocabulary:
       - [genitive,   Fotografie, Fotografien]
       - [dative,     Fotografie, Fotografien]
       - [accusative, Fotografie, Fotografien]
+  - term: telefonieren
+    definition: to telephone
+  - term: das Telefonieren
+    definition: (gerund of) telefonieren
+    declension:
+      - ["",         singular,      plural]
+      - [nominative, Telefonieren,  N/A   ]
+      - [genitive,   Telefonierens, N/A   ]
+      - [dative,     Telefonieren,  N/A   ]
+      - [accusative, Telefonieren,  N/A   ]
   - term: schwimmen
     definition: to swim
-  - term: joggen
-    definition: to jog
-  - term: lernen sich kennen
-    definition: get to know each other
   - term: das Schwimmbad
     definition: the public swimming pool
     declension:
@@ -2158,30 +2196,10 @@ vocabulary:
       - [genitive,   "Schwimmbads, Schwimmbades", Schwimmbäder ]
       - [dative,     Schwimmbad,                  Schwimmbädern]
       - [accusative, Schwimmbad,                  Schwimmbäder ]
-  - term: die Musik
-    definition: the music
-    declension:
-      - ["",         singular, plural ]
-      - [nominative, Musik,    Musiken]
-      - [genitive,   Musik,    Musiken]
-      - [dative,     Musik,    Musiken]
-      - [accusative, Musik,    Musiken]
-  - term: die Klassik
-    definition: the classical music
-    declension:
-      - ["",         singular, plural]
-      - [nominative, Klassik,  N/A   ]
-      - [genitive,   Klassik,  N/A   ]
-      - [dative,     Klassik,  N/A   ]
-      - [accusative, Klassik,  N/A   ]
-  - term: klassisch
-    definition: (adj.) classical
-  - term: Klassische Musik
-    definition: the classical music
-  - term: Pop-Musik
-    definition: pop music
-  - term: Rock-Musik
-    definition: rock music
+  - term: joggen
+    definition: to jog
+  - term: wandern
+    definition: to hike
   - term: der Sport
     definition: the sport
     declension:
@@ -2218,6 +2236,30 @@ vocabulary:
       - [genitive,   Jazz,     N/A   ]
       - [dative,     Jazz,     N/A   ]
       - [accusative, Jazz,     N/A   ]
+  - term: die Musik
+    definition: the music
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Musik,    Musiken]
+      - [genitive,   Musik,    Musiken]
+      - [dative,     Musik,    Musiken]
+      - [accusative, Musik,    Musiken]
+  - term: die Klassik
+    definition: the classical music
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Klassik,  N/A   ]
+      - [genitive,   Klassik,  N/A   ]
+      - [dative,     Klassik,  N/A   ]
+      - [accusative, Klassik,  N/A   ]
+  - term: klassisch
+    definition: (adj.) classical
+  - term: Klassische Musik
+    definition: the classical music
+  - term: Pop-Musik
+    definition: pop music
+  - term: Rock-Musik
+    definition: rock music
   - term: die Fitness
     definition: the fitness
     declension:
@@ -2226,6 +2268,14 @@ vocabulary:
       - [genitive,   Fitness,  N/A   ]
       - [dative,     Fitness,  N/A   ]
       - [accusative, Fitness,  N/A   ]
+  - term: die Reise
+    definition: the travel
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Reise,    Reisen]
+      - [genitive,   Reise,    Reisen]
+      - [dative,     Reise,    Reisen]
+      - [accusative, Reise,    Reisen]
   - term: das Tennis
     definition: the tennis
     declension:
@@ -2242,8 +2292,14 @@ vocabulary:
       - [genitive,   Fallschirmspringens, N/A   ]
       - [dative,     Fallschirmspringen,  N/A   ]
       - [accusative, Fallschirmspringen,  N/A   ]
-  - term: wandern
-    definition: to hike
+  - term: das Fernsehen
+    definition: the television
+    declension:
+      - ["",         singular,   plural]
+      - [nominative, Fernsehen,  N/A   ]
+      - [genitive,   Fernsehens, N/A   ]
+      - [dative,     Fernsehen,  N/A   ]
+      - [accusative, Fernsehen,  N/A   ]
   - term: das Wandern
     definition: (gerund of) wandern
     declension:
@@ -2294,8 +2350,6 @@ vocabulary:
       - (prep.) after
       - (prep.) according to
       - (adv.) after
-  - term: oft
-    definition: (adv.) often
   - term: viel
     definition: a lot
   - term: beschäftigt
@@ -2368,14 +2422,26 @@ vocabulary:
       - [accusative, Umfrage,  Umfragen]
   - term: machen eine Umfrage
     definition: conduct a survey
-  - term: die Reise
-    definition: the travel
+  - term: lernen sich kennen
+    definition: get to know each other
+  - term: ausschlafen
+    definition: to get enough sleep
+  - term: beliebt
+    definition: (adj.) popular
+  - term: oft
+    definition: (adv.) often
+  - term: Wie oft gehen die Deutschen aus?
+    definition: How often do German people go out?
+  - term: das Gerät
+    definition: the tool
     declension:
-      - ["",         singular, plural]
-      - [nominative, Reise,    Reisen]
-      - [genitive,   Reise,    Reisen]
-      - [dative,     Reise,    Reisen]
-      - [accusative, Reise,    Reisen]
+      - ["",         singular, plural          ]
+      - [nominative, Gerät, Geräte             ]
+      - [genitive,   "Gerätes, Geräts", Geräte ]
+      - [dative,     Gerät,             Geräten]
+      - [accusative, Gerät,             Geräte ]
+  - term: Wie oft ...
+    definition: How often ...
 
 
 
