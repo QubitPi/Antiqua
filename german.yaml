@@ -2208,6 +2208,12 @@ vocabulary:
       - [genitive,   "Sportes, Sports", Sporte ]
       - [dative,     Sport,             Sporten]
       - [accusative, Sport,             Sporte ]
+  - term: treiben
+    definition:
+      - to drive
+      - to do
+  - term: Sport treiben
+    definition: to do sports
   - term: der Fußball
     definition:
       - (countable) football
@@ -2442,6 +2448,68 @@ vocabulary:
       - [accusative, Gerät,             Geräte ]
   - term: Wie oft ...
     definition: How often ...
+  - term: einmal
+    definition: (adv.) once
+  - term: zweimal
+    definition: (adv.) twice
+  - term: dreimal
+    definition: (adv.) thrice
+  - term: usw.
+    definition: etc.
+  - term: die Woche
+    definition: week
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Woche,    Wochen]
+      - [genitive,   Woche,    Wochen]
+      - [dative,     Woche,    Wochen]
+      - [accusative, Woche,    Wochen]
+  - term: der Monat
+    definition: the month
+    declension:
+      - ["",         singular,          plural ]
+      - [nominative, Monat,             Monate ]
+      - [genitive,   "Monates, Monats", Monate ]
+      - [dative,     Monat,             Monaten]
+      - [accusative, Monat,             Monate ]
+  - term: einmal pro/die Woche
+    definition: once per/a week
+  - term: zweimal im Monat
+    definition: twice a month
+  - term: mindestens
+    definition: (adv.) at least
+  - term: die Lieblingsbeschäftigung
+    definition: the favorite activity
+    declension:
+      - ["",         singular,               plural                  ]
+      - [nominative, Lieblingsbeschäftigung, Lieblingsbeschäftigungen]
+      - [genitive,   Lieblingsbeschäftigung, Lieblingsbeschäftigungen]
+      - [dative,     Lieblingsbeschäftigung, Lieblingsbeschäftigungen]
+      - [accusative, Lieblingsbeschäftigung, Lieblingsbeschäftigungen]
+  - term: der Rentner
+    definition: the pensioner
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Rentner,  Rentner ]
+      - [genitive,   Rentners, Rentner ]
+      - [dative,     Rentner,  Rentnern]
+      - [accusative, Rentner,  Rentner ]
+  - term: das Abonnement
+    definition: the subscription
+    declension:
+      - ["",         singular,    plural                     ]
+      - [nominative, Abonnement,  "Abonnements, Abonnemente" ]
+      - [genitive,   Abonnements, "Abonnements, Abonnemente" ]
+      - [dative,     Abonnement,  "Abonnements, Abonnementen"]
+      - [accusative, Abonnement,  "Abonnements, Abonnemente" ]
+  - term: die Kunst
+    definition: the art
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Kunst,    Künste ]
+      - [genitive,   Kunst,    Künste ]
+      - [dative,     Kunst,    Künsten]
+      - [accusative, Kunst,    Künste ]
 
 
 
@@ -2539,8 +2607,6 @@ vocabulary:
     definition: since, for
   - term: Ich nichts von ihm gehört seit Juli.
     definition: I haven't heard from him since July.
-  - term: die Woche
-    definition: week
   - term: das Jahren
     definition: year
   - term: seit zwei Jahren
