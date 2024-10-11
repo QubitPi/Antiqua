@@ -191,3 +191,17 @@ jobs:
           NEO4J_DATABASE: ${{ secrets.NEO4J_DATABASE }}
           NEO4J_USERNAME: ${{ secrets.NEO4J_USERNAME }}
           NEO4J_PASSWORD: ${{ secrets.NEO4J_PASSWORD }}
+
+  sync-to-huggingface-space:
+    if: github.ref == 'refs/heads/master'
+    needs: tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          lfs: true
+      - name: Push to hub
+        run: git push https://QubitPi:$HF_TOKEN@huggingface.co/datasets/QubitPi/wilhelm-vocabulary master:main -f
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
