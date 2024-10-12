@@ -2651,10 +2651,6 @@ vocabulary:
       - (par.) on the contrary
   - term: immer mehr
     definition: more and more
-  - term: letzte
-    definition: (adj.) last
-  - term: in den letzten Jahren
-    definition: in recent years
   - term: gefragt
     definition: (adj.) requested
 
@@ -2763,6 +2759,10 @@ vocabulary:
       - [accusative, Jahr,            "Jahre, Jahr" ]
   - term: seit zwei Jahren
     definition: for two years
+  - term: letzte
+    definition: (adj.) last
+  - term: in den letzten Jahren
+    definition: in recent years
   - term: seit wann?
     definition: since when?
   - term: vielleicht

@@ -3,6 +3,8 @@ Wilhelm Vocabulary
 
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Docker Hub][Docker Pulls Badge]][Docker Hub URL]
+[![Hugging Face dataset badge]][Hugging Face dataset URL]
+[![Hugging Face sync status badge]][Hugging Face sync status URL]
 [![Apache License Badge]][Apache License, Version 2.0]
 
 <!-- TOC -->
@@ -479,6 +481,12 @@ The use and distribution terms for [wilhelm-vocabulary]() are covered by the [Ap
 
 [Docker Pulls Badge]: https://img.shields.io/docker/pulls/jack20191124/wilhelm-vocabulary?style=for-the-badge&logo=docker&color=2596EC
 [Docker Hub URL]: https://hub.docker.com/r/jack20191124/wilhelm-vocabulary
+
+[Hugging Face dataset badge]: https://img.shields.io/badge/Hugging%20Face%20Dataset-wilhelm--vocabulary-FFD21E?style=for-the-badge&logo=huggingface&logoColor=white
+[Hugging Face dataset URL]: https://huggingface.co/datasets/QubitPi/wilhelm-vocabulary
+
+[Hugging Face sync status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=Hugging%20Face%20Sync%20Up
+[Hugging Face sync status URL]: https://github.com/QubitPi/wilhelm-vocabulary/actions/workflows/ci-cd.yaml
 
 [GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=Database%20Loading
 [GitHub workflow status URL]: https://github.com/QubitPi/wilhelm-vocabulary/actions/workflows/ci-cd.yaml
