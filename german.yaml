@@ -253,6 +253,14 @@ vocabulary:
     definition: Denmark
   - term: das Deutschland
     definition: Germany
+  - term: der Berliner
+    definition: the Berliner
+    declension:
+      - ["",         singular,  plural   ]
+      - [nominative, Berliner,  Berliner ]
+      - [genitive,   Berliners, Berliner ]
+      - [dative,     Berliner,  Berlinern]
+      - [accusative, Berliner,  Berliner ]
   - term: das Deutsch
     definition: German (language)
   - term: Deutscher
@@ -517,6 +525,8 @@ vocabulary:
     definition: really
   - term: Das tut mir Leid
     definition: I'm sorry
+  - term: mehr
+    definition: (pron.) something more
   - term: nicht mehr
     definition: no longer
   - term: noch
@@ -1538,15 +1548,33 @@ vocabulary:
     declensin: https://www.verbformen.com/?w=Stadtzentrum
   - term: die Sprachschule
     definition: language school
+    declension:
+      - ["",         singular,     plural       ]
+      - [nominative, Sprachschule, Sprachschulen]
+      - [genitive,   Sprachschule, Sprachschulen]
+      - [dative,     Sprachschule, Sprachschulen]
+      - [accusative, Sprachschule, Sprachschulen]
   - term: die Bildung
     definition:
       - education
       - creation
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Bildung,  Bildungen]
+      - [genitive,   Bildung,  Bildungen]
+      - [dative,     Bildung,  Bildungen]
+      - [accusative, Bildung,  Bildungen]
   - term: die Ausbildung
     definition:
       - training,
       - apprenticeship,
       - vocational education
+    declension:
+      - ["",         singular,   plural      ]
+      - [nominative, Ausbildung, Ausbildungen]
+      - [genitive,   Ausbildung, Ausbildungen]
+      - [dative,     Ausbildung, Ausbildungen]
+      - [accusative, Ausbildung, Ausbildungen]
   - term: der Jura
     definition: the law
     declension:
@@ -1564,27 +1592,101 @@ vocabulary:
       - [dative,     Computer,  Computern]
       - [accusative, Computer,  Computer ]
   - term: die Informatik
-    definition: The Computer Science
+    definition: the Computer Science
+    declension:
+      - ["",         singular,   plural]
+      - [nominative, Informatik, N/A   ]
+      - [genitive,   Informatik, N/A   ]
+      - [dative,     Informatik, N/A   ]
+      - [accusative, Informatik, N/A   ]
   - term: die Anglistik
-    definition: English studies
+    definition: the English studies
+    declension:
+      - ["",         singular,  plural]
+      - [nominative, Anglistik, N/A   ]
+      - [genitive,   Anglistik, N/A   ]
+      - [dative,     Anglistik, N/A   ]
+      - [accusative, Anglistik, N/A   ]
   - term: die Germanistik
-    definition: Germanic studies
+    definition: the Germanic studies
+    declension:
+      - ["",         singular,    plural]
+      - [nominative, Germanistik, N/A   ]
+      - [genitive,   Germanistik, N/A   ]
+      - [dative,     Germanistik, N/A   ]
+      - [accusative, Germanistik, N/A   ]
   - term: die Romanistik
-    definition: Romance studies
+    definition: the Romance studies
+    declension:
+      - ["",         singular,   plural]
+      - [nominative, Romanistik, N/A   ]
+      - [genitive,   Romanistik, N/A   ]
+      - [dative,     Romanistik, N/A   ]
+      - [accusative, Romanistik, N/A   ]
   - term: die Geschichte
-    definition: History
+    definition: the History
+    declension:
+      - ["",         singular,   plural     ]
+      - [nominative, Geschichte, Geschichten]
+      - [genitive,   Geschichte, Geschichten]
+      - [dative,     Geschichte, Geschichten]
+      - [accusative, Geschichte, Geschichten]
   - term: die Mathematik
-    definition: Mathematics
+    definition: the Mathematics
+    declension:
+      - ["",         singular,   plural]
+      - [nominative, Mathematik, N/A   ]
+      - [genitive,   Mathematik, N/A   ]
+      - [dative,     Mathematik, N/A   ]
+      - [accusative, Mathematik, N/A   ]
+  - term: die Statistik
+    definition: the statistics
+    declension:
+      - ["",         singular,  plural     ]
+      - [nominative, Statistik, Statistiken]
+      - [genitive,   Statistik, Statistiken]
+      - [dative,     Statistik, Statistiken]
+      - [accusative, Statistik, Statistiken]
   - term: die Betriebswirtschaftslehre (BWL)
-    definition: business administration
-  - term: Volkswirtschaftslehre (VWL)
-    definition: economics
+    definition: the business administration
+    declension:
+      - ["",         singular,                 plural]
+      - [nominative, Betriebswirtschaftslehre, N/A   ]
+      - [genitive,   Betriebswirtschaftslehre, N/A   ]
+      - [dative,     Betriebswirtschaftslehre, N/A   ]
+      - [accusative, Betriebswirtschaftslehre, N/A   ]
+  - term: die Volkswirtschaftslehre (VWL)
+    definition: the economics
+    declension:
+      - ["",         singular,              plural                ]
+      - [nominative, Volkswirtschaftslehre, Volkswirtschaftslehren]
+      - [genitive,   Volkswirtschaftslehre, Volkswirtschaftslehren]
+      - [dative,     Volkswirtschaftslehre, Volkswirtschaftslehren]
+      - [accusative, Volkswirtschaftslehre, Volkswirtschaftslehren]
   - term: die Biologie
-    definition: Biology
+    definition: the Biology
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Biologie, N/A   ]
+      - [genitive,   Biologie, N/A   ]
+      - [dative,     Biologie, N/A   ]
+      - [accusative, Biologie, N/A   ]
   - term: die Chemie
-    definition: Chemistry
+    definition: the Chemistry
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Chemie,   Chemien]
+      - [genitive,   Chemie,   Chemien]
+      - [dative,     Chemie,   Chemien]
+      - [accusative, Chemie,   Chemien]
   - term: die Medizin
     definition: medicine
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Medizin,  Medizinen]
+      - [genitive,   Medizin,  Medizinen]
+      - [dative,     Medizin,  Medizinen]
+      - [accusative, Medizin,  Medizinen]
   - term: der Automechaniker
     definition: (make) car mechanic
     declension:
@@ -2148,6 +2250,10 @@ vocabulary:
     definition: to go
   - term: gehen
     definition: to go
+  - term: weggehen
+    definition: to leave
+  - term: ausgehen
+    definition: to go out
   - term: fliegen
     definition: to fly
   - term: kochen
@@ -2213,6 +2319,8 @@ vocabulary:
       - to drive
       - to do
   - term: Sport treiben
+    definition: to do sports
+  - term: treiben Sport
     definition: to do sports
   - term: der Fußball
     definition:
@@ -2434,10 +2542,6 @@ vocabulary:
     definition: to get enough sleep
   - term: beliebt
     definition: (adj.) popular
-  - term: oft
-    definition: (adv.) often
-  - term: Wie oft gehen die Deutschen aus?
-    definition: How often do German people go out?
   - term: das Gerät
     definition: the tool
     declension:
@@ -2446,8 +2550,12 @@ vocabulary:
       - [genitive,   "Gerätes, Geräts", Geräte ]
       - [dative,     Gerät,             Geräten]
       - [accusative, Gerät,             Geräte ]
+  - term: oft
+    definition: (adv.) often
   - term: Wie oft ...
     definition: How often ...
+  - term: Wie oft gehen die Deutschen aus?
+    definition: How often do German people go out?
   - term: einmal
     definition: (adv.) once
   - term: zweimal
@@ -2510,7 +2618,45 @@ vocabulary:
       - [genitive,   Kunst,    Künste ]
       - [dative,     Kunst,    Künsten]
       - [accusative, Kunst,    Künste ]
-
+  - term: der Artikel
+    definition: the article
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Artikel,  Artikel ]
+      - [genitive,   Artikels, Artikel ]
+      - [dative,     Artikel,  Artikeln]
+      - [accusative, Artikel,  Artikel ]
+  - term: Lesen Sie den Artikel aus einer deutschen Zeitung.
+    definition: Read the article from a German newspaper.
+  - term: Frage der Woche
+    definition: question of the week
+  - term: Wie oft gehen Sie im Monat aus?
+    definition: How often do you go out per month?
+  - term: Wohin gehen Sie?
+    definition: Where are you going?
+  - term: zeigen
+    definition: to show
+  - term: Statistiken zeigen es
+    definition: Statistics show it
+  - term: doch
+    definition:
+      - (adv.) really
+      - (adv.) just
+      - (adv.) after all
+      - (adv.) yet
+      - (adv.) however
+      - (adv.) nevertheless
+      - (par.) surely
+      - (par.) really
+      - (par.) on the contrary
+  - term: immer mehr
+    definition: more and more
+  - term: letzte
+    definition: (adj.) last
+  - term: in den letzten Jahren
+    definition: in recent years
+  - term: gefragt
+    definition: (adj.) requested
 
 
   - term: die Erfahrung
@@ -2607,8 +2753,14 @@ vocabulary:
     definition: since, for
   - term: Ich nichts von ihm gehört seit Juli.
     definition: I haven't heard from him since July.
-  - term: das Jahren
-    definition: year
+  - term: das Jahr
+    definition: the year
+    declension:
+      - ["",         singular,        plural        ]
+      - [nominative, Jahr,            "Jahre, Jahr" ]
+      - [genitive,   "Jahres, Jahrs", "Jahre, Jahr" ]
+      - [dative,     Jahr,            "Jahren, Jahr"]
+      - [accusative, Jahr,            "Jahre, Jahr" ]
   - term: seit zwei Jahren
     definition: for two years
   - term: seit wann?
@@ -2619,8 +2771,6 @@ vocabulary:
     definition: should
   - term: Vielleicht sollten Sie ...
     definition: Maybe you should ...
-  - term: weggehen
-    definition: to leave
   - term: von hier weggehen
     definition: leave here
   - term: Schon gut.
