@@ -2,9 +2,12 @@ Wilhelm Vocabulary
 ==================
 
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
+[![Vocabulary count - German]][Docker Hub URL]
+[![Vocabulary count - Latin]][Docker Hub URL]
+[![Vocabulary count - Ancient Greek]][Docker Hub URL]
 [![Docker Hub][Docker Pulls Badge]][Docker Hub URL]
-[![Hugging Face dataset badge]][Hugging Face dataset URL]
 [![Hugging Face sync status badge]][Hugging Face sync status URL]
+[![Hugging Face dataset badge]][Hugging Face dataset URL]
 [![Apache License Badge]][Apache License, Version 2.0]
 
 <!-- TOC -->
@@ -490,3 +493,7 @@ The use and distribution terms for [wilhelm-vocabulary]() are covered by the [Ap
 
 [GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=Database%20Loading
 [GitHub workflow status URL]: https://github.com/QubitPi/wilhelm-vocabulary/actions/workflows/ci-cd.yaml
+
+[Vocabulary count - German]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2Fgerman%2Fcount&query=%24%5B0%5D.count&suffix=%20Nodes&style=for-the-badge&logo=neo4j&logoColor=white&label=German&color=4581C3
+[Vocabulary count - Latin]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2Flatin%2Fcount&query=%24%5B0%5D.count&suffix=%20Nodes&style=for-the-badge&logo=neo4j&logoColor=white&label=Latin&color=4581C3
+[Vocabulary count - Ancient Greek]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2FancientGreek%2Fcount&query=%24%5B0%5D.count&suffix=%20Nodes&style=for-the-badge&logo=neo4j&logoColor=white&label=Ancient%20Greek&color=4581C3
