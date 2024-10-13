@@ -1,11 +1,12 @@
 Wilhelm Vocabulary
 ==================
 
-[![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Vocabulary count - German]][Docker Hub URL]
 [![Vocabulary count - Latin]][Docker Hub URL]
 [![Vocabulary count - Ancient Greek]][Docker Hub URL]
 [![Docker Hub][Docker Pulls Badge]][Docker Hub URL]
+
+[![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Hugging Face sync status badge]][Hugging Face sync status URL]
 [![Hugging Face dataset badge]][Hugging Face dataset URL]
 [![Apache License Badge]][Apache License, Version 2.0]
@@ -273,7 +274,14 @@ For example:
 
 ### [Ancient Greek](./ancient-greek.yaml)
 
-Unless otherwise mentioned, we are talking about Attic Greek throughout this repository.
+Unless otherwise mentioned, we are always talking about _Attic_ Greek.
+
+> [!NOTE]
+> The vocabulary and declensions come from the following sources
+>
+> - [Greek Core Vocabulary of Dickinson College](https://dcc.dickinson.edu/greek-core-list)
+> - Wiktionary
+> - [Ancient Greek for Everyone](https://pressbooks.pub/ancientgreek)
 
 #### Diacritic Mark Convention
 
@@ -302,7 +310,7 @@ gender, and the English meaning. For example.
     declension class: 1st
 ```
 
-the vocabulary entry above consists of the following 4 items:
+the vocabulary entry above consists of the following 5 items:
 
 1. τέχνη: nominative singular
 2. τέχνης: genitive singular
@@ -319,20 +327,6 @@ the vocabulary entry above consists of the following 4 items:
    1. first declension (`1st`)
    2. second declension (`2nd`)
    3. third declension (`3rd`)
-
-   A multi-form nouns will have a list for this field. For example
-
-   ```yaml
-     - term: αὐτός αὐτή αὐτό
-       definition:
-         - (without article) he, she, it, they
-         - (without article) himself, herself, itself, themselves
-         - (with definite article) same
-       declension class:
-         αὐτός: 2nd
-         αὐτή: 1st
-         αὐτό: 2nd
-   ```
 
 The declension of the entry is not shown because to decline any noun, we can take the genitive singular, remove the
 genitive singular ending to get the stem, and then add the proper set of endings to the stem based on its declension
@@ -494,6 +488,6 @@ The use and distribution terms for [wilhelm-vocabulary]() are covered by the [Ap
 [GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=Database%20Loading
 [GitHub workflow status URL]: https://github.com/QubitPi/wilhelm-vocabulary/actions/workflows/ci-cd.yaml
 
-[Vocabulary count - German]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2Fgerman%2Fcount&query=%24%5B0%5D.count&suffix=%20Nodes&style=for-the-badge&logo=neo4j&logoColor=white&label=German&color=4581C3
-[Vocabulary count - Latin]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2Flatin%2Fcount&query=%24%5B0%5D.count&suffix=%20Nodes&style=for-the-badge&logo=neo4j&logoColor=white&label=Latin&color=4581C3
-[Vocabulary count - Ancient Greek]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2FancientGreek%2Fcount&query=%24%5B0%5D.count&suffix=%20Nodes&style=for-the-badge&logo=neo4j&logoColor=white&label=Ancient%20Greek&color=4581C3
+[Vocabulary count - German]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2Fgerman%2Fcount&query=%24%5B0%5D.count&suffix=%20Words&style=for-the-badge&logo=neo4j&logoColor=white&label=German&color=4581C3
+[Vocabulary count - Latin]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2Flatin%2Fcount&query=%24%5B0%5D.count&suffix=%20Words&style=for-the-badge&logo=neo4j&logoColor=white&label=Latin&color=4581C3
+[Vocabulary count - Ancient Greek]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2FancientGreek%2Fcount&query=%24%5B0%5D.count&suffix=%20Words&style=for-the-badge&logo=neo4j&logoColor=white&label=Ancient%20Greek&color=4581C3

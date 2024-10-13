@@ -1,15 +1,111 @@
 vocabulary:
-  - term: ὁ ἡ τό
-    definition: the (m, f, n)
-  - term: αὐτός αὐτή αὐτό
+  - term: ὁ
+    definition: (definite article, masculine) the
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ὁ,        οἱ    ]
+      - [genitive,   τοῦ,      τῶν   ]
+      - [dative,     τῷ,       τοῖς  ]
+      - [accusative, τόν,      τούς  ]
+  - term: ἡ
+    definition: (definite article, feminine) the
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ἡ,        αἱ    ]
+      - [genitive,   τῆς,      τῶν   ]
+      - [dative,     τῇ,       ταῖς  ]
+      - [accusative, τήν,      τάς   ]
+  - term: τό
+    definition: (definite article, neuter) the
+    declension:
+      - ["",         singular, plural]
+      - [nominative, τό,       τά    ]
+      - [genitive,   τοῦ,      τῶν   ]
+      - [dative,     τῷ,       τοῖς  ]
+      - [accusative, τό,       τά    ]
+  - term: αὐτός
     definition:
-      - (without article) he, she, it, they
-      - (without article) himself, herself, itself, themselves
-      - (with definite article) same
-    declension class:
-      αὐτός: 2nd
-      αὐτή: 1st
-      αὐτό: 2nd
+      - (3rd pron. without article, no nominative, masculine) he, she, it, they
+      - (3rd pron. without article, nominative only, masculine) himself, herself, itself, themselves
+      - (3rd pron. with definite article, masculine) same
+    declension:
+      - ["",         singular, plural]
+      - [nominative, αὐτός,    αὐτοί ]
+      - [genitive,   αὐτοῦ,    αὐτῶν ]
+      - [dative,     αὐτῷ,     αὐτοῖς]
+      - [accusative, αὐτόν,    αὐτούς]
+  - term: αὐτή
+    definition:
+      - (3rd pron. without article, no nominative, feminine) he, she, it, they
+      - (3rd pron. without article, nominative only, feminine) himself, herself, itself, themselves
+      - (3rd pron. with definite article, feminine) same
+    declension:
+      - ["",         singular, plural]
+      - [nominative, αὐτή,     αὐταί ]
+      - [genitive,   αὐτῆς,    αὐτῶν ]
+      - [dative,     αὐτῇ,     αὐταῖς]
+      - [accusative, αὐτήν,    αὐτάς ]
+  - term: αὐτό
+    definition:
+      - (3rd pron. without article, no nominative, neuter) he, she, it, they
+      - (3rd pron. without article, nominative only, neuter) himself, herself, itself, themselves
+      - (3rd pron. with definite article, neuter) same
+    declension:
+      - ["",         singular, plural]
+      - [nominative, αὐτό,     αὐτά  ]
+      - [genitive,   αὐτοῦ,    αὐτῶν ]
+      - [dative,     αὐτῷ,     αὐτοῖς]
+      - [accusative, αὐτό,     αὐτοῖς]
+  - term: ὅδε
+    definition: (demonstrative pronoun, masculine) this
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ὅδε,      οἵδε  ]
+      - [genitive,   τοῦδε,    τῶνδε ]
+      - [dative,     τῷδε,     τοῖσδε]
+      - [accusative, τόνδε,    τούσδε]
+  - term: ἥδε
+    definition: (demonstrative pronoun, feminine) this
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ἥδε,      αἵδε  ]
+      - [genitive,   τῆσδε,    τῶνδε ]
+      - [dative,     τῇδε,     ταῖσδε]
+      - [accusative, τήνδε,    τάσδε ]
+  - term: τόδε
+    definition: (demonstrative pronoun, neuter) this
+    declension:
+      - ["",         singular, plural]
+      - [nominative, τόδε,     τάδε  ]
+      - [genitive,   τοῦδε,    τῶνδε ]
+      - [dative,     τῷδε,     τοῖσδε]
+      - [accusative, τόδε,     τάδε  ]
+  - term: ἐκεῖνος
+    definition: (demonstrative pronoun, masculine) that
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, ἐκεῖνος,  ἐκεῖνοι ]
+      - [genitive,   ἐκείνου,  ἐκείνων ]
+      - [dative,     ἐκείνῳ,   ἐκείνοις]
+      - [accusative, ἐκεῖνον,  ἐκείνους]
+  - term: ἐκείνη
+    definition: (demonstrative pronoun, feminine) that
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ἐκείνη, ἐκεῖναι]
+      - [genitive,   ἐκείνης, ἐκείνων]
+      - [dative,     ἐκείνῃ, ἐκείναις]
+      - [accusative, ἐκείνην, ἐκείνας]
+  - term: (demonstrative pronoun, neuter) ἐκεῖνο
+    definition: that
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, ἐκεῖνο,   ἐκεῖνα  ]
+      - [genitive,   ἐκείνου,  ἐκείνων ]
+      - [dative,     ἐκείνῳ,   ἐκείνοις]
+      - [accusative, ἐκεῖνο,   ἐκεῖνα  ]
+  - term: ἐκεῖνος…οὗτος
+    definition: the former…the latter
   - term: καί
     definition:
       - and
@@ -197,8 +293,6 @@ vocabulary:
     definition: big, great, powerful
   - term: οὐδέ
     definition: and not, but not, nor; οὐδέ...οὐδέ not even...nor yet
-  - term: ἐκεῖνος ἐκείνη ἐκεῖνο
-    definition: that person or thing; ἐκεῖνος…οὗτος the former…the latter
   - term: τοιοῦτος τοιαύτη τοιοῦτο
     definition: such, of such a sort
   - term: οὐδείς οὐδεμία οὐδέν
@@ -331,8 +425,6 @@ vocabulary:
     definition: lord, master
   - term: μᾶλλον
     definition: more, rather; μᾶλλον...ἤ rather than
-  - term: ὅδε ἥδε τόδε
-    definition: this
   - term: ὅλος ὅλη ὅλον
     definition: whole, entire, complete
   - term: μέρος μέρους, τό
@@ -614,7 +706,7 @@ vocabulary:
   - term: δηλόω, δηλώσω, ἐδήλωσα, δεδήλωκα, ἐδηλώθην
     definition: show, declare, explain
   - term: οἰκεῖος οἰκεία οἰκεῖον
-    definition: domestic, of the house; one’s own; fitting, suitable
+    definition: domestic, of the house; one's own; fitting, suitable
   - term: κελεύω, κελεύσω, ἐκέλευσα, κεκέλευκα, κεκέλευσμαι, ἐκελεύσθην
     definition: order, bid, command (+acc. and infin.)
   - term: τέλος τέλους, τό
