@@ -634,11 +634,11 @@ vocabulary:
   - term: die Nähe
     definition: vicinity
     declension:
-      - ["",         singular, singular]
-      - [nominative, die,      Nähe    ]
-      - [genitive,   der,      Nähe    ]
-      - [dative,     der,      Nähe    ]
-      - [accusative, die,      Nähe    ]
+      - ["",         singular, plural]
+      - [nominative, Nähe    , N/A   ]
+      - [genitive,   Nähe    , N/A   ]
+      - [dative,     Nähe    , N/A   ]
+      - [accusative, Nähe    , N/A   ]
   - term: in der Nähe von ...
     definition: near
   - term: auch
@@ -1889,7 +1889,7 @@ vocabulary:
   - term: ach so
     definition: I see
   - term: der Beruf
-    definition: job
+    definition: the job
     declension:
       - ["",         singular,          plural ]
       - [nominative, Beruf,             Berufe ]
@@ -2636,8 +2636,6 @@ vocabulary:
     definition: Where are you going?
   - term: zeigen
     definition: to show
-  - term: Statistiken zeigen es
-    definition: Statistics show it
   - term: doch
     definition:
       - (adv.) really
