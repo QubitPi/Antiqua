@@ -291,10 +291,10 @@ We employ the following 3 diacritic signs only in vocabulary:
 2. the __circumflex__ (ᾶ), and
 3. the __grave__ (ὰ)
 
-In fact, it is called the [_medium diacritics_](https://lsj.gr/wiki/%E1%BC%80%CE%B3%CE%B1%CE%B8%CF%8C%CF%82)  and the
-same convention used in [Loeb Classical Library prints](https://ryanfb.xyz/loebolus/) from Harvard. Notice that,
-however, the commonly sourced [Wiktionary uses full diacritics](https://en.wiktionary.org/wiki/%E1%BC%80%CE%B3%CE%B1%CE%B8%CF%8C%CF%82#Declension),
-including the [breve diacritic mark](https://en.wikipedia.org/wiki/Breve); we don't do that.
+In fact, it is called the [_medium diacritics_](https://lsj.gr/wiki/ἀγαθός)  and the same convention used in
+[Loeb Classical Library prints](https://ryanfb.xyz/loebolus/) from Harvard. Notice that, however, the commonly sourced
+[Wiktionary uses full diacritics](https://en.wiktionary.org/wiki/ἀγαθός#Declension), including the
+[breve diacritic mark](https://en.wikipedia.org/wiki/Breve); we don't do that.
 
 #### Noun Declension
 
@@ -434,6 +434,12 @@ For example:
 ```
 
 ### [Latin](./latin.yaml)
+
+> [!NOTE]
+> The vocabulary and declensions come from the following sources
+>
+> - [Latin Core Vocabulary of Dickinson College](https://dcc.dickinson.edu/latin-core-list1)
+> - Wiktionary
 
 ```yaml
 vocabulary:

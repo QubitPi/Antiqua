@@ -7,6 +7,7 @@ vocabulary:
       - [genitive,   τοῦ,      τῶν   ]
       - [dative,     τῷ,       τοῖς  ]
       - [accusative, τόν,      τούς  ]
+      - [vocative,   N/A,      N/A   ]
   - term: ἡ
     definition: (definite article, feminine) the
     declension:
@@ -15,6 +16,7 @@ vocabulary:
       - [genitive,   τῆς,      τῶν   ]
       - [dative,     τῇ,       ταῖς  ]
       - [accusative, τήν,      τάς   ]
+      - [vocative,   N/A,      N/A   ]
   - term: τό
     definition: (definite article, neuter) the
     declension:
@@ -23,10 +25,13 @@ vocabulary:
       - [genitive,   τοῦ,      τῶν   ]
       - [dative,     τῷ,       τοῖς  ]
       - [accusative, τό,       τά    ]
+      - [vocative,   N/A,      N/A   ]
   - term: αὐτός
     definition:
-      - (3rd pron. without article, no nominative, masculine) he, she, it, they
-      - (3rd pron. without article, nominative only, masculine) himself, herself, itself, themselves
+      - (3rd pron. without article, no nominative, masculine) he
+      - (3rd pron. without article, no nominative, masculine) they
+      - (3rd pron. without article, nominative only, masculine) himself
+      - (3rd pron. without article, nominative only, masculine) themselves
       - (3rd pron. with definite article, masculine) same
     declension:
       - ["",         singular, plural]
@@ -34,10 +39,13 @@ vocabulary:
       - [genitive,   αὐτοῦ,    αὐτῶν ]
       - [dative,     αὐτῷ,     αὐτοῖς]
       - [accusative, αὐτόν,    αὐτούς]
+      - [vocative,   N/A,      N/A   ]
   - term: αὐτή
     definition:
-      - (3rd pron. without article, no nominative, feminine) he, she, it, they
-      - (3rd pron. without article, nominative only, feminine) himself, herself, itself, themselves
+      - (3rd pron. without article, no nominative, feminine) she
+      - (3rd pron. without article, no nominative, feminine) they
+      - (3rd pron. without article, nominative only, feminine) herself
+      - (3rd pron. without article, no nominative, feminine) themselves
       - (3rd pron. with definite article, feminine) same
     declension:
       - ["",         singular, plural]
@@ -45,10 +53,13 @@ vocabulary:
       - [genitive,   αὐτῆς,    αὐτῶν ]
       - [dative,     αὐτῇ,     αὐταῖς]
       - [accusative, αὐτήν,    αὐτάς ]
+      - [vocative,   N/A,      N/A   ]
   - term: αὐτό
     definition:
-      - (3rd pron. without article, no nominative, neuter) he, she, it, they
-      - (3rd pron. without article, nominative only, neuter) himself, herself, itself, themselves
+      - (3rd pron. without article, no nominative, neuter) it
+      - (3rd pron. without article, no nominative, neuter) they
+      - (3rd pron. without article, nominative only, neuter) itself
+      - (3rd pron. without article, nominative only, neuter) themselves
       - (3rd pron. with definite article, neuter) same
     declension:
       - ["",         singular, plural]
@@ -56,6 +67,34 @@ vocabulary:
       - [genitive,   αὐτοῦ,    αὐτῶν ]
       - [dative,     αὐτῷ,     αὐτοῖς]
       - [accusative, αὐτό,     αὐτοῖς]
+      - [vocative,   N/A,      N/A   ]
+  - term: ἑαυτοῦ
+    definition: (reflexive pron.) himself
+    declension:
+      - ["",         singular, plural                        ]
+      - [nominative, N/A,      N/A                           ]
+      - [genitive,   ἑαυτοῦ,   ἑαυτῶν                        ]
+      - [dative,     ἑαυτῷ,    "ἑαυτοῖς, ἑαυτοῖσῐ, ἑαυτοῖσῐν"]
+      - [accusative, ἑαυτόν,   ἑαυτούς                       ]
+      - [vocative,   N/A,      N/A                           ]
+  - term: ἑαυτῆς
+    definition: (reflexive pron.) herself
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, N/A,      N/A    ]
+      - [genitive,   ἑαυτῆς,   ἑαυτῶν ]
+      - [dative,     ἑαυτῇ,    ἑαυταῖς]
+      - [accusative, ἑαυτήν,   ἑαυτάς ]
+      - [vocative,   N/A,      N/A    ]
+  - term: ἑαυτοῦ
+    definition: (reflexive pron.) itself
+    declension:
+      - ["",         singular, plural                        ]
+      - [nominative, N/A,      N/A                           ]
+      - [genitive,   ἑαυτοῦ,   ἑαυτῶν                        ]
+      - [dative,     ἑαυτῷ,    "ἑαυτοῖς, ἑαυτοῖσι, ἑαυτοῖσιν"]
+      - [accusative, ἑαυτό,    ἑαυτ                          ]
+      - [vocative,   N/A,      N/A                           ]
   - term: ὅδε
     definition: (demonstrative pronoun, masculine) this
     declension:
@@ -64,6 +103,7 @@ vocabulary:
       - [genitive,   τοῦδε,    τῶνδε ]
       - [dative,     τῷδε,     τοῖσδε]
       - [accusative, τόνδε,    τούσδε]
+      - [vocative,   N/A,      N/A   ]
   - term: ἥδε
     definition: (demonstrative pronoun, feminine) this
     declension:
@@ -72,6 +112,7 @@ vocabulary:
       - [genitive,   τῆσδε,    τῶνδε ]
       - [dative,     τῇδε,     ταῖσδε]
       - [accusative, τήνδε,    τάσδε ]
+      - [vocative,   N/A,      N/A   ]
   - term: τόδε
     definition: (demonstrative pronoun, neuter) this
     declension:
@@ -80,6 +121,7 @@ vocabulary:
       - [genitive,   τοῦδε,    τῶνδε ]
       - [dative,     τῷδε,     τοῖσδε]
       - [accusative, τόδε,     τάδε  ]
+      - [vocative,   N/A,      N/A   ]
   - term: ἐκεῖνος
     definition: (demonstrative pronoun, masculine) that
     declension:
@@ -88,14 +130,16 @@ vocabulary:
       - [genitive,   ἐκείνου,  ἐκείνων ]
       - [dative,     ἐκείνῳ,   ἐκείνοις]
       - [accusative, ἐκεῖνον,  ἐκείνους]
+      - [vocative,   N/A,      N/A     ]
   - term: ἐκείνη
     definition: (demonstrative pronoun, feminine) that
     declension:
       - ["",         singular, plural]
-      - [nominative, ἐκείνη, ἐκεῖναι]
+      - [nominative, ἐκείνη, ἐκεῖναι ]
       - [genitive,   ἐκείνης, ἐκείνων]
       - [dative,     ἐκείνῃ, ἐκείναις]
       - [accusative, ἐκείνην, ἐκείνας]
+      - [vocative,   N/A,      N/A   ]
   - term: (demonstrative pronoun, neuter) ἐκεῖνο
     definition: that
     declension:
@@ -104,30 +148,281 @@ vocabulary:
       - [genitive,   ἐκείνου,  ἐκείνων ]
       - [dative,     ἐκείνῳ,   ἐκείνοις]
       - [accusative, ἐκεῖνο,   ἐκεῖνα  ]
-  - term: ἐκεῖνος…οὗτος
-    definition: the former…the latter
+      - [vocative,   N/A,      N/A     ]
+  - term: ἐκεῖνος ... οὗτος
+    definition: the former ... the latter
+  - term: ὅς
+    definition:
+      - (pronoun, masculine) this
+      - (relative pronoun, masculine) who
+      - (relative pronoun, masculine) which
+      - (relative pronoun, masculine) that
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ὅς,       οἵ    ]
+      - [genitive,   οὗ,       ὧν    ]
+      - [dative,     ᾧ,        οἷς   ]
+      - [accusative, ὅν,       οὕς   ]
+      - [vocative,   N/A,      N/A   ]
+  - term: ἥ
+    definition:
+      - (pronoun) this
+      - (relative pronoun, feminine) who
+      - (relative pronoun, feminine) which
+      - (relative pronoun, feminine) that
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ἥ,        αἵ    ]
+      - [genitive,   ἧς,       ὧν    ]
+      - [dative,     ᾗ,        αἷς   ]
+      - [accusative, ἥν,       ἅς    ]
+      - [vocative,   N/A,      N/A   ]
+  - term: ὅ
+    definition:
+      - (pronoun, neuter) this
+      - (relative pronoun, neuter) who
+      - (relative pronoun, neuter) which
+      - (relative pronoun, neuter) that
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ὅ,        ἅ     ]
+      - [genitive,   οὗ,       ὧν    ]
+      - [dative,     ᾧ,        οἷς   ]
+      - [accusative, ὅ,        ἅ     ]
+      - [vocative,   N/A,      N/A   ]
+  - term: ὅσπερ
+    definition:
+      - (intensive relative pronoun, masculine) the very one who
+      - (intensive relative pronoun, masculine) the very thing which
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ὅσπερ,    οἵπερ ]
+      - [genitive,   οὗπερ,    ὧνπερ ]
+      - [dative,     ᾧπερ,     οἷσπερ]
+      - [accusative, ὅνπερ,    οὕσπερ]
+      - [vocative,   N/A,      N/A   ]
+  - term: ἥπερ
+    definition:
+      - (intensive relative pronoun, feminine) the very one who
+      - (intensive relative pronoun, feminine) the very thing which
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ἥπερ,     αἵπερ ]
+      - [genitive,   ἧσπερ,    ὧνπερ ]
+      - [dative,     ᾗπερ,     αἷσπερ]
+      - [accusative, ἥνπερ,    ἅσπερ ]
+      - [vocative,   N/A,      N/A   ]
+  - term: ὅπερ
+    definition:
+      - (intensive relative pronoun, neuter) the very one who
+      - (intensive relative pronoun, neuter) the very thing which
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ὅπερ,     ἅπερ  ]
+      - [genitive,   οὗπερ,    ὧνπερ ]
+      - [dative,     ᾧπερ,     οἷσπερ]
+      - [accusative, ὅπερ,     ἅπερ  ]
+      - [vocative,   N/A,      N/A   ]
+  - term: τις
+    definition:
+      - (indefinite pronoun, masculine & feminine) someone
+      - (indefinite pronoun, masculine & feminine) something
+      - (indefinite pronoun, masculine & feminine) anyone
+      - (indefinite pronoun, masculine & feminine) anything
+      - (indefinite pronoun, masculine & feminine) some
+      - (indefinite pronoun, masculine & feminine) any
+    declension:
+      - ["",         singular, plural]
+      - [nominative, τις,      τινές ]
+      - [genitive,   τινός,    τινῶν ]
+      - [dative,     τινί,     τισί  ]
+      - [accusative, τινά,     τινάς ]
+      - [vocative,   N/A,      N/A   ]
+  - term: τι
+    definition:
+      - (indefinite pronoun, neuter) someone
+      - (indefinite pronoun, neuter) something
+      - (indefinite pronoun, neuter) anyone
+      - (indefinite pronoun, neuter) anything
+      - (indefinite pronoun, neuter) some
+      - (indefinite pronoun, neuter) any
+    declension:
+      - ["",         singular, plural]
+      - [nominative, τι,       τινά  ]
+      - [genitive,   τινός,    τινῶν ]
+      - [dative,     τινί,     τισί  ]
+      - [accusative, τι,       τινά  ]
+      - [vocative,   N/A,      N/A   ]
+  - term: τίς
+    definition:
+      - (interrogative pron./adj., masculine/feminine) who?
+      - (interrogative pron./adj., masculine/feminine) what?
+      - (interrogative pron./adj., masculine/feminine) which?
+    declension:
+      - ["",         singular,     plural ]
+      - [nominative, τίς,          τίνες  ]
+      - [genitive,   "τίνος, τοῦ", τίνων  ]
+      - [dative,     "τίνι, τῷ",   τίσι(ν)]
+      - [accusative, τίνα,         τίνας  ]
+      - [vocative,   N/A,          N/A    ]
+  - term: τί
+    definition:
+      - (interrogative pron./adj., neuter) who?
+      - (interrogative pron./adj., neuter) what?
+      - (interrogative pron./adj., neuter) which?
+    declension:
+      - ["",         singular,     plural ]
+      - [nominative, τί,           τίνα   ]
+      - [genitive,   "τίνος, τοῦ", τίνων  ]
+      - [dative,     "τίνι, τῷ",   τίσι(ν)]
+      - [accusative, τί,           τίνα   ]
+      - [vocative,   N/A,          N/A    ]
+  - term: ὅστις
+    definition:
+      - (indefinite relative pronoun, masculine) anyone who
+      - (indefinite relative pronoun, masculine) anything which
+      - (indirect interrogative pronoun, masculine) who
+      - (indirect interrogative pronoun, masculine) which
+      - (indirect interrogative pronoun, masculine) what
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, ὅστις,    οἵτινες ]
+      - [genitive,   οὗτινος,  ὧντινων ]
+      - [dative,     ᾧτινι,    οἷστισι ]
+      - [accusative, ὅντινα,   οὕστινας]
+      - [vocative,   N/A,          N/A ]
+  - term: ἥτις
+    definition:
+      - (indefinite relative pronoun, feminine) anyone who
+      - (indefinite relative pronoun, feminine) anything which
+      - (indirect interrogative pronoun, feminine) who
+      - (indirect interrogative pronoun, feminine) which
+      - (indirect interrogative pronoun, feminine) what
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, ἥτις,     αἵτινες]
+      - [genitive,   ἧστινος,  ὧντινων]
+      - [dative,     ᾗτινι,    αἷστισι]
+      - [accusative, ἥντινα,   ἅστινας]
+      - [vocative,   N/A,          N/A ]
+  - term: ὅ τι
+    definition:
+      - (indefinite relative pronoun, neuter) anyone who
+      - (indefinite relative pronoun, neuter) anything which
+      - (indirect interrogative pronoun, neuter) who
+      - (indirect interrogative pronoun, neuter) which
+      - (indirect interrogative pronoun, neuter) what
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, ὅ τι,     ἅτινα  ]
+      - [genitive,   οὗτινος,  ὧντινων]
+      - [dative,     ᾧτινι,    οἷστισι]
+      - [accusative, ὅ τι,     ἅτινα  ]
+      - [vocative,   N/A,          N/A]
+  - term: ἐγώ
+    definition: I
+    declension:
+      - ["",         singular,    plural]
+      - [nominative, ἐγώ,         ἡμεῖς ]
+      - [genitive,   "ἐμοῦ, μου", ἡμῶν  ]
+      - [dative,     "ἐμοί, μοι", ἡμῖν  ]
+      - [accusative, "ἐμέ, με",   ἡμᾶς  ]
+      - [vocative,   N/A,         N/A   ]
+  - term: ἐμαυτοῦ
+    definition: (reflexive 1st person pronoun, masculine) myself
+    declension:
+      - ["",         singular, plural     ]
+      - [nominative, N/A,      N/A        ]
+      - [genitive,   ἐμαυτοῦ,  ἡμῶν αὐτῶν ]
+      - [dative,     ἐμαυτῷ,   ἡμῖν αὐτοῖς]
+      - [accusative, ἐμαυτόν,  ἡμᾶς αὐτούς]
+      - [vocative,   N/A,      N/A        ]
+  - term: ἐμαυτῆς
+    definition: (reflexive 1st person pronoun, feminine) myself
+    declension:
+      - ["",         singular, plural     ]
+      - [nominative, N/A,      N/A        ]
+      - [genitive,   ἐμαυτῆς,  ἡμῶν αὐτῶν ]
+      - [dative,     ἐμαυτῇ,   ἡμῖν αὐταῖς]
+      - [accusative, ἐμαυτήν,  ἡμᾶς αὐτάς ]
+      - [vocative,   N/A,      N/A        ]
+  - term: σύ
+    definition: you
+    declension:
+      - ["",         singular,   plural]
+      - [nominative, σύ,         ὑμεῖς ]
+      - [genitive,   "σοῦ, σου", ὑμῶν  ]
+      - [dative,     "σοί, σοι", ὑμῖν  ]
+      - [accusative, "σέ, σε",   ὑμᾶς  ]
+      - [vocative,   N/A,        N/A   ]
+  - term: σεαυτοῦ
+    definition: (reflexive 2nd personal pronoun, masculine) yourself
+    declension:
+      - ["",         singular, plural     ]
+      - [nominative, N/A,      N/A        ]
+      - [genitive,   σεαυτοῦ,  ὑμῶν αὐτῶν ]
+      - [dative,     σεαυτῷ,   ὑμῖν αὐτοῖς]
+      - [accusative, σεαυτόν,  ὑμᾶς αὐτούς]
+      - [vocative,   N/A,      N/A        ]
+  - term: σεαυτῆς
+    definition: (reflexive 2nd personal pronoun, feminine) yourself
+    declension:
+      - ["",         singular, plural     ]
+      - [nominative, N/A,      N/A        ]
+      - [genitive,   σεαυτῆς,  ὑμῶν αὐτῶν ]
+      - [dative,     σεαυτῇ,   ὑμῖν αὐταῖς]
+      - [accusative, σεαυτήν,  ὑμᾶς αὐτάς ]
+      - [vocative,   N/A,      N/A        ]
+  - term: (ὁ) ἀλλήλων
+    definition:
+      - (reciprocal pronoun, masculine) one another
+      - (reciprocal pronoun, masculine) each other
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, N/A,      N/A     ]
+      - [genitive,   N/A,      ἀλλήλων ]
+      - [dative,     N/A,      ἀλλήλοις]
+      - [accusative, N/A,      ἀλλήλους]
+      - [vocative,   N/A,      N/A     ]
+  - term: (ἡ) ἀλλήλων
+    definition:
+      - (reciprocal pronoun, feminine) one another
+      - (reciprocal pronoun, feminine) each other
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, N/A,      N/A     ]
+      - [genitive,   N/A,      ἀλλήλων ]
+      - [dative,     N/A,      ἀλλήλαις]
+      - [accusative, N/A,      ἀλλήλας ]
+      - [vocative,   N/A,      N/A     ]
+  - term: (τό) ἀλλήλων
+    definition:
+      - (reciprocal pronoun, neuter) one another
+      - (reciprocal pronoun, neuter) each other
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, N/A,      N/A     ]
+      - [genitive,   N/A,      ἀλλήλων ]
+      - [dative,     N/A,      ἀλλήλοις]
+      - [accusative, N/A,      ἄλληλα  ]
+      - [vocative,   N/A,      N/A     ]
   - term: καί
     definition:
-      - and
-      - also, even;
+      - (conj.) and
+      - (conj.) also
+      - (conj.) even
   - term: καί ... καί ...
     definition: both ... and ...
   - term: μέν
     definition:
-      - indeed
-      - accordingly
+      - (part.) indeed
+      - (part.) accordingly
   - term: δέ
-    definition: and, but
-  - term: μέν...δέ
-    definition: on the one hand...on the other hand (often untranslated)
-  - term: τις τι
-    definition: someone, something, anyone, anything, some, any
-  - term: τίς τί
-    definition: (interrogative pron./adj.) who? what? which?
-  - term: ὅς ἥ ὅ
     definition:
-      - this
-      - who, which, that
+      - (part. & conj.) and,
+      - (part. & conj.) but
+  - term: μέν ... δέ
+    definition: on the one hand ... on the other hand (often untranslated)
   - term: εἰμί, ἔσομαι, ἦν, εἶναι
     definition: to be, exist
   - term: οὗτος αὕτη τοῦτο
@@ -187,10 +482,6 @@ vocabulary:
       - (accusative) towards
       - (accusative) for the purpose of
       - (accusative) according to
-  - term: ἐγώ
-    definition: I
-  - term: ἡμεῖς
-    definition: we
   - term: πρός
     definition:
       - from the side of
@@ -249,12 +540,8 @@ vocabulary:
     definition: around, about; concerning (+gen.)
   - term: μή
     definition: not (marks the negative as subjective or conditional); εἰ μή if not, except
-  - term: ὅστις ἥτις ὅ τι
-    definition: anyone who, anything which; (in indir. quest.) who, which, what
   - term: ἄν
     definition: [marks verbs as potential (with optative), or generalizing (with subjunctive)]
-  - term: σύ, σοῦ, (pl.) ὑμεῖς, ὑμῶν
-    definition: you
   - term: ἀνά
     definition: up, on; throughout
   - term: ὅτι
@@ -287,8 +574,6 @@ vocabulary:
     definition: god, goddess
   - term: μετά
     definition: with (+gen.); after (+acc.)
-  - term: ἑαυτοῦ ἑαυτῆς ἑαυτοῦ
-    definition: him- her- itself (reflexive pron.)
   - term: μέγας μεγάλη μέγα
     definition: big, great, powerful
   - term: οὐδέ
@@ -529,8 +814,6 @@ vocabulary:
     definition: neither...nor
   - term: μέσος μέση μέσον
     definition: middle, in the middle, moderate; τὸ μέσον midst
-  - term: ἀλλήλων -οις
-    definition: (oblique cases plural only) one another, each other
   - term: ἀεί
     definition: always
   - term: φίλος φίλη φίλον
@@ -577,8 +860,6 @@ vocabulary:
     definition: suffer, experience, be affected in a certain way (+adv.)
   - term: πῶς
     definition: how?
-  - term: ὅσπερ ἥπερ ὅπερ
-    definition: the very one who, the very thing which
   - term: τοσοῦτος -αύτη -οῦτο(ν)
     definition: so large, so much
   - term: σύν
