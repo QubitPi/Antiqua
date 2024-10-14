@@ -627,6 +627,8 @@ vocabulary:
     definition: "no"
   - term: ein bisschen
     definition: a bit (of)
+  - term: wenig
+    definition: (adj.) little
   - term: nur ein wenig
     definition: only a little
   - term: ziemlich
@@ -1909,7 +1911,7 @@ vocabulary:
   - term: Das ist ja großartig!
     definition: That's great!
   - term: interessant
-    definition: interesting
+    definition: (adj.) interesting
   - term: interessiert
     definition: (adj.) interested
   - term: langweilig
@@ -2466,6 +2468,8 @@ vocabulary:
       - (adv.) after
   - term: viel
     definition: a lot
+  - term: Ich koche auch viel zu Hause.
+    definition: I also cook a lot at home.
   - term: beschäftigt
     definition:
       - (adj.) busy
@@ -2562,6 +2566,10 @@ vocabulary:
     definition: (adv.) twice
   - term: dreimal
     definition: (adv.) thrice
+  - term: viermal
+    definition: (adv.) four times
+  - term: Ich gehe viermal pro Woche ins Fitnesszentrum und habe wenig Zeit, etwas anderes zu machen.
+    definition: I go to the gym four times a week and have little time to do anything else.
   - term: usw.
     definition: etc.
   - term: die Woche
@@ -2572,6 +2580,14 @@ vocabulary:
       - [genitive,   Woche,    Wochen]
       - [dative,     Woche,    Wochen]
       - [accusative, Woche,    Wochen]
+  - term: das Wochenende
+    definition: the weekend
+    declension:
+      - ["",         singular,    plural     ]
+      - [nominative, Wochenende,  Wochenenden]
+      - [genitive,   Wochenendes, Wochenenden]
+      - [dative,     Wochenende,  Wochenenden]
+      - [accusative, Wochenende,  Wochenenden]
   - term: der Monat
     definition: the month
     declension:
@@ -2651,6 +2667,26 @@ vocabulary:
     definition: more and more
   - term: gefragt
     definition: (adj.) requested
+  - term: manchmal
+    definition: (adv.) sometimes
+  - term: Am Wochenende gehe ich manchmal ins Kino, wenn es einen interessanten Film gibt.
+    definition: At the weekend I sometimes go to the cinema if there is an interesting film.
+  - term: lieben
+    definition: to love
+  - term: lieb
+    definition:
+      - (adj.) lovable
+      - (adj.) good
+      - (adj.) dear
+  - term: aber lieber
+    definition: but rather
+  - term: Ich gehe aber lieber ins Restaurant, meistens einmal die Woche.
+    definition: But I prefer to go to a restaurant, usually once a week.
+  - term: meistens
+    definition:
+      - (adv.) mostly
+      - (adv.) usually
+
 
 
   - term: die Erfahrung
@@ -2717,8 +2753,6 @@ vocabulary:
     definition: Why don't you say anything to him?
   - term: jung
     definition: young
-  - term: lieben
-    definition: to love
   - term: Sie ihn schon lange lieben?
     definition: Have you loved him for a long time?
   - term: immer
