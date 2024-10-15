@@ -28,6 +28,7 @@ Wilhelm Vocabulary
         - [Declension Template](#declension-template)
     - [Ancient Greek](#ancient-greek)
       - [Diacritic Mark Convention](#diacritic-mark-convention)
+      - [Pronoun](#pronoun)
       - [Noun Declension](#noun-declension-1)
       - [Adjective Declension](#adjective-declension)
       - [Verb Conjugation](#verb-conjugation)
@@ -295,6 +296,33 @@ In fact, it is called the [_medium diacritics_](https://lsj.gr/wiki/ἀγαθό�
 [Loeb Classical Library prints](https://ryanfb.xyz/loebolus/) from Harvard. Notice that, however, the commonly sourced
 [Wiktionary uses full diacritics](https://en.wiktionary.org/wiki/ἀγαθός#Declension), including the
 [breve diacritic mark](https://en.wikipedia.org/wiki/Breve); we don't do that.
+
+#### Pronoun
+
+The source of pronouns and their declensions come from the following sources
+
+- [Greek Core Vocabulary of Dickinson College](https://dcc.dickinson.edu/greek-core-list)
+- [Ancient Greek for Everyone, Pronouns: Part I](https://pressbooks.pub/ancientgreek/chapter/11/)
+- [Ancient Greek for Everyone, Pronouns: Part II](https://pressbooks.pub/ancientgreek/chapter/12/)
+- [Ancient Greek for Everyone, Pronouns: Part III](https://pressbooks.pub/ancientgreek/chapter/25/)
+- [Ancient Greek for Everyone, Pronouns: Part IV](https://pressbooks.pub/ancientgreek/chapter/26/)
+- Wiktionary
+
+> [!TIP]
+>
+> More grammar about pronouns can be found in these great articles from _Ancient Greek for Everyone_
+
+The declension table of a pronoun follows:
+
+```yaml
+declension:
+  - ["",         singular, plural]
+  - [nominative, ████████, ██████]
+  - [genitive,   ████████, ██████]
+  - [dative,     ████████, ██████]
+  - [accusative, ████████, ██████]
+  - [vocative,   N/A,      N/A   ]
+```
 
 #### Noun Declension
 
