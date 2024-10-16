@@ -191,6 +191,14 @@ vocabulary:
     definition: 1,708,000
   - term: drei Millionen vierhunderteinundsiebzigtausend
     definition: 3,471,000
+  - term: der Tag
+    definition: the day
+    declension:
+      - ["",         singular,      plural]
+      - [nominative, Tag,           Tage  ]
+      - [genitive,   "Tages, Tags", Tage  ]
+      - [dative,     Tag,           Tagen ]
+      - [accusative, Tag,           Tage  ]
   - term: Guten Tag
     definition: Good day
   - term: Hallo
@@ -2250,6 +2258,11 @@ vocabulary:
       - [genitive,   "Vereines, Vereins", Vereine ]
       - [dative,     Verein,              Vereinen]
       - [accusative, Verein,              Vereine ]
+  - term: sehen
+    definition:
+      - to see
+      - to view
+      - to watch
   - term: hören
     definition: to hear
   - term: sagen
@@ -2582,8 +2595,6 @@ vocabulary:
     definition: (adv.) thrice
   - term: viermal
     definition: (adv.) four times
-  - term: Ich gehe viermal pro Woche ins Fitnesszentrum und habe wenig Zeit, etwas anderes zu machen.
-    definition: I go to the gym four times a week and have little time to do anything else.
   - term: usw.
     definition: etc.
   - term: die Woche
@@ -2683,8 +2694,6 @@ vocabulary:
     definition: (adj.) requested
   - term: manchmal
     definition: (adv.) sometimes
-  - term: Am Wochenende gehe ich manchmal ins Kino, wenn es einen interessanten Film gibt.
-    definition: At the weekend I sometimes go to the cinema if there is an interesting film.
   - term: lieben
     definition: to love
   - term: lieb
@@ -2694,12 +2703,39 @@ vocabulary:
       - (adj.) dear
   - term: aber lieber
     definition: but rather
-  - term: Ich gehe aber lieber ins Restaurant, meistens einmal die Woche.
-    definition: But I prefer to go to a restaurant, usually once a week.
   - term: meistens
     definition:
       - (adv.) mostly
       - (adv.) usually
+  - term: das Museum
+    definition: the museum
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Museum,   Museen]
+      - [genitive,   Museums,  Museen]
+      - [dative,     Museum,   Museen]
+      - [accusative, Museum,   Museen]
+  - term: das Theater
+    definition: the theater
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Theater,  Theater ]
+      - [genitive,   Theaters, Theater ]
+      - [dative,     Theater,  Theatern]
+      - [accusative, Theater,  Theater ]
+  - term: nie mehr
+    definition: never again
+  - term: groß
+    definition: (adj.) big
+  - term: bleiben
+    definition:
+      - to remain
+      - to keep
+      - to stay
+  - term: fern
+    definition: (adj.) remote
+  - term: jeder
+    definition: (pron.) each
 
 
 
