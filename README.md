@@ -248,7 +248,6 @@ following form:
 ```yaml
 declension:
   - ["",         singular, plural]
-  - ["",         noun,     noun  ]
   - [nominative, ████████, ██████]
   - [genitive,   ████████, ██████]
   - [dative,     ████████, ██████]
@@ -310,7 +309,7 @@ The source of pronouns and their declensions come from the following sources
 
 > [!TIP]
 >
-> More grammar about pronouns can be found in these great articles from _Ancient Greek for Everyone_
+> More grammar about pronouns can be found in these great articles from _Ancient Greek for Everyone_ above
 
 The declension table of a pronoun follows:
 
