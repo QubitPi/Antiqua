@@ -2707,6 +2707,14 @@ vocabulary:
     definition:
       - (adv.) mostly
       - (adv.) usually
+  - term: die Oper
+    definition: the opera
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Oper,     Opern ]
+      - [genitive,   Oper,     Opern ]
+      - [dative,     Oper,     Opern ]
+      - [accusative, Oper,     Opern ]
   - term: das Museum
     definition: the museum
     declension:
@@ -2736,6 +2744,8 @@ vocabulary:
     definition: (adj.) remote
   - term: jeder
     definition: (pron.) each
+  - term: normalerweise
+    definition: (adv.) normally
 
 
 
@@ -3350,9 +3360,18 @@ vocabulary:
     definition: I would like to ...
   - term: mitmachen
     definition: to take part
+  - term: verlieren
+    definition: to lose
 
 
-
+  - term: die Einleitung
+    definition: the introduction
+    declension:
+      - ["",         singular,   plural      ]
+      - [nominative, Einleitung, Einleitungen]
+      - [genitive,   Einleitung, Einleitungen]
+      - [dative,     Einleitung, Einleitungen]
+      - [accusative, Einleitung, Einleitungen]
   - term: rein
     definition: pure
   - term: die Vernunft
