@@ -14,14 +14,14 @@ Wilhelm Vocabulary
 <!-- TOC -->
 
 - [Wilhelm Vocabulary](#wilhelm-vocabulary)
+  - [Docker](#docker)
+    - [Interesting Queries](#interesting-queries)
   - [Data Format](#data-format)
     - [Encoding Table in YAML](#encoding-table-in-yaml)
   - [Data Pipeline](#data-pipeline)
   - [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
     - [Why Graph Database](#why-graph-database)
     - [Base Schema](#base-schema)
-    - [Docker](#docker)
-      - [Interesting Queries](#interesting-queries)
   - [Languages](#languages)
     - [German](#german)
       - [Noun Declension](#noun-declension)
@@ -38,6 +38,67 @@ Wilhelm Vocabulary
   - [License](#license)
 
 <!-- TOC -->
+
+__Wilhelm Vocabulary__ is the data that drives the [wilhelmlang.com](https://wilhelmlang.com/).
+
+Docker
+------
+
+A Docker image has been made to allow us to explore the vocabulary in Neo4J browser backed by a Neo4J database in
+container. To get the image and run the container, simply do:
+
+```console
+docker run \
+    --publish=7474:7474 \
+    --publish=7687:7687 \
+    --env=NEO4J_AUTH=none \
+    --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes \
+    -e NEO4JLABS_PLUGINS=\[\"apoc\"\] \
+    jack20191124/wilhelm-vocabulary
+```
+
+> [!NOTE]
+>
+> The image is based on Neo4J Enterprise 5.23.0.
+
+- When container starts, access neo4j through browser at http://localhost:7474
+- Both __bolt://__ and __neo4j://__ protocols are fine.
+- Choose __No authentication__ for _Authentication type_
+- Then hit __Connect__ as shown below
+
+![Connecting to Neo4J Docker](./neo4j-docker-connect.png "Error loading neo4j-docker-connect.png")
+
+We have offered some queries that can be used to quickly explore our language data in the
+[next section](#interesting-queries)
+
+### Interesting Queries
+
+- Search for all Synonyms: `MATCH (term:Term)-[r]-(synonym:Term) WHERE r.name = "synonym" RETURN term, r, synonym`
+- Finding all [gerunds](https://en.wiktionary.org/wiki/Appendix:Glossary#gerund):
+  `MATCH (source)-[link:RELATED]->(target) WHERE link.name = "gerund of" RETURN source, link, target;`
+- Expanding a word "nämlich" (reveals its relationship to other languages):
+
+  ```cypher
+  MATCH (term:Term{name:'nämlich'})
+  CALL apoc.path.expand(term, "RELATED|DEFINITION", null, 1, -1)
+  YIELD path
+  RETURN path, length(path) AS hops
+  ORDER BY hops;
+  ```
+
+  ![Expanding "nämlich"](./german-greek-latin.png "Error loading german-greek-latin.png")
+
+- In German, "rice" and "travel" are related:
+
+  ```cypher
+  MATCH (term:Term{name:'die Reise'})
+  CALL apoc.path.expand(term, "RELATED|DEFINITION", null, 1, -1)
+  YIELD path
+  RETURN path, length(path) AS hops
+  ORDER BY hops;
+  ```
+
+  ![Declension sharing](./german-rice-travel.png "Error loading german-rice-travel.png")
 
 Data Format
 -----------
@@ -109,6 +170,19 @@ Data Pipeline
 
 ![Data pipeline](data-pipeline.png "Error loading data-loading.png")
 
+> [!CAUTION]
+>
+> When the graph database is Neo4J, all constrains relating to the __Term__ node must be using:
+>
+> ```cypher
+> SHOW CONSTRAINTS
+> DROP CONSTRAINT constraint_name;
+> ```
+>
+> This is because certain vocabulary has multiple grammatical forms. This vocabulary is spread out as multiple entries.
+> These multiple entries, because they have lots of common properties, often triggers constraint violations in Neo4J on
+> load
+
 How Data (Vocabulary) is Stored in a Graph Database
 ---------------------------------------------------
 
@@ -168,64 +242,6 @@ the German noun "[Ecke](https://en.wiktionary.org/wiki/Ecke#Noun)" has at least 
 > __Visualzing synonyms this way presents a big advantage to human brain__ who is exceedingly good at memorizing
 > patterns
 
-### Docker
-
-A Docker image has been made to allow us to explore the vocabulary in Neo4J browser backed by a Neo4J database in
-container. To get the image and run the container, simply do:
-
-```console
-docker run \
-    --publish=7474:7474 \
-    --publish=7687:7687 \
-    --env=NEO4J_AUTH=none \
-    --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes \
-    -e NEO4JLABS_PLUGINS=\[\"apoc\"\] \
-    jack20191124/wilhelm-vocabulary
-```
-
-> [!NOTE]
->
-> The image is based on Neo4J Enterprise 5.23.0.
-
-- When container starts, access neo4j through browser at http://localhost:7474
-- Both __bolt://__ and __neo4j://__ protocols are fine.
-- Choose __No authentication__ for _Authentication type_
-- Then hit __Connect__ as shown below
-
-![Connecting to Neo4J Docker](./neo4j-docker-connect.png "Error loading neo4j-docker-connect.png")
-
-We have offered some queries that can be used to quickly explore our language data in the
-[next section](#interesting-queries)
-
-#### Interesting Queries
-
-- Search for all Synonyms: `MATCH (term:Term)-[r]-(synonym:Term) WHERE r.name = "synonym" RETURN term, r, synonym`
-- Finding all [gerunds](https://en.wiktionary.org/wiki/Appendix:Glossary#gerund):
-  `MATCH (source)-[link:RELATED]->(target) WHERE link.name = "gerund of" RETURN source, link, target;`
-- Expanding a word "nämlich" (reveals its relationship to other languages):
-
-  ```cypher
-  MATCH (term:Term{name:'nämlich'})
-  CALL apoc.path.expand(term, "RELATED|DEFINITION", null, 1, -1)
-  YIELD path
-  RETURN path, length(path) AS hops
-  ORDER BY hops;
-  ```
-
-  ![Expanding "nämlich"](./german-greek-latin.png "Error loading german-greek-latin.png")
-
-- In German, "rice" and "travel" are related:
-
-  ```cypher
-  MATCH (term:Term{name:'die Reise'})
-  CALL apoc.path.expand(term, "RELATED|DEFINITION", null, 1, -1)
-  YIELD path
-  RETURN path, length(path) AS hops
-  ORDER BY hops;
-  ```
-
-  ![Declension sharing](./german-rice-travel.png "Error loading german-rice-travel.png")
-
 Languages
 ---------
 
@@ -277,11 +293,11 @@ For example:
 Unless otherwise mentioned, we are always talking about _Attic_ Greek.
 
 > [!NOTE]
-> The vocabulary and declensions come from the following sources
+>
+> Ancient Greek vocabulary come from the following sources
 >
 > - [Greek Core Vocabulary of Dickinson College](https://dcc.dickinson.edu/greek-core-list)
-> - Wiktionary
-> - [Ancient Greek for Everyone](https://pressbooks.pub/ancientgreek)
+> - Aristotle - Logic I: Categories, On Interpretation, Prior Analytics
 
 #### Diacritic Mark Convention
 
@@ -298,7 +314,7 @@ In fact, it is called the [_medium diacritics_](https://lsj.gr/wiki/ἀγαθό�
 
 #### Pronoun
 
-The source of pronouns and their declensions come from the following sources
+The source of pronouns and their declensions are the following
 
 - [Greek Core Vocabulary of Dickinson College](https://dcc.dickinson.edu/greek-core-list)
 - [Ancient Greek for Everyone, Pronouns: Part I](https://pressbooks.pub/ancientgreek/chapter/11/)
@@ -306,6 +322,9 @@ The source of pronouns and their declensions come from the following sources
 - [Ancient Greek for Everyone, Pronouns: Part III](https://pressbooks.pub/ancientgreek/chapter/25/)
 - [Ancient Greek for Everyone, Pronouns: Part IV](https://pressbooks.pub/ancientgreek/chapter/26/)
 - Wiktionary
+- [Greek: An Intensive Course, 2nd Revised Edition](https://pdfcoffee.com/4-hansen-hardy-quinn-gerald-m-greek-an-intensive-course-5-pdf-free.html)
+
+  - Unit 6, Section 49. The Relative Pronoun
 
 > [!TIP]
 >
@@ -323,10 +342,10 @@ declension:
   - [vocative,   N/A,      N/A   ]
 ```
 
-#### Noun Declension
+#### Noun
 
 The vocabulary entry for each noun consists of its nominative and genitive forms, an article which indicates the noun's
-gender, and the English meaning. For example.
+gender all in its `term` attribute. The English meaning(s) come as a list under `definition` attribute. For example.
 
 ```yaml
   - term: τέχνη τέχνης, ἡ

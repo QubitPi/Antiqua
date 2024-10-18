@@ -22,7 +22,7 @@ name: CI/CD
 
 env:
   PYTHON_VERSION: "3.10"
-  NEO4J_ENTERPRISE_VERSION: 5.23.0-enterprise
+  NEO4J_ENTERPRISE_VERSION: 5.24-enterprise
   NEO4J_URI: neo4j://localhost:7687
   NEO4J_DATABASE: neo4j
   NEO4J_USERNAME: not used

@@ -40,6 +40,45 @@ vocabulary:
       - [dative,     τῷ,       τοῖς  ]
       - [accusative, τό,       τά    ]
       - [vocative,   N/A,      N/A   ]
+  - term: ὅς
+    definition:
+      - (pronoun, masculine) this
+      - (relative pronoun, masculine) who
+      - (relative pronoun, masculine) which
+      - (relative pronoun, masculine) that
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ὅς,       οἵ    ]
+      - [genitive,   οὗ,       ὧν    ]
+      - [dative,     ᾧ,        οἷς   ]
+      - [accusative, ὅν,       οὕς   ]
+      - [vocative,   N/A,      N/A   ]
+  - term: ἥ
+    definition:
+      - (pronoun, feminine) this
+      - (relative pronoun, feminine) who
+      - (relative pronoun, feminine) which
+      - (relative pronoun, feminine) that
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ἥ,        αἵ    ]
+      - [genitive,   ἧς,       ὧν    ]
+      - [dative,     ᾗ,        αἷς   ]
+      - [accusative, ἥν,       ἅς    ]
+      - [vocative,   N/A,      N/A   ]
+  - term: ὅ
+    definition:
+      - (pronoun, neuter) this
+      - (relative pronoun, neuter) who
+      - (relative pronoun, neuter) which
+      - (relative pronoun, neuter) that
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ὅ,        ἅ     ]
+      - [genitive,   οὗ,       ὧν    ]
+      - [dative,     ᾧ,        οἷς   ]
+      - [accusative, ὅ,        ἅ     ]
+      - [vocative,   N/A,      N/A   ]
   - term: αὐτός
     definition:
       - (3rd pron. without article, no nominative, masculine) he
@@ -258,45 +297,6 @@ vocabulary:
       - [vocative,   N/A,      N/A     ]
   - term: ἐκεῖνος ... οὗτος
     definition: the former ... the latter
-  - term: ὅς
-    definition:
-      - (pronoun, masculine) this
-      - (relative pronoun, masculine) who
-      - (relative pronoun, masculine) which
-      - (relative pronoun, masculine) that
-    declension:
-      - ["",         singular, plural]
-      - [nominative, ὅς,       οἵ    ]
-      - [genitive,   οὗ,       ὧν    ]
-      - [dative,     ᾧ,        οἷς   ]
-      - [accusative, ὅν,       οὕς   ]
-      - [vocative,   N/A,      N/A   ]
-  - term: ἥ
-    definition:
-      - (pronoun) this
-      - (relative pronoun, feminine) who
-      - (relative pronoun, feminine) which
-      - (relative pronoun, feminine) that
-    declension:
-      - ["",         singular, plural]
-      - [nominative, ἥ,        αἵ    ]
-      - [genitive,   ἧς,       ὧν    ]
-      - [dative,     ᾗ,        αἷς   ]
-      - [accusative, ἥν,       ἅς    ]
-      - [vocative,   N/A,      N/A   ]
-  - term: ὅ
-    definition:
-      - (pronoun, neuter) this
-      - (relative pronoun, neuter) who
-      - (relative pronoun, neuter) which
-      - (relative pronoun, neuter) that
-    declension:
-      - ["",         singular, plural]
-      - [nominative, ὅ,        ἅ     ]
-      - [genitive,   οὗ,       ὧν    ]
-      - [dative,     ᾧ,        οἷς   ]
-      - [accusative, ὅ,        ἅ     ]
-      - [vocative,   N/A,      N/A   ]
   - term: ὅσπερ
     definition:
       - (intensive relative pronoun, masculine) the very one who
@@ -669,6 +669,10 @@ vocabulary:
       - [dative,     N/A,      ἀλλήλοις]
       - [accusative, N/A,      ἄλληλα  ]
       - [vocative,   N/A,      N/A     ]
+  - term: ὄνομα ὀνόματος, τό
+    definition: name; fame
+  - term: μόνος μόνη μόνον
+    definition: alone, single
   - term: καί
     definition:
       - (conj.) and
@@ -706,7 +710,8 @@ vocabulary:
     definition: not
   - term: λέγω
     definition:
-      - to say, speak
+      - to say
+      - to speak
       - to pick up
     conjugation:
       wiktionary: https://en.wiktionary.org/wiki/λέγω#Verb_2
@@ -894,8 +899,6 @@ vocabulary:
       - (first person singular) perfect indicative active: ἑόρακα, ἑώρακα
       - (first person singular) perfect indicative passive: ἑώραμαι
       - (first person singular) aorist indicative passive: ὤφθην
-  - term: μόνος μόνη μόνον
-    definition: alone, single
   - term: οὔτε...οὔτε
     definition: neither...nor
   - term: οἷος οἵα οἷον
@@ -1010,8 +1013,6 @@ vocabulary:
     definition: at some time, ever, in the world
   - term: ἵνα
     definition: in order that (conj. +subj. or opt.); where (rel. adv. +indic.)
-  - term: ὄνομα ὀνόματος, τό
-    definition: name; fame
   - term: ὑπέρ
     definition: for (+gen), beyond (+acc.)
   - term: ἤδη
@@ -1614,7 +1615,9 @@ vocabulary:
   - term: ὑπολαμβάνω, ὑπολήψομαι, ὑπέλαβον, ὑπείληφα, ὑπείλημμαι, ὑπελήφθην
     definition: take up, seize; answer, reply; assume, suppose
   - term: ποιητής -οῦ, ὁ
-    definition: creator, poet
+    definition:
+      - creator
+      - poet
   - term: λανθάνω, λήσω, ἔλαθον, λέληθα
     definition: escape the notice of (+acc. and nom. participle), be unknown; (mid. and pass.) forget
   - term: βελτίων βέλτιον
