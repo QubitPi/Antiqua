@@ -13,6 +13,31 @@
 # limitations under the License.
 
 vocabulary:
+  - term: ich
+    definition: (personal pronoun) I
+    declension:
+      - ["",         singular,   singular,              singular,       singular,       singular,       plural,     plural,                plural,     singular & plural         ]
+      - ["",         1st person, 2nd person (familiar), 3rd person (m), 3rd person (f), 3rd person (n), 1st person, 2nd person (familiar), 3rd person, 2nd person (polite/formal)]
+      - [nominative, ich,        du,                    er,             sie,            es,             wir,        ihr,                   sie,        Sie                       ]
+      - [genitive,   meiner,     deiner,                seiner,         ihrer,          seiner,         unser,      euer,                  ihrer,      Ihrer                     ]
+      - [dative,     mir,        dir,                   ihm,            ihr,            ihm,            uns,        euch,                  ihnen,      Ihnen                     ]
+      - [accusative, mich,       dich,                  ihn,            sie,            es,             uns,        euch,                  sie,        Sie                       ]
+  - term: mein
+    definition: (possessive adj.) my
+    declension:
+      - ["",         masclune, feminine, neuter, plural]
+      - [nominative, mein,     meine,    mein,   meine ]
+      - [genitive,   meines,   meiner,   meines, meiner]
+      - [dative,     meinem,   meiner,   meinem, meinen]
+      - [accusative, meinen,   meine,    mein,   meine ]
+  - term: meiner
+    definition: (prossessive pronoun) mine
+    declension:
+      - ["",         masclune, feminine, neuter,  plural        ]
+      - [nominative, meiner,   meine,    "meines, meins", meine ]
+      - [genitive,   meines,   meiner,    meines,         meiner]
+      - [dative,     meinem,   meiner,    meinem,         meinen]
+      - [accusative, meinen,   meine,    "meines, meins", meine ]
   - term: dieser
     definition:
       - this
@@ -23,48 +48,32 @@ vocabulary:
       - [genitive,   dieses,   dieser,   dieses, dieser  ]
       - [dative,     diesem,   dieser,   diesem, diesen  ]
       - [accusative, diesen,   diese,    dieses, diese   ]
-  - term: ich
-    definition: (pronoun) I
+  - term: jeder
+    definition:
+      - (pron.) each
+      - (pron.) every
     declension:
-      - ["",         singular,   singular,              singular,       singular,       singular,       plural,     plural,                plural,     singular & plural         ]
-      - ["",         1st person, 2nd person (familiar), 3rd person (m), 3rd person (f), 3rd person (n), 1st person, 2nd person (familiar), 3rd person, 2nd person (polite/formal)]
-      - [nominative, ich,        du,                    er,             sie,            es,             wir,        ihr,                   sie,        Sie                       ]
-      - [genitive,   meiner,     deiner,                seiner,         ihrer,          seiner,         unser,      euer,                  ihrer,      Ihrer                     ]
-      - [dative,     mir,        dir,                   ihm,            ihr,            ihm,            uns,        euch,                  ihnen,      Ihnen                     ]
-      - [accusative, mich,       dich,                  ihn,            sie,            es,             uns,        euch,                  sie,        Sie                       ]
-  - term: er
-    definition:
-      - he
-      - it
-        The declined "es".
-        Used when the grammatical gender of the object/article/thing/animal etc., being referred to, is masculine (der).
-        See the declension table of "es" for more details.
-        e.g. Dort steht ein Baum. Er ist über hundert Jahre alt. (There stands a tree. It is more than 100 years old.)
-      - she
-        The declined "er".
-        Use when the grammatical gender of the noun being referred to and designating a female person, is masculine (der)).
-        See the declension table of "er" for more details.
-        e.g. Im Frauengefängnis versuchte ein Häftling zu flüchten, aber er kam nicht weit. (In the women's prison, an inmate tried to escape, but she didn't get very far.)
-  - term: sie
-    definition:
-      - she
-      - it
-        The declined "es".
-        Used When the object/article/thing/animal etc., referred to, is feminine (die)).
-        See the declension table of "es" for more details.
-        e.g. Scheint die Sonne noch? Nein, sie ist schon untergegangen. (Is the sun still shining? No, it has already gone down.)
-      - he
-        The declined "sie".
-        Used when the grammatical gender of the noun being referred to and designating a male person, is feminine (die)).
-        See declension table of "sie" for more details.
-        e.g. Die Geisel Richard Meier versuchte, sich zu befreien, aber sie schaffte es nicht. (The hostage Richard Meier tried to break free, but he didn’t succeed.)
-      - they
-  - term: es
-    definition:
-      - she/he: (old-fashioned) nominative and accusative neuter third-person singular personal pronoun
-      - it
-  - term: mein
-    definition: my
+      - ["",         masclune, feminine, neuter, plural]
+      - [nominative, jeder,    jede,     jedes,  N/A   ]
+      - [genitive,   jedes,    jeder,    jedes,  N/A   ]
+      - [dative,     jedem,    jeder,    jedem,  N/A   ]
+      - [accusative, jeden,    jede,     jedes,  N/A   ]
+  - term: derselbe
+    definition: (pron.) the same
+    declension:
+      - ["",         masclune,  feminine,  neuter,    plural   ]
+      - [nominative, derselbe,  dieselbe,  dasselbe,  dieselben]
+      - [genitive,   desselben, derselben, desselben, derselben]
+      - [dative,     demselben, derselben, demselben, denselben]
+      - [accusative, denselben, dieselbe,  dasselbe,  dieselben]
+  - term: selber
+    definition: (pron.) the same
+    declension:
+      - [ "",         m. (w/o article), f. (w/o article), n. (w/o article), plural (w/o article), m. (w/ def. article), f. (w/ def. article), n. (w/ def. article), plural (w/ def.  article) ]
+      - [ nominative, selber,           selbe,            selbes,           selbe ,               selbe,                selbe,                selbe,                selben                    ]
+      - [ genitive,   selbes,           selber,           selbes,           selber,               selben,               selben,               selben,               selben                    ]
+      - [ dative,     selbem,           selber,           selbem,           selben,               selben,               selben,               selben,               selben                    ]
+      - [ accusative, selben,           selbe,            selbes,           selbe ,               selben,               selbe,                selbe,                selben                    ]
   - term: kein
     definition: (pron.) not
     declension:
@@ -199,6 +208,8 @@ vocabulary:
       - [genitive,   "Tages, Tags", Tage  ]
       - [dative,     Tag,           Tagen ]
       - [accusative, Tag,           Tage  ]
+  - term: der Montag
+    definition: the Monday
   - term: Guten Tag
     definition: Good day
   - term: Hallo
@@ -494,7 +505,13 @@ vocabulary:
   - term: aber
     definition: but
   - term: dort
-    definition: there
+    definition: (adv.) there
+  - term: da
+    definition:
+      - (adv.) there
+      - (adv.) here
+      - (adv.) then
+      - (adv.) at that moment
   - term: jetzt
     definition: now
   - term: Entschuldigen
@@ -2015,11 +2032,6 @@ vocabulary:
     definition: Where can I find a/an ... here?
   - term: Finde ich hier in der Nähe einen/eine/ein ...?
     definition: Can I find a/an ... near here?
-  - term: da
-    definition:
-      - (local) there; here
-      - (temporal) then
-      - (temporal) at that moment
   - term: der Vater
     definition: the father
     declension:
@@ -2742,10 +2754,30 @@ vocabulary:
       - to stay
   - term: fern
     definition: (adj.) remote
-  - term: jeder
-    definition: (pron.) each
   - term: normalerweise
     definition: (adv.) normally
+  - term: billig
+    definition: (adj.) appropriate
+  - term: der Film
+    definition: the film
+    declension:
+      - ["",         singular,      plural]
+      - [nominative, Film,          Filme ]
+      - [genitive,   Filmes, Films, Filme ]
+      - [dative,     Film,          Filmen]
+      - [accusative, Film,          Filme ]
+  - term: attraktiv
+    definition: (adj.) attractive
+  - term: selten
+    definition: (adj.) infrequent
+  - term: modern
+    definition: (adj.) modern
+  - term: müssen
+    definition: to have to
+  - term: das Opfer
+    definition:
+      - the sacrifice
+      - the victim
 
 
 
@@ -3362,6 +3394,20 @@ vocabulary:
     definition: to take part
   - term: verlieren
     definition: to lose
+  - term: eben
+    definition:
+      - (adj.) flat
+      - (adj.) even
+      - (adj.) smooth
+      - (adv.) just
+      - (adv.) simply
+  - term: das Land
+    definition:
+      - the country
+      - the land
+  - term: der Schwächling
+    definition: the weakling
+
 
 
   - term: die Einleitung
@@ -3436,22 +3482,6 @@ vocabulary:
       - [genitive,   Denkens,  N/A   ]
       - [dative,     Denken,   N/A   ]
       - [accusative, Denken,   N/A   ]
-  - term: derselbe
-    definition: (pron.) the same
-    declension:
-      - ["",         masclune,  feminine,  neuter,    plural   ]
-      - [nominative, derselbe,  dieselbe,  dasselbe,  dieselben]
-      - [genitive,   desselben, derselben, desselben, derselben]
-      - [dative,     demselben, derselben, demselben, denselben]
-      - [accusative, denselben, dieselbe,  dasselbe,  dieselben]
-  - term: selber
-    definition: (pron.) the same
-    declension:
-      - [ "",         m. (w/o article), f. (w/o article), n. (w/o article), plural (w/o article), m. (w/ def. article), f. (w/ def. article), n. (w/ def. article), plural (w/ def.  article) ]
-      - [ nominative, selber,           selbe,            selbes,           selbe ,               selbe,                selbe,                selbe,                selben                    ]
-      - [ genitive,   selbes,           selber,           selbes,           selber,               selben,               selben,               selben,               selben                    ]
-      - [ dative,     selbem,           selber,           selbem,           selben,               selben,               selben,               selben,               selben                    ]
-      - [ accusative, selben,           selbe,            selbes,           selbe ,               selben,               selbe,                selbe,                selben                    ]
   - term: unmittelbar
     definition:
       - immediate
@@ -3478,6 +3508,12 @@ vocabulary:
     definition:
       - (adv.) in turn
       - (adv.) vice versa
+  - term: wenigstens
+    definition: (adv.) at least
+  - term: dadurch
+    definition:
+      - (adv.) through it
+      - (adv.) thus
   - term: möglich
     definition: (adj.) possible
   - term: das Gemüt
@@ -3494,14 +3530,6 @@ vocabulary:
       - [accusative, Gemüt,             Gemüter ]
   - term: gewiss
     definition: (adj.) certain
-  - term: sicher
-    definition:
-      - (adj.) certain
-      - (adj.) sure
-      - (adj.) safe
-      - (adv.) certainly
-      - (adv.) surely
-      - (adv.) safely
   - term: die Weise
     definition: way
     declension:
