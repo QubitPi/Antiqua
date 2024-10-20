@@ -3670,3 +3670,30 @@ vocabulary:
       - [accusative, Sinnlichkeit, Sinnlichkeiten]
   - term: vermitteln
     definition: to mediate
+  - term: der Verstand
+    definition: the intellect
+    declension:
+      - ["",         singular,                plural                  ]
+      - [nominative, Verstand,                "Verstande, Verstände"  ]
+      - [genitive,   "Verstandes, Verstands", "Verstande, Verstände"  ]
+      - [dative,     Verstand,                "Verstanden, Verständen"]
+      - [accusative, Verstand,                "Verstande, Verstände"  ]
+  - term: allein
+    definition: alone
+  - term: entspringen
+    definition:
+      - to arise
+      - to originate
+      - to spring
+  - term: liefern
+    definition:
+      - to supply
+      - to provide
+      - to research
+  - term: der Begriff
+    definition:
+      - the term
+      - the word
+      - the idea
+      - the conception
+      - the perception
