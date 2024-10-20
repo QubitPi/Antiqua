@@ -1583,10 +1583,28 @@ vocabulary:
     definition: see you soon
   - term: die Stadt
     definition: city
-    declensin: https://www.verbformen.com/?w=Stadt
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Stadt,    Städte ]
+      - [genitive,   Stadt,    Städte ]
+      - [dative,     Stadt,    Städten]
+      - [accusative, Stadt,    Städte ]
+  - term: der Stadtpark
+    definition: the city park
+    declension:
+      - ["",         singular,   plural    ]
+      - [nominative, Stadtpark,  Stadtparks]
+      - [genitive,   Stadtparks, Stadtparks]
+      - [dative,     Stadtpark,  Stadtparks]
+      - [accusative, Stadtpark,  Stadtparks]
   - term: das Stadtzentrum
     definition: city center
-    declensin: https://www.verbformen.com/?w=Stadtzentrum
+    declension:
+      - ["",         singular,      plural      ]
+      - [nominative, Stadtzentrum,  Stadtzentren]
+      - [genitive,   Stadtzentrums, Stadtzentren]
+      - [dative,     Stadtzentrum,  Stadtzentren]
+      - [accusative, Stadtzentrum,  Stadtzentren]
   - term: die Sprachschule
     definition: language school
     declension:
@@ -1982,12 +2000,6 @@ vocabulary:
     definition: (adj.) approximate
   - term: brauchen
     definition: to need
-  - term: mögen
-    definition:
-      - would like
-      - to like
-      - to want to
-      - may
   - term: nämlich
     definition:
       - (adj.) same
@@ -2291,6 +2303,8 @@ vocabulary:
     definition: to go
   - term: gehen
     definition: to go
+  - term: Ich gehe in den/in die/ins ...
+    definition: I go to the (m/f/n) ...
   - term: weggehen
     definition: to leave
   - term: ausgehen
@@ -2346,7 +2360,10 @@ vocabulary:
   - term: joggen
     definition: to jog
   - term: wandern
-    definition: to hike
+    definition:
+      - to hike
+      - to migrate
+      - to end up
   - term: der Sport
     definition: the sport
     declension:
@@ -2569,6 +2586,48 @@ vocabulary:
     definition: I really like going to ... (some place)
   - term: Isst du gern ...
     definition: Do you like eating ...?
+  - term: mögen
+    definition:
+      - would like
+      - to like
+      - to want to
+      - may
+  - term: Ich mag Musik.
+    definition: I like music.
+  - term: der Krimi
+    definition: the crime story
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Krimi, Krimis   ]
+      - [genitive,   Krimis, Krimis  ]
+      - [dative,     Krimi, Krimis   ]
+      - [accusative, Krimi, Krimis   ]
+  - term: die Biografie
+    definition: the biography
+    declension:
+      - ["",         singular,  plural    ]
+      - [nominative, Biografie, Biografien]
+      - [genitive,   Biografie, Biografien]
+      - [dative,     Biografie, Biografien]
+      - [accusative, Biografie, Biografien]
+  - term: die Biographie
+    definition: (alternative spelling of) die Biografie
+    declension:
+      - ["",         singular,   plural     ]
+      - [nominative, Biographie, Biographien]
+      - [genitive,   Biographie, Biographien]
+      - [dative,     Biographie, Biographien]
+      - [accusative, Biographie, Biographien]
+  - term: Lesen Sie gern ...?
+    definition: Do you like reading ...?
+  - term: das Radio
+    definition: the radio
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Radio,    Radios]
+      - [genitive,   Radios,   Radios]
+      - [dative,     Radio,    Radios]
+      - [accusative, Radio,    Radios]
   - term: die Umfrage
     definition: the survey
     declension:
@@ -2772,12 +2831,6 @@ vocabulary:
     definition: (adj.) infrequent
   - term: modern
     definition: (adj.) modern
-  - term: müssen
-    definition: to have to
-  - term: das Opfer
-    definition:
-      - the sacrifice
-      - the victim
 
 
 
@@ -2981,6 +3034,8 @@ vocabulary:
       - (adv.) however
       - (adv.) really
       - (adv.) just
+  - term: Wir sind vom ...
+    definition: We are from ...
   - term: das Nesthäkchen
     definition: the lastborn of a family's children
     declension:
@@ -3245,42 +3300,102 @@ vocabulary:
       - [genitive,   Einsatzes, Einsätze ]
       - [dative,     Einsatz,   Einsätzen]
       - [accusative, Einsatz,   Einsätze ]
-  - term: der Krimi
-    definition: the crime story
+  - term: der Vorschein
+    definition:
+      - the view
+      - the light
+    declension:
+      - ["",         singular,   plural]
+      - [nominative, Vorschein,  N/A   ]
+      - [genitive,   Vorscheins, N/A   ]
+      - [dative,     Vorschein,  N/A   ]
+      - [accusative, Vorschein,  N/A   ]
+  - term: zum Vorschein kommen
+    definition: to come to light
+  - term: Ich würde gern ...
+    definition: I would like to ...
+  - term: mitmachen
+    definition: to take part
+  - term: verlieren
+    definition: to lose
+  - term: eben
+    definition:
+      - (adj.) flat
+      - (adj.) even
+      - (adj.) smooth
+      - (adv.) just
+      - (adv.) simply
+  - term: das Land
+    definition:
+      - the country
+      - the land
+  - term: der Schwächling
+    definition: the weakling
+  - term: müssen
+    definition: to have to
+  - term: das Opfer
+    definition:
+      - the sacrifice
+      - the victim
+  - term: das Versteck
+    definition: the hiding place
+    declension:
+      - ["",         singular,                plural    ]
+      - [nominative, Versteck,                Verstecke ]
+      - [genitive,   "Versteckes, Verstecks", Verstecke ]
+      - [dative,     Versteck,                Verstecken]
+      - [accusative, Versteck,                Verstecke ]
+  - term: rauskommen
+    definition: to come out
+  - term: die Ausgangssperre
+    definition:
+      - the cuefew
+      - the lockdown
+    declension:
+      - ["",         singular,       plural         ]
+      - [nominative, Ausgangssperre, Ausgangssperren]
+      - [genitive,   Ausgangssperre, Ausgangssperren]
+      - [dative,     Ausgangssperre, Ausgangssperren]
+      - [accusative, Ausgangssperre, Ausgangssperren]
+  - term: halten
+    definition:
+      - to hold
+      - to stop
+      - to support
+  - term: das Lager
+    definition:
+      - the camp
+      - the warehouse
+  - term: gleich
+    definition: (adj.) equal
+  - term: das Gleiches
+    definition: (nominalization of) gleich
+  - term: das Recht
+    definition:
+      - the right
+      - the law
+    declension:
+      - ["",         singular,          plural ]
+      - [nominative, Recht,             Rechte ]
+      - [genitive,   "Rechtes, Rechts", Rechte ]
+      - [dative,     Recht,             Rechten]
+      - [accusative, Recht,             Rechte ]
+  - term: der Egoismus
+    definition: the egoism
     declension:
       - ["",         singular, plural]
-      - [nominative, Krimi, Krimis   ]
-      - [genitive,   Krimis, Krimis  ]
-      - [dative,     Krimi, Krimis   ]
-      - [accusative, Krimi, Krimis   ]
-  - term: die Biografie
-    definition: the biography
+      - [nominative, Egoismus, N/A   ]
+      - [genitive,   Egoismus, N/A   ]
+      - [dative,     Egoismus, N/A   ]
+      - [accusative, Egoismus, N/A   ]
+  - term: der Verrat
+    definition: the betrayal
     declension:
-      - ["",         singular,  plural    ]
-      - [nominative, Biografie, Biografien]
-      - [genitive,   Biografie, Biografien]
-      - [dative,     Biografie, Biografien]
-      - [accusative, Biografie, Biografien]
-  - term: die Biographie
-    definition: (alternative spelling of) die Biografie
-    declension:
-      - ["",         singular,   plural     ]
-      - [nominative, Biographie, Biographien]
-      - [genitive,   Biographie, Biographien]
-      - [dative,     Biographie, Biographien]
-      - [accusative, Biographie, Biographien]
-  - term: Lesen Sie gern ...?
-    definition: Do you like reading ...?
-  - term: Wir sind vom ...
-    definition: We are from ...
-  - term: das Radio
-    definition: the radio
-    declension:
-      - ["",         singular, plural]
-      - [nominative, Radio,    Radios]
-      - [genitive,   Radios,   Radios]
-      - [dative,     Radio,    Radios]
-      - [accusative, Radio,    Radios]
+      - ["",         singular,            plural]
+      - [nominative, Verrat,              N/A   ]
+      - [genitive,   "Verrats, Verrates", N/A   ]
+      - [dative,     Verrat,              N/A   ]
+      - [accusative, Verrat,              N/A   ]
 
 
 
@@ -3376,37 +3491,6 @@ vocabulary:
     definition: to affect
   - term: können
     definition: to be able to
-  - term: der Vorschein
-    definition:
-      - the view
-      - the light
-    declension:
-      - ["",         singular,   plural]
-      - [nominative, Vorschein,  N/A   ]
-      - [genitive,   Vorscheins, N/A   ]
-      - [dative,     Vorschein,  N/A   ]
-      - [accusative, Vorschein,  N/A   ]
-  - term: zum Vorschein kommen
-    definition: to come to light
-  - term: Ich würde gern ...
-    definition: I would like to ...
-  - term: mitmachen
-    definition: to take part
-  - term: verlieren
-    definition: to lose
-  - term: eben
-    definition:
-      - (adj.) flat
-      - (adj.) even
-      - (adj.) smooth
-      - (adv.) just
-      - (adv.) simply
-  - term: das Land
-    definition:
-      - the country
-      - the land
-  - term: der Schwächling
-    definition: the weakling
 
 
 
@@ -3562,3 +3646,27 @@ vocabulary:
     definition: to warm up
   - term: erwerben
     definition: to gain
+  - term: die Fähigkeit
+    definition: the ability
+    declension:
+      - ["",         singular,  plural     ]
+      - [nominative, Fähigkeit, Fähigkeiten]
+      - [genitive,   Fähigkeit, Fähigkeiten]
+      - [dative,     Fähigkeit, Fähigkeiten]
+      - [accusative, Fähigkeit, Fähigkeiten]
+  - term: die Vorstellung
+    definition:
+      - the idea
+      - the image
+      - the representation
+      - the introduction
+  - term: die Sinnlichkeit
+    definition: the sensuality
+    declension:
+      - ["",         singular,     plural        ]
+      - [nominative, Sinnlichkeit, Sinnlichkeiten]
+      - [genitive,   Sinnlichkeit, Sinnlichkeiten]
+      - [dative,     Sinnlichkeit, Sinnlichkeiten]
+      - [accusative, Sinnlichkeit, Sinnlichkeiten]
+  - term: vermitteln
+    definition: to mediate
