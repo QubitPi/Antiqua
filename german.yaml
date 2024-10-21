@@ -74,6 +74,16 @@ vocabulary:
       - [ genitive,   selbes,           selber,           selbes,           selber,               selben,               selben,               selben,               selben                    ]
       - [ dative,     selbem,           selber,           selbem,           selben,               selben,               selben,               selben,               selben                    ]
       - [ accusative, selben,           selbe,            selbes,           selbe ,               selben,               selbe,                selbe,                selben                    ]
+  - term: derjenige
+    definition:
+      - (pron.) he
+      - (pron.) the one
+    declension:
+      - ["",         masclune,   feminine,   neuter,     plural    ]
+      - [nominative, derjenige,  diejenige,  dasjenige,  diejenigen]
+      - [genitive,   desjenigen, derjenigen, desjenigen, derjenigen]
+      - [dative,     demjenigen, derjenigen, demjenigen, denjenigen]
+      - [accusative, denjenigen, diejenige,  dasjenige,  diejenigen]
   - term: kein
     definition: (pron.) not
     declension:
@@ -2831,6 +2841,50 @@ vocabulary:
     definition: (adj.) infrequent
   - term: modern
     definition: (adj.) modern
+  - term: die Stunde
+    definition: the hour
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Stunde,   Stunden]
+      - [genitive,   Stunde,   Stunden]
+      - [dative,     Stunde,   Stunden]
+      - [accusative, Stunde,   Stunden]
+  - term: die Uhr
+    definition: the hours
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Uhr,      Uhren ]
+      - [genitive,   Uhr,      Uhren ]
+      - [dative,     Uhr,      Uhren ]
+      - [accusative, Uhr,      Uhren ]
+  - term: Wie spät ist es?
+    definition: What's the time?
+  - term: Wie viel Uhr ist est?
+    definition: What's the time?
+  - term: zwei Uhr.
+    definition: (clock time) two o'clock
+  - term: zehn (Minuten) nach zwei
+    definition: (clock time) ten (minutes) past 2 o'clock
+  - term: kurz
+    definition: (adj.) short
+  - term: kurtz nach neun
+    definition: (clock time) just after nine.
+  - term: das Viertel
+    definition:
+      - the quarter
+      - the fourth
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Viertel,  Viertel ]
+      - [genitive,   Viertels, Viertel ]
+      - [dative,     Viertel,  Vierteln]
+      - [accusative, Viertel,  Viertel ]
+  - term: Viertel nach fünf.
+    definition: (clock time) a quarter past five.
+  - term: Viertel vor sieben
+    definition: (clock time) a quarter before eight
+  - term: halb zwei
+    definition: (clock time) half past two
 
 
 
@@ -3169,16 +3223,6 @@ vocabulary:
       - [accusative, Scherbe,  Scherben]
   - term: zerfallen
     definition: to disintegrate
-  - term: derjenige
-    definition:
-      - (pron.) he
-      - (pron.) the one
-    declension:
-      - ["",         masclune,   feminine,   neuter,     plural    ]
-      - [nominative, derjenige,  diejenige,  dasjenige,  diejenigen]
-      - [genitive,   desjenigen, derjenigen, desjenigen, derjenigen]
-      - [dative,     demjenigen, derjenigen, demjenigen, denjenigen]
-      - [accusative, denjenigen, diejenige,  dasjenige,  diejenigen]
   - term: beide
     definition:
       - (pron.) both
@@ -3697,3 +3741,42 @@ vocabulary:
       - the idea
       - the conception
       - the perception
+  - term: zuletzt
+    definition: (adv.) finally
+  - term: mithin
+    definition: (adv.) therefore
+  - term: bei
+    definition:
+      - (prep.) by
+      - (prep.) at
+  - term: weil
+    definition: (conj.) because
+  - term: die Wirkung
+    definition: the effect
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Wirkung,  Wirkungen]
+      - [genitive,   Wirkung,  Wirkungen]
+      - [dative,     Wirkung,  Wirkungen]
+      - [accusative, Wirkung,  Wirkungen]
+  - term: die Empfindung
+    definition:
+      - the sensation
+      - the feeling
+      - the emotion
+    declension:
+      - ["",         singular,   plural      ]
+      - [nominative, Empfindung, Empfindungen]
+      - [genitive,   Empfindung, Empfindungen]
+      - [dative,     Empfindung, Empfindungen]
+      - [accusative, Empfindung, Empfindungen]
+  - term: empirisch
+    definition: (adj.) empirical
+  - term: unbestimmt
+    definition:
+      - (adj.) undetermined
+      - (grammar) indefinite
+  - term: die Erscheinung
+    definition:
+      - the appearance
+      - the phenomenon
