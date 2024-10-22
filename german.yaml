@@ -2885,6 +2885,49 @@ vocabulary:
     definition: (clock time) a quarter before eight
   - term: halb zwei
     definition: (clock time) half past two
+  - term: siebzehn Uhr und fünfzehn Minuten
+    definition: (clock time) 17:15
+  - term: siebzehn Uhr fünfzehn
+    definition: (clock time) 17:15
+  - term: neun Uhr morgens
+    definition: (clock time) nine in the morning
+  - term: mittags
+    definition: (adv.) at midday
+  - term: ein Uhr mittags
+    definition: (clock time) one o'clock in the afternoon
+  - term: vier Uhr nachmittags
+    definition: (clock time) four o'clock in the afternoon
+  - term: sieben Uhr abends
+    definition: (clock time) seven o'clock in the evening
+  - term: ein Uhr nachts
+    definition: (clock time) one o'clock at night
+  - term: die Uhrzeit
+    definition: (clock) the time
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Uhrzeit,  Uhrzeiten]
+      - [genitive,   Uhrzeit,  Uhrzeiten]
+      - [dative,     Uhrzeit,  Uhrzeiten]
+      - [accusative, Uhrzeit,  Uhrzeiten]
+  - term: überprüfen
+    definition: to verify
+  - term: üben
+    definition: to practice
+  - term: warten
+    definition:
+      - (intransitive verb) to wait
+      - (transitive verb) to maintain (chiefly a machine, e.g. a car or heating)
+  - term: schon
+    definition:
+      - (adv.) already
+      - (adv.) previously
+  - term: los
+    definition:
+      - (interjection) come on!
+      - (interjection) let's go!
+      - (interjection) Go!
+  - term: Gern geschehen.
+    definition: (Thank you.) You're welcome.
 
 
 
@@ -3311,7 +3354,7 @@ vocabulary:
       - [accusative, Witz,     Witze ]
   - term: das Mal
     definition:
-      - (as in the first "time"; many "times") time
+      - (as in the first "time"; many "times") the time
       - occasion
     declension:
       - ["",         singular,      plural      ]
@@ -3668,10 +3711,10 @@ vocabulary:
       - [accusative, Weise,    Weisen]
   - term: die Zeit
     definition:
-      - time
-      - period
-      - era
-      - (grammar) tense
+      - the time
+      - the period
+      - the era
+      - (grammar) the tense
     declension:
       - ["",         singular, plural]
       - [nominative, Zeit,     Zeiten]
@@ -3780,3 +3823,8 @@ vocabulary:
     definition:
       - the appearance
       - the phenomenon
+  - term: nennen
+    definition:
+      - to name
+      - to mention
+      - to say
