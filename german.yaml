@@ -1575,6 +1575,8 @@ vocabulary:
     definition: at the moment
   - term: Einen Moment, bitte.
     definition: One moment, please.
+  - term: zusammen
+    definition: (adv.) together
   - term: zusammenhalten
     definition: to hold together
   - term: Das macht zusammen ...
@@ -2044,6 +2046,8 @@ vocabulary:
     definition: (adv.) straight ahead
   - term: gehen Sie geradeaus
     definition: (direction) go straight ahead
+  - term: dann
+    definition: (adv.) then
   - term: gehen Sie geradeaus und dann links in ...straße
     definition: (direction) go straight ahead and then turn left in ...(street)
   - term: Nehmen Sie die erste Straße rechts
@@ -2482,6 +2486,8 @@ vocabulary:
       - [genitive,   Fernsehens, N/A   ]
       - [dative,     Fernsehen,  N/A   ]
       - [accusative, Fernsehen,  N/A   ]
+  - term: fernsehen
+    definition: to watch TV
   - term: das Wandern
     definition: (gerund of) wandern
     declension:
@@ -2928,6 +2934,94 @@ vocabulary:
       - (interjection) Go!
   - term: Gern geschehen.
     definition: (Thank you.) You're welcome.
+  - term: aufstehen
+    definition: to get up
+  - term: anfangen
+    definition: to begin
+  - term: anrufen
+    definition: to call
+  - term: danach
+    definition: (adv.) afterwards
+  - term: der Feierabend
+    definition: the workday's end
+    declension:
+      - ["",         singular,    plural      ]
+      - [nominative, Feierabend,  Feierabende ]
+      - [genitive,   Feierabends, Feierabende ]
+      - [dative,     Feierabend,  Feierabenden]
+      - [accusative, Feierabend,  Feierabende ]
+  - term: Feierabend haben
+    definition: call it a day (hat sie Feierabend, she finishes work)
+  - term: einkaufen
+    definition:
+      - (intransitive) to shop
+      - (transitive) to buy
+      - (transitive) to purchase
+  - term: abholen
+    definition:
+      - to collect
+      - to pick up
+      - to fetch
+  - term: duschen
+    definition: to take shower
+  - term: frühstücken
+    definition: to have breakfast
+  - term: das Büro
+    definition: the office
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Büro,     Büros ]
+      - [genitive,   Büros,    Büros ]
+      - [dative,     Büro,     Büros ]
+      - [accusative, Büro,     Büros ]
+  - term: der Kunde
+    definition: (male) the customer
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Kunde,    Kunden]
+      - [genitive,   Kunden,   Kunden]
+      - [dative,     Kunden,   Kunden]
+      - [accusative, Kunden,   Kunden]
+  - term: die Kundin
+    definition: (female) the customer
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Kundin,   Kundinnen]
+      - [genitive,   Kundin,   Kundinnen]
+      - [dative,     Kundin,   Kundinnen]
+      - [accusative, Kundin,   Kundinnen]
+  - term: der Brief
+    definition: the letter
+    declension:
+      - ["",         singular,          plural ]
+      - [nominative, Brief,             Briefe ]
+      - [genitive,   "Briefes, Briefs", Briefe ]
+      - [dative,     Brief,             Briefen]
+      - [accusative, Brief,             Briefe ]
+  - term: die Mittagspause
+    definition: the lunchbreak
+    declension:
+      - ["",         singular,     plural       ]
+      - [nominative, Mittagspause, Mittagspausen]
+      - [genitive,   Mittagspause, Mittagspausen]
+      - [dative,     Mittagspause, Mittagspausen]
+      - [accusative, Mittagspause, Mittagspausen]
+  - term: Nachrichten
+    definition: news
+    declension:
+      - ["",         singular, plural     ]
+      - [nominative, N/A,      Nachrichten]
+      - [genitive,   N/A,      Nachrichten]
+      - [dative,     N/A,      Nachrichten]
+      - [accusative, N/A,      Nachrichten]
+  - term: das Bett
+    definition: the bed
+    declension:
+      - ["",         singular,        plural]
+      - [nominative, Bett,            Betten]
+      - [genitive,   "Bettes, Betts", Betten]
+      - [dative,     Bett,            Betten]
+      - [accusative, Bett,            Betten]
 
 
 
@@ -3483,6 +3577,28 @@ vocabulary:
       - [genitive,   "Verrats, Verrates", N/A   ]
       - [dative,     Verrat,              N/A   ]
       - [accusative, Verrat,              N/A   ]
+  - term: spätestens
+    definition: (adv.) at the latest, no later than
+  - term: Weihnachten
+    definition: Christmas
+    declension:
+      - ["",         singular, plural     ]
+      - [nominative, N/A,      Weihnachten]
+      - [genitive,   N/A,      Weihnachten]
+      - [dative,     N/A,      Weihnachten]
+      - [accusative, N/A,      Weihnachten]
+  - term: vorbei
+    definition: (adj.) over
+  - term: lassen
+    definition: to allow
+  - term: schwören
+    definition: to swear
+  - term: der Raum
+    definition:
+      - the room
+      - (Physics) the space
+  - term: leben
+    definition: to be alive
 
 
 
