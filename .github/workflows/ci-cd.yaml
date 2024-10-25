@@ -131,7 +131,12 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Startup a Neo4J database
-        run: docker run --publish=7474:7474 --publish=7687:7687 --env=NEO4J_AUTH=none --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes neo4j:${{ env.NEO4J_ENTERPRISE_VERSION }} &
+        run: |
+          docker run \
+              --publish=7474:7474 \
+              --publish=7687:7687 \
+              --env=NEO4J_AUTH=none \
+              --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes neo4j:${{ env.NEO4J_ENTERPRISE_VERSION }} &
       - name: Wait for database to be ready
         uses: iFaxity/wait-on-action@v1
         with:
@@ -159,7 +164,14 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Startup a Neo4J database
-        run: docker run --publish=7474:7474 --publish=7687:7687 --env=NEO4J_AUTH=none --name data-loader --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes neo4j:${{ env.NEO4J_ENTERPRISE_VERSION }} &
+        run: |
+          docker run \
+              --publish=7474:7474 \
+              --publish=7687:7687 \
+              --env=NEO4J_AUTH=none \
+              --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes \
+              --name data-loader \
+              neo4j:${{ env.NEO4J_ENTERPRISE_VERSION }} &
       - name: Wait for database to be ready
         uses: iFaxity/wait-on-action@v1
         with:
@@ -186,7 +198,7 @@ jobs:
         if: github.ref == 'refs/heads/master'
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          username: jack20191124
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Push image to DockerHub
         if: github.ref == 'refs/heads/master'
@@ -194,14 +206,14 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/wilhelm-vocabulary:latest
+          tags: jack20191124/wilhelm-vocabulary:latest
       - name: Push image Description
         if: github.ref == 'refs/heads/master'
         uses: peter-evans/dockerhub-description@v4
         with:
           username: jack20191124
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          repository: ${{ secrets.DOCKERHUB_USERNAME }}/wilhelm-vocabulary
+          repository: jack20191124/wilhelm-vocabulary
           readme-filepath: README.md
 
   cleanup-neo4j:

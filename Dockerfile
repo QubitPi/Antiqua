@@ -11,10 +11,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-FROM neo4j:5.23.0-enterprise
+FROM neo4j:5.24-enterprise
 
 LABEL maintainer="Jiaqi (Jack) Liu"
 LABEL maintainer-email="jack20220723@gmail.com"
 
-RUN rm -rf /var/lib/neo4j/data
-COPY data/ /var/lib/neo4j/data
+COPY data/ /data
