@@ -1617,6 +1617,14 @@ vocabulary:
       - [genitive,   Stadtzentrums, Stadtzentren]
       - [dative,     Stadtzentrum,  Stadtzentren]
       - [accusative, Stadtzentrum,  Stadtzentren]
+  - term: die Schule
+    definition: the school
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Schule,   Schulen]
+      - [genitive,   Schule,   Schulen]
+      - [dative,     Schule,   Schulen]
+      - [accusative, Schule,   Schulen]
   - term: die Sprachschule
     definition: language school
     declension:
@@ -2341,6 +2349,14 @@ vocabulary:
       - (gymnasium) to work out
   - term: fotografieren
     definition: to take photos
+  - term: das Foto
+    definition: the photograph
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Foto,     Fotos ]
+      - [genitive,   Fotos,    Fotos ]
+      - [dative,     Foto,     Fotos ]
+      - [accusative, Foto,     Fotos ]
   - term: die Fotografie
     definition:
       - (uncountable) the photography
@@ -2952,6 +2968,10 @@ vocabulary:
       - [accusative, Feierabend,  Feierabende ]
   - term: Feierabend haben
     definition: call it a day (hat sie Feierabend, she finishes work)
+  - term: Wann hast du Feierabend?
+    definition: When do finish work?
+  - term: Ich habe um vier Uhr Feierabend.
+    definition: I finish work at four o'clock.
   - term: einkaufen
     definition:
       - (intransitive) to shop
@@ -3599,6 +3619,18 @@ vocabulary:
       - (Physics) the space
   - term: leben
     definition: to be alive
+  - term: stellen
+    definition: to put
+  - term: hinten
+    definition: (adv.) behind
+  - term: das Regal
+    definition: the shelf
+    declension:
+      - ["",         singular,          plural ]
+      - [nominative, Regal,             Regale ]
+      - [genitive,   "Regales, Regals", Regale ]
+      - [dative,     Regal,             Regalen]
+      - [accusative, Regal,             Regale ]
 
 
 
