@@ -3631,6 +3631,32 @@ vocabulary:
       - [genitive,   "Regales, Regals", Regale ]
       - [dative,     Regal,             Regalen]
       - [accusative, Regal,             Regale ]
+  - term: nehmen
+    definition: to take
+  - term: der Stuhl
+    definition: the chair
+    declension:
+      - ["",         singular,          plural ]
+      - [nominative, Stuhl,             Stühle ]
+      - [genitive,   "Stuhles, Stuhls", Stühle ]
+      - [dative,     Stuhl,             Stühlen]
+      - [accusative, Stuhl,             Stühle ]
+  - term: der Hocker
+    definition: the stool
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Hocker,   Hocker ]
+      - [genitive,   Hockers,  Hocker ]
+      - [dative,     Hocker,   Hockern]
+      - [accusative, Hocker,   Hocker ]
+  - term: irgendwas
+    definition: (pron.) anything
+  - term: irgendetwas
+    definition: (pron.) anything
+  - term: vorne
+    definition:
+      - (adv.) in front
+      - (adv.) ahead
 
 
 
