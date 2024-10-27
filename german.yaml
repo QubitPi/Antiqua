@@ -591,7 +591,12 @@ vocabulary:
   - term: schön
     definition: beautiful, nice, pretty, handsome
   - term: liegen
-    definition: to lie, be located
+    definition:
+      - to lie
+      - to be located
+      - to stand
+      - because of
+      - due to
   - term: die Frage
     definition: the question
     declension:
@@ -1591,6 +1596,10 @@ vocabulary:
     definition: Do you like eating meat?
   - term: besonders
     definition: especially
+  - term: bald
+    definition:
+      - (adv.) soon
+      - (adv.) almost
   - term: bis bald
     definition: see you soon
   - term: die Stadt
@@ -3326,6 +3335,14 @@ vocabulary:
       - [genitive,   Unteroffiziers, Unteroffiziere ]
       - [dative,     Unteroffizier,  Unteroffizieren]
       - [accusative, Unteroffizier,  Unteroffiziere ]
+  - term: die Welt
+    definition: the world
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Welt,     Welten]
+      - [genitive,   Welt,     Welten]
+      - [dative,     Welt,     Welten]
+      - [accusative, Welt,     Welten]
   - term: der Weltkrieg
     definition: the world war
     declension:
@@ -3657,6 +3674,27 @@ vocabulary:
     definition:
       - (adv.) in front
       - (adv.) ahead
+  - term: die Zukunft
+    definition: the future
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Zukunft,  Zukünfte ]
+      - [genitive,   Zukunft,  Zukünfte ]
+      - [dative,     Zukunft,  Zukünften]
+      - [accusative, Zukunft,  Zukünfte ]
+  - term: gehören
+    definition:
+      - to belong to
+      - to be a prerequisite for
+      - to be a characteristic of
+  - term: zugreifen
+    definition:
+      - to grab
+      - to help oneself
+  - term: unsterblich
+    definition: (adj.) immortal
+  - term: besser
+    definition: (adj.) better
 
 
 
