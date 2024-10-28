@@ -1785,6 +1785,14 @@ vocabulary:
       - [accusative, Automechaniker, Automechaniker ]
   - term: die Automechanikerin
     definition: (female) car mechanic
+  - term: die Autowerkstatt
+    definition: the car repair shop
+    declension:
+      - ["",         singular,      plural         ]
+      - [nominative, Autowerkstatt, Autowerkstätten]
+      - [genitive,   Autowerkstatt, Autowerkstätten]
+      - [dative,     Autowerkstatt, Autowerkstätten]
+      - [accusative, Autowerkstatt, Autowerkstätten]
   - term: der Journalist
     definition: journalist
     declension:
@@ -2149,10 +2157,6 @@ vocabulary:
       - [genitive,   "Dinges, Dings", Dinge, Dinger    ]
       - [dative,     Ding,            "Dingen, Dingern"]
       - [accusative, Ding,            Dinge, Dinger    ]
-  - term: kaufen
-    definition: to buy
-  - term: Hier kann man viel kaufen.
-    definition: People can buy a lot here.
   - term: das Beispiel
     definition: the example
     declension:
@@ -2920,6 +2924,10 @@ vocabulary:
     definition: (clock time) 17:15
   - term: siebzehn Uhr fünfzehn
     definition: (clock time) 17:15
+  - term: morgens
+    definition:
+      - (adv.) in the morning
+      - (adv.) a.m.
   - term: neun Uhr morgens
     definition: (clock time) nine in the morning
   - term: mittags
@@ -2981,6 +2989,10 @@ vocabulary:
     definition: When do finish work?
   - term: Ich habe um vier Uhr Feierabend.
     definition: I finish work at four o'clock.
+  - term: kaufen
+    definition: to buy
+  - term: Hier kann man viel kaufen.
+    definition: People can buy a lot here.
   - term: einkaufen
     definition:
       - (intransitive) to shop
@@ -2993,6 +3005,16 @@ vocabulary:
       - to fetch
   - term: duschen
     definition: to take shower
+  - term: früh
+    definition: (adj.) early
+  - term: das Frühstück
+    definition: the breakfast
+    declension:
+      - ["",         singular,                  plural     ]
+      - [nominative, Frühstück,                 Frühstücke ]
+      - [genitive,   "Frühstücks, Frühstückes", Frühstücke ]
+      - [dative,     Frühstück,                 Frühstücken]
+      - [accusative, Frühstück,                 Frühstücke ]
   - term: frühstücken
     definition: to have breakfast
   - term: das Büro
@@ -3051,6 +3073,18 @@ vocabulary:
       - [genitive,   "Bettes, Betts", Betten]
       - [dative,     Bett,            Betten]
       - [accusative, Bett,            Betten]
+  - term: typisch
+    definition: (adj.) typical
+  - term: aussehen
+    definition:
+      - to look
+      - to look like
+      - to appear
+  - term: gegen
+    definition:
+      - (prep.) approximately
+      - (prep.) against
+      - (prep.) toward
 
 
 
