@@ -80,7 +80,7 @@ We have offered some queries that can be used to quickly explore our language da
 
   ```cypher
   MATCH (term:Term{name:'nämlich'})
-  CALL apoc.path.expand(term, "RELATED|DEFINITION", null, 1, -1)
+  CALL apoc.path.expand(term, "LINK", null, 1, -1)
   YIELD path
   RETURN path, length(path) AS hops
   ORDER BY hops;
@@ -92,7 +92,7 @@ We have offered some queries that can be used to quickly explore our language da
 
   ```cypher
   MATCH (term:Term{name:'die Reise'})
-  CALL apoc.path.expand(term, "RELATED|DEFINITION", null, 1, -1)
+  CALL apoc.path.expand(term, "LINK", null, 1, -1)
   YIELD path
   RETURN path, length(path) AS hops
   ORDER BY hops;
