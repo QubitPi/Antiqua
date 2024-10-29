@@ -584,6 +584,14 @@ vocabulary:
       - yet
   - term: nicht ... sondern
     definition: not... but...
+  - term: die Arbeit
+    definition: the job
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Arbeit,   Arbeiten]
+      - [genitive,   Arbeit,   Arbeiten]
+      - [dative,     Arbeit,   Arbeiten]
+      - [accusative, Arbeit,   Arbeiten]
   - term: arbeiten
     definition: to work
   - term: arbeiten bei ...
@@ -675,6 +683,16 @@ vocabulary:
     definition: What telephone number do you have?
   - term: Wie ist Ihre Faxnummer?
     definition: What is your fax number?
+  - term: das Haus
+    definition:
+      - the house
+      - the home
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Haus,     Häuser ]
+      - [genitive,   Hauses,   Häuser ]
+      - [dative,     Haus,     Häusern]
+      - [accusative, Haus,     Häuser ]
   - term: Wie ist Ihre Hausnummer oder Ihre Zimmernummer?
     definition: What is your house number or your room number?
   - term: kein
@@ -2969,6 +2987,8 @@ vocabulary:
     definition: (Thank you.) You're welcome.
   - term: aufstehen
     definition: to get up
+  - term: fangen
+    definition: to catch
   - term: anfangen
     definition: to begin
   - term: anrufen
@@ -3049,6 +3069,14 @@ vocabulary:
       - [genitive,   "Briefes, Briefs", Briefe ]
       - [dative,     Brief,             Briefen]
       - [accusative, Brief,             Briefe ]
+  - term: die Pause
+    definition: the break
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Pause,    Pausen]
+      - [genitive,   Pause,    Pausen]
+      - [dative,     Pause,    Pausen]
+      - [accusative, Pause,    Pausen]
   - term: die Mittagspause
     definition: the lunchbreak
     declension:
@@ -3085,6 +3113,14 @@ vocabulary:
       - (prep.) approximately
       - (prep.) against
       - (prep.) toward
+  - term: lange
+    definition:
+      - (adv.) long
+      - (adv.) for a long time
+  - term: Wie lange
+    definition: how long
+  - term: bis
+    definition: (prep.) until
 
 
 
@@ -3385,8 +3421,6 @@ vocabulary:
       - [genitive,   "Weltkrieges, Weltkriegs", Weltkriege ]
       - [dative,     Weltkrieg,                 Weltkriegen]
       - [accusative, Weltkrieg,                 Weltkriege ]
-  - term: spät
-    definition: (adj.) late
   - term: angesehen
     definition: (adj.) respected
   - term: der Schneider
@@ -3648,6 +3682,8 @@ vocabulary:
       - [genitive,   "Verrats, Verrates", N/A   ]
       - [dative,     Verrat,              N/A   ]
       - [accusative, Verrat,              N/A   ]
+  - term: spät
+    definition: (adj.) late
   - term: spätestens
     definition: (adv.) at the latest, no later than
   - term: Weihnachten
@@ -4074,3 +4110,27 @@ vocabulary:
       - to name
       - to mention
       - to say
+  - term: die Materie
+    definition: the matter
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Materie,  Materien]
+      - [genitive,   Materie,  Materien]
+      - [dative,     Materie,  Materien]
+      - [accusative, Materie,  Materien]
+  - term: mannigfaltig
+    definition: (adj.) diverse
+  - term: das Verhältnis
+    definition: the relation
+  - term: ordnen
+    definition: to arrange
+  - term: die Form
+    definition:
+      - the shape
+      - the form
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Form,     Formen]
+      - [genitive,   Form,     Formen]
+      - [dative,     Form,     Formen]
+      - [accusative, Form,     Formen]
