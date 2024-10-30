@@ -92,6 +92,8 @@ vocabulary:
       - [genitive,   keines,   keiner,   keines, keiner]
       - [dative,     keinem,   keiner,   keinem, keinen]
       - [accusative, keinen,   keine,    kein,   keine ]
+  - term: dass
+    definition: (subordinating conj.) that
   - term: "null"
     definition: 0
   - term: eins
@@ -3121,6 +3123,38 @@ vocabulary:
     definition: how long
   - term: bis
     definition: (prep.) until
+  - term: die Schwiegermutter
+    definition: mother-in-law
+    declension:
+      - ["",         singular,        plural          ]
+      - [nominative, Schwiegermutter, Schwiegermütter ]
+      - [genitive,   Schwiegermutter, Schwiegermütter ]
+      - [dative,     Schwiegermutter, Schwiegermüttern]
+      - [accusative, Schwiegermutter, Schwiegermütter ]
+  - term: die Babysitterin
+    definition: (female) babysitter
+    declension:
+      - ["",         singular,     plural         ]
+      - [nominative, Babysitterin, Babysitterinnen]
+      - [genitive,   Babysitterin, Babysitterinnen]
+      - [dative,     Babysitterin, Babysitterinnen]
+      - [accusative, Babysitterin, Babysitterinnen]
+  - term: der Babysitter
+    definition: (male) babysitter
+    declension:
+      - ["",         singular,    plural     ]
+      - [nominative, Babysitter,  Babysitter ]
+      - [genitive,   Babysitters, Babysitter ]
+      - [dative,     Babysitter,  Babysittern]
+      - [accusative, Babysitter,  Babysitter ]
+  - term: aufpassen
+    definition:
+      - to watch out
+      - to look after
+  - term: besuchen
+    definition:
+      - to visit
+      - to attend
 
 
 
