@@ -2749,6 +2749,62 @@ vocabulary:
       - [genitive,   Wochenendes, Wochenenden]
       - [dative,     Wochenende,  Wochenenden]
       - [accusative, Wochenende,  Wochenenden]
+  - term: der Montag
+    definition: the Monday
+    declension:
+      - ["",         singular,            plural  ]
+      - [nominative, Montag,              Montage ]
+      - [genitive,   "Montages, Montags", Montage ]
+      - [dative,     Montag,              Montagen]
+      - [accusative, Montag,              Montage ]
+  - term: der Dienstag
+    definition: the Tuesday
+    declension:
+      - ["",         singular,                plural    ]
+      - [nominative, Dienstag,                Dienstage ]
+      - [genitive,   "Dienstages, Dienstags", Dienstage ]
+      - [dative,     Dienstag,                Dienstagen]
+      - [accusative, Dienstag,                Dienstage ]
+  - term: der Mittwoch
+    definition: the Wednesday
+    declension:
+      - ["",         singular,  plural    ]
+      - [nominative, Mittwoch,  Mittwoche ]
+      - [genitive,   Mittwochs, Mittwoche ]
+      - [dative,     Mittwoch,  Mittwochen]
+      - [accusative, Mittwoch,  Mittwoche ]
+  - term: der Donnerstag
+    definition: the Thursday
+    declension:
+      - ["",         singular,                    plural      ]
+      - [nominative, Donnerstag,                  Donnerstage ]
+      - [genitive,   "Donnerstages, Donnerstags", Donnerstage ]
+      - [dative,     Donnerstag,                  Donnerstagen]
+      - [accusative, Donnerstag,                  Donnerstage ]
+  - term: der Freitag
+    definition: the Friday
+    declension:
+      - ["",         singular,              plural   ]
+      - [nominative, Freitag,               Freitage ]
+      - [genitive,   "Freitages, Freitags", Freitage ]
+      - [dative,     Freitag,               Freitagen]
+      - [accusative, Freitag,               Freitage ]
+  - term: der Sonnabend
+    definition: the Saturday
+    declension:
+      - ["",         singular,                  plural     ]
+      - [nominative, Sonnabend,                 Sonnabende ]
+      - [genitive,   "Sonnabends, Sonnabendes", Sonnabende ]
+      - [dative,     Sonnabend,                 Sonnabenden]
+      - [accusative, Sonnabend,                 Sonnabende ]
+  - term: der Sonntag
+    definition: the Sunday
+    declension:
+      - ["",         singular,              plural   ]
+      - [nominative, Sonntag,               Sonntage ]
+      - [genitive,   "Sonntages, Sonntags", Sonntage ]
+      - [dative,     Sonntag,               Sonntagen]
+      - [accusative, Sonntag,               Sonntage ]
   - term: der Monat
     definition: the month
     declension:
@@ -3155,6 +3211,32 @@ vocabulary:
     definition:
       - to visit
       - to attend
+  - term: der Höhepunkt
+    definition: the highlight
+    declension:
+      - ["",         singular,                  plural     ]
+      - [nominative, Höhepunkt,                 Höhepunkte ]
+      - [genitive,   "Höhepunktes, Höhepunkts", Höhepunkte ]
+      - [dative,     Höhepunkt,                 Höhepunkten]
+      - [accusative, Höhepunkt,                 Höhepunkte ]
+  - term: die Stadtführung
+    definition: the guided city tour
+  - term: der Treffpunkt
+    definition: the meeting point
+    declension:
+      - ["",         singular,                   plural      ]
+      - [nominative, Treffpunkt,                 Treffpunkte ]
+      - [genitive,   "Treffpunktes/Treffpunkts", Treffpunkte ]
+      - [dative,     Treffpunkt,                 Treffpunkten]
+      - [accusative, Treffpunkt,                 Treffpunkte ]
+  - term: das Abenteuer
+    definition: the adventure
+    declension:
+      - ["",         singular,   plural    ]
+      - [nominative, Abenteuer,  Abenteuer ]
+      - [genitive,   Abenteuers, Abenteuer ]
+      - [dative,     Abenteuer,  Abenteuern]
+      - [accusative, Abenteuer,  Abenteuer ]
 
 
 
