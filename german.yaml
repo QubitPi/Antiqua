@@ -774,6 +774,22 @@ vocabulary:
       - [genitive,   "Bahnhofs, Bahnhofes", Bahnhöfe ]
       - [dative,     Bahnhof,               Bahnhöfen]
       - [accusative, Bahnhof,               Bahnhöfe ]
+  - term: das Haupt
+    definition: the head
+    declension:
+      - ["",         singular,          plural  ]
+      - [nominative, Haupt,             Häupter ]
+      - [genitive,   "Hauptes, Haupts", Häupter ]
+      - [dative,     Haupt,             Häuptern]
+      - [accusative, Haupt,             Häupter ]
+  - term: der Hauptbahnhof
+    definition: the central train station
+    declension:
+      - ["",         singular,                        plural        ]
+      - [nominative, Hauptbahnhof,                    Hauptbahnhöfe ]
+      - [genitive,   "Hauptbahnhofes, Hauptbahnhofs", Hauptbahnhöfe ]
+      - [dative,     Hauptbahnhof,                    Hauptbahnhöfen]
+      - [accusative, Hauptbahnhof,                    Hauptbahnhöfe ]
   - term: der Markt
     definition: market
     declension:
@@ -1231,6 +1247,14 @@ vocabulary:
       - [genitive,   Nudel,    Nudeln]
       - [dative,     Nudel,    Nudeln]
       - [accusative, Nudel,    Nudeln]
+  - term: die Bratwurst
+    definition: the sausage
+    declension:
+      - ["",         singular,  plural     ]
+      - [nominative, Bratwurst, Bratwürste ]
+      - [genitive,   Bratwurst, Bratwürste ]
+      - [dative,     Bratwurst, Bratwürsten]
+      - [accusative, Bratwurst, Bratwürste ]
   - term: die Pizza
     definition: the pizza
     declension:
@@ -1646,6 +1670,16 @@ vocabulary:
       - [genitive,   Stadtzentrums, Stadtzentren]
       - [dative,     Stadtzentrum,  Stadtzentren]
       - [accusative, Stadtzentrum,  Stadtzentren]
+  - term: die Altstadt
+    definition: the historic city center
+    declension:
+      - ["",         singular, plural    ]
+      - [nominative, Altstadt, Altstädte ]
+      - [genitive,   Altstadt, Altstädte ]
+      - [dative,     Altstadt, Altstädten]
+      - [accusative, Altstadt, Altstädte ]
+  - term: die Stadtführung
+    definition: the guided city tour
   - term: die Schule
     definition: the school
     declension:
@@ -1707,6 +1741,14 @@ vocabulary:
       - [genitive,   Informatik, N/A   ]
       - [dative,     Informatik, N/A   ]
       - [accusative, Informatik, N/A   ]
+  - term: die Information
+    definition: the information
+    declension:
+      - ["",         singular,    plural       ]
+      - [nominative, Information, Informationen]
+      - [genitive,   Information, Informationen]
+      - [dative,     Information, Informationen]
+      - [accusative, Information, Informationen]
   - term: die Anglistik
     definition: the English studies
     declension:
@@ -1739,6 +1781,8 @@ vocabulary:
       - [genitive,   Geschichte, Geschichten]
       - [dative,     Geschichte, Geschichten]
       - [accusative, Geschichte, Geschichten]
+  - term: historisch
+    definition: (adj.) historical
   - term: die Mathematik
     definition: the Mathematics
     declension:
@@ -3219,8 +3263,6 @@ vocabulary:
       - [genitive,   "Höhepunktes, Höhepunkts", Höhepunkte ]
       - [dative,     Höhepunkt,                 Höhepunkten]
       - [accusative, Höhepunkt,                 Höhepunkte ]
-  - term: die Stadtführung
-    definition: the guided city tour
   - term: der Treffpunkt
     definition: the meeting point
     declension:
@@ -3237,6 +3279,70 @@ vocabulary:
       - [genitive,   Abenteuers, Abenteuer ]
       - [dative,     Abenteuer,  Abenteuern]
       - [accusative, Abenteuer,  Abenteuer ]
+  - term: der Tourist
+    definition: the tourist
+    declension:
+      - ["",         singular,  plural   ]
+      - [nominative, Tourist,   Touristen]
+      - [genitive,   Touristen, Touristen]
+      - [dative,     Touristen, Touristen]
+      - [accusative, Touristen, Touristen]
+  - term: vergessen
+    definition: to forget
+  - term: vergessen Sie ... nicht
+    definition: please don't forget ...(accusative)
+  - term: der Regenschirm
+    definition: the unbrella
+    declension:
+      - ["",         singular,                      plural       ]
+      - [nominative, Regenschirm,                   Regenschirme ]
+      - [genitive,   "Regenschirmes, Regenschirms", Regenschirme ]
+      - [dative,     Regenschirm,                   Regenschirmen]
+      - [accusative, Regenschirm,                   Regenschirme ]
+  - term: das Konzert
+    definition: the concert
+    declension:
+      - ["",         singular,              plural   ]
+      - [nominative, Konzert,               Konzerte ]
+      - [genitive,   "Konzertes, Konzerts", Konzerte ]
+      - [dative,     Konzert,               Konzerten]
+      - [accusative, Konzert,               Konzerte ]
+  - term: der Funk
+    definition: (technology) the radio
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Funk,     N/A   ]
+      - [genitive,   Funks,    N/A   ]
+      - [dative,     Funk,     N/A   ]
+      - [accusative, Funk,     N/A   ]
+  - term: anschließen
+    definition: to connect
+  - term: das Fahrrad
+    definition: the bicycle
+    declension:
+      - ["",         singular,              plural    ]
+      - [nominative, Fahrrad,               Fahrräder ]
+      - [genitive,   "Fahrrads, Fahrrades", Fahrräder ]
+      - [dative,     Fahrrad,               Fahrrädern]
+      - [accusative, Fahrrad,               Fahrräder ]
+  - term: das Brauhaus
+    definition: brewhouse
+    declension:
+      - ["",         singular,   plural     ]
+      - [nominative, Brauhaus,   Brauhäuser ]
+      - [genitive,   Brauhauses, Brauhäuser ]
+      - [dative,     Brauhaus,   Brauhäusern]
+      - [accusative, Brauhaus,   Brauhäuser ]
+  - term: der Muskel
+    definition: the muscle
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Muskel,   Muskeln]
+      - [genitive,   Muskels,  Muskeln]
+      - [dative,     Muskel,   Muskeln]
+      - [accusative, Muskel,   Muskeln]
+  - term: retten
+    definition: (rescue) to save
 
 
 
@@ -3414,6 +3520,10 @@ vocabulary:
       - [ accusative, Viertel,  Viertel ]
   - term: aufwachsen
     definition: to grow up
+  - term: der Erwachsener
+    definition: (male) the adult
+  - term: die Erwachsene
+    definition: (female) the adult
   - term: das Kind
     definition: the child
     declension:
@@ -3996,7 +4106,15 @@ vocabulary:
   - term: die Lehre
     definition: theory, doctrine
   - term: erste
-    definition: first
+    definition: (adj.) first
+  - term: die Faust
+    definition: the first
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Faust,    Fäuste ]
+      - [genitive,   Faust,    Fäuste ]
+      - [dative,     Faust,    Fäusten]
+      - [accusative, Faust,    Fäuste ]
   - term: der Teil
     definition: part, portion
     declension:
