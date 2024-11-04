@@ -2967,6 +2967,14 @@ vocabulary:
       - [genitive,   Theaters, Theater ]
       - [dative,     Theater,  Theatern]
       - [accusative, Theater,  Theater ]
+  - term: das Theaterstück
+    definition: (theater) the drama
+    declension:
+      - ["",         singular,                        plural        ]
+      - [nominative, Theaterstück,                    Theaterstücke ]
+      - [genitive,   "Theaterstückes, Theaterstücks", Theaterstücke ]
+      - [dative,     Theaterstück,                    Theaterstücken]
+      - [accusative, Theaterstück,                    Theaterstücke ]
   - term: nie mehr
     definition: never again
   - term: groß
@@ -3343,6 +3351,14 @@ vocabulary:
       - [accusative, Muskel,   Muskeln]
   - term: retten
     definition: (rescue) to save
+  - term: der Flughafen
+    definition: the airport
+    declension:
+      - ["",         singular,   plural   ]
+      - [nominative, Flughafen,  Flughäfen]
+      - [genitive,   Flughafens, Flughäfen]
+      - [dative,     Flughafen,  Flughäfen]
+      - [accusative, Flughafen,  Flughäfen]
 
 
 
