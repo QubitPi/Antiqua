@@ -92,6 +92,11 @@ vocabulary:
       - [genitive,   keines,   keiner,   keines, keiner]
       - [dative,     keinem,   keiner,   keinem, keinen]
       - [accusative, keinen,   keine,    kein,   keine ]
+  - term: man
+    definition:
+      - (pron.) one
+      - (pron.) you
+      - (pron.) they
   - term: dass
     definition: (subordinating conj.) that
   - term: "null"
@@ -3325,6 +3330,10 @@ vocabulary:
       - [accusative, Funk,     N/A   ]
   - term: anschließen
     definition: to connect
+  - term: anschließend
+    definition:
+      - (adj.) following
+      - (adv.) afterwards
   - term: das Fahrrad
     definition: the bicycle
     declension:
