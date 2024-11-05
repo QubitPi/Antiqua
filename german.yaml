@@ -3368,6 +3368,27 @@ vocabulary:
       - [genitive,   Flughafens, Flughäfen]
       - [dative,     Flughafen,  Flughäfen]
       - [accusative, Flughafen,  Flughäfen]
+  - term: das Spiel
+    definition: the game
+    declension:
+      - ["",         singular,          plural ]
+      - [nominative, Spiel,             Spiele ]
+      - [genitive,   "Spieles, Spiels", Spiele ]
+      - [dative,     Spiel,             Spielen]
+      - [accusative, Spiel,             Spiele ]
+  - term: die Lust
+    definition: the desire
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Lust,     Lüste ]
+      - [genitive,   Lust,     Lüste ]
+      - [dative,     Lust,     Lüsten]
+      - [accusative, Lust,     Lüste ]
+  - term: vorstoßen
+    definition:
+      - to advance
+      - to push forward
+      - to attach
 
 
 
@@ -4014,6 +4035,30 @@ vocabulary:
     definition: (adj.) immortal
   - term: besser
     definition: (adj.) better
+  - term: zuvor
+    definition:
+      - (adv.) before
+      - (adv.) previously
+  - term: der Rausch
+    definition:
+      - the euphoria
+      - the high
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Rausch,   Räusche ]
+      - [genitive,   Rausches, Räusche ]
+      - [dative,     Rausch,   Räuschen]
+      - [accusative, Rausch,   Räusche ]
+  - term: die Geschwindigkeit
+    definition: the speed
+    declension:
+      - ["",         singular,        plural           ]
+      - [nominative, Geschwindigkeit, Geschwindigkeiten]
+      - [genitive,   Geschwindigkeit, Geschwindigkeiten]
+      - [dative,     Geschwindigkeit, Geschwindigkeiten]
+      - [accusative, Geschwindigkeit, Geschwindigkeiten]
+  - term: weiter
+    definition: (adv.) further
 
 
 
