@@ -567,8 +567,24 @@ vocabulary:
     definition: I'm glad
   - term: nicht
     definition: not
+  - term: das Gestern
+    definition: the yesterday
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Gestern,  N/A   ]
+      - [genitive,   Gestern,  N/A   ]
+      - [dative,     Gestern,  N/A   ]
+      - [accusative, Gestern,  N/A   ]
+  - term: gestern
+    definition: (adv.) yesterday
   - term: das Heute
-    definition: today
+    definition: the today
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Heute,    N/A   ]
+      - [genitive,   Heute,    N/A   ]
+      - [dative,     Heute,    N/A   ]
+      - [accusative, Heute,    N/A   ]
   - term: heutig
     definition: today's
   - term: na ja
@@ -2754,6 +2770,8 @@ vocabulary:
     definition: conduct a survey
   - term: lernen sich kennen
     definition: get to know each other
+  - term: schlafen
+    definition: to sleep
   - term: ausschlafen
     definition: to get enough sleep
   - term: beliebt
@@ -3389,6 +3407,38 @@ vocabulary:
       - to advance
       - to push forward
       - to attach
+  - term: das Wort
+    definition: the word
+    declension:
+      - ["",         singular,        plural           ]
+      - [nominative, Wort,            "Wörter, Worte"  ]
+      - [genitive,   "Wortes, Worts", "Wörter, Worte"  ]
+      - [dative,     Wort,            "Wörtern, Worten"]
+      - [accusative, Wort,            "Wörter, Worte"  ]
+  - term: waagerecht
+    definition: (adj.) horizontal
+  - term: die Firma
+    definition:
+      - the company
+      - the business
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Firma, Firmen]
+      - [genitive,   Firma, Firmen]
+      - [dative,     Firma, Firmen]
+      - [accusative, Firma, Firmen]
+  - term: alt
+    definition:
+      - (adj.) old
+      - (adj.) ancient
+  - term: spazieren
+    definition: to take a walk
+  - term: heiraten
+    definition: to marry
+  - term: tun
+    definition:
+      - to do
+      - to perform
 
 
 
