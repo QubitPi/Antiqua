@@ -2039,15 +2039,25 @@ vocabulary:
   - term: der Kranker
     definition: (adjectival noun) the sick person
   - term: der Krankenpfleger
-    definition: (male) nurse
+    definition: (male) the nurse
     declension:
       - ["",         singular,        plural         ]
       - [nominative, Krankenpfleger,  Krankenpfleger ]
       - [genitive,   Krankenpflegers, Krankenpfleger ]
       - [dative,     Krankenpfleger,  Krankenpflegern]
       - [accusative, Krankenpfleger,  Krankenpfleger ]
+  - term: die Schwester
+    definition:
+      - the sister
+      - the nurse
+    declension:
+      - ["",         singular,  plural    ]
+      - [nominative, Schwester, Schwestern]
+      - [genitive,   Schwester, Schwestern]
+      - [dative,     Schwester, Schwestern]
+      - [accusative, Schwester, Schwestern]
   - term: die Krankenschwester
-    definition: (female) nurse
+    definition: (female) the nurse
   - term: willkommen
     definition: welcome
   - term: denn
@@ -2864,6 +2874,14 @@ vocabulary:
       - [genitive,   "Sonnabends, Sonnabendes", Sonnabende ]
       - [dative,     Sonnabend,                 Sonnabenden]
       - [accusative, Sonnabend,                 Sonnabende ]
+  - term: der Samstag
+    definition: the Saturday
+    declension:
+      - ["",         singular,              plural   ]
+      - [nominative, Samstag,               Samstage ]
+      - [genitive,   "Samstages, Samstags", Samstage ]
+      - [dative,     Samstag,               Samstagen]
+      - [accusative, Samstag,               Samstage ]
   - term: der Sonntag
     definition: the Sunday
     declension:
