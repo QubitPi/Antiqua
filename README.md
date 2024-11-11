@@ -54,6 +54,8 @@ docker run \
     --env=NEO4J_AUTH=none \
     --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes \
     -e NEO4JLABS_PLUGINS=\[\"apoc\"\] \
+    --env NEO4J_browser_remote__content__hostname__whitelist=https://raw.githubusercontent.com \
+    --env NEO4J_browser_post__connect__cmd="style https://raw.githubusercontent.com/dhimmel/hetionet/383152be2c07f8f5427dd7069535c82b0c5e8d85/hetnet/neo4j/graphstyle.grass" \
     jack20191124/wilhelm-vocabulary
 ```
 
