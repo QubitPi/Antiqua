@@ -55,7 +55,7 @@ docker run \
     --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes \
     -e NEO4JLABS_PLUGINS=\[\"apoc\"\] \
     --env NEO4J_browser_remote__content__hostname__whitelist=https://raw.githubusercontent.com \
-    --env NEO4J_browser_post__connect__cmd="style https://raw.githubusercontent.com/dhimmel/hetionet/383152be2c07f8f5427dd7069535c82b0c5e8d85/hetnet/neo4j/graphstyle.grass" \
+    --env NEO4J_browser_post__connect__cmd="style https://raw.githubusercontent.com/QubitPi/wilhelm-vocabulary/refs/heads/master/graphstyle.grass" \
     jack20191124/wilhelm-vocabulary
 ```
 
@@ -81,8 +81,8 @@ We have offered some queries that can be used to quickly explore our language da
 - Expanding a word "nämlich" (reveals its relationship to other languages):
 
   ```cypher
-  MATCH (term:Term{name:'nämlich'})
-  CALL apoc.path.expand(term, "LINK", null, 1, -1)
+  MATCH (term:Term{label:'nämlich'})
+  CALL apoc.path.expand(term, "LINK", null, 1, 3)
   YIELD path
   RETURN path, length(path) AS hops
   ORDER BY hops;
@@ -93,14 +93,16 @@ We have offered some queries that can be used to quickly explore our language da
 - In German, "rice" and "travel" are related:
 
   ```cypher
-  MATCH (term:Term{name:'die Reise'})
-  CALL apoc.path.expand(term, "LINK", null, 1, -1)
+  MATCH (term:Term{label:'die Reise'})
+  CALL apoc.path.expand(term, "LINK", null, 1, 3)
   YIELD path
   RETURN path, length(path) AS hops
   ORDER BY hops;
   ```
 
   ![Declension sharing](docs/german-rice-travel.png "Error loading german-rice-travel.png")
+
+- `MATCH (term:Term{label:'die Schwester'})  CALL apoc.path.expand(term, "LINK", null, 1, -1)  YIELD path  RETURN path, length(path) AS hops  ORDER BY hops;`
 
 Data Format
 -----------
