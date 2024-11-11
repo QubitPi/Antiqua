@@ -587,8 +587,6 @@ vocabulary:
       - [accusative, Heute,    N/A   ]
   - term: heutig
     definition: today's
-  - term: na ja
-    definition: oh well
   - term: Mir geht es gut
     definition: I am fine
   - term: Mir geht's gut
@@ -2105,6 +2103,8 @@ vocabulary:
     definition: (adj.) interested
   - term: langweilig
     definition: boring
+  - term: na
+    definition: well
   - term: Na ja
     definition: (informal) Oh well
   - term: wohl
@@ -3016,6 +3016,8 @@ vocabulary:
       - [genitive,   "Theaterstückes, Theaterstücks", Theaterstücke ]
       - [dative,     Theaterstück,                    Theaterstücken]
       - [accusative, Theaterstück,                    Theaterstücke ]
+  - term: nie
+    definition: (adv.) never
   - term: nie mehr
     definition: never again
   - term: groß
@@ -3457,6 +3459,22 @@ vocabulary:
     definition:
       - to do
       - to perform
+  - term: nah
+    definition: (adj.) near
+  - term: der Geburtstag
+    definition: the birthday
+    declension:
+      - ["",         singular,                    plural      ]
+      - [nominative, Geburtstag,                  Geburtstage ]
+      - [genitive,   "Geburtstages, Geburtstags", Geburtstage ]
+      - [dative,     Geburtstag,                  Geburtstagen]
+      - [accusative, Geburtstag,                  Geburtstage ]
+  - term: treffen
+    definition:
+      - to meet
+      - to hit
+  - term: Mach's gut.
+    definition: All the best.
 
 
 
@@ -3542,8 +3560,6 @@ vocabulary:
     definition: to know
   - term: die Wissenschaft
     definition: Science
-  - term: nie
-    definition: adv. never
   - term: kämpfen
     definition: to fight
   - term: nur
@@ -4041,6 +4057,7 @@ vocabulary:
   - term: der Raum
     definition:
       - the room
+      - the area
       - (Physics) the space
   - term: leben
     definition: to be alive
@@ -4127,6 +4144,30 @@ vocabulary:
       - [accusative, Geschwindigkeit, Geschwindigkeiten]
   - term: weiter
     definition: (adv.) further
+  - term: die Endlosigkeit
+    definition: the infinity
+    declension:
+      - ["",         singular,     plural]
+      - [nominative, Endlosigkeit, N/A   ]
+      - [genitive,   Endlosigkeit, N/A   ]
+      - [dative,     Endlosigkeit, N/A   ]
+      - [accusative, Endlosigkeit, N/A   ]
+  - term: die Landschaft
+    definition: the landscape
+    declension:
+      - ["",         singular,   plural      ]
+      - [nominative, Landschaft, Landschaften]
+      - [genitive,   Landschaft, Landschaften]
+      - [dative,     Landschaft, Landschaften]
+      - [accusative, Landschaft, Landschaften]
+  - term: das Feld
+    definition: the field
+    declension:
+      - ["",         singular,        plural ]
+      - [nominative, Feld,            Felder ]
+      - [genitive,   "Feldes, Felds", Felder ]
+      - [dative,     Feld,            Feldern]
+      - [accusative, Feld,            Felder ]
 
 
 
