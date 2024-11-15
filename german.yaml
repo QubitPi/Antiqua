@@ -399,6 +399,8 @@ vocabulary:
     definition: Italy
   - term: italienisch
     definition: (adj.) Italian
+  - term: chinesisch
+    definition: (adj.) Chinese
   - term: das Japanisch
     definition: Japanese (language)
   - term: die Japanerin
@@ -593,7 +595,9 @@ vocabulary:
     definition: I'm fine
   - term: wirklich
     definition: really
-  - term: Das tut mir Leid
+  - term: leider
+    definition: (adv.) unfortunately
+  - term: Tut mir Leid
     definition: I'm sorry
   - term: mehr
     definition: (pron.) something more
@@ -2095,6 +2099,8 @@ vocabulary:
     definition: Where do you work?
   - term: Seit wann arbeiten Sie dort?
     definition: How long have you been working there?
+  - term: großartig
+    definition: (adj.) terrific
   - term: Das ist ja großartig!
     definition: That's great!
   - term: interessant
@@ -3475,6 +3481,8 @@ vocabulary:
       - to hit
   - term: Mach's gut.
     definition: All the best.
+  - term: tanzen
+    definition: to dance
 
 
 
@@ -3933,6 +3941,7 @@ vocabulary:
       - insertion
       - usage
       - employment
+      - (military) mission
       - commitment
     declension:
       - ["",         singular,  plural   ]
@@ -4168,6 +4177,90 @@ vocabulary:
       - [genitive,   "Feldes, Felds", Felder ]
       - [dative,     Feld,            Feldern]
       - [accusative, Feld,            Felder ]
+  - term: der Horizont
+    definition: the horizon
+    declension:
+      - ["",         singular, plural                   ]
+      - [nominative, Horizont, Horizonte                ]
+      - [genitive,   "Horizontes, Horizonts", Horizonte ]
+      - [dative,     Horizont,                Horizonten]
+      - [accusative, Horizont,                Horizonte ]
+  - term: der Himmel
+    definition:
+      - the sky
+      - the heaven
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Himmel,   Himmel ]
+      - [genitive,   Himmels,  Himmel ]
+      - [dative,     Himmel,   Himmeln]
+      - [accusative, Himmel,   Himmel ]
+  - term: blau
+    definition:
+      - (adj.) blue
+      - (colloquial) drunk
+      - bruised
+  - term: der Gott
+    definition: the god
+    declension:
+      - ["",         singular,        plural ]
+      - [nominative, Gott,            Götter ]
+      - [genitive,   "Gottes, Gotts", Götter ]
+      - [dative,     Gott,            Göttern]
+      - [accusative, Gott,            Götter ]
+  - term: die Schönheit
+    definition: the beauty
+    declension:
+      - ["",         singular,  plural     ]
+      - [nominative, Schönheit, Schönheiten]
+      - [genitive,   Schönheit, Schönheiten]
+      - [dative,     Schönheit, Schönheiten]
+      - [accusative, Schönheit, Schönheiten]
+  - term: die Schöpfung
+    definition: the creation
+    declension:
+      - ["",         singular,  plural     ]
+      - [nominative, Schöpfung, Schöpfungen]
+      - [genitive,   Schöpfung, Schöpfungen]
+      - [dative,     Schöpfung, Schöpfungen]
+      - [accusative, Schöpfung, Schöpfungen]
+  - term: blenden
+    definition:
+      - to blind
+      - to show off
+  - term: überall
+    definition: (adv.) everywhere
+  - term: der Hof
+    definition:
+      - the yard
+      - the farmyard
+    declension:
+      - ["",         singular, plural    ]
+      - [nominative, Hof, Höfe           ]
+      - [genitive,   "Hofes, Hofs", Höfe ]
+      - [dative,     Hof,           Höfen]
+      - [accusative, Hof,           Höfe ]
+  - term: schlagen
+    definition:
+      - to hit
+      - to fight
+  - term: tadellos
+    definition: (adj.) impeccable
+  - term: dabei
+    definition:
+      - (adv.) thereby
+  - term: der Feigling
+    definition: the coward
+    declension:
+      - ["",         singular,  plural    ]
+      - [nominative, Feigling,  Feiglinge ]
+      - [genitive,   Feiglings, Feiglinge ]
+      - [dative,     Feigling,  Feiglingen]
+      - [accusative, Feigling,  Feiglinge ]
+  - term: provozieren
+    definition: to provoke
+  - term: schämen
+    definition: to be ashamed
 
 
 
