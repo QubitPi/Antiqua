@@ -2278,6 +2278,8 @@ vocabulary:
     definition: Anything else?
   - term: Ist das alles?
     definition: Is that all?
+  - term: kosten
+    definition: to cost
   - term: Was kostet ...? (sing.)
     definition: What does ... cost?
   - term: Was kosten ...? (pl.)
@@ -2288,6 +2290,8 @@ vocabulary:
     definition: How much are ...?
   - term: zurück
     definition: (adv.) back
+  - term: hin und zurück
+    definition: return
   - term: das Kilo
     definition: the kilogram
     declension:
@@ -3483,6 +3487,44 @@ vocabulary:
     definition: All the best.
   - term: tanzen
     definition: to dance
+  - term: die Fahrkarte
+    definition: the ticket
+    declension:
+      - ["",         singular,  plural    ]
+      - [nominative, Fahrkarte, Fahrkarten]
+      - [genitive,   Fahrkarte, Fahrkarten]
+      - [dative,     Fahrkarte, Fahrkarten]
+      - [accusative, Fahrkarte, Fahrkarten]
+  - term: einfach
+    definition:
+      - (adj.) easy
+      - (contrasting round-trip) one-way
+  - term: der Zuschlag
+    definition: the premium
+    declension:
+      - ["",         singular,   plural    ]
+      - [nominative, Zuschlag,   Zuschläge ]
+      - [genitive,   Zuschlages, Zuschläge ]
+      - [dative,     Zuschlag,   Zuschlägen]
+      - [accusative, Zuschlag,   Zuschläge ]
+  - term: umsteigen
+    definition: to change
+  - term: das Gleis
+    definition:
+      - the railway
+      - track
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Gleis,    Gleise ]
+      - [genitive,   Gleises,  Gleise ]
+      - [dative,     Gleis,    Gleisen]
+      - [accusative, Gleis,    Gleise ]
+  - term: der Zug
+    definition: the train
+  - term: inklusive
+    definition: (prep.) including
+  - term: direkt
+    definition: (adj.) direct
 
 
 
