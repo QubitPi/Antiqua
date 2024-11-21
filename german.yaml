@@ -3276,6 +3276,8 @@ vocabulary:
       - (prep.) approximately
       - (prep.) against
       - (prep.) toward
+  - term: lang
+    definition: (adj.) long
   - term: lange
     definition:
       - (adv.) long
@@ -3495,6 +3497,14 @@ vocabulary:
       - [genitive,   Fahrkarte, Fahrkarten]
       - [dative,     Fahrkarte, Fahrkarten]
       - [accusative, Fahrkarte, Fahrkarten]
+  - term: das Ticket
+    definition: the ticket
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Ticket,   Tickets]
+      - [genitive,   Tickets,  Tickets]
+      - [dative,     Ticket,   Tickets]
+      - [accusative, Ticket,   Tickets]
   - term: einfach
     definition:
       - (adj.) easy
@@ -3525,6 +3535,107 @@ vocabulary:
     definition: (prep.) including
   - term: direkt
     definition: (adj.) direct
+  - term: die Aufklärung
+    definition:
+      - the act of enlightening
+      - the Age of Enlightenment
+      - (military) reconnaissance unit
+    declension:
+      - ["",         singular,   plural      ]
+      - [nominative, Aufklärung, Aufklärungen]
+      - [genitive,   Aufklärung, Aufklärungen]
+      - [dative,     Aufklärung, Aufklärungen]
+      - [accusative, Aufklärung, Aufklärungen]
+  - term: die Aktiengesellschaft
+    definition: the corporation
+    declension:
+      - ["",         singular,           plural              ]
+      - [nominative, Aktiengesellschaft, Aktiengesellschaften]
+      - [genitive,   Aktiengesellschaft, Aktiengesellschaften]
+      - [dative,     Aktiengesellschaft, Aktiengesellschaften]
+      - [accusative, Aktiengesellschaft, Aktiengesellschaften]
+  - term: der Sparpreis
+    definition: discount fare
+    declension:
+      - ["",         singular,    plural     ]
+      - [nominative, Sparpreis,   Sparpreise ]
+      - [genitive,   Sparpreises, Sparpreise ]
+      - [dative,     Sparpreis,   Sparpreisen]
+      - [accusative, Sparpreis,   Sparpreise ]
+  - term: das Angebot
+    definition:
+      - the offer
+      - the product
+      - the service
+      - the supply
+    declension:
+      - ["",         singular,              plural   ]
+      - [nominative, Angebot,               Angebote ]
+      - [genitive,   "Angebotes, Angebots", Angebote ]
+      - [dative,     Angebot,               Angeboten]
+      - [accusative, Angebot,               Angebote ]
+  - term: der Nahverkehr
+    definition: the local/short-distance transport/travel
+    declension:
+      - ["",         singular,                    plural      ]
+      - [nominative, Nahverkehr,                  Nahverkehre ]
+      - [genitive,   "Nahverkehres, Nahverkehrs", Nahverkehre ]
+      - [dative,     Nahverkehr,                  Nahverkehren]
+      - [accusative, Nahverkehr,                  Nahverkehre ]
+  - term: die Fahrt
+    definition: the journey
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Fahrt,    Fahrten]
+      - [genitive,   Fahrt,    Fahrten]
+      - [dative,     Fahrt,    Fahrten]
+      - [accusative, Fahrt,    Fahrten]
+  - term: die Klasse
+    definition: the class
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Klasse,   Klassen]
+      - [genitive,   Klasse,   Klassen]
+      - [dative,     Klasse,   Klassen]
+      - [accusative, Klasse,   Klassen]
+  - term: die Person
+    definition: the person
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Person,   Personen]
+      - [genitive,   Person,   Personen]
+      - [dative,     Person,   Personen]
+      - [accusative, Person,   Personen]
+  - term: der Festpreis
+    definition: the fixed price
+    declension:
+      - ["",         singular,    plural     ]
+      - [nominative, Festpreis,   Festpreise ]
+      - [genitive,   Festpreises, Festpreise ]
+      - [dative,     Festpreis,   Festpreisen]
+      - [accusative, Festpreis,   Festpreise ]
+  - term: sowie
+    definition:
+      - (prop.) as well as
+      - (prop.) as soon as
+  - term: die Auskunft
+    definition:
+      - the enquiry
+      - the information
+    declension:
+      - ["",         singular, plural    ]
+      - [nominative, Auskunft, Auskünfte ]
+      - [genitive,   Auskunft, Auskünfte ]
+      - [dative,     Auskunft, Auskünften]
+      - [accusative, Auskunft, Auskünfte ]
+  - term: die Verkaufsstelle
+    definition: the ticket office
+    declension:
+      - ["",         singular,       plural         ]
+      - [nominative, Verkaufsstelle, Verkaufsstellen]
+      - [genitive,   Verkaufsstelle, Verkaufsstellen]
+      - [dative,     Verkaufsstelle, Verkaufsstellen]
+      - [accusative, Verkaufsstelle, Verkaufsstellen]
 
 
 
@@ -3899,12 +4010,9 @@ vocabulary:
       - [accusative, Rassenschande, N/A   ]
   - term: gelten
     definition:
-      - to be valid
-      - to hold true
-      - to be effective
-      - to be worth
-      - to be regarded
-      - to be necessary
+      - (intransitive) to be valid
+      - (transitive) to be worth
+      - (intransitive) to be regarded
   - term: neu
     definition:
       - (adj.) new
