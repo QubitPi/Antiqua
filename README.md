@@ -293,13 +293,36 @@ For example:
 
 > [!TIP]
 >
-> __The declension tables for all nouns are sourced from
-> [Wiktionary](https://en.wiktionary.org/wiki/Kaufmann#Declension)__
+> __The declension tables for nouns are almost all sourced from
+> [Wiktionary](https://en.wiktionary.org/wiki/Kaufmann#Declension)__ and tiny from (if not present in Wiktionary)
+> [Verbformen](https://www.verbformen.com/)
 
 > [!CAUTION]
 >
 > [Adjectival nouns](https://en.wikibooks.org/wiki/German/Grammar/Nouns/Adjectival_Nouns), however, do NOT follow the
-> template above.
+> template above but employs the following template:
+>
+> ```yaml
+> declension:
+>   strong:
+>     - ["",         singular, plural]
+>     - [nominative, ████████, ██████]
+>     - [genitive,   ████████, ██████]
+>     - [dative,     ████████, ██████]
+>     - [accusative, ████████, ██████]
+>   weak:
+>     - ["",         singular, plural]
+>     - [nominative, ████████, ██████]
+>     - [genitive,   ████████, ██████]
+>     - [dative,     ████████, ██████]
+>     - [accusative, ████████, ██████]
+>   mixed:
+>     - ["",         singular, plural]
+>     - [nominative, ████████, ██████]
+>     - [genitive,   ████████, ██████]
+>     - [dative,     ████████, ██████]
+>     - [accusative, ████████, ██████]
+> ```
 
 ### [Ancient Greek](./ancient-greek.yaml)
 
