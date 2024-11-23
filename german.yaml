@@ -2060,8 +2060,6 @@ vocabulary:
       - [accusative, Schwester, Schwestern]
   - term: die Krankenschwester
     definition: (female) the nurse
-  - term: willkommen
-    definition: welcome
   - term: denn
     definition:
       - (adv.) then
@@ -2127,8 +2125,6 @@ vocabulary:
     definition: to give
   - term: finden
     definition: to find
-  - term: bekommen
-    definition: to get
   - term: weit
     definition:
       - wide
@@ -2439,8 +2435,18 @@ vocabulary:
     definition: to write
   - term: spielen
     definition: to play
+  - term: kommen
+    definition: to come
+  - term: ankommen
+    definition: to arrive
+  - term: bekommen
+    definition: to get
+  - term: willkommen
+    definition: welcome
   - term: fahren
     definition: to go
+  - term: abfahren
+    definition: to depart
   - term: gehen
     definition: to go
   - term: Ich gehe in den/in die/ins ...
@@ -3636,6 +3642,8 @@ vocabulary:
       - [genitive,   Verkaufsstelle, Verkaufsstellen]
       - [dative,     Verkaufsstelle, Verkaufsstellen]
       - [accusative, Verkaufsstelle, Verkaufsstellen]
+  - term: die Verkehrstage
+    definition: the days of operation
 
 
 
@@ -4411,6 +4419,125 @@ vocabulary:
     definition: to provoke
   - term: schämen
     definition: to be ashamed
+  - term: meinn
+    definition: (adj.) painful
+  - term: umsonst
+    definition:
+      - (adv.) free
+      - (adv.) in vain
+      - (adv.) for the sake of doing it
+  - term: rot
+    definition: (adj.) red
+  - term: der Platz
+    definition: the plaza
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Platz,    Plätze ]
+      - [genitive,   Platzes,  Plätze ]
+      - [dative,     Platz,    Plätzen]
+      - [accusative, Platz,    Plätze ]
+  - term: der Wodka
+    definition: (drink) vodka
+    declension:
+      - ["",         singular, plural         ]
+      - [nominative, Wodka,    "Wodkas, Wodka"]
+      - [genitive,   Wodkas,   "Wodkas, Wodka"]
+      - [dative,     Wodka,    "Wodkas, Wodka"]
+      - [accusative, Wodka,    "Wodkas, Wodka"]
+  - term: der Held
+    definition: the hero
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Held,     Helden]
+      - [genitive,   Helden,   Helden]
+      - [dative,     Helden,   Helden]
+      - [accusative, Helden,   Helden]
+  - term: erwischen
+    definition: to catch
+  - term: einzig
+    definition:
+      - (adj.) only
+      - (adj.) unique
+  - term: gewonnen
+    definition:
+      - (adj.) gained
+      - (adj.) won
+      - (adj.) recovered
+  - term: der Vorteil
+    definition:
+      - the advantage
+      - the profit
+    declension:
+      - ["",         singular,              plural   ]
+      - [nominative, Vorteil,               Vorteile ]
+      - [genitive,   "Vorteiles, Vorteils", Vorteile ]
+      - [dative,     Vorteil,               Vorteilen]
+      - [accusative, Vorteil,               Vorteile ]
+  - term: ergeben
+    definition:
+      - (transitive) to yield
+      - (transitive) to produce
+      - (reflexive) to surrender
+      - (reflexive) to arise
+      - (reflexive) to result
+  - term: der Gefangener
+    definition: (adjectival, male) the prisoner
+    declension:
+      strong:
+        - ["",         singular,   plural    ]
+        - [nominative, Gefangener, Gefangene ]
+        - [genitive,   Gefangenen, Gefangener]
+        - [dative,     Gefangenem, Gefangenen]
+        - [accusative, Gefangenen, Gefangene ]
+      weak:
+        - ["",         singular,   plural    ]
+        - [nominative, Gefangene,  Gefangenen]
+        - [genitive,   Gefangenen, Gefangenen]
+        - [dative,     Gefangenen, Gefangenen]
+        - [accusative, Gefangenen, Gefangenen]
+      mixed:
+        - ["",         singular,   plural    ]
+        - [nominative, Gefangener, Gefangenen]
+        - [genitive,   Gefangenen, Gefangenen]
+        - [dative,     Gefangenen, Gefangenen]
+        - [accusative, Gefangenen, Gefangenen]
+  - term: die Gefangene
+    definition: (adjectival, female) the prisoner
+    declension:
+      strong:
+        - ["",         singular,   plural    ]
+        - [nominative, Gefangene,  Gefangene ]
+        - [genitive,   Gefangener, Gefangener]
+        - [dative,     Gefangener, Gefangenen]
+        - [accusative, Gefangene,  Gefangene ]
+      weak:
+        - ["",         singular,   plural    ]
+        - [nominative, Gefangene,  Gefangenen]
+        - [genitive,   Gefangenen, Gefangenen]
+        - [dative,     Gefangenen, Gefangenen]
+        - [accusative, Gefangene,  Gefangenen]
+      mixed:
+        - ["",         singular,   plural    ]
+        - [nominative, Gefangene,  Gefangenen]
+        - [genitive,   Gefangenen, Gefangenen]
+        - [dative,     Gefangenen, Gefangenen]
+        - [accusative, Gefangene,  Gefangenen]
+  - term: abknallen
+    definition: to shoot down
+  - term: vortragen
+    definition: to report
+  - term: das Gedicht
+    definition: the poem
+    declension:
+      - ["",         singular,              plural   ]
+      - [nominative, Gedicht,               Gedichte ]
+      - [genitive,   "Gedichtes, Gedichts", Gedichte ]
+      - [dative,     Gedicht,               Gedichten]
+      - [accusative, Gedicht,               Gedichte ]
+  - term: bestimmt
+    definition: (adj.) certain
+  - term: bestimmen
+    definition: to determine
 
 
 
