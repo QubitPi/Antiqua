@@ -205,7 +205,10 @@ way.
 vocabulary:
   - term: string
     definition: list
+    audio: string
 ```
+
+The `audio` field is an URL that points to a `.mp3` or `.ogg` file that contains the pronunciation of this word.
 
 _The meaning of a word is called the `definition`_. A term has a natural relationship to its definition(s). For example,
 the German noun "[Ecke](https://en.wiktionary.org/wiki/Ecke#Noun)" has at least 4 definitions:

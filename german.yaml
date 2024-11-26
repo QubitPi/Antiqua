@@ -753,6 +753,7 @@ vocabulary:
       - (adj.) self-evident
   - term: verstehen
     definition: to understand
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/15/De-verstehen2.ogg
   - term: studieren
     definition: to study
   - term: der Familienstand
@@ -1862,6 +1863,14 @@ vocabulary:
       - [genitive,   Medizin,  Medizinen]
       - [dative,     Medizin,  Medizinen]
       - [accusative, Medizin,  Medizinen]
+  - term: das Auto
+    definition: the car
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Auto,     Autos ]
+      - [genitive,   Autos,    Autos ]
+      - [dative,     Auto,     Autos ]
+      - [accusative, Auto,     Autos ]
   - term: der Automechaniker
     definition: (make) car mechanic
     declension:
@@ -2067,8 +2076,9 @@ vocabulary:
       - (conj.) because
   - term: der Mann
     definition:
-      - man
-      - husband
+      - the man
+      - the husband
+    audo: https://upload.wikimedia.org/wikipedia/commons/f/f2/De-Mann2.ogg
     declension:
       - ["",         singular,        plural]
       - [nominative, Mann,            Männer]
@@ -2449,6 +2459,8 @@ vocabulary:
     definition: to depart
   - term: gehen
     definition: to go
+  - term: gehen zu Fuß
+    definition: to go (to somewhere) on foot
   - term: Ich gehe in den/in die/ins ...
     definition: I go to the (m/f/n) ...
   - term: weggehen
@@ -2534,6 +2546,14 @@ vocabulary:
     definition: to do sports
   - term: treiben Sport
     definition: to do sports
+  - term: der Fuß
+    definition: the foot
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Fuß,      Füße  ]
+      - [genitive,   Fußes,    Füße  ]
+      - [dative,     Fuß,      Füßen ]
+      - [accusative, Fuß,      Füße  ]
   - term: der Fußball
     definition:
       - (countable) football
@@ -2654,6 +2674,8 @@ vocabulary:
       - [genitive,   N/A,      Leute ]
       - [dative,     N/A,      Leuten]
       - [accusative, N/A,      Leute ]
+  - term: viele Leute
+    definition: lots of people
   - term: das Picknick
     definition: the picnic
     declension:
@@ -3644,6 +3666,40 @@ vocabulary:
       - [accusative, Verkaufsstelle, Verkaufsstellen]
   - term: die Verkehrstage
     definition: the days of operation
+  - term: täglich
+    definition: (adj.) daily
+  - term: die Straßenbahn
+    definition: streetcar
+    declension:
+      - ["",         singular,    plural       ]
+      - [nominative, Straßenbahn, Straßenbahnen]
+      - [genitive,   Straßenbahn, Straßenbahnen]
+      - [dative,     Straßenbahn, Straßenbahnen]
+      - [accusative, Straßenbahn, Straßenbahnen]
+  - term: fahren mit (dative)...
+    definition: to go somewhere by ...
+  - term: von ... nach ...
+    definition: from ... to ...
+  - term: fahren mit (dat.)... von ... nach ...
+    definition: to go from ... to ... by ...
+  - term: ergänzen
+    definition: to fill
+  - term: die U-Bahn
+    definition: the subway
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, U-Bahn,   U-Bahnen]
+      - [genitive,   U-Bahn,   U-Bahnen]
+      - [dative,     U-Bahn,   U-Bahnen]
+      - [accusative, U-Bahn,   U-Bahnen]
+  - term: die Metro
+    definition: the metro
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Metro,    Metros]
+      - [genitive,   Metro,    Metros]
+      - [dative,     Metro,    Metros]
+      - [accusative, Metro,    Metros]
 
 
 
@@ -4125,6 +4181,7 @@ vocabulary:
     definition: to take part
   - term: verlieren
     definition: to lose
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/5b/De-verlieren2.ogg
   - term: eben
     definition:
       - (adj.) flat
@@ -4452,6 +4509,8 @@ vocabulary:
       - [genitive,   Helden,   Helden]
       - [dative,     Helden,   Helden]
       - [accusative, Helden,   Helden]
+  - term: genau
+    definition: (adj.) exact
   - term: erwischen
     definition: to catch
   - term: einzig
@@ -4538,6 +4597,125 @@ vocabulary:
     definition: (adj.) certain
   - term: bestimmen
     definition: to determine
+  - term: der Hauptmann
+    definition: (military) the captain
+    declension:
+      - ["",         singular,                  plural                     ]
+      - [nominative, Hauptmann,                 "Hauptleute, Hauptmänner"  ]
+      - [genitive,   "Hauptmannes, Hauptmanns", "Hauptleute, Hauptmänner"  ]
+      - [dative,     Hauptmann,                 "Hauptleuten, Hauptmännern"]
+      - [accusative, Hauptmann,                 "Hauptleute, Hauptmänner"  ]
+  - term: der Kilometer
+    definition: the kilometer
+    declension:
+      - ["",         singular,   plural    ]
+      - [nominative, Kilometer,  Kilometer ]
+      - [genitive,   Kilometers, Kilometer ]
+      - [dative,     Kilometer,  Kilometern]
+      - [accusative, Kilometer,  Kilometer ]
+  - term: nordöstlich
+    definition: (adj.) northeasterly
+  - term: das Widerstandsnest
+    definition: (military) the pocket of defense
+    audio: https://www.verbformen.de/deklination/substantive/grundform/der_Widerstandsnest.mp3
+    declension:
+      - ["",         singular,          plural            ]
+      - [nominative, Widerstandsnest,   Widerstandsnester ]
+      - [genitive,   Widerstandsnestes, Widerstandsnester ]
+      - [dative,     Widerstandsnest,   Widerstandsnestern]
+      - [accusative, Widerstandsnest,   Widerstandsnester ]
+  - term: die Fabrik
+    definition: the factory
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/4e/De-Fabrik2.ogg
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Fabrik,   Fabriken]
+      - [genitive,   Fabrik,   Fabriken]
+      - [dative,     Fabrik,   Fabriken]
+      - [accusative, Fabrik,   Fabriken]
+  - term: die Kompanie
+    definition: (military) the company
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e7/De-Kompanie.ogg
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Kompanie, Kompanien]
+      - [genitive,   Kompanie, Kompanien]
+      - [dative,     Kompanie, Kompanien]
+      - [accusative, Kompanie, Kompanien]
+  - term: umgehen
+    definition: to avoid
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/62/De-umgehen.ogg
+  - term: setzen
+    definition: to set
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/04/De-setzen2.ogg
+  - term: fort
+    definition: (adv.) away
+  - term: ausräuchern
+    definition: to fumigate
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/75/De-ausr%C3%A4uchern.ogg
+  - term: erfolgreich
+    definition: (adj.) successful
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/b5/De-erfolgreich.ogg
+  - term: die Erledigung
+    definition:
+      - the execution
+      - the completion
+    audo: https://www.verbformen.de/deklination/substantive/grundform/der_Erledigung.mp3
+    declension:
+      - ["",         singular,   plural      ]
+      - [nominative, Erledigung, Erledigungen]
+      - [genitive,   Erledigung, Erledigungen]
+      - [dative,     Erledigung, Erledigungen]
+      - [accusative, Erledigung, Erledigungen]
+  - term: jawohl
+    definition: (military) yes sir
+    audo: https://upload.wikimedia.org/wikipedia/commons/4/4b/De-jawohl.ogg
+  - term: das Glück
+    definition:
+      - the happiness
+      - the luck
+    audo: https://upload.wikimedia.org/wikipedia/commons/c/c4/De-Gl%C3%BCck2.ogg
+    declension:
+      - ["",         singular,          plural]
+      - [nominative, Glück,             N/A   ]
+      - [genitive,   "Glückes, Glücks", N/A   ]
+      - [dative,     Glück,             N/A   ]
+      - [accusative, Glück,             N/A   ]
+  - term: Viel Glück.
+    definition: Good luck.
+  - term: das Fabrikgelände
+    definition: the factory site
+    audo: https://www.verbformen.de/deklination/substantive/grundform/der_Fabrikgela3nde.mp3
+    declension:
+      - ["",         singular,       plural        ]
+      - [nominative, Fabrikgelände,  Fabrikgelände ]
+      - [genitive,   Fabrikgeländes, Fabrikgelände ]
+      - [dative,     Fabrikgelände,  Fabrikgeländen]
+      - [accusative, Fabrikgelände,  Fabrikgelände ]
+  - term: räumen
+    definition: to clear an area of impediments
+    audo: https://upload.wikimedia.org/wikipedia/commons/1/1c/De-r%C3%A4umen.ogg
+  - term: die Flinte
+    definition: the shotgun
+    audo: https://upload.wikimedia.org/wikipedia/commons/d/df/De-Flinte.ogg
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Flinte,   Flinten]
+      - [genitive,   Flinte,   Flinten]
+      - [dative,     Flinte,   Flinten]
+      - [accusative, Flinte,   Flinten]
+  - term: das Mädel
+    definition: the girl
+    audo: https://upload.wikimedia.org/wikipedia/commons/1/1b/De-M%C3%A4del.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, ████████, ██████]
+      - [genitive,   ████████, ██████]
+      - [dative,     ████████, ██████]
+      - [accusative, ████████, ██████]
+  - term: verhauen
+    definition: to bash up
+    audo: https://upload.wikimedia.org/wikipedia/commons/1/18/De-verhauen.ogg
 
 
 
@@ -4821,7 +4999,9 @@ vocabulary:
   - term: vermitteln
     definition: to mediate
   - term: der Verstand
-    definition: the intellect
+    definition:
+      - the intellect
+      - (archaic) the sense
     declension:
       - ["",         singular,                plural                  ]
       - [nominative, Verstand,                "Verstande, Verstände"  ]
@@ -4915,3 +5095,6 @@ vocabulary:
       - [genitive,   Form,     Formen]
       - [dative,     Form,     Formen]
       - [accusative, Form,     Formen]
+  - term: antreffen
+    definition: to meet
+    audo: https://upload.wikimedia.org/wikipedia/commons/7/7e/De-antreffen.ogg
