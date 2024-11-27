@@ -2078,7 +2078,7 @@ vocabulary:
     definition:
       - the man
       - the husband
-    audo: https://upload.wikimedia.org/wikipedia/commons/f/f2/De-Mann2.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f2/De-Mann2.ogg
     declension:
       - ["",         singular,        plural]
       - [nominative, Mann,            Männer]
@@ -3213,7 +3213,7 @@ vocabulary:
     definition:
       - to get
       - to fetch
-    audo: https://upload.wikimedia.org/wikipedia/commons/b/b3/De-holen2.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/b3/De-holen2.ogg
   - term: abholen
     definition:
       - to collect
@@ -3707,10 +3707,10 @@ vocabulary:
       - [accusative, Metro,    Metros]
   - term: schnell
     definition: (adj.) fast
-    audo: https://upload.wikimedia.org/wikipedia/commons/2/23/De-schnell.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/23/De-schnell.ogg
   - term: die Umwelt
     definition: the environment
-    audo: https://upload.wikimedia.org/wikipedia/commons/d/db/De-Umwelt.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/db/De-Umwelt.ogg
     declension:
       - ["",         singular, plural  ]
       - [nominative, Umwelt,   Umwelten]
@@ -3719,7 +3719,7 @@ vocabulary:
       - [accusative, Umwelt,   Umwelten]
   - term: der Führerschein
     definition: the driver's license
-    audo: https://upload.wikimedia.org/wikipedia/commons/f/f5/De-F%C3%BChrerschein.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f5/De-F%C3%BChrerschein.ogg
     declension:
       - ["",         singular,                        plural        ]
       - [nominative, Führerschein,                    Führerscheine ]
@@ -3731,10 +3731,10 @@ vocabulary:
       - (adv.) above
       - (adv.) north
       - (adv.) upstairs
-    audo: https://upload.wikimedia.org/wikipedia/commons/f/f3/De-oben.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f3/De-oben.ogg
   - term: der Sanitäter
     definition: the medic
-    audo: https://upload.wikimedia.org/wikipedia/commons/6/6f/De-Sanit%C3%A4ter.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/6f/De-Sanit%C3%A4ter.ogg
     declension:
       - ["",         singular,   plural    ]
       - [nominative, Sanitäter,  Sanitäter ]
@@ -3745,20 +3745,20 @@ vocabulary:
     definition: (short for) der Sanitäter
   - term: versorgen
     definition: to look after
-    audo: https://upload.wikimedia.org/wikipedia/commons/4/4f/De-versorgen.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/4f/De-versorgen.ogg
   - term: gerade
     definition:
       - (adj. of a number) even
       - (adv.) now
       - (adv.) at the moment
       - (adv.) a short while ago
-    audo: https://upload.wikimedia.org/wikipedia/commons/3/3e/De-at-Gerade.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/3e/De-at-Gerade.ogg
   - term: grad
     definition: (adv, alternative form of) gerade
-    audo: https://upload.wikimedia.org/wikipedia/commons/6/6c/LL-Q188_%28deu%29-Jeuwre-grad.wav
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/6c/LL-Q188_%28deu%29-Jeuwre-grad.wav
   - term: der Kommissar
     definition: the commissioner
-    audo: https://upload.wikimedia.org/wikipedia/commons/1/17/De-Kommissar.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/17/De-Kommissar.ogg
     declension:
       - ["",         singular,   plural     ]
       - [nominative, Kommissar,  Kommissare ]
@@ -3767,13 +3767,13 @@ vocabulary:
       - [accusative, Kommissar,  Kommissare ]
   - term: verhören
     definition: to interrogate
-    audo: https://upload.wikimedia.org/wikipedia/commons/c/c0/De-verh%C3%B6ren.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/c0/De-verh%C3%B6ren.ogg
   - term: abführen
     definition: to take away
-    audo: https://upload.wikimedia.org/wikipedia/commons/3/3b/De-abf%C3%BChren.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/3b/De-abf%C3%BChren.ogg
   - term: der Küchenbullen
     definition: the cook sergeant
-    audo: https://www.verbformen.de/deklination/substantive/grundform/der_Ku3chenbulle.mp3
+    audio: https://www.verbformen.de/deklination/substantive/grundform/der_Ku3chenbulle.mp3
     declension:
       - ["",         singular,     plural      ]
       - [nominative, Küchenbulle,  Küchenbullen]
@@ -3782,7 +3782,7 @@ vocabulary:
       - [accusative, Küchenbullen, Küchenbullen]
   - term: das Rezept
     definition: the recipe
-    audo: https://upload.wikimedia.org/wikipedia/commons/3/39/De-Rezept.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/39/De-Rezept.ogg
     declension:
       - ["",         singular,            plural  ]
       - [nominative, Rezept,              Rezepte ]
@@ -3791,7 +3791,7 @@ vocabulary:
       - [accusative, Rezept,              Rezepte ]
   - term: die Fleischsuppe
     definition: the beef soup
-    audo: https://upload.wikimedia.org/wikipedia/commons/c/c8/De-Fleischsuppe.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/c8/De-Fleischsuppe.ogg
     declension:
       - ["",         singular,     plural       ]
       - [nominative, Fleischsuppe, Fleischsuppen]
@@ -4761,7 +4761,7 @@ vocabulary:
     definition:
       - the execution
       - the completion
-    audo: https://www.verbformen.de/deklination/substantive/grundform/der_Erledigung.mp3
+    audio: https://www.verbformen.de/deklination/substantive/grundform/der_Erledigung.mp3
     declension:
       - ["",         singular,   plural      ]
       - [nominative, Erledigung, Erledigungen]
@@ -4770,12 +4770,12 @@ vocabulary:
       - [accusative, Erledigung, Erledigungen]
   - term: jawohl
     definition: (military) yes sir
-    audo: https://upload.wikimedia.org/wikipedia/commons/4/4b/De-jawohl.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/4b/De-jawohl.ogg
   - term: das Glück
     definition:
       - the happiness
       - the luck
-    audo: https://upload.wikimedia.org/wikipedia/commons/c/c4/De-Gl%C3%BCck2.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/c4/De-Gl%C3%BCck2.ogg
     declension:
       - ["",         singular,          plural]
       - [nominative, Glück,             N/A   ]
@@ -4786,7 +4786,7 @@ vocabulary:
     definition: Good luck.
   - term: das Fabrikgelände
     definition: the factory site
-    audo: https://www.verbformen.de/deklination/substantive/grundform/der_Fabrikgela3nde.mp3
+    audio: https://www.verbformen.de/deklination/substantive/grundform/der_Fabrikgela3nde.mp3
     declension:
       - ["",         singular,       plural        ]
       - [nominative, Fabrikgelände,  Fabrikgelände ]
@@ -4795,10 +4795,10 @@ vocabulary:
       - [accusative, Fabrikgelände,  Fabrikgelände ]
   - term: räumen
     definition: to clear an area of impediments
-    audo: https://upload.wikimedia.org/wikipedia/commons/1/1c/De-r%C3%A4umen.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/1c/De-r%C3%A4umen.ogg
   - term: die Flinte
     definition: the shotgun
-    audo: https://upload.wikimedia.org/wikipedia/commons/d/df/De-Flinte.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/df/De-Flinte.ogg
     declension:
       - ["",         singular, plural ]
       - [nominative, Flinte,   Flinten]
@@ -4807,7 +4807,7 @@ vocabulary:
       - [accusative, Flinte,   Flinten]
   - term: das Mädel
     definition: the girl
-    audo: https://upload.wikimedia.org/wikipedia/commons/1/1b/De-M%C3%A4del.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/1b/De-M%C3%A4del.ogg
     declension:
       - ["",         singular, plural                                                                            ]
       - [nominative, Mädel,    "Mädeln (Southern Germany & Austria); Mädel, Mädels (Northern & Central Germany)" ]
@@ -4816,21 +4816,21 @@ vocabulary:
       - [accusative, Mädel,    "Mädeln (Southern Germany & Austria); Mädel, Mädels (Northern & Central Germany)" ]
   - term: verhauen
     definition: to bash up
-    audo: https://upload.wikimedia.org/wikipedia/commons/1/18/De-verhauen.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/18/De-verhauen.ogg
   - term: verdammt
     definition: (adj.) damned
-    audo: https://upload.wikimedia.org/wikipedia/commons/a/a0/De-verdammt.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/a0/De-verdammt.ogg
   - term: jüdisch
     definition: (adj.) Jewish
-    audo: https://upload.wikimedia.org/wikipedia/commons/2/2d/De-j%C3%BCdisch.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/2d/De-j%C3%BCdisch.ogg
   - term: das Schwein
     definition:
       - the pig
       - the dirty person
-    audo: https://upload.wikimedia.org/wikipedia/commons/d/dd/De-Schwein.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/dd/De-Schwein.ogg
   - term: der Bolschewist
     definition: (a supporter or member of the majority faction of the Russian Social Democratic Party, which seized power in the October Revolution of 1917.) the Bolshevist
-    audo: https://upload.wikimedia.org/wikipedia/commons/9/96/De-Bolschewist.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/96/De-Bolschewist.ogg
     declension:
       - ["",         singular,      plural       ]
       - [nominative, Bolschewist,   Bolschewisten]
@@ -4842,7 +4842,7 @@ vocabulary:
       - to pull aprt
       - to break
       - to tear
-    audo: https://upload.wikimedia.org/wikipedia/commons/d/d1/De-rei%C3%9Fen2.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/d1/De-rei%C3%9Fen2.ogg
 
 
 
@@ -5124,7 +5124,7 @@ vocabulary:
       - [accusative, Vorstellung, Vorstellungen]
   - term: sinnlich
     definition: (adj.) sensory
-    audo: https://upload.wikimedia.org/wikipedia/commons/b/be/De-sinnlich.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/be/De-sinnlich.ogg
   - term: die Sinnlichkeit
     definition: the sensuality
     declension:
@@ -5241,10 +5241,10 @@ vocabulary:
       - [accusative, Form,     Formen]
   - term: antreffen
     definition: to meet
-    audo: https://upload.wikimedia.org/wikipedia/commons/7/7e/De-antreffen.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/7e/De-antreffen.ogg
   - term: demnach
     definition: (adv.) therefore
-    audo: https://upload.wikimedia.org/wikipedia/commons/5/50/De-demnach.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/50/De-demnach.ogg
   - term: überhaupt
     definition:
       - (adv.) overall
@@ -5252,7 +5252,7 @@ vocabulary:
       - (adv.) anyway
       - (adv.) actually
       - (adv.) even
-    audo: https://upload.wikimedia.org/wikipedia/commons/d/d6/De-%C3%BCberhaupt.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/d6/De-%C3%BCberhaupt.ogg
   - term: anschauen
     definition: to look at
-    audo: https://upload.wikimedia.org/wikipedia/commons/3/31/De-anschauen.ogg
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/31/De-anschauen.ogg
