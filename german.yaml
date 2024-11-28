@@ -595,6 +595,7 @@ vocabulary:
     definition: I'm fine
   - term: wirklich
     definition: really
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/ae/De-wirklich.ogg
   - term: leider
     definition: (adv.) unfortunately
   - term: Tut mir Leid
@@ -790,6 +791,17 @@ vocabulary:
     definition: foreign language
   - term: die Muttersprache
     definition: mother tongue
+  - term: die Bahn
+    definition:
+      - the route
+      - the railway
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/db/De-Bahn.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Bahn,     Bahnen]
+      - [genitive,   Bahn,     Bahnen]
+      - [dative,     Bahn,     Bahnen]
+      - [accusative, Bahn,     Bahnen]
   - term: der Bahnhof
     definition: the railway station
     declension:
@@ -1612,6 +1624,11 @@ vocabulary:
     definition: Can I have a/an ... instead?
   - term: Schön kühl, bitte
     definition: (drink) make it cold, please
+  - term: ohne
+    definition:
+      - (conj.) without
+      - (prep.) without
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/36/De-ohne.ogg
   - term: Mit oder ohne Eis?
     definition: With or without ice?
   - term: mit Eis
@@ -2290,6 +2307,11 @@ vocabulary:
     definition: What does ... cost?
   - term: Was kosten ...? (pl.)
     definition: What do ... cost?
+  - term: teuer
+    definition:
+      - (adj.) expensive
+      - (adj.) dear
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/88/De-teuer.ogg
   - term: Wie teuer ist ...? (sing.)
     definition: How much is ...?
   - term: Wie teuer sind ...? (pl.)
@@ -3798,6 +3820,27 @@ vocabulary:
       - [genitive,   Fleischsuppe, Fleischsuppen]
       - [dative,     Fleischsuppe, Fleischsuppen]
       - [accusative, Fleischsuppe, Fleischsuppen]
+  - term: der Bus
+    definition: the bus
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/83/De-Bus2.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Bus,      Busse ]
+      - [genitive,   Busses,   Busse ]
+      - [dative,     Bus,      Bussen]
+      - [accusative, Bus,      Busse ]
+  - term: die Monatskarte
+    definition: the monthly ticket
+    audio: https://www.verbformen.de/deklination/substantive/grundform/der_Monatskarte.mp3
+    declension:
+      - ["",         singular,    plural      ]
+      - [nominative, Monatskarte, Monatskarten]
+      - [genitive,   Monatskarte, Monatskarten]
+      - [dative,     Monatskarte, Monatskarten]
+      - [accusative, Monatskarte, Monatskarten]
+  - term: dauern
+    definition: to last
+    audio: https://www.verbformen.de/konjugation/infinitiv/dauern.mp3
 
 
 
@@ -5195,6 +5238,7 @@ vocabulary:
       - [accusative, Empfindung, Empfindungen]
   - term: empirisch
     definition: (adj.) empirical
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/c0/De-empirisch.ogg
   - term: unbestimmt
     definition:
       - (adj.) undetermined
@@ -5239,6 +5283,17 @@ vocabulary:
       - [genitive,   Form,     Formen]
       - [dative,     Form,     Formen]
       - [accusative, Form,     Formen]
+  - term: die Gestalt
+    definition:
+      - the shape
+      - the form
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/4f/De-Gestalt.ogg
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Gestalt,  Gestalten]
+      - [genitive,   Gestalt,  Gestalten]
+      - [dative,     Gestalt,  Gestalten]
+      - [accusative, Gestalt,  Gestalten]
   - term: antreffen
     definition: to meet
     audio: https://upload.wikimedia.org/wikipedia/commons/7/7e/De-antreffen.ogg
@@ -5256,3 +5311,104 @@ vocabulary:
   - term: anschauen
     definition: to look at
     audio: https://upload.wikimedia.org/wikipedia/commons/3/31/De-anschauen.ogg
+  - term: der Körper
+    definition: the body
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/6b/De-K%C3%B6rper.ogg
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Körper,   Körper ]
+      - [genitive,   Körpers,  Körper ]
+      - [dative,     Körper,   Körpern]
+      - [accusative, Körper,   Körper ]
+  - term: davon
+    definition: (adv.) from it
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/17/De-davon.ogg
+  - term: die Substanz
+    definition: the substance
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/31/De-Substanz.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Substanz, Substanzen]
+      - [genitive,   Substanz, Substanzen]
+      - [dative,     Substanz, Substanzen]
+      - [accusative, Substanz, Substanzen]
+  - term: absondern
+    definition:
+      - to isolate
+      - to secrete
+      - to say
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e4/De-absondern2.ogg
+  - term: die Kraft
+    definition:
+      - the force
+      - the power
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/32/De-Kraft.ogg
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Kraft,    Kräfte ]
+      - [genitive,   Kraft,    Kräfte ]
+      - [dative,     Kraft,    Kräften]
+      - [accusative, Kraft,    Kräfte ]
+  - term: die Teilbarkeit
+    definition: the divisibility
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/ca/De-Teilbarkeit.ogg
+    declension:
+      - ["",         singular,    plural       ]
+      - [nominative, Teilbarkeit, Teilbarkeiten]
+      - [genitive,   Teilbarkeit, Teilbarkeiten]
+      - [dative,     Teilbarkeit, Teilbarkeiten]
+      - [accusative, Teilbarkeit, Teilbarkeiten]
+  - term: die Ündurchdringlichkeit
+    definition: the impenetrability
+    audio: https://www.verbformen.de/deklination/substantive/grundform/der_Undurchdringlichkeit.mp3
+    declension:
+      - ["",         singular,             plural]
+      - [nominative, Undurchdringlichkeit, N/A   ]
+      - [genitive,   Undurchdringlichkeit, N/A   ]
+      - [dative,     Undurchdringlichkeit, N/A   ]
+      - [accusative, Undurchdringlichkeit, N/A   ]
+  - term: die Härte
+    definition: the hardness
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/aa/De-H%C3%A4rte.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Härte,    Härten]
+      - [genitive,   Härte,    Härten]
+      - [dative,     Härte,    Härten]
+      - [accusative, Härte,    Härten]
+  - term: die Farbe
+    definition: the color
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/2e/De-Farbe.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Farbe,    Farben]
+      - [genitive,   Farbe,    Farben]
+      - [dative,     Farbe,    Farben]
+      - [accusative, Farbe,    Farben]
+  - term: übrig
+    definition: (adj.) remaining
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/5a/De-%C3%BCbrig.ogg
+  - term: die Ausdehnung
+    definition: the extension
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/36/De-Ausdehnung.ogg
+    declension:
+      - ["",         singular,   plural      ]
+      - [nominative, Ausdehnung, Ausdehnungen]
+      - [genitive,   Ausdehnung, Ausdehnungen]
+      - [dative,     Ausdehnung, Ausdehnungen]
+      - [accusative, Ausdehnung, Ausdehnungen]
+  - term: der Sinn
+    definition:
+      - the sense
+      - the meaning
+      - the idea
+      - the mind
+      - the consciousness
+      - the feeling
+    audio: https://www.verbformen.de/deklination/substantive/grundform/der_Sinn.mp3
+  - term: bloß
+    definition: (adj.) mere
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/ec/De-blo%C3%9F.ogg
+  - term: stattfinden
+    definition: to take place
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/54/De-stattfinden.ogg
