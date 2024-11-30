@@ -2066,6 +2066,26 @@ vocabulary:
     definition: (female) trader
   - term: der Kranker
     definition: (adjectival noun) the sick person
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/3e/De-Kranker.ogg
+    declension:
+      strong:
+        - ["",         singular, plural]
+        - [nominative, Kranker, Kranke]
+        - [genitive,   Kranken, Kranker]
+        - [dative,     Krankem, Kranken]
+        - [accusative, Kranken, Kranke]
+      weak:
+        - ["",         singular, plural ]
+        - [nominative, Kranke,   Kranken]
+        - [genitive,   Kranken,  Kranken]
+        - [dative,     Kranken,  Kranken]
+        - [accusative, Kranken,  Kranken]
+      mixed:
+        - ["",         singular, plural ]
+        - [nominative, Kranker,  Kranken]
+        - [genitive,   Kranken,  Kranken]
+        - [dative,     Kranken,  Kranken]
+        - [accusative, Kranken,  Kranken]
   - term: der Krankenpfleger
     definition: (male) the nurse
     declension:
