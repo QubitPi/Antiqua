@@ -2125,7 +2125,8 @@ vocabulary:
       - [dative,     Mann,            Männer]
       - [accusative, Mann,            Männer]
   - term: hoffentlich
-    definition: hopefully
+    definition: (ad.) hopefully
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/dd/De-hoffentlich.ogg
   - term: ach so
     definition: I see
   - term: der Beruf
