@@ -3841,6 +3841,18 @@ vocabulary:
   - term: dauern
     definition: to last
     audio: https://www.verbformen.de/konjugation/infinitiv/dauern.mp3
+  - term: warm
+    definition: (adj.) warm
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/04/De-warm.ogg
+  - term: die Verbindung
+    definition: connection
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f4/De-Verbindung.ogg
+    declension:
+      - ["",         singular,   plural      ]
+      - [nominative, Verbindung, Verbindungen]
+      - [genitive,   Verbindung, Verbindungen]
+      - [dative,     Verbindung, Verbindungen]
+      - [accusative, Verbindung, Verbindungen]
 
 
 
@@ -5413,3 +5425,40 @@ vocabulary:
   - term: stattfinden
     definition: to take place
     audio: https://upload.wikimedia.org/wikipedia/commons/5/54/De-stattfinden.ogg
+  - term: das Prinzip
+    definition: the principle
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/d7/De-Prinzip.ogg
+    declension:
+      - ["",         singular, plural                            ]
+      - [nominative, Prinzip,  "Prinzipien, Prinzipe, Prinzipia" ]
+      - [genitive,   Prinzips, "Prinzipien, Prinzipe, Prinzipia" ]
+      - [dative,     Prinzip,  "Prinzipien, Prinzipen, Prinzipia"]
+      - [accusative, Prinzip,  "Prinzipien, Prinzipe, Prinzipia" ]
+  - term: solch
+    definition: (pron.) such
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e8/De-solch.ogg
+  - term: ausmachen
+    definition:
+      - (transitive) to turn off
+      - (transitive) to put out
+      - (transitive or reflexive)to settle on
+      - (intransitive) to make a difference
+      - (intransitive) to represent
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/85/De-ausmachen.ogg
+  - term: der Gegensatz
+    definition:
+      - opposition
+      - conflict
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/4c/De-Gegensatz.ogg
+  - term: enthalten
+    definition: to contain
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/a6/De-enthalten.ogg
+  - term: die Logik
+    definition: the logic
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/49/De-Logik.ogg
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Logik,    Logiken]
+      - [genitive,   Logik,    Logiken]
+      - [dative,     Logik,    Logiken]
+      - [accusative, Logik,    Logiken]
