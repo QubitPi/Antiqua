@@ -31,7 +31,6 @@ env:
 jobs:
   cancel-previous:
     name: Cancel Previous Runs In Order to Allocate Action Resources Immediately for Current Run
-    if: github.ref != 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - name: Cancel previous
