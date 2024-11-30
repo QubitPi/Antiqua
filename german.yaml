@@ -2088,6 +2088,7 @@ vocabulary:
         - [accusative, Kranken,  Kranken]
   - term: der Krankenpfleger
     definition: (male) the nurse
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/99/De-Krankenpfleger.ogg
     declension:
       - ["",         singular,        plural         ]
       - [nominative, Krankenpfleger,  Krankenpfleger ]
@@ -2098,6 +2099,7 @@ vocabulary:
     definition:
       - the sister
       - the nurse
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/91/De-Schwester2.ogg
     declension:
       - ["",         singular,  plural    ]
       - [nominative, Schwester, Schwestern]
