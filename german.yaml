@@ -2131,6 +2131,7 @@ vocabulary:
     definition: I see
   - term: der Beruf
     definition: the job
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e8/De-Beruf.ogg
     declension:
       - ["",         singular,          plural ]
       - [nominative, Beruf,             Berufe ]
