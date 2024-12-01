@@ -5264,6 +5264,7 @@ vocabulary:
     definition:
       - (adv.) through it
       - (adv.) thus
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/5a/De-dadurch.ogg
   - term: möglich
     definition: (adj.) possible
   - term: das Gemüt
@@ -5507,6 +5508,9 @@ vocabulary:
       - to secrete
       - to say
     audio: https://upload.wikimedia.org/wikipedia/commons/e/e4/De-absondern2.ogg
+  - term: isolieren
+    definition: to isolate
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f2/De-isolieren.ogg
   - term: die Kraft
     definition:
       - the force
@@ -5618,3 +5622,11 @@ vocabulary:
       - [genitive,   Logik,    Logiken]
       - [dative,     Logik,    Logiken]
       - [accusative, Logik,    Logiken]
+  - term: zuerst
+    definition: (adv.) first
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/c9/De-zuerst.ogg
+  - term: damit
+    definition:
+      - (conj.) so that
+      - (conj.) in order that
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f0/De-damit3.ogg
