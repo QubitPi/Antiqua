@@ -2518,6 +2518,7 @@ vocabulary:
     definition: to cook
   - term: lernen
     definition: to learn
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/37/De-lernen2.ogg
   - term: kennen
     definition: to know
   - term: bringen
@@ -2723,6 +2724,7 @@ vocabulary:
     definition: lots of people
   - term: das Picknick
     definition: the picnic
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/17/De-Picknick.ogg
     declension:
       - ["",         singular,  plural                 ]
       - [nominative, Picknick,  "Picknicke, Picknicks" ]
@@ -3876,6 +3878,45 @@ vocabulary:
       - [genitive,   Verbindung, Verbindungen]
       - [dative,     Verbindung, Verbindungen]
       - [accusative, Verbindung, Verbindungen]
+  - term: das Bild
+    definition: the image
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/a6/De-Bild2.ogg
+    declension:
+      - ["",         singular,        plural ]
+      - [nominative, Bild,            Bilder ]
+      - [genitive,   "Bildes, Bilds", Bilder ]
+      - [dative,     Bild,            Bildern]
+      - [accusative, Bild,            Bilder ]
+  - term: passen
+    definition: to fit
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/19/De-passen.ogg
+  - term: das Krankenhaus
+    definition: the hospital
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/fc/De-Krankenhaus2.ogg
+    declension:
+      - ["",         singular,      plural        ]
+      - [nominative, Krankenhaus,   Krankenhäuser ]
+      - [genitive,   Krankenhauses, Krankenhäuser ]
+      - [dative,     Krankenhaus,   Krankenhäusern]
+      - [accusative, Krankenhaus,   Krankenhäuser ]
+  - term: die Blume
+    definition: the flower
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/93/De-Blume2.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Blume,    Blumen]
+      - [genitive,   Blume,    Blumen]
+      - [dative,     Blume,    Blumen]
+      - [accusative, Blume,    Blumen]
+  - term: das Examen
+    definition: the exam
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/8d/De-Examen.ogg
+    declension:
+      - ["",         singular, plural           ]
+      - [nominative, Examen,   "Examen, Examina"]
+      - [genitive,   Examens,  "Examen, Examina"]
+      - [dative,     Examen,   "Examen, Examina"]
+      - [accusative, Examen,   "Examen, Examina"]
 
 
 
