@@ -2782,6 +2782,7 @@ vocabulary:
       - [accusative, Roman,             Romane ]
   - term: nachher
     definition: (adv.) afterwards
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e7/De-nachher.ogg
   - term: tja
     definition:
       - well
@@ -3836,6 +3837,15 @@ vocabulary:
       - [genitive,   "Rezeptes, Rezepts", Rezepte ]
       - [dative,     Rezept,              Rezepten]
       - [accusative, Rezept,              Rezepte ]
+  - term: die Suppe
+    definition: the soup
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/ac/De-Suppe2.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Suppe,    Suppen]
+      - [genitive,   Suppe,    Suppen]
+      - [dative,     Suppe,    Suppen]
+      - [accusative, Suppe,    Suppen]
   - term: die Fleischsuppe
     definition: the beef soup
     audio: https://upload.wikimedia.org/wikipedia/commons/c/c8/De-Fleischsuppe.ogg
@@ -4284,8 +4294,18 @@ vocabulary:
       - [genitive,   Beziehung, Beziehungen]
       - [dative,     Beziehung, Beziehungen]
       - [accusative, Beziehung, Beziehungen]
+  - term: die Rasse
+    definition: the race
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/b7/De-Rasse.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Rasse,    Rassen]
+      - [genitive,   Rasse,    Rassen]
+      - [dative,     Rasse,    Rassen]
+      - [accusative, Rasse,    Rassen]
   - term: die Rassenschande
     definition: (Nazism, obsolete) the miscegenation
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/ee/De-Rassenschande.ogg
     declension:
       - ["",         singular,      plural]
       - [nominative, Rassenschande, N/A   ]
@@ -4962,6 +4982,77 @@ vocabulary:
       - to break
       - to tear
     audio: https://upload.wikimedia.org/wikipedia/commons/d/d1/De-rei%C3%9Fen2.ogg
+  - term: kommunistisch
+    definition: (adj.) communist
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/16/De-kommunistisch.ogg
+  - term: der Genosse
+    definition:
+      - (mostly in compunds) partner in something, mate
+      - (communism, socialism) comrade
+      - (German politics, outside of communist contexts) a member of SPD, the German social demoractic party
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/d6/De-Genosse.ogg
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Genosse,  Genossen]
+      - [genitive,   Genossen, Genossen]
+      - [dative,     Genossen, Genossen]
+      - [accusative, Genossen, Genossen]
+  - term: scheinen
+    definition: to shine
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/3c/De-scheinen.ogg
+  - term: die Überlegenheit
+    definition: the superiority
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/1e/De-%C3%9Cberlegenheit.ogg
+    declension:
+      - ["",         singular,      plural         ]
+      - [nominative, Überlegenheit, Überlegenheiten]
+      - [genitive,   Überlegenheit, Überlegenheiten]
+      - [dative,     Überlegenheit, Überlegenheiten]
+      - [accusative, Überlegenheit, Überlegenheiten]
+  - term: arisch
+    definition: (adj., Nazsim) Aryan
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/84/De-arisch.ogg
+  - term: begreifen
+    definition:
+      - to grasp
+      - to comprehend
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/87/De-begreifen.ogg
+  - term: das Geschenk
+    definition: the gift
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e3/De-Geschenk.ogg
+    declension:
+      - ["",         singular,                plural    ]
+      - [nominative, Geschenk,                Geschenke ]
+      - [genitive,   "Geschenkes, Geschenks", Geschenke ]
+      - [dative,     Geschenk,                Geschenken]
+      - [accusative, Geschenk,                Geschenke ]
+  - term: der Rest
+    definition: the rest
+    audio: https://www.verbformen.de/deklination/substantive/grundform/der_Rest.mp3
+    declension:
+      - ["",         singular,        plural]
+      - [nominative, Rest,            Reste ]
+      - [genitive,   "Restes, Rests", Reste ]
+      - [dative,     Rest,            Resten]
+      - [accusative, Rest,            Reste ]
+  - term: das Kalb
+    definition: the calf (young cow)
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e8/De-Kalb.ogg
+    declension:
+      - ["",         singular,        plural ]
+      - [nominative, Kalb,            Kälber ]
+      - [genitive,   "Kalbes, Kalbs", Kälber ]
+      - [dative,     Kalb,            Kälbern]
+      - [accusative, Kalb,            Kälber ]
+  - term: das Schnittchen
+    definition: the open sandwich
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/71/De-Schnittchen.ogg
+    declension:
+      - ["",         singular,     plural     ]
+      - [nominative, Schnittchen,  Schnittchen]
+      - [genitive,   Schnittchens, Schnittchen]
+      - [dative,     Schnittchen,  Schnittchen]
+      - [accusative, Schnittchen,  Schnittchen]
 
 
 
