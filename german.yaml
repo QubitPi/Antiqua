@@ -1401,6 +1401,7 @@ vocabulary:
     definition:
       - the ice
       - (Germany, Austria) the ice cream
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/dc/De-Eis.ogg
     declension:
       - ["",         singular, plural      ]
       - [nominative, Eis,      "Eis, Eise" ]
