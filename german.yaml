@@ -1427,6 +1427,7 @@ vocabulary:
       - [accusative, Wasser,   "Wasser, Wässer"  ]
   - term: das Mineralwasser
     definition: the mineral water
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f2/De-Mineralwasser.ogg
     declension:
       - ["",         singular,       plural                          ]
       - [nominative, Mineralwasser,  "Mineralwässer, Mineralwasser"  ]
