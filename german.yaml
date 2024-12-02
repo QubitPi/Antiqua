@@ -1354,6 +1354,7 @@ vocabulary:
       - [accusative, Gemüsesuppe, Gemüsesuppen]
   - term: die Milch
     definition: the milk
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/58/De-Milch2.ogg
     declension:
       - ["",         singular, plural           ]
       - [nominative, Milch,    "Milchen, Milche"]
