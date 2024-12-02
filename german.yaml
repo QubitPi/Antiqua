@@ -1336,6 +1336,7 @@ vocabulary:
       - [accusative, N/A,      Pommes frites]
   - term: die Zwiebelsuppe
     definition: the onion soup
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/27/De-Zwiebelsuppe.ogg
     declension:
       - ["",         singular,     plural       ]
       - [nominative, Zwiebelsuppe, Zwiebelsuppen]
