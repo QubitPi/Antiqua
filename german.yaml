@@ -1418,6 +1418,7 @@ vocabulary:
       - [accusative, Bier,            "Biere, Bier"  ]
   - term: das Wasser
     definition: the water
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e5/De-Wasser3.ogg
     declension:
       - ["",         singular, plural            ]
       - [nominative, Wasser,   "Wasser, Wässer"  ]
