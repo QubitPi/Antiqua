@@ -1302,6 +1302,7 @@ vocabulary:
       - [accusative, Bratwurst, Bratwürste ]
   - term: die Pizza
     definition: the pizza
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/85/De-Pizza3.ogg
     declension:
       - ["",         singular, plural          ]
       - [nominative, Pizza,    "Pizzen, Pizzas"]
