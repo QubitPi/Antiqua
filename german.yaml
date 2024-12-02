@@ -757,6 +757,15 @@ vocabulary:
     audio: https://upload.wikimedia.org/wikipedia/commons/1/15/De-verstehen2.ogg
   - term: studieren
     definition: to study
+  - term: die Familie
+    definition: the family
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/fe/De-Familie2.ogg
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Familie,  Familien]
+      - [genitive,   Familie,  Familien]
+      - [dative,     Familie,  Familien]
+      - [accusative, Familie,  Familien]
   - term: der Familienstand
     definition: family status
     declension:
@@ -5059,6 +5068,146 @@ vocabulary:
       - [genitive,   Schnittchens, Schnittchen]
       - [dative,     Schnittchen,  Schnittchen]
       - [accusative, Schnittchen,  Schnittchen]
+  - term: salutieren
+    definition: to salute
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/cb/De-salutieren2.ogg
+  - term: freiwillig
+    definition: (adj.) voluntary
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/65/De-freiwillig.ogg
+  - term: der Kampf
+    definition:
+      - the struggle
+      - the fight
+      - the battle
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/24/De-Kampf.ogg
+    declension:
+      - ["",         singular,          plural
+      ]
+      - [nominative, Kampf,             Kämpfe ]
+      - [genitive,   "Kampfes, Kampfs", Kämpfe ]
+      - [dative,     Kampf,             Kämpfen]
+      - [accusative, Kampf,             Kämpfe ]
+  - term: internationale
+    definition: (adj.) international
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/2f/De-internationale.ogg
+  - term: die Finanz
+    definition: the finance
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/26/De-Finanz.ogg
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Finanz,   Finanzen]
+      - [genitive,   Finanz,   Finanzen]
+      - [dative,     Finanz,   Finanzen]
+      - [accusative, Finanz,   Finanzen]
+  - term: das Judentum
+    definition: the Judaism
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/42/De-Judentum.ogg
+    declension:
+      - ["",         singular,                plural     ]
+      - [nominative, Judentum,                Judentümer ]
+      - [genitive,   "Judentumes, Judentums", Judentümer ]
+      - [dative,     Judentum,                Judentümern]
+      - [accusative, Judentum,                Judentümer ]
+  - term: genügen
+    definition: to suffice
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/3d/De-gen%C3%BCgen.oga
+  - term: der Vorgesetzter
+    definition:
+      - the boss
+      - the superior
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/de/De-Vorgesetzter.ogg
+    declension:
+      strong:
+        - ["",         singular,     plural      ]
+        - [nominative, Vorgesetzter, Vorgesetzte ]
+        - [genitive,   Vorgesetzten, Vorgesetzter]
+        - [dative,     Vorgesetztem, Vorgesetzten]
+        - [accusative, Vorgesetzten, Vorgesetzte ]
+      weak:
+        - ["",         singular,     plural      ]
+        - [nominative, Vorgesetzte,  Vorgesetzten]
+        - [genitive,   Vorgesetzten, Vorgesetzten]
+        - [dative,     Vorgesetzten, Vorgesetzten]
+        - [accusative, Vorgesetzten, Vorgesetzten]
+      mixed:
+        - ["",         singular,     plural      ]
+        - [nominative, Vorgesetzter, Vorgesetzten]
+        - [genitive,   Vorgesetzten, Vorgesetzten]
+        - [dative,     Vorgesetzten, Vorgesetzten]
+        - [accusative, Vorgesetzten, Vorgesetzten]
+  - term: über
+    definition:
+      - above
+      - about
+      - via
+      - across
+      - during
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/cd/De-%C3%BCber3.ogg
+  - term: schützen
+    definition: to defend
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e7/De-sch%C3%BCtzen2.ogg
+  - term: darum
+    definition:
+      - (adv.) around it
+      - (adv.) therefore
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/0d/De-darum.ogg
+  - term: bitten
+    definition: to request
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/ff/De-bitten.ogg
+  - term: der Trupp
+    definition: the troop
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/74/De-Trupp.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Trupp,    Trupps]
+      - [genitive,   Trupps,   Trupps]
+      - [dative,     Trupp,    Trupps]
+      - [accusative, Trupp,    Trupps]
+  - term: einteilen
+    definition: to divide up
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/3e/De-einteilen.ogg
+  - term: die Kerbe
+    definition: notch
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/23/De-Kerbe.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Kerbe,    Kerben]
+      - [genitive,   Kerbe,    Kerben]
+      - [dative,     Kerbe,    Kerben]
+      - [accusative, Kerbe,    Kerben]
+  - term: der Kolben
+    definition: (weaponry) the butt of a rifle
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/ea/De-Kolben.ogg
+  - term: schneiden
+    definition: to cut
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/6e/De-schneiden2.ogg
+  - term: der Abschuss
+    definition:
+      - the launch
+      - the firing
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/d4/De-Abschuss.ogg
+    declension:
+      - ["",         singular,   plural    ]
+      - [nominative, Abschuss,   Abschüsse ]
+      - [genitive,   Abschusses, Abschüsse ]
+      - [dative,     Abschuss,   Abschüssen]
+      - [accusative, Abschuss,   Abschüsse ]
+  - term: leihen
+    definition:
+      - to borrow
+      - to lend
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/2d/De-leihen.ogg
+  - term: das Gewehr
+    definition:
+      - the rifle
+      - the weapon
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/84/De-Gewehr.ogg
+    declension:
+      - ["",         singular,              plural  ]
+      - [nominative, Gewehr,                Gewehre ]
+      - [genitive,   "Gewehres, Gewehrs",   Gewehre ]
+      - [dative,     Gewehr,                Gewehren]
+      - [accusative, Gewehr,                Gewehre ]
 
 
 
