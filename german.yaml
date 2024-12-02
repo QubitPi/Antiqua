@@ -1310,7 +1310,7 @@ vocabulary:
       - [dative,     Pizza,    "Pizzen, Pizzas"]
       - [accusative, Pizza,    "Pizzen, Pizzas"]
   - term: die Pasta
-    definition: (food) the pasta
+    definition: the pasta
     declension:
       - ["",         singular, plural]
       - [nominative, Pasta,    N/A   ]
@@ -1319,6 +1319,7 @@ vocabulary:
       - [accusative, Pasta,    N/A   ]
   - term: die Pommes
     definition: French fries
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/a6/De-Pommes.ogg
     declension:
       - ["",         singular, plural]
       - [nominative, Pommes,   Pommes]
