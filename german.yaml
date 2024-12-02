@@ -1345,6 +1345,7 @@ vocabulary:
       - [accusative, Zwiebelsuppe, Zwiebelsuppen]
   - term: die Gemüsesuppe
     definition: the vegetable soup
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/29/De-Gem%C3%BCsesuppe.ogg
     declension:
       - ["",         singular,    plural      ]
       - [nominative, Gemüsesuppe, Gemüsesuppen]
