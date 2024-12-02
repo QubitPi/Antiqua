@@ -1363,6 +1363,7 @@ vocabulary:
       - [accusative, Milch,    "Milchen, Milche"]
   - term: die Sahne
     definition: the cream
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/fd/De-Sahne.ogg
     declension:
       - ["",         singular, plural]
       - [nominative, Sahne,    N/A   ]
