@@ -1372,6 +1372,7 @@ vocabulary:
       - [accusative, Sahne,    N/A   ]
   - term: die Limonade
     definition: the lemonade
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/bd/De-Limonade.ogg
     declension:
       - ["",         singular, plural   ]
       - [nominative, Limonade, Limonaden]
