@@ -1381,6 +1381,7 @@ vocabulary:
       - [accusative, Limonade, Limonaden]
   - term: die Cola (northern and central Germany)
     definition: the Coke
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/73/De-Cola.ogg
     declension:
       - ["",         singular, plural (kinds or brands), plural (quantities)]
       - [nominative, Cola,     Colas,                    Cola               ]
@@ -1389,6 +1390,7 @@ vocabulary:
       - [accusative, Cola,     Colas,                    Cola               ]
   - term: das Cola (southern Germany, Austria, and Switzerland)
     definition: the Coke
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/73/De-Cola.ogg
     declension:
       - ["",         singular,      plural (kinds or brands), plural (quantities)]
       - [nominative, Cola,          Colas,                    Cola               ]
