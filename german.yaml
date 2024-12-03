@@ -2543,6 +2543,7 @@ vocabulary:
     audio: https://upload.wikimedia.org/wikipedia/commons/3/37/De-lernen2.ogg
   - term: kennen
     definition: to know
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/b1/De-kennen2.ogg
   - term: bringen
     definition: to bring
   - term: surfen
@@ -3141,6 +3142,9 @@ vocabulary:
   - term: fern
     definition: (adj.) remote
     audio: https://upload.wikimedia.org/wikipedia/commons/8/84/De-fern2.ogg
+  - term: normal
+    definition: (adj.) normal
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/79/De-normal.ogg
   - term: normalerweise
     definition: (adv.) normally
     audio: https://upload.wikimedia.org/wikipedia/commons/b/bb/De-normalerweise.ogg
@@ -3579,6 +3583,7 @@ vocabulary:
     definition:
       - to do
       - to perform
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/60/De-tun.ogg
   - term: nah
     definition: (adj.) near
   - term: der Geburtstag
@@ -5220,6 +5225,120 @@ vocabulary:
       - [genitive,   "Gewehres, Gewehrs",   Gewehre ]
       - [dative,     Gewehr,                Gewehren]
       - [accusative, Gewehr,                Gewehre ]
+  - term: sauber
+    definition:
+      - (adj.) clean
+      - (adj.) neat
+      - (informal) good
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/81/De-sauber.ogg
+  - term: Eltern
+    definition: (plural only) parents
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/35/De-Eltern.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, N/A,      Eltern]
+      - [genitive,   N/A,      Eltern]
+      - [dative,     N/A,      Eltern]
+      - [accusative, N/A,      Eltern]
+  - term: benachrichtigen
+    definition: to notify
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/db/De-benachrichtigen3.ogg
+  - term: vollkommen
+    definition:
+      - (adj.) perfect
+      - (adj.) complete
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f8/De-vollkommen.ogg
+  - term: fanatisch
+    definition: (adj.) fanatical
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/31/De-fanatisch.ogg
+  - term: niemals
+    definition: (adv.) never
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/ce/De-niemals.ogg
+  - term: gewinnen
+    definition: to win
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f8/De-gewinnen2.ogg
+  - term: erschießen
+    definition: to shoot dead
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/4e/De-erschie%C3%9Fen.ogg
+  - term: der Kriegsgefangener
+    definition: the prisoner of war (POW)
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/4a/De-Kriegsgefangener.ogg
+    declension:
+      strong:
+        - ["",         singular,         plural]
+        - [nominative, Kriegsgefangener, Kriegsgefangene ]
+        - [genitive,   Kriegsgefangenen, Kriegsgefangener]
+        - [dative,     Kriegsgefangenem, Kriegsgefangenen]
+        - [accusative, Kriegsgefangenen, Kriegsgefangene ]
+      weak:
+        - ["",         singular,         plural          ]
+        - [nominative, Kriegsgefangene,  Kriegsgefangenen]
+        - [genitive,   Kriegsgefangenen, Kriegsgefangenen]
+        - [dative,     Kriegsgefangenen, Kriegsgefangenen]
+        - [accusative, Kriegsgefangenen, Kriegsgefangenen]
+      mixed:
+        - ["",         singular, plural]
+        - [nominative, Kriegsgefangener, Kriegsgefangenen]
+        - [genitive,   Kriegsgefangenen, Kriegsgefangenen]
+        - [dative,     Kriegsgefangenen, Kriegsgefangenen]
+        - [accusative, Kriegsgefangenen, Kriegsgefangenen]
+  - term: der Befehl
+    definition: the command
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/ac/De-Befehl.ogg
+    declension:
+      - ["",         singular,            plural  ]
+      - [nominative, Befehl,              Befehle ]
+      - [genitive,   "Befehles, Befehls", Befehle ]
+      - [dative,     Befehl,              Befehlen]
+      - [accusative, Befehl,              Befehle ]
+  - term: der Sowjet
+    definition: the Soviet
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/0d/De-Sowjet.ogg
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Sowjet,   Sowjets]
+      - [genitive,   Sowjets,  Sowjets]
+      - [dative,     Sowjet,   Sowjets]
+      - [accusative, Sowjet,   Sowjets]
+  - term: die Konvention
+    definition: the convention
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/06/De-Konvention.ogg
+    declension:
+      - ["",         singular,   plural      ]
+      - [nominative, Konvention, Konventionen]
+      - [genitive,   Konvention, Konventionen]
+      - [dative,     Konvention, Konventionen]
+      - [accusative, Konvention, Konventionen]
+  - term: die Genfer Konvention
+    definition: the Geneva Convention
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/0f/De-Genfer_Konvention.ogg
+  - term: unterschreiben
+    definition: to sign
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/6b/De-unterschreiben.ogg
+  - term: sofort
+    definition: (adv.) immediately
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/18/De-sofort.ogg
+  - term: exekutieren
+    definition: to execute (kill)
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f1/De-exekutieren.ogg
+  - term: die Weltanschauung
+    definition:
+      - the worldview
+      - the ideology
+      - the philosophy of life
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/34/De-Weltanschauung.ogg
+    declension:
+      - ["",         singular,       plural          ]
+      - [nominative, Weltanschauung, Weltanschauungen]
+      - [genitive,   Weltanschauung, Weltanschauungen]
+      - [dative,     Weltanschauung, Weltanschauungen]
+      - [accusative, Weltanschauung, Weltanschauungen]
+  - term: abseits
+    definition: (adv.) aside
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/aa/De-abseits.ogg
+  - term: verrohen
+    definition: to become brutal
+    audio: https://www.verbformen.de/konjugation/infinitiv/verrohen_ist.mp3
 
 
 
