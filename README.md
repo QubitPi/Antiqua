@@ -1,51 +1,89 @@
+---
+license: apache-2.0
+pretty_name: Wilhelm Vocabulary
+language:
+  - en
+  - de
+  - la
+  - grc
+configs:
+  - config_name: Graph Data
+    data_files:
+    - split: German
+      path: german-graph-data.jsonl
+    - split: Latin
+      path: latin-graph-data.jsonl
+    - split: AncientGreek
+      path: ancient-greek-graph-data.jsonl
+tags:
+  - Natural Language Processing
+  - NLP
+  - Vocabulary
+  - German
+  - Latin
+  - Ancient Greek
+  - Knowledge Graph
+size_categories:
+  - 1K<n<10K
+---
+
 Wilhelm Vocabulary
 ==================
+
+[![Hugging Face dataset badge]][Hugging Face dataset URL]
 
 [![Vocabulary count - German]][Docker Hub URL]
 [![Vocabulary count - Latin]][Docker Hub URL]
 [![Vocabulary count - Ancient Greek]][Docker Hub URL]
 [![Docker Hub][Docker Pulls Badge]][Docker Hub URL]
-
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Hugging Face sync status badge]][Hugging Face sync status URL]
-[![Hugging Face dataset badge]][Hugging Face dataset URL]
 [![Apache License Badge]][Apache License, Version 2.0]
 
 <!-- TOC -->
-
-- [Wilhelm Vocabulary](#wilhelm-vocabulary)
-  - [Docker](#docker)
-    - [Interesting Queries](#interesting-queries)
-  - [Data Format](#data-format)
-    - [Encoding Table in YAML](#encoding-table-in-yaml)
-  - [Data Pipeline](#data-pipeline)
-  - [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
-    - [Why Graph Database](#why-graph-database)
-    - [Base Schema](#base-schema)
-  - [Languages](#languages)
-    - [German](#german)
-      - [Pronoun](#pronoun)
-      - [Noun](#noun)
-    - [Ancient Greek](#ancient-greek)
-      - [Diacritic Mark Convention](#diacritic-mark-convention)
-      - [Pronoun](#pronoun-1)
-      - [Noun](#noun-1)
-      - [Adjective Declension](#adjective-declension)
-      - [Verb Conjugation](#verb-conjugation)
-    - [Latin](#latin)
-    - [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
-    - [Korean](#korean)
-  - [License](#license)
-
+* [Wilhelm Vocabulary](#wilhelm-vocabulary)
+  * [Development](#development)
+    * [Environment Setup](#environment-setup)
+    * [Installing Dependencies](#installing-dependencies)
+    * [Data Format](#data-format)
+    * [Encoding Table in YAML](#encoding-table-in-yaml)
+  * [Data Pipeline](#data-pipeline)
+  * [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
+    * [Why Graph Database](#why-graph-database)
+    * [Base Schema](#base-schema)
+  * [Languages](#languages)
+    * [German](#german)
+      * [Pronoun](#pronoun)
+      * [Noun](#noun)
+    * [Ancient Greek](#ancient-greek)
+      * [Diacritic Mark Convention](#diacritic-mark-convention)
+      * [Pronoun](#pronoun-1)
+      * [Noun](#noun-1)
+      * [Adjective Declension](#adjective-declension)
+      * [Verb Conjugation](#verb-conjugation)
+    * [Latin](#latin)
+    * [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
+    * [Korean](#korean)
+  * [License](#license)
 <!-- TOC -->
 
-__Wilhelm Vocabulary__ is the data that drives the [wilhelmlang.com](https://wilhelmlang.com/).
+__wilhelm-vocabulary__ is the data sources used for the flashcard contents on [wilhelmlang.com]. Specifically it's a
+datasource manually made from the accumulation of the daily language studies of [myself](https://github.com/Qubitpi).
 
-Docker
-------
+The data is available on 🤗 [Hugging Face Datasets][Hugging Face dataset URL]
 
-A Docker image has been made to allow us to explore the vocabulary in Neo4J browser backed by a Neo4J database in
-container. To get the image and run the container, simply do:
+```python
+from datasets import load_dataset
+dataset = load_dataset("QubitPi/wilhelm-vocabulary")
+```
+
+> [!TIP]
+> 
+> If `dataset = load_dataset("QubitPi/wilhelm-vocabulary")` throws an error, please upgrade the `datasets` package to
+> its _latest version_
+
+In addition, a Docker image has been made to allow us exploring the vocabulary in Neo4J browser backed by a Neo4J
+database. To get the image and run the container, simply do:
 
 ```console
 docker run \
@@ -70,10 +108,7 @@ docker run \
 
 ![Connecting to Neo4J Docker](docs/neo4j-docker-connect.png "Error loading neo4j-docker-connect.png")
 
-We have offered some queries that can be used to quickly explore our language data in the
-[next section](#interesting-queries)
-
-### Interesting Queries
+We have offered some queries that can be used to quickly explore the vocabulary in graph representations:
 
 - Search for all Synonyms: `MATCH (term:Term)-[r]-(synonym:Term) WHERE r.name = "synonym" RETURN term, r, synonym`
 - Finding all [gerunds](https://en.wiktionary.org/wiki/Appendix:Glossary#gerund):
@@ -104,14 +139,68 @@ We have offered some queries that can be used to quickly explore our language da
 
 - `MATCH (term:Term{label:'die Schwester'})  CALL apoc.path.expand(term, "LINK", null, 1, -1)  YIELD path  RETURN path, length(path) AS hops  ORDER BY hops;`
 
-Data Format
+Development
 -----------
 
-The data that serves [wilhelmlang.com](https://wilhelmlang.com/). They are written in YAML format, because
+### Environment Setup
+
+Get the source code:
+
+```console
+git clone git@github.com:QubitPi/wilhelm-vocabulary.git
+cd wilhelm-vocabulary
+```
+
+It is strongly recommended to work in an isolated environment. Install virtualenv and create an isolated Python
+environment by
+
+```console
+python3 -m pip install --user -U virtualenv
+python3 -m virtualenv .venv
+```
+
+To activate this environment:
+
+```console
+source .venv/bin/activate
+```
+
+or, on Windows
+
+```console
+./venv\Scripts\activate
+```
+
+> [!TIP]
+>
+> To deactivate this environment, use
+>
+> ```console
+> deactivate
+> ```
+
+### Installing Dependencies
+
+```console
+pip3 install -r requirements.txt
+```
+
+### Data Format
+
+The raw data is written in YAML format, because
 
 1. it is machine-readable so that it can be consumed quickly in data pipelines
 2. it is human-readable and, thus, easy to read and modify
 3. it supports multi-lines value which is very handy for language data
+
+The YAML data files are
+
+- [german.yaml](./german.yaml)
+- [latin.yaml](./latin.yaml)
+- [ancient-greek.yaml](./ancient-greek.yaml)
+
+These YAML files are then [transformed](huggingface/generate_datasets.py) to Hugging Face Datasets formats in
+[CI/CD](https://github.com/QubitPi/wilhelm-vocabulary/actions/workflows/ci-cd.yaml)
 
 ### Encoding Table in YAML
 
@@ -570,15 +659,17 @@ The use and distribution terms for [wilhelm-vocabulary]() are covered by the [Ap
 [Docker Pulls Badge]: https://img.shields.io/docker/pulls/jack20191124/wilhelm-vocabulary?style=for-the-badge&logo=docker&color=2596EC
 [Docker Hub URL]: https://hub.docker.com/r/jack20191124/wilhelm-vocabulary
 
-[Hugging Face dataset badge]: https://img.shields.io/badge/Hugging%20Face%20Dataset-wilhelm--vocabulary-FFD21E?style=for-the-badge&logo=huggingface&logoColor=white
+[Hugging Face dataset badge]: https://img.shields.io/badge/Datasets-wilhelm--vocabulary-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=6B7280
 [Hugging Face dataset URL]: https://huggingface.co/datasets/QubitPi/wilhelm-vocabulary
 
 [Hugging Face sync status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=Hugging%20Face%20Sync%20Up
 [Hugging Face sync status URL]: https://github.com/QubitPi/wilhelm-vocabulary/actions/workflows/ci-cd.yaml
 
-[GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=Database%20Loading
+[GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=CI/CD
 [GitHub workflow status URL]: https://github.com/QubitPi/wilhelm-vocabulary/actions/workflows/ci-cd.yaml
 
 [Vocabulary count - German]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2Fgerman%2Fcount&query=%24%5B0%5D.count&suffix=%20Words&style=for-the-badge&logo=neo4j&logoColor=white&label=German&color=4581C3
 [Vocabulary count - Latin]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2Flatin%2Fcount&query=%24%5B0%5D.count&suffix=%20Words&style=for-the-badge&logo=neo4j&logoColor=white&label=Latin&color=4581C3
 [Vocabulary count - Ancient Greek]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2FancientGreek%2Fcount&query=%24%5B0%5D.count&suffix=%20Words&style=for-the-badge&logo=neo4j&logoColor=white&label=Ancient%20Greek&color=4581C3
+
+[wilhelmlang.com]: https://wilhelmlang.com/

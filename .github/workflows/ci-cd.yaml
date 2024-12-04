@@ -45,13 +45,6 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actionshub/yamllint@main
 
-  markdown-lint:
-    name: Markdown Style Check
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actionshub/markdownlint@main
-
   linkChecker:
     name: Link Check
     runs-on: ubuntu-latest
@@ -62,97 +55,69 @@ jobs:
         with:
           fail: true
 
-  tests:
-    needs: [yaml-lint, markdown-lint, linkChecker]
+  code-style:
+    name: Python Code Style Check
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        language: [
-          {
-            name: German,
-            load-script: .github/load_german.py
-          },
-          {
-            name: Ancient Greek,
-            load-script: .github/load_ancient_greek.py
-          },
-          {
-            name: Latin,
-            load-script: .github/load_latin.py
-          },
-          {
-            name: all languages (race condition test ①),
-            load-script: .github/load_all_in_parallel.py
-          },
-          {
-            name: all languages (race condition test ②),
-            load-script: .github/load_all_in_parallel.py
-          },
-          {
-            name: all languages (race condition test ③),
-            load-script: .github/load_all_in_parallel.py
-          },
-          {
-            name: all languages (race condition test ④),
-            load-script: .github/load_all_in_parallel.py
-          },
-          {
-            name: all languages (race condition test ⑤),
-            load-script: .github/load_all_in_parallel.py
-          },
-          {
-            name: all languages (race condition test ⑥),
-            load-script: .github/load_all_in_parallel.py
-          },
-          {
-            name: all languages (race condition test ⑦),
-            load-script: .github/load_all_in_parallel.py
-          },
-          {
-            name: all languages (race condition test ⑧),
-            load-script: .github/load_all_in_parallel.py
-          },
-          {
-            name: all languages (race condition test ⑨),
-          },
-          {
-            name: all languages (race condition test ⑩),
-            load-script: .github/load_all_in_parallel.py
-          }
-        ]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: PEP 8 check
+        run: python setup.py pep8
+      - name: Check import orders
+        run: python setup.py isort
+
+  unit-tests:
+    name: Unit Tests
+    needs: [yaml-lint, linkChecker, code-style]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Run tests
+        run: python setup.py test
+
+  sync-to-huggingface-space:
+    needs: [yaml-lint, linkChecker, code-style]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          lfs: true
       - name: Set up Python ${{ env.PYTHON_VERSION }}
         uses: actions/setup-python@v4
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-      - name: Startup a Neo4J database
+      - name: Install dependencies
+        run: pip3 install -e .
+      - name: Generate Hugging Face Datasets
         run: |
-          docker run \
-              --publish=7474:7474 \
-              --publish=7687:7687 \
-              --env=NEO4J_AUTH=none \
-              --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes neo4j:${{ env.NEO4J_ENTERPRISE_VERSION }} &
-      - name: Wait for database to be ready
-        uses: iFaxity/wait-on-action@v1
-        with:
-          resource: http://localhost:7474
-      - name: Test loading ${{ matrix.language.name }}
+          cd huggingface
+          python3 ./generate_datasets.py
+      - name: Push to hub
+        if: github.ref == 'refs/heads/master'
         run: |
-          pip3 install --upgrade --force-reinstall wilhelm-python-sdk
-          python3 ${{ matrix.language.load-script }}
+          git config --global user.name "QubitPi"
+          git config --global user.email "jack20220723@gmail.com"
+
+          git lfs install
+          git lfs track "*-graph-data.jsonl"
+          git add *-graph-data.jsonl
+
+          git commit -m "Generate Hugging Face Datasets"
+          git push https://QubitPi:$HF_TOKEN@huggingface.co/datasets/QubitPi/wilhelm-vocabulary master:main -f
         env:
-          NEO4J_URI: ${{ env.NEO4J_URI }}
-          NEO4J_DATABASE: ${{ env.NEO4J_DATABASE }}
-          NEO4J_USERNAME: ${{ env.NEO4J_USERNAME }}
-          NEO4J_PASSWORD: ${{ env.NEO4J_PASSWORD }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
 
   docker:
-    name: Test Docker build and publish image to DockerHub
-    needs: [yaml-lint, markdown-lint, linkChecker]
+    name: Test Docker Build and Publish Data Image to DockerHub
+    needs: [sync-to-huggingface-space]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -177,10 +142,11 @@ jobs:
           resource: http://localhost:7474
       - name: Load all languages into the intermediate container
         run: |
-          pip3 install --upgrade --force-reinstall wilhelm-python-sdk
-          python3 .github/load_german.py
-          python3 .github/load_ancient_greek.py
-          python3 .github/load_latin.py
+          git clone https://github.com/QubitPi/wilhelm-data-loader.git ../wilhelm-data-loader
+          cd ../wilhelm-data-loader
+          pip3 install -r requirements.txt
+          pip3 install -e .
+          python3 wilhelm_vocabulary/load_all_in_parallel.py
         env:
           NEO4J_URI: ${{ env.NEO4J_URI }}
           NEO4J_DATABASE: ${{ env.NEO4J_DATABASE }}
@@ -215,78 +181,15 @@ jobs:
           repository: jack20191124/wilhelm-vocabulary
           readme-filepath: README.md
 
-  cleanup-neo4j:
+  triggering:
+    name: Triggering data model acceptance tests CI/CD
+    needs: [sync-to-huggingface-space]
     if: github.ref == 'refs/heads/master'
-    needs: [tests, docker]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Trigger wilhelm-data-loader to load all vocabularies into graph database
+        uses: peter-evans/repository-dispatch@v2
         with:
-          fetch-depth: 0
-      - name: Set up Python ${{ env.PYTHON_VERSION }}
-        uses: actions/setup-python@v4
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-      - name: Cleanup
-        run: |
-          pip3 install --upgrade --force-reinstall wilhelm-python-sdk
-          python3 .github/cleanup_neo4j.py
-        env:
-          NEO4J_URI: ${{ secrets.NEO4J_URI }}
-          NEO4J_DATABASE: ${{ secrets.NEO4J_DATABASE }}
-          NEO4J_USERNAME: ${{ secrets.NEO4J_USERNAME }}
-          NEO4J_PASSWORD: ${{ secrets.NEO4J_PASSWORD }}
-
-  load-vocabulary:
-    name: Load ${{ matrix.language.name }} vocabularies
-    if: github.ref == 'refs/heads/master'
-    needs: cleanup-neo4j
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        language: [
-          {
-            name: German,
-            load-script: .github/load_german.py
-          },
-          {
-            name: Ancient Greek,
-            load-script: .github/load_ancient_greek.py
-          },
-          {
-            name: Latin,
-            load-script: .github/load_latin.py
-          }
-        ]
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - name: Set up Python ${{ env.PYTHON_VERSION }}
-        uses: actions/setup-python@v4
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-      - name: Load ${{ matrix.language.name }}
-        run: |
-          pip3 install --upgrade --force-reinstall wilhelm-python-sdk
-          python3 ${{ matrix.language.load-script }}
-        env:
-          NEO4J_URI: ${{ secrets.NEO4J_URI }}
-          NEO4J_DATABASE: ${{ secrets.NEO4J_DATABASE }}
-          NEO4J_USERNAME: ${{ secrets.NEO4J_USERNAME }}
-          NEO4J_PASSWORD: ${{ secrets.NEO4J_PASSWORD }}
-
-  sync-to-huggingface-space:
-    if: github.ref == 'refs/heads/master'
-    needs: tests
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          lfs: true
-      - name: Push to hub
-        run: git push https://QubitPi:$HF_TOKEN@huggingface.co/datasets/QubitPi/wilhelm-vocabulary master:main -f
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          token: ${{ secrets.QUBITPI_DOWNSTREAM_CICD_TRIGGERING_TOKEN }}
+          repository: QubitPi/wilhelm-data-loader
+          event-type: wilhelm-vocabulary-changes

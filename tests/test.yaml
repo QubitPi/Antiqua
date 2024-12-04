@@ -1,0 +1,9 @@
+vocabulary:
+  - term: "null"
+    definition: 0
+  - term: eins
+    definition: 1
+  - term: Guten Tag
+    definition: Good day
+  - term: Hallo
+    definition: Hello

@@ -11,8 +11,11 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-from wilhelm_python_sdk.latin_loader import load_into_database
+import generate_ancient_greek_dataset
+import generate_german_dataset
+import generate_latin_dataset
 
 if __name__ == "__main__":
-    load_into_database("latin.yaml")
+    generate_german_dataset.generate_dataset("../german.yaml", "../german-graph-data.jsonl")
+    generate_latin_dataset.generate_dataset("../latin.yaml", "../latin-graph-data.jsonl")
+    generate_ancient_greek_dataset.generate_dataset("../ancient-greek.yaml", "../ancient-greek-graph-data.jsonl")
