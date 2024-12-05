@@ -3553,6 +3553,7 @@ vocabulary:
       - to attach
   - term: das Wort
     definition: the word
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/7c/De-Wort2.ogg
     declension:
       - ["",         singular,        plural           ]
       - [nominative, Wort,            "Wörter, Worte"  ]
@@ -3959,6 +3960,18 @@ vocabulary:
       - [genitive,   Examens,  "Examen, Examina"]
       - [dative,     Examen,   "Examen, Examina"]
       - [accusative, Examen,   "Examen, Examina"]
+  - term: benutzen
+    definition: to use
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/da/De-benutzen2.ogg
+  - term: die Übung
+    definition: the practice
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/7f/De-%C3%9Cbung.ogg
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Übung,    Übungen]
+      - [genitive,   Übung,    Übungen]
+      - [dative,     Übung,    Übungen]
+      - [accusative, Übung,    Übungen]
 
 
 
@@ -4137,6 +4150,11 @@ vocabulary:
       - [ accusative, Viertel,  Viertel ]
   - term: aufwachsen
     definition: to grow up
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f0/De-aufwachsen.ogg
+    verbformen:
+      video: https://youtu.be/LCtUrSn030A
+      conjugation: https://www.verbformen.com/conjugation/aufwachsen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/aufwachsen.pdf
   - term: der Erwachsener
     definition: (male) the adult
   - term: die Erwachsene
@@ -4789,6 +4807,7 @@ vocabulary:
     definition:
       - (adj.) only
       - (adj.) unique
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/c5/De-einzig.ogg
   - term: gewonnen
     definition:
       - (adj.) gained
@@ -5655,6 +5674,11 @@ vocabulary:
       - to supply
       - to provide
       - to research
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/ee/De-liefern.ogg
+    verbformen:
+      video: https://youtu.be/-5h4JgcuSc4
+      conjugation: https://www.verbformen.com/conjugation/liefern.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/liefern.pdf
   - term: der Begriff
     definition:
       - the term
@@ -5662,6 +5686,13 @@ vocabulary:
       - the idea
       - the conception
       - the perception
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/c2/De-Begriff.ogg
+    declension:
+      - ["",         singular,              plural   ]
+      - [nominative, Begriff,               Begriffe ]
+      - [genitive,   "Begriffes, Begriffs", Begriffe ]
+      - [dative,     Begriff,               Begriffen]
+      - [accusative, Begriff,               Begriffe ]
   - term: zuletzt
     definition: (adv.) finally
   - term: mithin
@@ -5915,3 +5946,15 @@ vocabulary:
       - (conj.) so that
       - (conj.) in order that
     audio: https://upload.wikimedia.org/wikipedia/commons/f/f0/De-damit3.ogg
+  - term: zweitens
+    definition: (adv.) secondly
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/9a/De-zweitens.ogg
+  - term: abtrennen
+    definition:
+      - to cut off
+      - to separate
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/d9/De-abtrennen.ogg
+    verbformen:
+      video: https://youtu.be/eC5wJ5kA6js
+      conjugation: https://www.verbformen.com/conjugation/abtrennen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/abtrennen.pdf

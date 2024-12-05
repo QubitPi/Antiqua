@@ -55,6 +55,7 @@ Wilhelm Vocabulary
     * [German](#german)
       * [Pronoun](#pronoun)
       * [Noun](#noun)
+      * [Verb](#verb)
     * [Ancient Greek](#ancient-greek)
       * [Diacritic Mark Convention](#diacritic-mark-convention)
       * [Pronoun](#pronoun-1)
@@ -68,7 +69,11 @@ Wilhelm Vocabulary
 <!-- TOC -->
 
 __wilhelm-vocabulary__ is the data sources used for the flashcard contents on [wilhelmlang.com]. Specifically it's a
-datasource manually made from the accumulation of the daily language studies of [myself](https://github.com/Qubitpi).
+datasource manually made from the accumulation of the daily language studies of [myself](https://github.com/Qubitpi):
+
+- [German](./german.yaml)
+- [Latin](./latin.yaml)
+- [Ancient Greek](./ancient-greek.yaml)
 
 The data is available on 🤗 [Hugging Face Datasets][Hugging Face dataset URL]
 
@@ -415,6 +420,69 @@ For example:
 >     - [dative,     ████████, ██████]
 >     - [accusative, ████████, ██████]
 > ```
+
+#### Verb
+
+The conjugation is the inflection paradigm for a German verb. Those with `conjugation` field denotes a __verb__; its
+definition also begins with an _indefinite form_, i.e. "to ..."
+
+The reason for choosing [verbformen.com] is because of its comprehensive inflection info of German vocabulary provided.
+
+There are __3__ persons, __2__ numbers, and __4__ moods (indicative, conditional, imperative and subjunctive) to
+consider in conjugation. There are __6__ tenses in German: the present and past are conjugated, and there are four
+compound tenses. There are two categories of verbs in German:
+[weak and strong](https://en.wikipedia.org/wiki/Germanic_strong_verb)[^1]. In addition,
+[strong verbs are grouped into 7 "classes"](https://en.wikipedia.org/wiki/Germanic_strong_verb#Strong_verb_classes)
+
+[^1]: https://en.wikipedia.org/wiki/German_verbs#Conjugation
+
+The conjugation table of German verb on Wiktionary is hard to interpret for German beginner.
+[Netzverb Dictionary](https://www.verbformen.com/) is the best German dictionary _targeting the vocabulary inflections_.
+[Search for "aufwachsen"](https://www.verbformen.com/?w=aufwachsen) and we will see much more intuitive conjugation
+tables listed.
+
+This pretty much serves our needs, but what makes Netzverb unpenetrable by other alternatives is that _every_ verb comes
+with
+
+1. [A printable version that looks much better than the browser's Control+P export](https://www.verbformen.com/conjugation/aufwachsen.pdf)
+
+   - There is also a "Sentences with German verb aufwachsen" section with a
+     [link](https://www.verbformen.com/conjugation/examples/aufwachsen.htm) that offer a fruitful number of conjugated
+     examples getting us familiar with the inflections of the verb
+
+2. [An on-the-fly generated flashcard sheet](https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/aufwachsen.pdf)
+   which allows us to make a better usage of our random free time
+3. [A YouTube video that offers audios of almost every conjugated form](https://www.youtube.com/watch?v=LCtUrSn030A),
+   which helps with pronunciations a lot
+
+The entry for a German verb, hence, has an extra `verbformen` field that includes the links to the 3 pieces of
+information above
+
+```yaml
+- term:
+  definition:
+  audio:
+  verbformen:
+    video: 
+    conjugation:
+    flashcards:
+```
+
+For example:
+
+```yaml
+- term: aufwachsen
+  definition: to grow up
+  audio: https://upload.wikimedia.org/wikipedia/commons/f/f0/De-aufwachsen.ogg
+  verbformen:
+    video: https://youtu.be/LCtUrSn030A
+    conjugation: https://www.verbformen.com/conjugation/aufwachsen.pdf
+    flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/aufwachsen.pdf
+```
+
+> [!IMPORTANT]
+> 
+> Note that some verbformen verbs do not have videos in which case the `video` field does not exist
 
 ### [Ancient Greek](./ancient-greek.yaml)
 
