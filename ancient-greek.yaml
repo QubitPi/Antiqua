@@ -672,7 +672,10 @@ vocabulary:
   - term: ὄνομα ὀνόματος, τό
     definition: name; fame
   - term: μόνος μόνη μόνον
-    definition: alone, single
+    definition:
+      - alone
+      - only
+      - unique
   - term: καί
     definition:
       - (conj.) and
@@ -902,13 +905,18 @@ vocabulary:
   - term: οὔτε...οὔτε
     definition: neither...nor
   - term: οἷος οἵα οἷον
-    definition: such as, of what sort, like, (exclam.) what a!, how! ; οἷός τε (+infin.) fit or able to; οἷόν τε (+infin.) it is possible to
+    definition:
+      - (determiner) such as
+      - (determiner) of what sort
   - term: λαμβάνω, λήψομαι, ἔλαβον, εἴληφα, εἴλημμαι, ἐλήφθην
     definition: take, grasp, seize; receive, get
   - term: δοκέω, δόξω, ἔδοξα
     definition: think, suppose, imagine (+acc. and infin.); seem, seem good; (impers.) δοκεῖ μοι it seems to me
   - term: ἕτερος ἑτέρα ἕτερον
-    definition: the other (of two); other, another
+    definition:
+      - the other (of two)
+      - other
+      - another
   - term: κακός -ή -όν
     definition: bad, wicked, cowardly
   - term: ἀνήρ ἀνδρός, ὁ
@@ -1080,7 +1088,9 @@ vocabulary:
   - term: δείκνυμι, δείξω, ἔδειξα, δέδειχα, δέδειγμαι, ἐδείχθην
     definition: show, point out
   - term: ζῷον ζῴου, τό
-    definition: living being, animal
+    definition:
+      - living being
+      - animal
   - term: πρᾶγμα πράγματος, τό
     definition: thing; (pl.) circumstances, affairs, business
   - term: ἐναντίος ἐναντία ἐναντίον
@@ -1098,7 +1108,11 @@ vocabulary:
   - term: νόμος νόμου, ὁ
     definition: custom, tradition, law
   - term: κοινός -ή -όν
-    definition: common, shared, mutual
+    definition:
+      - common
+      - shared
+      - public
+      - neutral
   - term: οἴομαι or οἶμαι, οἰήσομαι, impf. ᾤμην, aor. ᾠήθην
     definition: think, suppose, imagine (+acc. and infin.)
   - term: κινέω, κινήσω, ἐκίνησα, κεκίνηκα, κεκίνημαι, ἐκινήθην
@@ -1210,7 +1224,10 @@ vocabulary:
   - term: ποταμός -οῦ, ὁ
     definition: river, stream
   - term: οὐσία οὐσίας, ἡ
-    definition: substance, property; essence
+    definition:
+      - substance
+      - property
+      - essence
   - term: ἀριθμός -οῦ, ὁ
     definition: number
   - term: ὕστερος ὑστέρα ὕστερον
@@ -1822,3 +1839,18 @@ vocabulary:
     definition: report, tell
   - term: ἑκατοστός -ή -όν
     definition: hundredth
+
+  - term: ὁμώνυμος
+    definition: (adj.) homonymous
+  - term: τό ὄνομα
+    definition:
+      - the name
+      - the fame
+      - (grammar) noun
+      - (grammar) phrase
+  - term: τοὔνομα
+    definition: Contraction of "τὸ ὄνομα" (the name)
+  - term: τό σῠνώνῠμον
+    definition: the synonym
+  - term: πᾰρώνῠμος
+    definition: (adj.) derivative
