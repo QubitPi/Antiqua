@@ -2,7 +2,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(
-    name="wilhelm-vocabulary",
+    name="wilhelm_vocabulary",
     version="0.0.1",
     description="A vocabulary processor specifically designed for QubitPi",
     url="https://github.com/QubitPi/wilhelm-vocabulary",
@@ -11,7 +11,7 @@ setup(
     license="Apache-2.0",
     packages=find_packages(),
     python_requires='>=3.10',
-    install_requires=["pyyaml", "nltk", "wilhelm_python_sdk"],
+    install_requires=["pyyaml", "nltk", "wilhelm_data_loader"],
     zip_safe=False,
     include_package_data=True,
     setup_requires=["setuptools-pep8", "isort"],
