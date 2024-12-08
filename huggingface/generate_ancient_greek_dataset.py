@@ -13,11 +13,11 @@
 # limitations under the License.
 import json
 
+from database.database_clients import get_node_label_attribute_key
 from vocabulary_parser import ANCIENT_GREEK
 from vocabulary_parser import get_attributes
 from vocabulary_parser import get_definitions
 from vocabulary_parser import get_vocabulary
-from wilhelm_python_sdk.database_clients import get_node_label_attribute_key
 
 
 def generate_dataset(yaml_path: str, dataset_path: str):
@@ -47,5 +47,5 @@ def generate_dataset(yaml_path: str, dataset_path: str):
                 target_node = {label_key: definition}
                 label = {label_key: predicate if predicate else "definition"}
 
-                graph.write(json.dumps({"source": source_node, "target": target_node, label_key: label}))
+                graph.write(json.dumps({"source": source_node, "target": target_node, "link": label}))
                 graph.write("\n")

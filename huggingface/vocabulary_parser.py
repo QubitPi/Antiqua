@@ -177,8 +177,8 @@ def get_inferred_links(
 
     This function is the point of extending link inference capabilities. At this point, the link inference includes
 
-    - :py:meth:`token sharing <wilhelm_python_sdk.vocabulary_parser.get_inferred_tokenization_links>`
-    - :py:meth:`token sharing <wilhelm_python_sdk.vocabulary_parser.get_levenshtein_links>`
+    - :py:meth:`token sharing <wilhelm_data_loader.vocabulary_parser.get_inferred_tokenization_links>`
+    - :py:meth:`token sharing <wilhelm_data_loader.vocabulary_parser.get_levenshtein_links>`
 
     :param vocabulary:  A wilhelm-vocabulary repo YAML file deserialized
     :param label_key:  The name of the node attribute that will be used as the label in displaying the node
@@ -304,7 +304,7 @@ def get_inferred_tokenization_links(
 def get_structurally_similar_links(vocabulary: list[dict], label_key: str) -> list[dict]:
     """
     Return a list of inferred links between structurally-related vocabulary terms that are determined by the function
-    :py:meth:`token sharing <wilhelm_python_sdk.vocabulary_parser.is_structurally_similar>`.
+    :py:meth:`token sharing <wilhelm_data_loader.vocabulary_parser.is_structurally_similar>`.
 
     This was inspired by the spotting the relationships among::
 

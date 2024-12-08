@@ -13,13 +13,13 @@
 # limitations under the License.
 import json
 
+from database.database_clients import get_node_label_attribute_key
 from german_parser import get_declension_attributes
 from vocabulary_parser import GERMAN
 from vocabulary_parser import get_attributes
 from vocabulary_parser import get_definitions
 from vocabulary_parser import get_inferred_links
 from vocabulary_parser import get_vocabulary
-from wilhelm_python_sdk.database_clients import get_node_label_attribute_key
 
 
 def generate_dataset(yaml_path: str, dataset_path: str):
@@ -56,5 +56,5 @@ def generate_dataset(yaml_path: str, dataset_path: str):
             target_node = all_nodes[link["target_label"]]
             label = link["attributes"]
 
-            graph.write(json.dumps({"source": source_node, "target": target_node, label_key: label}))
+            graph.write(json.dumps({"source": source_node, "target": target_node, "link": label}))
             graph.write("\n")
