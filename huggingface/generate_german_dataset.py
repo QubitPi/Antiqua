@@ -48,7 +48,7 @@ def generate_dataset(yaml_path: str, dataset_path: str):
                 target_node = {label_key: definition}
                 label = {label_key: predicate if predicate else "definition"}
 
-                graph.write(json.dumps({"source": source_node, "target": target_node, label_key: label}))
+                graph.write(json.dumps({"source": source_node, "target": target_node, "link": label}))
                 graph.write("\n")
 
         for link in get_inferred_links(vocabulary, label_key, get_declension_attributes):
