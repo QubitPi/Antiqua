@@ -2145,6 +2145,13 @@ vocabulary:
       - [genitive,   "Mannes, Manns", Männer]
       - [dative,     Mann,            Männer]
       - [accusative, Mann,            Männer]
+  - term: hoffen
+    definition: to hope
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e3/De-hoffen2.ogg
+    verbformen:
+      video: https://youtu.be/0WMessFOXtw
+      conjugation: https://www.verbformen.com/conjugation/hoffen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/hoffen.pdf
   - term: hoffentlich
     definition: (ad.) hopefully
     audio: https://upload.wikimedia.org/wikipedia/commons/d/dd/De-hoffentlich.ogg
@@ -3212,6 +3219,9 @@ vocabulary:
     definition: (clock time) 17:15
   - term: siebzehn Uhr fünfzehn
     definition: (clock time) 17:15
+  - term: morgen
+    definition: (adv.) tomorrow
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/7b/De-morgen.ogg
   - term: morgens
     definition:
       - (adv.) in the morning
@@ -5358,6 +5368,98 @@ vocabulary:
   - term: verrohen
     definition: to become brutal
     audio: https://www.verbformen.de/konjugation/infinitiv/verrohen_ist.mp3
+  - term: stimmen
+    definition:
+      - (intransitive) to be right
+      - to vote
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/24/De-stimmen.ogg
+    verbformen:
+      video: https://youtu.be/nR4qDwAQiY8
+      conjugation: https://www.verbformen.com/conjugation/stimmen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/stimmen.pdf
+  - term: durchhalten
+    definition:
+      - to hang on
+      - to last
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/cc/De-durchhalten.ogg
+    verbformen:
+      video: https://youtu.be/6GacLsnffFg
+      conjugation: https://www.verbformen.com/conjugation/durchhalten.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/durchhalten.pdf
+  - term: vorstellen
+    definition:
+      - to introduce
+      - to imagine
+      - to represent
+      - to put forward
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/d8/De-vorstellen2.ogg
+    verbformen:
+      video: https://youtu.be/cZQ3MFpbc64
+      conjugation: https://www.verbformen.com/conjugation/vorstellen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/vorstellen.pdf
+  - term: kapitulieren
+    definition: to surrender
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/73/De-kapitulieren.ogg
+    verbformen:
+      conjugation: https://www.verbformen.com/conjugation/kapitulieren.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/kapitulieren.pdf
+  - term: schicken
+    definition:
+      - to send
+      - to be decent
+      - to be appropriate
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/d8/De-schicken2.ogg
+    verbformen:
+      video: https://youtu.be/7huXhuO2jbE
+      conjugation: https://www.verbformen.com/conjugation/schicken.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/schicken.pdf
+  - term: die Uniform
+    definition: https://upload.wikimedia.org/wikipedia/commons/5/53/De-Uniform.ogg
+    audio: the uniform
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Uniform,  Uniformen]
+      - [genitive,   Uniform,  Uniformen]
+      - [dative,     Uniform,  Uniformen]
+      - [accusative, Uniform,  Uniformen]
+  - term: der Orden
+    definition: the order
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/9c/De-Orden.ogg
+    declension:
+      - ["",         singular, plural        ]
+      - [nominative, Orden,    "Orden, Örden"]
+      - [genitive,   Ordens,   "Orden, Örden"]
+      - [dative,     Orden,    "Orden, Örden"]
+      - [accusative, Orden,    "Orden, Örden"]
+  - term: die Narbe
+    definition: the scar
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/b1/De-Narbe.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Narbe,    Narben]
+      - [genitive,   Narbe,    Narben]
+      - [dative,     Narbe,    Narben]
+      - [accusative, Narbe,    Narben]
+  - term: verrücken
+    definition: to shift
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/dd/De-verr%C3%BCcken.ogg
+    verbformen:
+      conjugation: https://www.verbformen.com/conjugation/verru3cken.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/verru3cken.pdf
+  - term: stinknormal
+    definition:
+      - (adj.) completely ordinary
+      - (adj.) unremarkable
+    audio: https://www.verbformen.de/deklination/adjektive/grundform/stinknormal.mp3
+  - term: der Zivilist
+    definition: the civilian
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/3d/De-Zivilist.ogg
+    declension:
+      - ["",         singular,   plural    ]
+      - [nominative, Zivilist,   Zivilisten]
+      - [genitive,   Zivilisten, Zivilisten]
+      - [dative,     Zivilisten, Zivilisten]
+      - [accusative, Zivilisten, Zivilisten]
 
 
 
