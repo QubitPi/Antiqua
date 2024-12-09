@@ -3982,6 +3982,15 @@ vocabulary:
       - [genitive,   Übung,    Übungen]
       - [dative,     Übung,    Übungen]
       - [accusative, Übung,    Übungen]
+  - term: die Telefonrechnung
+    definition: the telephone bill
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/92/De-Telefonrechnung.ogg
+    declension:
+      - ["",         singular,        plural           ]
+      - [nominative, Telefonrechnung, Telefonrechnungen]
+      - [genitive,   Telefonrechnung, Telefonrechnungen]
+      - [dative,     Telefonrechnung, Telefonrechnungen]
+      - [accusative, Telefonrechnung, Telefonrechnungen]
 
 
 
@@ -4090,6 +4099,7 @@ vocabulary:
     definition: for two years
   - term: letzte
     definition: (adj.) last
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/db/De-letzte.ogg
   - term: in den letzten Jahren
     definition: in recent years
   - term: seit wann?
