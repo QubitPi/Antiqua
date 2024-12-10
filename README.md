@@ -143,6 +143,17 @@ We have offered some queries that can be used to quickly explore the vocabulary 
   ![Declension sharing](docs/german-rice-travel.png "Error loading german-rice-travel.png")
 
 - `MATCH (term:Term{label:'die Schwester'})  CALL apoc.path.expand(term, "LINK", null, 1, -1)  YIELD path  RETURN path, length(path) AS hops  ORDER BY hops;`
+- How German, Latin, and Ancient greek expresses the conjunction "but":
+
+  ```cypher
+  MATCH (node{label:'δέ'})
+  CALL apoc.path.expand(node, "LINK", null, 1, 4)
+  YIELD path
+  RETURN path, length(path) AS hops
+  ORDER BY hops;
+  ```
+  
+  ![Conjuction - but](docs/but.png "Error loading but.png")
 
 Development
 -----------
