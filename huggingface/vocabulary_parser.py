@@ -133,7 +133,7 @@ def get_attributes(
         word: object,
         language: str,
         node_label_attribute_key: str,
-        inflection_supplier: Callable[[object], dict]=lambda word: {}
+        inflection_supplier: Callable[[object], dict] = lambda word: {}
 ) -> dict[str, str]:
     """
     Returns a flat map as the Term node properties stored in Neo4J.
@@ -170,7 +170,7 @@ def get_audio(word: object) -> dict:
 def get_inferred_links(
         vocabulary: list[dict],
         label_key: str,
-        inflection_supplier: Callable[[object], dict[str, str]]=lambda word: {}
+        inflection_supplier: Callable[[object], dict[str, str]] = lambda word: {}
 ) -> list[dict]:
     """
     Return a list of inferred links between related vocabularies.
@@ -217,7 +217,7 @@ def get_term_tokens(word: dict) -> set[str]:
 
 def get_inflection_tokens(
         word: dict,
-        inflection_supplier: Callable[[object], dict[str, str]]=lambda word: {}
+        inflection_supplier: Callable[[object], dict[str, str]] = lambda word: {}
 ) -> set[str]:
     tokens = set()
 
@@ -230,14 +230,14 @@ def get_inflection_tokens(
     return tokens
 
 
-def get_tokens_of(word: dict, inflection_supplier: Callable[[object], dict[str, str]]=lambda word: {}) -> set[str]:
+def get_tokens_of(word: dict, inflection_supplier: Callable[[object], dict[str, str]] = lambda word: {}) -> set[str]:
     return get_inflection_tokens(word, inflection_supplier) | get_term_tokens(word) | get_definition_tokens(word)
 
 
 def get_inferred_tokenization_links(
         vocabulary: list[dict],
         label_key: str,
-        inflection_supplier: Callable[[object], dict[str, str]]=lambda word: {}
+        inflection_supplier: Callable[[object], dict[str, str]] = lambda word: {}
 ) -> list[dict]:
     """
     Return a list of inferred links between related vocabulary terms which are related to one another.

@@ -1,0 +1,9 @@
+pyyaml
+nltk
+wilhelm_data_loader
+
+pycodestyle
+isort
+
+behave
+neo4j
