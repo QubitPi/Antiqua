@@ -691,10 +691,24 @@ vocabulary:
     definition:
       - (part. & conj.) and,
       - (part. & conj.) but
+  - term: δ’
+    definition: (Apocopic form of) δέ
   - term: μέν ... δέ
     definition: on the one hand ... on the other hand (often untranslated)
   - term: εἰμί, ἔσομαι, ἦν, εἶναι
     definition: to be, exist
+    conjugation:
+      principal parts:
+        - ["",                                                 Attic ]
+        - [(first person singular) present indicative active,  εἰμί  ]
+        - [(first person singular) future indicative active,   ἔσομαι]
+        - [(first person singular) aorist indicative active,   N/A   ]
+        - [(first person singular) perfect indicative active,  N/A   ]
+        - [(first person singular) perfect indicative passive, N/A   ]
+        - [(first person singular) aorist indicative passive,  N/A   ]
+      references:
+        - https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B0%CE%BC%CE%AF#Ancient_Greek
+        - https://hellenisticgreek.com/28.html
   - term: ἤ
     definition:
       - or
@@ -717,7 +731,6 @@ vocabulary:
       - to speak
       - to pick up
     conjugation:
-      wiktionary: https://en.wiktionary.org/wiki/λέγω#Verb_2
       principal parts:
         - ["",                                                 Attic    , Koine          ]
         - [(first person singular) present indicative active,  λέγω     , λέγω           ]
@@ -1263,7 +1276,10 @@ vocabulary:
   - term: δῆλος δήλη δῆλον
     definition: visible, clear, manifest
   - term: τοίνυν (τοί-νυν)
-    definition: therefore, accordingly (inferential); further, moreover (transitional)
+    definition:
+      - therefore
+      - accordingly (inferential);
+      - further, moreover (transitional)
   - term: πολέμιος πολεμία πολέμιον
     definition: hostile; οἱ πολέμιοι the enemy
   - term: ἔρομαι, ἐρήσομαι, 2 aor. ἠρόμην
