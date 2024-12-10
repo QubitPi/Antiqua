@@ -632,7 +632,6 @@ reconstruction. In conclusion, the entry of a verb, thus, has the form of:
 - term: string
   definition: list
   conjugation:
-    wiktionary: string
     principal parts:
       - ["",                                                 Attic, (Possibly other dialects)]
       - [(first person singular) present indicative active,  █████, ...                      ]
