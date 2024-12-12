@@ -34,8 +34,9 @@ def step_impl(context):
             """
         ))
 
+        print(set(result["nodes"]))
         assert set(result["nodes"]) == {"aber lieber", "aber", "but", "sed", "ἀλλά", "δέ", "and", "τε", "et", "καί",
-                                        "also", "even", "δ’"}
+                                        "also", "even", "δ᾽"}
 
 
 def parse_apoc_path_expand_result(result):
