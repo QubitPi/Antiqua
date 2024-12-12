@@ -225,8 +225,6 @@ vocabulary:
       - [genitive,   "Tages, Tags", Tage  ]
       - [dative,     Tag,           Tagen ]
       - [accusative, Tag,           Tage  ]
-  - term: der Montag
-    definition: the Monday
   - term: Guten Tag
     definition: Good day
   - term: Hallo
@@ -248,7 +246,13 @@ vocabulary:
   - term: bitte
     definition: please
   - term: wie
-    definition: how
+    definition:
+      - how
+      - like
+      - as
+      - (colloquial, nonstandard) than
+      - (chiefly colloquial) when (referring to the past)
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/fc/De-wie3.ogg
   - term: Wie ist Ihr Name?
     definition: What's your name?
   - term: Wie heißen Sie?
@@ -2188,8 +2192,8 @@ vocabulary:
     definition: boring
   - term: na
     definition: well
-  - term: Na ja
-    definition: (informal) Oh well
+  - term: na ja
+    definition: (informal) oh well
   - term: wohl
     definition:
       - possibly
@@ -2555,6 +2559,11 @@ vocabulary:
     definition: to bring
   - term: surfen
     definition: to surf
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/a3/De-surfen.ogg
+    verbformen:
+      video: https://youtu.be/_ub4PL2JlJ4
+      conjugation: https://www.verbformen.com/conjugation/surfen_ist.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/surfen_ist.pdf
   - term: trainieren
     definition:
       - to train
@@ -3232,6 +3241,15 @@ vocabulary:
     definition: (adv.) at midday
   - term: ein Uhr mittags
     definition: (clock time) one o'clock in the afternoon
+  - term: der Nachmittag
+    definition: the afternoon
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/68/De-Nachmittag.ogg
+    declension:
+      - ["",         singular,                    plural      ]
+      - [nominative, Nachmittag,                  Nachmittage ]
+      - [genitive,   "Nachmittages, Nachmittags", Nachmittage ]
+      - [dative,     Nachmittag,                  Nachmittagen]
+      - [accusative, Nachmittag,                  Nachmittage ]
   - term: vier Uhr nachmittags
     definition: (clock time) four o'clock in the afternoon
   - term: sieben Uhr abends
@@ -3258,6 +3276,7 @@ vocabulary:
     definition:
       - (adv.) already
       - (adv.) previously
+      - (adv.) really
   - term: los
     definition:
       - (interjection) come on!
@@ -3991,6 +4010,61 @@ vocabulary:
       - [genitive,   Telefonrechnung, Telefonrechnungen]
       - [dative,     Telefonrechnung, Telefonrechnungen]
       - [accusative, Telefonrechnung, Telefonrechnungen]
+  - term: das Gespräch
+    definition: the conversation
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f5/De-Gespr%C3%A4ch.ogg
+    declension:
+      - ["",         singular,                plural    ]
+      - [nominative, Gespräch,                Gespräche ]
+      - [genitive,   "Gespräches, Gesprächs", Gespräche ]
+      - [dative,     Gespräch,                Gesprächen]
+      - [accusative, Gespräch,                Gespräche ]
+  - term: müde
+    definition: (adj.) tired
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/29/De-m%C3%BCde2.ogg
+  - term: wecken
+    definition: to wake up
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/ad/De-wecken.ogg
+    verbformen:
+      video: https://youtu.be/ClEsAyY0sKU
+      conjugation: https://www.verbformen.com/conjugation/wecken.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/wecken.pdf
+  - term: der Mond
+    definition: the moon
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/72/De-Mond.ogg
+    declension:
+      - ["",         singular,        plural]
+      - [nominative, Mond,            N/A   ]
+      - [genitive,   "Mondes, Monds", N/A   ]
+      - [dative,     Mond,            N/A   ]
+      - [accusative, Mond,            N/A   ]
+  - term: der Spaß
+    definition:
+      - (uncountable) the fun
+      - (countable) the joke
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/05/De-Spa%C3%9F.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Spaß,     Späße ]
+      - [genitive,   Spaßes,   Späße ]
+      - [dative,     Spaß,     Späßen]
+      - [accusative, Spaß,     Späße ]
+  - term: weniger
+    definition:
+      - (adj.) less
+      - (adv.) less
+      - (mathematics) minus
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/ce/De-weniger2.ogg
+  - term: romantisch
+    definition: (adj.) romantic
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/01/Nl-romantisch.ogg
+  - term: früher
+    definition:
+      - (adj.) former
+      - (adj.) previous
+      - (adj.) earlier
+      - (adv.) formerly
+      - (adv.) sooner
 
 
 
@@ -5068,6 +5142,21 @@ vocabulary:
       - [genitive,   Genossen, Genossen]
       - [dative,     Genossen, Genossen]
       - [accusative, Genossen, Genossen]
+  - term: der Schein
+    definition:
+      - the shine
+      - the flash
+      - the appearance
+      - the certificate
+      - the ticket
+      - the bill
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f6/De-Schein.ogg
+    declension:
+      - ["",         singular,            plural  ]
+      - [nominative, Schein,              Scheine ]
+      - [genitive,   "Scheines, Scheins", Scheine ]
+      - [dative,     Schein,              Scheinen]
+      - [accusative, Schein,              Scheine ]
   - term: scheinen
     definition: to shine
     audio: https://upload.wikimedia.org/wikipedia/commons/3/3c/De-scheinen.ogg

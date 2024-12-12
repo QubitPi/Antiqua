@@ -48,9 +48,9 @@ Wilhelm Vocabulary
     * [Data Format](#data-format)
     * [Encoding Table in YAML](#encoding-table-in-yaml)
   * [Data Pipeline](#data-pipeline)
-  * [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
-    * [Why Graph Database](#why-graph-database)
-    * [Base Schema](#base-schema)
+    * [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
+      * [Why Graph Database](#why-graph-database)
+      * [Base Schema](#base-schema)
   * [Languages](#languages)
     * [German](#german)
       * [Pronoun](#pronoun)
@@ -277,7 +277,7 @@ The declension (inflection) table above is equivalent to
 Data Pipeline
 -------------
 
-![Data pipeline](docs/data-pipeline.png "Error loading data-loading.png")
+![Data pipeline](docs/data-pipeline.png "Error loading data-pipeline.png")
 
 > [!CAUTION]
 >
@@ -292,10 +292,9 @@ Data Pipeline
 > These multiple entries, because they have lots of common properties, often triggers constraint violations in Neo4J on
 > load
 
-How Data (Vocabulary) is Stored in a Graph Database
----------------------------------------------------
+### How Data (Vocabulary) is Stored in a Graph Database
 
-### Why Graph Database
+#### Why Graph Database
 
 Graph data representation assumes universal connectivity among world entities. This applies pretty well to the realm of
 languages. Multilanguage learners have already seen that Indo-European languages are similar in many aspects. The
@@ -304,7 +303,7 @@ multilanguage learners to take advantages of them and study much more efficientl
 using Graph Databases that visually presents these vastly enlightening links between the related languages in a natural
 way.
 
-### Base Schema
+#### Base Schema
 
 ```yaml
 vocabulary:
@@ -374,29 +373,33 @@ declension:
 
 #### Noun
 
-`term` with a _definite article_ of `der`/`die`/`das` signifies a __noun__ which has a declension table template of the
-following form:
+`term` with a _definite article_ of `der`/`die`/`das` signifies a __noun__ which has the entry format with the
+declension table of the following template:
 
 ```yaml
-declension:
-  - ["",         singular, plural]
-  - [nominative, ████████, ██████]
-  - [genitive,   ████████, ██████]
-  - [dative,     ████████, ██████]
-  - [accusative, ████████, ██████]
+- term:
+  definition:
+  audio:
+  declension:
+    - ["",         singular, plural]
+    - [nominative, ████████, ██████]
+    - [genitive,   ████████, ██████]
+    - [dative,     ████████, ██████]
+    - [accusative, ████████, ██████]
 ```
 
 For example:
 
 ```yaml
-  - term: das Getränk
-    definition: the drink
+  - term: das Gespräch
+    definition: the conversation
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f5/De-Gespr%C3%A4ch.ogg
     declension:
-      - ["",         singular,            plural   ]
-      - [nominative, Getränk,             Getränke ]
-      - [genitive,   Getränkes, Getränks, Getränke ]
-      - [dative,     Getränk,             Getränken]
-      - [accusative, Getränk,             Getränke ]
+      - ["",         singular,                plural    ]
+      - [nominative, Gespräch,                Gespräche ]
+      - [genitive,   "Gespräches, Gesprächs", Gespräche ]
+      - [dative,     Gespräch,                Gesprächen]
+      - [accusative, Gespräch,                Gespräche ]
 ```
 
 > [!TIP]
