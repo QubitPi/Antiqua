@@ -3418,7 +3418,9 @@ vocabulary:
       - (prep.) against
       - (prep.) toward
   - term: lang
-    definition: (adj.) long
+    definition:
+      - (adj.) long
+      - (adv.) long
   - term: lange
     definition:
       - (adv.) long
@@ -4669,6 +4671,15 @@ vocabulary:
       - (Physics) the space
   - term: leben
     definition: to be alive
+  - term: das Leben
+    definition: (gerund of) leben
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/45/De-Leben2.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Leben,    Leben ]
+      - [genitive,   Lebens,   Leben ]
+      - [dative,     Leben,    Leben ]
+      - [accusative, Leben,    Leben ]
   - term: stellen
     definition: to put
   - term: hinten
@@ -5559,6 +5570,26 @@ vocabulary:
       - [genitive,   Zivilisten, Zivilisten]
       - [dative,     Zivilisten, Zivilisten]
       - [accusative, Zivilisten, Zivilisten]
+  - term: entfernen
+    definition:
+      - to remove
+      - to stray
+      - to depart
+      - to desert
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/a5/De-entfernen2.ogg
+    verbformen:
+      video: https://youtu.be/pHWGAnm3B3E
+      conjugation: https://www.verbformen.com/conjugation/entfernen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/entfernen.pdf
+  - term: der Osten
+    definition: the East
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/b0/De-Osten.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Osten,    N/A   ]
+      - [genitive,   Ostens,   N/A   ]
+      - [dative,     Osten,    N/A   ]
+      - [accusative, Osten,    N/A   ]
 
 
 
