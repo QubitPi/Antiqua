@@ -496,7 +496,8 @@ For example:
 
 > [!IMPORTANT]
 > 
-> Note that some verbformen verbs do not have videos in which case the `video` field does not exist
+> Note that the `verbformen` might not exist for some verbs and any of its sub-fields can be non-existing due to the
+> limiting number of verbs on records from [verbformen.com]
 
 ### [Ancient Greek](./ancient-greek.yaml)
 
