@@ -796,8 +796,6 @@ vocabulary:
     definition: more about me
   - term: Hier klicken
     definition: click here
-  - term: alt
-    definition: old
   - term: Ich bin 23 Jahre alt.
     definition: I'm 23 years old.
   - term: die Fremdsprache
@@ -4068,6 +4066,39 @@ vocabulary:
       - (adj.) earlier
       - (adv.) formerly
       - (adv.) sooner
+  - term: arm
+    definition: (adj.) poor
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/16/De-arm2.ogg
+  - term: reich
+    definition: (adj.) rich
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/1f/De-reich.ogg
+  - term: alt
+    definition: old
+  - term: modisch
+    definition: fashionable
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/0e/De-modisch.ogg
+  - term: trendy
+    definition: fashionable
+    audio: https://www.verbformen.de/deklination/adjektive/grundform/trendy.mp3
+  - term: altmodisch
+    definition: outdated
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/22/De-altmodisch.ogg
+  - term: der Besucher
+    definition: the visitor
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/eb/De-Besucher.ogg
+    declension:
+      - ["",         singular,  plural   ]
+      - [nominative, Besucher,  Besucher ]
+      - [genitive,   Besuchers, Besucher ]
+      - [dative,     Besucher,  Besuchern]
+      - [accusative, Besucher,  Besucher ]
+  - term: interviewen
+    definition: to interview
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/90/De-interviewen.ogg
+    verbformen:
+      video: https://youtu.be/TzkgfmzwDF8
+      conjugation: https://www.verbformen.com/conjugation/interviewen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/interviewen.pdf
 
 
 
