@@ -13,7 +13,7 @@
 # limitations under the License.
 import json
 
-from database.database_clients import get_node_label_attribute_key
+from database.neo4j.database_clients import get_node_label_attribute_key
 from german_parser import get_declension_attributes
 from vocabulary_parser import GERMAN
 from vocabulary_parser import get_attributes
