@@ -2351,6 +2351,12 @@ vocabulary:
     definition: (pron.) a lot
   - term: vieles mehr
     definition: much more
+  - term: sonst
+    definition:
+      - otherwise
+      - normally
+      - (colloquial) so
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/63/De-sonst.ogg
   - term: Sonst noch etwas?
     definition: Anything else?
   - term: Ist das alles?
@@ -2770,6 +2776,11 @@ vocabulary:
       - [accusative, Picknick,  "Picknicke, Picknicks" ]
   - term: machen
     definition: to make
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/1c/De-machen2.ogg
+    verbformen:
+      video: https://youtu.be/H_06DiPlobk
+      conjugation: https://www.verbformen.com/conjugation/machen_hat.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/machen_hat.pdf
   - term: das Schach
     definition: the chess
     declension:
@@ -3027,6 +3038,17 @@ vocabulary:
     definition: twice a month
   - term: mindestens
     definition: (adv.) at least
+  - term: der Liebling
+    definition:
+      - the favorite
+      - (my) dear
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/8c/De-Liebling.ogg
+    declension:
+      - ["",         singular,  plural    ]
+      - [nominative, Liebling,  Lieblinge ]
+      - [genitive,   Lieblings, Lieblinge ]
+      - [dative,     Liebling,  Lieblingen]
+      - [accusative, Liebling,  Lieblinge ]
   - term: die Lieblingsbeschäftigung
     definition: the favorite activity
     declension:
@@ -3163,7 +3185,10 @@ vocabulary:
     definition: (adv.) normally
     audio: https://upload.wikimedia.org/wikipedia/commons/b/bb/De-normalerweise.ogg
   - term: billig
-    definition: (adj.) appropriate
+    definition:
+      - (adj.) appropriate
+      - (adj.) cheap
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/48/De-billig.ogg
   - term: der Film
     definition: the film
     declension:
@@ -3455,6 +3480,13 @@ vocabulary:
     definition:
       - to watch out
       - to look after
+  - term: suchen
+    definition: to search
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/0d/De-suchen2.ogg
+    verbformen:
+      video: https://youtu.be/SC9L4O9XWJY
+      conjugation: https://www.verbformen.com/conjugation/suchen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/suchen.pdf
   - term: besuchen
     definition:
       - to visit
@@ -4099,6 +4131,43 @@ vocabulary:
       video: https://youtu.be/TzkgfmzwDF8
       conjugation: https://www.verbformen.com/conjugation/interviewen.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/interviewen.pdf
+  - term: die Platte
+    definition: flat
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/04/De-Platte.ogg
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Platte,   Platten]
+      - [genitive,   Platte,   Platten]
+      - [dative,     Platte,   Platten]
+      - [accusative, Platte,   Platten]
+  - term: super
+    definition:
+      - great
+      - awesome
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/9d/De-super.oga
+  - term: fantastisch
+    definition: fantastic
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/b3/De-fantastisch.ogg
+  - term: die Stimme
+    definition:
+      - the voice
+      - the vote
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e4/De-Stimme.ogg
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Stimme,   Stimmen]
+      - [genitive,   Stimme,   Stimmen]
+      - [dative,     Stimme,   Stimmen]
+      - [accusative, Stimme,   Stimmen]
+  - term: dafür
+    definition:
+      - for that
+      - for it
+      - (as a compensation) at least
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/48/De-daf%C3%BCr.ogg
+  - term: toll
+    definition: (adj.) great
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/88/De-toll.ogg
 
 
 
@@ -5707,6 +5776,33 @@ vocabulary:
   - term: hart
     definition: (adj.) hard
     audio: https://upload.wikimedia.org/wikipedia/commons/e/ee/De-hart2.ogg
+  - term: die Falle
+    definition:
+      - the trap
+      - (of a door) spring latch
+      - (colloquial, regional) bed
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/0a/De-Falle.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Falle,    Fallen]
+      - [genitive,   Falle,    Fallen]
+      - [dative,     Falle,    Fallen]
+      - [accusative, Falle,    Fallen]
+  - term: die Scheiße
+    definition: (vulgar) shit
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/4f/De-Schei%C3%9Fe.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Scheiße,  N/A   ]
+      - [genitive,   Scheiße,  N/A   ]
+      - [dative,     Scheiße,  N/A   ]
+      - [accusative, Scheiße,  N/A   ]
+  - term: anders
+    definition:
+      - (adv.) differently
+      - (adv.) else
+      - (adv.) otherwise
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/68/De-anders2.ogg
 
 
 
