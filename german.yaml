@@ -485,6 +485,12 @@ vocabulary:
       - [genitive,   Türken,   Türken]
       - [dative,     Türken,   Türken]
       - [accusative, Türken,   Türken]
+  - term: das Mexiko
+    definition: (proper noun) Mexico
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/26/De-Mexiko.ogg
+  - term: das Peru
+    definition: (proper noun) Peru
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/cf/De-Peru.ogg
   - term: das Ungarn
     definition: Hungary
   - term: das Wales
@@ -1664,6 +1670,13 @@ vocabulary:
       - to taste good
   - term: Hat es geschmeckt?
     definition: Did it taste good?
+  - term: zahlen
+    definition: to pay
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/39/De-zahlen.ogg
+    verbformen:
+      video: https://youtu.be/1gzksKbno1s
+      conjugation: https://www.verbformen.com/conjugation/zahlen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/zahlen.pdf
   - term: bezahlen
     definition: to pay
   - term: Ich möchte (jetzt) bazahlen.
@@ -2515,8 +2528,14 @@ vocabulary:
       - to see
       - to view
       - to watch
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/b3/De-sehen.ogg
   - term: hören
     definition: to hear
+  - term: gehören
+    definition:
+      - to belong to
+      - to be a prerequisite for
+      - to be a characteristic of
   - term: sagen
     definition: to say
   - term: sprechen
@@ -2718,6 +2737,13 @@ vocabulary:
       - [genitive,   Fitness,  N/A   ]
       - [dative,     Fitness,  N/A   ]
       - [accusative, Fitness,  N/A   ]
+  - term: reisen
+    definition: to travel
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/b7/De-reisen2.ogg
+    verbformen:
+      video: https://youtu.be/91BST_fNe40
+      conjugation: https://www.verbformen.com/conjugation/reisen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/reisen.pdf
   - term: die Reise
     definition: the travel
     declension:
@@ -3244,6 +3270,7 @@ vocabulary:
     definition: (clock time) ten (minutes) past 2 o'clock
   - term: kurz
     definition: (adj.) short
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/d3/De-kurz2.ogg
   - term: kurtz nach neun
     definition: (clock time) just after nine.
   - term: das Viertel
@@ -3322,6 +3349,19 @@ vocabulary:
       - (interjection) Go!
   - term: Gern geschehen.
     definition: (Thank you.) You're welcome.
+  - term: stehen
+    definition:
+      - to stand
+      - to be
+      - to appear
+      - to stay
+      - to represent
+      - to suport
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/30/De-stehen2.ogg
+    verbformen:
+      video: https://youtu.be/8rgQZxlk7Nw
+      conjugation: https://www.verbformen.com/conjugation/stehen_hat.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/stehen_hat.pdf
   - term: aufstehen
     definition: to get up
   - term: fangen
@@ -4183,6 +4223,57 @@ vocabulary:
   - term: toll
     definition: (adj.) great
     audio: https://upload.wikimedia.org/wikipedia/commons/8/88/De-toll.ogg
+  - term: über
+    definition:
+      - (prep.) over
+      - (prep.) about
+      - (prep.) via
+      - (prep.) across
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/cd/De-%C3%BCber3.ogg
+  - term: der Sommer
+    definition: the summer
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/c4/De-Sommer.ogg
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Sommer,   Sommer ]
+      - [genitive,   Sommers,  Sommer ]
+      - [dative,     Sommer,   Sommern]
+      - [accusative, Sommer,   Sommer ]
+  - term: der Text
+    definition:
+      - the text
+      - the lyrics
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/11/De-Text.ogg
+    declension:
+      - ["",         singular,        plural]
+      - [nominative, Text,            Texte ]
+      - [genitive,   "Textes, Texts", Texte ]
+      - [dative,     Text,            Texten]
+      - [accusative, Text,            Texte ]
+  - term: das Hemd
+    definition: the shirt
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/1b/De-Hemd.ogg
+    declension:
+      - ["",         singular,        plural]
+      - [nominative, Hemd,            Hemden]
+      - [genitive,   "Hemdes, Hemds", Hemden]
+      - [dative,     Hemd,            Hemden]
+      - [accusative, Hemd,            Hemden]
+  - term: das Kaufhaus
+    definition: the department store
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/90/De-Kaufhaus.ogg
+    declension:
+      - ["",         singular,   plural     ]
+      - [nominative, Kaufhaus,   Kaufhäuser ]
+      - [genitive,   Kaufhauses, Kaufhäuser ]
+      - [dative,     Kaufhaus,   Kaufhäusern]
+      - [accusative, Kaufhaus,   Kaufhäuser ]
+  - term: alles
+    definition: (pron.) all
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/1b/De-alles2.ogg
+  - term: fast
+    definition: (adv.) almost
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/26/De-fast2.ogg
 
 
 
@@ -4269,6 +4360,19 @@ vocabulary:
     definition: to know
   - term: die Wissenschaft
     definition: Science
+  - term: der Kampf
+    definition:
+      - the fight
+      - the struggle
+      - the campaign
+      - the battle
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/24/De-Kampf.ogg
+    declension:
+      - ["",         singular,          plural ]
+      - [nominative, Kampf,             Kämpfe ]
+      - [genitive,   "Kampfes, Kampfs", Kämpfe ]
+      - [dative,     Kampf,             Kämpfen]
+      - [accusative, Kampf,             Kämpfe ]
   - term: kämpfen
     definition: to fight
   - term: seit
@@ -4532,6 +4636,13 @@ vocabulary:
       - [genitive,   Scherbe,  Scherben]
       - [dative,     Scherbe,  Scherben]
       - [accusative, Scherbe,  Scherben]
+  - term: fallen
+    definition: to fall
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/2a/De-fallen2.ogg
+    verbformen:
+      video: https://youtu.be/VaKEhkBolAI
+      conjugation: https://www.verbformen.com/conjugation/fallen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/fallen.pdf
   - term: zerfallen
     definition: to disintegrate
   - term: beide
@@ -4845,11 +4956,6 @@ vocabulary:
       - [genitive,   Zukunft,  Zukünfte ]
       - [dative,     Zukunft,  Zukünften]
       - [accusative, Zukunft,  Zukünfte ]
-  - term: gehören
-    definition:
-      - to belong to
-      - to be a prerequisite for
-      - to be a characteristic of
   - term: zugreifen
     definition:
       - to grab
@@ -5818,6 +5924,28 @@ vocabulary:
       - (adv.) else
       - (adv.) otherwise
     audio: https://upload.wikimedia.org/wikipedia/commons/6/68/De-anders2.ogg
+  - term: die Kesselschlacht
+    definition: the battle of encirclement
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/18/De-Kesselschlacht.ogg
+    declension:
+      - ["",         singular,       plural          ]
+      - [nominative, Kesselschlacht, Kesselschlachten]
+      - [genitive,   Kesselschlacht, Kesselschlachten]
+      - [dative,     Kesselschlacht, Kesselschlachten]
+      - [accusative, Kesselschlacht, Kesselschlachten]
+  - term: die Zuckung
+    definition: the jerk
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Zuckung,  Zuckungen]
+      - [genitive,   Zuckung,  Zuckungen]
+      - [dative,     Zuckung,  Zuckungen]
+      - [accusative, Zuckung,  Zuckungen]
+  - term: davor
+    definition:
+      - in front of that/it
+      - from that/it
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/33/De-davor.ogg
 
 
 
@@ -5858,8 +5986,18 @@ vocabulary:
     definition: matter, issue, affair
   - term: die Sache
     definition:
-      - matter, issue, affair
-      - thing, object
+      - matter
+      - issue
+      - affair
+      - thing
+      - object
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/8e/De-Sache.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Sache,    Sachen]
+      - [genitive,   Sache,    Sachen]
+      - [dative,     Sache,    Sachen]
+      - [accusative, Sache,    Sachen]
   - term: theoretisch
     definition: theoretical
   - term: die Praxis
@@ -6033,7 +6171,7 @@ vocabulary:
     definition: (adv.) at least
   - term: dadurch
     definition:
-      - (adv.) through it
+      - (adv.) through it/that
       - (adv.) thus
     audio: https://upload.wikimedia.org/wikipedia/commons/5/5a/De-dadurch.ogg
   - term: möglich
@@ -6425,3 +6563,21 @@ vocabulary:
       video: https://youtu.be/eC5wJ5kA6js
       conjugation: https://www.verbformen.com/conjugation/abtrennen.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/abtrennen.pdf
+  - term: die Untersuchung
+    definition: the investigation
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/94/De-Untersuchung.ogg
+    declension:
+      - ["",         singular,     plural        ]
+      - [nominative, Untersuchung, Untersuchungen]
+      - [genitive,   Untersuchung, Untersuchungen]
+      - [dative,     Untersuchung, Untersuchungen]
+      - [accusative, Untersuchung, Untersuchungen]
+  - term: die Erwägung
+    definition: the consideration
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/ce/De-Erw%C3%A4gung.ogg
+    declension:
+      - ["",         singular, plural    ]
+      - [nominative, Erwägung, Erwägungen]
+      - [genitive,   Erwägung, Erwägungen]
+      - [dative,     Erwägung, Erwägungen]
+      - [accusative, Erwägung, Erwägungen]
