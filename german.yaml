@@ -6084,7 +6084,9 @@ vocabulary:
       - [dative,     Faust,    Fäusten]
       - [accusative, Faust,    Fäuste ]
   - term: der Teil
-    definition: part, portion
+    definition:
+      - part
+      - portion
     declension:
       - ["",         singular,        plural]
       - [nominative, Teil,            Teile ]
@@ -6581,3 +6583,35 @@ vocabulary:
       - [genitive,   Erwägung, Erwägungen]
       - [dative,     Erwägung, Erwägungen]
       - [accusative, Erwägung, Erwägungen]
+
+
+
+  - term: die Gleichzeitigkeit
+    definition: the simultaneity
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/7a/De-Gleichzeitigkeit.ogg
+    declension:
+      - ["",         singular,         plural]
+      - [nominative, Gleichzeitigkeit, N/A   ]
+      - [genitive,   Gleichzeitigkeit, N/A   ]
+      - [dative,     Gleichzeitigkeit, N/A   ]
+      - [accusative, Gleichzeitigkeit, N/A   ]
+  - term: das Koordinatensystem
+    definition: the coordinate system
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/2d/De-Koordinatensystem.ogg
+    declension:
+      - ["",         singular,           plural             ]
+      - [nominative, Koordinatensystem,  Koordinatensysteme ]
+      - [genitive,   Koordinatensystems, Koordinatensysteme ]
+      - [dative,     Koordinatensystem,  Koordinatensystemen]
+      - [accusative, Koordinatensystem,  Koordinatensysteme ]
+  - term: die Gleichung
+    definition:
+      - the equation
+      - the equality
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/95/De-Gleichung.ogg
+    declension:
+      - ["",         singular,  plural     ]
+      - [nominative, Gleichung, Gleichungen]
+      - [genitive,   Gleichung, Gleichungen]
+      - [dative,     Gleichung, Gleichungen]
+      - [accusative, Gleichung, Gleichungen]
