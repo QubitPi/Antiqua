@@ -92,6 +92,18 @@ vocabulary:
       - [genitive,   keines,   keiner,   keines, keiner]
       - [dative,     keinem,   keiner,   keinem, keinen]
       - [accusative, keinen,   keine,    kein,   keine ]
+  - term: keiner
+    definition:
+      - (pron.) nobody
+      - (pron.) none
+      - (pron.) neither
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/1c/De-keiner.ogg
+    declension:
+      - ["",         masclune, feminine, neuter,          plural]
+      - [nominative, keiner,   keine,    "keines, keins", keine ]
+      - [genitive,   keines,   keiner,   keines,          keiner]
+      - [dative,     keinem,   keiner,   keinem,          keinen]
+      - [accusative, keinen,   keine,    "keines, keins", keine ]
   - term: man
     definition:
       - (pron.) one
@@ -5621,6 +5633,13 @@ vocabulary:
   - term: gewinnen
     definition: to win
     audio: https://upload.wikimedia.org/wikipedia/commons/f/f8/De-gewinnen2.ogg
+  - term: schießen
+    definition: to shoot
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/09/De-schie%C3%9Fen.ogg
+    verbformen:
+      video: https://youtu.be/seK-ANwvGco
+      conjugation: https://www.verbformen.com/conjugation/schies5en_hat.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/schies5en_hat.pdf
   - term: erschießen
     definition: to shoot dead
     audio: https://upload.wikimedia.org/wikipedia/commons/4/4e/De-erschie%C3%9Fen.ogg
@@ -5649,6 +5668,7 @@ vocabulary:
   - term: der Befehl
     definition: the command
     audio: https://upload.wikimedia.org/wikipedia/commons/a/ac/De-Befehl.ogg
+    declension-type: strong
     declension:
       - ["",         singular,            plural  ]
       - [nominative, Befehl,              Befehle ]
@@ -5946,6 +5966,94 @@ vocabulary:
       - in front of that/it
       - from that/it
     audio: https://upload.wikimedia.org/wikipedia/commons/3/33/De-davor.ogg
+  - term: die Meldung
+    definition:
+      - the report
+      - the notification
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/2a/De-Meldung.ogg
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Meldung,  Meldungen]
+      - [genitive,   Meldung,  Meldungen]
+      - [dative,     Meldung,  Meldungen]
+      - [accusative, Meldung,  Meldungen]
+  - term: der Sicherheitsdienst
+    definition: the security service
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/79/De-Sicherheitsdienst.ogg
+    declension:
+      - ["",         singular,                                  plural             ]
+      - [nominative, Sicherheitsdienst,                         Sicherheitsdienste ]
+      - [genitive,   "Sicherheitsdienstes, Sicherheitsdiensts", Sicherheitsdienste ]
+      - [dative,     Sicherheitsdienst,                         Sicherheitsdiensten]
+      - [accusative, Sicherheitsdienst,                         Sicherheitsdienste ]
+  - term: die Säuberungsaktion
+    definition:
+      - the purge
+      - the cleanup
+    audio: https://www.verbformen.de/deklination/substantive/grundform/der_Sa3uberungsaktion.mp3
+    declension:
+      - ["",         singular,         plural            ]
+      - [nominative, Säuberungsaktion, Säuberungsaktionen]
+      - [genitive,   Säuberungsaktion, Säuberungsaktionen]
+      - [dative,     Säuberungsaktion, Säuberungsaktionen]
+      - [accusative, Säuberungsaktion, Säuberungsaktionen]
+  - term: der Partisan
+    definition: the partisan
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/81/De-Partisan.ogg
+    declension-type: weak
+    declension:
+      - ["",         singular,   plural    ]
+      - [nominative, Partisan,   Partisanen]
+      - [genitive,   Partisanen, Partisanen]
+      - [dative,     Partisanen, Partisanen]
+      - [accusative, Partisanen, Partisanen]
+  - term: durchführen
+    definition:
+      - to perform
+      - to conduct
+      - to implement
+      - to carry out
+      - to execute
+      - to put into action
+    audio:
+    verbformen:
+      video: https://youtu.be/GTaswCjpdXA
+      conjugation: https://www.verbformen.com/conjugation/durchfu3hren.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/durchfu3hren.pdf
+  - term: lauten
+    definition: to read
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/17/De-lauten.ogg
+    verbformen:
+      conjugation: https://www.verbformen.com/conjugation/lauten.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/lauten.pdf
+  - term: raus
+    definition: (adv.) out
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/8f/De-raus.ogg
+  - term: arbeitslos
+    definition: (adj.) unemployed
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/58/De-arbeitslos.ogg
+  - term: der Wald
+    definition:
+      - forest
+      - woods
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/30/De-Wald2.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular,        plural ]
+      - [nominative, Wald,            Wälder ]
+      - [genitive,   "Waldes, Walds", Wälder ]
+      - [dative,     Wald,            Wäldern]
+      - [accusative, Wald,            Wälder ]
+  - term: jagen
+    definition:
+      - to hunt
+      - to chase
+      - to thrust
+      - to pierce
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/d0/De-jagen.ogg
+    verbformen:
+      conjugation: https://www.verbformen.com/conjugation/jagen_hat.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/jagen_hat.pdf
 
 
 
@@ -6072,9 +6180,17 @@ vocabulary:
   - term: elementar
     definition: elemental, fundamental
   - term: die Lehre
-    definition: theory, doctrine
+    definition:
+      - theory
+      - doctrine
   - term: erste
     definition: (adj.) first
+  - term: erst
+    definition:
+      - (adv.) first
+      - (adv.) only
+      - (adv.) not until
+    audio:
   - term: die Faust
     definition: the first
     declension:
