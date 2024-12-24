@@ -380,6 +380,7 @@ declension table of the following template:
 - term:
   definition:
   audio:
+  declension-type: weak/strong
   declension:
     - ["",         singular, plural]
     - [nominative, ████████, ██████]
