@@ -18,6 +18,7 @@ import yaml
 from huggingface.german_parser import get_declension_attributes
 from huggingface.vocabulary_parser import GERMAN
 from huggingface.vocabulary_parser import get_attributes
+from huggingface.vocabulary_parser import get_audio
 from huggingface.vocabulary_parser import get_definition_tokens
 from huggingface.vocabulary_parser import get_definitions
 from huggingface.vocabulary_parser import get_inferred_links
@@ -335,3 +336,24 @@ class TestVocabularyParser(unittest.TestCase):
         self.assertTrue(is_structurally_similar("anschließen", "anschließend"))
         self.assertTrue(is_structurally_similar("anschließend", "anschließen"))
         self.assertFalse(is_structurally_similar("die Bank", "die Sahne"))
+
+    def test_get_audio_with_missing_url(self):
+        word = yaml.safe_load(
+            """
+            term: durchführen
+            definition:
+              - to perform
+              - to conduct
+              - to implement
+              - to carry out
+              - to execute
+              - to put into action
+            audio:
+            verbformen:
+              video: https://youtu.be/GTaswCjpdXA
+              conjugation: https://www.verbformen.com/conjugation/durchfu3hren.pdf
+              flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/durchfu3hren.pdf
+            """
+        )
+        with self.assertRaises(ValueError):
+            get_audio(word)

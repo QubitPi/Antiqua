@@ -164,6 +164,12 @@ def get_audio(word: object) -> dict:
     """
     if "audio" not in word:
         return {}
+
+    if word["audio"] == "" or word["audio"] is None:
+        raise ValueError(
+            "{} has an emtpy 'audio' field. Either fill it with an URL or simply remove the 'audio' field.".format(word)
+        )
+
     return {"audio": word["audio"]}
 
 
