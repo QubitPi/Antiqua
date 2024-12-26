@@ -202,7 +202,7 @@ def get_definition_tokens(word: dict) -> set[str]:
     tokens = set()
 
     for token in set(sum([definition.split(" ") for definition in set().union(set(definitions))], [])):
-        cleansed = token.lower().strip()
+        cleansed = token.lower().strip().replace('(', '').replace(')', '')  # trim and remove parenthesis
         if cleansed not in EXCLUDED_DEFINITION_TOKENS:
             tokens.add(cleansed)
 

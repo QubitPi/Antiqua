@@ -173,6 +173,17 @@ class TestVocabularyParser(unittest.TestCase):
             get_definition_tokens(vocabulary[0])
         )
 
+        vocabulary = yaml.safe_load("""
+                    vocabulary:
+                      - term: exekutieren
+                        definition: to execute (kill)
+                        audio: https://upload.wikimedia.org/wikipedia/commons/f/f1/De-exekutieren.ogg
+                """)["vocabulary"]
+        self.assertEqual(
+            {"execute", "kill"},
+            get_definition_tokens(vocabulary[0])
+        )
+
     def test_get_term_tokens(self):
         vocabulary = yaml.safe_load("""
                     vocabulary:
