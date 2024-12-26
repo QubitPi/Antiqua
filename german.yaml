@@ -265,36 +265,10 @@ vocabulary:
       - (colloquial, nonstandard) than
       - (chiefly colloquial) when (referring to the past)
     audio: https://upload.wikimedia.org/wikipedia/commons/f/fc/De-wie3.ogg
-  - term: Wie ist Ihr Name?
-    definition: What's your name?
-  - term: Wie heißen Sie?
-    definition: What are you called?
-  - term: Grüßt euch!
-    definition: Hallo, hi (a familiar greeting used to more than one person)
-  - term: Guten Morgen
-    definition: Good morning
-  - term: Guten Abend
-    definition: Good evening
-  - term: Gute Nacht
-    definition: Good night
   - term: wieder
     definition:
       - (adv.) again
       - (adv.) back
-  - term: Auf Wiedersehen
-    definition: Goodbye
-  - term: Wo wohnen Sie?
-    definition: Where do you live?
-  - term: Ich wohne in ...
-    definition: I live in ...
-  - term: Ich wohne jetzt in ...
-    definition: I live in ... now
-  - term: Woher kommen Sie?
-    definition: Where do you come from?
-  - term: Ich komme aus ...
-    definition: I come from ...
-  - term: Ich komme aus ... , aus ...
-    definition: I'm from (country), (city)
   - term: der Amerikaner
     definition: American
     declension:
@@ -557,16 +531,6 @@ vocabulary:
     definition: now
   - term: Entschuldigen
     definition: to excuse
-  - term: Entschuldigen Sie
-    definition: excuse me
-  - term: entschuldigen Sie bitte
-    definition: excuse me please
-  - term: ein paar Fragen
-    definition: a few questions
-  - term: Darf ich Ihnen ein paar Fragen stellen?
-    definition: Can I ask you a few questions?
-  - term: sehr gut
-    definition: very good
   - term: ausgezeichnet
     definition: excellent
   - term: prima
@@ -612,10 +576,6 @@ vocabulary:
       - [accusative, Heute,    N/A   ]
   - term: heutig
     definition: today's
-  - term: Mir geht es gut
-    definition: I am fine
-  - term: Mir geht's gut
-    definition: I'm fine
   - term: wirklich
     definition: really
     audio: https://upload.wikimedia.org/wikipedia/commons/a/ae/De-wirklich.ogg
@@ -662,16 +622,8 @@ vocabulary:
       - [genitive,   Frage,    Fragen]
       - [dative,     Frage,    Fragen]
       - [accusative, Frage,    Fragen]
-  - term: Schreiben/Beantworten Sie die Fragen
-    definition: Write/Answer the questions
   - term: Fußballbundesliga
     definition: federal German soccer league
-  - term: Wie schreibt man das?
-    definition: How do you spell that?
-  - term: Wie buchstabiert man ...?
-    definition: How do you spell...?
-  - term: Sie stehen/sind auf der Liste
-    definition: You are on list
   - term: der Bericht
     definition: report
     declension:
@@ -726,12 +678,6 @@ vocabulary:
       - [genitive,   "Cents, Cent", "Cents, Cent"]
       - [dative,     Cent,          "Cents, Cent"]
       - [accusative, Cent,          "Cents, Cent"]
-  - term: Wie ist Ihre Telefonnummer?
-    definition: What is your telephone number?
-  - term: Welche Telefonnummer haben Sie?
-    definition: What telephone number do you have?
-  - term: Wie ist Ihre Faxnummer?
-    definition: What is your fax number?
   - term: das Haus
     definition:
       - the house
@@ -742,8 +688,6 @@ vocabulary:
       - [genitive,   Hauses,   Häuser ]
       - [dative,     Haus,     Häusern]
       - [accusative, Haus,     Häuser ]
-  - term: Wie ist Ihre Hausnummer oder Ihre Zimmernummer?
-    definition: What is your house number or your room number?
   - term: kein
     definition: "no"
   - term: ein bisschen
@@ -1141,8 +1085,6 @@ vocabulary:
       - [genitive,   Bäckerei, Bäckereien]
       - [dative,     Bäckerei, Bäckereien]
       - [accusative, Bäckerei, Bäckereien]
-  - term: Dort ist der Kuchen augezeichnet
-    definition: The cake there is excellent
   - term: die Kneipe
     definition: the pub
   - term: die Kirche
@@ -1490,10 +1432,6 @@ vocabulary:
       - [genitive,   Bechers,  Becher ]
       - [dative,     Becher,   Bechern]
       - [accusative, Becher,   Becher ]
-  - term: Paul isst einen Becher Eis
-    definition: Paul eats a cup of ice cream
-  - term: zwei Becher Eis
-    definition: two cups of ice cream
   - term: die Tasse
     definition: the cup with a handle
     declension:
@@ -1648,41 +1586,17 @@ vocabulary:
       - [genitive,   Nachspeise, Nachspeisen]
       - [dative,     Nachspeise, Nachspeisen]
       - [accusative, Nachspeise, Nachspeisen]
-  - term: Wir möchten/Ich möchte bestellen.
-    definition: (in restaurant) We'd like to/I'd like to order.
-  - term: Was möchten/nehmen/behommen/trinken Sie, bitte?
-    definition: (in restaurant) What would you like?
-  - term: Möchten Sie vielleicht auch etwas zum ...?
-    definition: Would you like something for ... too?
-  - term: Als Vorspeise nehme ich ...
-    definition: As a starter I'll take ...
-  - term: Als Hauptgericht bekomme ich ...
-    definition: For my main course I'll take ...
-  - term: Als Nachspeise/Dessert möchte ich ...
-    definition: For dessert I'd like ...
   - term: statt
     definition: instead of
-  - term: Kann ich statt dessen einen/ein/ein ... haben?
-    definition: Can I have a/an ... instead?
-  - term: Schön kühl, bitte
-    definition: (drink) make it cold, please
   - term: ohne
     definition:
       - (conj.) without
       - (prep.) without
     audio: https://upload.wikimedia.org/wikipedia/commons/3/36/De-ohne.ogg
-  - term: Mit oder ohne Eis?
-    definition: With or without ice?
-  - term: mit Eis
-    definition: (drink) with ice
-  - term: ohne Eis
-    definition: (drink) without ice
   - term: schmecken
     definition:
       - to taste
       - to taste good
-  - term: Hat es geschmeckt?
-    definition: Did it taste good?
   - term: zahlen
     definition: to pay
     audio: https://upload.wikimedia.org/wikipedia/commons/3/39/De-zahlen.ogg
@@ -1692,8 +1606,6 @@ vocabulary:
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/zahlen.pdf
   - term: bezahlen
     definition: to pay
-  - term: Ich möchte (jetzt) bazahlen.
-    definition: I'd like to pay (now).
   - term: das Moment
     definition: (Physics) momentum
     declension:
@@ -1712,22 +1624,16 @@ vocabulary:
       - [accusative, Moment,              Momente ]
   - term: im Moment
     definition: at the moment
-  - term: Einen Moment, bitte.
-    definition: One moment, please.
   - term: zusammen
     definition: (adv.) together
   - term: zusammenhalten
     definition: to hold together
-  - term: Das macht zusammen ...
-    definition: The total($) would be ...
   - term: gern
-    definition: (adv.) gladly, with pleasure
+    definition:
+      - (adv.) gladly
+      - (adv.) with pleasure
   - term: essen
     definition: to eat
-  - term: Ich esse gern Kuchen.
-    definition: I like eating cake.
-  - term: Essen Sie gern Fleisch?
-    definition: Do you like eating meat?
   - term: besonders
     definition: especially
   - term: bald
@@ -2186,8 +2092,6 @@ vocabulary:
   - term: hoffentlich
     definition: (ad.) hopefully
     audio: https://upload.wikimedia.org/wikipedia/commons/d/dd/De-hoffentlich.ogg
-  - term: ach so
-    definition: I see
   - term: der Beruf
     definition: the job
     audio: https://upload.wikimedia.org/wikipedia/commons/e/e8/De-Beruf.ogg
@@ -2199,14 +2103,6 @@ vocabulary:
       - [accusative, Beruf,             Berufe ]
   - term: berufstätig
     definition: employed
-  - term: Sind Sie berufstätig?
-    definition: Do you have a job?
-  - term: Was sind Sie von Beruf?
-    definition: What job do you do?
-  - term: Wo arbeiten Sie?
-    definition: Where do you work?
-  - term: Seit wann arbeiten Sie dort?
-    definition: How long have you been working there?
   - term: großartig
     definition: (adj.) terrific
   - term: Das ist ja großartig!
@@ -2259,8 +2155,6 @@ vocabulary:
       - (Graph Theory) vertex, node
   - term: um die Ecke
     definition: around the corner
-  - term: gehen Sie hier rechts um die Ecke
-    definition: go around the corner to the right here
   - term: die Straße
     definition: the street
   - term: links
@@ -2272,24 +2166,10 @@ vocabulary:
     definition:
       - (adv.) on the right
       - (adv.) to the right
-  - term: gehen Sie die erste Straße links
-    definition: take the first left
   - term: geradeaus
     definition: (adv.) straight ahead
-  - term: gehen Sie geradeaus
-    definition: (direction) go straight ahead
   - term: dann
     definition: (adv.) then
-  - term: gehen Sie geradeaus und dann links in ...straße
-    definition: (direction) go straight ahead and then turn left in ...(street)
-  - term: Nehmen Sie die erste Straße rechts
-    definition: Take the first right
-  - term: Dort finden Sie einen/eine/ein ...
-    definition: You will see a/an ... there
-  - term: Wo finde ich hier einen/eine/ein ...?
-    definition: Where can I find a/an ... here?
-  - term: Finde ich hier in der Nähe einen/eine/ein ...?
-    definition: Can I find a/an ... near here?
   - term: der Vater
     definition: the father
     declension:
@@ -2401,10 +2281,6 @@ vocabulary:
       - (adj.) expensive
       - (adj.) dear
     audio: https://upload.wikimedia.org/wikipedia/commons/8/88/De-teuer.ogg
-  - term: Wie teuer ist ...? (sing.)
-    definition: How much is ...?
-  - term: Wie teuer sind ...? (pl.)
-    definition: How much are ...?
   - term: zurück
     definition: (adv.) back
   - term: hin und zurück
@@ -2441,8 +2317,6 @@ vocabulary:
       - [genitive,   Ladens,   Läden ]
       - [dative,     Laden,    Läden ]
       - [accusative, Laden,    Läden ]
-  - term: Das ist der Laden von ...
-    definition: This is ...(someone)'s shop.
   - term: der Riesling
     definition:
       - the Riesling grape
@@ -2576,10 +2450,6 @@ vocabulary:
     definition: to depart
   - term: gehen
     definition: to go
-  - term: gehen zu Fuß
-    definition: to go (to somewhere) on foot
-  - term: Ich gehe in den/in die/ins ...
-    definition: I go to the (m/f/n) ...
   - term: weggehen
     definition: to leave
     audio: https://upload.wikimedia.org/wikipedia/commons/f/f6/De-weggehen.ogg
@@ -2897,26 +2767,6 @@ vocabulary:
       - I see
       - oh
       - ah
-  - term: ins
-    definition: to the
-  - term: Gehst du auch gern ins Kino?
-    definition: Do you also like going to the cinema?
-  - term: Ich gehe gern ins Kino
-    definition: I like going to the cinema.
-  - term: Ich schwimme nicht gern.
-    definition: I don't like swimming.
-  - term: Hast du ein Hobby?
-    definition: Do yo have a hobby?
-  - term: Was ist Ihr Hobby?
-    definition: What's your hobby?
-  - term: Ich ... gern
-    definition: I like (doing) ...
-  - term: Ich lese gern Romane
-    definition: I like reading novels.
-  - term: Ins ... ich sehr gern
-    definition: I really like going to ... (some place)
-  - term: Isst du gern ...
-    definition: Do you like eating ...?
   - term: mögen
     definition:
       - would like
@@ -2949,8 +2799,6 @@ vocabulary:
       - [genitive,   Biographie, Biographien]
       - [dative,     Biographie, Biographien]
       - [accusative, Biographie, Biographien]
-  - term: Lesen Sie gern ...?
-    definition: Do you like reading ...?
   - term: das Radio
     definition: the radio
     declension:
@@ -2967,10 +2815,6 @@ vocabulary:
       - [genitive,   Umfrage,  Umfragen]
       - [dative,     Umfrage,  Umfragen]
       - [accusative, Umfrage,  Umfragen]
-  - term: machen eine Umfrage
-    definition: conduct a survey
-  - term: lernen sich kennen
-    definition: get to know each other
   - term: schlafen
     definition: to sleep
   - term: ausschlafen
@@ -2987,10 +2831,6 @@ vocabulary:
       - [accusative, Gerät,             Geräte ]
   - term: oft
     definition: (adv.) often
-  - term: Wie oft ...
-    definition: How often ...
-  - term: Wie oft gehen die Deutschen aus?
-    definition: How often do German people go out?
   - term: einmal
     definition: (adv.) once
   - term: zweimal
@@ -3089,10 +2929,6 @@ vocabulary:
       - [genitive,   "Monates, Monats", Monate ]
       - [dative,     Monat,             Monaten]
       - [accusative, Monat,             Monate ]
-  - term: einmal pro/die Woche
-    definition: once per/a week
-  - term: zweimal im Monat
-    definition: twice a month
   - term: mindestens
     definition: (adv.) at least
   - term: der Liebling
@@ -3146,14 +2982,6 @@ vocabulary:
       - [genitive,   Artikels, Artikel ]
       - [dative,     Artikel,  Artikeln]
       - [accusative, Artikel,  Artikel ]
-  - term: Lesen Sie den Artikel aus einer deutschen Zeitung.
-    definition: Read the article from a German newspaper.
-  - term: Frage der Woche
-    definition: question of the week
-  - term: Wie oft gehen Sie im Monat aus?
-    definition: How often do you go out per month?
-  - term: Wohin gehen Sie?
-    definition: Where are you going?
   - term: zeigen
     definition: to show
   - term: doch
@@ -3276,14 +3104,6 @@ vocabulary:
       - [genitive,   Uhr,      Uhren ]
       - [dative,     Uhr,      Uhren ]
       - [accusative, Uhr,      Uhren ]
-  - term: Wie spät ist es?
-    definition: What's the time?
-  - term: Wie viel Uhr ist est?
-    definition: What's the time?
-  - term: zwei Uhr.
-    definition: (clock time) two o'clock
-  - term: zehn (Minuten) nach zwei
-    definition: (clock time) ten (minutes) past 2 o'clock
   - term: kurz
     definition: (adj.) short
     audio: https://upload.wikimedia.org/wikipedia/commons/d/d3/De-kurz2.ogg
@@ -3299,16 +3119,6 @@ vocabulary:
       - [genitive,   Viertels, Viertel ]
       - [dative,     Viertel,  Vierteln]
       - [accusative, Viertel,  Viertel ]
-  - term: Viertel nach fünf.
-    definition: (clock time) a quarter past five.
-  - term: Viertel vor sieben
-    definition: (clock time) a quarter before eight
-  - term: halb zwei
-    definition: (clock time) half past two
-  - term: siebzehn Uhr und fünfzehn Minuten
-    definition: (clock time) 17:15
-  - term: siebzehn Uhr fünfzehn
-    definition: (clock time) 17:15
   - term: morgen
     definition: (adv.) tomorrow
     audio: https://upload.wikimedia.org/wikipedia/commons/7/7b/De-morgen.ogg
@@ -3331,12 +3141,6 @@ vocabulary:
       - [genitive,   "Nachmittages, Nachmittags", Nachmittage ]
       - [dative,     Nachmittag,                  Nachmittagen]
       - [accusative, Nachmittag,                  Nachmittage ]
-  - term: vier Uhr nachmittags
-    definition: (clock time) four o'clock in the afternoon
-  - term: sieben Uhr abends
-    definition: (clock time) seven o'clock in the evening
-  - term: ein Uhr nachts
-    definition: (clock time) one o'clock at night
   - term: die Uhrzeit
     definition: (clock) the time
     declension:
@@ -3396,12 +3200,6 @@ vocabulary:
       - [genitive,   Feierabends, Feierabende ]
       - [dative,     Feierabend,  Feierabenden]
       - [accusative, Feierabend,  Feierabende ]
-  - term: Feierabend haben
-    definition: call it a day (hat sie Feierabend, she finishes work)
-  - term: Wann hast du Feierabend?
-    definition: When do finish work?
-  - term: Ich habe um vier Uhr Feierabend.
-    definition: I finish work at four o'clock.
   - term: kaufen
     definition: to buy
   - term: Hier kann man viel kaufen.
@@ -3596,8 +3394,6 @@ vocabulary:
       - [accusative, Touristen, Touristen]
   - term: vergessen
     definition: to forget
-  - term: vergessen Sie ... nicht
-    definition: please don't forget ...(accusative)
   - term: der Regenschirm
     definition: the unbrella
     declension:
@@ -3895,12 +3691,6 @@ vocabulary:
       - [genitive,   Straßenbahn, Straßenbahnen]
       - [dative,     Straßenbahn, Straßenbahnen]
       - [accusative, Straßenbahn, Straßenbahnen]
-  - term: fahren mit (dative)...
-    definition: to go somewhere by ...
-  - term: von ... nach ...
-    definition: from ... to ...
-  - term: fahren mit (dat.)... von ... nach ...
-    definition: to go from ... to ... by ...
   - term: ergänzen
     definition: to fill
   - term: die U-Bahn
@@ -4360,16 +4150,8 @@ vocabulary:
       - [genitive,   Menschen, Menschen]
       - [dative,     Menschen, Menschen]
       - [accusative, Menschen, Menschen]
-  - term: Das machen Sie auch, oder?
-    definition: You do that too, right?
-  - term: Warum Sie nicht sagen?
-    definition: Why don't you say anything?
-  - term: Warum Sie ihm nicht sagen?
-    definition: Why don't you say anything to him?
   - term: jung
     definition: young
-  - term: Sie ihn schon lange lieben?
-    definition: Have you loved him for a long time?
   - term: immer
     definition: always
   - term: schweigen
@@ -4428,8 +4210,6 @@ vocabulary:
     definition: perhaps
   - term: sollen
     definition: should
-  - term: Vielleicht sollten Sie ...
-    definition: Maybe you should ...
   - term: von hier weggehen
     definition: leave here
   - term: Schon gut.
@@ -4810,10 +4590,6 @@ vocabulary:
       - [genitive,   Vorscheins, N/A   ]
       - [dative,     Vorschein,  N/A   ]
       - [accusative, Vorschein,  N/A   ]
-  - term: zum Vorschein kommen
-    definition: to come to light
-  - term: Ich würde gern ...
-    definition: I would like to ...
   - term: mitmachen
     definition: to take part
   - term: verlieren
