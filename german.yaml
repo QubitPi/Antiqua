@@ -578,7 +578,8 @@ vocabulary:
   - term: nicht gut
     definition: not good
   - term: schlecht
-    definition: bad
+    definition: (adj.) bad
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/90/De-schlecht2.ogg
   - term: scheußlich
     definition: terrible
   - term: Wie geht es Ihnen?
@@ -1936,6 +1937,9 @@ vocabulary:
       - [genitive,   Autos,    Autos ]
       - [dative,     Auto,     Autos ]
       - [accusative, Auto,     Autos ]
+  - term: mechanisch
+    definition: (adj.) mechanical
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/7d/De-mechanisch.ogg
   - term: der Automechaniker
     definition: (make) car mechanic
     declension:
@@ -4286,6 +4290,16 @@ vocabulary:
   - term: fast
     definition: (adv.) almost
     audio: https://upload.wikimedia.org/wikipedia/commons/2/26/De-fast2.ogg
+  - term: der Wecker
+    definition: the alarm clock
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/4b/LL-Q188_%28deu%29-Sebastian_Wallroth-Wecker.wav
+    declension-type: strong
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Wecker,   Wecker ]
+      - [genitive,   Weckers,  Wecker ]
+      - [dative,     Wecker,   Weckern]
+      - [accusative, Wecker,   Wecker ]
 
 
 
@@ -5705,6 +5719,13 @@ vocabulary:
   - term: exekutieren
     definition: to execute (kill)
     audio: https://upload.wikimedia.org/wikipedia/commons/f/f1/De-exekutieren.ogg
+  - term: töten
+    definition: to kill
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/b0/De-t%C3%B6ten.ogg
+    verbformen:
+      video: https://youtu.be/oFQQkWcju04
+      conjugation: https://www.verbformen.com/conjugation/to3ten.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/to3ten.pdf
   - term: die Weltanschauung
     definition:
       - the worldview
@@ -6015,7 +6036,7 @@ vocabulary:
       - to carry out
       - to execute
       - to put into action
-    audio:
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/ac/De-durchf%C3%BChren.ogg
     verbformen:
       video: https://youtu.be/GTaswCjpdXA
       conjugation: https://www.verbformen.com/conjugation/durchfu3hren.pdf
@@ -6054,6 +6075,20 @@ vocabulary:
     verbformen:
       conjugation: https://www.verbformen.com/conjugation/jagen_hat.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/jagen_hat.pdf
+  - term: endlich
+    definition:
+      - (adv.) eventually
+      - (adv.) finally
+      - (adj.) finite
+      - (adj.) limited
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/14/De-endlich.ogg
+  - term: dürfen
+    definition: to be allowed
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/17/De-d%C3%BCrfen.ogg
+    verbformen:
+      video: https://youtu.be/W3l8PzQlCIg
+      conjugation: https://www.verbformen.com/conjugation/du3rfen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/du3rfen.pdf
 
 
 
@@ -6185,12 +6220,13 @@ vocabulary:
       - doctrine
   - term: erste
     definition: (adj.) first
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/72/De-erste.ogg
   - term: erst
     definition:
       - (adv.) first
       - (adv.) only
       - (adv.) not until
-    audio:
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/93/De-erst.ogg
   - term: die Faust
     definition: the first
     declension:
