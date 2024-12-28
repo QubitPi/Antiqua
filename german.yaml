@@ -229,6 +229,16 @@ vocabulary:
     definition: 1,708,000
   - term: drei Millionen vierhunderteinundsiebzigtausend
     definition: 3,471,000
+  - term: das Buch
+    definition: the book
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/28/De-Buch2.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular,        plural ]
+      - [nominative, Buch,            Bücher ]
+      - [genitive,   "Buches, Buchs", Bücher ]
+      - [dative,     Buch,            Büchern]
+      - [accusative, Buch,            Bücher ]
   - term: der Tag
     definition: the day
     declension:
@@ -1590,8 +1600,7 @@ vocabulary:
     definition: instead of
   - term: ohne
     definition:
-      - (conj.) without
-      - (prep.) without
+      - (conj. & prep.) without
     audio: https://upload.wikimedia.org/wikipedia/commons/3/36/De-ohne.ogg
   - term: schmecken
     definition:
@@ -3907,6 +3916,7 @@ vocabulary:
   - term: das Gespräch
     definition: the conversation
     audio: https://upload.wikimedia.org/wikipedia/commons/f/f5/De-Gespr%C3%A4ch.ogg
+    declension-type: strong
     declension:
       - ["",         singular,                plural    ]
       - [nominative, Gespräch,                Gespräche ]
@@ -3993,7 +4003,9 @@ vocabulary:
       conjugation: https://www.verbformen.com/conjugation/interviewen.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/interviewen.pdf
   - term: die Platte
-    definition: flat
+    definition:
+      - the record
+      - the flat
     audio: https://upload.wikimedia.org/wikipedia/commons/0/04/De-Platte.ogg
     declension:
       - ["",         singular, plural ]
@@ -4090,6 +4102,11 @@ vocabulary:
       - [genitive,   Weckers,  Wecker ]
       - [dative,     Wecker,   Weckern]
       - [accusative, Wecker,   Wecker ]
+  - term: laut
+    definition:
+      - loud
+      - noisy
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/37/De-laut.ogg
 
 
 
@@ -4376,6 +4393,16 @@ vocabulary:
       - to follow
       - to understand
       - to obey
+  - term: der Offizier
+    definition: (military) commissioned officer
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/6f/De-Offizier.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular,                plural    ]
+      - [nominative, Offizier,                Offiziere ]
+      - [genitive,   "Offiziers, Offizieres", Offiziere ]
+      - [dative,     Offizier,                Offizieren]
+      - [accusative, Offizier,                Offiziere ]
   - term: das Unteroffizier
     definition: the non-commissioned officer
     declension:
@@ -4386,6 +4413,15 @@ vocabulary:
       - [accusative, Unteroffizier,  Unteroffiziere ]
   - term: die Welt
     definition: the world
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Welt,     Welten]
+      - [genitive,   Welt,     Welten]
+      - [dative,     Welt,     Welten]
+      - [accusative, Welt,     Welten]
+  - term: die Welt
+    definition: the world
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/51/De-at-Welt.ogg
     declension:
       - ["",         singular, plural]
       - [nominative, Welt,     Welten]
@@ -5136,6 +5172,16 @@ vocabulary:
       - [genitive,   Mädels,   "Mädeln (Southern Germany & Austria); Mädel, Mädels (Northern & Central Germany)" ]
       - [dative,     Mädel,    "Mädeln (Southern Germany & Austria); Mädeln, Mädels (Northern & Central Germany)"]
       - [accusative, Mädel,    "Mädeln (Southern Germany & Austria); Mädel, Mädels (Northern & Central Germany)" ]
+  - term: das Mädchen
+    definition: the girl
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/3e/De-M%C3%A4dchen2.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Mädchen,  Mädchen]
+      - [genitive,   Mädchens, Mädchen]
+      - [dative,     Mädchen,  Mädchen]
+      - [accusative, Mädchen,  Mädchen]
   - term: verhauen
     definition: to bash up
     audio: https://upload.wikimedia.org/wikipedia/commons/1/18/De-verhauen.ogg
@@ -5865,6 +5911,138 @@ vocabulary:
       video: https://youtu.be/W3l8PzQlCIg
       conjugation: https://www.verbformen.com/conjugation/du3rfen.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/du3rfen.pdf
+  - term: der Sturmbannführer
+    definition: (military rank of the Nazi SA, SS and NSFK) major
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/cc/De-Sturmbannf%C3%BChrer.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular,         plural          ]
+      - [nominative, Sturmbannführer,  Sturmbannführer ]
+      - [genitive,   Sturmbannführers, Sturmbannführer ]
+      - [dative,     Sturmbannführer,  Sturmbannführern]
+      - [accusative, Sturmbannführer,  Sturmbannführer ]
+  - term: unterstehen
+    definition:
+      - to be subordinate to
+      - to dare
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/a3/De-unterstehen.ogg
+    verbformen:
+      conjugation: https://www.verbformen.com/conjugation/unter-stehen_hat.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/unter-stehen_hat.pdf
+  - term: gebieten
+    definition:
+      - to demand
+      - to command
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/ad/De-gebieten.ogg
+    verbformen:
+      conjugation: https://www.verbformen.com/conjugation/gebieten.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/gebieten.pdf
+  - term: die Wehrmacht
+    definition: the armed forces (specifically referring to the Nazi-era military; longer used for armed forces generally.)
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/72/De-Wehrmacht-pronunciation.ogg
+    declension:
+      - ["",         singular,  plural     ]
+      - [nominative, Wehrmacht, Wehrmächte ]
+      - [genitive,   Wehrmacht, Wehrmächte ]
+      - [dative,     Wehrmacht, Wehrmächten]
+      - [accusative, Wehrmacht, Wehrmächte ]
+  - term: anführen
+    definition:
+      - to lead
+      - to command
+      - to cite
+      - to instruct
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/61/De-anf%C3%BChren.ogg
+    verbformen:
+      video: https://youtu.be/5qeMCOwjoFI
+      conjugation: https://www.verbformen.com/conjugation/anfu3hren.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/anfu3hren.pdf
+  - term: ehrenvoll
+    definition: honourable
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/df/De-ehrenvoll.ogg
+  - term: die Verantwortung
+    definition: the responsibility
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/5e/De-Verantwortung.ogg
+    declension:
+      - ["",         singular,      plural         ]
+      - [nominative, Verantwortung, Verantwortungen]
+      - [genitive,   Verantwortung, Verantwortungen]
+      - [dative,     Verantwortung, Verantwortungen]
+      - [accusative, Verantwortung, Verantwortungen]
+  - term: regeln
+    definition:
+      - to regulate
+      - to control
+      - to take care of
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/4f/De-regeln.ogg
+    verbformen:
+      video: https://youtu.be/V6fsN7ca8sk
+      conjugation: https://www.verbformen.com/conjugation/regeln.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/regeln.pdf
+  - term: wünschen
+    definition:
+      - to wish
+      - tp demand
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/8a/De-w%C3%BCnschen.oga
+    verbformen:
+      video: https://youtu.be/bjHOsOZ2Rds
+      conjugation: https://www.verbformen.com/conjugation/wu3nschen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/wu3nschen.pdf
+  - term: wahnsinnig
+    definition:
+      - (adj.) insane
+      - (adj.) incredible
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/fe/De-at-wahnsinnig.ogg
+  - term: das Auge
+    definition: the eye
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/9a/De-Auge2.ogg
+    declension-type: mixed
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Auge,     Augen ]
+      - [genitive,   Auges,    Augen ]
+      - [dative,     Auge,     Augen ]
+      - [accusative, Auge,     Augen ]
+  - term: mal
+    definition: times
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/91/De-mal.ogg
+  - term: sicher
+    definition:
+      - (adj.) safe
+      - (adj.) safely
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/8d/De-sicher2.ogg
+  - term: unter
+    definition:
+      - (prep.) under
+      - (prep.) below
+      - (prep.) among
+      - (prep.) between
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/ab/De-unter.ogg
+  - term: der Umstand
+    definition: the circumstance
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/a2/De-Umstand.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular,              plural   ]
+      - [nominative, Umstand,               Umstände ]
+      - [genitive,   "Umstandes, Umstands", Umstände ]
+      - [dative,     Umstand,               Umständen]
+      - [accusative, Umstand,               Umstände ]
+  - term: ruinieren
+    definition: to ruin
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f6/De-ruinieren.ogg
+    verbformen:
+      conjugation: https://www.verbformen.com/conjugation/ruinieren.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/ruinieren.pdf
+  - term: die Karriere
+    definition: the career
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f4/De-Karriere2.ogg
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Karriere, Karrieren]
+      - [genitive,   Karriere, Karrieren]
+      - [dative,     Karriere, Karrieren]
+      - [accusative, Karriere, Karrieren]
 
 
 
@@ -6154,6 +6332,7 @@ vocabulary:
     definition: to gain
   - term: die Fähigkeit
     definition: the ability
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/49/De-F%C3%A4higkeit.ogg
     declension:
       - ["",         singular,  plural     ]
       - [nominative, Fähigkeit, Fähigkeiten]
