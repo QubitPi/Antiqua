@@ -2275,16 +2275,8 @@ vocabulary:
       - normally
       - (colloquial) so
     audio: https://upload.wikimedia.org/wikipedia/commons/6/63/De-sonst.ogg
-  - term: Sonst noch etwas?
-    definition: Anything else?
-  - term: Ist das alles?
-    definition: Is that all?
   - term: kosten
     definition: to cost
-  - term: Was kostet ...? (sing.)
-    definition: What does ... cost?
-  - term: Was kosten ...? (pl.)
-    definition: What do ... cost?
   - term: teuer
     definition:
       - (adj.) expensive
@@ -6043,6 +6035,54 @@ vocabulary:
       - [genitive,   Karriere, Karrieren]
       - [dative,     Karriere, Karrieren]
       - [accusative, Karriere, Karrieren]
+  - term: höchstens
+    definition: at most
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/0e/De-h%C3%B6chstens.ogg
+  - term: die Reinheit
+    definition: the purity
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/07/De-Reinheit.ogg
+    declension:
+      - ["",         singular, plural    ]
+      - [nominative, Reinheit, Reinheiten]
+      - [genitive,   Reinheit, Reinheiten]
+      - [dative,     Reinheit, Reinheiten]
+      - [accusative, Reinheit, Reinheiten]
+  - term: verderben
+    definition:
+      - to deprive
+      - to ruin
+      - to render (something) useless
+      - to corrupt
+      - to spoil
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/50/De-verderben.ogg
+    verbformen:
+      video: https://youtu.be/bl1QwLKghEo
+      conjugation: https://www.verbformen.com/conjugation/verderben_ist.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/verderben_ist.pdf
+  - term: die Fresse
+    definition: the mouth
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/6a/De-Fresse.ogg
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Fresse,   Fressen]
+      - [genitive,   Fresse,   Fressen]
+      - [dative,     Fresse,   Fressen]
+      - [accusative, Fresse,   Fressen]
+  - term: verteidigen
+    definition:
+      - to defend
+      - to justify
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/53/De-verteidigen.ogg
+    verbformen:
+      video: https://youtu.be/zZIfjJM2Aq4
+      conjugation: https://www.verbformen.com/conjugation/verteidigen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/verteidigen.pdf
+  - term: drüben
+    definition:
+      - (adv.) over
+      - (adv.) over there
+      - (adv.) on the other side
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/51/De-dr%C3%BCben.ogg
 
 
 
