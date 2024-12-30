@@ -63,7 +63,9 @@ Wilhelm Vocabulary
       * [Adjective Declension](#adjective-declension)
       * [Verb Conjugation](#verb-conjugation)
     * [Latin](#latin)
-    * [Classical Hebrew (Coming Soon)](#classical-hebrew-coming-soon)
+    * [Classical Hebrew](#classical-hebrew)
+    * [Classical Sanskrit](#classical-sanskrit)
+    * [Connection between Hebrew and Sanskrit](#connection-between-hebrew-and-sanskrit)
     * [Korean](#korean)
   * [License](#license)
 <!-- TOC -->
@@ -452,7 +454,7 @@ compound tenses. There are two categories of verbs in German:
 [weak and strong](https://en.wikipedia.org/wiki/Germanic_strong_verb)[^1]. In addition,
 [strong verbs are grouped into 7 "classes"](https://en.wikipedia.org/wiki/Germanic_strong_verb#Strong_verb_classes)
 
-[^1]: https://en.wikipedia.org/wiki/German_verbs#Conjugation
+
 
 The conjugation table of German verb on Wiktionary is hard to interpret for German beginner.
 [Netzverb Dictionary](https://www.verbformen.com/) is the best German dictionary _targeting the vocabulary inflections_.
@@ -593,8 +595,6 @@ The declension of the entry is not shown because to decline any noun, we can tak
 genitive singular ending to get the stem, and then add the proper set of endings to the stem based on its declension
 class[^2].
 
-[^2]: _[Greek: An Intensive Course, 2nd Revised Edition](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised/dp/0823216632)_, Hansen & Quinn, _p.20_
-
 For example, to decline _τέχνη τέχνης, ἡ, (art)_, take the genitive singular _τέχνης_, remove the genitive singular ending
 _-ης_, and add the appropriate endings to the stem which gives following paradigm:
 
@@ -637,9 +637,7 @@ The Greek verb has __6__ principal parts. All 6 must be learned whenever a new v
 > The minimum number of forms which one must know in order to generate all possible forms of a verb are called the
 > __principal parts__ of that verb.
 
-From the 6 forms above, various verb forms (i.e. stems & endings) can be derived by rules[^4]
-
-[^4]: _[Greek: An Intensive Course, 2nd Revised Edition](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised/dp/0823216632)_, Hansen & Quinn, _p.44_
+From the 6 forms above, various verb forms (i.e. stems & endings) can be derived by rules[^3]
 
 In practice, however,
 [obtaining precise and complete principal parts for some verbs has been proven to be impossible](https://latin.stackexchange.com/a/17432). Best efforts have
@@ -701,10 +699,40 @@ vocabulary:
     definition: list
 ```
 
-### Classical Hebrew (Coming Soon)
+### Classical Hebrew
+
+> [!NOTE]
+>
+> Unless otherwise stated explicitly, the texts use "Hebrew" as referring to _Classical Hebrew_ only, as opposed to
+> modern Hebrew
 
 The vocabulary is presented to help read and understand [Biblical Hebrew](https://mechon-mamre.org/p/pt/pt00.htm#mp3). A
 [complementary audio](https://mechon-mamre.org/p/pt/ptmp3prq.htm) helps well with the pronunciation.
+
+### Classical Sanskrit
+
+> [!NOTE]
+>
+> Unless otherwise stated explicitly, the texts use "Sanskrit" as referring to _Classical Sanskrit_ only, as opposed to
+> Vedic Sanskrit
+
+### Connection between Hebrew and Sanskrit
+
+One of the reasons I study both Hebrew and Sanskrit is that they are both
+[Sacred languages](https://en.wikipedia.org/wiki/Sacred_language). Not being religiously minded, I am driven by learning
+the similarities between the [_Hebrew Bible_](https://mechon-mamre.org/p/pt/pt00.htm#mp3), written in its original
+language, and [_Brihadaranyaka Upanishad_](https://en.wikipedia.org/wiki/Brihadaranyaka_Upanishad), written in Sanskrit.
+In addition, the linguistic and historical connections of the 2 languages interest me a lot:
+
+![](docs/hebrew-sanskrit.png)
+
+Although
+[there is no settled agreement on a common ancestor of Indo-European and Afroasiatic language families](https://en.wikipedia.org/wiki/Indo-Semitic_languages),
+the two languages as I've been learning them showed amazing similarities. For example, in both Hebrew and Sanskrit,
+there is no sign/character indicating the vowel __a__[^4][^5]. It is difficult to convince myself that this is a sheer
+coincidence! _wilhelm-vocabulary_, thus on Hebrew and Sanskrit, has another project goal - __revealing the missing
+connection between Indo-European and Afroasiatic families through knowledge graph among the vocabularies of their
+children languages
 
 ### [Korean](./korean.yaml)
 
@@ -753,3 +781,9 @@ The use and distribution terms for [wilhelm-vocabulary]() are covered by the [Ap
 [Vocabulary count - Ancient Greek]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2FancientGreek%2Fcount&query=%24%5B0%5D.count&suffix=%20Words&style=for-the-badge&logo=neo4j&logoColor=white&label=Ancient%20Greek&color=4581C3
 
 [wilhelmlang.com]: https://wilhelmlang.com/
+
+[^1]: https://en.wikipedia.org/wiki/German_verbs#Conjugation
+[^2]: _[Greek: An Intensive Course, 2nd Revised Edition](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised/dp/0823216632)_, Hansen & Quinn, _p.20_
+[^3]: _[Greek: An Intensive Course, 2nd Revised Edition](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised/dp/0823216632)_, Hansen & Quinn, _p.44_
+[^4]: A. M. Ruppel, [_The Cambridge Introduction to Sanskrit_](https://trello.com/c/3kJrPbhF), Cornell University, New York, 2017, p.12
+[^5]: E. Simon, L. Motzkin, I. Resnikoff, [The First Hebrew Primer: The Adult Beginner's Path to Biblical Hebrew, Third Edition](https://trello.com/c/ht2VRcf7), EKS Publishing, 1992, p.3

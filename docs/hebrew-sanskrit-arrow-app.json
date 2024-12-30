@@ -1,0 +1,268 @@
+{
+  "style": {
+    "font-family": "Nunito Sans",
+    "background-color": "#F2F2F2",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#4C8EDA",
+    "border-width": 0,
+    "border-color": "#000000",
+    "radius": 75,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#ffffff",
+    "caption-font-size": 20,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "bare",
+    "label-color": "#ffffff",
+    "label-background-color": "#848484",
+    "label-border-color": "#848484",
+    "label-border-width": 3,
+    "label-font-size": 20,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "above",
+    "detail-orientation": "parallel",
+    "arrow-width": 3,
+    "arrow-color": "#848484",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#848484",
+    "type-background-color": "#F2F2F2",
+    "type-border-color": "#848484",
+    "type-border-width": 0,
+    "type-font-size": 21,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#848484",
+    "property-font-size": 20,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": 31.09031958710338,
+        "y": -34.776636686104524
+      },
+      "caption": "Indo-European",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-width": 0,
+        "node-color": "#00AA00",
+        "caption-color": "#ffffff",
+        "caption-font-weight": "bold",
+        "caption-font-size": 30
+      }
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": 779,
+        "y": 325
+      },
+      "caption": "Semitic",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-width": 0,
+        "node-color": "#00AA00",
+        "caption-color": "#ffffff",
+        "caption-font-weight": "bold",
+        "caption-font-size": 30
+      }
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": -164.8908070966039,
+        "y": 235.23667763123024
+      },
+      "caption": "Indo-Iranian",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-width": 0,
+        "node-color": "#00AA00",
+        "caption-color": "#ffffff",
+        "caption-font-weight": "bold",
+        "caption-font-size": 30
+      }
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 144.83056413767224,
+        "y": 359.2869260211744
+      },
+      "caption": "Indo-Aryan",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-width": 0,
+        "node-color": "#00AA00",
+        "caption-color": "#ffffff",
+        "caption-font-weight": "bold",
+        "caption-font-size": 30
+      }
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": -23.012707380946207,
+        "y": 650
+      },
+      "caption": "Sanskrit",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-width": 0,
+        "node-color": "#ff5a35",
+        "caption-color": "#ffffff",
+        "caption-font-weight": "bold",
+        "caption-font-size": 30
+      }
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 779,
+        "y": -34.776636686104524
+      },
+      "caption": "Afroasiatic",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-width": 0,
+        "node-color": "#00AA00",
+        "caption-color": "#ffffff",
+        "caption-font-weight": "bold",
+        "caption-font-size": 30
+      }
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": 779,
+        "y": 650
+      },
+      "caption": "Hebrew",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-width": 0,
+        "node-color": "#ff5a35",
+        "caption-color": "#ffffff",
+        "caption-font-weight": "bold",
+        "caption-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n5",
+      "fromId": "n0",
+      "toId": "n5",
+      "type": "?",
+      "properties": {},
+      "style": {
+        "directionality": "undirected",
+        "type-font-size": 60,
+        "detail-position": "inline",
+        "arrow-width": 6,
+        "type-background-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n8",
+      "fromId": "n2",
+      "toId": "n0",
+      "type": "sub-family of",
+      "properties": {},
+      "style": {
+        "arrow-color": "#000000",
+        "type-border-color": "#000000",
+        "type-color": "#000000",
+        "type-background-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n9",
+      "fromId": "n3",
+      "toId": "n2",
+      "type": "sub-family of",
+      "properties": {},
+      "style": {
+        "arrow-color": "#000000",
+        "type-color": "#000000",
+        "type-border-color": "#000000",
+        "type-background-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n10",
+      "fromId": "n4",
+      "toId": "n3",
+      "type": "",
+      "properties": {},
+      "style": {
+        "arrow-color": "#000000"
+      }
+    },
+    {
+      "id": "n11",
+      "fromId": "n6",
+      "toId": "n1",
+      "type": "",
+      "properties": {},
+      "style": {
+        "arrow-color": "#000000"
+      }
+    },
+    {
+      "id": "n12",
+      "fromId": "n1",
+      "toId": "n5",
+      "type": "sub-family of",
+      "properties": {},
+      "style": {
+        "arrow-color": "#000000",
+        "type-color": "#000000",
+        "type-border-color": "#000000",
+        "type-background-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n13",
+      "fromId": "n4",
+      "toId": "n6",
+      "type": "wilhelm-vocabulary",
+      "properties": {},
+      "style": {
+        "directionality": "undirected",
+        "arrow-color": "#009ce0",
+        "type-border-color": "#009ce0",
+        "type-color": "#009ce0",
+        "detail-position": "inline",
+        "type-font-size": 30,
+        "arrow-width": 3,
+        "type-background-color": "#ffffff"
+      }
+    }
+  ]
+}
