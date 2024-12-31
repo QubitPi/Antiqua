@@ -279,21 +279,6 @@ The declension (inflection) table above is equivalent to
 Data Pipeline
 -------------
 
-![Data pipeline](docs/data-pipeline.png "Error loading data-pipeline.png")
-
-> [!CAUTION]
->
-> When the graph database is Neo4J, all constrains relating to the __Term__ node must be using:
->
-> ```cypher
-> SHOW CONSTRAINTS
-> DROP CONSTRAINT constraint_name;
-> ```
->
-> This is because certain vocabulary has multiple grammatical forms. This vocabulary is spread out as multiple entries.
-> These multiple entries, because they have lots of common properties, often triggers constraint violations in Neo4J on
-> load
-
 ### How Data (Vocabulary) is Stored in a Graph Database
 
 #### Why Graph Database
