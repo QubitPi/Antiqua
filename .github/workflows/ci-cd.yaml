@@ -120,7 +120,7 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
 
   docker:
-    name: Test Docker Build, Runs Acceptance Tests, and Publish Data Image to DockerHub
+    name: Test Docker Build and Publish Data Image to DockerHub
     needs: unit-tests
     runs-on: ubuntu-latest
     steps:
@@ -157,10 +157,6 @@ jobs:
           NEO4J_DATABASE: ${{ env.NEO4J_DATABASE }}
           NEO4J_USERNAME: ${{ env.NEO4J_USERNAME }}
           NEO4J_PASSWORD: ${{ env.NEO4J_PASSWORD }}
-      - name: Install dependencies
-        run: pip3 install -r requirements.txt
-      - name: Run acceptance tests
-        run: behave -v
       - name: Copy over data onto host
         run: docker cp data-loader:/data .
       - name: Test image build
@@ -200,5 +196,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.QUBITPI_DOWNSTREAM_CICD_TRIGGERING_TOKEN }}
-          repository: QubitPi/wilhelm-data-loader
+          repository: QubitPi/wilhelm-vocabulary-acceptance-tests
           event-type: wilhelm-vocabulary-changes
