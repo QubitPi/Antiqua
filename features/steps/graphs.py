@@ -11,32 +11,40 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-from behave import *
+import logging
+
+from behave import then
+from behave import when
+from hamcrest import assert_that
+from hamcrest import equal_to
 from neo4j import GraphDatabase
 
+# Set up the logging
+logging.basicConfig(level=logging.INFO)
+neo4j_logger = logging.getLogger("neo4j")
+neo4j_logger.setLevel(logging.DEBUG)  # Log all queries
 
-@when("we expand 'δέ' by 3 hops at most")
-def step_impl(context):
-    assert True is not False
 
-
-@then('we get 13 nodes and 13 links, all distinct')
-def step_impl(context):
+@when('we expand "{term}" by {num_hops:d} hops at most')
+def step_impl(context, term, num_hops):
     driver = GraphDatabase.driver("neo4j://localhost:7687", auth=("not used", "not used"))
 
     with driver.session() as session:
-        result = parse_apoc_path_expand_result(session.run(
+        context.result = parse_apoc_path_expand_result(session.run(
             """
-            MATCH (node{label:"δέ"})
-            CALL apoc.path.expand(node, "LINK", null, 1, 3)
-            YIELD path
-            RETURN path;
-            """
+                MATCH (node{label:$term})
+                CALL apoc.path.expand(node, "LINK", null, 1, $num_hops)
+                YIELD path
+                RETURN path;
+            """,
+            term=term,
+            num_hops=num_hops
         ))
 
-        print(set(result["nodes"]))
-        assert set(result["nodes"]) == {"aber lieber", "aber", "but", "sed", "ἀλλά", "δέ", "and", "τε", "et", "καί",
-                                        "also", "even", "δ᾽"}
+
+@then('we get these distinct nodes: {nodes}')
+def step_impl(context, nodes):
+    assert_that(set(context.result["nodes"]), equal_to(eval(nodes)))
 
 
 def parse_apoc_path_expand_result(result):
