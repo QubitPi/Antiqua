@@ -6083,6 +6083,21 @@ vocabulary:
       - (adv.) over there
       - (adv.) on the other side
     audio: https://upload.wikimedia.org/wikipedia/commons/5/51/De-dr%C3%BCben.ogg
+  - term: die Schweinerei
+    definition: the mess
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/a5/De-Schweinerei.ogg
+    declension:
+      - ["",         singular,    plural       ]
+      - [nominative, Schweinerei, Schweinereien]
+      - [genitive,   Schweinerei, Schweinereien]
+      - [dative,     Schweinerei, Schweinereien]
+      - [accusative, Schweinerei, Schweinereien]
+  - term: vorhin
+    definition: (adv.) recently
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/5d/De-vorhin.ogg
+  - term: wegen
+    definition: (prep.) because of
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/c1/De-wegen2.ogg
 
 
 

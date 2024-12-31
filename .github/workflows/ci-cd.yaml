@@ -160,7 +160,7 @@ jobs:
       - name: Install dependencies
         run: pip3 install -r requirements.txt
       - name: Run acceptance tests
-        run: behave
+        run: behave -v
       - name: Copy over data onto host
         run: docker cp data-loader:/data .
       - name: Test image build
@@ -191,7 +191,7 @@ jobs:
           readme-filepath: README.md
 
   triggering:
-    name: Triggering data model acceptance tests CI/CD
+    name: Triggering data loader CI/CD
     needs: [sync-to-huggingface-space, docker]
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest

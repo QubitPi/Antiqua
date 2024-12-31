@@ -13,6 +13,10 @@
 # limitations under the License.
 Feature: Neo4J in Docker shows expected graphs
 
-  Scenario: "but" linking
-      When we expand 'δέ' by 3 hops at most
-      Then we get 13 nodes and 13 links, all distinct
+  Scenario Outline: Vocabulary Linking
+    When we expand "<term>" by <hops> hops at most
+    Then we get these distinct nodes: <nodes>
+
+    Examples: Ancient Greek
+      | term | hops | nodes                                                                                               |
+      | δέ   | 3    | {"aber lieber", "aber", "but", "sed", "ἀλλά", "δέ", "and", "τε", "et", "καί", "also", "even", "δ᾽"} |
