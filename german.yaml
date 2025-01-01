@@ -4108,6 +4108,15 @@ vocabulary:
     definition: (adjectival noun) casualty
   - term: die Spritze
     definition: syringe
+  - term: spritzen
+    definition:
+      - to spurt
+      - (medicine) to inject
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/bb/De-spritzen.ogg
+    verbformen:
+      video: https://youtu.be/v8rE33OBnV4
+      conjugation: https://www.verbformen.com/conjugation/spritzen_hat.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/spritzen_hat.pdf
   - term: die Injektion
     definition: injection
   - term: der Hut
@@ -6098,6 +6107,29 @@ vocabulary:
   - term: wegen
     definition: (prep.) because of
     audio: https://upload.wikimedia.org/wikipedia/commons/c/c1/De-wegen2.ogg
+  - term: nötig
+    definition:
+      - (adj.) necessary
+      - (adv.) urgently
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/da/De-n%C3%B6tig.ogg
+  - term: tückisch
+    definition:
+      - (adj.) dangerous
+      - (adj.) malicious
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/98/De-t%C3%BCckisch.ogg
+  - term: unberechenbar
+    definition:
+      - (adj.) unpredictable
+      - (adj.) incalculable
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/19/De-unberechenbar.ogg
+  - term: deswegen
+    definition: (adv.) therefore
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/92/De-deswegen.ogg
+  - term: gefährlich
+    definition:
+      - (adj.) dangerous
+      - (adj.) hazardous
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/37/De-gef%C3%A4hrlich.ogg
 
 
 
