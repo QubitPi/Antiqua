@@ -224,7 +224,7 @@ class TestVocabularyParser(unittest.TestCase):
             get_inflection_tokens(vocabulary[0], get_declension_attributes)
         )
 
-    def test_two_words_shring_some_same_declension_table_entries(self):
+    def test_two_words_sharing_some_same_declension_table_entries(self):
         vocabulary = yaml.safe_load("""
             vocabulary:
               - term: die Reise
