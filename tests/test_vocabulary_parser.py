@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import os
 import unittest
 
 import yaml
@@ -34,8 +35,8 @@ UNKOWN_DECLENSION_NOUN_YAML = """
     definition: the grilled tomato
     declension: Unknown
 """
-
 LABEL_KEY = "label"
+DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 
 
 class TestVocabularyParser(unittest.TestCase):
@@ -163,25 +164,36 @@ class TestVocabularyParser(unittest.TestCase):
 
     def test_get_definition_tokens(self):
         vocabulary = yaml.safe_load("""
-                    vocabulary:
-                      - term: morgens
-                        definition:
-                          - (adv.) in the morning
-                          - (adv.) a.m.
-                """)["vocabulary"]
+            vocabulary:
+              - term: morgens
+                definition:
+                  - (adv.) in the morning
+                  - (adv.) a.m.
+            """)["vocabulary"]
         self.assertEqual(
             {"morning", "a.m."},
             get_definition_tokens(vocabulary[0])
         )
 
         vocabulary = yaml.safe_load("""
-                    vocabulary:
-                      - term: exekutieren
-                        definition: to execute (kill)
-                        audio: https://upload.wikimedia.org/wikipedia/commons/f/f1/De-exekutieren.ogg
-                """)["vocabulary"]
+            vocabulary:
+              - term: exekutieren
+                definition: to execute (kill)
+                audio: https://upload.wikimedia.org/wikipedia/commons/f/f1/De-exekutieren.ogg
+            """)["vocabulary"]
         self.assertEqual(
             {"execute", "kill"},
+            get_definition_tokens(vocabulary[0])
+        )
+
+        vocabulary = yaml.safe_load("""
+            vocabulary:
+              - term: töten
+                definition: to kill
+                audio: https://upload.wikimedia.org/wikipedia/commons/b/b0/De-t%C3%B6ten.ogg
+            """)["vocabulary"]
+        self.assertEqual(
+            {"kill"},
             get_definition_tokens(vocabulary[0])
         )
 
@@ -257,49 +269,47 @@ class TestVocabularyParser(unittest.TestCase):
         )
 
     def test_get_inferred_tokenization_links(self):
-        vocabulary = yaml.safe_load("""
-            vocabulary:
-              - term: das Jahr
-                definition: the year
-                declension:
-                  - ["",         singular,        plural        ]
-                  - [nominative, Jahr,            "Jahre, Jahr" ]
-                  - [genitive,   "Jahres, Jahrs", "Jahre, Jahr" ]
-                  - [dative,     Jahr,            "Jahren, Jahr"]
-                  - [accusative, Jahr,            "Jahre, Jahr" ]
-              - term: seit zwei Jahren
-                definition: for two years
-              - term: letzte
-                definition: (adj.) last
-              - term: in den letzten Jahren
-                definition: in recent years
-        """)["vocabulary"]
+        test_cases = [
+            {
+                "words": ["das Jahr", "seit zwei Jahren", "letzte", "in den letzten Jahren"],
+                "expected": [
+                    {
+                        'attributes': {'label': 'term related'},
+                        'source_label': 'das Jahr',
+                        'target_label': 'seit zwei Jahren'
+                    },
+                    {
+                        'attributes': {'label': 'term related'},
+                        'source_label': 'das Jahr',
+                        'target_label': 'in den letzten Jahren'
+                    },
+                    {
+                        'attributes': {'label': 'term related'},
+                        'source_label': 'seit zwei Jahren',
+                        'target_label': 'in den letzten Jahren'
+                    }
+                ]
+            },
+            {
+                "words": ["exekutieren", "töten"],
+                "expected": [
+                    {
+                        'attributes': {LABEL_KEY: 'term related'},
+                        'source_label': 'exekutieren',
+                        'target_label': 'töten'
+                    },
+                ]
+            }
+        ]
 
-        self.assertEqual(
-            [
-                {
-                    'attributes': {LABEL_KEY: 'term related'},
-                    'source_label': 'seit zwei Jahren',
-                    'target_label': 'das Jahr'
-                },
-                {
-                    'attributes': {LABEL_KEY: 'term related'},
-                    'source_label': 'seit zwei Jahren',
-                    'target_label': 'in den letzten Jahren'
-                },
-                {
-                    'attributes': {LABEL_KEY: 'term related'},
-                    'source_label': 'in den letzten Jahren',
-                    'target_label': 'das Jahr'
-                },
-                {
-                    'attributes': {LABEL_KEY: 'term related'},
-                    'source_label': 'in den letzten Jahren',
-                    'target_label': 'seit zwei Jahren'
-                }
-            ],
-            get_inferred_tokenization_links(vocabulary, LABEL_KEY, get_declension_attributes)
-        )
+        for test_case in test_cases:
+            with open("{path}/../german.yaml".format(path=DIR_PATH), "r") as f:
+                vocabulary = [word for word in yaml.safe_load(f)["vocabulary"] if word["term"] in test_case["words"]]
+
+            self.assertEqual(
+                test_case["expected"],
+                get_inferred_tokenization_links(vocabulary, LABEL_KEY, get_declension_attributes)
+            )
 
     def test_get_structurally_similar_links(self):
         vocabulary = yaml.safe_load("""
