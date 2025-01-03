@@ -237,6 +237,21 @@ def get_inflection_tokens(
 
 
 def get_tokens_of(word: dict, inflection_supplier: Callable[[object], dict[str, str]] = lambda word: {}) -> set[str]:
+    """
+    Returns the tokens of a word used for link inferences.
+
+    The tokens come from the following attributes:
+
+    1. term
+    2. definition
+    3. inflection field (conjugation & declension)
+
+    :param word:  A list entry of wilhelm-vocabulary repo YAML file deserialized
+    :param inflection_supplier:  A functional object that, given a YAML dictionary, returns the inflection table of that
+    word. The key of the table can be arbitrary but the value must be a sole inflected word
+
+    :return: a list of tokens
+    """
     return get_inflection_tokens(word, inflection_supplier) | get_term_tokens(word) | get_definition_tokens(word)
 
 
@@ -275,11 +290,15 @@ def get_inferred_tokenization_links(
 
     :param vocabulary:  A wilhelm-vocabulary repo YAML file deserialized
     :param label_key:  The name of the node attribute that will be used as the label in displaying the node
+    :param inflection_supplier:  A functional object that, given a YAML dictionary, returns the inflection table of that
+    word. The key of the table can be arbitrary but the value must be a sole inflected word
 
     :return: a list of link object, each of which has a "source_label", a "target_label", and an "attributes" key
     """
     all_vocabulary_tokenizations_by_term = dict(
         [word["term"], get_tokens_of(word, inflection_supplier)] for word in vocabulary)
+
+    existing_pairs: set[set] = set()
     inferred_links = []
     for this_word in vocabulary:
         this_term = this_word["term"]
@@ -290,14 +309,17 @@ def get_inferred_tokenization_links(
             if this_term == that_term:
                 continue
 
-            for this_token in get_term_tokens(this_word):
+            for this_token in all_vocabulary_tokenizations_by_term[this_term]:
                 for that_token in that_term_tokens:
-                    if this_token.lower().strip() == that_token:
+                    if this_token.lower().strip() == that_token and ({this_term, that_term} not in existing_pairs):
+                        existing_pairs.add(frozenset({this_term, that_term}))
+
                         inferred_links.append({
                             "source_label": this_term,
                             "target_label": that_term,
                             "attributes": {label_key: "term related"},
                         })
+
                         jump_to_next_term = True
                         break
 
