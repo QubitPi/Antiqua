@@ -60,7 +60,12 @@ Wilhelm Vocabulary
       * [Diacritic Mark Convention](#diacritic-mark-convention)
       * [Pronoun](#pronoun-1)
       * [Noun](#noun-1)
-      * [Adjective Declension](#adjective-declension)
+      * [Adjective](#adjective)
+        * [1. Three-Ending Adjectives: 1st and 2nd Declension (2-1-2)](#1-three-ending-adjectives-1st-and-2nd-declension-2-1-2)
+        * [2. Two-Ending 2nd Declension Adjectives (2-2)](#2-two-ending-2nd-declension-adjectives-2-2)
+        * [3. Two-Ending 3rd Declension Adjectives (3-3)](#3-two-ending-3rd-declension-adjectives-3-3)
+        * [4. Three-Ending 1st and 3rd Declension Adjectives (3-1-3)](#4-three-ending-1st-and-3rd-declension-adjectives-3-1-3)
+        * [Declension Template](#declension-template)
       * [Verb Conjugation](#verb-conjugation)
     * [Latin](#latin)
     * [Classical Hebrew](#classical-hebrew)
@@ -591,9 +596,141 @@ _-ης_, and add the appropriate endings to the stem which gives following parad
 | accusative |  τέχνην  | τέχνᾱς  |
 |  vocative  |  τέχνη   | τέχναι  |
 
-#### Adjective Declension
+#### Adjective
 
-Declension template:
+[^6] Greek adjectives are formed using the [same 3 declensions that are used by Greek nouns](#noun-1). Furthermore, just as
+each noun belongs to a particular declension, each adjective belongs to a specific declension family or grouping. There
+are 4 main declension families:
+
+1. [Three-Ending 1st and 2nd Declension Adjectives (2-1-2)](#1-three-ending-adjectives-1st-and-2nd-declension-2-1-2)
+2. [Two-Ending 2nd Declension Adjectives (2-2)](#2-two-ending-2nd-declension-adjectives-2-2)
+3. [Two-Ending 3rd Declension Adjectives (3-3)](#3-two-ending-3rd-declension-adjectives-3-3)
+4. [Three-Ending 1st and 3rd Declension Adjectives (3-1-3)](#4-three-ending-1st-and-3rd-declension-adjectives-3-1-3)
+
+##### 1. Three-Ending Adjectives: 1st and 2nd Declension (2-1-2)
+
+The vast majority of adjectives use _masculine_ and _neuter_ 2nd declension endings when modifying nouns of these
+genders, and 1st declension endings when modifying _feminine_ nouns. For example,
+
+__ἀγαθός, -ή, -όν__ _good, brave, noble_:
+
+|  **Singular**  | **Masculine** | **Feminine** | **Neuter** |
+|:--------------:|:-------------:|:------------:|:----------:|
+| **Nominative** |    ἀγαθός     |    ἀγαθή     |   ἀγαθόν   |
+|  **Genitive**  |    ἀγαθοῦ     |    ἀγαθῆς    |   ἀγαθοῦ   |
+|   **Dative**   |     ἀγαθῷ     |    ἀγαθῇ     |   ἀγαθῷ    |
+| **Accusative** |    ἀγαθόν     |    ἀγαθήν    |   ἀγαθόν   |
+
+|   **Plural**   | **Masculine** | **Feminine** | **Neuter** |
+|:--------------:|:-------------:|:------------:|:----------:|
+| **Nominative** |    ἀγαθοί     |    ἀγαθαί    |   ἀγαθά    |
+|  **Genitive**  |    ἀγαθῶν     |    ἀγαθῶν    |   ἀγαθῶν   |
+|   **Dative**   |    ἀγαθοῖς    |   ἀγαθαῖς    |  ἀγαθοῖς   |
+| **Accusative** |    ἀγαθούς    |    ἀγαθάς    |   ἀγαθά    |
+
+If the stem of the adjective ends in __-ε__, __-ι__, or __-ρ__, the singular forms of the 1st declension change the
+__-η-__ to __-ᾱ-__. Note that this change matches that of 1st declension nouns.
+
+For instance, __δίκαιος, -α , -ον__ _just_
+
+|  **Singular**  | **Masculine** | **Feminine** | **Neuter** |
+|:--------------:|:-------------:|:------------:|:----------:|
+| **Nominative** |    δίκαιος    |    δικαία    |  δίκαιον   |
+|  **Genitive**  |    δικαίου    |   δικαίας    |  δικαίου   |
+|   **Dative**   |    δικαίῳ     |    δικαίᾳ    |   δικαίῳ   |
+| **Accusative** |    δίκαιον    |   δικαίαν    |  δίκαιον   |
+
+Two common adjectives of the 2-1-2 type show additional small changes:
+
+__μέγας, μεγάλη, μέγα__ (stem: __μεγαλ-__) _big_
+
+|  **Singular**  | **Masculine** | **Feminine** | **Neuter** |
+|:--------------:|:-------------:|:------------:|:----------:|
+| **Nominative** |     μέγας     |    μεγάλη    |    μέγα    |
+|  **Genitive**  |    μεγάλου    |   μεγάλης    |  μεγάλου   |
+|   **Dative**   |    μεγάλῳ     |    μεγάλῃ    |   μεγάλῳ   |
+| **Accusative** |     μέγαν     |   μεγάλην    |    μέγα    |
+
+
+|   **Plural**   | **Masculine** | **Feminine** | **Neuter** |
+|:--------------:|:-------------:|:------------:|:----------:|
+| **Nominative** |    μεγάλοι    |   μεγάλαι    |   μεγάλα   |
+|  **Genitive**  |    μεγάλων    |   μεγάλων    |  μεγάλων   |
+|   **Dative**   |   μεγάλοις    |   μεγάλαις   |  μεγάλοις  |
+| **Accusative** |   μεγάλους    |   μεγάλας    |   μεγάλα   |
+
+Note that except for the singular forms μέγας, μέγαν, and μέγα, the adjective declines as a regular 2-1-2 adjective.
+
+__πολύς, πολλή, πολύ__ (stem: __πολλ-__) _much, many_
+
+|  **Singular**  | **Masculine** | **Feminine** | **Neuter** |
+|:--------------:|:-------------:|:------------:|:----------:|
+| **Nominative** |     πολύς     |    πολλή     |    πολύ    |
+|  **Genitive**  |    πολλοῦ     |    πολλῆς    |   πολλοῦ   |
+|   **Dative**   |     πολλῷ     |    πολλῇ     |   πολλῷ    |
+| **Accusative** |     πολύν     |    πολλήν    |    πολύ    |
+
+|   **Plural**   | **Masculine** | **Feminine** | **Neuter** |
+|:--------------:|:-------------:|:------------:|:----------:|
+| **Nominative** |    πολλοί     |    πολλαί    |   πολλά    |
+|  **Genitive**  |    πολλῶν     |    πολλῶν    |   πολλῶν   |
+|   **Dative**   |    πολλοῖς    |   πολλαῖς    |  πολλοῖς   |
+| **Accusative** |    πολλούς    |    πολλάς    |   πολλά    |
+
+Note that except for the singular forms πολύς, πολύν, and πολύ, the adjective declines as a regular 2-1-2 adjective.
+
+##### 2. Two-Ending 2nd Declension Adjectives (2-2)
+
+[^7] A handful of adjectives, usually compounds, use 2nd declension endings for all genders. For these adjectives:
+
+- both the masculine and feminine forms share the same endings as 2nd declension masculine nouns
+- the neuter form shares the same endings as the 2nd declension neuter nouns. 
+
+For instance, __ἄδικος -ον__ _unjust_:
+
+|  **Singular**  | **Masculine/Feminine** | **Neuter** |
+|:--------------:|:----------------------:|:----------:|
+| **Nominative** |         ἄδικος         |   ἄδικον   |
+|  **Genitive**  |         ἀδίκου         |   ἀδίκου   |
+|   **Dative**   |         ἀδίκῳ          |   ἀδίκῳ    |
+| **Accusative** |         ἄδικον         |   ἄδικον   |
+
+|   **Plural**   | **Masculine/Feminine** | **Neuter** |
+|:--------------:|:----------------------:|:----------:|
+| **Nominative** |         ἄδικοι         |   ἄδικα    |
+|  **Genitive**  |         ἀδίκων         |   ἀδίκων   |
+|   **Dative**   |        ἀδίκοις         |  ἀδίκοις   |
+| **Accusative** |        ἀδίκους         |   ἄδικα    |
+
+##### 3. Two-Ending 3rd Declension Adjectives (3-3)
+
+[^7] Another small group of adjectives uses 3rd DECLENSION endings for ALL GENDERS. For these adjectives:
+
+- both the masculine and feminine forms share the same endings as the 3rd declension masculine/feminine nouns
+- the neuter form uses the same endings as the 3rd declension neuter nouns.
+
+These adjectives tend to fall into one of 2 groups:
+
+1. Adjectives ending in __-ης -ες__. These adjectives have a stem ending in __-εσ__.
+2. Adjectives ending in __-(ί)ων -(ι)ον__. These adjectives have a stem ending in __-(ι)ον__.
+
+##### 4. Three-Ending 1st and 3rd Declension Adjectives (3-1-3)
+
+The final group of adjectives uses the 3rd declension endings for masculine and neuter, but the 1st declension endings
+for feminine.
+
+Note, however, that when modifying a feminine noun, these adjectives use SHORT -α- in the _nominative_ and _accusative_
+singular. This change must be remembered, since it affects the accent of these adjectives. These adjectives tend to fall
+into one of 2 groups:
+
+1. Adjectives ending in __-ς -σα -ν__. These adjectives have a stem ending in __-ντ__.
+2. Adjectives ending in __-ύς -εῖα -ύ__. These adjectives have a stem ending in __-ε__.
+
+##### Declension Template
+
+Putting it all together, it can be concluded that Ancient Greek adjectives decline in rules with exceptions.
+wilhelm-vocabulary, therefore, still literally list all declined entries of an adjective. The declension template is as
+follows:
 
 ```yaml
 declension:
@@ -772,3 +909,5 @@ The use and distribution terms for [wilhelm-vocabulary]() are covered by the [Ap
 [^3]: _[Greek: An Intensive Course, 2nd Revised Edition](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised/dp/0823216632)_, Hansen & Quinn, _p.44_
 [^4]: A. M. Ruppel, [_The Cambridge Introduction to Sanskrit_](https://trello.com/c/3kJrPbhF), Cornell University, New York, 2017, p.12
 [^5]: E. Simon, L. Motzkin, I. Resnikoff, [The First Hebrew Primer: The Adult Beginner's Path to Biblical Hebrew, Third Edition](https://trello.com/c/ht2VRcf7), EKS Publishing, 1992, p.3
+[^6]: https://pressbooks.pub/ancientgreek/chapter/29/
+[^7]: https://pressbooks.pub/ancientgreek/chapter/30/

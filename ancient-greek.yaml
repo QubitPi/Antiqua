@@ -1020,6 +1020,14 @@ vocabulary:
     definition: breath, life, soul
   - term: αἴτιος αἰτία αἴτιον
     definition: responsible, guilty
+    declension:
+      - ["",         singular,  singular, singular, dual,      dual,     dual    plural,    plural,   plural]
+      - ["",         masculine, feminine, neuter,   masculine, feminine, neuter, masculine, feminine, neuter]
+      - [nominative, █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+      - [genitive,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+      - [dative,     █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+      - [accusative, █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
+      - [vocative,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
   - term: πάλιν
     definition: back, backwards; again
   - term: μάλιστα
@@ -1870,3 +1878,24 @@ vocabulary:
     definition: the synonym
   - term: πᾰρώνῠμος
     definition: (adj.) derivative
+
+
+
+  - term: Πέρσης Πέρσου, ὁ
+    definition:
+      - (proper noun) Perses
+      - Persian
+    declension class: 1st
+  - term: λόγιον λογίου, τό
+    definition:
+      - the announcement
+      - the oracle
+    declension class: 2nd
+  - term: Φοίνικας, ὁ
+    definition: (an inhabitant of Phoenicia) Phoenician
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Φοίνικας, Φοίνικες]
+      - [genitive,   Φοίνικα,  Φοινίκων]
+      - [accusative, Φοίνικα,  Φοίνικες]
+      - [vocative,   Φοίνικα,  Φοίνικες]
