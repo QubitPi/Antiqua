@@ -299,6 +299,16 @@ class TestVocabularyParser(unittest.TestCase):
                         'target_label': 'töten'
                     },
                 ]
+            },
+            {
+                "words": ["liefern", "vermitteln"],
+                "expected": [
+                    {
+                        'attributes': {'label': 'term related'},
+                        'source_label': 'vermitteln',
+                        'target_label': 'liefern'
+                    }
+                ]
             }
         ]
 
