@@ -4250,6 +4250,14 @@ vocabulary:
       - [accusative, Freundin, Freundinnen]
   - term: einmal
     definition: (adv.) once
+  - term: gebühren
+    definition:
+      - to be due
+      - to be owed
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/a4/De-geb%C3%BChren.ogg
+    verbformen:
+      conjugation: https://www.verbformen.com/conjugation/gebu3hren.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/gebu3hren.pdf
   - term: gebührend
     definition:
       - (adj.) befitting
