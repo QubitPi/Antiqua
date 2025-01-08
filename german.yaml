@@ -4099,6 +4099,15 @@ vocabulary:
       - loud
       - noisy
     audio: https://upload.wikimedia.org/wikipedia/commons/3/37/De-laut.ogg
+  - term: schwer
+    definition:
+      - (adj.) heavy
+      - (adj.) difficult
+      - (adj.) serious
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/eb/De-schwer.ogg
+  - term: arm
+    definition: (adj.) poor
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/16/De-arm2.ogg
 
 
 
@@ -5611,6 +5620,9 @@ vocabulary:
     verbformen:
       conjugation: https://www.verbformen.com/conjugation/kapitulieren.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/kapitulieren.pdf
+  - term: schick
+    definition: (adj.) elegant
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/cd/De-schick.ogg
   - term: schicken
     definition:
       - to send
@@ -6139,6 +6151,13 @@ vocabulary:
       - (adj.) dangerous
       - (adj.) hazardous
     audio: https://upload.wikimedia.org/wikipedia/commons/3/37/De-gef%C3%A4hrlich.ogg
+  - term: klauen
+    definition: to steal
+    audio: https://upload.wikimedia.org/wikipedia/commons/3/3b/De-klauen.ogg
+    verbformen:
+      video: https://youtu.be/DsBHt93FvCY
+      conjugation: https://www.verbformen.com/conjugation/klauen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/klauen.pdf
 
 
 
@@ -6449,6 +6468,15 @@ vocabulary:
       - [genitive,   Vorstellung, Vorstellungen]
       - [dative,     Vorstellung, Vorstellungen]
       - [accusative, Vorstellung, Vorstellungen]
+  - term: die Vorstellungsfähigkeit
+    definition: Ability to imagine an object (https://de.wiktionary.org/wiki/Vorstellungsfähigkeit)
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/49/De-Vorstellungsf%C3%A4higkeit.ogg
+    declension:
+      - ["",         singular,              plural                 ]
+      - [nominative, Vorstellungsfähigkeit, Vorstellungsfähigkeiten]
+      - [genitive,   Vorstellungsfähigkeit, Vorstellungsfähigkeiten]
+      - [dative,     Vorstellungsfähigkeit, Vorstellungsfähigkeiten]
+      - [accusative, Vorstellungsfähigkeit, Vorstellungsfähigkeiten]
   - term: sinnlich
     definition: (adj.) sensory
     audio: https://upload.wikimedia.org/wikipedia/commons/b/be/De-sinnlich.ogg
