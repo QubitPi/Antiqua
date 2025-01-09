@@ -368,6 +368,7 @@ class TestVocabularyParser(unittest.TestCase):
         self.assertTrue(is_structurally_similar("anschließen", "anschließend"))
         self.assertTrue(is_structurally_similar("anschließend", "anschließen"))
         self.assertFalse(is_structurally_similar("die Bank", "die Sahne"))
+        self.assertTrue(is_structurally_similar("schick", "schicken"))
 
     def test_get_audio_with_missing_url(self):
         word = yaml.safe_load(
