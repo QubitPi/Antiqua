@@ -6026,7 +6026,9 @@ vocabulary:
       - [dative,     Auge,     Augen ]
       - [accusative, Auge,     Augen ]
   - term: mal
-    definition: times
+    definition:
+      - (math) times
+      - alternative form of einmal
     audio: https://upload.wikimedia.org/wikipedia/commons/9/91/De-mal.ogg
   - term: sicher
     definition:

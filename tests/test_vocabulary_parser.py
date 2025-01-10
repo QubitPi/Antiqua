@@ -309,6 +309,16 @@ class TestVocabularyParser(unittest.TestCase):
                         'target_label': 'liefern'
                     }
                 ]
+            },
+            {
+                "words": ["mal", "einmal"],
+                "expected": [
+                    {
+                        'attributes': {'label': 'term related'},
+                        'source_label': 'einmal',
+                        'target_label': 'mal'
+                    }
+                ]
             }
         ]
 
