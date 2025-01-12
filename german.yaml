@@ -771,6 +771,12 @@ vocabulary:
     definition: click here
   - term: Ich bin 23 Jahre alt.
     definition: I'm 23 years old.
+  - term: fremd
+    definition:
+      - (adj.) strange
+      - (adj.) foreign
+      - (adj.) external
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/b0/De-fremd.ogg
   - term: die Fremdsprache
     definition: foreign language
   - term: die Muttersprache
@@ -4078,9 +4084,11 @@ vocabulary:
       - [genitive,   Kaufhauses, Kaufhäuser ]
       - [dative,     Kaufhaus,   Kaufhäusern]
       - [accusative, Kaufhaus,   Kaufhäuser ]
-  - term: alles
-    definition: (pron.) all
-    audio: https://upload.wikimedia.org/wikipedia/commons/1/1b/De-alles2.ogg
+  - term: all
+    definition:
+      - (determiner) all
+      - (determiner) every
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/7b/De-all2.ogg
   - term: fast
     definition: (adv.) almost
     audio: https://upload.wikimedia.org/wikipedia/commons/2/26/De-fast2.ogg
@@ -4662,7 +4670,15 @@ vocabulary:
       - the country
       - the land
   - term: der Schwächling
-    definition: the weakling
+    definition: (derogatory) the weakling
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/cf/De-Schw%C3%A4chling.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular,                      plural       ]
+      - [nominative, Schwächling,                   Schwächlinge ]
+      - [genitive,   "Schwächlinges, Schwächlings", Schwächlinge ]
+      - [dative,     Schwächling,                   Schwächlingen]
+      - [accusative, Schwächling,                   Schwächlinge ]
   - term: müssen
     definition: to have to
   - term: das Opfer
@@ -6160,6 +6176,18 @@ vocabulary:
       video: https://youtu.be/DsBHt93FvCY
       conjugation: https://www.verbformen.com/conjugation/klauen.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/klauen.pdf
+  - term: das Volk
+    definition:
+      - the people
+      - the race
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/bf/De-Volk.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular,        plural ]
+      - [nominative, Volk,            Völker ]
+      - [genitive,   "Volkes, Volks", Völker ]
+      - [dative,     Volk,            Völkern]
+      - [accusative, Volk,            Völker ]
 
 
 
@@ -6589,6 +6617,11 @@ vocabulary:
       - to name
       - to mention
       - to say
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/43/De-nennen.ogg
+    verbformen:
+      video: https://youtu.be/ZwvfR6w8LFc
+      conjugation: https://www.verbformen.com/conjugation/nennen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/nennen.pdf
   - term: die Materie
     definition: the matter
     declension:
@@ -6847,6 +6880,38 @@ vocabulary:
       video: https://youtu.be/JJeLBayjo1s
       conjugation: https://www.verbformen.com/conjugation/fehlen.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/fehlen.pdf
+  - term: insgesamt
+    definition:
+      - (adv.) overall
+      - (adv.) altogether
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/67/De-insgesamt.ogg
+  - term: bereit
+    definition: (adj.) ready
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/90/De-bereit.ogg
+  - term: da
+    definition:
+      - (conj.) because
+      - (adv.) there
+      - (adv.) here
+      - (adv.) so
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/aa/De-da2.ogg
+  - term: daher
+    definition:
+      - (adv.) from there
+      - (adv.) therefore
+      - (with a verb of motion) along
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/1c/De-daher.ogg
+  - term: betrachten
+    definition:
+      - to look at
+      - to consider
+      - to behold
+      - to regard
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/ef/De-betrachten2.ogg
+    verbformen:
+      video: https://youtu.be/zytqkxgSlJM
+      conjugation: https://www.verbformen.com/conjugation/betrachten.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/betrachten.pdf
 
 
 
