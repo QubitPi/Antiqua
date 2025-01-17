@@ -2120,6 +2120,7 @@ vocabulary:
     definition: employed
   - term: großartig
     definition: (adj.) terrific
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f7/De-gro%C3%9Fartig.ogg
   - term: Das ist ja großartig!
     definition: That's great!
   - term: interessant
@@ -4959,6 +4960,7 @@ vocabulary:
       - (adv.) thereby
   - term: der Feigling
     definition: the coward
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/61/De-Feigling.ogg
     declension:
       - ["",         singular,  plural    ]
       - [nominative, Feigling,  Feiglinge ]
