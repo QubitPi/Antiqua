@@ -141,6 +141,16 @@ vocabulary:
     definition: 9
   - term: zehn
     definition: 10
+  - term: das Zehntel
+    definition: the 10th
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/bd/De-Zehntel.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular, plural  ]
+      - [nominative, Zehntel,  Zehntel ]
+      - [genitive,   Zehntels, Zehntel ]
+      - [dative,     Zehntel,  Zehnteln]
+      - [accusative, Zehntel,  Zehntel ]
   - term: elf
     definition: 11
   - term: zwölf
