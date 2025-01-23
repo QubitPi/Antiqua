@@ -3492,11 +3492,13 @@ vocabulary:
       - [genitive,   Lust,     Lüste ]
       - [dative,     Lust,     Lüsten]
       - [accusative, Lust,     Lüste ]
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/a0/De-Lust.ogg
   - term: vorstoßen
     definition:
       - to advance
       - to push forward
       - to attach
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/21/De-vorsto%C3%9Fen.ogg
   - term: das Wort
     definition: the word
     audio: https://upload.wikimedia.org/wikipedia/commons/7/7c/De-Wort2.ogg
@@ -4127,6 +4129,53 @@ vocabulary:
   - term: arm
     definition: (adj.) poor
     audio: https://upload.wikimedia.org/wikipedia/commons/1/16/De-arm2.ogg
+  - term: antik
+    definition: (adj.) antique
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/0e/De-antik.ogg
+  - term: nostalgisch
+    definition: nostalgic
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e4/De-nostalgisch.ogg
+  - term: der Hausrat
+    definition: the household goods
+    audio: https://upload.wikimedia.org/wikipedia/commons/a/a7/De-Hausrat.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular,              plural]
+      - [nominative, Hausrat,               N/A   ]
+      - [genitive,   "Hausrates, Hausrats", N/A   ]
+      - [dative,     Hausrat,               N/A   ]
+      - [accusative, Hausrat,               N/A   ]
+  - term: der Schmuck
+    definition:
+      - the jewelry
+      - the decoration
+    audio: https://upload.wikimedia.org/wikipedia/commons/6/69/De-Schmuck.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular,              plural   ]
+      - [nominative, Schmuck,               Schmucke ]
+      - [genitive,   "Schmuckes, Schmucks", Schmucke ]
+      - [dative,     Schmuck,               Schmucken]
+      - [accusative, Schmuck,               Schmucke ]
+  - term: das Möbel
+    definition: the furniture
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/77/De-M%C3%B6bel.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Möbel,    Möbel ]
+      - [genitive,   "Möbels", Möbel ]
+      - [dative,     Möbel,    Möbeln]
+      - [accusative, Möbel,    Möbel ]
+  - term: die Lederjacke
+    definition: the leather jacket
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f5/De-Lederjacke.ogg
+    declension:
+      - ["",         singular,   plural     ]
+      - [nominative, Lederjacke, Lederjacken]
+      - [genitive,   Lederjacke, Lederjacken]
+      - [dative,     Lederjacke, Lederjacken]
+      - [accusative, Lederjacke, Lederjacken]
 
 
 
@@ -4351,6 +4400,7 @@ vocabulary:
     definition:
       - (adj.) other
       - (adj.) different
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/75/De-anderer.ogg
   - term: doch
     definition:
       - (adv.) after all
@@ -4852,6 +4902,7 @@ vocabulary:
     definition:
       - (adv.) before
       - (adv.) previously
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/24/De-zuvor.ogg
   - term: der Rausch
     definition:
       - the euphoria
@@ -6613,6 +6664,7 @@ vocabulary:
       - [genitive,   Empfindung, Empfindungen]
       - [dative,     Empfindung, Empfindungen]
       - [accusative, Empfindung, Empfindungen]
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/01/De-Empfindung.ogg
   - term: empirisch
     definition: (adj.) empirical
     audio: https://upload.wikimedia.org/wikipedia/commons/c/c0/De-empirisch.ogg
