@@ -372,7 +372,6 @@ declension table of the following template:
 - term:
   definition:
   audio:
-  declension-type: weak/strong/mixed
   declension:
     - ["",         singular, plural]
     - [nominative, ████████, ██████]
@@ -387,7 +386,6 @@ For example:
   - term: das Gespräch
     definition: the conversation
     audio: https://upload.wikimedia.org/wikipedia/commons/f/f5/De-Gespr%C3%A4ch.ogg
-    declension-type: strong
     declension:
       - ["",         singular,                plural    ]
       - [nominative, Gespräch,                Gespräche ]
@@ -395,8 +393,6 @@ For example:
       - [dative,     Gespräch,                Gesprächen]
       - [accusative, Gespräch,                Gespräche ]
 ```
-
-Note that [feminine nouns do not have `declension-type` field](https://en.wikipedia.org/wiki/Weak_noun#German)
 
 > [!TIP]
 >
