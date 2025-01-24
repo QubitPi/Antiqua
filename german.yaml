@@ -144,7 +144,6 @@ vocabulary:
   - term: das Zehntel
     definition: the 10th
     audio: https://upload.wikimedia.org/wikipedia/commons/b/bd/De-Zehntel.ogg
-    declension-type: strong
     declension:
       - ["",         singular, plural  ]
       - [nominative, Zehntel,  Zehntel ]
@@ -242,7 +241,6 @@ vocabulary:
   - term: das Buch
     definition: the book
     audio: https://upload.wikimedia.org/wikipedia/commons/2/28/De-Buch2.ogg
-    declension-type: strong
     declension:
       - ["",         singular,        plural ]
       - [nominative, Buch,            Bücher ]
@@ -3927,7 +3925,6 @@ vocabulary:
   - term: das Gespräch
     definition: the conversation
     audio: https://upload.wikimedia.org/wikipedia/commons/f/f5/De-Gespr%C3%A4ch.ogg
-    declension-type: strong
     declension:
       - ["",         singular,                plural    ]
       - [nominative, Gespräch,                Gespräche ]
@@ -4108,7 +4105,6 @@ vocabulary:
   - term: der Wecker
     definition: the alarm clock
     audio: https://upload.wikimedia.org/wikipedia/commons/4/4b/LL-Q188_%28deu%29-Sebastian_Wallroth-Wecker.wav
-    declension-type: strong
     declension:
       - ["",         singular, plural ]
       - [nominative, Wecker,   Wecker ]
@@ -4138,7 +4134,6 @@ vocabulary:
   - term: der Hausrat
     definition: the household goods
     audio: https://upload.wikimedia.org/wikipedia/commons/a/a7/De-Hausrat.ogg
-    declension-type: strong
     declension:
       - ["",         singular,              plural]
       - [nominative, Hausrat,               N/A   ]
@@ -4150,7 +4145,6 @@ vocabulary:
       - the jewelry
       - the decoration
     audio: https://upload.wikimedia.org/wikipedia/commons/6/69/De-Schmuck.ogg
-    declension-type: strong
     declension:
       - ["",         singular,              plural   ]
       - [nominative, Schmuck,               Schmucke ]
@@ -4160,7 +4154,6 @@ vocabulary:
   - term: das Möbel
     definition: the furniture
     audio: https://upload.wikimedia.org/wikipedia/commons/7/77/De-M%C3%B6bel.ogg
-    declension-type: strong
     declension:
       - ["",         singular, plural]
       - [nominative, Möbel,    Möbel ]
@@ -4182,7 +4175,6 @@ vocabulary:
   - term: der Pulli
     definition: the sweater
     audio: https://upload.wikimedia.org/wikipedia/commons/2/2a/De-Pulli.ogg
-    declension-type: strong
     declension:
       - ["",         singular, plural]
       - [nominative, Pulli,    Pullis]
@@ -4192,7 +4184,6 @@ vocabulary:
   - term: der Schuh
     definition: the shoe
     audio: https://upload.wikimedia.org/wikipedia/commons/c/c6/De-Schuh2.ogghttps://upload.wikimedia.org/wikipedia/commons/c/c6/De-Schuh2.ogg
-    declension-type: strong
     declension:
       - ["",         singular,          plural          ]
       - [nominative, Schuh,             "Schuhe, Schuh" ]
@@ -4202,7 +4193,6 @@ vocabulary:
   - term: der Tiergarten
     definition: the zoo
     audio: https://upload.wikimedia.org/wikipedia/commons/9/91/De-Tiergarten.ogg
-    declension-type: strong
     declension:
       - ["",         singular,    plural    ]
       - [nominative, Tiergarten,  Tiergärten]
@@ -4527,7 +4517,6 @@ vocabulary:
   - term: der Offizier
     definition: (military) commissioned officer
     audio: https://upload.wikimedia.org/wikipedia/commons/6/6f/De-Offizier.ogg
-    declension-type: strong
     declension:
       - ["",         singular,                plural    ]
       - [nominative, Offizier,                Offiziere ]
@@ -4777,7 +4766,6 @@ vocabulary:
   - term: der Schwächling
     definition: (derogatory) the weakling
     audio: https://upload.wikimedia.org/wikipedia/commons/c/cf/De-Schw%C3%A4chling.ogg
-    declension-type: strong
     declension:
       - ["",         singular,                      plural       ]
       - [nominative, Schwächling,                   Schwächlinge ]
@@ -5200,6 +5188,7 @@ vocabulary:
     definition: to determine
   - term: der Hauptmann
     definition: (military) the captain
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/85/De-Hauptmann.ogg
     declension:
       - ["",         singular,                  plural                     ]
       - [nominative, Hauptmann,                 "Hauptleute, Hauptmänner"  ]
@@ -5318,7 +5307,6 @@ vocabulary:
   - term: das Mädchen
     definition: the girl
     audio: https://upload.wikimedia.org/wikipedia/commons/3/3e/De-M%C3%A4dchen2.ogg
-    declension-type: strong
     declension:
       - ["",         singular, plural ]
       - [nominative, Mädchen,  Mädchen]
@@ -5647,7 +5635,6 @@ vocabulary:
   - term: der Befehl
     definition: the command
     audio: https://upload.wikimedia.org/wikipedia/commons/a/ac/De-Befehl.ogg
-    declension-type: strong
     declension:
       - ["",         singular,            plural  ]
       - [nominative, Befehl,              Befehle ]
@@ -5989,7 +5976,6 @@ vocabulary:
   - term: der Partisan
     definition: the partisan
     audio: https://upload.wikimedia.org/wikipedia/commons/8/81/De-Partisan.ogg
-    declension-type: weak
     declension:
       - ["",         singular,   plural    ]
       - [nominative, Partisan,   Partisanen]
@@ -6026,7 +6012,6 @@ vocabulary:
       - forest
       - woods
     audio: https://upload.wikimedia.org/wikipedia/commons/3/30/De-Wald2.ogg
-    declension-type: strong
     declension:
       - ["",         singular,        plural ]
       - [nominative, Wald,            Wälder ]
@@ -6060,7 +6045,6 @@ vocabulary:
   - term: der Sturmbannführer
     definition: (military rank of the Nazi SA, SS and NSFK) major
     audio: https://upload.wikimedia.org/wikipedia/commons/c/cc/De-Sturmbannf%C3%BChrer.ogg
-    declension-type: strong
     declension:
       - ["",         singular,         plural          ]
       - [nominative, Sturmbannführer,  Sturmbannführer ]
@@ -6142,7 +6126,6 @@ vocabulary:
   - term: das Auge
     definition: the eye
     audio: https://upload.wikimedia.org/wikipedia/commons/9/9a/De-Auge2.ogg
-    declension-type: mixed
     declension:
       - ["",         singular, plural]
       - [nominative, Auge,     Augen ]
@@ -6169,7 +6152,6 @@ vocabulary:
   - term: der Umstand
     definition: the circumstance
     audio: https://upload.wikimedia.org/wikipedia/commons/a/a2/De-Umstand.ogg
-    declension-type: strong
     declension:
       - ["",         singular,              plural   ]
       - [nominative, Umstand,               Umstände ]
@@ -6289,7 +6271,6 @@ vocabulary:
       - the people
       - the race
     audio: https://upload.wikimedia.org/wikipedia/commons/b/bf/De-Volk.ogg
-    declension-type: strong
     declension:
       - ["",         singular,        plural ]
       - [nominative, Volk,            Völker ]
@@ -6975,7 +6956,6 @@ vocabulary:
       - characteristic
       - attribute
     audio: https://upload.wikimedia.org/wikipedia/commons/c/cf/De-Merkmal.ogg
-    declension-type: strong
     declension:
       - ["",         singular,              plural   ]
       - [nominative, Merkmal,               Merkmale ]

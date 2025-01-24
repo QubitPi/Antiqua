@@ -109,16 +109,4 @@ def get_declension_attributes(word: object) -> dict[str, str]:
             for j, col in enumerate(row):
                 declension_attributes[f"{declension_type}-{i}-{j}"] = declension_table[i][j]
 
-    return get_declension_type_attributes(word) | declension_attributes
-
-
-def get_declension_type_attributes(word: object) -> dict[str, str]:
-    """
-    Returns the declension type of delinable word as a single-entry dictionary if the word has a "declension-type"
-    field, otherwise an empty dictionary is returned.
-
-    :param word:  A vocabulary represented in YAML dictionary
-
-    :return: a single-entry map if "declension-type" key is presented in the word or an empty dictionary otherwise
-    """
-    return {"declension type": word["declension-type"]} if "declension-type" in word else {}
+    return declension_attributes
