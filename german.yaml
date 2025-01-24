@@ -4176,6 +4176,50 @@ vocabulary:
       - [genitive,   Lederjacke, Lederjacken]
       - [dative,     Lederjacke, Lederjacken]
       - [accusative, Lederjacke, Lederjacken]
+  - term: schwedisch
+    definition: (adj.) Swedish
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/49/De-schwedisch.ogg
+  - term: der Pulli
+    definition: the sweater
+    audio: https://upload.wikimedia.org/wikipedia/commons/2/2a/De-Pulli.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular, plural]
+      - [nominative, Pulli,    Pullis]
+      - [genitive,   Pullis,   Pullis]
+      - [dative,     Pulli,    Pullis]
+      - [accusative, Pulli,    Pullis]
+  - term: der Schuh
+    definition: the shoe
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/c6/De-Schuh2.ogghttps://upload.wikimedia.org/wikipedia/commons/c/c6/De-Schuh2.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular,          plural          ]
+      - [nominative, Schuh,             "Schuhe, Schuh" ]
+      - [genitive,   "Schuhes, Schuhs", "Schuhe, Schuh" ]
+      - [dative,     Schuh,             "Schuhen, Schuh"]
+      - [accusative, Schuh,             "Schuhe, Schuh" ]
+  - term: der Tiergarten
+    definition: the zoo
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/91/De-Tiergarten.ogg
+    declension-type: strong
+    declension:
+      - ["",         singular,    plural    ]
+      - [nominative, Tiergarten,  Tiergärten]
+      - [genitive,   Tiergartens, Tiergärten]
+      - [dative,     Tiergarten,  Tiergärten]
+      - [accusative, Tiergarten,  Tiergärten]
+  - term: die Klamotte
+    definition:
+      - the clothes
+      - the junk
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/88/De-Klamotte.ogg
+    declension:
+      - ["",         singular, plural   ]
+      - [nominative, Klamotte, Klamotten]
+      - [genitive,   Klamotte, Klamotten]
+      - [dative,     Klamotte, Klamotten]
+      - [accusative, Klamotte, Klamotten]
 
 
 
@@ -5172,6 +5216,7 @@ vocabulary:
       - [accusative, Kilometer,  Kilometer ]
   - term: nordöstlich
     definition: (adj.) northeasterly
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/53/De-nord%C3%B6stlich.ogg
   - term: das Widerstandsnest
     definition: (military) the pocket of defense
     audio: https://www.verbformen.de/deklination/substantive/grundform/der_Widerstandsnest.mp3
