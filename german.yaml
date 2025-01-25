@@ -5258,6 +5258,16 @@ vocabulary:
       - [genitive,   Erledigung, Erledigungen]
       - [dative,     Erledigung, Erledigungen]
       - [accusative, Erledigung, Erledigungen]
+  - term: schließen
+    definition:
+      - to close
+      - to shut down
+      - to lock
+      - to conclude
+      - to come to
+      - to reach
+      - to gather
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/ca/De-schlie%C3%9Fen2.ogg
   - term: jawohl
     definition: (military) yes sir
     audio: https://upload.wikimedia.org/wikipedia/commons/4/4b/De-jawohl.ogg
