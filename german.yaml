@@ -7011,6 +7011,19 @@ vocabulary:
       video: https://youtu.be/zytqkxgSlJM
       conjugation: https://www.verbformen.com/conjugation/betrachten.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/betrachten.pdf
+  - term: der Abschnitt
+    definition:
+      - the section
+      - the paragraph
+      - the segment
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/cf/De-Abschnitt.ogg
+    declension-type:
+    declension:
+      - ["",         singular,                  plural     ]
+      - [nominative, Abschnitt,                 Abschnitte ]
+      - [genitive,   "Abschnittes, Abschnitts", Abschnitte ]
+      - [dative,     Abschnitt,                 Abschnitten]
+      - [accusative, Abschnitt,                 Abschnitte ]
 
 
 
