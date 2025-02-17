@@ -4210,6 +4210,26 @@ vocabulary:
       - [genitive,   Klamotte, Klamotten]
       - [dative,     Klamotte, Klamotten]
       - [accusative, Klamotte, Klamotten]
+  - term: fernöstliches
+    definition: (adj.) Far Eastern
+    audio: https://cdn.langenscheidt.com/sound/deen/fern%C3%B6stlich.mp3?v=de&h=0053519709867acf6e8652112e02e5b3dc582bd479721425fc37e52b441e0f32
+  - term: afrikanisch
+    definition: (adj.) African
+    audio: https://cdn.langenscheidt.com/sound/deen/afrikanisch.mp3?v=de&h=69911824e4198ca47b6262af871eee008eda5b0420d7c0ee1bb9339db0d535d4
+  - term: neuerdings
+    definition:
+      - (adv.) lately
+      - (adv.) again
+    audio: https://upload.wikimedia.org/wikipedia/commons/d/d0/De-neuerdings.ogg
+  - term: die Nostalgie
+    definition: the nostalgia
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/ff/De-Nostalgie.ogg
+    declension:
+      - ["",         singular,  plural    ]
+      - [nominative, Nostalgie, Nostalgien]
+      - [genitive,   Nostalgie, Nostalgien]
+      - [dative,     Nostalgie, Nostalgien]
+      - [accusative, Nostalgie, Nostalgien]
 
 
 
