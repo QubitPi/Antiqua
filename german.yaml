@@ -4230,6 +4230,83 @@ vocabulary:
       - [genitive,   Nostalgie, Nostalgien]
       - [dative,     Nostalgie, Nostalgien]
       - [accusative, Nostalgie, Nostalgien]
+  - term: die Brille
+    definition: the (pair of eye) glasses
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f5/De-Brille.ogg
+    declension:
+      - ["",         singular, plural ]
+      - [nominative, Brille,   Brillen]
+      - [genitive,   Brille,   Brillen]
+      - [dative,     Brille,   Brillen]
+      - [accusative, Brille,   Brillen]
+  - term: 20er-60er Jahre
+    definition: (year) 20s - 60s
+  - term: das Preisniveau
+    definition: the price level
+    audio: https://www.verbformen.de/deklination/substantive/grundform/der_Preisniveau.mp3
+    declension:
+      - ["",         singular,     plural      ]
+      - [nominative, Preisniveau,  Preisniveaus]
+      - [genitive,   Preisniveaus, Preisniveaus]
+      - [dative,     Preisniveau,  Preisniveaus]
+      - [accusative, Preisniveau,  Preisniveaus]
+  - term: hoch
+    definition: (adj.) high
+    audio: https://upload.wikimedia.org/wikipedia/commons/b/b0/De-hoch2.ogg
+  - term: überwiegen
+    definition:
+      - to outweigh
+      - to prevail
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/5e/De-%C3%BCberwiegen.ogg
+    verbformen:
+      conjugation: https://www.verbformen.com/conjugation/u3ber=wiegen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/u3ber=wiegen.pdf
+  - term: der Profi
+    definition: the pro
+    audio: https://upload.wikimedia.org/wikipedia/commons/7/70/De-Profi.ogg
+    declension:
+      - ["",         singular, plural]
+      - [nominative, profi,    profis]
+      - [genitive,   profis,   profis]
+      - [dative,     profi,    profis]
+      - [accusative, profi,    profis]
+  - term: verdienen
+    definition: to earn
+    audio: https://www.verbformen.de/konjugation/infinitiv/verdienen.mp3
+    verbformen:
+      video: https://youtu.be/aeFJ8iQ7sL8
+      conjugation: https://www.verbformen.com/conjugation/verdienen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/verdienen.pdf
+  - term: engen
+    definition: to limit
+    audio: https://upload.wikimedia.org/wikipedia/commons/e/e7/De-engen.ogg
+    verbformen:
+      conjugation: https://www.verbformen.com/conjugation/engen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/engen.pdf
+  - term: der Gang
+    definition:
+      - the motion
+      - the gait
+      - way (someone talks)
+      - course (of events)
+      - hallway
+      - (machinery) gear
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/4f/De-Gang.ogg
+    declension:
+      - ["",         singular,        plural]
+      - [nominative, Gang,            Gänge ]
+      - [genitive,   "Ganges, Gangs", Gänge ]
+      - [dative,     Gang,            Gängen]
+      - [accusative, Gang,            Gänge ]
+  - term: kaum
+    definition: (adv.) barely
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/07/De-kaum.ogg
+  - term: durchkommen
+    definition: to come through
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/51/De-durchkommen.ogg
+    verbformen:
+      conjugation: https://www.verbformen.com/conjugation/durchkommen.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/durchkommen.pdf
 
 
 
