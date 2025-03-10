@@ -4173,7 +4173,7 @@ vocabulary:
     definition: (adj.) Swedish
     audio: https://upload.wikimedia.org/wikipedia/commons/4/49/De-schwedisch.ogg
   - term: der Pulli
-    definition: the sweater
+    definition: the pullover
     audio: https://upload.wikimedia.org/wikipedia/commons/2/2a/De-Pulli.ogg
     declension:
       - ["",         singular, plural]
@@ -4200,9 +4200,7 @@ vocabulary:
       - [dative,     Tiergarten,  Tiergärten]
       - [accusative, Tiergarten,  Tiergärten]
   - term: die Klamotte
-    definition:
-      - the clothes
-      - the junk
+    definition: the clothes
     audio: https://upload.wikimedia.org/wikipedia/commons/8/88/De-Klamotte.ogg
     declension:
       - ["",         singular, plural   ]
@@ -4254,15 +4252,18 @@ vocabulary:
     definition: (adj.) high
     audio: https://upload.wikimedia.org/wikipedia/commons/b/b0/De-hoch2.ogg
   - term: überwiegen
-    definition:
-      - to outweigh
-      - to prevail
+    definition: to predominate
     audio: https://upload.wikimedia.org/wikipedia/commons/5/5e/De-%C3%BCberwiegen.ogg
     verbformen:
       conjugation: https://www.verbformen.com/conjugation/u3ber=wiegen.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/u3ber=wiegen.pdf
+  - term: überwiegend
+    definition:
+      - (adj.) predominant
+      - (adv.) predominantly
+    audio: https://upload.wikimedia.org/wikipedia/commons/5/58/De-%C3%BCberwiegend.ogg
   - term: der Profi
-    definition: the pro
+    definition: the professional
     audio: https://upload.wikimedia.org/wikipedia/commons/7/70/De-Profi.ogg
     declension:
       - ["",         singular, plural]
@@ -4277,6 +4278,11 @@ vocabulary:
       video: https://youtu.be/aeFJ8iQ7sL8
       conjugation: https://www.verbformen.com/conjugation/verdienen.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/verdienen.pdf
+  - term: eng
+    definition:
+      - (adj.) narrow
+      - (adj.) tight
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/17/De-eng.ogg
   - term: engen
     definition: to limit
     audio: https://upload.wikimedia.org/wikipedia/commons/e/e7/De-engen.ogg
@@ -4284,13 +4290,7 @@ vocabulary:
       conjugation: https://www.verbformen.com/conjugation/engen.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/engen.pdf
   - term: der Gang
-    definition:
-      - the motion
-      - the gait
-      - way (someone talks)
-      - course (of events)
-      - hallway
-      - (machinery) gear
+    definition: the pathway
     audio: https://upload.wikimedia.org/wikipedia/commons/4/4f/De-Gang.ogg
     declension:
       - ["",         singular,        plural]
