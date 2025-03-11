@@ -4307,7 +4307,38 @@ vocabulary:
     verbformen:
       conjugation: https://www.verbformen.com/conjugation/durchkommen.pdf
       flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/durchkommen.pdf
-
+  - term: bereiten
+    definition:
+      - to prepare
+      - to make
+      - to give
+      - to cause
+    audio: https://upload.wikimedia.org/wikipedia/commons/8/85/De-bereiten2.ogg
+    verbformen:
+      video: https://youtu.be/Y2eETsZTFb0
+      conjugation: https://www.verbformen.com/conjugation/bereiten_regelm.pdf
+      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/bereiten_regelm.pdf
+#  - term: vorbereiten
+#    definition:
+#    audio:
+#    verbformen:
+#      video:
+#      conjugation:
+#      flashcards:
+  - term: die Tournee
+    definition: the tour
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/f4/De-Tournee.ogg
+    declension:
+      - ["",         singular, plural             ]
+      - [nominative, Tournee, "Tourneen, Tournees"]
+      - [genitive,   Tournee, "Tourneen, Tournees"]
+      - [dative,     Tournee, "Tourneen, Tournees"]
+      - [accusative, Tournee, "Tourneen, Tournees"]
+  - term: paar
+    definition:
+      - some
+      - a few
+    audio: https://upload.wikimedia.org/wikipedia/commons/0/06/De-paar.ogg
 
 
   - term: die Erfahrung
