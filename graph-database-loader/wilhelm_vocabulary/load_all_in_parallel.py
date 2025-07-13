@@ -11,9 +11,22 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-FROM neo4j:5.24-enterprise
 
-LABEL maintainer="Jiaqi (Jack) Liu"
-LABEL maintainer-email="jack20220723@gmail.com"
+from multiprocessing import Process
 
-COPY data/ /data
+import load_ancient_greek
+import load_german
+import load_latin
+
+if __name__ == "__main__":
+    latin = Process(target=load_latin.load_into_database())
+    german = Process(target=load_german.load_into_database())
+    ancient_greek = Process(target=load_ancient_greek.load_into_database())
+
+    latin.start()
+    german.start()
+    ancient_greek.start()
+
+    latin.join()
+    german.join()
+    ancient_greek.join()

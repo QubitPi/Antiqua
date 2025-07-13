@@ -11,9 +11,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-FROM neo4j:5.24-enterprise
 
-LABEL maintainer="Jiaqi (Jack) Liu"
-LABEL maintainer-email="jack20220723@gmail.com"
+from database.neo4j.database_manager import cleanup_neo4j
 
-COPY data/ /data
+if __name__ == "__main__":
+    cleanup_neo4j()
