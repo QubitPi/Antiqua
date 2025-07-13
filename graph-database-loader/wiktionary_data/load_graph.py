@@ -11,9 +11,12 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-FROM neo4j:5.24-enterprise
+from datasets import load_dataset
 
-LABEL maintainer="Jiaqi (Jack) Liu"
-LABEL maintainer-email="jack20220723@gmail.com"
 
-COPY data/ /data
+def load_into_database():
+    dataset = load_dataset("QubitPi/wiktionary-data", "Knowledge Graph")
+
+
+if __name__ == "__main__":
+    load_into_database()

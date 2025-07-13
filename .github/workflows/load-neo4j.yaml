@@ -1,0 +1,87 @@
+# Copyright 2025 Jiaqi Liu. All rights reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+---
+name: Load Antiqua Data into Production Graph Database
+
+"on":
+  workflow_call:
+
+env:
+  PYTHON_VERSION: "3.10"
+
+jobs:
+  cleanup-neo4j:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: graph-database-loader
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Cleanup
+        run: |
+          pip3 install -e .
+          python3 wilhelm_vocabulary/cleanup_neo4j.py
+        env:
+          NEO4J_URI: ${{ secrets.NEO4J_URI }}
+          NEO4J_DATABASE: ${{ secrets.NEO4J_DATABASE }}
+          NEO4J_USERNAME: ${{ secrets.NEO4J_USERNAME }}
+          NEO4J_PASSWORD: ${{ secrets.NEO4J_PASSWORD }}
+
+  load-vocabulary:
+    name: Load ${{ matrix.language.name }} vocabularies
+    defaults:
+      run:
+        working-directory: graph-database-loader
+    needs: cleanup-neo4j
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [
+          {
+            name: German,
+            load-script: wilhelm_vocabulary/load_german.py
+          },
+          {
+            name: Ancient Greek,
+            load-script: wilhelm_vocabulary/load_ancient_greek.py
+          },
+          {
+            name: Latin,
+            load-script: wilhelm_vocabulary/load_latin.py
+          }
+        ]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Load ${{ matrix.language.name }}
+        run: |
+          pip3 install -e .
+          python3 ${{ matrix.language.load-script }}
+        env:
+          NEO4J_URI: ${{ secrets.NEO4J_URI }}
+          NEO4J_DATABASE: ${{ secrets.NEO4J_DATABASE }}
+          NEO4J_USERNAME: ${{ secrets.NEO4J_USERNAME }}
+          NEO4J_PASSWORD: ${{ secrets.NEO4J_PASSWORD }}
