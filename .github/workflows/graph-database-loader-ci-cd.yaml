@@ -130,7 +130,7 @@ jobs:
         if: ${{ matrix.os == 'macos-latest' }}
         uses: douglascamata/setup-docker-macos-action@v1
         with:
-          colima: latest # Or specify a specific version
+          colima: latest
       - name: Startup a Neo4J database
         run: |
           docker run \
@@ -163,8 +163,12 @@ jobs:
 
   package:
     name: Test Package Build
-    needs: graph-database-loading-tests
-    runs-on: ubuntu-latest
+    #needs: graph-database-loading-tests
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, windows-latest, macos-latest ]
+    runs-on: ${{ matrix.os }}
     defaults:
       run:
         working-directory: graph-database-loader
