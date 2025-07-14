@@ -12,7 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#!/usr/bin/python
 import os
 
 split_tag = (os.environ['LAST_TAG'].split('-')[0]).split(".")
