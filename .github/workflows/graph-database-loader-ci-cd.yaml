@@ -60,7 +60,6 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-latest, windows-latest, macos-latest ]
         language: [
           {
             name: German,
@@ -114,7 +113,7 @@ jobs:
             load-script: wilhelm_vocabulary/load_all_in_parallel.py
           }
         ]
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: graph-database-loader
@@ -126,11 +125,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-      - name: Setup docker (missing on MacOS)
-        if: ${{ matrix.os == 'macos-latest' }}
-        uses: douglascamata/setup-docker-macos-action@v1
-        with:
-          colima: latest
       - name: Startup a Neo4J database
         run: |
           docker run \
@@ -138,7 +132,6 @@ jobs:
               --publish=7687:7687 \
               --env=NEO4J_AUTH=none \
               --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes neo4j:${{ env.NEO4J_ENTERPRISE_VERSION }} &
-        shell: bash # for Windows
       - name: Wait for database to be ready
         uses: iFaxity/wait-on-action@v1
         with:
@@ -163,7 +156,7 @@ jobs:
 
   package:
     name: Test Package Build
-    #needs: graph-database-loading-tests
+    needs: graph-database-loading-tests
     strategy:
       fail-fast: false
       matrix:
