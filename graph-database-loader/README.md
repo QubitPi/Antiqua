@@ -124,6 +124,8 @@ pip3 install -r requirements.txt
 The CI/CD [publishes Graph Database Loader to PyPi](https://pypi.org/project/graph-database-loader/). This relies on
 the tag
 
+To create the tag (`0.0.1` for example):
+
 ```console
 git tag -a 0.0.1 -m "0.0.1"
 git push origin 0.0.1
