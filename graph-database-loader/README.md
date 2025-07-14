@@ -119,6 +119,16 @@ or, on Windows
 pip3 install -r requirements.txt
 ```
 
+### Pushing a New Tag For Release
+
+The CI/CD [publishes Graph Database Loader to PyPi](https://pypi.org/project/graph-database-loader/). This relies on
+the tag
+
+```console
+git tag -a 0.0.1 -m "0.0.1"
+git push origin 0.0.1
+```
+
 License
 -------
 

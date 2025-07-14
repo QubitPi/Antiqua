@@ -2,7 +2,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(
-    name="wilhelm_data_loader",
+    name="graph-database-loader",
     version="0.0.1",
     description="A package suitable for offline vocabulary processing and batch ingestion into Graph databases, " +
                 "such as Neo4j and ArangoDB",

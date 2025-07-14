@@ -174,37 +174,50 @@ jobs:
       - name: Test dist build
         run: python setup.py sdist
 
-#  push-release-tag:
-#    needs: package
-#    if: github.ref == 'refs/heads/master'
-#    uses: QubitPi/hashistack/.github/workflows/version-bump.yml@master
-#    with:
-#      user: QubitPi
-#      email: jack20220723@gmail.com
-#
-#  release:
-#    name: Publish Python SDK To PyPI
-#    if: github.ref == 'refs/heads/master'
-#    needs: push-release-tag
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/checkout@v3
-#        with:
-#          fetch-depth: 0
-#      - name: Set up Python ${{ env.PYTHON_VERSION }}
-#        uses: actions/setup-python@v4
-#        with:
-#          python-version: ${{ env.PYTHON_VERSION }}
-#      - name: Bump version
-#        run: |
-#          git pull
-#          VERSION=$(git describe)
-#          echo "INFO Last tag: $VERSION"
-#          sed -i "s/    version=\"0.0.1\",/    version=\"$VERSION\",/" setup.py
-#      - name: Package up SDK
-#        run: python setup.py sdist
-#      - name: Publish a Python distribution to PyPI
-#        uses: pypa/gh-action-pypi-publish@release/v1
-#        with:
-#          user: __token__
-#          password: ${{ secrets.PYPI_API_TOKEN }}
+  push-release-tag:
+    name: Bump Version
+    #if: github.ref == 'refs/heads/master'
+    #needs: package
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: graph-database-loader
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          fetch-depth: 0
+      - name: Tag for release
+        run: |
+          git config --global user.name QubitPi
+          git config --global user.email jack20220723@gmail.com
+          .github/version-bump/tag-for-release.bash
+
+  release:
+    name: Publish Python SDK To PyPI
+    #if: github.ref == 'refs/heads/master'
+    #needs: push-release-tag
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: graph-database-loader
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Bump version
+        run: |
+          git pull
+          VERSION=$(git describe)
+          echo "INFO Last tag: $VERSION"
+          sed -i "s/    version=\"0.0.1\",/    version=\"$VERSION\",/" setup.py
+      - name: Package up SDK
+        run: python setup.py sdist
+      - name: Publish a Python distribution to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          user: __token__
+          password: ${{ secrets.PYPI_API_TOKEN }}
