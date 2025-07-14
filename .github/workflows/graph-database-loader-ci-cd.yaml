@@ -128,9 +128,9 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Setup docker (missing on MacOS)
         if: ${{ matrix.os == 'macos-latest' }}
-        run: |
-          brew install docker
-          colima start
+        uses: douglascamata/setup-docker-macos-action@v1
+        with:
+          colima: latest # Or specify a specific version
       - name: Startup a Neo4J database
         run: |
           docker run \
