@@ -1,6 +1,6 @@
 ---
 license: apache-2.0
-pretty_name: Wilhelm Vocabulary
+pretty_name: Antiqua
 language:
   - en
   - de
@@ -27,56 +27,27 @@ size_categories:
   - 1K<n<10K
 ---
 
-Wilhelm Vocabulary
-==================
+Antiqua
+=======
 
 [![Hugging Face dataset badge]][Hugging Face dataset URL]
-
-[![Vocabulary count - German]][Docker Hub URL]
-[![Vocabulary count - Latin]][Docker Hub URL]
-[![Vocabulary count - Ancient Greek]][Docker Hub URL]
 [![Docker Hub][Docker Pulls Badge]][Docker Hub URL]
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Hugging Face sync status badge]][Hugging Face sync status URL]
 [![Apache License Badge]][Apache License, Version 2.0]
 
-<!-- TOC -->
-* [Wilhelm Vocabulary](#wilhelm-vocabulary)
-  * [Development](#development)
-    * [Environment Setup](#environment-setup)
-    * [Installing Dependencies](#installing-dependencies)
-    * [Data Format](#data-format)
-    * [Encoding Table in YAML](#encoding-table-in-yaml)
-  * [Data Pipeline](#data-pipeline)
-    * [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
-      * [Why Graph Database](#why-graph-database)
-      * [Base Schema](#base-schema)
-  * [Languages](#languages)
-    * [German](#german)
-      * [Pronoun](#pronoun)
-      * [Noun](#noun)
-      * [Verb](#verb)
-    * [Ancient Greek](#ancient-greek)
-      * [Diacritic Mark Convention](#diacritic-mark-convention)
-      * [Pronoun](#pronoun-1)
-      * [Noun](#noun-1)
-      * [Adjective](#adjective)
-        * [1. Three-Ending Adjectives: 1st and 2nd Declension (2-1-2)](#1-three-ending-adjectives-1st-and-2nd-declension-2-1-2)
-        * [2. Two-Ending 2nd Declension Adjectives (2-2)](#2-two-ending-2nd-declension-adjectives-2-2)
-        * [3. Two-Ending 3rd Declension Adjectives (3-3)](#3-two-ending-3rd-declension-adjectives-3-3)
-        * [4. Three-Ending 1st and 3rd Declension Adjectives (3-1-3)](#4-three-ending-1st-and-3rd-declension-adjectives-3-1-3)
-        * [Declension Template](#declension-template)
-      * [Verb Conjugation](#verb-conjugation)
-    * [Latin](#latin)
-    * [Classical Hebrew](#classical-hebrew)
-    * [Classical Sanskrit](#classical-sanskrit)
-    * [Connection between Hebrew and Sanskrit](#connection-between-hebrew-and-sanskrit)
-    * [Korean](#korean)
-  * [License](#license)
-<!-- TOC -->
+__Antiqua__ is an effort of language vocabulary datafication which consists of 2 parts:
 
-__wilhelm-vocabulary__ is the data sources used for the flashcard contents on [wilhelmlang.com]. Specifically it's a
-datasource manually made from the accumulation of the daily language studies of [myself](https://github.com/Qubitpi):
+1. Maintaining vocabularies in a unified format
+2. Exposing the vocabularies in various forms and platforms, including
+
+   - Graph database
+   - [Hugging Face Datasets][Hugging Face dataset URL]
+   - Anki Flashcards
+
+     - Special case: The Ancient Greek Anki cards are handled by [lexitheras](https://github.com/QubitPi/lexitheras)
+
+It's a datasource manually made from the accumulation of the daily language studies of [myself](https://github.com/Qubitpi):
 
 - [German](./german.yaml)
 - [Latin](./latin.yaml)
@@ -86,12 +57,12 @@ The data is available on 🤗 [Hugging Face Datasets][Hugging Face dataset URL]
 
 ```python
 from datasets import load_dataset
-dataset = load_dataset("QubitPi/wilhelm-vocabulary")
+dataset = load_dataset("QubitPi/Antiqua")
 ```
 
 > [!TIP]
 > 
-> If `dataset = load_dataset("QubitPi/wilhelm-vocabulary")` throws an error, please upgrade the `datasets` package to
+> If `dataset = load_dataset("QubitPi/Antiqua")` throws an error, please upgrade the `datasets` package to
 > its _latest version_
 
 In addition, a Docker image has been made to allow us exploring the vocabulary in Neo4J browser backed by a Neo4J
@@ -105,8 +76,8 @@ docker run \
     --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes \
     -e NEO4JLABS_PLUGINS=\[\"apoc\"\] \
     --env NEO4J_browser_remote__content__hostname__whitelist=https://raw.githubusercontent.com \
-    --env NEO4J_browser_post__connect__cmd="style https://raw.githubusercontent.com/QubitPi/wilhelm-vocabulary/refs/heads/master/graphstyle.grass" \
-    jack20191124/wilhelm-vocabulary
+    --env NEO4J_browser_post__connect__cmd="style https://raw.githubusercontent.com/QubitPi/Antiqua/refs/heads/master/graphstyle.grass" \
+    jack20191124/Antiqua
 ```
 
 > [!NOTE]
@@ -162,16 +133,66 @@ We have offered some queries that can be used to quickly explore the vocabulary 
   
   ![Conjuction - but](docs/but.png "Error loading but.png")
 
+---
+
+<!-- TOC -->
+* [Antiqua](#antiqua)
+  * [Development](#development)
+    * [Environment Setup](#environment-setup)
+    * [Installing Dependencies](#installing-dependencies)
+    * [Data Format](#data-format)
+    * [Encoding Table in YAML](#encoding-table-in-yaml)
+  * [Data Pipeline](#data-pipeline)
+    * [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
+      * [Why Graph Database](#why-graph-database)
+      * [Base Schema](#base-schema)
+  * [Languages](#languages)
+    * [German](#german)
+      * [Pronoun](#pronoun)
+      * [Noun](#noun)
+      * [Verb](#verb)
+    * [Ancient Greek](#ancient-greek)
+      * [Diacritic Mark Convention](#diacritic-mark-convention)
+      * [Pronoun](#pronoun-1)
+      * [Noun](#noun-1)
+      * [Adjective](#adjective)
+        * [1. Three-Ending Adjectives: 1st and 2nd Declension (2-1-2)](#1-three-ending-adjectives-1st-and-2nd-declension-2-1-2)
+        * [2. Two-Ending 2nd Declension Adjectives (2-2)](#2-two-ending-2nd-declension-adjectives-2-2)
+        * [3. Two-Ending 3rd Declension Adjectives (3-3)](#3-two-ending-3rd-declension-adjectives-3-3)
+        * [4. Three-Ending 1st and 3rd Declension Adjectives (3-1-3)](#4-three-ending-1st-and-3rd-declension-adjectives-3-1-3)
+        * [Declension Template](#declension-template)
+      * [Verb Conjugation](#verb-conjugation)
+    * [Latin](#latin)
+    * [Classical Hebrew](#classical-hebrew)
+    * [Classical Sanskrit](#classical-sanskrit)
+    * [Connection between Hebrew and Sanskrit](#connection-between-hebrew-and-sanskrit)
+    * [Korean](#korean)
+  * [License](#license)
+<!-- TOC -->
+
 Development
 -----------
+
+> [!WARNING]
+> 
+> Whenenver calling `open()`, always invoke it with `open(encoding='utf-8')`. For example
+> 
+> ```python
+> with open("my.yaml", "r", encoding='utf-8') as f:
+>     return yaml.safe_load(f)
+> ```
+> 
+> This is because on Windows, some Germany characters (and those non-English characters from other languages as well)
+> like ö won't be properly encoded unless explicitly specifying UTF-8 encoding. Failed to do so might cause unexpected
+> behaviors such as string comparisons
 
 ### Environment Setup
 
 Get the source code:
 
 ```console
-git clone git@github.com:QubitPi/wilhelm-vocabulary.git
-cd wilhelm-vocabulary
+git clone git@github.com:QubitPi/Antiqua.git
+cd Antiqua
 ```
 
 It is strongly recommended to work in an isolated environment. Install virtualenv and create an isolated Python
@@ -223,7 +244,7 @@ The YAML data files are
 - [ancient-greek.yaml](./ancient-greek.yaml)
 
 These YAML files are then [transformed](huggingface/generate_datasets.py) to Hugging Face Datasets formats in
-[CI/CD](https://github.com/QubitPi/wilhelm-vocabulary/actions/workflows/ci-cd.yaml)
+[CI/CD](https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml)
 
 ### Encoding Table in YAML
 
@@ -312,14 +333,14 @@ the German noun "[Ecke](https://en.wiktionary.org/wiki/Ecke#Noun)" has at least 
 ![Relationship between term and defintion(s)](docs/definition.png "Error loading definition.png")
 
 <div align="center">
-    Graph data generated by <a href="https://github.com/QubitPi/wilhelm-data-loader">wilhelm-data-loader</a>
+    Graph data generated by <a href="./graph-database-loader">graph-database-loader</a>
 </div>
 
 > [!TIP]
 >
 > The parenthesized value at the beginning of each `definition` item played an un-ignorable role: it is the label of the
 > relationship between `term` and `definition` in graph database dumped by
-> [data loader](https://github.com/QubitPi/wilhelm-data-loader). For example, both German words
+> [data loader](./graph-database-loader). For example, both German words
 >
 > ```yaml
 > - term: denn
@@ -725,7 +746,7 @@ into one of 2 groups:
 ##### Declension Template
 
 Putting it all together, it can be concluded that Ancient Greek adjectives decline in rules with exceptions.
-wilhelm-vocabulary, therefore, still literally list all declined entries of an adjective. The declension template is as
+Antiqua, therefore, still literally list all declined entries of an adjective. The declension template is as
 follows:
 
 ```yaml
@@ -848,7 +869,7 @@ Although
 [there is no settled agreement on a common ancestor of Indo-European and Afroasiatic language families](https://en.wikipedia.org/wiki/Indo-Semitic_languages),
 the two languages as I've been learning them showed amazing similarities. For example, in both Hebrew and Sanskrit,
 there is no sign/character indicating the vowel __a__[^4][^5]. It is difficult to convince myself that this is a sheer
-coincidence! _wilhelm-vocabulary_, thus on Hebrew and Sanskrit, has another project goal - __revealing the missing
+coincidence! _Antiqua_, thus on Hebrew and Sanskrit, has another project goal - __revealing the missing
 connection between Indo-European and Afroasiatic families through knowledge graph among the vocabularies of their
 children languages
 
@@ -877,29 +898,24 @@ vocabulary:
 License
 -------
 
-The use and distribution terms for [wilhelm-vocabulary]() are covered by the [Apache License, Version 2.0].
+The use and distribution terms for [Antiqua]() are covered by the [Apache License, Version 2.0].
 
 [Apache License Badge]: https://img.shields.io/badge/Apache%202.0-F25910.svg?style=for-the-badge&logo=Apache&logoColor=white
 [Apache License, Version 2.0]: https://www.apache.org/licenses/LICENSE-2.0
 
-[Docker Pulls Badge]: https://img.shields.io/docker/pulls/jack20191124/wilhelm-vocabulary?style=for-the-badge&logo=docker&color=2596EC
-[Docker Hub URL]: https://hub.docker.com/r/jack20191124/wilhelm-vocabulary
+[Docker Pulls Badge]: https://img.shields.io/docker/pulls/jack20191124/antiqua?style=for-the-badge&logo=docker&color=2596EC
+[Docker Hub URL]: https://hub.docker.com/r/jack20191124/antiqua
 
-[Hugging Face dataset badge]: https://img.shields.io/badge/Datasets-wilhelm--vocabulary-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=6B7280
-[Hugging Face dataset URL]: https://huggingface.co/datasets/QubitPi/wilhelm-vocabulary
+[Hugging Face dataset badge]: https://img.shields.io/badge/Datasets-Antiqua-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=6B7280
+[Hugging Face dataset URL]: https://huggingface.co/datasets/QubitPi/Antiqua
 
-[Hugging Face sync status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=Hugging%20Face%20Sync%20Up
-[Hugging Face sync status URL]: https://github.com/QubitPi/wilhelm-vocabulary/actions/workflows/ci-cd.yaml
+[Hugging Face sync status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=Hugging%20Face%20Sync%20Up
+[Hugging Face sync status URL]: https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml
 
-[GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm-vocabulary/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=CI/CD
-[GitHub workflow status URL]: https://github.com/QubitPi/wilhelm-vocabulary/actions/workflows/ci-cd.yaml
+[GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=CI/CD
+[GitHub workflow status URL]: https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml
 
 [verbformen.com]: https://www.verbformen.com/
-[Vocabulary count - German]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2Fgerman%2Fcount&query=%24%5B0%5D.count&suffix=%20Words&style=for-the-badge&logo=neo4j&logoColor=white&label=German&color=4581C3
-[Vocabulary count - Latin]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2Flatin%2Fcount&query=%24%5B0%5D.count&suffix=%20Words&style=for-the-badge&logo=neo4j&logoColor=white&label=Latin&color=4581C3
-[Vocabulary count - Ancient Greek]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.paion-data.dev%2Fwilhelm%2Flanguages%2FancientGreek%2Fcount&query=%24%5B0%5D.count&suffix=%20Words&style=for-the-badge&logo=neo4j&logoColor=white&label=Ancient%20Greek&color=4581C3
-
-[wilhelmlang.com]: https://wilhelmlang.com/
 
 [^1]: https://en.wikipedia.org/wiki/German_verbs#Conjugation
 [^2]: _[Greek: An Intensive Course, 2nd Revised Edition](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised/dp/0823216632)_, Hansen & Quinn, _p.20_

@@ -1,10 +1,10 @@
-# Copyright Jiaqi Liu
+# Copyright 2025 Jiaqi Liu. All rights reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#     http://www.apache.org/licenses/LICENSE-2.0
+#     https://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -323,7 +323,7 @@ class TestVocabularyParser(unittest.TestCase):
         ]
 
         for test_case in test_cases:
-            with open("{path}/../german.yaml".format(path=DIR_PATH), "r") as f:
+            with open("{path}/../german.yaml".format(path=DIR_PATH), "r", encoding='utf-8') as f:
                 vocabulary = [word for word in yaml.safe_load(f)["vocabulary"] if word["term"] in test_case["words"]]
 
             self.assertEqual(

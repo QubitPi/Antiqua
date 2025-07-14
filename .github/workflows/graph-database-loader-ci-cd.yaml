@@ -1,0 +1,221 @@
+# Copyright 2025 Jiaqi Liu. All rights reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+---
+name: Graph Database Loader Subproject CI/CD
+
+"on":
+  pull_request:
+  push:
+    branches:
+      - master
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: "3.10"
+  NEO4J_ENTERPRISE_VERSION: 5.24-enterprise
+  TEST_NEO4J_URI: neo4j://localhost:7687
+  TEST_NEO4J_DATABASE: neo4j
+  TEST_NEO4J_USERNAME: not used
+  TEST_NEO4J_PASSWORD: not used
+
+jobs:
+  code-style:
+    name: Python Code Style Check
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, windows-latest, macos-latest ]
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: graph-database-loader
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: PEP 8 check
+        run: python setup.py pep8
+      - name: Check import orders
+        run: python setup.py isort
+
+  graph-database-loading-tests:
+    name: Test Graph Database Loading
+    needs: code-style
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [
+          {
+            name: German,
+            load-script: wilhelm_vocabulary/load_german.py
+          },
+          {
+            name: Ancient Greek,
+            load-script: wilhelm_vocabulary/load_ancient_greek.py
+          },
+          {
+            name: Latin,
+            load-script: wilhelm_vocabulary/load_latin.py
+          },
+          {
+            name: all languages (race condition test ①),
+            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+          },
+          {
+            name: all languages (race condition test ②),
+            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+          },
+          {
+            name: all languages (race condition test ③),
+            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+          },
+          {
+            name: all languages (race condition test ④),
+            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+          },
+          {
+            name: all languages (race condition test ⑤),
+            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+          },
+          {
+            name: all languages (race condition test ⑥),
+            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+          },
+          {
+            name: all languages (race condition test ⑦),
+            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+          },
+          {
+            name: all languages (race condition test ⑧),
+            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+          },
+          {
+            name: all languages (race condition test ⑨),
+          },
+          {
+            name: all languages (race condition test ⑩),
+            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+          }
+        ]
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: graph-database-loader
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Startup a Neo4J database
+        run: |
+          docker run \
+              --publish=7474:7474 \
+              --publish=7687:7687 \
+              --env=NEO4J_AUTH=none \
+              --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes neo4j:${{ env.NEO4J_ENTERPRISE_VERSION }} &
+      - name: Wait for database to be ready
+        uses: iFaxity/wait-on-action@v1
+        with:
+          resource: http://localhost:7474
+      - name: Test loading ${{ matrix.language.name }}
+        run: |
+          pip3 install -r requirements.txt
+          pip3 install -e .
+          python3 ${{ matrix.language.load-script }}
+        env:
+          NEO4J_URI: ${{ env.TEST_NEO4J_URI }}
+          NEO4J_DATABASE: ${{ env.TEST_NEO4J_DATABASE }}
+          NEO4J_USERNAME: ${{ env.TEST_NEO4J_USERNAME }}
+          NEO4J_PASSWORD: ${{ env.TEST_NEO4J_PASSWORD }}
+
+  load-neo4j:
+    name: Load Vocabularies into Production Neo4J Database
+    needs: graph-database-loading-tests
+    if: github.ref == 'refs/heads/master'
+    uses: ./.github/workflows/load-neo4j.yaml
+    secrets: inherit
+
+  package:
+    name: Test Package Build
+    needs: graph-database-loading-tests
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, windows-latest, macos-latest ]
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: graph-database-loader
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Test dist build
+        run: python setup.py sdist
+
+  push-release-tag:
+    name: Bump Version
+    if: github.ref == 'refs/heads/master'
+    needs: package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          fetch-depth: 0
+      - name: Tag for release
+        run: |
+          git config --global user.name QubitPi
+          git config --global user.email jack20220723@gmail.com
+          .github/version-bump/tag-for-release.bash
+
+  release:
+    name: Publish Python SDK To PyPI
+    if: github.ref == 'refs/heads/master'
+    needs: push-release-tag
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: graph-database-loader
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Bump version
+        run: |
+          git pull
+          VERSION=$(git describe)
+          echo "INFO Last tag: $VERSION"
+          sed -i "s/    version=\"0.0.1\",/    version=\"$VERSION\",/" setup.py
+      - name: Package up SDK
+        run: python setup.py sdist
+      - name: Publish a Python distribution to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          user: __token__
+          password: ${{ secrets.PYPI_API_TOKEN }}
+          packages-dir: graph-database-loader/dist

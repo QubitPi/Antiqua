@@ -1,6 +1,6 @@
 pyyaml
 nltk
-wilhelm_data_loader
+graph_database_loader
 
 pycodestyle
 isort
