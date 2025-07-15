@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wilhelm Data Loader &mdash; graph-database-loader 0.1.0 documentation</title>
+  <title>Graph Database Loader &mdash; graph-database-loader 0.1.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/tooltipster.custom.css" type="text/css" />
@@ -60,7 +60,7 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <!-- Local TOC -->
               <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Wilhelm Data Loader</a><ul>
+<li><a class="reference internal" href="#">Graph Database Loader</a><ul>
 <li><a class="reference internal" href="#install">Install</a></li>
 <li><a class="reference internal" href="#neo4j-database-client">Neo4J Database Client</a></li>
 <li><a class="reference internal" href="#api-documentation">API Documentation</a></li>
@@ -86,7 +86,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="#" class="icon icon-home"></a> &raquo;</li>
-      <li>Wilhelm Data Loader</li>
+      <li>Graph Database Loader</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -96,12 +96,12 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="wilhelm-data-loader">
-<h1><a class="toc-backref" href="#id1">Wilhelm Data Loader</a><a class="headerlink" href="#wilhelm-data-loader" title="Permalink to this heading"></a></h1>
+  <section id="graph-database-loader">
+<h1><a class="toc-backref" href="#id1">Graph Database Loader</a><a class="headerlink" href="#graph-database-loader" title="Permalink to this heading"></a></h1>
 <div class="contents topic" id="table-of-contents">
 <p class="topic-title">Table of Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#wilhelm-data-loader" id="id1">Wilhelm Data Loader</a></p>
+<li><p><a class="reference internal" href="#graph-database-loader" id="id1">Graph Database Loader</a></p>
 <ul>
 <li><p><a class="reference internal" href="#install" id="id2">Install</a></p></li>
 <li><p><a class="reference internal" href="#neo4j-database-client" id="id3">Neo4J Database Client</a></p></li>
@@ -111,13 +111,13 @@
 </li>
 </ul>
 </div>
-<p>Wilhelm Data Loader is a bundle of data pipeline that reads <a class="reference external" href="https://wilhelmlang.com/">wilhelmlang.com</a>’s vocabulary
-from supported data sources and loads them into graph databases. Some features of it can be reused as SDK. This
-documentation walks you through how to use the SDK</p>
+<p>Being a standalone subproject of Antiqua, <a class="reference external" href="https://pypi.org/project/graph-database-loader/">Graph Data Loader</a> is a
+bundle of data pipeline that reads Antiqua’s vocabulary from supported data sources and loads them into graph databases</p>
+<p>Some features of it can be reused as SDK. This documentation walks through how to use the SDK</p>
 <section id="install">
 <h2><a class="toc-backref" href="#id2">Install</a><a class="headerlink" href="#install" title="Permalink to this heading"></a></h2>
 <p>To install the SDK, simply run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">wilhelm_data_loader</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">graph</span><span class="o">-</span><span class="n">database</span><span class="o">-</span><span class="n">loader</span>
 </pre></div>
 </div>
 </section>
@@ -179,7 +179,7 @@ documentation walks you through how to use the SDK</p>
 <p>Then generate egg information from the <cite>setup.py</cite> and use the requirements.txt from these egg information to install all
 the dependencies for development:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">egg_info</span>
-<span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">wilhelm_python_sdk</span><span class="o">.</span><span class="n">egg</span><span class="o">-</span><span class="n">info</span><span class="o">/</span><span class="n">requires</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">graph</span><span class="o">-</span><span class="n">database</span><span class="o">-</span><span class="n">loader</span><span class="o">.</span><span class="n">egg</span><span class="o">-</span><span class="n">info</span><span class="o">/</span><span class="n">requires</span><span class="o">.</span><span class="n">txt</span>
 </pre></div>
 </div>
 <section id="troubleshooting">
@@ -206,7 +206,7 @@ isort detects an incorrectly ordered import in source file. Simply run:</p>
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2024, Jiaqi Liu.</p>
+    <p>&#169; Copyright 2025, Jiaqi Liu.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
