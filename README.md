@@ -61,7 +61,7 @@ dataset = load_dataset("QubitPi/Antiqua")
 ```
 
 > [!TIP]
-> 
+>
 > If `dataset = load_dataset("QubitPi/Antiqua")` throws an error, please upgrade the `datasets` package to
 > its _latest version_
 
@@ -130,7 +130,7 @@ We have offered some queries that can be used to quickly explore the vocabulary 
   RETURN path, length(path) AS hops
   ORDER BY hops;
   ```
-  
+
   ![Conjuction - but](docs/but.png "Error loading but.png")
 
 ---
@@ -174,14 +174,14 @@ Development
 -----------
 
 > [!WARNING]
-> 
+>
 > Whenenver calling `open()`, always invoke it with `open(encoding='utf-8')`. For example
-> 
+>
 > ```python
 > with open("my.yaml", "r", encoding='utf-8') as f:
 >     return yaml.safe_load(f)
 > ```
-> 
+>
 > This is because on Windows, some Germany characters (and those non-English characters from other languages as well)
 > like ö won't be properly encoded unless explicitly specifying UTF-8 encoding. Failed to do so might cause unexpected
 > behaviors such as string comparisons
@@ -490,7 +490,7 @@ information above
   definition:
   audio:
   verbformen:
-    video: 
+    video:
     conjugation:
     flashcards:
 ```
@@ -508,7 +508,7 @@ For example:
 ```
 
 > [!IMPORTANT]
-> 
+>
 > Note that the `verbformen` might not exist for some verbs and any of its sub-fields can be non-existing due to the
 > limiting number of verbs on records from [verbformen.com]
 
@@ -701,7 +701,7 @@ Note that except for the singular forms πολύς, πολύν, and πολύ, th
 [^7] A handful of adjectives, usually compounds, use 2nd declension endings for all genders. For these adjectives:
 
 - both the masculine and feminine forms share the same endings as 2nd declension masculine nouns
-- the neuter form shares the same endings as the 2nd declension neuter nouns. 
+- the neuter form shares the same endings as the 2nd declension neuter nouns.
 
 For instance, __ἄδικος -ον__ _unjust_:
 
