@@ -210,6 +210,9 @@ jobs:
     if: github.ref == 'refs/heads/master'
     needs: push-release-tag
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     defaults:
       run:
         working-directory: graph-database-loader
