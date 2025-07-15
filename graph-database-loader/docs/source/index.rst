@@ -1,21 +1,22 @@
-===================
-Wilhelm Data Loader
-===================
+=====================
+Graph Database Loader
+=====================
 
 .. contents:: Table of Contents
     :depth: 2
 
 
-Wilhelm Data Loader is a bundle of data pipeline that reads `wilhelmlang.com <https://wilhelmlang.com/>`_'s vocabulary
-from supported data sources and loads them into graph databases. Some features of it can be reused as SDK. This
-documentation walks you through how to use the SDK
+Being a standalone subproject of Antiqua, `Graph Data Loader <https://pypi.org/project/graph-database-loader/>`_ is a
+bundle of data pipeline that reads Antiqua's vocabulary from supported data sources and loads them into graph databases
+
+Some features of it can be reused as SDK. This documentation walks through how to use the SDK
 
 Install
 =======
 
 To install the SDK, simply run::
 
-    pip install wilhelm_data_loader
+    pip install graph-database-loader
 
 Neo4J Database Client
 =====================
@@ -78,8 +79,8 @@ Development
 
 Create virtual environment and install dependencies::
 
-    git@github.com:QubitPi/wilhelm-data-loader.git
-    cdwilhelm_data_loader
+    git clone git@github.com:QubitPi/Antiqua.git
+    cd Antiqua/graph-database-loader
     python3 -m venv .venv
     . .venv/bin/activate
 
@@ -87,7 +88,7 @@ Then generate egg information from the `setup.py` and use the requirements.txt f
 the dependencies for development::
 
     python setup.py egg_info
-    pip install -r wilhelm_python_sdk.egg-info/requires.txt
+    pip install -r graph-database-loader.egg-info/requires.txt
 
 Troubleshooting
 ---------------
