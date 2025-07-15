@@ -1,12 +1,12 @@
 
 // Copyright 2012 Google Inc. All rights reserved.
- 
+
 (function(){
 
 var data = {
 "resource": {
   "version":"1",
-  
+
   "macros":[{"function":"__e"},{"function":"__cid"}],
   "tags":[{"function":"__rep","once_per_event":true,"vtp_containerId":["macro",1],"tag_id":1}],
   "predicates":[{"function":"_eq","arg0":["macro",0],"arg1":"gtm.js"}],
@@ -14,7 +14,7 @@ var data = {
 },
 "runtime":[ [50,"__cid",[46,"a"],[36,[17,[13,[41,"$0"],[3,"$0",["require","getContainerVersion"]],["$0"]],"containerId"]]]
  ,[50,"__e",[46,"a"],[36,[13,[41,"$0"],[3,"$0",["require","internal.getEventData"]],["$0","event"]]]]
- 
+
 ]
 ,"entities":{
 "__cid":{"2":true,"4":true,"3":true}
@@ -539,4 +539,3 @@ pk(qk());if(Gh){for(;Gh.parent;){var Wy=pk(Gh.parent);if(!Wy)break;Gh=Wy}qo=Gh}e
 "string"&&sb(A.name,"web-pixel-sandbox-CUSTOM")&&Gc()?EK("dMDg0Yz"):A.Shopify&&Gc()&&EK("dNTU0Yz"))}}}catch(oo){if(ll(4),Sj){var gL=Mm(!0,!0);qc(gL)}}});
 
 })()
-
