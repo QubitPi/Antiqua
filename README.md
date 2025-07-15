@@ -1,32 +1,3 @@
----
-license: apache-2.0
-pretty_name: Antiqua
-language:
-  - en
-  - de
-  - la
-  - grc
-configs:
-  - config_name: Graph Data
-    data_files:
-      - split: German
-        path: german-graph-data.jsonl
-      - split: Latin
-        path: latin-graph-data.jsonl
-      - split: AncientGreek
-        path: ancient-greek-graph-data.jsonl
-tags:
-  - Natural Language Processing
-  - NLP
-  - Vocabulary
-  - German
-  - Latin
-  - Ancient Greek
-  - Knowledge Graph
-size_categories:
-  - 1K<n<10K
----
-
 Antiqua
 =======
 
@@ -83,7 +54,7 @@ _people___. It achieves this by 2 parts:
          -e NEO4JLABS_PLUGINS=\[\"apoc\"\] \
          --env NEO4J_browser_remote__content__hostname__whitelist=https://raw.githubusercontent.com \
          --env NEO4J_browser_post__connect__cmd="style https://raw.githubusercontent.com/QubitPi/Antiqua/refs/heads/master/graphstyle.grass" \
-         jack20191124/Antiqua
+         jack20191124/antiqua
      ```
 
      - When container starts, access neo4j through browser at http://localhost:7474
