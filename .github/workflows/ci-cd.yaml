@@ -93,6 +93,7 @@ jobs:
 
   sync-to-huggingface-space:
     needs: unit-tests
+    name: Sync with Hugging Face Datasets
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
@@ -124,6 +125,7 @@ jobs:
 
           git lfs install
           git lfs track "./*-graph-data.jsonl"
+          git add .
           git add ./*-graph-data.jsonl
 
           git commit -m "Generate Hugging Face Datasets"
