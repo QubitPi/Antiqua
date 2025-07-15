@@ -116,12 +116,18 @@ jobs:
           git config --global user.name "QubitPi"
           git config --global user.email "jack20220723@gmail.com"
 
+          git clone https://QubitPi:"$HF_TOKEN"@huggingface.co/datasets/QubitPi/Antiqua
+          cd Antiqua
+          rm -rf ./*
+          mv ../huggingface/README.md .
+          mv ../*-graph-data.jsonl .
+
           git lfs install
           git lfs track "./*-graph-data.jsonl"
           git add ./*-graph-data.jsonl
 
           git commit -m "Generate Hugging Face Datasets"
-          git push https://QubitPi:"$HF_TOKEN"@huggingface.co/datasets/QubitPi/Antiqua master:main -f
+          git push -f
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
 
