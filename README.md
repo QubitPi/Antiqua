@@ -171,8 +171,15 @@ git clone git@github.com:QubitPi/Antiqua.git
 cd Antiqua
 ```
 
-It is strongly recommended to work in an isolated environment. Install virtualenv and create an isolated Python
-environment by
+Antiqua has 3 major tech components
+
+1. Antiqua
+2. Graph Database Loader
+3. Antique Acceptance Framework
+
+It is strongly recommended to work on each component in separate environments. Please refer to
+[![DeepWiki badge]][DeepWiki URL] for more tech details. For the top level project Antique, install virtualenv and
+create an isolated Python environment by
 
 ```console
 python3 -m pip install --user -U virtualenv
@@ -875,6 +882,8 @@ The use and distribution terms for [Antiqua]() are covered by the [Apache Licens
 [Apache License Badge]: https://img.shields.io/github/license/QubitPi/Antiqua?style=for-the-badge&logo=Apache&logoColor=white&labelColor=FF7777&color=00B8A9
 [Apache License, Version 2.0]: https://www.apache.org/licenses/LICENSE-2.0
 
+[DeepWiki badge]: https://img.shields.io/badge/DeepWiki-QubitPi%2FAntiqua-2F2F2F.svg?style=for-the-badge&labelColor=FE6F26&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==
+[DeepWiki URL]: https://deepwiki.com/QubitPi/Antiqua
 [Docker Pulls Badge]: https://img.shields.io/docker/pulls/jack20191124/antiqua?style=for-the-badge&logo=docker&logoColor=white&labelColor=5BBCFF&color=7EA1FF
 [Docker Hub URL]: https://hub.docker.com/r/jack20191124/antiqua
 
