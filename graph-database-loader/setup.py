@@ -6,7 +6,7 @@ setup(
     version="0.0.1",
     description="A package suitable for offline vocabulary processing and batch ingestion into Graph databases, " +
                 "such as Neo4j and ArangoDB",
-    url="https://github.com/QubitPi/wilhelm-data-loader",
+    url="https://github.com/QubitPi/Antiqua/tree/master/graph-database-loader",
     author="Jiaqi Liu",
     author_email="jack20220723@gmail.com",
     license="Apache-2.0",

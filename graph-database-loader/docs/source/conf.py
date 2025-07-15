@@ -18,8 +18,8 @@ sys.path.insert(0, os.path.abspath('../../'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'wilhelm-data-loader'
-copyright = '2024, Jiaqi Liu'
+project = 'graph-database-loader'
+copyright = '2025, Jiaqi Liu'
 author = 'Jiaqi Liu'
 
 # The full version, including alpha/beta/rc tags

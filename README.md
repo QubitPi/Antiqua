@@ -9,12 +9,12 @@ language:
 configs:
   - config_name: Graph Data
     data_files:
-    - split: German
-      path: german-graph-data.jsonl
-    - split: Latin
-      path: latin-graph-data.jsonl
-    - split: AncientGreek
-      path: ancient-greek-graph-data.jsonl
+      - split: German
+        path: german-graph-data.jsonl
+      - split: Latin
+        path: latin-graph-data.jsonl
+      - split: AncientGreek
+        path: ancient-greek-graph-data.jsonl
 tags:
   - Natural Language Processing
   - NLP
@@ -32,161 +32,166 @@ Antiqua
 
 [![Hugging Face dataset badge]][Hugging Face dataset URL]
 [![Docker Hub][Docker Pulls Badge]][Docker Hub URL]
-[![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
+[![PyPI][PyPI project badge]][PyPI project url]
+
+[![GitHub workflow status badge Antiqua][GitHub workflow status badge Antiqua]][GitHub workflow status URL Antiqua]
+[![GitHub workflow status badge GDL][GitHub workflow status badge GDL]][GitHub workflow status URL GDL]
 [![Hugging Face sync status badge]][Hugging Face sync status URL]
+
+![Python Version][Python Version Badge]
 [![Apache License Badge]][Apache License, Version 2.0]
 
-__Antiqua__ is an effort of language vocabulary datafication which consists of 2 parts:
+Believing in language is the greatest invention in human history, __Antiqua__ is an effort of natural language
+vocabulary datafication with the goal of __unleashing the power of languages beyond their semantic values for
+_people___. It achieves this by 2 parts:
 
-1. Maintaining vocabularies in a unified format
-2. Exposing the vocabularies in various forms and platforms, including
+1. __Language ➡ Data__: maintaining vocabulary as data in a unified, human-readable, and machine-readable format
+   ([YAML](https://en.wikipedia.org/wiki/YAML)):
 
-   - Graph database
-   - [Hugging Face Datasets][Hugging Face dataset URL]
-   - Anki Flashcards
+    - [german.yaml](./german.yaml)
+    - [latin.yaml](./latin.yaml)
+    - [ancient-greek.yaml](./ancient-greek.yaml)
+
+2. __Data ➡ Value__: exposing the data for language learners in various forms and platforms, including
+
+   - _Anki Flashcards_, useful for __language learners__ using popular platform [Anki](https://apps.ankiweb.net/)
 
      - Special case: The Ancient Greek Anki cards are handled by [lexitheras](https://github.com/QubitPi/lexitheras)
 
-It's a datasource manually made from the accumulation of the daily language studies of [myself](https://github.com/Qubitpi):
+   - 🤗 [_Hugging Face Datasets_][Hugging Face dataset URL], which can be used widely in __language model trainings__. The
+     data can be accessed with
 
-- [German](./german.yaml)
-- [Latin](./latin.yaml)
-- [Ancient Greek](./ancient-greek.yaml)
+     ```python
+     from datasets import load_dataset
+     dataset = load_dataset("QubitPi/Antiqua")
+     ```
 
-The data is available on 🤗 [Hugging Face Datasets][Hugging Face dataset URL]
+     📗 If `dataset = load_dataset("QubitPi/Antiqua")` throws an error, please upgrade the `datasets` package to its
+     _latest version_
 
-```python
-from datasets import load_dataset
-dataset = load_dataset("QubitPi/Antiqua")
-```
+   - [_Graph database_](./graph-database-loader) that helps people visually __explore and discover the
+     [inter-langauge connections](#connection-between-hebrew-and-sanskrit)__ via knowledge graph. In addition, a
+     Docker image has been made to allow us exploring the vocabulary in Neo4J browser backed by a Neo4J  database. To
+     get the image and run the container, simply do:
 
-> [!TIP]
->
-> If `dataset = load_dataset("QubitPi/Antiqua")` throws an error, please upgrade the `datasets` package to
-> its _latest version_
+     ```console
+     docker run \
+         --publish=7474:7474 \
+         --publish=7687:7687 \
+         --env=NEO4J_AUTH=none \
+         --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes \
+         -e NEO4JLABS_PLUGINS=\[\"apoc\"\] \
+         --env NEO4J_browser_remote__content__hostname__whitelist=https://raw.githubusercontent.com \
+         --env NEO4J_browser_post__connect__cmd="style https://raw.githubusercontent.com/QubitPi/Antiqua/refs/heads/master/graphstyle.grass" \
+         jack20191124/Antiqua
+     ```
 
-In addition, a Docker image has been made to allow us exploring the vocabulary in Neo4J browser backed by a Neo4J
-database. To get the image and run the container, simply do:
+     - When container starts, access neo4j through browser at http://localhost:7474
+     - Both __bolt://__ and __neo4j://__ protocols are fine.
+     - Choose __No authentication__ for _Authentication type_
+     - Then hit __Connect__ as shown below
 
-```console
-docker run \
-    --publish=7474:7474 \
-    --publish=7687:7687 \
-    --env=NEO4J_AUTH=none \
-    --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes \
-    -e NEO4JLABS_PLUGINS=\[\"apoc\"\] \
-    --env NEO4J_browser_remote__content__hostname__whitelist=https://raw.githubusercontent.com \
-    --env NEO4J_browser_post__connect__cmd="style https://raw.githubusercontent.com/QubitPi/Antiqua/refs/heads/master/graphstyle.grass" \
-    jack20191124/Antiqua
-```
+     ![Connecting to Neo4J Docker](docs/neo4j-docker-connect.png "Error loading neo4j-docker-connect.png")
 
-> [!NOTE]
->
-> The image is based on Neo4J Enterprise 5.23.0.
+     We have offered some queries that can be used to quickly explore the vocabulary in graph representations:
 
-- When container starts, access neo4j through browser at http://localhost:7474
-- Both __bolt://__ and __neo4j://__ protocols are fine.
-- Choose __No authentication__ for _Authentication type_
-- Then hit __Connect__ as shown below
+     - Search for all Synonyms: `MATCH (term:Term)-[r]-(synonym:Term) WHERE r.name = "synonym" RETURN term, r, synonym`
+     - Finding all [gerunds](https://en.wiktionary.org/wiki/Appendix:Glossary#gerund):
+       `MATCH (source)-[link:RELATED]->(target) WHERE link.name = "gerund of" RETURN source, link, target;`
+     - Expanding a word "nämlich" (reveals its relationship to other languages):
 
-![Connecting to Neo4J Docker](docs/neo4j-docker-connect.png "Error loading neo4j-docker-connect.png")
+       ```cypher
+       MATCH (term:Term{label:'nämlich'})
+       CALL apoc.path.expand(term, "LINK", null, 1, 3)
+       YIELD path
+       RETURN path, length(path) AS hops
+       ORDER BY hops;
+       ```
 
-We have offered some queries that can be used to quickly explore the vocabulary in graph representations:
+       ![Expanding "nämlich"](docs/german-greek-latin.png "Error loading german-greek-latin.png")
 
-- Search for all Synonyms: `MATCH (term:Term)-[r]-(synonym:Term) WHERE r.name = "synonym" RETURN term, r, synonym`
-- Finding all [gerunds](https://en.wiktionary.org/wiki/Appendix:Glossary#gerund):
-  `MATCH (source)-[link:RELATED]->(target) WHERE link.name = "gerund of" RETURN source, link, target;`
-- Expanding a word "nämlich" (reveals its relationship to other languages):
+     - In German, "rice" and "travel" are related:
 
-  ```cypher
-  MATCH (term:Term{label:'nämlich'})
-  CALL apoc.path.expand(term, "LINK", null, 1, 3)
-  YIELD path
-  RETURN path, length(path) AS hops
-  ORDER BY hops;
-  ```
+       ```cypher
+       MATCH (term:Term{label:'die Reise'})
+       CALL apoc.path.expand(term, "LINK", null, 1, 3)
+       YIELD path
+       RETURN path, length(path) AS hops
+       ORDER BY hops;
+       ```
 
-  ![Expanding "nämlich"](docs/german-greek-latin.png "Error loading german-greek-latin.png")
+       ![Declension sharing](docs/german-rice-travel.png "Error loading german-rice-travel.png")
 
-- In German, "rice" and "travel" are related:
+     - `MATCH (term:Term{label:'die Schwester'})  CALL apoc.path.expand(term, "LINK", null, 1, -1)  YIELD path  RETURN path, length(path) AS hops  ORDER BY hops;`
+     - How German, Latin, and Ancient greek expresses the conjunction "but":
 
-  ```cypher
-  MATCH (term:Term{label:'die Reise'})
-  CALL apoc.path.expand(term, "LINK", null, 1, 3)
-  YIELD path
-  RETURN path, length(path) AS hops
-  ORDER BY hops;
-  ```
+       ```cypher
+       MATCH (node{label:"δέ"})
+       CALL apoc.path.expand(node, "LINK", null, 1, 4)
+       YIELD path
+       RETURN path, length(path) AS hops
+       ORDER BY hops;
+       ```
 
-  ![Declension sharing](docs/german-rice-travel.png "Error loading german-rice-travel.png")
-
-- `MATCH (term:Term{label:'die Schwester'})  CALL apoc.path.expand(term, "LINK", null, 1, -1)  YIELD path  RETURN path, length(path) AS hops  ORDER BY hops;`
-- How German, Latin, and Ancient greek expresses the conjunction "but":
-
-  ```cypher
-  MATCH (node{label:"δέ"})
-  CALL apoc.path.expand(node, "LINK", null, 1, 4)
-  YIELD path
-  RETURN path, length(path) AS hops
-  ORDER BY hops;
-  ```
-
-  ![Conjuction - but](docs/but.png "Error loading but.png")
-
----
-
-<!-- TOC -->
-* [Antiqua](#antiqua)
-  * [Development](#development)
-    * [Environment Setup](#environment-setup)
-    * [Installing Dependencies](#installing-dependencies)
-    * [Data Format](#data-format)
-    * [Encoding Table in YAML](#encoding-table-in-yaml)
-  * [Data Pipeline](#data-pipeline)
-    * [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
-      * [Why Graph Database](#why-graph-database)
-      * [Base Schema](#base-schema)
-  * [Languages](#languages)
-    * [German](#german)
-      * [Pronoun](#pronoun)
-      * [Noun](#noun)
-      * [Verb](#verb)
-    * [Ancient Greek](#ancient-greek)
-      * [Diacritic Mark Convention](#diacritic-mark-convention)
-      * [Pronoun](#pronoun-1)
-      * [Noun](#noun-1)
-      * [Adjective](#adjective)
-        * [1. Three-Ending Adjectives: 1st and 2nd Declension (2-1-2)](#1-three-ending-adjectives-1st-and-2nd-declension-2-1-2)
-        * [2. Two-Ending 2nd Declension Adjectives (2-2)](#2-two-ending-2nd-declension-adjectives-2-2)
-        * [3. Two-Ending 3rd Declension Adjectives (3-3)](#3-two-ending-3rd-declension-adjectives-3-3)
-        * [4. Three-Ending 1st and 3rd Declension Adjectives (3-1-3)](#4-three-ending-1st-and-3rd-declension-adjectives-3-1-3)
-        * [Declension Template](#declension-template)
-      * [Verb Conjugation](#verb-conjugation)
-    * [Latin](#latin)
-    * [Classical Hebrew](#classical-hebrew)
-    * [Classical Sanskrit](#classical-sanskrit)
-    * [Connection between Hebrew and Sanskrit](#connection-between-hebrew-and-sanskrit)
-    * [Korean](#korean)
-  * [License](#license)
-<!-- TOC -->
+       ![Conjuction - but](docs/but.png "Error loading but.png")
 
 Development
 -----------
 
+<details><summary>Table of Contents</summary>
+
+<!-- TOC -->
+* [Antiqua](#antiqua)
+  * [Development](#development)
+    * [Setup](#setup)
+    * [Data Format](#data-format)
+    * [Encoding Table in YAML](#encoding-table-in-yaml)
+    * [Data Pipeline](#data-pipeline)
+      * [How Data (Vocabulary) is Stored in a Graph Database](#how-data-vocabulary-is-stored-in-a-graph-database)
+        * [Why Graph Database](#why-graph-database)
+        * [Base Schema](#base-schema)
+    * [Languages](#languages)
+      * [German](#german)
+        * [Pronoun](#pronoun)
+        * [Noun](#noun)
+        * [Verb](#verb)
+      * [Ancient Greek](#ancient-greek)
+        * [Diacritic Mark Convention](#diacritic-mark-convention)
+        * [Pronoun](#pronoun-1)
+        * [Noun](#noun-1)
+        * [Adjective](#adjective)
+          * [1. Three-Ending Adjectives: 1st and 2nd Declension (2-1-2)](#1-three-ending-adjectives-1st-and-2nd-declension-2-1-2)
+          * [2. Two-Ending 2nd Declension Adjectives (2-2)](#2-two-ending-2nd-declension-adjectives-2-2)
+          * [3. Two-Ending 3rd Declension Adjectives (3-3)](#3-two-ending-3rd-declension-adjectives-3-3)
+          * [4. Three-Ending 1st and 3rd Declension Adjectives (3-1-3)](#4-three-ending-1st-and-3rd-declension-adjectives-3-1-3)
+          * [Declension Template](#declension-template)
+        * [Verb Conjugation](#verb-conjugation)
+      * [Latin](#latin)
+      * [Classical Hebrew](#classical-hebrew)
+      * [Classical Sanskrit](#classical-sanskrit)
+    * [Connection between Hebrew and Sanskrit](#connection-between-hebrew-and-sanskrit)
+      * [Korean](#korean)
+  * [License](#license)
+<!-- TOC -->
+
+</details>
+
 > [!WARNING]
 >
-> Whenenver calling `open()`, always invoke it with `open(encoding='utf-8')`. For example
+> The project is pretty much coded up with [Python](https://python.qubitpi.org/) and since it deals with
+> multi-langauges, one caveat is that whenever calling encoding-dependent functions such as
+> [`open()`](https://python.qubitpi.org/library/functions.html#open), always specify encoding scheme with __UTF-8__. For
+> example, invoking `open()` with `open(encoding='utf-8')`:
 >
 > ```python
 > with open("my.yaml", "r", encoding='utf-8') as f:
 >     return yaml.safe_load(f)
 > ```
 >
-> This is because on Windows, some Germany characters (and those non-English characters from other languages as well)
-> like ö won't be properly encoded unless explicitly specifying UTF-8 encoding. Failed to do so might cause unexpected
-> behaviors such as string comparisons
+> This is because on Windows, non-English characters such as _ö_ in German won't be properly encoded unless explicitly
+> specifying UTF-8 encoding. Failed to do so might cause unexpected behaviors such as string comparisons
 
-### Environment Setup
+### Setup
 
 Get the source code:
 
@@ -223,7 +228,7 @@ or, on Windows
 > deactivate
 > ```
 
-### Installing Dependencies
+Install dependencies via
 
 ```console
 pip3 install -r requirements.txt
@@ -302,12 +307,11 @@ The declension (inflection) table above is equivalent to
 </tbody>
 </table>
 
-Data Pipeline
--------------
+### Data Pipeline
 
-### How Data (Vocabulary) is Stored in a Graph Database
+#### How Data (Vocabulary) is Stored in a Graph Database
 
-#### Why Graph Database
+##### Why Graph Database
 
 Graph data representation assumes universal connectivity among world entities. This applies pretty well to the realm of
 languages. Multilanguage learners have already seen that Indo-European languages are similar in many aspects. The
@@ -316,7 +320,7 @@ multilanguage learners to take advantages of them and study much more efficientl
 using Graph Databases that visually presents these vastly enlightening links between the related languages in a natural
 way.
 
-#### Base Schema
+##### Base Schema
 
 ```yaml
 vocabulary:
@@ -366,12 +370,11 @@ the German noun "[Ecke](https://en.wiktionary.org/wiki/Ecke#Noun)" has at least 
 > __Visualzing synonyms this way presents a big advantage to human brain__ who is exceedingly good at memorizing
 > patterns
 
-Languages
----------
+### Languages
 
-### [German](./german.yaml)
+#### [German](./german.yaml)
 
-#### Pronoun
+##### Pronoun
 
 The declension table of a pronoun follows:
 
@@ -384,7 +387,7 @@ declension:
   - [accusative, ████████, ████████, ██████, ██████]
 ```
 
-#### Noun
+##### Noun
 
 `term` with a _definite article_ of `der`/`die`/`das` signifies a __noun__ which has the entry format with the
 declension table of the following template:
@@ -448,7 +451,7 @@ For example:
 >     - [accusative, ████████, ██████]
 > ```
 
-#### Verb
+##### Verb
 
 The conjugation is the inflection paradigm for a German verb. Those with `conjugation` field denotes a __verb__; its
 definition also begins with an _indefinite form_, i.e. "to ..."
@@ -461,8 +464,6 @@ compound tenses. There are two categories of verbs in German:
 [weak and strong](https://en.wikipedia.org/wiki/Germanic_strong_verb)[^1]. In addition,
 [strong verbs are grouped into 7 "classes"](https://en.wikipedia.org/wiki/Germanic_strong_verb#Strong_verb_classes)
 
-
-
 The conjugation table of German verb on Wiktionary is hard to interpret for German beginner.
 [Netzverb Dictionary](https://www.verbformen.com/) is the best German dictionary _targeting the vocabulary inflections_.
 [Search for "aufwachsen"](https://www.verbformen.com/?w=aufwachsen) and we will see much more intuitive conjugation
@@ -473,9 +474,9 @@ with
 
 1. [A printable version that looks much better than the browser's Control+P export](https://www.verbformen.com/conjugation/aufwachsen.pdf)
 
-   - There is also a "Sentences with German verb aufwachsen" section with a
-     [link](https://www.verbformen.com/conjugation/examples/aufwachsen.htm) that offer a fruitful number of conjugated
-     examples getting us familiar with the inflections of the verb
+    - There is also a "Sentences with German verb aufwachsen" section with a
+      [link](https://www.verbformen.com/conjugation/examples/aufwachsen.htm) that offer a fruitful number of conjugated
+      examples getting us familiar with the inflections of the verb
 
 2. [An on-the-fly generated flashcard sheet](https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/aufwachsen.pdf)
    which allows us to make a better usage of our random free time
@@ -512,7 +513,7 @@ For example:
 > Note that the `verbformen` might not exist for some verbs and any of its sub-fields can be non-existing due to the
 > limiting number of verbs on records from [verbformen.com]
 
-### [Ancient Greek](./ancient-greek.yaml)
+#### [Ancient Greek](./ancient-greek.yaml)
 
 Unless otherwise mentioned, we are always talking about _Attic_ Greek.
 
@@ -523,7 +524,7 @@ Unless otherwise mentioned, we are always talking about _Attic_ Greek.
 > - [Greek Core Vocabulary of Dickinson College](https://dcc.dickinson.edu/greek-core-list)
 > - Aristotle - Logic I: Categories, On Interpretation, Prior Analytics
 
-#### Diacritic Mark Convention
+##### Diacritic Mark Convention
 
 We employ the following 3 diacritic signs only in vocabulary:
 
@@ -536,7 +537,7 @@ In fact, it is called the [_medium diacritics_](https://lsj.gr/wiki/ἀγαθό�
 [Wiktionary uses full diacritics](https://en.wiktionary.org/wiki/ἀγαθός#Declension), including the
 [breve diacritic mark](https://en.wikipedia.org/wiki/Breve); we don't do that.
 
-#### Pronoun
+##### Pronoun
 
 The source of pronouns and their declensions are the following
 
@@ -548,7 +549,7 @@ The source of pronouns and their declensions are the following
 - Wiktionary
 - [Greek: An Intensive Course, 2nd Revised Edition](https://pdfcoffee.com/4-hansen-hardy-quinn-gerald-m-greek-an-intensive-course-5-pdf-free.html)
 
-  - Unit 6, Section 49. The Relative Pronoun
+    - Unit 6, Section 49. The Relative Pronoun
 
 > [!TIP]
 >
@@ -566,7 +567,7 @@ declension:
   - [vocative,   N/A,      N/A   ]
 ```
 
-#### Noun
+##### Noun
 
 The vocabulary entry for each noun consists of its nominative and genitive forms, an article which indicates the noun's
 gender all in its `term` attribute. The English meaning(s) come as a list under `definition` attribute. For example.
@@ -587,16 +588,16 @@ The vocabulary entry above consists of the following 5 items:
 3. ἡ: nominative feminine singular of the article, which shows that the gender of the noun is feminine. Gender will be
    indicated by the appropriate form of the definite article "the":
 
-   - `ὁ` for the masculine nouns
-   - `ἡ` for the feminine nouns
-   - `τό` for the neutor nouns
+    - `ὁ` for the masculine nouns
+    - `ἡ` for the feminine nouns
+    - `τό` for the neutor nouns
 
 4. a list of English meanings of the word
 5. the noun employs the first declension. The 3 classes of declensions are
 
-   1. first declension (`1st`)
-   2. second declension (`2nd`)
-   3. third declension (`3rd`)
+    1. first declension (`1st`)
+    2. second declension (`2nd`)
+    3. third declension (`3rd`)
 
 The declension of the entry is not shown because to decline any noun, we can take the genitive singular, remove the
 genitive singular ending to get the stem, and then add the proper set of endings to the stem based on its declension
@@ -613,7 +614,7 @@ _-ης_, and add the appropriate endings to the stem which gives following parad
 | accusative |  τέχνην  | τέχνᾱς  |
 |  vocative  |  τέχνη   | τέχναι  |
 
-#### Adjective
+##### Adjective
 
 [^6] Greek adjectives are formed using the [same 3 declensions that are used by Greek nouns](#noun-1). Furthermore, just as
 each noun belongs to a particular declension, each adjective belongs to a specific declension family or grouping. There
@@ -624,7 +625,7 @@ are 4 main declension families:
 3. [Two-Ending 3rd Declension Adjectives (3-3)](#3-two-ending-3rd-declension-adjectives-3-3)
 4. [Three-Ending 1st and 3rd Declension Adjectives (3-1-3)](#4-three-ending-1st-and-3rd-declension-adjectives-3-1-3)
 
-##### 1. Three-Ending Adjectives: 1st and 2nd Declension (2-1-2)
+###### 1. Three-Ending Adjectives: 1st and 2nd Declension (2-1-2)
 
 The vast majority of adjectives use _masculine_ and _neuter_ 2nd declension endings when modifying nouns of these
 genders, and 1st declension endings when modifying _feminine_ nouns. For example,
@@ -696,7 +697,7 @@ __πολύς, πολλή, πολύ__ (stem: __πολλ-__) _much, many_
 
 Note that except for the singular forms πολύς, πολύν, and πολύ, the adjective declines as a regular 2-1-2 adjective.
 
-##### 2. Two-Ending 2nd Declension Adjectives (2-2)
+###### 2. Two-Ending 2nd Declension Adjectives (2-2)
 
 [^7] A handful of adjectives, usually compounds, use 2nd declension endings for all genders. For these adjectives:
 
@@ -719,7 +720,7 @@ For instance, __ἄδικος -ον__ _unjust_:
 |   **Dative**   |        ἀδίκοις         |  ἀδίκοις   |
 | **Accusative** |        ἀδίκους         |   ἄδικα    |
 
-##### 3. Two-Ending 3rd Declension Adjectives (3-3)
+###### 3. Two-Ending 3rd Declension Adjectives (3-3)
 
 [^7] Another small group of adjectives uses 3rd DECLENSION endings for ALL GENDERS. For these adjectives:
 
@@ -731,7 +732,7 @@ These adjectives tend to fall into one of 2 groups:
 1. Adjectives ending in __-ης -ες__. These adjectives have a stem ending in __-εσ__.
 2. Adjectives ending in __-(ί)ων -(ι)ον__. These adjectives have a stem ending in __-(ι)ον__.
 
-##### 4. Three-Ending 1st and 3rd Declension Adjectives (3-1-3)
+###### 4. Three-Ending 1st and 3rd Declension Adjectives (3-1-3)
 
 The final group of adjectives uses the 3rd declension endings for masculine and neuter, but the 1st declension endings
 for feminine.
@@ -743,7 +744,7 @@ into one of 2 groups:
 1. Adjectives ending in __-ς -σα -ν__. These adjectives have a stem ending in __-ντ__.
 2. Adjectives ending in __-ύς -εῖα -ύ__. These adjectives have a stem ending in __-ε__.
 
-##### Declension Template
+###### Declension Template
 
 Putting it all together, it can be concluded that Ancient Greek adjectives decline in rules with exceptions.
 Antiqua, therefore, still literally list all declined entries of an adjective. The declension template is as
@@ -760,7 +761,7 @@ declension:
   - [vocative,   █████████, ████████, ████████, █████████, ████████, ██████, █████████, ████████, ██████]
 ```
 
-#### Verb Conjugation
+##### Verb Conjugation
 
 The Greek verb has __6__ principal parts. All 6 must be learned whenever a new verb is encountered:
 
@@ -824,7 +825,7 @@ For example:
         - https://koine-greek.fandom.com/wiki/Λέγω
 ```
 
-### [Latin](./latin.yaml)
+#### [Latin](./latin.yaml)
 
 > [!NOTE]
 > The vocabulary and declensions come from the following sources
@@ -838,7 +839,7 @@ vocabulary:
     definition: list
 ```
 
-### Classical Hebrew
+#### Classical Hebrew
 
 > [!NOTE]
 >
@@ -848,7 +849,7 @@ vocabulary:
 The vocabulary is presented to help read and understand [Biblical Hebrew](https://mechon-mamre.org/p/pt/pt00.htm#mp3). A
 [complementary audio](https://mechon-mamre.org/p/pt/ptmp3prq.htm) helps well with the pronunciation.
 
-### Classical Sanskrit
+#### Classical Sanskrit
 
 > [!NOTE]
 >
@@ -871,9 +872,9 @@ the two languages as I've been learning them showed amazing similarities. For ex
 there is no sign/character indicating the vowel __a__[^4][^5]. It is difficult to convince myself that this is a sheer
 coincidence! _Antiqua_, thus on Hebrew and Sanskrit, has another project goal - __revealing the missing
 connection between Indo-European and Afroasiatic families through knowledge graph among the vocabularies of their
-children languages
+children languages__
 
-### [Korean](./korean.yaml)
+#### [Korean](./korean.yaml)
 
 中国人学习韩语有先天优势，加之韩语本身也是一门相当简单的语言，所以这里将语法和词汇合并在一起；
 每一项也只由 `term`（韩）和 `definition`（中）组成，
@@ -900,20 +901,25 @@ License
 
 The use and distribution terms for [Antiqua]() are covered by the [Apache License, Version 2.0].
 
-[Apache License Badge]: https://img.shields.io/badge/Apache%202.0-F25910.svg?style=for-the-badge&logo=Apache&logoColor=white
+[Apache License Badge]: https://img.shields.io/github/license/QubitPi/Antiqua?style=for-the-badge&logo=Apache&logoColor=white&labelColor=FF7777&color=00B8A9
 [Apache License, Version 2.0]: https://www.apache.org/licenses/LICENSE-2.0
 
-[Docker Pulls Badge]: https://img.shields.io/docker/pulls/jack20191124/antiqua?style=for-the-badge&logo=docker&color=2596EC
+[Docker Pulls Badge]: https://img.shields.io/docker/pulls/jack20191124/antiqua?style=for-the-badge&logo=docker&logoColor=white&labelColor=5BBCFF&color=7EA1FF
 [Docker Hub URL]: https://hub.docker.com/r/jack20191124/antiqua
 
-[Hugging Face dataset badge]: https://img.shields.io/badge/Datasets-Antiqua-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=6B7280
+[Hugging Face dataset badge]: https://img.shields.io/badge/HF%20Datasets-Antiqua-54C392?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=15B392
 [Hugging Face dataset URL]: https://huggingface.co/datasets/QubitPi/Antiqua
-
-[Hugging Face sync status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=Hugging%20Face%20Sync%20Up
+[Hugging Face sync status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=HF%20Sync%20Up&labelColor=2088FF&color=00BD56
 [Hugging Face sync status URL]: https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml
 
-[GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=CI/CD
-[GitHub workflow status URL]: https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml
+[GitHub workflow status badge Antiqua]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=Antiqua%20CI/CD&labelColor=2088FF&color=00BD56
+[GitHub workflow status URL Antiqua]: https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml
+[GitHub workflow status badge GDL]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/graph-database-loader-ci-cd.yaml?logo=github&style=for-the-badge&label=Graph%20Database%20Loader%20CI/CD&labelColor=2088FF&color=00BD56
+[GitHub workflow status URL GDL]: https://github.com/QubitPi/Antiqua/actions/workflows/graph-database-loader-ci-cd.yaml
+
+[Python Version Badge]: https://img.shields.io/badge/Python-3.10-957FEF?style=for-the-badge&logo=python&logoColor=white&labelColor=7161ef
+[PyPI project badge]: https://img.shields.io/pypi/v/graph-database-loader?logo=pypi&logoColor=white&style=for-the-badge&labelColor=7B99FA&color=53CDD8
+[PyPI project url]: https://pypi.org/project/graph-database-loader/
 
 [verbformen.com]: https://www.verbformen.com/
 
