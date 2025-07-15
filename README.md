@@ -173,9 +173,9 @@ cd Antiqua
 
 Antiqua has 3 major tech components
 
-1. Antiqua
-2. Graph Database Loader
-3. Antique Acceptance Framework
+1. [Antiqua]()
+2. [Graph Database Loader](./graph-database-loader)
+3. [Antique Acceptance Framework](./acceptance-tests)
 
 It is strongly recommended to work on each component in separate environments. Please refer to
 [![DeepWiki badge]][DeepWiki URL] for more tech details. For the top level project Antique, install virtualenv and
