@@ -16,6 +16,6 @@ import generate_german
 import generate_latin
 
 if __name__ == "__main__":
-    generate_german.generate("../german.yaml", "./german-graph-data.json")
-    generate_latin.generate("../latin.yaml", "./latin-graph-data.json")
-    generate_ancient_greek.generate("../ancient-greek.yaml", "./ancient-greek-graph-data.json")
+    generate_german.generate("../../german.yaml", "../german-graph-data.json")
+    generate_latin.generate("../../latin.yaml", "../latin-graph-data.json")
+    generate_ancient_greek.generate("../../ancient-greek.yaml", "../ancient-greek-graph-data.json")

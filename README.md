@@ -114,7 +114,8 @@ Development
 <!-- TOC -->
 * [Antiqua](#antiqua)
   * [Development](#development)
-    * [Setup](#setup)
+    * [Getting Source Codes](#getting-source-codes)
+    * [Setting Up Environments](#setting-up-environments)
     * [Data Format](#data-format)
     * [Encoding Table in YAML](#encoding-table-in-yaml)
     * [Data Pipeline](#data-pipeline)
@@ -147,22 +148,23 @@ Development
 
 </details>
 
-> [!WARNING]
->
-> The project is pretty much coded up with [Python](https://python.qubitpi.org/) and since it deals with
-> multi-langauges, one caveat is that whenever calling encoding-dependent functions such as
-> [`open()`](https://python.qubitpi.org/library/functions.html#open), always specify encoding scheme with __UTF-8__. For
-> example, invoking `open()` with `open(encoding='utf-8')`:
->
-> ```python
-> with open("my.yaml", "r", encoding='utf-8') as f:
->     return yaml.safe_load(f)
-> ```
->
-> This is because on Windows, non-English characters such as _ö_ in German won't be properly encoded unless explicitly
-> specifying UTF-8 encoding. Failed to do so might cause unexpected behaviors such as string comparisons
+Antiqua has 3 subprojects, each of which is _independently_ managed by their own
+[setuptools](https://setuptools.pypa.io/en/latest/):
 
-### Setup
+1. [Graph JSON Data Generator](./graph-json-generator)
+2. [Graph Database Loader](./graph-database-loader)
+3. [Antique Acceptance Framework](./acceptance-tests)
+
+> [!TIP]
+>
+> The code style of all subprojects, however, is controlled by the Antiqua's central configs:
+>
+> - [isort config](./.isort.cfg) for sorting imports using [isort](https://isort.qubitpi.org/)
+> - [PEP 8 config](./setup.cfg) using [pycodestyle](https://pycodestyle.pycqa.org/en/latest/intro.html)
+>
+> Please refer to [![DeepWiki badge]][DeepWiki URL] for more tech details about tech details these subprojects.
+
+### Getting Source Codes
 
 Get the source code:
 
@@ -171,15 +173,10 @@ git clone git@github.com:QubitPi/Antiqua.git
 cd Antiqua
 ```
 
-Antiqua has 3 major tech components
+### Setting Up Environments
 
-1. [Antiqua]()
-2. [Graph Database Loader](./graph-database-loader)
-3. [Antique Acceptance Framework](./acceptance-tests)
-
-It is strongly recommended to work on each component in separate environments. Please refer to
-[![DeepWiki badge]][DeepWiki URL] for more tech details. For the top level project Antique, install virtualenv and
-create an isolated Python environment by
+It is strongly recommended to work in separate environments. To do so, install `virtualenv` and create an isolated
+Python environment by
 
 ```console
 python3 -m pip install --user -U virtualenv
@@ -212,7 +209,24 @@ Install dependencies via
 pip3 install -r requirements.txt
 ```
 
+which will install dependencies of all subprojects
+
 ### Data Format
+
+> [!WARNING]
+>
+> The project is pretty much coded up with [Python](https://python.qubitpi.org/) and since it deals with
+> multi-langauges, one caveat is that whenever calling encoding-dependent functions such as
+> [`open()`](https://python.qubitpi.org/library/functions.html#open), always specify encoding scheme with __UTF-8__. For
+> example, invoking `open()` with `open(encoding='utf-8')`:
+>
+> ```python
+> with open("my.yaml", "r", encoding='utf-8') as f:
+>     return yaml.safe_load(f)
+> ```
+>
+> This is because on Windows, non-English characters such as _ö_ in German won't be properly encoded unless explicitly
+> specifying UTF-8 encoding. Failed to do so might cause unexpected behaviors such as string comparisons
 
 The raw data is written in YAML format, because
 
@@ -225,9 +239,6 @@ The YAML data files are
 - [german.yaml](./german.yaml)
 - [latin.yaml](./latin.yaml)
 - [ancient-greek.yaml](./ancient-greek.yaml)
-
-These YAML files are then [transformed](huggingface/generate_datasets.py) to Hugging Face Datasets formats in
-[CI/CD](https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml)
 
 ### Encoding Table in YAML
 
