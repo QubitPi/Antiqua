@@ -14,7 +14,7 @@
 import json
 
 from database.neo4j.database_clients import get_node_label_attribute_key
-from vocabulary_parser import LATIN
+from vocabulary_parser import ITALIAN
 from vocabulary_parser import get_attributes
 from vocabulary_parser import get_definitions
 from vocabulary_parser import get_vocabulary
@@ -22,7 +22,7 @@ from vocabulary_parser import get_vocabulary
 
 def generate_dataset(yaml_path: str, dataset_path: str):
     """
-    Generates a Hugging Face Dataset from ../latin
+    Generates a Hugging Face Dataset from ../italian
 
     :param yaml_path:  The absolute or relative path (to the invoking script) to the YAML file above
     :param dataset_path:  The absolute or relative path (to the invoking script) to the generated dataset file
@@ -35,7 +35,7 @@ def generate_dataset(yaml_path: str, dataset_path: str):
     with open(dataset_path, "w") as graph:
         for word in vocabulary:
             term = word["term"]
-            attributes = get_attributes(word, LATIN, label_key)
+            attributes = get_attributes(word, ITALIAN, label_key)
             source_node = attributes
 
             all_nodes[term] = source_node

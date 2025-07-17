@@ -24,7 +24,7 @@ from vocabulary_parser import get_vocabulary
 
 def generate_dataset(yaml_path: str, dataset_path: str):
     """
-    Generates a Hugging Face Dataset from https://github.com/QubitPi/wilhelm-vocabulary/blob/master/german.yaml
+    Generates a Hugging Face Dataset from ../german
 
     :param yaml_path:  The absolute or relative path (to the invoking script) to the YAML file above
     :param dataset_path:  The absolute or relative path (to the invoking script) to the generated dataset file

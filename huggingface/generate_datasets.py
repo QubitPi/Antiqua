@@ -17,5 +17,6 @@ import generate_latin_dataset
 
 if __name__ == "__main__":
     generate_german_dataset.generate_dataset("../german.yaml", "../german-graph-data.jsonl")
+    generate_german_dataset.generate_dataset("../italian/italian.yaml", "../italian-graph-data.jsonl")
     generate_latin_dataset.generate_dataset("../latin.yaml", "../latin-graph-data.jsonl")
     generate_ancient_greek_dataset.generate_dataset("../ancient-greek.yaml", "../ancient-greek-graph-data.jsonl")

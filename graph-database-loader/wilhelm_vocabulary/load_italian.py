@@ -11,26 +11,12 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+from load_german import load_into_database_by_split
 
-from multiprocessing import Process
 
-import load_ancient_greek
-import load_german
-import load_latin
-import load_italian
+def load_into_database():
+    load_into_database_by_split("Italian")
+
 
 if __name__ == "__main__":
-    latin = Process(target=load_latin.load_into_database())
-    german = Process(target=load_german.load_into_database())
-    italian = Process(target=load_italian.load_into_database())
-    ancient_greek = Process(target=load_ancient_greek.load_into_database())
-
-    latin.start()
-    german.start()
-    italian.start()
-    ancient_greek.start()
-
-    latin.join()
-    german.join()
-    italian.join()
-    ancient_greek.join()
+    load_into_database()

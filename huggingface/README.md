@@ -4,6 +4,7 @@ pretty_name: Antiqua
 language:
   - en
   - de
+  - it
   - la
   - grc
 configs:
@@ -11,6 +12,8 @@ configs:
     data_files:
       - split: German
         path: german-graph-data.jsonl
+      - split: Italian
+        path: italian-graph-data.jsonl
       - split: Latin
         path: latin-graph-data.jsonl
       - split: AncientGreek
@@ -20,6 +23,7 @@ tags:
   - NLP
   - Vocabulary
   - German
+  - Italian
   - Latin
   - Ancient Greek
   - Knowledge Graph
