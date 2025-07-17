@@ -162,7 +162,7 @@ Antiqua has 3 subprojects, each of which is _independently_ managed by their own
 > - [isort config](./.isort.cfg) for sorting imports using [isort](https://isort.qubitpi.org/)
 > - [PEP 8 config](./setup.cfg) using [pycodestyle](https://pycodestyle.pycqa.org/en/latest/intro.html)
 >
-> Please refer to [![DeepWiki badge]][DeepWiki URL] for more tech details about tech details these subprojects.
+> Please refer to [![DeepWiki badge]][DeepWiki URL] for more tech details about these subprojects.
 
 ### Getting Source Codes
 
