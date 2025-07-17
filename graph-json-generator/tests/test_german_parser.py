@@ -15,8 +15,7 @@ import unittest
 
 import yaml
 
-from generator.german_parser import get_declension_attributes
-
+from graph_json_generator.german_parser import get_declension_attributes
 
 class TestGermanParser(unittest.TestCase):
 
