@@ -16,19 +16,20 @@ import os
 import unittest
 
 import yaml
-
-from generator.german_parser import get_declension_attributes
-from generator.vocabulary_parser import GERMAN
-from generator.vocabulary_parser import get_attributes
-from generator.vocabulary_parser import get_audio
-from generator.vocabulary_parser import get_definition_tokens
-from generator.vocabulary_parser import get_definitions
-from generator.vocabulary_parser import get_inferred_links
-from generator.vocabulary_parser import get_inferred_tokenization_links
-from generator.vocabulary_parser import get_inflection_tokens
-from generator.vocabulary_parser import get_structurally_similar_links
-from generator.vocabulary_parser import get_term_tokens
-from generator.vocabulary_parser import is_structurally_similar
+from graph_json_generator.german_parser import get_declension_attributes
+from graph_json_generator.vocabulary_parser import GERMAN
+from graph_json_generator.vocabulary_parser import get_attributes
+from graph_json_generator.vocabulary_parser import get_audio
+from graph_json_generator.vocabulary_parser import get_definition_tokens
+from graph_json_generator.vocabulary_parser import get_definitions
+from graph_json_generator.vocabulary_parser import get_inferred_links
+from graph_json_generator.vocabulary_parser import \
+    get_inferred_tokenization_links
+from graph_json_generator.vocabulary_parser import get_inflection_tokens
+from graph_json_generator.vocabulary_parser import \
+    get_structurally_similar_links
+from graph_json_generator.vocabulary_parser import get_term_tokens
+from graph_json_generator.vocabulary_parser import is_structurally_similar
 
 UNKOWN_DECLENSION_NOUN_YAML = """
     term: die Grilltomate
