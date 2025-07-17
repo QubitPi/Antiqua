@@ -107,10 +107,16 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Install dependencies
         run: pip3 install -r requirements.txt
-      - name: Generate Hugging Face Datasets
+      - name: Generate Graph Data
+        working-directory: generator
+        run: python3 ./generate_all_languages.py
+      - name: Prepare Hugging Face Datasets
+        working-directory: huggingface
         run: |
-          cd huggingface
-          python3 ./generate_datasets.py
+          cp ../generator/*.json .
+          for f in *.json; do
+              mv -- "$f" "${f%.txt}.jsonl"
+          done
       - name: Push to hub
         if: github.ref == 'refs/heads/master'
         run: |

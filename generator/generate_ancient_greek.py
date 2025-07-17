@@ -20,7 +20,7 @@ from vocabulary_parser import get_definitions
 from vocabulary_parser import get_vocabulary
 
 
-def generate_dataset(yaml_path: str, dataset_path: str):
+def generate(yaml_path: str, dataset_path: str):
     """
     Generates a Hugging Face Dataset from https://github.com/QubitPi/wilhelm-vocabulary/blob/master/ancient-greek.yaml
 

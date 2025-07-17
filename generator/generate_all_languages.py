@@ -11,11 +11,11 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-import generate_ancient_greek_dataset
-import generate_german_dataset
-import generate_latin_dataset
+import generate_ancient_greek
+import generate_german
+import generate_latin
 
 if __name__ == "__main__":
-    generate_german_dataset.generate_dataset("../german.yaml", "../german-graph-data.jsonl")
-    generate_latin_dataset.generate_dataset("../latin.yaml", "../latin-graph-data.jsonl")
-    generate_ancient_greek_dataset.generate_dataset("../ancient-greek.yaml", "../ancient-greek-graph-data.jsonl")
+    generate_german.generate("../german.yaml", "./german-graph-data.json")
+    generate_latin.generate("../latin.yaml", "./latin-graph-data.json")
+    generate_ancient_greek.generate("../ancient-greek.yaml", "./ancient-greek-graph-data.json")
