@@ -1,6 +1,6 @@
-pyyaml
-nltk
-graph_database_loader
-
 pycodestyle
 isort
+
+-r ./graph-json-generator/requirements.txt
+-r ./graph-database-loader/requirements.txt
+-r ./acceptance-tests/requirements.txt
