@@ -19,9 +19,9 @@ _people___. It achieves this by 2 parts:
 1. __Language ➡ Data__: maintaining vocabulary as data in a unified, human-readable, and machine-readable format
    ([YAML](https://en.wikipedia.org/wiki/YAML)):
 
-    - [german.yaml](./german.yaml)
-    - [latin.yaml](./latin.yaml)
-    - [ancient-greek.yaml](./ancient-greek.yaml)
+   - [german.yaml](./german.yaml)
+   - [latin.yaml](./latin.yaml)
+   - [ancient-greek.yaml](./ancient-greek.yaml)
 
 2. __Data ➡ Value__: exposing the data for language learners in various forms and platforms, including
 
@@ -109,7 +109,7 @@ _people___. It achieves this by 2 parts:
 Development
 -----------
 
-<details><summary>Table of Contents</summary>
+<details><summary><img src="https://github.com/QubitPi/QubitPi/blob/master/img/Emilie-taking-notes.png?raw=true" width="70px"/>Table of Contents</summary>
 
 <!-- TOC -->
 * [Antiqua](#antiqua)
@@ -153,7 +153,7 @@ Antiqua has 3 subprojects, each of which is _independently_ managed by their own
 
 1. [Graph JSON Data Generator](./graph-json-generator)
 2. [Graph Database Loader](./graph-database-loader)
-3. [Antique Acceptance Framework](./acceptance-tests)
+3. [Antiqua Acceptance Framework](./acceptance-tests)
 
 > [!TIP]
 >
