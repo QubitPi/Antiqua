@@ -177,7 +177,7 @@ jobs:
           cd Antiqua
           rm -rf ./*
           mv ../huggingface/README.md .
-          mv ../*-graph-data.jsonl .
+          mv ../graph-json-generator/*-graph-data.jsonl .
 
           git lfs install
           git lfs track "./*-graph-data.jsonl"
