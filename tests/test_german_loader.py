@@ -15,7 +15,7 @@ import unittest
 
 import yaml
 
-from huggingface.german_parser import get_declension_attributes
+from generator.german_parser import get_declension_attributes
 
 
 class TestGermanParser(unittest.TestCase):

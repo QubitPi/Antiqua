@@ -22,7 +22,7 @@ from vocabulary_parser import get_inferred_links
 from vocabulary_parser import get_vocabulary
 
 
-def generate_dataset(yaml_path: str, dataset_path: str):
+def generate(yaml_path: str, dataset_path: str):
     """
     Generates a Hugging Face Dataset from https://github.com/QubitPi/wilhelm-vocabulary/blob/master/german.yaml
 
