@@ -11,11 +11,12 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-from load_german import load_into_database_by_split
+
+from loader import load_into_neo4j
 
 
 def load_into_database():
-    load_into_database_by_split("Latin")
+    load_into_neo4j("German")
 
 
 if __name__ == "__main__":

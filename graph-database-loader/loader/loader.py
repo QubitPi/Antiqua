@@ -25,7 +25,7 @@ def is_definition_node(node):
     return node["language"] is None
 
 
-def load_into_database_by_split(split: str):
+def load_into_neo4j(split: str):
     dataset = load_dataset("QubitPi/Antiqua")
 
     with get_database_client() as database_client:
@@ -47,11 +47,3 @@ def load_into_database_by_split(split: str):
                 target_label=target_node_attributes["label"],
                 attributes=link
             )
-
-
-def load_into_database():
-    load_into_database_by_split("German")
-
-
-if __name__ == "__main__":
-    load_into_database()

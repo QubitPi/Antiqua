@@ -30,29 +30,30 @@ def generate(yaml_path: str, dataset_path: str):
     vocabulary = get_vocabulary(yaml_path)
     label_key = "label"
 
+    triples = []
     all_nodes = {}
+    for word in vocabulary:
+        term = word["term"]
+        attributes = get_attributes(word, GERMAN, label_key, get_declension_attributes)
+        source_node = attributes
+        all_nodes[term] = source_node
+
+        for definition_with_predicate in get_definitions(word):
+            predicate = definition_with_predicate[0]
+            definition = definition_with_predicate[1]
+
+            target_node = {label_key: definition}
+            label = {label_key: predicate if predicate else "definition"}
+
+            triples.append({"source": source_node, "target": target_node, "link": label})
+
+    for link in get_inferred_links(vocabulary, label_key, get_declension_attributes):
+        source_node = all_nodes[link["source_label"]]
+        target_node = all_nodes[link["target_label"]]
+        label = link["attributes"]
+
+        triples.append({"source": source_node, "target": target_node, "link": label})
 
     with open(dataset_path, "w") as graph:
-        for word in vocabulary:
-            term = word["term"]
-            attributes = get_attributes(word, GERMAN, label_key, get_declension_attributes)
-            source_node = attributes
-            all_nodes[term] = source_node
-
-            for definition_with_predicate in get_definitions(word):
-                predicate = definition_with_predicate[0]
-                definition = definition_with_predicate[1]
-
-                target_node = {label_key: definition}
-                label = {label_key: predicate if predicate else "definition"}
-
-                graph.write(json.dumps({"source": source_node, "target": target_node, "link": label}))
-                graph.write("\n")
-
-        for link in get_inferred_links(vocabulary, label_key, get_declension_attributes):
-            source_node = all_nodes[link["source_label"]]
-            target_node = all_nodes[link["target_label"]]
-            label = link["attributes"]
-
-            graph.write(json.dumps({"source": source_node, "target": target_node, "link": label}))
-            graph.write("\n")
+        graph.write(json.dumps(triples))
+        graph.write("\n")

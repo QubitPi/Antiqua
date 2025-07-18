@@ -11,20 +11,13 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-import json
-from parser.vocabulary_parser import ANCIENT_GREEK
-from parser.vocabulary_parser import LATIN
 
-import generate_german
-from generator import generate
+from loader import load_into_neo4j
+
+
+def load_into_database():
+    load_into_neo4j("Latin")
+
 
 if __name__ == "__main__":
-    for yaml_input_file, json_output_file, language in [
-        ("../../latin.yaml", "../latin-graph-data.json", LATIN),
-        ("../../ancient-greek.yaml", "../ancient-greek-graph-data.json", ANCIENT_GREEK)
-    ]:
-        with open(json_output_file, "w") as json_file:
-            json_file.write(json.dumps(generate(yaml_input_file, language)))
-            json_file.write("\n")
-
-    generate_german.generate("../../german.yaml", "../german-graph-data.json")
+    load_into_database()

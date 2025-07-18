@@ -153,6 +153,8 @@ Antiqua has 3 subprojects, each of which is _independently_ managed by their own
 2. [Graph Database Loader](./graph-database-loader)
 3. [Antiqua Acceptance Framework](./acceptance-tests)
 
+![](./docs/logical-design.png)
+
 > [!TIP]
 >
 > The code style of all subprojects, however, is controlled by the Antiqua's central configs:

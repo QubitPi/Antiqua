@@ -186,7 +186,7 @@ def get_inferred_links(
     - :py:meth:`token sharing <huggingface.vocabulary_parser.get_inferred_tokenization_links>`
     - :py:meth:`token sharing <huggingface.vocabulary_parser.get_levenshtein_links>`
 
-    :param vocabulary:  A wilhelm-vocabulary repo YAML file deserialized
+    :param vocabulary:  An Antiqua-compatible YAML file deserialized
     :param label_key:  The name of the node attribute that will be used as the label in displaying the node
     :param inflection_supplier:  A functional object that, given a YAML dictionary, returns the inflection table of that
     word. The key of the table can be arbitrary but the value must be a sole inflected word
@@ -246,7 +246,7 @@ def get_tokens_of(word: dict, inflection_supplier: Callable[[object], dict[str, 
     2. definition
     3. inflection field (conjugation & declension)
 
-    :param word:  A list entry of wilhelm-vocabulary repo YAML file deserialized
+    :param word:  A list entry of Antiqua-compatible YAML file deserialized
     :param inflection_supplier:  A functional object that, given a YAML dictionary, returns the inflection table of that
     word. The key of the table can be arbitrary but the value must be a sole inflected word
 
@@ -288,7 +288,7 @@ def get_inferred_tokenization_links(
     Given the 2 observations above, this function tokenizes the "term" and the declension table of each word. If two
     words share at least 1 token, they are defined to be "related"
 
-    :param vocabulary:  A wilhelm-vocabulary repo YAML file deserialized
+    :param vocabulary:  A Antiqua-compatible YAML file deserialized
     :param label_key:  The name of the node attribute that will be used as the label in displaying the node
     :param inflection_supplier:  A functional object that, given a YAML dictionary, returns the inflection table of that
     word. The key of the table can be arbitrary but the value must be a sole inflected word
@@ -346,7 +346,7 @@ def get_structurally_similar_links(vocabulary: list[dict], label_key: str) -> li
           - term: nachher
             definition: (adv.) afterwards
 
-    :param vocabulary:  A wilhelm-vocabulary repo YAML file deserialized
+    :param vocabulary:  A Antiqua-compatible YAML file deserialized
     :param label_key:  The name of the node attribute that will be used as the label in displaying the node
 
     :return: a list of link object, each of which has a "source_label", a "target_label", and an "attributes" key
