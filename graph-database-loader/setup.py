@@ -12,7 +12,7 @@ setup(
     license="Apache-2.0",
     packages=find_packages(),
     python_requires='>=3.10',
-    install_requires=["neo4j", "python-arango", "pyyaml", "nltk", "datasets"],
+    install_requires=["neo4j", "python-arango", "pyyaml", "datasets"],
     zip_safe=False,
     include_package_data=True,
     setup_requires=["setuptools-pep8", "isort"],

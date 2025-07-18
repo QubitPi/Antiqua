@@ -1,5 +1,6 @@
-Antiqua
-=======
+<p align="center">
+    <img src="./docs/banner.png" alt="elasti icon">
+</p>
 
 [![Hugging Face dataset badge]][Hugging Face dataset URL]
 [![Docker Hub][Docker Pulls Badge]][Docker Hub URL]
@@ -110,7 +111,6 @@ Development
 <details><summary><img src="https://github.com/QubitPi/QubitPi/blob/master/img/Emilie-taking-notes.png?raw=true" width="70px"/>Table of Contents</summary>
 
 <!-- TOC -->
-* [Antiqua](#antiqua)
   * [Development](#development)
     * [Getting Source Codes](#getting-source-codes)
     * [Setting Up Environments](#setting-up-environments)
