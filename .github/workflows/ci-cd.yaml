@@ -104,55 +104,55 @@ jobs:
         language: [
           {
             name: German,
-            load-script: wilhelm_vocabulary/load_german.py
+            load-script: loader/load_german.py
           },
           {
             name: Ancient Greek,
-            load-script: wilhelm_vocabulary/load_ancient_greek.py
+            load-script: loader/load_ancient_greek.py
           },
           {
             name: Latin,
-            load-script: wilhelm_vocabulary/load_latin.py
+            load-script: loader/load_latin.py
           },
           {
             name: all languages (race condition test ①),
-            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+            load-script: loader/load_all_in_parallel.py
           },
           {
             name: all languages (race condition test ②),
-            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+            load-script: loader/load_all_in_parallel.py
           },
           {
             name: all languages (race condition test ③),
-            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+            load-script: loader/load_all_in_parallel.py
           },
           {
             name: all languages (race condition test ④),
-            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+            load-script: loader/load_all_in_parallel.py
           },
           {
             name: all languages (race condition test ⑤),
-            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+            load-script: loader/load_all_in_parallel.py
           },
           {
             name: all languages (race condition test ⑥),
-            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+            load-script: loader/load_all_in_parallel.py
           },
           {
             name: all languages (race condition test ⑦),
-            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+            load-script: loader/load_all_in_parallel.py
           },
           {
             name: all languages (race condition test ⑧),
-            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+            load-script: loader/load_all_in_parallel.py
           },
           {
             name: all languages (race condition test ⑨),
-            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+            load-script: loader/load_all_in_parallel.py
           },
           {
             name: all languages (race condition test ⑩),
-            load-script: wilhelm_vocabulary/load_all_in_parallel.py
+            load-script: loader/load_all_in_parallel.py
           }
         ]
     runs-on: ubuntu-latest
@@ -225,7 +225,7 @@ jobs:
           cd ../graph-database-loader
           pip3 install -r requirements.txt
           pip3 install -e .
-          python3 wilhelm_vocabulary/load_all_in_parallel.py
+          python3 loader/load_all_in_parallel.py
         env:
           NEO4J_URI: ${{ env.NEO4J_URI }}
           NEO4J_DATABASE: ${{ env.NEO4J_DATABASE }}
@@ -258,14 +258,9 @@ jobs:
       - name: Generate Graph Data
         working-directory: graph-json-generator/generator
         run: python3 ./generate_all_languages.py
-      - name: Prepare Hugging Face Datasets
+      - name: Generate Hugging Face Datasets
         working-directory: huggingface
-        run: |
-          cp ../graph-json-generator/*.json .
-          for f in *.json; do
-              mv -- "$f" "${f%.json}.jsonl"
-          done
-          ls
+        run: python3 generate_datasets.py
       - name: Push to hub
         if: github.ref == 'refs/heads/master'
         run: |
@@ -324,7 +319,7 @@ jobs:
           cd graph-database-loader
           pip3 install -r requirements.txt
           pip3 install -e .
-          python3 wilhelm_vocabulary/load_all_in_parallel.py
+          python3 loader/load_all_in_parallel.py
         env:
           NEO4J_URI: ${{ env.NEO4J_URI }}
           NEO4J_DATABASE: ${{ env.NEO4J_DATABASE }}
@@ -490,7 +485,7 @@ jobs:
       - name: Cleanup Neo4J prod DB
         run: |
           pip3 install -e .
-          python3 wilhelm_vocabulary/cleanup_neo4j.py
+          python3 loader/cleanup_neo4j.py
         env:
           NEO4J_URI: ${{ secrets.NEO4J_URI }}
           NEO4J_DATABASE: ${{ secrets.NEO4J_DATABASE }}
@@ -511,15 +506,15 @@ jobs:
         language: [
           {
             name: German,
-            load-script: wilhelm_vocabulary/load_german.py
+            load-script: loader/load_german.py
           },
           {
             name: Ancient Greek,
-            load-script: wilhelm_vocabulary/load_ancient_greek.py
+            load-script: loader/load_ancient_greek.py
           },
           {
             name: Latin,
-            load-script: wilhelm_vocabulary/load_latin.py
+            load-script: loader/load_latin.py
           }
         ]
     steps:

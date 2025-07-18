@@ -11,14 +11,12 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-import json
-from parser.vocabulary_parser import LATIN
 from parser.vocabulary_parser import get_attributes
 from parser.vocabulary_parser import get_definitions
 from parser.vocabulary_parser import get_vocabulary
 
 
-def generate(yaml_path: str, dataset_path: str):
+def generate(yaml_path: str, language: str) -> list:
     """
     Generates a Hugging Face Dataset from Antiqua/latin/
 
@@ -28,22 +26,19 @@ def generate(yaml_path: str, dataset_path: str):
     vocabulary = get_vocabulary(yaml_path)
     label_key = "label"
 
-    all_nodes = {}
+    triples = []
 
-    with open(dataset_path, "w") as graph:
-        for word in vocabulary:
-            term = word["term"]
-            attributes = get_attributes(word, LATIN, label_key)
-            source_node = attributes
+    for word in vocabulary:
+        attributes = get_attributes(word, language, label_key)
+        source_node = attributes
 
-            all_nodes[term] = source_node
+        for definition_with_predicate in get_definitions(word):
+            predicate = definition_with_predicate[0]
+            definition = definition_with_predicate[1]
 
-            for definition_with_predicate in get_definitions(word):
-                predicate = definition_with_predicate[0]
-                definition = definition_with_predicate[1]
+            target_node = {label_key: definition}
+            label = {label_key: predicate if predicate else "definition"}
 
-                target_node = {label_key: definition}
-                label = {label_key: predicate if predicate else "definition"}
+            triples.append({"source": source_node, "target": target_node, "link": label})
 
-                graph.write(json.dumps({"source": source_node, "target": target_node, "link": label}))
-                graph.write("\n")
+    return triples
