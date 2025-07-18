@@ -1,5 +1,2 @@
 datasets
 neo4j
-python-arango
-pyyaml
-nltk

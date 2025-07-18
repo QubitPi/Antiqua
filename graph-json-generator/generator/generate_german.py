@@ -19,8 +19,6 @@ from parser.vocabulary_parser import get_definitions
 from parser.vocabulary_parser import get_inferred_links
 from parser.vocabulary_parser import get_vocabulary
 
-from database.neo4j.database_clients import get_node_label_attribute_key
-
 
 def generate(yaml_path: str, dataset_path: str):
     """
@@ -30,7 +28,7 @@ def generate(yaml_path: str, dataset_path: str):
     :param dataset_path:  The absolute or relative path (to the invoking script) to the generated dataset file
     """
     vocabulary = get_vocabulary(yaml_path)
-    label_key = get_node_label_attribute_key()
+    label_key = "label"
 
     all_nodes = {}
 
