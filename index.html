@@ -63,7 +63,7 @@
 <li><a class="reference internal" href="#">Graph Database Loader</a><ul>
 <li><a class="reference internal" href="#install">Install</a></li>
 <li><a class="reference internal" href="#neo4j-database-client">Neo4J Database Client</a></li>
-<li><a class="reference internal" href="#api-documentation">API Documentation</a></li>
+<li><a class="reference internal" href="#module-database.neo4j.database_clients">API Documentation</a></li>
 <li><a class="reference internal" href="#development">Development</a><ul>
 <li><a class="reference internal" href="#troubleshooting">Troubleshooting</a></li>
 </ul>
@@ -105,7 +105,7 @@
 <ul>
 <li><p><a class="reference internal" href="#install" id="id2">Install</a></p></li>
 <li><p><a class="reference internal" href="#neo4j-database-client" id="id3">Neo4J Database Client</a></p></li>
-<li><p><a class="reference internal" href="#api-documentation" id="id4">API Documentation</a></p></li>
+<li><p><a class="reference internal" href="#module-database.neo4j.database_clients" id="id4">API Documentation</a></p></li>
 <li><p><a class="reference internal" href="#development" id="id5">Development</a></p></li>
 </ul>
 </li>
@@ -164,8 +164,67 @@ bundle of data pipeline that reads Antiqua’s vocabulary from supported data so
 </div>
 <p>Note that this function targets the same database with the same credentials listed above</p>
 </section>
-<section id="api-documentation">
-<h2><a class="toc-backref" href="#id4">API Documentation</a><a class="headerlink" href="#api-documentation" title="Permalink to this heading"></a></h2>
+<section id="module-database.neo4j.database_clients">
+<span id="api-documentation"></span><h2><a class="toc-backref" href="#id4">API Documentation</a><a class="headerlink" href="#module-database.neo4j.database_clients" title="Permalink to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="database.neo4j.database_clients.Neo4jClient">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">database.neo4j.database_clients.</span></span><span class="sig-name descname"><span class="pre">Neo4jClient</span></span><a class="reference internal" href="_modules/database/neo4j/database_clients.html#Neo4jClient"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#database.neo4j.database_clients.Neo4jClient" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.13)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="database.neo4j.database_clients.Neo4jClient.AUTH">
+<span class="sig-name descname"><span class="pre">AUTH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">('not</span> <span class="pre">used',</span> <span class="pre">'not</span> <span class="pre">used')</span></em><a class="headerlink" href="#database.neo4j.database_clients.Neo4jClient.AUTH" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="database.neo4j.database_clients.Neo4jClient.DATABASE">
+<span class="sig-name descname"><span class="pre">DATABASE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'neo4j'</span></em><a class="headerlink" href="#database.neo4j.database_clients.Neo4jClient.DATABASE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="database.neo4j.database_clients.Neo4jClient.NODE_LABEL_PROP_KEY">
+<span class="sig-name descname"><span class="pre">NODE_LABEL_PROP_KEY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'label'</span></em><a class="headerlink" href="#database.neo4j.database_clients.Neo4jClient.NODE_LABEL_PROP_KEY" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="database.neo4j.database_clients.Neo4jClient.URI">
+<span class="sig-name descname"><span class="pre">URI</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'neo4j://localhost:7687'</span></em><a class="headerlink" href="#database.neo4j.database_clients.Neo4jClient.URI" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="database.neo4j.database_clients.Neo4jClient.save_a_link_with_attributes">
+<span class="sig-name descname"><span class="pre">save_a_link_with_attributes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">language</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">source_label</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_label</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">attributes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/database/neo4j/database_clients.html#Neo4jClient.save_a_link_with_attributes"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#database.neo4j.database_clients.Neo4jClient.save_a_link_with_attributes" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="database.neo4j.database_clients.Neo4jClient.save_a_node_with_attributes">
+<span class="sig-name descname"><span class="pre">save_a_node_with_attributes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">attributes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/database/neo4j/database_clients.html#Neo4jClient.save_a_node_with_attributes"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#database.neo4j.database_clients.Neo4jClient.save_a_node_with_attributes" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="database.neo4j.database_clients.get_database_client">
+<span class="sig-prename descclassname"><span class="pre">database.neo4j.database_clients.</span></span><span class="sig-name descname"><span class="pre">get_database_client</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/database/neo4j/database_clients.html#get_database_client"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#database.neo4j.database_clients.get_database_client" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="database.neo4j.database_clients.get_node_label_attribute_key">
+<span class="sig-prename descclassname"><span class="pre">database.neo4j.database_clients.</span></span><span class="sig-name descname"><span class="pre">get_node_label_attribute_key</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="reference internal" href="_modules/database/neo4j/database_clients.html#get_node_label_attribute_key"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#database.neo4j.database_clients.get_node_label_attribute_key" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<span class="target" id="module-database.neo4j.database_manager"></span><dl class="py function">
+<dt class="sig sig-object py" id="database.neo4j.database_manager.cleanup_neo4j">
+<span class="sig-prename descclassname"><span class="pre">database.neo4j.database_manager.</span></span><span class="sig-name descname"><span class="pre">cleanup_neo4j</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/database/neo4j/database_manager.html#cleanup_neo4j"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#database.neo4j.database_manager.cleanup_neo4j" title="Permalink to this definition"></a></dt>
+<dd><p>Delete all nodes and links in a specified Neo4J database.</p>
+<p>The database is identified by the following environment variables:</p>
+<ul class="simple">
+<li><p><cite>NEO4J_URI</cite>: the connection URL of the database, such as “neo4j://localhost”, “neo4j+s://xxx.databases.neo4j.io”</p></li>
+<li><p><cite>NEO4J_DATABASE</cite>: the database name, e.g. “my_database”</p></li>
+<li><p><cite>NEO4J_USERNAME</cite>: the username for connecting the database</p></li>
+<li><p><cite>NEO4J_PASSWORD</cite>: the user’s password for the connection</p></li>
+</ul>
+</dd></dl>
+
 </section>
 <section id="development">
 <h2><a class="toc-backref" href="#id5">Development</a><a class="headerlink" href="#development" title="Permalink to this heading"></a></h2>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>database.neo4j.database_clients &mdash; graph-database-loader 0.1.0 documentation</title>
+      <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/tooltipster.custom.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/tooltipster.bundle.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/micromodal.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/graphviz.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/js/hoverxref.js"></script>
+        <script src="../../../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../../../_static/js/micromodal.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+        <script>
+    window.addEventListener('load', () => {
+        Array.from(document.getElementsByClassName('zoomable-callgraph')).forEach(function(element) {
+            svgPanZoom(element);
+        });
+    })
+    </script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../index.html" class="icon icon-home"> graph-database-loader
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"></div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">graph-database-loader</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+      <li>database.neo4j.database_clients</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for database.neo4j.database_clients</h1><div class="highlight"><pre>
+<span></span><span class="c1"># Copyright 2025 Jiaqi Liu. All rights reserved.</span>
+<span class="c1">#</span>
+<span class="c1"># Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span>
+<span class="c1"># you may not use this file except in compliance with the License.</span>
+<span class="c1"># You may obtain a copy of the License at</span>
+<span class="c1">#</span>
+<span class="c1">#     https://www.apache.org/licenses/LICENSE-2.0</span>
+<span class="c1">#</span>
+<span class="c1"># Unless required by applicable law or agreed to in writing, software</span>
+<span class="c1"># distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span>
+<span class="c1"># WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span>
+<span class="c1"># See the License for the specific language governing permissions and</span>
+<span class="c1"># limitations under the License.</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+
+<span class="kn">from</span><span class="w"> </span><span class="nn">neo4j</span><span class="w"> </span><span class="kn">import</span> <span class="n">GraphDatabase</span>
+
+<span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> - </span><span class="si">%(levelname)s</span><span class="s1"> - </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="Neo4jClient"><a class="viewcode-back" href="../../../index.html#database.neo4j.database_clients.Neo4jClient">[docs]</a><span class="k">class</span><span class="w"> </span><span class="nc">Neo4jClient</span><span class="p">:</span>
+    <span class="n">URI</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;NEO4J_URI&quot;</span><span class="p">]</span>
+    <span class="n">DATABASE</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;NEO4J_DATABASE&quot;</span><span class="p">]</span>
+    <span class="n">AUTH</span> <span class="o">=</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;NEO4J_USERNAME&quot;</span><span class="p">],</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;NEO4J_PASSWORD&quot;</span><span class="p">])</span>
+
+    <span class="n">NODE_LABEL_PROP_KEY</span> <span class="o">=</span> <span class="s2">&quot;label&quot;</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">driver</span> <span class="o">=</span> <span class="n">GraphDatabase</span><span class="o">.</span><span class="n">driver</span><span class="p">(</span><span class="n">Neo4jClient</span><span class="o">.</span><span class="n">URI</span><span class="p">,</span> <span class="n">auth</span><span class="o">=</span><span class="n">Neo4jClient</span><span class="o">.</span><span class="n">AUTH</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">database</span> <span class="o">=</span> <span class="n">Neo4jClient</span><span class="o">.</span><span class="n">DATABASE</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="fm">__enter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="fm">__exit__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">exc_type</span><span class="p">,</span> <span class="n">exc_val</span><span class="p">,</span> <span class="n">exc_tb</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<div class="viewcode-block" id="Neo4jClient.save_a_node_with_attributes"><a class="viewcode-back" href="../../../index.html#database.neo4j.database_clients.Neo4jClient.save_a_node_with_attributes">[docs]</a>    <span class="k">def</span><span class="w"> </span><span class="nf">save_a_node_with_attributes</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node_type</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">attributes</span><span class="p">:</span> <span class="nb">dict</span><span class="p">):</span>
+        <span class="c1"># MERGE does not support parameterized query. So we concat query attributes</span>
+        <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">attributes</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">attributes</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">value</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;&quot;&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&quot;&#39;</span><span class="p">)</span>
+        <span class="n">query_attributes</span> <span class="o">=</span> <span class="s2">&quot;{&quot;</span> <span class="o">+</span> <span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="sa">f</span><span class="s2">&quot;`</span><span class="si">{</span><span class="n">key</span><span class="si">}</span><span class="s2">`: </span><span class="se">\&quot;</span><span class="si">{</span><span class="n">value</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2">&quot;</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">attributes</span><span class="o">.</span><span class="n">items</span><span class="p">()])</span> <span class="o">+</span> <span class="s2">&quot;}&quot;</span>
+        <span class="n">query</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;&quot;&quot;MERGE (node:</span><span class="si">{</span><span class="n">node_type</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">query_attributes</span><span class="si">}</span><span class="s2">) RETURN node&quot;&quot;&quot;</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Creating node: </span><span class="si">{</span><span class="n">query</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">execute_query</span><span class="p">(</span><span class="n">query</span><span class="p">,</span> <span class="n">database_</span><span class="o">=</span><span class="n">Neo4jClient</span><span class="o">.</span><span class="n">DATABASE</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Neo4jClient.save_a_link_with_attributes"><a class="viewcode-back" href="../../../index.html#database.neo4j.database_clients.Neo4jClient.save_a_link_with_attributes">[docs]</a>    <span class="k">def</span><span class="w"> </span><span class="nf">save_a_link_with_attributes</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">language</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">source_label</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">target_label</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">attributes</span><span class="p">:</span> <span class="nb">dict</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">__node_with_prop_exists</span><span class="p">(</span><span class="s2">&quot;Term&quot;</span><span class="p">,</span> <span class="n">Neo4jClient</span><span class="o">.</span><span class="n">NODE_LABEL_PROP_KEY</span><span class="p">,</span> <span class="n">target_label</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">execute_query</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">                MATCH</span>
+<span class="s2">                    (term:Term WHERE term.</span><span class="si">{</span><span class="n">Neo4jClient</span><span class="o">.</span><span class="n">NODE_LABEL_PROP_KEY</span><span class="si">}</span><span class="s2"> = $term AND term.language = $language),</span>
+<span class="s2">                    (related:Term WHERE related.</span><span class="si">{</span><span class="n">Neo4jClient</span><span class="o">.</span><span class="n">NODE_LABEL_PROP_KEY</span><span class="si">}</span><span class="s2"> = $related_term AND</span>
+<span class="s2">                    term.language = $language)</span>
+<span class="s2">                CREATE</span>
+<span class="s2">                    (term)-[:LINK $attributes]-&gt;(related)</span>
+<span class="s2">                &quot;&quot;&quot;</span><span class="p">,</span>
+                <span class="n">language</span><span class="o">=</span><span class="n">language</span><span class="p">,</span>
+                <span class="n">term</span><span class="o">=</span><span class="n">source_label</span><span class="p">,</span>
+                <span class="n">related_term</span><span class="o">=</span><span class="n">target_label</span><span class="p">,</span>
+                <span class="n">attributes</span><span class="o">=</span><span class="n">attributes</span>
+            <span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">execute_query</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">                MATCH</span>
+<span class="s2">                    (term:Term WHERE term.</span><span class="si">{</span><span class="n">Neo4jClient</span><span class="o">.</span><span class="n">NODE_LABEL_PROP_KEY</span><span class="si">}</span><span class="s2"> = $term AND term.language = $language),</span>
+<span class="s2">                    (definition:Definition WHERE definition.</span><span class="si">{</span><span class="n">Neo4jClient</span><span class="o">.</span><span class="n">NODE_LABEL_PROP_KEY</span><span class="si">}</span><span class="s2"> = $definition)</span>
+<span class="s2">                CREATE</span>
+<span class="s2">                    (term)-[:LINK $attributes]-&gt;(definition)</span>
+<span class="s2">                &quot;&quot;&quot;</span><span class="p">,</span>
+                <span class="n">language</span><span class="o">=</span><span class="n">language</span><span class="p">,</span>
+                <span class="n">term</span><span class="o">=</span><span class="n">source_label</span><span class="p">,</span>
+                <span class="n">definition</span><span class="o">=</span><span class="n">target_label</span><span class="p">,</span>
+                <span class="n">attributes</span><span class="o">=</span><span class="n">attributes</span>
+            <span class="p">)</span></div>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">__node_with_prop_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node_type</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">prop_key</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">prop_value</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="n">records</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">execute_query</span><span class="p">(</span>
+            <span class="sa">f</span><span class="s2">&quot;MATCH (node:</span><span class="si">{</span><span class="n">node_type</span><span class="si">}</span><span class="s2">) WHERE node.</span><span class="si">{</span><span class="n">prop_key</span><span class="si">}</span><span class="s2"> = $value RETURN node&quot;</span><span class="p">,</span>
+            <span class="n">value</span><span class="o">=</span><span class="n">prop_value</span><span class="p">,</span>
+            <span class="n">database_</span><span class="o">=</span><span class="n">Neo4jClient</span><span class="o">.</span><span class="n">DATABASE</span><span class="p">,</span>
+        <span class="p">)</span><span class="o">.</span><span class="n">records</span>
+
+        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">records</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span></div>
+
+
+<div class="viewcode-block" id="get_database_client"><a class="viewcode-back" href="../../../index.html#database.neo4j.database_clients.get_database_client">[docs]</a><span class="k">def</span><span class="w"> </span><span class="nf">get_database_client</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">Neo4jClient</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="get_node_label_attribute_key"><a class="viewcode-back" href="../../../index.html#database.neo4j.database_clients.get_node_label_attribute_key">[docs]</a><span class="k">def</span><span class="w"> </span><span class="nf">get_node_label_attribute_key</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">Neo4jClient</span><span class="o">.</span><span class="n">NODE_LABEL_PROP_KEY</span></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Jiaqi Liu.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
