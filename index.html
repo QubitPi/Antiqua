@@ -64,10 +64,7 @@
 <li><a class="reference internal" href="#install">Install</a></li>
 <li><a class="reference internal" href="#neo4j-database-client">Neo4J Database Client</a></li>
 <li><a class="reference internal" href="#module-database.neo4j.database_clients">API Documentation</a></li>
-<li><a class="reference internal" href="#development">Development</a><ul>
-<li><a class="reference internal" href="#troubleshooting">Troubleshooting</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#development">Development</a></li>
 </ul>
 </li>
 </ul>
@@ -241,19 +238,6 @@ the dependencies for development:</p>
 <span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">graph</span><span class="o">-</span><span class="n">database</span><span class="o">-</span><span class="n">loader</span><span class="o">.</span><span class="n">egg</span><span class="o">-</span><span class="n">info</span><span class="o">/</span><span class="n">requires</span><span class="o">.</span><span class="n">txt</span>
 </pre></div>
 </div>
-<section id="troubleshooting">
-<h3>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this heading"></a></h3>
-<p>If CI/CD reports an error of:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Imports</span> <span class="n">are</span> <span class="n">incorrectly</span> <span class="nb">sorted</span> <span class="ow">and</span><span class="o">/</span><span class="ow">or</span> <span class="n">formatted</span><span class="o">.</span>
-</pre></div>
-</div>
-<p>It’s because the project is using <a class="reference external" href="https://pycqa.github.io/isort/">isort</a> to enforce the import order and in this case
-isort detects an incorrectly ordered import in source file. Simply run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">isort</span> <span class="o">.</span>
-</pre></div>
-</div>
-<p>at the root directory of Antiqua project.</p>
-</section>
 </section>
 </section>
 
