@@ -16,7 +16,7 @@ from loader import load_into_neo4j
 
 
 def load_into_database():
-    load_into_neo4j("Latin")
+    load_into_neo4j("../../graph-json-generator/latin-graph-data.json", "Latin")
 
 
 if __name__ == "__main__":

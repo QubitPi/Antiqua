@@ -11,39 +11,33 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-from database.neo4j.database_clients import get_database_client
-from datasets import load_dataset
+import json
 
-splitToLanguage = {
-    "German": "German",
-    "Latin": "Latin",
-    "AncientGreek": "Ancient Greek"
-}
+from database.neo4j.database_clients import get_database_client
 
 
 def is_definition_node(node):
-    return node["language"] is None
+    return "language" not in node
 
 
-def load_into_neo4j(split: str):
-    dataset = load_dataset("QubitPi/Antiqua")
-
+def load_into_neo4j(graph_json_path: str, language: str):
     with get_database_client() as database_client:
-        graph = dataset[split].iter(batch_size=1)
-        for triple in graph:
-            source_node_attributes = {k: v for k, v in triple["source"][0].items() if v}
-            database_client.save_a_node_with_attributes("Term", source_node_attributes)
+        with open(graph_json_path, "r") as graph_json:
+            graph = json.load(graph_json)
+            for triple in graph:
+                source_node_attributes = {k: v for k, v in triple["source"].items() if v}
+                database_client.save_a_node_with_attributes("Term", source_node_attributes)
 
-            target_node_attributes = {k: v for k, v in triple["target"][0].items() if v}
-            database_client.save_a_node_with_attributes(
-                "Definition" if is_definition_node(triple["target"][0]) else "Term",
-                target_node_attributes
-            )
+                target_node_attributes = {k: v for k, v in triple["target"].items() if v}
+                database_client.save_a_node_with_attributes(
+                    "Definition" if is_definition_node(triple["target"]) else "Term",
+                    target_node_attributes
+                )
 
-            link = triple["link"][0]
-            database_client.save_a_link_with_attributes(
-                language=splitToLanguage[split],
-                source_label=source_node_attributes["label"],
-                target_label=target_node_attributes["label"],
-                attributes=link
-            )
+                link = triple["link"]
+                database_client.save_a_link_with_attributes(
+                    language=language,
+                    source_label=source_node_attributes["label"],
+                    target_label=target_node_attributes["label"],
+                    attributes=link
+                )
