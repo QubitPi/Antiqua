@@ -1,9 +1,7 @@
 Graph Database Loader
 =====================
 
-![Python Version][Python Version Badge]
 [![PyPI][PyPI project badge]][PyPI project url]
-[![GitHub Workflow Status][GitHub Workflow Status badge]][GitHub Workflow Status URL]
 
 Being a standalone subproject of Antiqua, __[Graph Data Loader](https://pypi.org/project/graph-database-loader/)__ is a
 bundle of data pipeline that reads Antiqua's vocabulary from supported data sources and loads them into graph databases
@@ -174,9 +172,5 @@ or, on Windows
 pip3 install -r requirements.txt
 ```
 
-[GitHub Workflow Status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/graph-database-loader-ci-cd.yaml?logo=github&style=for-the-badge&label=CI/CD&labelColor=2088FF&color=00BD56
-[GitHub Workflow Status URL]: https://github.com/QubitPi/Antiqua/actions/workflows/graph-database-loader-ci-cd.yaml
-
-[Python Version Badge]: https://img.shields.io/badge/Python-3.10-957FEF?style=for-the-badge&logo=python&logoColor=white&labelColor=7161ef
 [PyPI project badge]: https://img.shields.io/pypi/v/graph-database-loader?logo=pypi&logoColor=white&style=for-the-badge&labelColor=7B99FA&color=53CDD8
 [PyPI project url]: https://pypi.org/project/graph-database-loader/

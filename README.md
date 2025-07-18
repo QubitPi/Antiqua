@@ -3,12 +3,10 @@ Antiqua
 
 [![Hugging Face dataset badge]][Hugging Face dataset URL]
 [![Docker Hub][Docker Pulls Badge]][Docker Hub URL]
-[![PyPI][PyPI project badge]][PyPI project url]
-
-[![GitHub workflow status badge Antiqua][GitHub workflow status badge Antiqua]][GitHub workflow status URL Antiqua]
-[![GitHub workflow status badge GDL][GitHub workflow status badge GDL]][GitHub workflow status URL GDL]
+[![PyPI][PyPI graph-json-generator badge]][PyPI graph-json-generator url]
+[![PyPI][PyPI graph-database-loader badge]][PyPI graph-database-loader url]
+[![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Hugging Face sync status badge]][Hugging Face sync status URL]
-
 ![Python Version][Python Version Badge]
 [![Apache License Badge]][Apache License, Version 2.0]
 
@@ -903,14 +901,14 @@ The use and distribution terms for [Antiqua]() are covered by the [Apache Licens
 [Hugging Face sync status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=HF%20Sync%20Up&labelColor=2088FF&color=00BD56
 [Hugging Face sync status URL]: https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml
 
-[GitHub workflow status badge Antiqua]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=Antiqua%20CI/CD&labelColor=2088FF&color=00BD56
-[GitHub workflow status URL Antiqua]: https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml
-[GitHub workflow status badge GDL]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/graph-database-loader-ci-cd.yaml?logo=github&style=for-the-badge&label=Graph%20Database%20Loader%20CI/CD&labelColor=2088FF&color=00BD56
-[GitHub workflow status URL GDL]: https://github.com/QubitPi/Antiqua/actions/workflows/graph-database-loader-ci-cd.yaml
+[GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=CI/CD&labelColor=2088FF&color=00BD56
+[GitHub workflow status URL]: https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml
 
 [Python Version Badge]: https://img.shields.io/badge/Python-3.10-957FEF?style=for-the-badge&logo=python&logoColor=white&labelColor=7161ef
-[PyPI project badge]: https://img.shields.io/pypi/v/graph-database-loader?logo=pypi&logoColor=white&style=for-the-badge&labelColor=7B99FA&color=53CDD8
-[PyPI project url]: https://pypi.org/project/graph-database-loader/
+[PyPI graph-json-generator badge]: https://img.shields.io/pypi/v/graph-json-generator?logo=pypi&logoColor=white&style=for-the-badge&labelColor=7B99FA&color=53CDD8&label=PYPI%20graph-json-generator
+[PyPI graph-json-generator url]: https://pypi.org/project/graph-json-generator/
+[PyPI graph-database-loader badge]: https://img.shields.io/pypi/v/graph-database-loader?logo=pypi&logoColor=white&style=for-the-badge&labelColor=7B99FA&color=53CDD8&label=PYPI%20graph-database-loader
+[PyPI graph-database-loader url]: https://pypi.org/project/graph-database-loader/
 
 [verbformen.com]: https://www.verbformen.com/
 
