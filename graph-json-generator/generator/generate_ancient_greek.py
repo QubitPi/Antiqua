@@ -12,19 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 import json
+from parser.vocabulary_parser import ANCIENT_GREEK
+from parser.vocabulary_parser import get_attributes
+from parser.vocabulary_parser import get_definitions
+from parser.vocabulary_parser import get_vocabulary
 
 from database.neo4j.database_clients import get_node_label_attribute_key
-from german_parser import get_declension_attributes
-from vocabulary_parser import GERMAN
-from vocabulary_parser import get_attributes
-from vocabulary_parser import get_definitions
-from vocabulary_parser import get_inferred_links
-from vocabulary_parser import get_vocabulary
 
 
 def generate(yaml_path: str, dataset_path: str):
     """
-    Generates a Hugging Face Dataset from https://github.com/QubitPi/wilhelm-vocabulary/blob/master/german.yaml
+    Generates a Hugging Face Dataset from Antiqua/ancient-greek/
 
     :param yaml_path:  The absolute or relative path (to the invoking script) to the YAML file above
     :param dataset_path:  The absolute or relative path (to the invoking script) to the generated dataset file
@@ -37,8 +35,9 @@ def generate(yaml_path: str, dataset_path: str):
     with open(dataset_path, "w") as graph:
         for word in vocabulary:
             term = word["term"]
-            attributes = get_attributes(word, GERMAN, label_key, get_declension_attributes)
+            attributes = get_attributes(word, ANCIENT_GREEK, label_key)
             source_node = attributes
+
             all_nodes[term] = source_node
 
             for definition_with_predicate in get_definitions(word):
@@ -50,11 +49,3 @@ def generate(yaml_path: str, dataset_path: str):
 
                 graph.write(json.dumps({"source": source_node, "target": target_node, "link": label}))
                 graph.write("\n")
-
-        for link in get_inferred_links(vocabulary, label_key, get_declension_attributes):
-            source_node = all_nodes[link["source_label"]]
-            target_node = all_nodes[link["target_label"]]
-            label = link["attributes"]
-
-            graph.write(json.dumps({"source": source_node, "target": target_node, "link": label}))
-            graph.write("\n")

@@ -252,8 +252,11 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Install dependencies
         run: pip3 install -r requirements.txt
+      - name: Install graph-json-generator in editable mode, making the package available on Python path, allowing imports from sibling package
+        working-directory: graph-json-generator
+        run: pip3 install -e .
       - name: Generate Graph Data
-        working-directory: graph-json-generator/graph_json_generator
+        working-directory: graph-json-generator/generator
         run: python3 ./generate_all_languages.py
       - name: Prepare Hugging Face Datasets
         working-directory: huggingface

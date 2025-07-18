@@ -2,10 +2,10 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(
-    name="graph_json_generator",
+    name="graph-json-generator",
     version="0.0.1",
     description="Transforming any data sources into graphs in JSON format",
-    url="https://github.com/QubitPi/Antiqua/tree/master/graph_json_generator",
+    url="https://github.com/QubitPi/Antiqua/tree/master/graph-json-generator",
     author="Jiaqi Liu",
     author_email="jack20220723@gmail.com",
     license="Apache-2.0",

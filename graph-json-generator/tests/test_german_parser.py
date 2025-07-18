@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 import unittest
+from parser.german_parser import get_declension_attributes
 
 import yaml
-from graph_json_generator.german_parser import get_declension_attributes
 
 
 class TestGermanParser(unittest.TestCase):

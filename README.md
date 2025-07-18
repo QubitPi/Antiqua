@@ -27,8 +27,8 @@ _people___. It achieves this by 2 parts:
 
      - Special case: The Ancient Greek Anki cards are handled by [lexitheras](https://github.com/QubitPi/lexitheras)
 
-   - 🤗 [_Hugging Face Datasets_][Hugging Face dataset URL], which can be used widely in __language model trainings__. The
-     data can be accessed with
+   - 🤗 [_Hugging Face Datasets_][Hugging Face dataset URL], which encodes vocabularies in the form of __knowledge graph
+     data__ useful for visualizations and __language model trainings__. The data can be accessed with
 
      ```python
      from datasets import load_dataset
@@ -158,6 +158,21 @@ Antiqua has 3 subprojects, each of which is _independently_ managed by their own
 > The code style of all subprojects, however, is controlled by the Antiqua's central configs:
 >
 > - [isort config](./.isort.cfg) for sorting imports using [isort](https://isort.qubitpi.org/)
+>
+>   If CI/CD reports an error of
+>
+>   ```console
+>   Imports are incorrectly sorted and/or formatted.
+>   ```
+>   It's because the project is using [isort](https://isort.qubitpi.org/) to enforce the import order and in this case
+>   isort detects an incorrectly ordered import in source file. Simply run
+>
+>   ```console
+>   isort .
+>   ```
+>
+>   at the root directory of Antiqua project.
+>
 > - [PEP 8 config](./setup.cfg) using [pycodestyle](https://pycodestyle.pycqa.org/en/latest/intro.html)
 >
 > Please refer to [![DeepWiki badge]][DeepWiki URL] for more tech details about these subprojects.
