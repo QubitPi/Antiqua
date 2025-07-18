@@ -12,17 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 import json
+from parser.vocabulary_parser import LATIN
+from parser.vocabulary_parser import get_attributes
+from parser.vocabulary_parser import get_definitions
+from parser.vocabulary_parser import get_vocabulary
 
 from database.neo4j.database_clients import get_node_label_attribute_key
-from vocabulary_parser import LATIN
-from vocabulary_parser import get_attributes
-from vocabulary_parser import get_definitions
-from vocabulary_parser import get_vocabulary
 
 
 def generate(yaml_path: str, dataset_path: str):
     """
-    Generates a Hugging Face Dataset from https://github.com/QubitPi/wilhelm-vocabulary/blob/master/latin.yaml
+    Generates a Hugging Face Dataset from Antiqua/latin/
 
     :param yaml_path:  The absolute or relative path (to the invoking script) to the YAML file above
     :param dataset_path:  The absolute or relative path (to the invoking script) to the generated dataset file

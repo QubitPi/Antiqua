@@ -11,9 +11,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-from datasets import load_dataset
-
 from database.neo4j.database_clients import get_database_client
+from datasets import load_dataset
 
 splitToLanguage = {
     "German": "German",
@@ -27,7 +26,7 @@ def is_definition_node(node):
 
 
 def load_into_database_by_split(split: str):
-    dataset = load_dataset("QubitPi/wilhelm-vocabulary")
+    dataset = load_dataset("QubitPi/Antiqua")
 
     with get_database_client() as database_client:
         graph = dataset[split].iter(batch_size=1)

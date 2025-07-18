@@ -89,17 +89,3 @@ the dependencies for development::
 
     python setup.py egg_info
     pip install -r graph-database-loader.egg-info/requires.txt
-
-Troubleshooting
----------------
-
-If CI/CD reports an error of::
-
-    Imports are incorrectly sorted and/or formatted.
-
-It's because the project is using `isort <https://pycqa.github.io/isort/>`_ to enforce the import order and in this case
-isort detects an incorrectly ordered import in source file. Simply run::
-
-   isort .
-
-at the root directory of Antiqua project.
