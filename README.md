@@ -101,7 +101,7 @@ _people___. It achieves this by 2 parts:
 
        ```cypher
        MATCH (node{label:"δέ"})
-       CALL apoc.path.expand(node, "LINK", null, 1, 4)
+       CALL apoc.path.expand(node, "LINK", null, 1, 3)
        YIELD path
        RETURN path, length(path) AS hops
        ORDER BY hops;
