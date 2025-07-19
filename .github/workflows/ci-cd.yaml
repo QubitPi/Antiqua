@@ -299,7 +299,7 @@ jobs:
           git add .
           git add ./*-graph-data.jsonl
 
-          git commit -m "Update Hugging Face Datasets"
+          git commit --allow-empty -m "Update Hugging Face Datasets"
           git push -f
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
