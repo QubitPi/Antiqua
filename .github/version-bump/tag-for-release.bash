@@ -26,7 +26,7 @@ echo "INFO Last tag: $LAST_TAG"
 # Build the new tag to push
 NEW_TAG=$(LAST_TAG=${LAST_TAG} python .github/version-bump/upversion.py)
 echo "INFO Creating tag: $NEW_TAG"
-git tag $NEW_TAG -a -m "${git log -1 --pretty=%B}"
+git tag $NEW_TAG -a -m "$(git log -1 --pretty=%B)"
 
 # Push the new tag
 echo "INFO Pushing tag: $NEW_TAG"
