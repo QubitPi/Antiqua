@@ -145,7 +145,6 @@ Development
       * [Classical Hebrew](#classical-hebrew)
       * [Classical Sanskrit](#classical-sanskrit)
     * [Connection between Hebrew and Sanskrit](#connection-between-hebrew-and-sanskrit)
-      * [Korean](#korean)
   * [License](#license)
 <!-- TOC -->
 
