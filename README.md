@@ -4,6 +4,7 @@
 
 [![Hugging Face dataset badge]][Hugging Face dataset URL]
 [![Docker Hub][Docker Pulls Badge]][Docker Hub URL]
+[![GitHub release badge][GitHub release badge]][GitHub release page]
 [![PyPI][PyPI graph-json-generator badge]][PyPI graph-json-generator url]
 [![PyPI][PyPI graph-database-loader badge]][PyPI graph-database-loader url]
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
@@ -15,12 +16,15 @@ Believing in language is the greatest invention in human history, __Antiqua__ is
 vocabulary datafication with the goal of __unleashing the power of languages beyond their semantic values for
 _people___. It achieves this by 2 parts:
 
-1. __Language ➡ Data__: maintaining vocabulary as data in a unified, human-readable, and machine-readable format
-   ([YAML](https://en.wikipedia.org/wiki/YAML)):
+1. __Language ➡ Data__: maintaining vocabulary from various sources as data
 
-   - [german.yaml](./german.yaml)
-   - [latin.yaml](./latin.yaml)
-   - [ancient-greek.yaml](./ancient-greek.yaml)
+   - in a unified, human-readable, and machine-readable format:
+
+     - [german.yaml](./german.yaml)
+     - [latin.yaml](./latin.yaml)
+     - [ancient-greek.yaml](./ancient-greek.yaml)
+
+   - in knowledge graph representation that is [free to download][GitHub release page]
 
 2. __Data ➡ Value__: exposing the data for language learners in various forms and platforms, including
 
@@ -920,6 +924,8 @@ The use and distribution terms for [Antiqua]() are covered by the [Apache Licens
 
 [GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=CI/CD&labelColor=2088FF&color=00BD56
 [GitHub workflow status URL]: https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml
+[GitHub release badge]: https://img.shields.io/github/v/release/QubitPi/Antiqua?style=for-the-badge&logo=github&labelColor=0779E4&color=4CBBB9
+[GitHub release page]: https://github.com/QubitPi/Antiqua/releases
 
 [Python Version Badge]: https://img.shields.io/badge/Python-3.10-957FEF?style=for-the-badge&logo=python&logoColor=white&labelColor=7161ef
 [PyPI graph-json-generator badge]: https://img.shields.io/pypi/v/graph-json-generator?logo=pypi&logoColor=white&style=for-the-badge&labelColor=7B99FA&color=53CDD8&label=PYPI%20graph-json-generator

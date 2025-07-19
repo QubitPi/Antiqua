@@ -55,5 +55,4 @@ def generate(yaml_path: str, dataset_path: str):
         triples.append({"source": source_node, "target": target_node, "link": label})
 
     with open(dataset_path, "w") as graph:
-        graph.write(json.dumps(triples))
-        graph.write("\n")
+        json.dump(triples, graph, ensure_ascii=False, indent=4)
