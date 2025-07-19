@@ -299,12 +299,8 @@ jobs:
           git add .
           git add ./*-graph-data.jsonl
 
-          if ! git diff --quiet --exit-code && ! git diff --cached --quiet --exit-code; then
-            git commit -m "Update Hugging Face Datasets"
-            git push -f
-          else
-            echo "Datasets up to date. Nothing is going to be pushed"
-          fi
+          git commit -m "Update Hugging Face Datasets"
+          git push -f
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
 
@@ -442,7 +438,7 @@ jobs:
   push-release-tag:
     name: Bump Version
     if: github.ref == 'refs/heads/master'
-    needs: package
+    needs: acceptance-tests
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -457,10 +453,44 @@ jobs:
           git config --global user.email jack20220723@gmail.com
           .github/version-bump/tag-for-release.bash
 
+  release-data:
+    name: Release Graph JSON Data Onto GitHub
+    if: github.ref == 'refs/heads/master'
+    needs: push-release-tag
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Generate Graph Data
+        run: |
+          cd graph-json-generator
+          pip3 install -r requirements.txt
+          pip3 install -e .
+          cd generator
+          python3 ./generate_all_languages.py
+      - name: Compute tag name
+        id: compute-tag
+        run: |
+          echo Fetching latest tag
+          LATEST_TAG=$(git describe --tags | cut -d- -f1)
+          echo The latest tag is "$LATEST_TAG"
+          echo tagname="$LATEST_TAG" >> "$GITHUB_OUTPUT"
+      - uses: ncipollo/release-action@bcfe5470707e8832e12347755757cec0eb3c22af # v1.18.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ steps.compute-tag.outputs.tagname }}
+          commit: master
+          artifacts: './graph-json-generator/latin-graph-data.json,./graph-json-generator/ancient-greek-graph-data.json,./graph-json-generator/german-graph-data.json'
+
   release:
     name: Publish ${{ matrix.subproject }} To PyPI
     if: github.ref == 'refs/heads/master'
-    needs: push-release-tag
+    needs: [push-release-tag, package]
     runs-on: ubuntu-latest
     permissions:
       contents: read
