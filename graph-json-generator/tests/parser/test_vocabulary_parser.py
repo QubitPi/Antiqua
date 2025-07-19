@@ -322,7 +322,8 @@ class TestVocabularyParser(unittest.TestCase):
         ]
 
         for test_case in test_cases:
-            with open("{path}/../../../german.yaml".format(path=DIR_PATH), "r", encoding='utf-8') as f:
+            with open("{path}/../../../graph-data-source/german/german.yaml".format(path=DIR_PATH), "r",
+                      encoding='utf-8') as f:
                 vocabulary = [word for word in yaml.safe_load(f)["vocabulary"] if word["term"] in test_case["words"]]
 
             self.assertEqual(
