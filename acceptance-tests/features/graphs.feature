@@ -20,3 +20,7 @@ Feature: Neo4J in Docker shows expected graphs
     Examples: Ancient Greek
       | term | hops | nodes                                                                                               |
       | δέ   | 3    | {"aber lieber", "aber", "but", "sed", "ἀλλά", "δέ", "and", "τε", "et", "καί", "also", "even", "δ᾽"} |
+
+    Examples: German
+      | term   | hops | nodes                                                                      |
+      | reisen | 3    | {"reisen", "der Reis", "die Reise", "the rice", "to travel", "the travel"} |
