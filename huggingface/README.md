@@ -4,6 +4,7 @@ pretty_name: Antiqua
 language:
   - en
   - de
+  - it
   - la
   - grc
 configs:
@@ -13,6 +14,8 @@ configs:
         path: german-graph-data.jsonl
       - split: Latin
         path: latin-graph-data.jsonl
+      - split: Italian
+        path: italian-graph-data.jsonl
       - split: AncientGreek
         path: ancient-greek-graph-data.jsonl
 tags:
@@ -20,6 +23,7 @@ tags:
   - NLP
   - Vocabulary
   - German
+  - Italian
   - Latin
   - Ancient Greek
   - Knowledge Graph
@@ -39,7 +43,7 @@ dataset = load_dataset("QubitPi/Antiqua")
 > If `dataset = load_dataset("QubitPi/Antiqua")` throws an error, please upgrade the `datasets` package to its
 > _latest version_
 
-There are 3 splits we can choose from:
+There are 4 splits we can choose from:
 
 1. German
 
@@ -47,13 +51,19 @@ There are 3 splits we can choose from:
    split = dataset["German"]
    ```
 
-2. Latin
+2. German
+
+   ```python
+   split = dataset["Italian"]
+   ```
+
+3. Latin
 
    ```python
    split = dataset["Latin"]
    ```
 
-3. Ancient Greek
+4. Ancient Greek
 
    ```python
    split = dataset["AncientGreek"]

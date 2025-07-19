@@ -29,7 +29,7 @@ _people___. It achieves this by 2 parts:
 
 2. __Data ➡ Value__: exposing the data for language learners in various forms and platforms, including
 
-   - _Anki Flashcards_, useful for __language learners__ using popular platform [Anki](https://apps.ankiweb.net/)
+   - _[Anki Flashcards][GitHub release page]_, useful for __language learners__ using popular platform [Anki](https://apps.ankiweb.net/)
 
      - Special case: The Ancient Greek Anki cards are handled by [lexitheras](https://github.com/QubitPi/lexitheras)
 

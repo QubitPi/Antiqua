@@ -13,6 +13,7 @@
 # limitations under the License.
 import json
 from parser.vocabulary_parser import ANCIENT_GREEK
+from parser.vocabulary_parser import ITALIAN
 from parser.vocabulary_parser import LATIN
 
 import generate_german
@@ -21,7 +22,8 @@ from generator import generate
 if __name__ == "__main__":
     for yaml_input_file, json_output_file, language in [
         ("../../graph-data-source/latin/latin.yaml", "../latin-graph-data.json", LATIN),
-        ("../../graph-data-source/ancient-greek/ancient-greek.yaml", "../ancient-greek-graph-data.json", ANCIENT_GREEK)
+        ("../../graph-data-source/italian/italian.yaml", "../italian-graph-data.json", ITALIAN),
+        ("../../graph-data-source/ancient-greek/ancient-greek.yaml", "../ancient-greek-graph-data.json", ANCIENT_GREEK),
     ]:
         with open(json_output_file, "w", encoding="utf-8") as json_file:
             json.dump(generate(yaml_input_file, language), json_file, ensure_ascii=False, indent=4)

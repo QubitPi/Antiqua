@@ -29,6 +29,14 @@ The language identifier for German language.
 GERMAN = "German"
 
 """
+The language identifier for German language.
+.. py:data:: ITALIAN
+   :value: Italian
+   :type: string
+"""
+ITALIAN = "Italian"
+
+"""
 The language identifier for Latin language.
 
 .. py:data:: LATIN
