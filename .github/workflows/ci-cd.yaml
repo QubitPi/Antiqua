@@ -473,6 +473,10 @@ jobs:
           pip3 install -e .
           cd generator
           python3 ./generate_all_languages.py
+      - name: Generate Anki decks
+        run: |
+          pip3 install lexitheras
+          printf "1\n" | lexitheras Iliad
       - name: Compute tag name
         id: compute-tag
         run: |
@@ -485,7 +489,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.compute-tag.outputs.tagname }}
           commit: master
-          artifacts: './graph-json-generator/latin-graph-data.json,./graph-json-generator/ancient-greek-graph-data.json,./graph-json-generator/german-graph-data.json'
+          artifacts: 'Homer_Iliad.apkg,./graph-json-generator/latin-graph-data.json,./graph-json-generator/ancient-greek-graph-data.json,./graph-json-generator/german-graph-data.json'
 
   release:
     name: Publish ${{ matrix.subproject }} To PyPI

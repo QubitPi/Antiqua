@@ -5,6 +5,7 @@
 [![Hugging Face dataset badge]][Hugging Face dataset URL]
 [![Docker Hub][Docker Pulls Badge]][Docker Hub URL]
 [![GitHub release badge][GitHub release badge]][GitHub release page]
+[![PyPI][PyPI graph-data-source badge]][PyPI graph-data-source url]
 [![PyPI][PyPI graph-json-generator badge]][PyPI graph-json-generator url]
 [![PyPI][PyPI graph-database-loader badge]][PyPI graph-database-loader url]
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
@@ -884,28 +885,6 @@ coincidence! _Antiqua_, thus on Hebrew and Sanskrit, has another project goal - 
 connection between Indo-European and Afroasiatic families through knowledge graph among the vocabularies of their
 children languages__
 
-#### [Korean](./korean.yaml)
-
-中国人学习韩语有先天优势，加之韩语本身也是一门相当简单的语言，所以这里将语法和词汇合并在一起；
-每一项也只由 `term`（韩）和 `definition`（中）组成，
-
-```yaml
-vocabulary:
-  - term: string
-    definition: list of strings
-    example:
-      - Korean: 제가 아무렴 그쪽 편에 서겠어요
-        Chinese: 我无论如何都会站在你这边
-      - Korean: ...
-        Chinese: ...
-```
-
-不用费太多功夫记牢简单的语法和词汇，剩下的就是拿韩语字幕剧不停练习听说读写既成。`example` 中的例句均来自[韩国本土语料](https://www.amazon.com/Korean-book-%EB%82%98%EC%9D%98-%EC%95%84%EC%A0%80%EC%94%A8-%EC%A0%842%EA%B6%8C/dp/8933871756)
-
-> [!NOTE]
->
-> 韩语不属于汉藏语系，因其所属语系非常狭小，无法和其它语言产生足够关联，因此其数据暂时不被存入图数据库进行数据分析
-
 License
 -------
 
@@ -930,6 +909,8 @@ The use and distribution terms for [Antiqua]() are covered by the [Apache Licens
 [GitHub release page]: https://github.com/QubitPi/Antiqua/releases
 
 [Python Version Badge]: https://img.shields.io/badge/Python-3.10-957FEF?style=for-the-badge&logo=python&logoColor=white&labelColor=7161ef
+[PyPI graph-data-source badge]: https://img.shields.io/pypi/v/graph-data-source?logo=pypi&logoColor=white&style=for-the-badge&labelColor=7B99FA&color=53CDD8&label=PYPI%20graph-data-source
+[PyPI graph-data-source url]: https://pypi.org/project/graph-data-source/
 [PyPI graph-json-generator badge]: https://img.shields.io/pypi/v/graph-json-generator?logo=pypi&logoColor=white&style=for-the-badge&labelColor=7B99FA&color=53CDD8&label=PYPI%20graph-json-generator
 [PyPI graph-json-generator url]: https://pypi.org/project/graph-json-generator/
 [PyPI graph-database-loader badge]: https://img.shields.io/pypi/v/graph-database-loader?logo=pypi&logoColor=white&style=for-the-badge&labelColor=7B99FA&color=53CDD8&label=PYPI%20graph-database-loader
