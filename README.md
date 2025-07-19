@@ -20,9 +20,9 @@ _people___. It achieves this by 2 parts:
 
    - in a unified, human-readable, and machine-readable format:
 
-     - [german.yaml](./german.yaml)
-     - [latin.yaml](./latin.yaml)
-     - [ancient-greek.yaml](./ancient-greek.yaml)
+     - [german.yaml](graph-data-source/german/german.yaml)
+     - [latin.yaml](graph-data-source/latin/latin.yaml)
+     - [ancient-greek.yaml](graph-data-source/ancient-greek/ancient-greek.yaml)
 
    - in knowledge graph representation that is [free to download][GitHub release page]
 
@@ -150,12 +150,16 @@ Development
 
 </details>
 
-Antiqua has 3 subprojects, each of which is _independently_ managed by their own
+Antiqua has 4 subprojects, each of which is _independently_ managed by their own
 [setuptools](https://setuptools.pypa.io/en/latest/):
 
-1. [Graph JSON Data Generator](./graph-json-generator)
-2. [Graph Database Loader](./graph-database-loader)
-3. [Antiqua Acceptance Framework](./acceptance-tests)
+1. [Graph Data Source](./graph-data-source)
+2. [Graph JSON Data Generator](./graph-json-generator)
+3. [Graph Database Loader](./graph-database-loader)
+4. [Antiqua Acceptance Framework](./acceptance-tests)
+
+The logical co-working of these subprojects are depicted below. Please refer to
+[![DeepWiki badge]][DeepWiki URL] for more tech details about these subprojects.
 
 ![](./docs/logical-diagram.png)
 
@@ -180,8 +184,6 @@ Antiqua has 3 subprojects, each of which is _independently_ managed by their own
 >   at the root directory of Antiqua project.
 >
 > - [PEP 8 config](./setup.cfg) using [pycodestyle](https://pycodestyle.pycqa.org/en/latest/intro.html)
->
-> Please refer to [![DeepWiki badge]][DeepWiki URL] for more tech details about these subprojects.
 
 ### Getting Source Codes
 
@@ -255,9 +257,9 @@ The raw data is written in YAML format, because
 
 The YAML data files are
 
-- [german.yaml](./german.yaml)
-- [latin.yaml](./latin.yaml)
-- [ancient-greek.yaml](./ancient-greek.yaml)
+- [german.yaml](graph-data-source/german/german.yaml)
+- [latin.yaml](graph-data-source/latin/latin.yaml)
+- [ancient-greek.yaml](graph-data-source/ancient-greek/ancient-greek.yaml)
 
 ### Encoding Table in YAML
 
@@ -380,7 +382,7 @@ the German noun "[Ecke](https://en.wiktionary.org/wiki/Ecke#Noun)" has at least 
 
 ### Languages
 
-#### [German](./german.yaml)
+#### [German](graph-data-source/german/german.yaml)
 
 ##### Pronoun
 
@@ -521,7 +523,7 @@ For example:
 > Note that the `verbformen` might not exist for some verbs and any of its sub-fields can be non-existing due to the
 > limiting number of verbs on records from [verbformen.com]
 
-#### [Ancient Greek](./ancient-greek.yaml)
+#### [Ancient Greek](graph-data-source/ancient-greek/ancient-greek.yaml)
 
 Unless otherwise mentioned, we are always talking about _Attic_ Greek.
 
@@ -833,7 +835,7 @@ For example:
         - https://koine-greek.fandom.com/wiki/Λέγω
 ```
 
-#### [Latin](./latin.yaml)
+#### [Latin](graph-data-source/latin/latin.yaml)
 
 > [!NOTE]
 > The vocabulary and declensions come from the following sources

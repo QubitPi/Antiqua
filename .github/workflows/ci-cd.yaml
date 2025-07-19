@@ -419,7 +419,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ ubuntu-latest, windows-latest, macos-latest ]
-        subproject: [ graph-json-generator, graph-database-loader ]
+        subproject: [ graph-data-source, graph-json-generator, graph-database-loader ]
     runs-on: ${{ matrix.os }}
     defaults:
       run:
@@ -498,7 +498,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        subproject: [ graph-json-generator, graph-database-loader ]
+        subproject: [ graph-data-source, graph-json-generator, graph-database-loader ]
     defaults:
       run:
         working-directory: ${{ matrix.subproject }}

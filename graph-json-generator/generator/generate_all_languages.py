@@ -20,10 +20,10 @@ from generator import generate
 
 if __name__ == "__main__":
     for yaml_input_file, json_output_file, language in [
-        ("../../latin.yaml", "../latin-graph-data.json", LATIN),
-        ("../../ancient-greek.yaml", "../ancient-greek-graph-data.json", ANCIENT_GREEK)
+        ("../../graph-data-source/latin/latin.yaml", "../latin-graph-data.json", LATIN),
+        ("../../graph-data-source/ancient-greek/ancient-greek.yaml", "../ancient-greek-graph-data.json", ANCIENT_GREEK)
     ]:
         with open(json_output_file, "w", encoding="utf-8") as json_file:
             json.dump(generate(yaml_input_file, language), json_file, ensure_ascii=False, indent=4)
 
-    generate_german.generate("../../german.yaml", "../german-graph-data.json")
+    generate_german.generate("../../graph-data-source/german/german.yaml", "../german-graph-data.json")
