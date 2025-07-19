@@ -115,6 +115,10 @@ jobs:
             load-script: load_latin.py
           },
           {
+            name: Italian,
+            load-script: load_italian.py
+          },
+          {
             name: all languages (race condition test ①),
             load-script: load_all_in_parallel.py
           },
@@ -453,8 +457,8 @@ jobs:
           git config --global user.email jack20220723@gmail.com
           .github/version-bump/tag-for-release.bash
 
-  release-data:
-    name: Release Graph JSON Data Onto GitHub
+  github-release:
+    name: Release Graph JSON Data and Anki Decks Onto GitHub
     if: github.ref == 'refs/heads/master'
     needs: push-release-tag
     runs-on: ubuntu-latest
@@ -484,12 +488,17 @@ jobs:
           LATEST_TAG=$(git describe --tags | cut -d- -f1)
           echo The latest tag is "$LATEST_TAG"
           echo tagname="$LATEST_TAG" >> "$GITHUB_OUTPUT"
+      - name: Materialize RELEASE.md links
+        run: |
+          LATEST_TAG=$(git describe --tags | cut -d- -f1)
+          sed -i s/release-tag/"$LATEST_TAG"/g .github/RELEASE.md
       - uses: ncipollo/release-action@bcfe5470707e8832e12347755757cec0eb3c22af # v1.18.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.compute-tag.outputs.tagname }}
           commit: master
-          artifacts: 'Homer_Iliad.apkg,./graph-json-generator/latin-graph-data.json,./graph-json-generator/ancient-greek-graph-data.json,./graph-json-generator/german-graph-data.json'
+          bodyFile: .github/RELEASE.md
+          artifacts: 'Homer_Iliad.apkg,./graph-json-generator/latin-graph-data.json,./graph-json-generator/italian-graph-data.json,./graph-json-generator/ancient-greek-graph-data.json,./graph-json-generator/german-graph-data.json'
 
   release:
     name: Publish ${{ matrix.subproject }} To PyPI
@@ -578,6 +587,10 @@ jobs:
           {
             name: Latin,
             load-script: load_latin.py
+          },
+          {
+            name: Italian,
+            load-script: load_italian.py
           }
         ]
     steps:
