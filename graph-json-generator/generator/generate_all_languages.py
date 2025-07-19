@@ -23,8 +23,7 @@ if __name__ == "__main__":
         ("../../latin.yaml", "../latin-graph-data.json", LATIN),
         ("../../ancient-greek.yaml", "../ancient-greek-graph-data.json", ANCIENT_GREEK)
     ]:
-        with open(json_output_file, "w") as json_file:
-            json_file.write(json.dumps(generate(yaml_input_file, language)))
-            json_file.write("\n")
+        with open(json_output_file, "w", encoding="utf-8") as json_file:
+            json.dump(generate(yaml_input_file, language), json_file, ensure_ascii=False, indent=4)
 
     generate_german.generate("../../german.yaml", "../german-graph-data.json")

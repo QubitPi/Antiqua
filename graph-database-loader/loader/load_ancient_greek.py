@@ -16,7 +16,7 @@ from loader import load_into_neo4j
 
 
 def load_into_database():
-    load_into_neo4j("AncientGreek")
+    load_into_neo4j("../../graph-json-generator/ancient-greek-graph-data.json", "Ancient Greek")
 
 
 if __name__ == "__main__":
