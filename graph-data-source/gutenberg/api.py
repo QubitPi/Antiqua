@@ -1,4 +1,46 @@
+import random
+
+import genanki
 import requests
+from arango import ArangoClient
+
+client = ArangoClient(hosts='http://localhost:8529')
+db = client.db("wiktionary", username='root', password='no-password')
+collection = db.collection('German')
+
+model = genanki.Model(
+    random.randrange(1 << 30, 1 << 31),
+    'German Vocabulary',
+    fields=[
+        {'name': 'German'},
+        {'name': 'Translation'},
+        {'name': 'Rank'},
+        {'name': 'Count'}
+    ],
+    templates=[
+        {
+            'name': 'German to English',
+            'qfmt': '<div style="font-size: 32px;">{{German}}</div>',
+            'afmt': '''{{FrontSide}}<hr id="answer">
+<div style="font-size: 24px; margin: 20px 0;">{{Translation}}</div>
+<div style="font-size: 14px; color: #666; margin-top: 20px;">
+Rank: {{Rank}} | Occurrences: {{Count}}
+</div>''',
+        }
+    ],
+    css='''
+            .card {
+                font-family: 'Poppins', Arial, sans-serif;
+                font-size: 20px;
+                text-align: center;
+                color: black;
+                background-color: white;
+                padding: 20px;
+            }
+            '''
+)
+
+deck = genanki.Deck(random.randrange(1 << 30, 1 << 31), "Kritik der reinen Vernunft")
 
 
 def get_book_txt_by_url(url: str):
@@ -11,5 +53,43 @@ def get_book_txt_by_url(url: str):
         print(f"Error retrieving the file: {e}")
 
 
+def extract_vocabularies(text: str):
+    from collections import Counter
+
+    import spacy
+
+    nlp = spacy.load("de_core_news_sm")
+
+    nlp.max_length = len(text) + 1000
+
+    doc = nlp(text)
+
+    vocabulary = [
+        token.lemma_.lower() for token in doc if token.is_alpha and not token.is_stop
+    ]
+
+    word_counts = Counter(vocabulary)
+    ranking = {pair[0]: rank for rank, pair in enumerate(word_counts.most_common())}
+
+    for word, count in word_counts.most_common():
+        result = collection.find({"term": word})
+        for doc in result:
+            print(", ".join(doc["definitions"]))
+            deck.add_note(
+                genanki.Note(
+                    model=model,
+                    fields=[
+
+                        word,
+                        ", ".join(doc["definitions"]),
+                        str(ranking[word]),
+                        str(count)
+                    ]
+                )
+            )
+
+    genanki.Package(deck).write_to_file("Kant-Critique-of-Pure-Reason.apkg")
+
+
 if __name__ == "__main__":
-    print(get_book_txt_by_url("https://www.gutenberg.org/files/6342/6342-8.txt"))
+    extract_vocabularies(get_book_txt_by_url("https://www.gutenberg.org/files/6342/6342-8.txt"))
