@@ -11,8 +11,7 @@ For example, to import an `.apkg` file into AnkiDroid (Anki on Android), __open 
 
 ### German
 
-- Kant's [Critique of Pure Reason](https://www.gutenberg.org/ebooks/6342):
-  [Kant-Critique-of-Pure-Reason.apkg](https://github.com/QubitPi/Antiqua/releases/download/release-tag/Kant-Critique-of-Pure-Reason.apkg)
+- Kant's [Critique of Pure Reason](https://www.gutenberg.org/ebooks/6342): [Kant-Critique-of-Pure-Reason.apkg](https://github.com/QubitPi/Antiqua/releases/download/release-tag/Kant-Critique-of-Pure-Reason.apkg)
 
 Knowledge Graph Data Files
 --------------------------
