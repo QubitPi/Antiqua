@@ -69,10 +69,10 @@ def extract_vocabularies(text: str):
 
     vocabulary = get_unique_terms(text)
 
-    word_counts = Counter(vocabulary)
-    ranking = {pair[0]: rank for rank, pair in enumerate(word_counts.most_common())}
+    counting_map = Counter(vocabulary)
+    ranking_map = {pair[0]: rank for rank, pair in enumerate(counting_map.most_common())}
 
-    for word, count in word_counts.most_common():
+    for word in vocabulary:
         result = collection.find({"term": word})
         if result is None or len(result) <= 0:
             print("{} has no matching defs".format(word))
@@ -82,9 +82,9 @@ def extract_vocabularies(text: str):
                     model=model,
                     fields=[
                         word,
-                        ", ".join(doc["definitions"]),
-                        str(ranking[word]),
-                        str(count)
+                        ", ".join(set(doc["definitions"])),
+                        str(ranking_map[word]),
+                        str(counting_map[word])
                     ]
                 )
             )
