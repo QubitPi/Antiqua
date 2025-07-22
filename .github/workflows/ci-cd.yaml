@@ -181,12 +181,7 @@ jobs:
               --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes \
               neo4j:${{ env.NEO4J_ENTERPRISE_VERSION }} &
       - name: Generate Graph Data
-        run: |
-          cd ../graph-json-generator
-          pip3 install -r requirements.txt
-          pip3 install -e .
-          cd generator
-          python3 ./generate_all_languages.py
+        uses: ./.github/actions/generate-json
       - name: Wait for database to be ready
         uses: iFaxity/wait-on-action@a7d13170ec542bdca4ef8ac4b15e9c6aa00a6866 # v1.2.1
         with:
@@ -230,12 +225,7 @@ jobs:
               --name data-loader \
               neo4j:${{ env.NEO4J_ENTERPRISE_VERSION }} &
       - name: Generate Graph Data
-        run: |
-          cd ../graph-json-generator
-          pip3 install -r requirements.txt
-          pip3 install -e .
-          cd generator
-          python3 ./generate_all_languages.py
+        uses: ./.github/actions/generate-json
       - name: Wait for database to be ready
         uses: iFaxity/wait-on-action@a7d13170ec542bdca4ef8ac4b15e9c6aa00a6866 # v1.2.1
         with:
@@ -277,12 +267,7 @@ jobs:
         working-directory: graph-json-generator
         run: pip3 install -e .
       - name: Generate Graph Data
-        run: |
-          cd graph-json-generator
-          pip3 install -r requirements.txt
-          pip3 install -e .
-          cd generator
-          python3 ./generate_all_languages.py
+        uses: ./.github/actions/generate-json
       - name: Transform graph data to Hugging Face Datasets format
         working-directory: huggingface
         run: python3 generate_datasets.py
@@ -332,12 +317,7 @@ jobs:
               --name data-loader \
               neo4j:${{ env.NEO4J_ENTERPRISE_VERSION }} &
       - name: Generate Graph Data
-        run: |
-          cd graph-json-generator
-          pip3 install -r requirements.txt
-          pip3 install -e .
-          cd generator
-          python3 ./generate_all_languages.py
+        uses: ./.github/actions/generate-json
       - name: Wait for database to be ready
         uses: iFaxity/wait-on-action@a7d13170ec542bdca4ef8ac4b15e9c6aa00a6866 # v1.2.1
         with:
@@ -471,12 +451,7 @@ jobs:
           fetch-depth: 0
           persist-credentials: true
       - name: Generate Graph Data
-        run: |
-          cd graph-json-generator
-          pip3 install -r requirements.txt
-          pip3 install -e .
-          cd generator
-          python3 ./generate_all_languages.py
+        uses: ./.github/actions/generate-json
       - name: Generate Anki decks
         run: |
           pip3 install lexitheras
@@ -615,12 +590,7 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Generate Graph Data
-        run: |
-          cd ../graph-json-generator
-          pip3 install -r requirements.txt
-          pip3 install -e .
-          cd generator
-          python3 ./generate_all_languages.py
+        uses: ./.github/actions/generate-json
       - name: Load ${{ matrix.language.name }}
         run: |
           pip3 install -r requirements.txt
