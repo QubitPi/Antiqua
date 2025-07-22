@@ -53,33 +53,34 @@ def get_book_txt_by_url(url: str):
         print(f"Error retrieving the file: {e}")
 
 
-def extract_vocabularies(text: str):
-    from collections import Counter
-
+def get_unique_terms(text: str) -> list:
     import spacy
-
     nlp = spacy.load("de_core_news_sm")
-
     nlp.max_length = len(text) + 1000
-
     doc = nlp(text)
-
     vocabulary = [
         token.lemma_.lower() for token in doc if token.is_alpha and not token.is_stop
     ]
+    return list(set(vocabulary))
+
+
+def extract_vocabularies(text: str):
+    from collections import Counter
+
+    vocabulary = get_unique_terms(text)
 
     word_counts = Counter(vocabulary)
     ranking = {pair[0]: rank for rank, pair in enumerate(word_counts.most_common())}
 
     for word, count in word_counts.most_common():
         result = collection.find({"term": word})
+        if result is None or len(result) <= 0:
+            print("{} has no matching defs".format(word))
         for doc in result:
-            print(", ".join(doc["definitions"]))
             deck.add_note(
                 genanki.Note(
                     model=model,
                     fields=[
-
                         word,
                         ", ".join(doc["definitions"]),
                         str(ranking[word]),
