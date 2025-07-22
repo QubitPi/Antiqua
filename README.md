@@ -10,7 +10,7 @@
 [![PyPI][PyPI graph-database-loader badge]][PyPI graph-database-loader url]
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Hugging Face sync status badge]][Hugging Face sync status URL]
-![Python Version][Python Version Badge]
+[![Python Version][Python Version Badge]][Python URL]
 [![Apache License Badge]][Apache License, Version 2.0]
 
 Believing in language is the greatest invention in human history, __Antiqua__ is an effort of natural language
@@ -29,7 +29,8 @@ _people___. It achieves this by 2 parts:
 
 2. __Data ➡ Value__: exposing the data for language learners in various forms and platforms, including
 
-   - _[Anki Flashcards][GitHub release page]_, useful for __language learners__ using popular platform [Anki](https://apps.ankiweb.net/)
+   - _[Anki Flashcards][GitHub release page]_, useful for __language learners__ using popular platform [Anki](https://apps.ankiweb.net/), a
+     popular spaced-repetition flashcard program
 
      - Special case: The Ancient Greek Anki cards are handled by [lexitheras](https://github.com/QubitPi/lexitheras)
 
@@ -907,13 +908,14 @@ The use and distribution terms for [Antiqua]() are covered by the [Apache Licens
 [GitHub release badge]: https://img.shields.io/github/v/release/QubitPi/Antiqua?style=for-the-badge&logo=github&labelColor=0779E4&color=4CBBB9
 [GitHub release page]: https://github.com/QubitPi/Antiqua/releases
 
-[Python Version Badge]: https://img.shields.io/badge/Python-3.10-957FEF?style=for-the-badge&logo=python&logoColor=white&labelColor=7161ef
 [PyPI graph-data-source badge]: https://img.shields.io/pypi/v/graph-data-source?logo=pypi&logoColor=white&style=for-the-badge&labelColor=7B99FA&color=53CDD8&label=PYPI%20graph-data-source
 [PyPI graph-data-source url]: https://pypi.org/project/graph-data-source/
 [PyPI graph-json-generator badge]: https://img.shields.io/pypi/v/graph-json-generator?logo=pypi&logoColor=white&style=for-the-badge&labelColor=7B99FA&color=53CDD8&label=PYPI%20graph-json-generator
 [PyPI graph-json-generator url]: https://pypi.org/project/graph-json-generator/
 [PyPI graph-database-loader badge]: https://img.shields.io/pypi/v/graph-database-loader?logo=pypi&logoColor=white&style=for-the-badge&labelColor=7B99FA&color=53CDD8&label=PYPI%20graph-database-loader
 [PyPI graph-database-loader url]: https://pypi.org/project/graph-database-loader/
+[Python Version Badge]: https://img.shields.io/badge/Python-3.10-957FEF?style=for-the-badge&logo=python&logoColor=white&labelColor=7161ef
+[Python URL]: https://python.qubitpi.org/
 
 [verbformen.com]: https://www.verbformen.com/
 

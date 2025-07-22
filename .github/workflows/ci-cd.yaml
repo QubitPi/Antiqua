@@ -29,7 +29,7 @@ concurrency:
 
 env:
   PYTHON_VERSION: "3.10"
-  NEO4J_ENTERPRISE_VERSION: 5.24-enterprise
+  NEO4J_ENTERPRISE_VERSION: 5.24-enterprise # ⚠️ Make sure Antiqua/Dockerfile base image version is in sync with this value
   NEO4J_URI: neo4j://localhost:7687
   NEO4J_DATABASE: neo4j
   NEO4J_USERNAME: not used
@@ -481,6 +481,18 @@ jobs:
         run: |
           pip3 install lexitheras
           printf "1\n" | lexitheras Iliad
+
+          docker run -d -p 8529:8529 -e ARANGO_NO_AUTH=1 jack20191124/wiktionary-data &
+          # shellcheck disable=SC2034,SC2015
+          for i in {1..60}; do
+            curl -vL http://localhost:8529 && break || sleep 1
+          done
+
+          cd graph-data-source
+          pip3 install -r requirements.txt
+          pip3 install -e .
+          cd gutenberg
+          python3 api.py
       - name: Compute tag name
         id: compute-tag
         run: |
@@ -498,7 +510,7 @@ jobs:
           tag: ${{ steps.compute-tag.outputs.tagname }}
           commit: master
           bodyFile: .github/RELEASE.md
-          artifacts: 'Homer_Iliad.apkg,./graph-json-generator/latin-graph-data.json,./graph-json-generator/italian-graph-data.json,./graph-json-generator/ancient-greek-graph-data.json,./graph-json-generator/german-graph-data.json'
+          artifacts: 'Homer_Iliad.apkg,./graph-data-source/gutenberg/Kant-Critique-of-Pure-Reason.apkg,./graph-json-generator/latin-graph-data.json,./graph-json-generator/italian-graph-data.json,./graph-json-generator/ancient-greek-graph-data.json,./graph-json-generator/german-graph-data.json'
 
   release:
     name: Publish ${{ matrix.subproject }} To PyPI
