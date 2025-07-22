@@ -396,6 +396,20 @@ jobs:
           user_email: jack20220723@gmail.com
           cname: antiqua.qubitpi.org
 
+  generate-anki:
+    name: Test Anki Decks Generation
+    needs: acceptance-tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Generate Graph Data
+        uses: ./.github/actions/generate-json
+      - name: Generate Anki decks
+        run: .github/anki/generate-anki-decks.sh
+
   package:
     name: Test Package Build
     needs: acceptance-tests
@@ -437,10 +451,9 @@ jobs:
           git config --global user.email jack20220723@gmail.com
           .github/version-bump/tag-for-release.bash
 
-  github-release:
+  release-github:
     name: Release Graph JSON Data and Anki Decks Onto GitHub
-    if: github.ref == 'refs/heads/master'
-    needs: push-release-tag
+    needs: [push-release-tag, generate-anki]
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -453,22 +466,9 @@ jobs:
       - name: Generate Graph Data
         uses: ./.github/actions/generate-json
       - name: Generate Anki decks
-        run: |
-          pip3 install lexitheras
-          printf "1\n" | lexitheras Iliad
-
-          docker run -d -p 8529:8529 -e ARANGO_NO_AUTH=1 jack20191124/wiktionary-data &
-          # shellcheck disable=SC2034,SC2015
-          for i in {1..60}; do
-            curl -vL http://localhost:8529 && break || sleep 1
-          done
-
-          cd graph-data-source
-          pip3 install -r requirements.txt
-          pip3 install -e .
-          cd gutenberg
-          python3 api.py
+        run: .github/anki/generate-anki-decks.sh
       - name: Compute tag name
+        if: github.ref == 'refs/heads/master'
         id: compute-tag
         run: |
           echo Fetching latest tag
@@ -476,18 +476,20 @@ jobs:
           echo The latest tag is "$LATEST_TAG"
           echo tagname="$LATEST_TAG" >> "$GITHUB_OUTPUT"
       - name: Materialize RELEASE.md links
+        if: github.ref == 'refs/heads/master'
         run: |
           LATEST_TAG=$(git describe --tags | cut -d- -f1)
           sed -i s/release-tag/"$LATEST_TAG"/g .github/RELEASE.md
       - uses: ncipollo/release-action@bcfe5470707e8832e12347755757cec0eb3c22af # v1.18.0
+        if: github.ref == 'refs/heads/master'
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.compute-tag.outputs.tagname }}
           commit: master
           bodyFile: .github/RELEASE.md
-          artifacts: 'Homer_Iliad.apkg,./graph-data-source/gutenberg/Kant-Critique-of-Pure-Reason.apkg,./graph-json-generator/latin-graph-data.json,./graph-json-generator/italian-graph-data.json,./graph-json-generator/ancient-greek-graph-data.json,./graph-json-generator/german-graph-data.json'
+          artifacts: 'anki-decks/*.apkg,./graph-json-generator/*-graph-data.json'
 
-  release:
+  release-pypi:
     name: Publish ${{ matrix.subproject }} To PyPI
     if: github.ref == 'refs/heads/master'
     needs: [push-release-tag, package]

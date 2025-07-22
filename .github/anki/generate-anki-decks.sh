@@ -1,3 +1,7 @@
+#!/bin/bash
+set -x
+set -e
+
 # Copyright 2025 Jiaqi Liu. All rights reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,18 +16,22 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-name: Generate Graph Data
-description: 'Parses all YAML files and generate knowledge graph representations in JSON'
-runs:
-  using: composite
-  steps:
-    - name: Install dependencies and generating module
-      run: |
-        pip3 install -r requirements.txt
-        pip3 install -e .
-      shell: bash
-      working-directory: ${{ github.workspace }}/graph-json-generator
-    - name: Generate Graph data
-      run: python3 ./generate_all_languages.py
-      shell: bash
-      working-directory: ${{ github.workspace }}/graph-json-generator/generator
+mkdir anki-decks
+cd anki-decks
+
+pip3 install lexitheras
+printf "1\n" | lexitheras Iliad
+
+docker run -d -p 8529:8529 -e ARANGO_NO_AUTH=1 jack20191124/wiktionary-data &
+# shellcheck disable=SC2034,SC2015
+for i in {1..60}; do
+  curl -vL http://localhost:8529 && break || sleep 1
+done
+
+cd ../graph-data-source
+pip3 install -r requirements.txt
+pip3 install -e .
+cd gutenberg
+python3 api.py
+
+mv *.apkg ../anki-decks
