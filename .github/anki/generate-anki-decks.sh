@@ -34,4 +34,4 @@ pip3 install -e .
 cd gutenberg
 python3 api.py
 
-mv *.apkg ../anki-decks
+mv *.apkg ../../anki-decks/
