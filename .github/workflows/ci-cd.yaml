@@ -341,6 +341,7 @@ jobs:
         with:
           context: .
           push: false
+          no-cache: true
       - name: Login to DockerHub
         if: github.ref == 'refs/heads/master'
         uses: docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772 # v3.4.0
@@ -353,6 +354,7 @@ jobs:
         with:
           context: .
           push: true
+          no-cache: true
           tags: jack20191124/antiqua:latest
       - name: Push image Description
         if: github.ref == 'refs/heads/master'
