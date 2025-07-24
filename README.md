@@ -10,7 +10,6 @@
 [![PyPI][PyPI graph-database-loader badge]][PyPI graph-database-loader url]
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Hugging Face sync status badge]][Hugging Face sync status URL]
-[![Python Version][Python Version Badge]][Python URL]
 [![Apache License Badge]][Apache License, Version 2.0]
 
 Believing in language is the greatest invention in human history, __Antiqua__ is an effort of natural language
@@ -114,6 +113,9 @@ _people___. It achieves this by 2 parts:
 Development
 -----------
 
+[![Python Version][Python Version Badge]][Python URL]
+[![DeepWiki badge]][DeepWiki URL]
+
 <details><summary><img src="https://github.com/QubitPi/QubitPi/blob/master/img/Emilie-taking-notes.png?raw=true" width="70px"/>Table of Contents</summary>
 
 <!-- TOC -->
@@ -158,9 +160,6 @@ Antiqua has 4 subprojects, each of which is _independently_ managed by their own
 2. [Graph JSON Data Generator](./graph-json-generator)
 3. [Graph Database Loader](./graph-database-loader)
 4. [Antiqua Acceptance Framework](./acceptance-tests)
-
-The logical co-working of these subprojects are depicted below. Please refer to
-[![DeepWiki badge]][DeepWiki URL] for more tech details about these subprojects.
 
 ![](./docs/logical-diagram.png)
 
