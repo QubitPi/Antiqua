@@ -12,8 +12,29 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import os
+import sys
 
-split_tag = (os.environ['LAST_TAG'].split('-')[0]).split(".")
-split_tag[-1] = str(int(split_tag[-1]) + 1)
-print(".".join(split_tag))
+last_tag = ""
+try:
+    if len(sys.argv) < 2:
+        print("Usage: python upversion.py <tag>", file=sys.stderr)
+        sys.exit(1)
+
+    last_tag = sys.argv[1]
+
+    # Handle git-describe output like 'v0.1.0-1-g1234567' by taking the tag part
+    base_tag = last_tag.split('-')[0]
+
+    # Handle 'v' prefix if it exists
+    prefix = 'v' if base_tag.startswith('v') else ''
+    version_part = base_tag.lstrip('v')
+
+    parts = version_part.split('.')
+    parts[-1] = str(int(parts[-1]) + 1)
+
+    new_version = ".".join(parts)
+    print(f"{prefix}{new_version}")
+
+except (ValueError, IndexError):
+    print(f"Error: Could not parse version from tag '{last_tag}'", file=sys.stderr)
+    sys.exit(1)

@@ -14,20 +14,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+set -euo pipefail
+
 # Pick up the tags from the adjusted remote
 git fetch --tags
-
-echo $(git branch -v)
 
 # Get the last tag on this branch
 LAST_TAG=$(git describe --tags)
 echo "INFO Last tag: $LAST_TAG"
 
 # Build the new tag to push
-NEW_TAG=$(LAST_TAG=${LAST_TAG} python .github/version-bump/upversion.py)
+NEW_TAG=$(python .github/version-bump/upversion.py "$LAST_TAG")
 echo "INFO Creating tag: $NEW_TAG"
-git tag $NEW_TAG -a -m "$(git log -1 --pretty=%B)"
+git tag "$NEW_TAG" -a -m "$(git log -1 --pretty=%B)"
 
 # Push the new tag
 echo "INFO Pushing tag: $NEW_TAG"
-git push origin $NEW_TAG
+git push origin "$NEW_TAG"
