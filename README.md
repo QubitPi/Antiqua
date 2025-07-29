@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./docs/banner.png" alt="elasti icon">
+    <img src="./docs/banner.png" alt="banner">
 </p>
 
 [![Hugging Face dataset badge]][Hugging Face dataset URL]
@@ -11,6 +11,9 @@
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Hugging Face sync status badge]][Hugging Face sync status URL]
 [![Apache License Badge]][Apache License, Version 2.0]
+
+<img src="./docs/antiqua-loves-ai.png" height="70px" alt="AI power" style="margin: 1%;"> [![Gemini Code Assist Badge]][Gemini Code Assist URL]
+[![DeepWiki badge]][DeepWiki URL]
 
 Believing in language is the greatest invention in human history, __Antiqua__ is an effort of natural language
 vocabulary datafication with the goal of __unleashing the power of languages beyond their semantic values for
@@ -114,6 +117,7 @@ Development
 -----------
 
 [![Python Version][Python Version Badge]][Python URL]
+[![Gemini Code Assist Badge]][Gemini Code Assist URL]
 [![DeepWiki badge]][DeepWiki URL]
 
 <details><summary><img src="https://github.com/QubitPi/QubitPi/blob/master/img/Emilie-taking-notes.png?raw=true" width="70px"/>Table of Contents</summary>
@@ -892,7 +896,7 @@ The use and distribution terms for [Antiqua]() are covered by the [Apache Licens
 [Apache License Badge]: https://img.shields.io/github/license/QubitPi/Antiqua?style=for-the-badge&logo=Apache&logoColor=white&labelColor=FF7777&color=00B8A9
 [Apache License, Version 2.0]: https://www.apache.org/licenses/LICENSE-2.0
 
-[DeepWiki badge]: https://img.shields.io/badge/DeepWiki-QubitPi%2FAntiqua-2F2F2F.svg?style=for-the-badge&labelColor=FE6F26&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==
+[DeepWiki badge]: https://img.shields.io/badge/DeepWiki-QubitPi%2FAntiqua-00AF91.svg?style=for-the-badge&labelColor=F58634&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==
 [DeepWiki URL]: https://deepwiki.com/QubitPi/Antiqua
 [Docker Pulls Badge]: https://img.shields.io/docker/pulls/jack20191124/antiqua?style=for-the-badge&logo=docker&logoColor=white&labelColor=5BBCFF&color=7EA1FF
 [Docker Hub URL]: https://hub.docker.com/r/jack20191124/antiqua
@@ -902,6 +906,8 @@ The use and distribution terms for [Antiqua]() are covered by the [Apache Licens
 [Hugging Face sync status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=HF%20Sync%20Up&labelColor=2088FF&color=00BD56
 [Hugging Face sync status URL]: https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml
 
+[Gemini Code Assist Badge]: https://img.shields.io/badge/AI%20Review-Gemini%20Code%20Assist-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white&labelColor=34A853&color=4285F4
+[Gemini Code Assist URL]: https://codeassist.google/
 [GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/Antiqua/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=CI/CD&labelColor=2088FF&color=00BD56
 [GitHub workflow status URL]: https://github.com/QubitPi/Antiqua/actions/workflows/ci-cd.yaml
 [GitHub release badge]: https://img.shields.io/github/v/release/QubitPi/Antiqua?style=for-the-badge&logo=github&labelColor=0779E4&color=4CBBB9
