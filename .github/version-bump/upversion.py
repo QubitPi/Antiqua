@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import argparse
 import sys
 
 last_tag = ""
@@ -20,7 +21,10 @@ try:
         print("Usage: python upversion.py <tag>", file=sys.stderr)
         sys.exit(1)
 
-    last_tag = sys.argv[1]
+    parser = argparse.ArgumentParser(description='Increment the last part of a version tag.')
+    parser.add_argument('tag', help='The version tag to increment.')
+    args = parser.parse_args()
+    last_tag = args.tag
 
     # Handle git-describe output like 'v0.1.0-1-g1234567' by taking the tag part
     base_tag = last_tag.split('-')[0]
@@ -35,6 +39,6 @@ try:
     new_version = ".".join(parts)
     print(f"{prefix}{new_version}")
 
-except (ValueError, IndexError):
-    print(f"Error: Could not parse version from tag '{last_tag}'", file=sys.stderr)
+except (ValueError, IndexError) as e:
+    print(f"Error: Could not parse version from tag '{last_tag}': {type(e).__name__} - {e}", file=sys.stderr)
     sys.exit(1)
