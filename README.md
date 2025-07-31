@@ -12,7 +12,7 @@
 [![Hugging Face sync status badge]][Hugging Face sync status URL]
 [![Apache License Badge]][Apache License, Version 2.0]
 
-<img src="./docs/antiqua-loves-ai.png" height="70px" alt="AI power" style="margin: 1%;"> [![Gemini Code Assist Badge]][Gemini Code Assist URL]
+<img src="https://raw.githubusercontent.com/QubitPi/Antiqua/master/docs/antiqua-loves-ai.png" height="70" alt="Antiqua loves AI" style="margin: 1%;"> [![Gemini Code Assist Badge]][Gemini Code Assist URL]
 [![DeepWiki badge]][DeepWiki URL]
 
 Believing in language is the greatest invention in human history, __Antiqua__ is an effort of natural language
