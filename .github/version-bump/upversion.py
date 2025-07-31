@@ -37,10 +37,12 @@ def main():
         new_version = ".".join(parts)
         print(f"{prefix}{new_version}")
 
-    except (ValueError, IndexError) as e:
+    except ValueError as e:
         print(f"Error: Could not parse version from tag '{last_tag}': {type(e).__name__} - {e}", file=sys.stderr)
-        sys.exit(1)
+        return 1
+
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
